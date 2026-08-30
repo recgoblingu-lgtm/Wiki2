@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Article</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="index.html">Main Page</a>
+  </div>
+
+  <div class="content">
+    <h1 id="title"></h1>
+    <p id="content">Loading...</p>
+  </div>
+</div>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const title = params.get("title");
+
+document.getElementById("title").innerText = title;
+
+fetch("/api/article/" + title)
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById("content").innerText = data.content || "Not found.";
+  });
+</script>
+
+</body>
+</html>
