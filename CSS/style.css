@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background: #f6f6f6;
+  font-family: "Times New Roman", serif;
+  color: #000;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background: #eeeeee;
+  padding: 10px;
+  border-right: 1px solid #aaa;
+}
+
+.sidebar h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  display: block;
+  color: #0645ad;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 20px;
+  max-width: 800px;
+}
+
+h1 {
+  border-bottom: 1px solid #aaa;
+  font-weight: normal;
+}
+
+input {
+  border: 1px solid #aaa;
+  padding: 5px;
+  font-family: inherit;
+}
+
+button {
+  border: 1px solid #aaa;
+  background: #ddd;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ccc;
+}
