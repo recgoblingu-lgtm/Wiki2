@@ -27,6 +27,20 @@ USER_AGENT = "Wiki2-Automated-Encyclopedia/1.0 (https://github.com/recgoblingu-l
 API = "https://en.wikipedia.org/w/api.php"
 REST = "https://en.wikipedia.org/api/rest_v1/page/summary/"
 
+REVIVAL_SOURCE = "https://recroom-standalone.neocities.org/"
+REVIVAL_TOPICS: list[str] = [
+    "Radium", "Vanilla", "RecLora", "LunarNet", "NexaNet", "Nexiom", "N3XI0M",
+    "MeowNet", "Emerald", "Krypton", "PrismNet", "Deluxe Rec", "BlueRoom", "RicoRec",
+    "RecPlace", "RecUni", "Vortex Rec", "Stella", "Requiem", "RugRoom", "Crimson",
+    "RestoRoom", "TavernTale", "AndGravity", "Yanvar", "Kekora", "Plutonium", "RecSample",
+    "Act2.games", "DocNet", "10 Whole Years", "RebornRec",
+]
+
+REVIVAL_DESCRIPTIONS: dict[str, str] = {
+    "RebornRec": "RebornRec is a publicly documented, locally hosted server project for preserving older Rec Room builds from approximately 2016 through 2020. Its public repository describes server emulation features and notes that it is an independent project rather than an official Rec Room product.",
+    "Act2.games": "Act2.games is listed by a public Rec Room build directory as a web-based project for playing older Rec Room maps, games, CV2 content, and avatars. It is presented as a community preservation utility and is not affiliated with Rec Room.",
+}
+
 CATEGORY_SOURCES: list[tuple[str, str]] = [
     ("Game franchises", "Category:Video game franchises"),
     ("Indie games", "Category:Indie games"),
@@ -109,9 +123,32 @@ def acceptable_title(title: str) -> bool:
     return ":" not in title and not title.casefold().startswith(("list of ", "outline of ")) and not re.fullmatch(r"[0-9 -]+", title)
 
 
+def revival_summary(title: str) -> dict[str, Any]:
+    description = REVIVAL_DESCRIPTIONS.get(
+        title,
+        f"{title} is a community-listed Rec Room revival or preservation project. Public revival directories organize projects like this by the era of Rec Room builds they seek to preserve. Availability, features, and maintenance status may change over time, and the project should not be confused with an official Rec Room product.",
+    )
+    return {
+        "title": title,
+        "extract": description,
+        "type": "standard",
+        "content_urls": {"desktop": {"page": REVIVAL_SOURCE}},
+    }
+
+
 def choose_topic(ledger: dict[str, Any]) -> tuple[str, str, dict[str, Any]] | None:
     used_titles = {str(item.get("title", "")).casefold() for item in ledger["articles"]}
     used_files = {str(item.get("filename", "")) for item in ledger["articles"]}
+
+    # Prioritize the researched Rec Room revival catalog so each community
+    # project receives its own clearly labeled Wiki2 page.
+    for requested in REVIVAL_TOPICS:
+        if requested.casefold() in used_titles:
+            continue
+        filename = slugify(requested) + ".html"
+        if filename in used_files or (ARTICLES / filename).exists():
+            continue
+        return "Rec Room revivals", requested, revival_summary(requested)
 
     # Use a short curated starter sample, then rotate through the requested
     # Wikimedia categories. The full curated list remains available as a
