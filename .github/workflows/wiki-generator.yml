@@ -1,136 +1,64 @@
 name: Grow Wiki2
 
-
-
 on:
-
   workflow_dispatch:
-  
   schedule:
-  
-    # GitHub-hosted recurring execution; each run attempts a 100-article batch.
-    
     - cron: "*/5 * * * *"
-    
-
 
 permissions:
-
   contents: write
-  
-
 
 concurrency:
-
   group: wiki-generator
-  
   cancel-in-progress: false
-  
-
 
 jobs:
-
   generate:
-  
     runs-on: ubuntu-latest
-    
     timeout-minutes: 45
-    
     steps:
-    
       - name: Check out Wiki2
-      
         uses: actions/checkout@v4
-        
         with:
-        
           fetch-depth: 0
-          
-
 
       - name: Set up Python
-      
         uses: actions/setup-python@v5
-        
         with:
-        
           python-version: "3.x"
-          
-
 
       - name: Install dependencies
-      
         run: python -m pip install --disable-pip-version-check requests beautifulsoup4
-        
-
 
       - name: Backfill social preview metadata
-      
         run: python add_social_meta.py
-        
-
 
       - name: Generate up to 100 unique articles
-      
         run: python generator.py --batch 100
-        
-
 
       - name: Commit and push the new article
-      
         run: |
-        
           git config user.name "wiki2-automation[bot]"
-          
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
           git add articles/ .wiki-generated.json index.html
-          
           if git diff --cached --quiet; then
-          
             echo "No new article was created; nothing to commit."
-            
             exit 0
-            
           fi
-          
           git commit -m "Grow Wiki2 with a batch of encyclopedia articles"
-          
           git push
-          
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      - name: Notify Discord
+        if: success()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          ARTICLE=$(git diff-tree --no-commit-id --name-only -r HEAD -- articles/ | head -n 1)
+          if [ -z "$ARTICLE" ]; then
+            echo "No article file found in the latest commit; skipping Discord notification."
+            exit 0
+          fi
+          TITLE=$(basename "$ARTICLE" .html | tr '_' ' ')
+          URL="https://recgoblingu-lgtm.github.io/Wiki2/$ARTICLE"
+          PAYLOAD=$(jq -n --arg title "$TITLE" --arg url "$URL" '{embeds: [{title: ("New Wiki2 article: " + $title), url: $url, description: "A new old-school encyclopedia article has been published.", color: 3447003, footer: {text: "Wiki2 automated encyclopedia"}}]}')
+          curl --fail-with-body --silent --show-error -X POST             -H "Content-Type: application/json"             --data "$PAYLOAD"             "$DISCORD_WEBHOOK_URL"
