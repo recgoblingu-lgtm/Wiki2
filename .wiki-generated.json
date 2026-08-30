@@ -37,6 +37,215 @@
       "category": "Games",
       "source": "https://en.wikipedia.org/wiki/Minecraft",
       "generated_at": "2026-08-30T20:27:14+00:00"
+    },
+    {
+      "title": "Roblox",
+      "filename": "Roblox.html",
+      "category": "Games",
+      "source": "https://en.wikipedia.org/wiki/Roblox",
+      "generated_at": "2026-08-30T20:35:56+00:00"
+    },
+    {
+      "title": "Fortnite",
+      "filename": "Fortnite.html",
+      "category": "Games",
+      "source": "https://en.wikipedia.org/wiki/Fortnite",
+      "generated_at": "2026-08-30T20:35:57+00:00"
+    },
+    {
+      "title": "Call of Duty",
+      "filename": "Call_of_Duty.html",
+      "category": "Games",
+      "source": "https://en.wikipedia.org/wiki/Call_of_Duty",
+      "generated_at": "2026-08-30T20:35:59+00:00"
+    },
+    {
+      "title": "Grand Theft Auto V",
+      "filename": "Grand_Theft_Auto_V.html",
+      "category": "Games",
+      "source": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V",
+      "generated_at": "2026-08-30T20:36:00+00:00"
+    },
+    {
+      "title": "Terraria",
+      "filename": "Terraria.html",
+      "category": "Games",
+      "source": "https://en.wikipedia.org/wiki/Terraria",
+      "generated_at": "2026-08-30T20:36:02+00:00"
+    },
+    {
+      "title": ".hack (video game series)",
+      "filename": "hack_video_game_series.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/.hack_(video_game_series)",
+      "generated_at": "2026-08-30T20:36:03+00:00"
+    },
+    {
+      "title": "Indie game",
+      "filename": "Indie_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Indie_game",
+      "generated_at": "2026-08-30T20:36:05+00:00"
+    },
+    {
+      "title": "First-person shooter engine",
+      "filename": "First_person_shooter_engine.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/First-person_shooter_engine",
+      "generated_at": "2026-08-30T20:36:07+00:00"
+    },
+    {
+      "title": "Arcade video game",
+      "filename": "Arcade_video_game.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Arcade_video_game",
+      "generated_at": "2026-08-30T20:36:10+00:00"
+    },
+    {
+      "title": "Comparison of video hosting services",
+      "filename": "Comparison_of_video_hosting_services.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Comparison_of_video_hosting_services",
+      "generated_at": "2026-08-30T20:36:12+00:00"
+    },
+    {
+      "title": "2XKO",
+      "filename": "2XKO.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/2XKO",
+      "generated_at": "2026-08-30T20:36:13+00:00"
+    },
+    {
+      "title": "Golden age of arcade video games",
+      "filename": "Golden_age_of_arcade_video_games.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Golden_age_of_arcade_video_games",
+      "generated_at": "2026-08-30T20:36:15+00:00"
+    },
+    {
+      "title": "History of mobile games",
+      "filename": "History_of_mobile_games.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/History_of_mobile_games",
+      "generated_at": "2026-08-30T20:36:17+00:00"
+    },
+    {
+      "title": "Horror game",
+      "filename": "Horror_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Horror_game",
+      "generated_at": "2026-08-30T20:36:19+00:00"
+    },
+    {
+      "title": "Sandbox game",
+      "filename": "Sandbox_game.html",
+      "category": "Sandbox games",
+      "source": "https://en.wikipedia.org/wiki/Sandbox_game",
+      "generated_at": "2026-08-30T20:36:21+00:00"
+    },
+    {
+      "title": "Compilation of Final Fantasy VII",
+      "filename": "Compilation_of_Final_Fantasy_VII.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Compilation_of_Final_Fantasy_VII",
+      "generated_at": "2026-08-30T20:36:22+00:00"
+    },
+    {
+      "title": "Amazing Princess Sarah",
+      "filename": "Amazing_Princess_Sarah.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Amazing_Princess_Sarah",
+      "generated_at": "2026-08-30T20:36:24+00:00"
+    },
+    {
+      "title": "Qfusion",
+      "filename": "Qfusion.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Quake_II_engine",
+      "generated_at": "2026-08-30T20:36:27+00:00"
+    },
+    {
+      "title": "Cloud gaming",
+      "filename": "Cloud_gaming.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Cloud_gaming",
+      "generated_at": "2026-08-30T20:36:30+00:00"
+    },
+    {
+      "title": "Digital distribution",
+      "filename": "Digital_distribution.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Digital_distribution",
+      "generated_at": "2026-08-30T20:36:31+00:00"
+    },
+    {
+      "title": "Pokémon video game series competitive play",
+      "filename": "Pok_mon_video_game_series_competitive_play.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_video_game_series_competitive_play",
+      "generated_at": "2026-08-30T20:36:37+00:00"
+    },
+    {
+      "title": "Arm Wrestling (video game)",
+      "filename": "Arm_Wrestling_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Arm_Wrestling_(video_game)",
+      "generated_at": "2026-08-30T20:36:38+00:00"
+    },
+    {
+      "title": "Super Puzzle Bobble",
+      "filename": "Super_Puzzle_Bobble.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Super_Puzzle_Bobble",
+      "generated_at": "2026-08-30T20:36:41+00:00"
+    },
+    {
+      "title": "The Mortuary Assistant",
+      "filename": "The_Mortuary_Assistant.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/The_Mortuary_Assistant",
+      "generated_at": "2026-08-30T20:36:44+00:00"
+    },
+    {
+      "title": "0x10c",
+      "filename": "0x10c.html",
+      "category": "Sandbox games",
+      "source": "https://en.wikipedia.org/wiki/0x10c",
+      "generated_at": "2026-08-30T20:36:46+00:00"
+    },
+    {
+      "title": "Fabula Nova Crystallis Final Fantasy",
+      "filename": "Fabula_Nova_Crystallis_Final_Fantasy.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Fabula_Nova_Crystallis_Final_Fantasy",
+      "generated_at": "2026-08-30T20:36:48+00:00"
+    },
+    {
+      "title": "Banished (video game)",
+      "filename": "Banished_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Banished_(video_game)",
+      "generated_at": "2026-08-30T20:36:50+00:00"
+    },
+    {
+      "title": "Game creation system",
+      "filename": "Game_creation_system.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Game_creation_system",
+      "generated_at": "2026-08-30T20:36:52+00:00"
+    },
+    {
+      "title": "Amiga",
+      "filename": "Amiga.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Amiga",
+      "generated_at": "2026-08-30T20:36:57+00:00"
     }
-  ]
+  ],
+  "category_cursors": {
+    "Category:Video game franchises": "page|3a422a363a4432040992543a30324604362a4232044e324c3a324e0994011f01dc1e|47549049",
+    "Category:Indie games": "page|2c462c096e4e04362a4232010e01dcc1dc07|23934062",
+    "Category:Arcade video games": "page|2c32362a096e4e042c2a50504032011101dcc0dc09|20027149",
+    "Category:Video game engines": "page|4a040992362a4232043244363a4432099403064a040992362a4232043244363a44320994012301dcc4dcc2dcbfdc12|23688058"
+  }
 }
