@@ -1,0 +1,39 @@
+name: Wiki2 Discord Notifier
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send Discord Webhook
+        run: |
+          curl -H "Content-Type: application/json" \
+          -X POST \
+          -d "{
+            \"embeds\": [{
+              \"title\": \"📘 Wiki2 Updated!\",
+              \"description\": \"A new update was pushed to Wiki2.\",
+              \"color\": 5814783,
+              \"fields\": [
+                {
+                  \"name\": \"Repository\",
+                  \"value\": \"${{ github.repository }}\",
+                  \"inline\": true
+                },
+                {
+                  \"name\": \"Commit Message\",
+                  \"value\": \"${{ github.event.head_commit.message }}\",
+                  \"inline\": true
+                },
+                {
+                  \"name\": \"View Site\",
+                  \"value\": \"https://recgoblingu-lgtm.github.io/Wiki2/\"
+                }
+              ]
+            }]
+          }" \
+          ${{ secrets.DISCORD_WEBHOOK_URL }}
