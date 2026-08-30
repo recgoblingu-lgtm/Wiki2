@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "articles": [
+    {
+      "title": "Computer",
+      "filename": "Computer.html",
+      "category": "Technology",
+      "source": "https://en.wikipedia.org/wiki/Computer",
+      "generated_at": "2026-08-30T00:00:00+00:00",
+      "legacy": true
+    },
+    {
+      "title": "United States",
+      "filename": "UnitedStates.html",
+      "category": "Geography",
+      "source": "https://en.wikipedia.org/wiki/United_States",
+      "generated_at": "2026-08-30T00:00:00+00:00",
+      "legacy": true
+    },
+    {
+      "title": "Canada",
+      "filename": "Canada.html",
+      "category": "Geography",
+      "source": "https://en.wikipedia.org/wiki/Canada",
+      "generated_at": "2026-08-30T20:06:34+00:00"
+    }
+  ]
+}

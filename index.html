@@ -1,34 +1,13 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Wiki2</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="#">Main Page</a>
-    <a href="#">Random Page</a>
-    <a href="#">Help</a>
-  </div>
-
-  <div class="content">
-    <h1>Welcome to Wiki2</h1>
-    <p>This is your old-school wiki.</p>
-
-    <input id="search" placeholder="Search...">
-    <button onclick="goToArticle()">Go</button>
-  </div>
-</div>
-
-<script>
-function goToArticle() {
-  const title = document.getElementById("search").value;
-  window.location.href = "article.html?title=" + title;
-}
-</script>
-
-</body>
-</html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Wiki2</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="container"><div class="sidebar"><h2>Wiki2</h2><a href="index.html">Main Page</a><a href="article.html">Random Page</a><a href="#categories">Categories</a></div>
+<div class="content"><h1>Welcome to Wiki2</h1><p>This is an automatically growing, old-school encyclopedia of real-world topics.</p><p>Articles currently indexed: <b>3</b></p><hr><h2 id="categories">Article index</h2>    <h3>Geography</h3>
+    <ul>
+      <li><a href="articles/UnitedStates.html">United States</a></li>
+      <li><a href="articles/Canada.html">Canada</a></li>
+    </ul>
+    <h3>Technology</h3>
+    <ul>
+      <li><a href="articles/Computer.html">Computer</a></li>
+    </ul></div></div></body></html>
