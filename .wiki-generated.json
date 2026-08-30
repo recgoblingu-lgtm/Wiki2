@@ -240,12 +240,237 @@
       "category": "Platforms",
       "source": "https://en.wikipedia.org/wiki/Amiga",
       "generated_at": "2026-08-30T20:36:57+00:00"
+    },
+    {
+      "title": "123Movies",
+      "filename": "123Movies.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/123Movies",
+      "generated_at": "2026-08-30T20:42:47+00:00"
+    },
+    {
+      "title": "2006 FIFA World Cup (video game)",
+      "filename": "2006_FIFA_World_Cup_video_game.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/2006_FIFA_World_Cup_(video_game)",
+      "generated_at": "2026-08-30T20:42:47+00:00"
+    },
+    {
+      "title": "Bega's Battle",
+      "filename": "Bega_s_Battle.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Genma_Wars",
+      "generated_at": "2026-08-30T20:42:49+00:00"
+    },
+    {
+      "title": "Mobile game",
+      "filename": "Mobile_game.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Mobile_game",
+      "generated_at": "2026-08-30T20:42:50+00:00"
+    },
+    {
+      "title": "Aaahh!!! Real Monsters (video game)",
+      "filename": "Aaahh_Real_Monsters_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Aaahh!!!_Real_Monsters_(video_game)",
+      "generated_at": "2026-08-30T20:42:50+00:00"
+    },
+    {
+      "title": "Bad Piggies",
+      "filename": "Bad_Piggies.html",
+      "category": "Sandbox games",
+      "source": "https://en.wikipedia.org/wiki/Bad_Piggies",
+      "generated_at": "2026-08-30T20:42:52+00:00"
+    },
+    {
+      "title": "Imagine (video game series)",
+      "filename": "Imagine_video_game_series.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Imagine_(video_game_series)",
+      "generated_at": "2026-08-30T20:42:52+00:00"
+    },
+    {
+      "title": "Bob's Game",
+      "filename": "Bob_s_Game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Bob's_Game",
+      "generated_at": "2026-08-30T20:42:54+00:00"
+    },
+    {
+      "title": "Quake engine",
+      "filename": "Quake_engine.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Quake_engine",
+      "generated_at": "2026-08-30T20:42:58+00:00"
+    },
+    {
+      "title": "Electronic game",
+      "filename": "Electronic_game.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Electronic_game",
+      "generated_at": "2026-08-30T20:43:00+00:00"
+    },
+    {
+      "title": "Ace Stream",
+      "filename": "Ace_Stream.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Ace_Stream",
+      "generated_at": "2026-08-30T20:43:02+00:00"
+    },
+    {
+      "title": "Pokémon Showdown",
+      "filename": "Pok_mon_Showdown.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Showdown",
+      "generated_at": "2026-08-30T20:43:05+00:00"
+    },
+    {
+      "title": "California Speed (video game)",
+      "filename": "California_Speed_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/California_Speed_(video_game)",
+      "generated_at": "2026-08-30T20:43:06+00:00"
+    },
+    {
+      "title": "Top Spin 2",
+      "filename": "Top_Spin_2.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Top_Spin_2",
+      "generated_at": "2026-08-30T20:43:08+00:00"
+    },
+    {
+      "title": "Musya",
+      "filename": "Musya.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Musya",
+      "generated_at": "2026-08-30T20:43:11+00:00"
+    },
+    {
+      "title": "Besiege (video game)",
+      "filename": "Besiege_video_game.html",
+      "category": "Sandbox games",
+      "source": "https://en.wikipedia.org/wiki/Besiege_(video_game)",
+      "generated_at": "2026-08-30T20:43:12+00:00"
+    },
+    {
+      "title": "Mega Man Battle Network",
+      "filename": "Mega_Man_Battle_Network.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Mega_Man_Battle_Network",
+      "generated_at": "2026-08-30T20:43:14+00:00"
+    },
+    {
+      "title": "Children of the Sun (video game)",
+      "filename": "Children_of_the_Sun_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Children_of_the_Sun_(video_game)",
+      "generated_at": "2026-08-30T20:43:15+00:00"
+    },
+    {
+      "title": "Game engine",
+      "filename": "Game_engine.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Game_engine",
+      "generated_at": "2026-08-30T20:43:16+00:00"
+    },
+    {
+      "title": "Exertris",
+      "filename": "Exertris.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Exertris",
+      "generated_at": "2026-08-30T20:43:18+00:00"
+    },
+    {
+      "title": "Acetrax",
+      "filename": "Acetrax.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Acetrax",
+      "generated_at": "2026-08-30T20:43:19+00:00"
+    },
+    {
+      "title": "Age of Empires II",
+      "filename": "Age_of_Empires_II.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Age_of_Empires_II",
+      "generated_at": "2026-08-30T20:43:21+00:00"
+    },
+    {
+      "title": "Crimzon Clover",
+      "filename": "Crimzon_Clover.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Crimzon_Clover",
+      "generated_at": "2026-08-30T20:43:21+00:00"
+    },
+    {
+      "title": "ActRaiser",
+      "filename": "ActRaiser.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/ActRaiser",
+      "generated_at": "2026-08-30T20:43:22+00:00"
+    },
+    {
+      "title": "Are You Afraid of the Dark? The Tale of Orpheo's Curse",
+      "filename": "Are_You_Afraid_of_the_Dark_The_Tale_of_Orpheo_s_Curse.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Are_You_Afraid_of_the_Dark%3F_The_Tale_of_Orpheo's_Curse",
+      "generated_at": "2026-08-30T20:43:24+00:00"
+    },
+    {
+      "title": "Black Skylands",
+      "filename": "Black_Skylands.html",
+      "category": "Sandbox games",
+      "source": "https://en.wikipedia.org/wiki/Black_Skylands",
+      "generated_at": "2026-08-30T20:43:25+00:00"
+    },
+    {
+      "title": "Prince of Persia",
+      "filename": "Prince_of_Persia.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Prince_of_Persia",
+      "generated_at": "2026-08-30T20:43:26+00:00"
+    },
+    {
+      "title": "Cube Creator 3D",
+      "filename": "Cube_Creator_3D.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Cube_Creator_3D",
+      "generated_at": "2026-08-30T20:43:27+00:00"
+    },
+    {
+      "title": "RE Engine",
+      "filename": "RE_Engine.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/RE_Engine",
+      "generated_at": "2026-08-30T20:43:29+00:00"
+    },
+    {
+      "title": "Game client",
+      "filename": "Game_client.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Game_client",
+      "generated_at": "2026-08-30T20:43:32+00:00"
+    },
+    {
+      "title": "Acorn TV",
+      "filename": "Acorn_TV.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Acorn_TV",
+      "generated_at": "2026-08-30T20:43:33+00:00"
+    },
+    {
+      "title": "Hearthstone",
+      "filename": "Hearthstone.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Hearthstone",
+      "generated_at": "2026-08-30T20:43:43+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Video game franchises": "page|3a422a363a4432040992543a30324604362a4232044e324c3a324e0994011f01dc1e|47549049",
-    "Category:Indie games": "page|2c462c096e4e04362a4232010e01dcc1dc07|23934062",
-    "Category:Arcade video games": "page|2c32362a096e4e042c2a50504032011101dcc0dc09|20027149",
-    "Category:Video game engines": "page|4a040992362a4232043244363a4432099403064a040992362a4232043244363a44320994012301dcc4dcc2dcbfdc12|23688058"
+    "Category:Video game franchises": "page|4e50464c5a044634044e322a4e46444e011401dcbedc0a|573266",
+    "Category:Indie games": "page|30324e502a07360450383204423242464c3a324e042c325056323244011f01dcc0dcc3dcbedc0a|70987384",
+    "Category:Arcade video games": "page|303a44464e2a524c043e3a4436011101dcbedc07|3597128",
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418"
   }
 }
