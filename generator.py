@@ -27,6 +27,19 @@ USER_AGENT = "Wiki2-Automated-Encyclopedia/1.0 (https://github.com/recgoblingu-l
 API = "https://en.wikipedia.org/w/api.php"
 REST = "https://en.wikipedia.org/api/rest_v1/page/summary/"
 
+CATEGORY_SOURCES: list[tuple[str, str]] = [
+    ("Game franchises", "Category:Video game franchises"),
+    ("Indie games", "Category:Indie games"),
+    ("Game engines", "Category:Video game engines"),
+    ("Platforms", "Category:Video game platforms"),
+    ("Streaming services", "Category:Streaming media systems"),
+    ("Esports titles", "Category:Esports games"),
+    ("Classic games", "Category:Arcade video games"),
+    ("Mobile games", "Category:Mobile games"),
+    ("Horror games", "Category:Horror video games"),
+    ("Sandbox games", "Category:Sandbox games"),
+]
+
 # Starter topics provide predictable first runs. Once they are used, the
 # selector falls through to Wikimedia's large, changing main-namespace corpus.
 TOPICS: list[tuple[str, str]] = [
@@ -100,8 +113,10 @@ def choose_topic(ledger: dict[str, Any]) -> tuple[str, str, dict[str, Any]] | No
     used_titles = {str(item.get("title", "")).casefold() for item in ledger["articles"]}
     used_files = {str(item.get("filename", "")) for item in ledger["articles"]}
 
-    # Use the curated seeds first, then keep discovering pages dynamically.
-    candidates = list(TOPICS) if len(ledger["articles"]) < len(TOPICS) else []
+    # Use a short curated starter sample, then rotate through the requested
+    # Wikimedia categories. The full curated list remains available as a
+    # fallback source without delaying category discovery for many runs.
+    candidates = list(TOPICS) if len(ledger["articles"]) < 10 else []
     for category, requested in candidates:
         if requested.casefold() in used_titles:
             continue
@@ -117,16 +132,59 @@ def choose_topic(ledger: dict[str, Any]) -> tuple[str, str, dict[str, Any]] | No
             continue
         return category, title, summary
 
-    category_order = ["Technology", "Science", "Geography", "History", "Games and culture"]
-    start = len(ledger["articles"]) % len(category_order)
-    for offset in range(len(category_order)):
-        category = category_order[(start + offset) % len(category_order)]
+    # Walk the requested Wikimedia categories. The continuation token is
+    # persisted in the ledger so successive runs move through each category
+    # instead of repeatedly seeing the same first page of results.
+    cursors = ledger.setdefault("category_cursors", {})
+    start = len(ledger["articles"]) % len(CATEGORY_SOURCES)
+    for offset in range(len(CATEGORY_SOURCES)):
+        category, category_page = CATEGORY_SOURCES[(start + offset) % len(CATEGORY_SOURCES)]
+        params = {"action": "query", "list": "categorymembers", "cmtitle": category_page, "cmnamespace": "0|14", "cmtype": "page|subcat", "cmlimit": "100", "format": "json", "formatversion": "2"}
+        if cursors.get(category_page):
+            params["cmcontinue"] = str(cursors[category_page])
+        try:
+            data = get_json(API, params)
+        except requests.RequestException:
+            continue
+        if data.get("continue", {}).get("cmcontinue"):
+            cursors[category_page] = data["continue"]["cmcontinue"]
+        else:
+            cursors.pop(category_page, None)
+        pages = list(data.get("query", {}).get("categorymembers", []))
+        # Include one level of subcategories so broad category pages with few
+        # direct articles still provide a deep, varied topic stream.
+        for subcat in [p for p in pages if str(p.get("title", "")).startswith("Category:")][:12]:
+            try:
+                nested = get_json(API, {"action": "query", "list": "categorymembers", "cmtitle": subcat["title"], "cmnamespace": "0", "cmtype": "page", "cmlimit": "50", "format": "json", "formatversion": "2"})
+                pages.extend(nested.get("query", {}).get("categorymembers", []))
+            except requests.RequestException:
+                continue
+        for page in pages:
+            title = str(page.get("title", "")).strip()
+            if not title or title.startswith("Category:") or not acceptable_title(title) or title.casefold() in used_titles:
+                continue
+            filename = slugify(title) + ".html"
+            if filename in used_files or (ARTICLES / filename).exists():
+                continue
+            try:
+                summary = get_json(REST + quote(title, safe=""))
+            except requests.RequestException:
+                continue
+            if summary.get("type") == "disambiguation" or len(str(summary.get("extract", ""))) < 180:
+                continue
+            save_ledger(ledger)
+            return category, title, summary
+        save_ledger(ledger)
+
+    # Wikimedia's random main-namespace generator keeps the system productive
+    # after a category has been traversed and also supplies occasional topics
+    # that belong to more than one category.
+    for _ in range(5):
         try:
             data = get_json(API, {"action": "query", "generator": "random", "grnnamespace": "0", "grnlimit": "25", "prop": "info", "inprop": "url", "format": "json", "formatversion": "2"})
         except requests.RequestException:
             continue
-        pages = data.get("query", {}).get("pages", [])
-        for page in pages:
+        for page in data.get("query", {}).get("pages", []):
             title = str(page.get("title", "")).strip()
             if not title or not acceptable_title(title) or title.casefold() in used_titles:
                 continue
@@ -139,7 +197,7 @@ def choose_topic(ledger: dict[str, Any]) -> tuple[str, str, dict[str, Any]] | No
                 continue
             if summary.get("type") == "disambiguation" or len(str(summary.get("extract", ""))) < 180:
                 continue
-            return category, title, summary
+            return "Wikimedia discovery", title, summary
     return None
 
 
