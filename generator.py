@@ -30,15 +30,32 @@ REST = "https://en.wikipedia.org/api/rest_v1/page/summary/"
 # Starter topics provide predictable first runs. Once they are used, the
 # selector falls through to Wikimedia's large, changing main-namespace corpus.
 TOPICS: list[tuple[str, str]] = [
-    ("Geography", x) for x in ["United States", "Canada", "Brazil", "Japan", "India", "Australia", "Egypt", "Alps", "Amazon rainforest", "Pacific Ocean", "Sahara", "Nile", "New York City", "London", "Tokyo", "Machu Picchu"]
+    ("Games", x) for x in [
+        "Minecraft", "Roblox", "Fortnite", "Rec Room", "Call of Duty",
+        "Grand Theft Auto V", "Grand Theft Auto: San Andreas", "Terraria", "Stardew Valley", "Among Us",
+        "Rocket League", "Valorant", "League of Legends", "Dota 2", "Counter-Strike 2", "Counter-Strike: Global Offensive",
+        "Team Fortress 2", "Apex Legends", "Overwatch", "Overwatch 2", "The Legend of Zelda",
+        "The Legend of Zelda: Breath of the Wild", "The Legend of Zelda: Tears of the Kingdom", "Super Mario Bros.",
+        "Super Mario Odyssey", "Mario Kart", "Pokémon Red and Blue", "Pokémon Scarlet and Violet", "Pokémon Go",
+        "Kirby (series)", "Elden Ring", "Dark Souls", "Bloodborne", "Sekiro: Shadows Die Twice", "The Elder Scrolls V: Skyrim",
+        "Fallout 4", "Fallout: New Vegas", "The Witcher 3: Wild Hunt", "Cyberpunk 2077", "Red Dead Redemption 2",
+        "Halo (franchise)", "Halo Infinite", "Destiny 2", "Warframe", "Battlefield 2042", "Rust", "DayZ",
+        "ARK: Survival Evolved", "Dead by Daylight", "Phasmophobia", "The Sims 4", "SimCity", "Civilization VI",
+        "Age of Empires II", "Cities: Skylines", "RollerCoaster Tycoon", "Factorio", "Minecraft Dungeons", "Hades",
+        "Hollow Knight", "Hollow Knight: Silksong", "Cuphead", "Undertale", "Deltarune", "Celeste", "Dead Cells",
+        "Ori and the Blind Forest", "Ori and the Will of the Wisps", "Limbo", "Inside"
+    ]
 ] + [
-    ("Technology", x) for x in ["Computer", "Internet", "World Wide Web", "Artificial intelligence", "Operating system", "Programming language", "Database", "Microprocessor", "Electric battery", "Robotics", "Cryptography", "Open-source software", "Solar power", "Telecommunications"]
+    ("Media and platforms", x) for x in [
+        "YouTube", "Twitch", "Netflix", "Disney+", "Hulu", "Amazon Prime Video", "HBO Max", "Spotify",
+        "SoundCloud", "TikTok", "Discord", "Steam", "Epic Games Store", "PlayStation Network", "Xbox network",
+        "Nintendo eShop", "Roblox Studio", "Unreal Engine", "Unity (game engine)", "Blender (software)"
+    ]
 ] + [
-    ("Science", x) for x in ["Astronomy", "Physics", "Chemistry", "Biology", "Evolution", "Genetics", "Climate", "Earth", "Moon", "Mars", "Mammal", "Photosynthesis", "Mathematics", "Scientific method", "Plate tectonics"]
-] + [
-    ("History", x) for x in ["Ancient Egypt", "Roman Empire", "Silk Road", "Industrial Revolution", "Renaissance", "World War I", "World War II", "Printing press", "Democracy", "United Nations", "Apollo program", "History of China", "History of Japan"]
-] + [
-    ("Games and culture", x) for x in ["Chess", "Go (game)", "Video game", "Tabletop game", "Olympic Games", "Theatre", "Music", "Film", "Literature", "Photography", "Architecture", "Cooking"]
+    ("Movies, series, and culture", x) for x in [
+        "Minecraft (film)", "The Super Mario Bros. Movie", "Avengers: Endgame", "Spider-Man: No Way Home",
+        "Star Wars", "Star Wars: The Clone Wars", "The Mandalorian", "Stranger Things", "Breaking Bad", "The Office"
+    ]
 ]
 
 
