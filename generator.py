@@ -26,6 +26,8 @@ LEDGER = ROOT / ".wiki-generated.json"
 USER_AGENT = "Wiki2-Automated-Encyclopedia/1.0 (https://github.com/recgoblingu-lgtm/Wiki2)"
 API = "https://en.wikipedia.org/w/api.php"
 REST = "https://en.wikipedia.org/api/rest_v1/page/summary/"
+SITE_URL = "https://recgoblingu-lgtm.github.io/Wiki2/"
+DEFAULT_PREVIEW_IMAGE = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png"
 
 REVIVAL_SOURCE = "https://recroom-standalone.neocities.org/"
 REVIVAL_TOPICS: list[str] = [
@@ -279,6 +281,25 @@ def source_sections(title: str) -> list[tuple[str, str]]:
         return []
 
 
+def social_meta(title: str, description: str, canonical: str, image: str, page_type: str = "website") -> str:
+    safe_title = html.escape(title)
+    safe_description = html.escape(description[:240])
+    safe_canonical = html.escape(canonical)
+    safe_image = html.escape(image or DEFAULT_PREVIEW_IMAGE)
+    return f'''  <meta name="description" content="{safe_description}">
+  <link rel="canonical" href="{safe_canonical}">
+  <meta property="og:type" content="{page_type}">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="{safe_title} - Wiki2">
+  <meta property="og:description" content="{safe_description}">
+  <meta property="og:url" content="{safe_canonical}">
+  <meta property="og:image" content="{safe_image}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{safe_title} - Wiki2">
+  <meta name="twitter:description" content="{safe_description}">
+  <meta name="twitter:image" content="{safe_image}">'''
+
+
 def related_links(ledger: dict[str, Any], current_title: str) -> list[tuple[str, str]]:
     candidates = [item for item in ledger["articles"] if str(item.get("title", "")).casefold() != current_title.casefold()]
     return [(str(item["title"]), str(item["filename"])) for item in candidates[-5:]][::-1]
@@ -329,6 +350,9 @@ def render_article(category: str, title: str, summary: dict[str, Any], ledger: d
         sections = [("Background", overview), ("Importance", f"{title} is catalogued in Wiki2 under the {category} category and is connected to broader subjects in that field.")]
     links = related_links(ledger, title)
     images = related_images(title)
+    preview_image = images[0]["url"] if images else DEFAULT_PREVIEW_IMAGE
+    article_url = f"{SITE_URL}articles/{quote(slugify(title) + '.html', safe='')}"
+    meta = social_meta(title, overview, article_url, preview_image, "article")
     image_markup = "\n".join(f'    <figure class="article-image"><img src="{html.escape(image["url"])}" alt="{html.escape(image["alt"])}"><figcaption>Related Wikimedia image</figcaption></figure>' for image in images)
     see_also = "\n".join(f'      <li><a href="{html.escape(filename)}">{html.escape(name)}</a></li>' for name, filename in links)
     if not see_also:
@@ -342,6 +366,7 @@ def render_article(category: str, title: str, summary: dict[str, Any], ledger: d
 <head>
   <meta charset="UTF-8">
   <title>{html.escape(title)} - Wiki2</title>
+{meta}
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -383,7 +408,7 @@ def update_index(ledger: dict[str, Any]) -> None:
     INDEX = ROOT / "index.html"
     INDEX.write_text(f'''<!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><title>Wiki2</title><link rel="stylesheet" href="style.css"></head>
+<head><meta charset="UTF-8"><title>Wiki2</title>{social_meta("Wiki2", "An automatically growing old-school encyclopedia of real-world topics.", SITE_URL, DEFAULT_PREVIEW_IMAGE)}<link rel="stylesheet" href="style.css"></head>
 <body><div class="container"><div class="sidebar"><h2>Wiki2</h2><a href="index.html">Main Page</a><a href="article.html">Random Page</a><a href="#categories">Categories</a></div>
 <div class="content"><h1>Welcome to Wiki2</h1><p>This is an automatically growing, old-school encyclopedia of real-world topics.</p><p>Total pages indexed: <b>{len(ledger["articles"])}</b></p><hr><h2 id="categories">Article index</h2>{listing}</div></div></body></html>
 ''', encoding="utf-8")
