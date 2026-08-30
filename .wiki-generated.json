@@ -30,6 +30,13 @@
       "category": "Geography",
       "source": "https://en.wikipedia.org/wiki/Brazil",
       "generated_at": "2026-08-30T20:14:50+00:00"
+    },
+    {
+      "title": "Minecraft",
+      "filename": "Minecraft.html",
+      "category": "Games",
+      "source": "https://en.wikipedia.org/wiki/Minecraft",
+      "generated_at": "2026-08-30T20:27:14+00:00"
     }
   ]
 }
