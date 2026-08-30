@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Wiki2 - Main Page</title>
+<link href="style.css" rel="stylesheet"/>
+
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Wiki2"/>
+<meta property="og:title" content="Wiki2"/>
+<meta property="og:description" content="A community wiki with articles, pages, and categories."/>
+<meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/"/>
+
+<style>
+.section {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+.page-list a {
+  display: block;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+.page-list a:hover {
+  text-decoration: underline;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="index.html">Main Page</a>
+<a href="article.html">Random Page</a>
+<a href="#categories">Categories</a>
+</div>
+
+<div class="content">
+
+<h1>Wiki2</h1>
+<p>Welcome to <b>Wiki2</b>, a simple community wiki with categorized articles and pages.</p>
+
+<hr/>
+
+<!-- SECTION 1 -->
+<div class="section" id="categories">
+<h2>📚 Game & Platform Articles</h2>
+<div class="page-list">
+<a href="articles/Rec_Room.html">Rec Room</a>
+<a href="articles/Rec_Room_Network.html">Rec Room Network</a>
+<a href="articles/Golden_age_of_arcade_video_games.html">Golden Age of Arcade Games</a>
+</div>
+</div>
+
+<!-- SECTION 2 -->
+<div class="section">
+<h2>🍝 Food Articles</h2>
+<div class="page-list">
+<a href="articles/Lasagna.html">Lasagna</a>
+<a href="articles/Pasta.html">Pasta</a>
+<a href="articles/Squishy_Dumpling_Thingys.html">Squishy Dumpling Thingys</a>
+</div>
+</div>
+
+<!-- SECTION 3 -->
+<div class="section">
+<h2>🌍 People & Culture</h2>
+<div class="page-list">
+<a href="articles/Dolly_Parton.html">Dolly Parton</a>
+</div>
+</div>
+
+<!-- SECTION 4 -->
+<div class="section">
+<h2>🔀 Tools</h2>
+<p>Random page system:</p>
+<button onclick="randomPage()">Go to Random Article</button>
+</div>
+
+</div>
+</div>
+
+<script>
+const pages = [
+  "articles/Rec_Room.html",
+  "articles/Rec_Room_Network.html",
+  "articles/Golden_age_of_arcade_video_games.html",
+  "articles/Lasagna.html",
+  "articles/Pasta.html",
+  "articles/Squishy_Dumpling_Thingys.html",
+  "articles/Dolly_Parton.html"
+];
+
+function randomPage() {
+  const pick = pages[Math.floor(Math.random() * pages.length)];
+  window.location.href = pick;
+}
+</script>
+
+</body>
+</html>
