@@ -28,6 +28,7 @@ API = "https://en.wikipedia.org/w/api.php"
 REST = "https://en.wikipedia.org/api/rest_v1/page/summary/"
 SITE_URL = "https://recgoblingu-lgtm.github.io/Wiki2/"
 DEFAULT_PREVIEW_IMAGE = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png"
+BULK_QUEUE = ROOT / "bulk_topics.json"
 
 REVIVAL_SOURCE = "https://recroom-standalone.neocities.org/"
 REVIVAL_TOPICS: list[str] = [
@@ -125,6 +126,16 @@ def acceptable_title(title: str) -> bool:
     return ":" not in title and not title.casefold().startswith(("list of ", "outline of ")) and not re.fullmatch(r"[0-9 -]+", title)
 
 
+def load_bulk_topics() -> list[tuple[str, str]]:
+    if not BULK_QUEUE.exists():
+        return []
+    try:
+        items = json.loads(BULK_QUEUE.read_text(encoding="utf-8"))
+        return [(str(item.get("category", "Wikimedia topics")), str(item.get("title", "")).strip()) for item in items if isinstance(item, dict) and item.get("title")]
+    except (OSError, json.JSONDecodeError):
+        return []
+
+
 def revival_summary(title: str) -> dict[str, Any]:
     description = REVIVAL_DESCRIPTIONS.get(
         title,
@@ -151,6 +162,22 @@ def choose_topic(ledger: dict[str, Any]) -> tuple[str, str, dict[str, Any]] | No
         if filename in used_files or (ARTICLES / filename).exists():
             continue
         return "Rec Room revivals", requested, revival_summary(requested)
+
+    # Process the harvested source-backed queue before broad random discovery.
+    for category, requested in load_bulk_topics():
+        if requested.casefold() in used_titles:
+            continue
+        filename = slugify(requested) + ".html"
+        if filename in used_files or (ARTICLES / filename).exists():
+            continue
+        try:
+            summary = get_json(REST + quote(requested, safe=""))
+        except requests.RequestException:
+            continue
+        title = str(summary.get("title") or requested)
+        if title.casefold() in used_titles or summary.get("type") == "disambiguation" or len(str(summary.get("extract", ""))) < 180:
+            continue
+        return category, title, summary
 
     # Use a short curated starter sample, then rotate through the requested
     # Wikimedia categories. The full curated list remains available as a
