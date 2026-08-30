@@ -247,6 +247,43 @@ def related_links(ledger: dict[str, Any], current_title: str) -> list[tuple[str,
     return [(str(item["title"]), str(item["filename"])) for item in candidates[-5:]][::-1]
 
 
+def related_images(title: str) -> list[dict[str, str]]:
+    try:
+        data = get_json(API, {"action": "query", "titles": title, "prop": "pageimages|images", "imlimit": "10", "piprop": "original", "format": "json", "formatversion": "2"})
+    except requests.RequestException:
+        return []
+    images: list[dict[str, str]] = []
+    for page in data.get("query", {}).get("pages", []):
+        original = page.get("original", {})
+        if original.get("source"):
+            images.append({"url": str(original["source"]), "alt": title})
+        for image in page.get("images", []):
+            name = str(image.get("title", ""))
+            if not name or name.casefold().endswith((".svg", ".ogv", ".webm")):
+                continue
+            try:
+                info = get_json(API, {"action": "query", "titles": name, "prop": "imageinfo", "iiprop": "url", "iiurlwidth": "900", "format": "json", "formatversion": "2"})
+            except requests.RequestException:
+                continue
+            for image_page in info.get("query", {}).get("pages", []):
+                imageinfo = (image_page.get("imageinfo") or [{}])[0]
+                source = imageinfo.get("thumburl") or imageinfo.get("url")
+                if source:
+                    images.append({"url": str(source), "alt": name.removeprefix("File:")})
+                    break
+            if len(images) >= 3:
+                break
+        if len(images) >= 3:
+            break
+    unique: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for image in images:
+        if image["url"] not in seen:
+            unique.append(image)
+            seen.add(image["url"])
+    return unique[:3]
+
+
 def render_article(category: str, title: str, summary: dict[str, Any], ledger: dict[str, Any]) -> str:
     edited = datetime.now().strftime("%B %-d, %Y")
     overview = clean_text(str(summary["extract"]))
@@ -254,6 +291,8 @@ def render_article(category: str, title: str, summary: dict[str, Any], ledger: d
     if not sections:
         sections = [("Background", overview), ("Importance", f"{title} is catalogued in Wiki2 under the {category} category and is connected to broader subjects in that field.")]
     links = related_links(ledger, title)
+    images = related_images(title)
+    image_markup = "\n".join(f'    <figure class="article-image"><img src="{html.escape(image["url"])}" alt="{html.escape(image["alt"])}"><figcaption>Related Wikimedia image</figcaption></figure>' for image in images)
     see_also = "\n".join(f'      <li><a href="{html.escape(filename)}">{html.escape(name)}</a></li>' for name, filename in links)
     if not see_also:
         see_also = '      <li><a href="../index.html">Wiki2 main page</a></li>'
@@ -280,6 +319,7 @@ def render_article(category: str, title: str, summary: dict[str, Any], ledger: d
     <h1>{html.escape(title)}</h1>
     <p><b>{html.escape(title)}</b> is an encyclopedia entry in the <b>{html.escape(category)}</b> collection.</p>
     <p>{html.escape(overview)}</p>
+{image_markup}
 {chr(10).join(body_sections)}
     <hr>
     <h2>See also</h2>
@@ -308,7 +348,7 @@ def update_index(ledger: dict[str, Any]) -> None:
 <html lang="en">
 <head><meta charset="UTF-8"><title>Wiki2</title><link rel="stylesheet" href="style.css"></head>
 <body><div class="container"><div class="sidebar"><h2>Wiki2</h2><a href="index.html">Main Page</a><a href="article.html">Random Page</a><a href="#categories">Categories</a></div>
-<div class="content"><h1>Welcome to Wiki2</h1><p>This is an automatically growing, old-school encyclopedia of real-world topics.</p><p>Articles currently indexed: <b>{len(ledger["articles"])}</b></p><hr><h2 id="categories">Article index</h2>{listing}</div></div></body></html>
+<div class="content"><h1>Welcome to Wiki2</h1><p>This is an automatically growing, old-school encyclopedia of real-world topics.</p><p>Total pages indexed: <b>{len(ledger["articles"])}</b></p><hr><h2 id="categories">Article index</h2>{listing}</div></div></body></html>
 ''', encoding="utf-8")
 
 
@@ -333,12 +373,28 @@ def generate_once() -> bool:
     return True
 
 
+def generate_batch(target: int) -> int:
+    created = 0
+    for _ in range(max(1, target)):
+        try:
+            if not generate_once():
+                break
+            created += 1
+        except Exception as exc:
+            print(f"Skipping one topic after transient error: {exc}", file=sys.stderr)
+    return created
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--once", action="store_true", help="Create one article and exit (default).")
     parser.add_argument("--forever", action="store_true", help="Keep creating articles at the configured interval.")
     parser.add_argument("--interval", type=int, default=1800, help="Seconds between articles in --forever mode (default: 1800).")
+    parser.add_argument("--batch", type=int, default=0, help="Create up to this many articles, then exit.")
     args = parser.parse_args()
+    if args.batch:
+        created = generate_batch(args.batch)
+        return 0 if created > 0 else 1
     if args.forever:
         while True:
             try:
