@@ -44,7 +44,7 @@ CATEGORY_SOURCES: list[tuple[str, str]] = [
 # selector falls through to Wikimedia's large, changing main-namespace corpus.
 TOPICS: list[tuple[str, str]] = [
     ("Games", x) for x in [
-        "Minecraft", "Roblox", "Fortnite", "Rec Room", "Call of Duty",
+        "Minecraft", "Roblox", "Fortnite", "Rec Room", "Rec Room Revivals", "Call of Duty",
         "Grand Theft Auto V", "Grand Theft Auto: San Andreas", "Terraria", "Stardew Valley", "Among Us",
         "Rocket League", "Valorant", "League of Legends", "Dota 2", "Counter-Strike 2", "Counter-Strike: Global Offensive",
         "Team Fortress 2", "Apex Legends", "Overwatch", "Overwatch 2", "The Legend of Zelda",
