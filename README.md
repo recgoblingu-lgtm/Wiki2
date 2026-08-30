@@ -4,7 +4,7 @@ Wiki2 is an old-school, static HTML encyclopedia that grows automatically in the
 
 ## Automatic operation
 
-The workflow is defined in [`.github/workflows/wiki-generator.yml`](.github/workflows/wiki-generator.yml). It runs at minute 17 and 47 of every hour, and it can also be started from the repository’s **Actions** tab with **Run workflow**. The recurring schedule means the process continues across separate short-lived GitHub-hosted jobs instead of depending on a computer, terminal, or browser remaining open.
+The workflow is defined in [`.github/workflows/wiki-generator.yml`](.github/workflows/wiki-generator.yml). It runs at minute 17 and 47 of every hour, and it can also be started from the repository’s **Actions** tab with **Run workflow**. The recurring schedule means the process continues across separate short-lived GitHub-hosted jobs instead of depending on a computer, terminal, or browser remaining open. After the starter topics are used, the generator asks Wikimedia for random main-namespace encyclopedia pages and continues selecting unused subjects dynamically.
 
 Each run creates at most one article. This keeps commits small, prevents API bursts, and makes each addition independently visible in the repository history. GitHub may delay scheduled workflows by a few minutes during busy periods; that is normal for scheduled automation.
 
@@ -18,7 +18,7 @@ Every generated page is a complete HTML document with a serif font, sidebar navi
 
 ## Manual controls
 
-No recurring manual operation is required. To pause the system, disable the **Grow Wiki2** workflow in GitHub. To resume it, re-enable the workflow. To request an immediate article, use **Run workflow**. To change the pace, edit the `cron` expression in the workflow file.
+No recurring manual operation is required. To pause the system, disable the **Grow Wiki2** workflow in GitHub. To resume it, re-enable the workflow. To request an immediate article, use **Run workflow**. To change the pace, edit the `cron` expression in the workflow file. The workflow is designed to keep discovering new subjects; it can only stop adding articles if Wikimedia is unavailable, GitHub Actions is disabled or unavailable, or the source corpus is exhausted.
 
 For local testing only, install the dependencies and run:
 

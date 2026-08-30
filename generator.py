@@ -27,8 +27,8 @@ USER_AGENT = "Wiki2-Automated-Encyclopedia/1.0 (https://github.com/recgoblingu-l
 API = "https://en.wikipedia.org/w/api.php"
 REST = "https://en.wikipedia.org/api/rest_v1/page/summary/"
 
-# A deliberately broad, finite seed list gives the unattended system realistic
-# encyclopedia subjects while Wikimedia supplies the factual source material.
+# Starter topics provide predictable first runs. Once they are used, the
+# selector falls through to Wikimedia's large, changing main-namespace corpus.
 TOPICS: list[tuple[str, str]] = [
     ("Geography", x) for x in ["United States", "Canada", "Brazil", "Japan", "India", "Australia", "Egypt", "Alps", "Amazon rainforest", "Pacific Ocean", "Sahara", "Nile", "New York City", "London", "Tokyo", "Machu Picchu"]
 ] + [
@@ -73,10 +73,19 @@ def get_json(url: str, params: dict[str, str] | None = None) -> dict[str, Any]:
     return response.json()
 
 
-def choose_topic(ledger: dict[str, Any]) -> tuple[str, str, str] | None:
+def acceptable_title(title: str) -> bool:
+    # Avoid namespace pages, list pages, and date-only pages that do not read
+    # like ordinary encyclopedia entries.
+    return ":" not in title and not title.casefold().startswith(("list of ", "outline of ")) and not re.fullmatch(r"[0-9 -]+", title)
+
+
+def choose_topic(ledger: dict[str, Any]) -> tuple[str, str, dict[str, Any]] | None:
     used_titles = {str(item.get("title", "")).casefold() for item in ledger["articles"]}
     used_files = {str(item.get("filename", "")) for item in ledger["articles"]}
-    for category, requested in TOPICS:
+
+    # Use the curated seeds first, then keep discovering pages dynamically.
+    candidates = list(TOPICS) if len(ledger["articles"]) < len(TOPICS) else []
+    for category, requested in candidates:
         if requested.casefold() in used_titles:
             continue
         try:
@@ -87,9 +96,33 @@ def choose_topic(ledger: dict[str, Any]) -> tuple[str, str, str] | None:
         filename = slugify(title) + ".html"
         if title.casefold() in used_titles or filename in used_files or (ARTICLES / filename).exists():
             continue
-        if summary.get("type") == "disambiguation" or not summary.get("extract"):
+        if summary.get("type") == "disambiguation" or not summary.get("extract") or not acceptable_title(title):
             continue
         return category, title, summary
+
+    category_order = ["Technology", "Science", "Geography", "History", "Games and culture"]
+    start = len(ledger["articles"]) % len(category_order)
+    for offset in range(len(category_order)):
+        category = category_order[(start + offset) % len(category_order)]
+        try:
+            data = get_json(API, {"action": "query", "generator": "random", "grnnamespace": "0", "grnlimit": "25", "prop": "info", "inprop": "url", "format": "json", "formatversion": "2"})
+        except requests.RequestException:
+            continue
+        pages = data.get("query", {}).get("pages", [])
+        for page in pages:
+            title = str(page.get("title", "")).strip()
+            if not title or not acceptable_title(title) or title.casefold() in used_titles:
+                continue
+            filename = slugify(title) + ".html"
+            if filename in used_files or (ARTICLES / filename).exists():
+                continue
+            try:
+                summary = get_json(REST + quote(title, safe=""))
+            except requests.RequestException:
+                continue
+            if summary.get("type") == "disambiguation" or len(str(summary.get("extract", ""))) < 180:
+                continue
+            return category, title, summary
     return None
 
 
