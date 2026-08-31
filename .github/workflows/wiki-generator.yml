@@ -15,7 +15,7 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 0
     steps:
       - name: Check out Wiki2
         uses: actions/checkout@v4
