@@ -1,0 +1,27 @@
+
+.wiki2ube-content { max-width: 1000px; width: 100%; }
+.wiki2ube-masthead { display:flex; justify-content:space-between; align-items:end; gap:20px; }
+.wiki2ube-masthead h1 { margin-bottom:4px; }
+.tube-mark { border:2px solid #333; padding:4px 8px; background:#eee; font-weight:bold; letter-spacing:1px; white-space:nowrap; }
+.tube-mark span { color:#b00000; }
+.wiki2ube-toolbar { display:flex; justify-content:space-between; margin:12px 0; border:1px solid #aaa; padding:8px; background:#eee; }
+.video-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; }
+.video-card { border:1px solid #999; background:#fff; padding:8px; }
+.video-thumb { display:block; position:relative; background:#ddd; }
+.video-thumb img { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; }
+.duration { position:absolute; right:5px; bottom:5px; background:#000; color:#fff; padding:2px 4px; font:12px Arial,sans-serif; }
+.video-card h3 { margin:8px 0 4px; font-size:18px; }
+.video-card p { margin:4px 0 8px; }
+.video-card small, .video-info { color:#555; }
+.breadcrumb { font-size:14px; }
+.watch-layout { display:grid; grid-template-columns:minmax(0,1fr) 230px; gap:20px; }
+.video-player { background:#111; border:1px solid #555; padding:8px; }
+.video-player video { display:block; width:100%; max-height:560px; }
+.video-info { display:flex; gap:14px; border:1px solid #aaa; border-top:0; background:#eee; padding:8px; font-size:14px; }
+.video-sidebar { border:1px solid #aaa; background:#eee; padding:10px; }
+.video-sidebar h2 { margin-top:0; font-size:19px; }
+.video-sidebar dl { margin:0; }
+.video-sidebar dt { font-weight:bold; margin-top:8px; }
+.video-sidebar dd { margin-left:0; }
+code { background:#eee; border:1px solid #ccc; padding:1px 3px; }
+@media (max-width:700px) { .container { display:block; } .sidebar { width:auto; border-right:0; border-bottom:1px solid #aaa; } .watch-layout { grid-template-columns:1fr; } .wiki2ube-masthead { align-items:start; flex-direction:column; } }
