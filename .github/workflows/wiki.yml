@@ -1,27 +1,27 @@
-name: Auto Wiki Generator
+name: Wiki Generator
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install requests
         run: pip install requests
 
       - name: Run generator
@@ -32,9 +32,9 @@ jobs:
           git config user.name "wiki-bot"
           git config user.email "wiki-bot@users.noreply.github.com"
 
-          git add page used.json
+          git add page
 
-          git diff --cached --quiet && echo "No changes" || (
-            git commit -m "Auto wiki pages"
+          git diff --cached --quiet && echo "no changes" || (
+            git commit -m "auto wiki pages"
             git push
           )
