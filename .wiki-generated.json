@@ -12000,12 +12000,76 @@
       "category": "Platforms",
       "source": "https://en.wikipedia.org/wiki/Compis",
       "generated_at": "2026-08-31T07:21:05+00:00"
+    },
+    {
+      "title": "Android TV",
+      "filename": "Android_TV.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Android_TV",
+      "generated_at": "2026-08-31T12:41:14+00:00"
+    },
+    {
+      "title": "Counter-Strike Online",
+      "filename": "Counter_Strike_Online.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Counter-Strike_Online",
+      "generated_at": "2026-08-31T12:41:18+00:00"
+    },
+    {
+      "title": "World Heroes (video game)",
+      "filename": "World_Heroes_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/World_Heroes_(video_game)",
+      "generated_at": "2026-08-31T12:41:23+00:00"
+    },
+    {
+      "title": "Sexy Poker",
+      "filename": "Sexy_Poker.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Sexy_Poker",
+      "generated_at": "2026-08-31T12:41:27+00:00"
+    },
+    {
+      "title": "Last Half of Darkness",
+      "filename": "Last_Half_of_Darkness.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Last_Half_of_Darkness",
+      "generated_at": "2026-08-31T12:41:30+00:00"
+    },
+    {
+      "title": "The Sims Stories",
+      "filename": "The_Sims_Stories.html",
+      "category": "Sandbox games",
+      "source": "https://en.wikipedia.org/wiki/The_Sims_Stories",
+      "generated_at": "2026-08-31T12:41:33+00:00"
+    },
+    {
+      "title": "Eastward (video game)",
+      "filename": "Eastward_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Eastward_(video_game)",
+      "generated_at": "2026-08-31T12:41:36+00:00"
+    },
+    {
+      "title": "Fatum Betula",
+      "filename": "Fatum_Betula.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Fatum_Betula",
+      "generated_at": "2026-08-31T12:41:38+00:00"
+    },
+    {
+      "title": "Id Tech 5",
+      "filename": "Id_Tech_5.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Id_Tech_5",
+      "generated_at": "2026-08-31T12:41:41+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|56464430324c042c465a043a44044246444e50324c04402a4430011e01e0c0dcc0dcbfdc07|436015",
-    "Category:Indie games": "page|305a4e4644044e4838324c3204484c46364c2a42011801dcc1dcc0dc0a|66542086",
-    "Category:Esports games": "page|48463e32424644042e46424832503a503a54320448402a5a030648463e3242464404543a30324604362a4232044e324c3a324e042e46424832503a503a54320448402a5a0142882d88250901dcaddc2e|60144282",
-    "Category:Video game franchises": "page|2e4642483a402a503a464404463404343a442a4004342a44502a4e5a04543a3a03062e4642483a402a503a464404463404343a442a4004342a44502a4e5a04543a3a01252401dcbbdcc4dcc1dcbfdcc3dcb8dcc1dcbfdcdcdc|1379498"
+    "Category:Indie games": "page|36044e504c3a4436040992543a30324604362a42320994011901dcc5dc16|75685257",
+    "Category:Video game franchises": "page|342a2c52402a044446542a042e4c5a4e502a40403a4e073604343a442a4004342a44502a4e5a0306342a2c52402a044446542a042e4c5a4e502a40403a4e04343a442a4004342a44502a4e5a0125250c01dcc0dcc2dcbbdcc1dcbfdcc0dcc2dcbcdcc1dc0a|5070173",
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Video game engines": "page|4a040992362a4232043244363a4432099403064a040992362a4232043244363a44320994012301dcc4dcc2dcbfdc12|23688058"
   }
 }
