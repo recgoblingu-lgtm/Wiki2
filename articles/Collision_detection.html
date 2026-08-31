@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Collision detection - Wiki2</title>
+  <meta name="description" content="Collision detection is the computational problem of detecting an intersection of two or more objects in virtual space. More precisely, it deals with the questions of if, when, and where two or more objects intersect. Collision detection is ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Collision_detection.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Collision detection - Wiki2">
+  <meta property="og:description" content="Collision detection is the computational problem of detecting an intersection of two or more objects in virtual space. More precisely, it deals with the questions of if, when, and where two or more objects intersect. Collision detection is ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Collision_detection.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/7/7b/FooBillard_3.0a_on_Linux_sshot20040807.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Collision detection - Wiki2">
+  <meta name="twitter:description" content="Collision detection is the computational problem of detecting an intersection of two or more objects in virtual space. More precisely, it deals with the questions of if, when, and where two or more objects intersect. Collision detection is ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/7/7b/FooBillard_3.0a_on_Linux_sshot20040807.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+  </div>
+  <div class="content">
+    <h1>Collision detection</h1>
+    <p><b>Collision detection</b> is an encyclopedia entry in the <b>Game engines</b> collection.</p>
+    <p>Collision detection is the computational problem of detecting an intersection of two or more objects in virtual space. More precisely, it deals with the questions of if, when, and where two or more objects intersect. Collision detection is a classic problem of computational geometry with applications in computer graphics, physical simulation, video games, robotics, and computational physics. Collision detection algorithms can be divided into operating on 2D or 3D spatial objects.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/FooBillard_3.0a_on_Linux_sshot20040807.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="FooBillard 3.0a on Linux sshot20040807.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hitbox.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Hitbox.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>Collision detection is the computational problem of detecting an intersection of two or more objects in virtual space. More precisely, it deals with the questions of if , when, and where two or more objects intersect. Collision detection is a classic problem of computational geometry with applications in computer graphics , physical simulation , video games , robotics (including autonomous driving ), and computational physics . Collision detection algorithms can be divided into operating on 2D or 3D spatial objects.</p>
+    <hr>
+    <h2>Overview</h2>
+    <p>Collision detection is closely linked to calculating the distance between objects, as objects collide when the distance between them is less than or equal to zero. Negative distances indicate that one object has penetrated another. Performing collision detection requires more context than just the distance between the objects. Accurately identifying the points of contact on both objects&#x27; surfaces is also essential for computing a physically accurate collision response. The complexity of this task increases with the level of detail in the objects&#x27; representations: the more intricate the model, the greater the computational cost. Collision detection frequently involves dynamic objects, adding a temporal dimension to distance calculations. Instead of simply measuring distance between static objects, collision detection algorithms often aim to determine whether the objects&#x27; motion will bring them to a point in time when their distance is zero—an operation that adds significant computational overhead. In collision detection involving multiple objects, a naive approach would require detecting collisions for all pairwise combinations of objects. As the number of objects increases, the number of required comparisons grows rapidly: for objects, intersection tests are needed with a naive approach. This quadratic growth makes such an approach computationally expensive as increases. Due to</p>
+    <hr>
+    <h2>Broad phase</h2>
+    <p>This phase aims at quickly finding objects or parts of objects for which it can be quickly determined that no further collision test is needed. A useful property of such approach is that it is output sensitive . In the context of collision detection this means that the time complexity of the collision detection is proportional to the number of objects that are close to each other. An early example of that is the I-COLLIDE where the number of required narrow phase collision tests was where is the number of objects and is the number of objects at close proximity. This is a significant improvement over the quadratic complexity of the naive approach.</p>
+    <hr>
+    <h2>Spatial partitioning</h2>
+    <p>Several approaches can be grouped under the spatial partitioning umbrella, which includes octrees (for 3D), quadtrees (for 2D), binary space partitioning (or BSP trees) and other, similar approaches. If one splits space into a number of simple cells, and if two objects can be shown not to be in the same cell, then they need not be checked for intersection. Dynamic scenes and deformable objects require updating the partitioning which can add overhead.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Easy_Delivery_Co.html">Easy Delivery Co.</a></li>
+      <li><a href="Disc_Room.html">Disc Room</a></li>
+      <li><a href="Curses_N_Chaos.html">Curses &#x27;N Chaos</a></li>
+      <li><a href="Reanimal.html">Reanimal</a></li>
+      <li><a href="Gameloft.html">Gameloft</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Collision_detection">Wikimedia article</a></small></p>
+    <p><i>Last edited: August 31, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

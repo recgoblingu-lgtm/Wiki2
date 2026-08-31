@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CUDA - Wiki2</title>
+  <meta name="description" content="CUDA is a proprietary parallel computing platform and application programming interface (API) developed by Nvidia that allows software to use certain types of graphics processing units (GPUs) for accelerated general-purpose processing, sign">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/CUDA.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="CUDA - Wiki2">
+  <meta property="og:description" content="CUDA is a proprietary parallel computing platform and application programming interface (API) developed by Nvidia that allows software to use certain types of graphics processing units (GPUs) for accelerated general-purpose processing, sign">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/CUDA.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/b/b9/Nvidia_CUDA_Logo.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CUDA - Wiki2">
+  <meta name="twitter:description" content="CUDA is a proprietary parallel computing platform and application programming interface (API) developed by Nvidia that allows software to use certain types of graphics processing units (GPUs) for accelerated general-purpose processing, sign">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/b/b9/Nvidia_CUDA_Logo.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+  </div>
+  <div class="content">
+    <h1>CUDA</h1>
+    <p><b>CUDA</b> is an encyclopedia entry in the <b>Game engines</b> collection.</p>
+    <p>CUDA is a proprietary parallel computing platform and application programming interface (API) developed by Nvidia that allows software to use certain types of graphics processing units (GPUs) for accelerated general-purpose processing, significantly broadening their utility in artificial intelligence, scientific and high-performance computing. CUDA was created in 2004 and was officially released in 2007. When introduced, the name was an acronym for Compute Unified Device Architecture, but Nvidia later dropped the initial meaning of the acronym and now rarely expands it.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Nvidia_CUDA_Logo.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="CUDA"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/5/59/CUDA_processing_flow_%28En%29.PNG?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="CUDA processing flow (En).PNG"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Nvidia_CUDA_Logo.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Nvidia CUDA Logo.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>CUDA ( Compute Unified Device Architecture ) is a proprietary parallel computing platform and application programming interface (API) developed by Nvidia that allows software to use certain types of graphics processing units (GPUs) for accelerated general-purpose processing, significantly broadening their utility in artificial intelligence , scientific and high-performance computing . CUDA was created in 2004 and was officially released in 2007. When introduced, the name was an acronym for Compute Unified Device Architecture , but Nvidia later dropped the initial meaning of the acronym and now rarely expands it. CUDA is both a software layer that manages data, giving direct access to the GPU and CPU as necessary, and a library of APIs that enable parallel computation. In addition to drivers and runtime kernels , the CUDA platform includes compilers, libraries and developer tools to help programmers. CUDA is written in the C programming language, but is designed to work with other programming languages including C++ , Fortran , Python and Julia . This accessibility makes it easier for specialists in parallel programming to use GPU resources, in contrast to prior APIs like Direct3D and OpenGL , which require advanced skills in graphics programming. CUDA-powered GPUs support programming frameworks such as OpenMP , OpenACC and OpenCL .</p>
+    <hr>
+    <h2>Graphics processing unit</h2>
+    <p>The graphics processing unit (GPU) is a specialized processor. It addresses the demands of real-time high-resolution, compute-intensive tasks such as 3D graphics . By 2012, GPUs had evolved into highly parallel multi-core systems allowing efficient manipulation of large blocks of data . This design is more effective than general-purpose central processing unit (CPUs) for algorithms in situations where processing large blocks of data is done in parallel, such as:</p>
+    <hr>
+    <h2>History</h2>
+    <p>CUDA traces to the early 2000s, when Ian Buck , a computer science PhD student at Stanford University , began experimenting with using GPUs for purposes beyond rendering graphics. Buck had become interested in GPUs during his undergraduate studies at Princeton University , initially through video gaming . After graduation, he interned at Nvidia, gaining deeper exposure to GPU architecture. At Stanford, he built an 8K gaming rig using 32 GeForce graphics cards, originally to push the limits of graphics performance in games like Quake and Doom . However, his interests shifted toward exploring the potential of GPUs for general-purpose parallel computing . To that end, Buck developed Brook , a programming language designed to enable general-purpose computing on GPUs. His work attracted support from Nvidia and the Defense Advanced Research Projects Agency (DARPA). In 2004, Nvidia hired Buck and paired him with John Nickolls, then director of architecture for GPU computing. Together, they began transforming Brook into CUDA. CUDA was officially released in 2007. CUDA became central to the company&#x27;s strategy of positioning GPUs as versatile hardware for scientific applications. By 2015, CUDA&#x27;s development increasingly focused on accelerating machine learning and artificial neural network workloads.</p>
+    <hr>
+    <h2>Programming abilities</h2>
+    <p>The CUDA platform is accessible to software developers through CUDA-accelerated libraries, compiler directives such as OpenACC , and extensions to industry-standard programming languages including C , C++ , Fortran and Python . C/C++ programmers can use &#x27;CUDA C/C++&#x27;, compiled to PTX with nvcc (Nvidia&#x27;s LLVM -based C/C++ compiler) or by clang itself. Fortran programmers can use &#x27;CUDA Fortran&#x27;, compiled with the PGI CUDA Fortran compiler from The Portland Group . Python programmers can use the cuPyNumeric library to accelerate applications on Nvidia GPUs. In addition to libraries, compiler directives, CUDA C/C++ and CUDA Fortran, the CUDA platform supports other computational interfaces, including the Khronos Group &#x27;s OpenCL , Microsoft&#x27;s DirectCompute , OpenGL Compute Shader and C++ AMP . Third party wrappers are also available for Python , Perl , Fortran, Java , Ruby , Lua , Common Lisp , Haskell , R , MATLAB , IDL , Julia , and native support in Mathematica . In the computer game industry, GPUs are used for graphics rendering, and for game physics calculations (physical effects such as debris, smoke, fire, fluids); examples include PhysX and Bullet . CUDA has also been used to accelerate non-graphical applications in computational biology , cryptography and other fields by an order of magnitude or more. CUDA provides both a low level API (CUDA Driver API, non single-source) an</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Jungle_Rumble.html">Jungle Rumble</a></li>
+      <li><a href="The_Sly_Collection.html">The Sly Collection</a></li>
+      <li><a href="I_Hate_Running_Backwards.html">I Hate Running Backwards</a></li>
+      <li><a href="Scorn_video_game.html">Scorn (video game)</a></li>
+      <li><a href="Gameloft_Barcelona.html">Gameloft Barcelona</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/CUDA">Wikimedia article</a></small></p>
+    <p><i>Last edited: August 31, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

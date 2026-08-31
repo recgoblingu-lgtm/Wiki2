@@ -12063,13 +12063,2982 @@
       "category": "Game engines",
       "source": "https://en.wikipedia.org/wiki/Id_Tech_5",
       "generated_at": "2026-08-31T12:41:41+00:00"
+    },
+    {
+      "title": "Corvette (computer)",
+      "filename": "Corvette_computer.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Corvette_(computer)",
+      "generated_at": "2026-08-31T14:29:41+00:00"
+    },
+    {
+      "title": "Apple TV (device)",
+      "filename": "Apple_TV_device.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Apple_TV_(device)",
+      "generated_at": "2026-08-31T14:29:45+00:00"
+    },
+    {
+      "title": "FIFA 07",
+      "filename": "FIFA_07.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_07",
+      "generated_at": "2026-08-31T14:29:48+00:00"
+    },
+    {
+      "title": "280 ZZZAP",
+      "filename": "280_ZZZAP.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/280_ZZZAP",
+      "generated_at": "2026-08-31T14:29:52+00:00"
+    },
+    {
+      "title": "FTX Games",
+      "filename": "FTX_Games.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/FTX_Games",
+      "generated_at": "2026-08-31T14:29:55+00:00"
+    },
+    {
+      "title": "Directive 8020",
+      "filename": "Directive_8020.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Directive_8020",
+      "generated_at": "2026-08-31T14:29:59+00:00"
+    },
+    {
+      "title": "Game Dev Tycoon",
+      "filename": "Game_Dev_Tycoon.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Game_Dev_Tycoon",
+      "generated_at": "2026-08-31T14:30:04+00:00"
+    },
+    {
+      "title": "Hackmud",
+      "filename": "Hackmud.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Hackmud",
+      "generated_at": "2026-08-31T14:30:08+00:00"
+    },
+    {
+      "title": "I Am Your Beast",
+      "filename": "I_Am_Your_Beast.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/I_Am_Your_Beast",
+      "generated_at": "2026-08-31T14:30:10+00:00"
+    },
+    {
+      "title": "Box2D",
+      "filename": "Box2D.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Box2D",
+      "generated_at": "2026-08-31T14:30:15+00:00"
+    },
+    {
+      "title": "Desktop computer",
+      "filename": "Desktop_computer.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Desktop_computer",
+      "generated_at": "2026-08-31T14:30:19+00:00"
+    },
+    {
+      "title": "Coocaa",
+      "filename": "Coocaa.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Coocaa",
+      "generated_at": "2026-08-31T14:30:22+00:00"
+    },
+    {
+      "title": "Counter-Strike surfing",
+      "filename": "Counter_Strike_surfing.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Counter-Strike_surfing",
+      "generated_at": "2026-08-31T14:30:26+00:00"
+    },
+    {
+      "title": "Art of Fighting (video game)",
+      "filename": "Art_of_Fighting_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Art_of_Fighting_(video_game)",
+      "generated_at": "2026-08-31T14:30:29+00:00"
+    },
+    {
+      "title": "Shell Shockers",
+      "filename": "Shell_Shockers.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Shell_Shockers",
+      "generated_at": "2026-08-31T14:30:32+00:00"
+    },
+    {
+      "title": "Last Year (video game)",
+      "filename": "Last_Year_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Last_Year_(video_game)",
+      "generated_at": "2026-08-31T14:30:35+00:00"
+    },
+    {
+      "title": "Jumplight Odyssey",
+      "filename": "Jumplight_Odyssey.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Jumplight_Odyssey",
+      "generated_at": "2026-08-31T14:30:39+00:00"
+    },
+    {
+      "title": "Life Eater",
+      "filename": "Life_Eater.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Life_Eater",
+      "generated_at": "2026-08-31T14:30:42+00:00"
+    },
+    {
+      "title": "Mega Dead Pixel",
+      "filename": "Mega_Dead_Pixel.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Mega_Dead_Pixel",
+      "generated_at": "2026-08-31T14:30:45+00:00"
+    },
+    {
+      "title": "Id Tech 6",
+      "filename": "Id_Tech_6.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Id_Tech_6",
+      "generated_at": "2026-08-31T14:30:48+00:00"
+    },
+    {
+      "title": "Durango F-85",
+      "filename": "Durango_F_85.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Durango_F-85",
+      "generated_at": "2026-08-31T14:30:51+00:00"
+    },
+    {
+      "title": "Google TV (2010–2014)",
+      "filename": "Google_TV_2010_2014.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Google_TV_(2010%E2%80%932014)",
+      "generated_at": "2026-08-31T14:30:55+00:00"
+    },
+    {
+      "title": "FIFA 08",
+      "filename": "FIFA_08.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_08",
+      "generated_at": "2026-08-31T14:30:57+00:00"
+    },
+    {
+      "title": "Big Buck Hunter",
+      "filename": "Big_Buck_Hunter.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Big_Buck_Hunter",
+      "generated_at": "2026-08-31T14:31:00+00:00"
+    },
+    {
+      "title": "FunPlus",
+      "filename": "FunPlus.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/FunPlus",
+      "generated_at": "2026-08-31T14:31:03+00:00"
+    },
+    {
+      "title": "The Forest (video game)",
+      "filename": "The_Forest_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/The_Forest_(video_game)",
+      "generated_at": "2026-08-31T14:31:07+00:00"
+    },
+    {
+      "title": "Moving Out 2",
+      "filename": "Moving_Out_2.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Moving_Out_2",
+      "generated_at": "2026-08-31T14:31:12+00:00"
+    },
+    {
+      "title": "Prince of Persia Trilogy",
+      "filename": "Prince_of_Persia_Trilogy.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Prince_of_Persia",
+      "generated_at": "2026-08-31T14:31:15+00:00"
+    },
+    {
+      "title": "Oblitus mortis",
+      "filename": "Oblitus_mortis.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Oblitus_mortis",
+      "generated_at": "2026-08-31T14:31:18+00:00"
+    },
+    {
+      "title": "Bullet (software)",
+      "filename": "Bullet_software.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Bullet_(software)",
+      "generated_at": "2026-08-31T14:31:21+00:00"
+    },
+    {
+      "title": "ENER 1000",
+      "filename": "ENER_1000.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/ENER_1000",
+      "generated_at": "2026-08-31T14:31:25+00:00"
+    },
+    {
+      "title": "LG L9",
+      "filename": "LG_L9.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/LG_L9",
+      "generated_at": "2026-08-31T14:31:28+00:00"
+    },
+    {
+      "title": "Counterstrike the Mp3",
+      "filename": "Counterstrike_the_Mp3.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/List_of_songs_recorded_by_Basshunter",
+      "generated_at": "2026-08-31T14:31:32+00:00"
+    },
+    {
+      "title": "Capcom Fighting Evolution",
+      "filename": "Capcom_Fighting_Evolution.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Capcom_Fighting_Evolution",
+      "generated_at": "2026-08-31T14:31:35+00:00"
+    },
+    {
+      "title": "Shenmue City",
+      "filename": "Shenmue_City.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Shenmue_City",
+      "generated_at": "2026-08-31T14:31:38+00:00"
+    },
+    {
+      "title": "Lit (video game)",
+      "filename": "Lit_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Lit_(video_game)",
+      "generated_at": "2026-08-31T14:31:40+00:00"
+    },
+    {
+      "title": "Pastry Panic",
+      "filename": "Pastry_Panic.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Pastry_Panic",
+      "generated_at": "2026-08-31T14:31:44+00:00"
+    },
+    {
+      "title": "Push Panic",
+      "filename": "Push_Panic.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Push_Panic",
+      "generated_at": "2026-08-31T14:31:47+00:00"
+    },
+    {
+      "title": "Rue Valley",
+      "filename": "Rue_Valley.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Rue_Valley",
+      "generated_at": "2026-08-31T14:31:49+00:00"
+    },
+    {
+      "title": "Id Tech 7",
+      "filename": "Id_Tech_7.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Id_Tech_7",
+      "generated_at": "2026-08-31T14:31:52+00:00"
+    },
+    {
+      "title": "Epson QX-10",
+      "filename": "Epson_QX_10.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Epson_QX-10",
+      "generated_at": "2026-08-31T14:31:56+00:00"
+    },
+    {
+      "title": "Megogo",
+      "filename": "Megogo.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Megogo",
+      "generated_at": "2026-08-31T14:31:59+00:00"
+    },
+    {
+      "title": "FIFA 09",
+      "filename": "FIFA_09.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_09",
+      "generated_at": "2026-08-31T14:32:02+00:00"
+    },
+    {
+      "title": "Cruis'n Exotica",
+      "filename": "Cruis_n_Exotica.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Cruis'n_Exotica",
+      "generated_at": "2026-08-31T14:32:04+00:00"
+    },
+    {
+      "title": "G-Mode",
+      "filename": "G_Mode.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/G-Mode",
+      "generated_at": "2026-08-31T14:32:08+00:00"
+    },
+    {
+      "title": "Inside (video game)",
+      "filename": "Inside_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Inside_(video_game)",
+      "generated_at": "2026-08-31T14:32:12+00:00"
+    },
+    {
+      "title": "Shelter (video game)",
+      "filename": "Shelter_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Shelter_(video_game)",
+      "generated_at": "2026-08-31T14:32:16+00:00"
+    },
+    {
+      "title": "Spark the Electric Jester 2",
+      "filename": "Spark_the_Electric_Jester_2.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Spark_the_Electric_Jester_2",
+      "generated_at": "2026-08-31T14:32:19+00:00"
+    },
+    {
+      "title": "Super Crate Box",
+      "filename": "Super_Crate_Box.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Super_Crate_Box",
+      "generated_at": "2026-08-31T14:32:21+00:00"
+    },
+    {
+      "title": "Cannon.js",
+      "filename": "Cannon_js.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Cannon.js",
+      "generated_at": "2026-08-31T14:32:25+00:00"
+    },
+    {
+      "title": "EVO Smart Console",
+      "filename": "EVO_Smart_Console.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/EVO_Smart_Console",
+      "generated_at": "2026-08-31T14:32:29+00:00"
+    },
+    {
+      "title": "NetCast",
+      "filename": "NetCast.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/NetCast",
+      "generated_at": "2026-08-31T14:32:32+00:00"
+    },
+    {
+      "title": "CS.Money",
+      "filename": "CS_Money.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/CS.Money",
+      "generated_at": "2026-08-31T14:32:36+00:00"
+    },
+    {
+      "title": "DJ Boy",
+      "filename": "DJ_Boy.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/DJ_Boy",
+      "generated_at": "2026-08-31T14:32:38+00:00"
+    },
+    {
+      "title": "Shrek 2 (video game)",
+      "filename": "Shrek_2_video_game.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Shrek_2_(video_game)",
+      "generated_at": "2026-08-31T14:32:41+00:00"
+    },
+    {
+      "title": "Little Goody Two Shoes (video game)",
+      "filename": "Little_Goody_Two_Shoes_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Little_Goody_Two_Shoes_(video_game)",
+      "generated_at": "2026-08-31T14:32:44+00:00"
+    },
+    {
+      "title": "Timespinner",
+      "filename": "Timespinner.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Timespinner",
+      "generated_at": "2026-08-31T14:32:47+00:00"
+    },
+    {
+      "title": "Urban Myth Dissolution Center",
+      "filename": "Urban_Myth_Dissolution_Center.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Urban_Myth_Dissolution_Center",
+      "generated_at": "2026-08-31T14:32:50+00:00"
+    },
+    {
+      "title": "Windblown",
+      "filename": "Windblown.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Windblown",
+      "generated_at": "2026-08-31T14:32:54+00:00"
+    },
+    {
+      "title": "Ignite (game engine)",
+      "filename": "Ignite_game_engine.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Ignite_(game_engine)",
+      "generated_at": "2026-08-31T14:32:57+00:00"
+    },
+    {
+      "title": "FM-11",
+      "filename": "FM_11.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/FM-11",
+      "generated_at": "2026-08-31T14:33:01+00:00"
+    },
+    {
+      "title": "Playworks Digital",
+      "filename": "Playworks_Digital.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Playworks_Digital",
+      "generated_at": "2026-08-31T14:33:04+00:00"
+    },
+    {
+      "title": "FIFA 10",
+      "filename": "FIFA_10.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_10",
+      "generated_at": "2026-08-31T14:33:07+00:00"
+    },
+    {
+      "title": "Fatal Fury 2",
+      "filename": "Fatal_Fury_2.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Fatal_Fury_2",
+      "generated_at": "2026-08-31T14:33:10+00:00"
+    },
+    {
+      "title": "GameHouse",
+      "filename": "GameHouse.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/GameHouse",
+      "generated_at": "2026-08-31T14:33:13+00:00"
+    },
+    {
+      "title": "Look Outside",
+      "filename": "Look_Outside.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Look_Outside",
+      "generated_at": "2026-08-31T14:33:17+00:00"
+    },
+    {
+      "title": "1000 Tiny Claws",
+      "filename": "1000_Tiny_Claws.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/1000_Tiny_Claws",
+      "generated_at": "2026-08-31T14:33:21+00:00"
+    },
+    {
+      "title": "Silicon Dreams",
+      "filename": "Silicon_Dreams.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Silicon_Dreams",
+      "generated_at": "2026-08-31T14:33:25+00:00"
+    },
+    {
+      "title": "And Yet It Moves",
+      "filename": "And_Yet_It_Moves.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/And_Yet_It_Moves",
+      "generated_at": "2026-08-31T14:33:28+00:00"
+    },
+    {
+      "title": "Chipmunk (software)",
+      "filename": "Chipmunk_software.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Chipmunk_(software)",
+      "generated_at": "2026-08-31T14:33:32+00:00"
+    },
+    {
+      "title": "Fujitsu Micro 16s",
+      "filename": "Fujitsu_Micro_16s.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Fujitsu_Micro_16s",
+      "generated_at": "2026-08-31T14:33:36+00:00"
+    },
+    {
+      "title": "Redmi",
+      "filename": "Redmi.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Redmi",
+      "generated_at": "2026-08-31T14:33:39+00:00"
+    },
+    {
+      "title": "GotFrag",
+      "filename": "GotFrag.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/GotFrag",
+      "generated_at": "2026-08-31T14:33:44+00:00"
+    },
+    {
+      "title": "Giga Wing 2",
+      "filename": "Giga_Wing_2.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Giga_Wing_2",
+      "generated_at": "2026-08-31T14:33:46+00:00"
+    },
+    {
+      "title": "Space Manbow",
+      "filename": "Space_Manbow.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Space_Manbow",
+      "generated_at": "2026-08-31T14:33:49+00:00"
+    },
+    {
+      "title": "Lobotomy Corporation",
+      "filename": "Lobotomy_Corporation.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Lobotomy_Corporation",
+      "generated_at": "2026-08-31T14:33:52+00:00"
+    },
+    {
+      "title": "The Battle Cats Unite!",
+      "filename": "The_Battle_Cats_Unite.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Battle_Cats",
+      "generated_at": "2026-08-31T14:33:55+00:00"
+    },
+    {
+      "title": "Botany Manor",
+      "filename": "Botany_Manor.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Botany_Manor",
+      "generated_at": "2026-08-31T14:33:59+00:00"
+    },
+    {
+      "title": "ChronoBlade",
+      "filename": "ChronoBlade.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/ChronoBlade",
+      "generated_at": "2026-08-31T14:34:01+00:00"
+    },
+    {
+      "title": "Infinity Engine",
+      "filename": "Infinity_Engine.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Infinity_Engine",
+      "generated_at": "2026-08-31T14:34:04+00:00"
+    },
+    {
+      "title": "Galeb (computer)",
+      "filename": "Galeb_computer.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Galeb_(computer)",
+      "generated_at": "2026-08-31T14:34:07+00:00"
+    },
+    {
+      "title": "Sweet.tv",
+      "filename": "Sweet_tv.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Sweet.tv",
+      "generated_at": "2026-08-31T14:34:11+00:00"
+    },
+    {
+      "title": "FIFA 11",
+      "filename": "FIFA_11.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_11",
+      "generated_at": "2026-08-31T14:34:13+00:00"
+    },
+    {
+      "title": "Holosseum",
+      "filename": "Holosseum.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Holosseum",
+      "generated_at": "2026-08-31T14:34:16+00:00"
+    },
+    {
+      "title": "Gameloft",
+      "filename": "Gameloft.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Gameloft",
+      "generated_at": "2026-08-31T14:34:20+00:00"
+    },
+    {
+      "title": "Reanimal",
+      "filename": "Reanimal.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Reanimal",
+      "generated_at": "2026-08-31T14:34:24+00:00"
+    },
+    {
+      "title": "Curses 'N Chaos",
+      "filename": "Curses_N_Chaos.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Curses_'N_Chaos",
+      "generated_at": "2026-08-31T14:34:28+00:00"
+    },
+    {
+      "title": "Disc Room",
+      "filename": "Disc_Room.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Disc_Room",
+      "generated_at": "2026-08-31T14:34:31+00:00"
+    },
+    {
+      "title": "Easy Delivery Co.",
+      "filename": "Easy_Delivery_Co.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Easy_Delivery_Co.",
+      "generated_at": "2026-08-31T14:34:33+00:00"
+    },
+    {
+      "title": "Collision detection",
+      "filename": "Collision_detection.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Collision_detection",
+      "generated_at": "2026-08-31T14:34:37+00:00"
+    },
+    {
+      "title": "Graphical user interface",
+      "filename": "Graphical_user_interface.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Graphical_user_interface",
+      "generated_at": "2026-08-31T14:34:41+00:00"
+    },
+    {
+      "title": "Vision+",
+      "filename": "Vision.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Vision%2B",
+      "generated_at": "2026-08-31T14:34:45+00:00"
+    },
+    {
+      "title": "Gun Game",
+      "filename": "Gun_Game.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Gun_Game",
+      "generated_at": "2026-08-31T14:34:49+00:00"
+    },
+    {
+      "title": "The King of Fighters '96",
+      "filename": "The_King_of_Fighters_96.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/The_King_of_Fighters_'96",
+      "generated_at": "2026-08-31T14:34:51+00:00"
+    },
+    {
+      "title": "Speed Busters",
+      "filename": "Speed_Busters.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Speed_Busters",
+      "generated_at": "2026-08-31T14:34:54+00:00"
+    },
+    {
+      "title": "The Lost (video game)",
+      "filename": "The_Lost_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/The_Lost_(video_game)",
+      "generated_at": "2026-08-31T14:34:57+00:00"
+    },
+    {
+      "title": "Fear & Hunger",
+      "filename": "Fear_Hunger.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Fear_%26_Hunger",
+      "generated_at": "2026-08-31T14:35:01+00:00"
+    },
+    {
+      "title": "Game of Thrones (2014 video game)",
+      "filename": "Game_of_Thrones_2014_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Game_of_Thrones_(2014_video_game)",
+      "generated_at": "2026-08-31T14:35:04+00:00"
+    },
+    {
+      "title": "Hackycat",
+      "filename": "Hackycat.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Hackycat",
+      "generated_at": "2026-08-31T14:35:07+00:00"
+    },
+    {
+      "title": "Irrlicht Engine",
+      "filename": "Irrlicht_Engine.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Irrlicht_Engine",
+      "generated_at": "2026-08-31T14:35:10+00:00"
+    },
+    {
+      "title": "History of personal computers",
+      "filename": "History_of_personal_computers.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/History_of_personal_computers",
+      "generated_at": "2026-08-31T14:35:14+00:00"
+    },
+    {
+      "title": "WebOS",
+      "filename": "WebOS.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/WebOS",
+      "generated_at": "2026-08-31T14:35:18+00:00"
+    },
+    {
+      "title": "FIFA Football 2005",
+      "filename": "FIFA_Football_2005.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_Football_2005",
+      "generated_at": "2026-08-31T14:35:20+00:00"
+    },
+    {
+      "title": "Magic Johnson's Fast Break",
+      "filename": "Magic_Johnson_s_Fast_Break.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Magic_Johnson's_Fast_Break",
+      "generated_at": "2026-08-31T14:35:23+00:00"
+    },
+    {
+      "title": "Gameloft Barcelona",
+      "filename": "Gameloft_Barcelona.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Gameloft_Barcelona",
+      "generated_at": "2026-08-31T14:35:27+00:00"
+    },
+    {
+      "title": "Scorn (video game)",
+      "filename": "Scorn_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Scorn_(video_game)",
+      "generated_at": "2026-08-31T14:35:30+00:00"
+    },
+    {
+      "title": "I Hate Running Backwards",
+      "filename": "I_Hate_Running_Backwards.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/I_Hate_Running_Backwards",
+      "generated_at": "2026-08-31T14:35:34+00:00"
+    },
+    {
+      "title": "The Sly Collection",
+      "filename": "The_Sly_Collection.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Sly_Cooper",
+      "generated_at": "2026-08-31T14:35:37+00:00"
+    },
+    {
+      "title": "Jungle Rumble",
+      "filename": "Jungle_Rumble.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Jungle_Rumble",
+      "generated_at": "2026-08-31T14:35:40+00:00"
+    },
+    {
+      "title": "CUDA",
+      "filename": "CUDA.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/CUDA",
+      "generated_at": "2026-08-31T14:35:44+00:00"
+    },
+    {
+      "title": "History of tablet computers",
+      "filename": "History_of_tablet_computers.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/History_of_tablet_computers",
+      "generated_at": "2026-08-31T14:35:48+00:00"
+    },
+    {
+      "title": "Motovlog",
+      "filename": "Motovlog.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Motovlog",
+      "generated_at": "2026-08-31T14:35:51+00:00"
+    },
+    {
+      "title": "HLTV",
+      "filename": "HLTV.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/HLTV",
+      "generated_at": "2026-08-31T14:35:55+00:00"
+    },
+    {
+      "title": "Mortal Kombat (1992 video game)",
+      "filename": "Mortal_Kombat_1992_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Mortal_Kombat_(1992_video_game)",
+      "generated_at": "2026-08-31T14:35:58+00:00"
+    },
+    {
+      "title": "The SpongeBob SquarePants Movie (video game)",
+      "filename": "The_SpongeBob_SquarePants_Movie_video_game.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/The_SpongeBob_SquarePants_Movie_(video_game)",
+      "generated_at": "2026-08-31T14:36:01+00:00"
+    },
+    {
+      "title": "Lust for Darkness",
+      "filename": "Lust_for_Darkness.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Lust_for_Darkness",
+      "generated_at": "2026-08-31T14:36:03+00:00"
+    },
+    {
+      "title": "Life in Bunker",
+      "filename": "Life_in_Bunker.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Life_in_Bunker",
+      "generated_at": "2026-08-31T14:36:07+00:00"
+    },
+    {
+      "title": "Megabonk",
+      "filename": "Megabonk.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Megabonk",
+      "generated_at": "2026-08-31T14:36:10+00:00"
+    },
+    {
+      "title": "Ms. Splosion Man",
+      "filename": "Ms_Splosion_Man.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Ms._Splosion_Man",
+      "generated_at": "2026-08-31T14:36:12+00:00"
+    },
+    {
+      "title": "IW (game engine)",
+      "filename": "IW_game_engine.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Infinity_Ward",
+      "generated_at": "2026-08-31T14:36:15+00:00"
+    },
+    {
+      "title": "Holborn 9100",
+      "filename": "Holborn_9100.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Holborn_9100",
+      "generated_at": "2026-08-31T14:36:19+00:00"
+    },
+    {
+      "title": "Vlog",
+      "filename": "Vlog.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Vlog",
+      "generated_at": "2026-08-31T14:36:22+00:00"
+    },
+    {
+      "title": "Fortnite Battle Royale",
+      "filename": "Fortnite_Battle_Royale.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Fortnite_Battle_Royale",
+      "generated_at": "2026-08-31T14:36:25+00:00"
+    },
+    {
+      "title": "Oretachi Gēsen Zoku",
+      "filename": "Oretachi_G_sen_Zoku.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Oretachi_G%C4%93sen_Zoku",
+      "generated_at": "2026-08-31T14:36:28+00:00"
+    },
+    {
+      "title": "Gameloft Montreal",
+      "filename": "Gameloft_Montreal.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Gameloft_Montreal",
+      "generated_at": "2026-08-31T14:36:31+00:00"
+    },
+    {
+      "title": "Soma (video game)",
+      "filename": "Soma_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Soma_(video_game)",
+      "generated_at": "2026-08-31T14:36:36+00:00"
+    },
+    {
+      "title": "Observation (video game)",
+      "filename": "Observation_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Observation_(video_game)",
+      "generated_at": "2026-08-31T14:36:39+00:00"
+    },
+    {
+      "title": "The Path of Motus",
+      "filename": "The_Path_of_Motus.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Path_of_Motus",
+      "generated_at": "2026-08-31T14:36:42+00:00"
+    },
+    {
+      "title": "Puzzle Agent",
+      "filename": "Puzzle_Agent.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Puzzle_Agent",
+      "generated_at": "2026-08-31T14:36:45+00:00"
+    },
+    {
+      "title": "Dynamical simulation",
+      "filename": "Dynamical_simulation.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Dynamical_simulation",
+      "generated_at": "2026-08-31T14:36:49+00:00"
+    },
+    {
+      "title": "Home theater PC",
+      "filename": "Home_theater_PC.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Home_theater_PC",
+      "generated_at": "2026-08-31T14:36:53+00:00"
+    },
+    {
+      "title": "Acquisition of DirecTV by AT&T",
+      "filename": "Acquisition_of_DirecTV_by_AT_T.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Acquisition_of_DirecTV_by_AT%26T",
+      "generated_at": "2026-08-31T14:36:56+00:00"
+    },
+    {
+      "title": "Basshunter Dota Revival",
+      "filename": "Basshunter_Dota_Revival.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Dota%3A_Dragon's_Blood",
+      "generated_at": "2026-08-31T14:37:00+00:00"
+    },
+    {
+      "title": "Power Stone 2",
+      "filename": "Power_Stone_2.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Power_Stone_2",
+      "generated_at": "2026-08-31T14:37:03+00:00"
+    },
+    {
+      "title": "Sugoi Hebereke",
+      "filename": "Sugoi_Hebereke.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Sugoi_Hebereke",
+      "generated_at": "2026-08-31T14:37:06+00:00"
+    },
+    {
+      "title": "Lust from Beyond",
+      "filename": "Lust_from_Beyond.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Lust_from_Beyond",
+      "generated_at": "2026-08-31T14:37:08+00:00"
+    },
+    {
+      "title": "Ruffy and the Riverside",
+      "filename": "Ruffy_and_the_Riverside.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Ruffy_and_the_Riverside",
+      "generated_at": "2026-08-31T14:37:12+00:00"
+    },
+    {
+      "title": "Shenzhen I/O",
+      "filename": "Shenzhen_I_O.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Shenzhen_I%2FO",
+      "generated_at": "2026-08-31T14:37:15+00:00"
+    },
+    {
+      "title": "Spectromancer",
+      "filename": "Spectromancer.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Spectromancer",
+      "generated_at": "2026-08-31T14:37:17+00:00"
+    },
+    {
+      "title": "Jedi (game engine)",
+      "filename": "Jedi_game_engine.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Jedi_(game_engine)",
+      "generated_at": "2026-08-31T14:37:20+00:00"
+    },
+    {
+      "title": "Homebuilt computer",
+      "filename": "Homebuilt_computer.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Homebuilt_computer",
+      "generated_at": "2026-08-31T14:37:23+00:00"
+    },
+    {
+      "title": "Babelgum",
+      "filename": "Babelgum.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Babelgum",
+      "generated_at": "2026-08-31T14:37:27+00:00"
+    },
+    {
+      "title": "Forza Motorsport 2",
+      "filename": "Forza_Motorsport_2.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Forza_Motorsport_2",
+      "generated_at": "2026-08-31T14:37:30+00:00"
+    },
+    {
+      "title": "Rastan Saga",
+      "filename": "Rastan_Saga.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Rastan_Saga",
+      "generated_at": "2026-08-31T14:37:32+00:00"
+    },
+    {
+      "title": "Glu Mobile",
+      "filename": "Glu_Mobile.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Glu_Mobile",
+      "generated_at": "2026-08-31T14:37:36+00:00"
+    },
+    {
+      "title": "Sons of the Forest",
+      "filename": "Sons_of_the_Forest.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Sons_of_the_Forest",
+      "generated_at": "2026-08-31T14:37:40+00:00"
+    },
+    {
+      "title": "Super Crazy Rhythm Castle",
+      "filename": "Super_Crazy_Rhythm_Castle.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Super_Crazy_Rhythm_Castle",
+      "generated_at": "2026-08-31T14:37:43+00:00"
+    },
+    {
+      "title": "Spyro Reignited Trilogy",
+      "filename": "Spyro_Reignited_Trilogy.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Spyro_Reignited_Trilogy",
+      "generated_at": "2026-08-31T14:37:47+00:00"
+    },
+    {
+      "title": "Tiny & Big in Grandpa's Leftovers",
+      "filename": "Tiny_Big_in_Grandpa_s_Leftovers.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Tiny_%26_Big_in_Grandpa's_Leftovers",
+      "generated_at": "2026-08-31T14:37:50+00:00"
+    },
+    {
+      "title": "Dynamical system simulation",
+      "filename": "Dynamical_system_simulation.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Dynamical_system_simulation",
+      "generated_at": "2026-08-31T14:37:54+00:00"
+    },
+    {
+      "title": "IMKO-1",
+      "filename": "IMKO_1.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/IMKO-1",
+      "generated_at": "2026-08-31T14:37:57+00:00"
+    },
+    {
+      "title": "Beeline (brand)",
+      "filename": "Beeline_brand.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Beeline_(brand)",
+      "generated_at": "2026-08-31T14:38:01+00:00"
+    },
+    {
+      "title": "DotA (song)",
+      "filename": "DotA_song.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Vi_sitter_i_Ventrilo_och_spelar_DotA",
+      "generated_at": "2026-08-31T14:38:04+00:00"
+    },
+    {
+      "title": "Scramble Formation",
+      "filename": "Scramble_Formation.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Scramble_Formation",
+      "generated_at": "2026-08-31T14:38:07+00:00"
+    },
+    {
+      "title": "Maniac Mansion",
+      "filename": "Maniac_Mansion.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Maniac_Mansion",
+      "generated_at": "2026-08-31T14:38:10+00:00"
+    },
+    {
+      "title": "Still Wakes the Deep",
+      "filename": "Still_Wakes_the_Deep.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Still_Wakes_the_Deep",
+      "generated_at": "2026-08-31T14:38:14+00:00"
+    },
+    {
+      "title": "Use Your Words",
+      "filename": "Use_Your_Words.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Use_Your_Words",
+      "generated_at": "2026-08-31T14:38:18+00:00"
+    },
+    {
+      "title": "Windosill",
+      "filename": "Windosill.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Windosill",
+      "generated_at": "2026-08-31T14:38:22+00:00"
+    },
+    {
+      "title": "1000xResist",
+      "filename": "1000xResist.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/1000xResist",
+      "generated_at": "2026-08-31T14:38:24+00:00"
+    },
+    {
+      "title": "JMonkeyEngine",
+      "filename": "JMonkeyEngine.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/JMonkeyEngine",
+      "generated_at": "2026-08-31T14:38:27+00:00"
+    },
+    {
+      "title": "Industrial PC",
+      "filename": "Industrial_PC.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Industrial_PC",
+      "generated_at": "2026-08-31T14:38:31+00:00"
+    },
+    {
+      "title": "Boxee",
+      "filename": "Boxee.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Boxee",
+      "generated_at": "2026-08-31T14:38:34+00:00"
+    },
+    {
+      "title": "Genshin Impact",
+      "filename": "Genshin_Impact.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Genshin_Impact",
+      "generated_at": "2026-08-31T14:38:37+00:00"
+    },
+    {
+      "title": "Space Duel",
+      "filename": "Space_Duel.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Space_Duel",
+      "generated_at": "2026-08-31T14:38:40+00:00"
+    },
+    {
+      "title": "Grumpyface Studios",
+      "filename": "Grumpyface_Studios.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Grumpyface_Studios",
+      "generated_at": "2026-08-31T14:38:43+00:00"
+    },
+    {
+      "title": "MediEvil",
+      "filename": "MediEvil.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/MediEvil",
+      "generated_at": "2026-08-31T14:38:46+00:00"
+    },
+    {
+      "title": "Anger Foot",
+      "filename": "Anger_Foot.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Anger_Foot",
+      "generated_at": "2026-08-31T14:38:50+00:00"
+    },
+    {
+      "title": "The Battle Cats",
+      "filename": "The_Battle_Cats.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Battle_Cats",
+      "generated_at": "2026-08-31T14:38:53+00:00"
+    },
+    {
+      "title": "Bounden",
+      "filename": "Bounden.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Bounden",
+      "generated_at": "2026-08-31T14:38:56+00:00"
+    },
+    {
+      "title": "Endorphin (software)",
+      "filename": "Endorphin_software.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Endorphin_(software)",
+      "generated_at": "2026-08-31T14:38:59+00:00"
+    },
+    {
+      "title": "Intel Viiv",
+      "filename": "Intel_Viiv.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Intel_Viiv",
+      "generated_at": "2026-08-31T14:39:03+00:00"
+    },
+    {
+      "title": "CazéTV",
+      "filename": "Caz_TV.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Caz%C3%A9TV",
+      "generated_at": "2026-08-31T14:39:07+00:00"
+    },
+    {
+      "title": "DotA Allstars",
+      "filename": "DotA_Allstars.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Defense_of_the_Ancients",
+      "generated_at": "2026-08-31T14:39:10+00:00"
+    },
+    {
+      "title": "Strider 2 (1999 video game)",
+      "filename": "Strider_2_1999_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Strider_2_(1999_video_game)",
+      "generated_at": "2026-08-31T14:39:13+00:00"
+    },
+    {
+      "title": "The Thing (video game)",
+      "filename": "The_Thing_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/The_Thing_(video_game)",
+      "generated_at": "2026-08-31T14:39:17+00:00"
+    },
+    {
+      "title": "MediEvil (series)",
+      "filename": "MediEvil_series.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/MediEvil_(series)",
+      "generated_at": "2026-08-31T14:39:20+00:00"
+    },
+    {
+      "title": "Chronotron",
+      "filename": "Chronotron.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Chronotron",
+      "generated_at": "2026-08-31T14:39:24+00:00"
+    },
+    {
+      "title": "Cyber Shadow",
+      "filename": "Cyber_Shadow.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Cyber_Shadow",
+      "generated_at": "2026-08-31T14:39:27+00:00"
+    },
+    {
+      "title": "Disco Elysium",
+      "filename": "Disco_Elysium.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Disco_Elysium",
+      "generated_at": "2026-08-31T14:39:30+00:00"
+    },
+    {
+      "title": "Katana Engine",
+      "filename": "Katana_Engine.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Katana_Engine",
+      "generated_at": "2026-08-31T14:39:32+00:00"
+    },
+    {
+      "title": "Iskra-1030",
+      "filename": "Iskra_1030.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Iskra-1030",
+      "generated_at": "2026-08-31T14:39:36+00:00"
+    },
+    {
+      "title": "Clicker.com",
+      "filename": "Clicker_com.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Clicker.com",
+      "generated_at": "2026-08-31T14:39:40+00:00"
+    },
+    {
+      "title": "Goals (video game)",
+      "filename": "Goals_video_game.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Goals_(video_game)",
+      "generated_at": "2026-08-31T14:39:42+00:00"
+    },
+    {
+      "title": "Tekken 7",
+      "filename": "Tekken_7.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Tekken_7",
+      "generated_at": "2026-08-31T14:39:45+00:00"
+    },
+    {
+      "title": "Guild Software",
+      "filename": "Guild_Software.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Guild_Software",
+      "generated_at": "2026-08-31T14:39:49+00:00"
+    },
+    {
+      "title": "Who's Lila?",
+      "filename": "Who_s_Lila.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Who's_Lila%3F",
+      "generated_at": "2026-08-31T14:39:53+00:00"
+    },
+    {
+      "title": "Echo (2017 video game)",
+      "filename": "Echo_2017_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Echo_(2017_video_game)",
+      "generated_at": "2026-08-31T14:39:56+00:00"
+    },
+    {
+      "title": "Time and Magik",
+      "filename": "Time_and_Magik.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Time_and_Magik",
+      "generated_at": "2026-08-31T14:40:00+00:00"
+    },
+    {
+      "title": "Fear Effect Sedna",
+      "filename": "Fear_Effect_Sedna.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Fear_Effect_Sedna",
+      "generated_at": "2026-08-31T14:40:03+00:00"
+    },
+    {
+      "title": "Euphoria (software)",
+      "filename": "Euphoria_software.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Euphoria_(software)",
+      "generated_at": "2026-08-31T14:40:06+00:00"
+    },
+    {
+      "title": "Ivel Z3",
+      "filename": "Ivel_Z3.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Ivel_Z3",
+      "generated_at": "2026-08-31T14:40:10+00:00"
+    },
+    {
+      "title": "Digital5",
+      "filename": "Digital5.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Digital5",
+      "generated_at": "2026-08-31T14:40:13+00:00"
+    },
+    {
+      "title": "Free to Play (film)",
+      "filename": "Free_to_Play_film.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Free_to_Play_(film)",
+      "generated_at": "2026-08-31T14:40:17+00:00"
+    },
+    {
+      "title": "TwinBee Yahho!",
+      "filename": "TwinBee_Yahho.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/TwinBee_Yahho!",
+      "generated_at": "2026-08-31T14:40:20+00:00"
+    },
+    {
+      "title": "MediEvil 2",
+      "filename": "MediEvil_2.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/MediEvil_2",
+      "generated_at": "2026-08-31T14:40:24+00:00"
+    },
+    {
+      "title": "Winnie's Hole",
+      "filename": "Winnie_s_Hole.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Winnie's_Hole",
+      "generated_at": "2026-08-31T14:40:28+00:00"
+    },
+    {
+      "title": "Gamma Bros",
+      "filename": "Gamma_Bros.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Gamma_Bros",
+      "generated_at": "2026-08-31T14:40:31+00:00"
+    },
+    {
+      "title": "Hades (video game)",
+      "filename": "Hades_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Hades_(video_game)",
+      "generated_at": "2026-08-31T14:40:34+00:00"
+    },
+    {
+      "title": "I Maed a Gam3 w1th Z0mb1es 1n It!!!1",
+      "filename": "I_Maed_a_Gam3_w1th_Z0mb1es_1n_It_1.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/I_Maed_a_Gam3_w1th_Z0mb1es_1n_It!!!1",
+      "generated_at": "2026-08-31T14:40:37+00:00"
+    },
+    {
+      "title": "LayaBox",
+      "filename": "LayaBox.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/LayaBox",
+      "generated_at": "2026-08-31T14:40:40+00:00"
+    },
+    {
+      "title": "Kaypro",
+      "filename": "Kaypro.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Kaypro",
+      "generated_at": "2026-08-31T14:40:45+00:00"
+    },
+    {
+      "title": "Electronic sell-through",
+      "filename": "Electronic_sell_through.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Electronic_sell-through",
+      "generated_at": "2026-08-31T14:40:48+00:00"
+    },
+    {
+      "title": "Gran Turismo 7",
+      "filename": "Gran_Turismo_7.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Gran_Turismo_7",
+      "generated_at": "2026-08-31T14:40:50+00:00"
+    },
+    {
+      "title": "World Heroes 2",
+      "filename": "World_Heroes_2.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/World_Heroes_2",
+      "generated_at": "2026-08-31T14:40:54+00:00"
+    },
+    {
+      "title": "Hands-On Mobile",
+      "filename": "Hands_On_Mobile.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Hands-On_Mobile",
+      "generated_at": "2026-08-31T14:40:58+00:00"
+    },
+    {
+      "title": "Metro 2033 (video game)",
+      "filename": "Metro_2033_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Metro_2033_(video_game)",
+      "generated_at": "2026-08-31T14:41:01+00:00"
+    },
+    {
+      "title": "Juniper's Knot",
+      "filename": "Juniper_s_Knot.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Juniper's_Knot",
+      "generated_at": "2026-08-31T14:41:05+00:00"
+    },
+    {
+      "title": "Lifeless Planet",
+      "filename": "Lifeless_Planet.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Lifeless_Planet",
+      "generated_at": "2026-08-31T14:41:08+00:00"
+    },
+    {
+      "title": "Meme Run",
+      "filename": "Meme_Run.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Meme_Run",
+      "generated_at": "2026-08-31T14:41:10+00:00"
+    },
+    {
+      "title": "Game physics",
+      "filename": "Game_physics.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Game_physics",
+      "generated_at": "2026-08-31T14:41:14+00:00"
+    },
+    {
+      "title": "Laptop",
+      "filename": "Laptop.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Laptop",
+      "generated_at": "2026-08-31T14:41:18+00:00"
+    },
+    {
+      "title": "Free ad-supported streaming television",
+      "filename": "Free_ad_supported_streaming_television.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Free_ad-supported_streaming_television",
+      "generated_at": "2026-08-31T14:41:22+00:00"
+    },
+    {
+      "title": "OpenAI Five",
+      "filename": "OpenAI_Five.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/OpenAI_Five",
+      "generated_at": "2026-08-31T14:41:25+00:00"
+    },
+    {
+      "title": "720°",
+      "filename": "720.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/720%C2%B0",
+      "generated_at": "2026-08-31T14:41:28+00:00"
+    },
+    {
+      "title": "Zoochosis (video game)",
+      "filename": "Zoochosis_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Zoochosis_(video_game)",
+      "generated_at": "2026-08-31T14:41:33+00:00"
+    },
+    {
+      "title": "Mina the Hollower",
+      "filename": "Mina_the_Hollower.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Mina_the_Hollower",
+      "generated_at": "2026-08-31T14:41:36+00:00"
+    },
+    {
+      "title": "Mu Cartographer",
+      "filename": "Mu_Cartographer.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Mu_Cartographer",
+      "generated_at": "2026-08-31T14:41:39+00:00"
+    },
+    {
+      "title": "The Occupation",
+      "filename": "The_Occupation.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Occupation",
+      "generated_at": "2026-08-31T14:41:42+00:00"
+    },
+    {
+      "title": "The Path (video game)",
+      "filename": "The_Path_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Path_(video_game)",
+      "generated_at": "2026-08-31T14:41:45+00:00"
+    },
+    {
+      "title": "Leadwerks",
+      "filename": "Leadwerks.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Leadwerks",
+      "generated_at": "2026-08-31T14:41:48+00:00"
+    },
+    {
+      "title": "Legacy-free PC",
+      "filename": "Legacy_free_PC.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Legacy-free_PC",
+      "generated_at": "2026-08-31T14:41:51+00:00"
+    },
+    {
+      "title": "Funshion",
+      "filename": "Funshion.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Funshion",
+      "generated_at": "2026-08-31T14:41:55+00:00"
+    },
+    {
+      "title": "Gran Turismo Sport",
+      "filename": "Gran_Turismo_Sport.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Gran_Turismo_Sport",
+      "generated_at": "2026-08-31T14:41:57+00:00"
+    },
+    {
+      "title": "Art of Fighting 2",
+      "filename": "Art_of_Fighting_2.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Art_of_Fighting_2",
+      "generated_at": "2026-08-31T14:42:00+00:00"
+    },
+    {
+      "title": "Hexage",
+      "filename": "Hexage.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Hexage",
+      "generated_at": "2026-08-31T14:42:04+00:00"
+    },
+    {
+      "title": "Psychological horror",
+      "filename": "Psychological_horror.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Psychological_horror",
+      "generated_at": "2026-08-31T14:42:08+00:00"
+    },
+    {
+      "title": "Puzzle Agent 2",
+      "filename": "Puzzle_Agent_2.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Puzzle_Agent_2",
+      "generated_at": "2026-08-31T14:42:11+00:00"
+    },
+    {
+      "title": "Tomb Raider I–III Remastered",
+      "filename": "Tomb_Raider_I_III_Remastered.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Tomb_Raider_I%E2%80%93III_Remastered",
+      "generated_at": "2026-08-31T14:42:15+00:00"
+    },
+    {
+      "title": "Rules!",
+      "filename": "Rules.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Rules!",
+      "generated_at": "2026-08-31T14:42:18+00:00"
+    },
+    {
+      "title": "Meqon",
+      "filename": "Meqon.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Meqon",
+      "generated_at": "2026-08-31T14:42:21+00:00"
+    },
+    {
+      "title": "LUNA",
+      "filename": "LUNA.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/LUNA",
+      "generated_at": "2026-08-31T14:42:25+00:00"
+    },
+    {
+      "title": "Global Buddhist Network",
+      "filename": "Global_Buddhist_Network.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Global_Buddhist_Network",
+      "generated_at": "2026-08-31T14:42:29+00:00"
+    },
+    {
+      "title": "Vi sitter i Ventrilo och spelar DotA",
+      "filename": "Vi_sitter_i_Ventrilo_och_spelar_DotA.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Vi_sitter_i_Ventrilo_och_spelar_DotA",
+      "generated_at": "2026-08-31T14:42:33+00:00"
+    },
+    {
+      "title": "Big Event Golf",
+      "filename": "Big_Event_Golf.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Big_Event_Golf",
+      "generated_at": "2026-08-31T14:42:35+00:00"
+    },
+    {
+      "title": "Mondo Medicals",
+      "filename": "Mondo_Medicals.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Mondo_Medicals",
+      "generated_at": "2026-08-31T14:42:39+00:00"
+    },
+    {
+      "title": "Allison Road (video game)",
+      "filename": "Allison_Road_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Allison_Road_(video_game)",
+      "generated_at": "2026-08-31T14:42:43+00:00"
+    },
+    {
+      "title": "The Shivah",
+      "filename": "The_Shivah.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Shivah",
+      "generated_at": "2026-08-31T14:42:47+00:00"
+    },
+    {
+      "title": "SpeedRunners",
+      "filename": "SpeedRunners.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/SpeedRunners",
+      "generated_at": "2026-08-31T14:42:50+00:00"
+    },
+    {
+      "title": "Super Hexagon",
+      "filename": "Super_Hexagon.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Super_Hexagon",
+      "generated_at": "2026-08-31T14:42:52+00:00"
+    },
+    {
+      "title": "LibGDX",
+      "filename": "LibGDX.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/LibGDX",
+      "generated_at": "2026-08-31T14:42:55+00:00"
+    },
+    {
+      "title": "Market share of personal computer vendors",
+      "filename": "Market_share_of_personal_computer_vendors.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Market_share_of_personal_computer_vendors",
+      "generated_at": "2026-08-31T14:42:58+00:00"
+    },
+    {
+      "title": "Internet Cat Video Festival",
+      "filename": "Internet_Cat_Video_Festival.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Internet_Cat_Video_Festival",
+      "generated_at": "2026-08-31T14:43:02+00:00"
+    },
+    {
+      "title": "Granblue Fantasy Versus",
+      "filename": "Granblue_Fantasy_Versus.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Granblue_Fantasy_Versus",
+      "generated_at": "2026-08-31T14:43:04+00:00"
+    },
+    {
+      "title": "Capcom vs. SNK 2",
+      "filename": "Capcom_vs_SNK_2.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Capcom_vs._SNK_2",
+      "generated_at": "2026-08-31T14:43:07+00:00"
+    },
+    {
+      "title": "IGG Inc.",
+      "filename": "IGG_Inc.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/IGG_Inc.",
+      "generated_at": "2026-08-31T14:43:10+00:00"
+    },
+    {
+      "title": "Monster House (video game)",
+      "filename": "Monster_House_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Monster_House_(video_game)",
+      "generated_at": "2026-08-31T14:43:13+00:00"
+    },
+    {
+      "title": "The Tiny Bang Story",
+      "filename": "The_Tiny_Bang_Story.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Tiny_Bang_Story",
+      "generated_at": "2026-08-31T14:43:17+00:00"
+    },
+    {
+      "title": "VA-11 Hall-A",
+      "filename": "VA_11_Hall_A.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/VA-11_Hall-A",
+      "generated_at": "2026-08-31T14:43:20+00:00"
+    },
+    {
+      "title": "Wintermoor Tactics Club",
+      "filename": "Wintermoor_Tactics_Club.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Wintermoor_Tactics_Club",
+      "generated_at": "2026-08-31T14:43:24+00:00"
+    },
+    {
+      "title": "Newton Game Dynamics",
+      "filename": "Newton_Game_Dynamics.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Newton_Game_Dynamics",
+      "generated_at": "2026-08-31T14:43:27+00:00"
+    },
+    {
+      "title": "Merlin M4000",
+      "filename": "Merlin_M4000.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Merlin_M4000",
+      "generated_at": "2026-08-31T14:43:31+00:00"
+    },
+    {
+      "title": "Internet Video Coding",
+      "filename": "Internet_Video_Coding.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Internet_Video_Coding",
+      "generated_at": "2026-08-31T14:43:34+00:00"
+    },
+    {
+      "title": "FIFA 99",
+      "filename": "FIFA_99.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_99",
+      "generated_at": "2026-08-31T14:43:39+00:00"
+    },
+    {
+      "title": "Cruis'n USA",
+      "filename": "Cruis_n_USA.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Cruis'n_USA",
+      "generated_at": "2026-08-31T14:43:41+00:00"
+    },
+    {
+      "title": "Alone in the Dark (2024 video game)",
+      "filename": "Alone_in_the_Dark_2024_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Alone_in_the_Dark_(2024_video_game)",
+      "generated_at": "2026-08-31T14:43:46+00:00"
+    },
+    {
+      "title": "Monster Smash",
+      "filename": "Monster_Smash.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Monster_Smash",
+      "generated_at": "2026-08-31T14:43:48+00:00"
+    },
+    {
+      "title": "1001 Spikes",
+      "filename": "1001_Spikes.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/1001_Spikes",
+      "generated_at": "2026-08-31T14:43:52+00:00"
+    },
+    {
+      "title": "Animal Well",
+      "filename": "Animal_Well.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Animal_Well",
+      "generated_at": "2026-08-31T14:43:55+00:00"
+    },
+    {
+      "title": "Battle Train",
+      "filename": "Battle_Train.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Battle_Train",
+      "generated_at": "2026-08-31T14:43:58+00:00"
+    },
+    {
+      "title": "LithTech",
+      "filename": "LithTech.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/LithTech",
+      "generated_at": "2026-08-31T14:44:01+00:00"
+    },
+    {
+      "title": "Microsoft Tablet PC",
+      "filename": "Microsoft_Tablet_PC.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Microsoft_Tablet_PC",
+      "generated_at": "2026-08-31T14:44:04+00:00"
+    },
+    {
+      "title": "IZZY – Stream Israel",
+      "filename": "IZZY_Stream_Israel.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/IZZY_%E2%80%93_Stream_Israel",
+      "generated_at": "2026-08-31T14:44:08+00:00"
+    },
+    {
+      "title": "Halo (franchise)",
+      "filename": "Halo_franchise.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Halo_(franchise)",
+      "generated_at": "2026-08-31T14:44:11+00:00"
+    },
+    {
+      "title": "DJMax Technika",
+      "filename": "DJMax_Technika.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/DJMax_Technika",
+      "generated_at": "2026-08-31T14:44:14+00:00"
+    },
+    {
+      "title": "Industrial Toys",
+      "filename": "Industrial_Toys.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Industrial_Toys",
+      "generated_at": "2026-08-31T14:44:17+00:00"
+    },
+    {
+      "title": "Alpha Polaris",
+      "filename": "Alpha_Polaris.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Alpha_Polaris",
+      "generated_at": "2026-08-31T14:44:21+00:00"
+    },
+    {
+      "title": "Boyfriend Dungeon",
+      "filename": "Boyfriend_Dungeon.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Boyfriend_Dungeon",
+      "generated_at": "2026-08-31T14:44:25+00:00"
+    },
+    {
+      "title": "Tomb Raider IV–VI Remastered",
+      "filename": "Tomb_Raider_IV_VI_Remastered.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Tomb_Raider_IV%E2%80%93VI_Remastered",
+      "generated_at": "2026-08-31T14:44:29+00:00"
+    },
+    {
+      "title": "Cinders (video game)",
+      "filename": "Cinders_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Cinders_(video_game)",
+      "generated_at": "2026-08-31T14:44:32+00:00"
+    },
+    {
+      "title": "Next Limit Technologies",
+      "filename": "Next_Limit_Technologies.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Next_Limit_Technologies",
+      "generated_at": "2026-08-31T14:44:36+00:00"
+    },
+    {
+      "title": "Microsoft Windows",
+      "filename": "Microsoft_Windows.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Microsoft_Windows",
+      "generated_at": "2026-08-31T14:44:40+00:00"
+    },
+    {
+      "title": "Media Delivery Index",
+      "filename": "Media_Delivery_Index.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Media_Delivery_Index",
+      "generated_at": "2026-08-31T14:44:44+00:00"
+    },
+    {
+      "title": "FIFA 2000",
+      "filename": "FIFA_2000.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_2000",
+      "generated_at": "2026-08-31T14:44:48+00:00"
+    },
+    {
+      "title": "Fatal Fury Special",
+      "filename": "Fatal_Fury_Special.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Fatal_Fury_Special",
+      "generated_at": "2026-08-31T14:44:50+00:00"
+    },
+    {
+      "title": "Cypher (video game)",
+      "filename": "Cypher_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Cypher_(video_game)",
+      "generated_at": "2026-08-31T14:44:55+00:00"
+    },
+    {
+      "title": "Creeping Terror (video game)",
+      "filename": "Creeping_Terror_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Creeping_Terror_(video_game)",
+      "generated_at": "2026-08-31T14:45:03+00:00"
+    },
+    {
+      "title": "Dispatch (video game)",
+      "filename": "Dispatch_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Dispatch_(video_game)",
+      "generated_at": "2026-08-31T14:45:07+00:00"
+    },
+    {
+      "title": "Echo Generation",
+      "filename": "Echo_Generation.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Echo_Generation",
+      "generated_at": "2026-08-31T14:45:10+00:00"
+    },
+    {
+      "title": "Felix the Reaper",
+      "filename": "Felix_the_Reaper.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Felix_the_Reaper",
+      "generated_at": "2026-08-31T14:45:15+00:00"
+    },
+    {
+      "title": "Luminous Engine",
+      "filename": "Luminous_Engine.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Luminous_Engine",
+      "generated_at": "2026-08-31T14:45:18+00:00"
+    },
+    {
+      "title": "Mini PC",
+      "filename": "Mini_PC.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Mini_PC",
+      "generated_at": "2026-08-31T14:45:22+00:00"
+    },
+    {
+      "title": "Mediaroom",
+      "filename": "Mediaroom.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Mediaroom",
+      "generated_at": "2026-08-31T14:45:26+00:00"
+    },
+    {
+      "title": "Halo 2",
+      "filename": "Halo_2.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Halo_2",
+      "generated_at": "2026-08-31T14:45:29+00:00"
+    },
+    {
+      "title": "Giga Wing Generations",
+      "filename": "Giga_Wing_Generations.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Giga_Wing_Generations",
+      "generated_at": "2026-08-31T14:45:31+00:00"
+    },
+    {
+      "title": "InnoSpark",
+      "filename": "InnoSpark.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/InnoSpark",
+      "generated_at": "2026-08-31T14:45:35+00:00"
+    },
+    {
+      "title": "Gang Beasts",
+      "filename": "Gang_Beasts.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Gang_Beasts",
+      "generated_at": "2026-08-31T14:45:39+00:00"
+    },
+    {
+      "title": "Hades II",
+      "filename": "Hades_II.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Hades_II",
+      "generated_at": "2026-08-31T14:45:42+00:00"
+    },
+    {
+      "title": "I Wanna Be the Boshy",
+      "filename": "I_Wanna_Be_the_Boshy.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/I_Wanna_Be_the_Guy",
+      "generated_at": "2026-08-31T14:45:45+00:00"
+    },
+    {
+      "title": "Jupiter Hell",
+      "filename": "Jupiter_Hell.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Jupiter_Hell",
+      "generated_at": "2026-08-31T14:45:48+00:00"
+    },
+    {
+      "title": "OE-Cake!",
+      "filename": "OE_Cake.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/OE-Cake!",
+      "generated_at": "2026-08-31T14:45:52+00:00"
+    },
+    {
+      "title": "Monoblock PC",
+      "filename": "Monoblock_PC.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Monoblock_PC",
+      "generated_at": "2026-08-31T14:45:56+00:00"
+    },
+    {
+      "title": "MEO (telecommunication company)",
+      "filename": "MEO_telecommunication_company.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/MEO_(telecommunication_company)",
+      "generated_at": "2026-08-31T14:46:00+00:00"
+    },
+    {
+      "title": "FIFA Football 2002",
+      "filename": "FIFA_Football_2002.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_Football_2002",
+      "generated_at": "2026-08-31T14:46:04+00:00"
+    },
+    {
+      "title": "Hook (video game)",
+      "filename": "Hook_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Hook_(video_game)",
+      "generated_at": "2026-08-31T14:46:07+00:00"
+    },
+    {
+      "title": "Angels of Death (video game)",
+      "filename": "Angels_of_Death_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Angels_of_Death_(video_game)",
+      "generated_at": "2026-08-31T14:46:11+00:00"
+    },
+    {
+      "title": "Lil Gator Game",
+      "filename": "Lil_Gator_Game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Lil_Gator_Game",
+      "generated_at": "2026-08-31T14:46:15+00:00"
+    },
+    {
+      "title": "Zombie Army Trilogy",
+      "filename": "Zombie_Army_Trilogy.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Zombie_Army_Trilogy",
+      "generated_at": "2026-08-31T14:46:20+00:00"
+    },
+    {
+      "title": "A Memoir Blue",
+      "filename": "A_Memoir_Blue.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/A_Memoir_Blue",
+      "generated_at": "2026-08-31T14:46:23+00:00"
+    },
+    {
+      "title": "Mullet MadJack",
+      "filename": "Mullet_MadJack.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Mullet_MadJack",
+      "generated_at": "2026-08-31T14:46:25+00:00"
+    },
+    {
+      "title": "MAX-FX",
+      "filename": "MAX_FX.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Max_Payne_(video_game)",
+      "generated_at": "2026-08-31T14:46:28+00:00"
+    },
+    {
+      "title": "Video game console",
+      "filename": "Video_game_console.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Video_game_console",
+      "generated_at": "2026-08-31T14:46:32+00:00"
+    },
+    {
+      "title": "Microsoft TV",
+      "filename": "Microsoft_TV.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Mediaroom",
+      "generated_at": "2026-08-31T14:46:35+00:00"
+    },
+    {
+      "title": "Halo 3",
+      "filename": "Halo_3.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Halo_3",
+      "generated_at": "2026-08-31T14:46:38+00:00"
+    },
+    {
+      "title": "The King of Fighters '97",
+      "filename": "The_King_of_Fighters_97.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/The_King_of_Fighters_'97",
+      "generated_at": "2026-08-31T14:46:41+00:00"
+    },
+    {
+      "title": "Jam City (company)",
+      "filename": "Jam_City_company.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Jam_City_(company)",
+      "generated_at": "2026-08-31T14:46:45+00:00"
+    },
+    {
+      "title": "Asylum (2025 video game)",
+      "filename": "Asylum_2025_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Asylum_(2025_video_game)",
+      "generated_at": "2026-08-31T14:46:49+00:00"
+    },
+    {
+      "title": "Octagon (video game)",
+      "filename": "Octagon_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Octagon_(video_game)",
+      "generated_at": "2026-08-31T14:46:53+00:00"
+    },
+    {
+      "title": "Pathologic 2",
+      "filename": "Pathologic_2.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Pathologic_2",
+      "generated_at": "2026-08-31T14:46:56+00:00"
+    },
+    {
+      "title": "Puzzle Bots",
+      "filename": "Puzzle_Bots.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Puzzle_Bots",
+      "generated_at": "2026-08-31T14:46:58+00:00"
+    },
+    {
+      "title": "Open Dynamics Engine",
+      "filename": "Open_Dynamics_Engine.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Open_Dynamics_Engine",
+      "generated_at": "2026-08-31T14:47:02+00:00"
+    },
+    {
+      "title": "Gameroom Tele-Pong",
+      "filename": "Gameroom_Tele_Pong.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Gameroom_Tele-Pong",
+      "generated_at": "2026-08-31T14:47:06+00:00"
+    },
+    {
+      "title": "Mobile IPTV",
+      "filename": "Mobile_IPTV.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Mobile_IPTV",
+      "generated_at": "2026-08-31T14:47:09+00:00"
+    },
+    {
+      "title": "FIFA Football 2003",
+      "filename": "FIFA_Football_2003.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_Football_2003",
+      "generated_at": "2026-08-31T14:47:13+00:00"
+    },
+    {
+      "title": "Magical Date",
+      "filename": "Magical_Date.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Magical_Date",
+      "generated_at": "2026-08-31T14:47:16+00:00"
+    },
+    {
+      "title": "Runbow",
+      "filename": "Runbow.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Runbow",
+      "generated_at": "2026-08-31T14:47:20+00:00"
+    },
+    {
+      "title": "Blair Witch (video game)",
+      "filename": "Blair_Witch_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Blair_Witch_(video_game)",
+      "generated_at": "2026-08-31T14:47:24+00:00"
+    },
+    {
+      "title": "Shogun Showdown",
+      "filename": "Shogun_Showdown.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Shogun_Showdown",
+      "generated_at": "2026-08-31T14:47:28+00:00"
+    },
+    {
+      "title": "Spells & Secrets",
+      "filename": "Spells_Secrets.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Spells_%26_Secrets",
+      "generated_at": "2026-08-31T14:47:31+00:00"
+    },
+    {
+      "title": "Super Hydorah",
+      "filename": "Super_Hydorah.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Super_Hydorah",
+      "generated_at": "2026-08-31T14:47:33+00:00"
+    },
+    {
+      "title": "Microsoft XNA",
+      "filename": "Microsoft_XNA.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Microsoft_XNA",
+      "generated_at": "2026-08-31T14:47:37+00:00"
+    },
+    {
+      "title": "History of video game consoles",
+      "filename": "History_of_video_game_consoles.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/History_of_video_game_consoles",
+      "generated_at": "2026-08-31T14:47:42+00:00"
+    },
+    {
+      "title": "Mukbang",
+      "filename": "Mukbang.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Mukbang",
+      "generated_at": "2026-08-31T14:47:46+00:00"
+    },
+    {
+      "title": "Halo 4",
+      "filename": "Halo_4.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Halo_4",
+      "generated_at": "2026-08-31T14:47:49+00:00"
+    },
+    {
+      "title": "Mortal Kombat II",
+      "filename": "Mortal_Kombat_II.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Mortal_Kombat_II",
+      "generated_at": "2026-08-31T14:47:52+00:00"
+    },
+    {
+      "title": "Aglet (video game)",
+      "filename": "Aglet_video_game.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Aglet_(video_game)",
+      "generated_at": "2026-08-31T14:47:56+00:00"
+    },
+    {
+      "title": "Tiny Bookshop",
+      "filename": "Tiny_Bookshop.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Tiny_Bookshop",
+      "generated_at": "2026-08-31T14:47:59+00:00"
+    },
+    {
+      "title": "Bemani",
+      "filename": "Bemani.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Bemani",
+      "generated_at": "2026-08-31T14:48:04+00:00"
+    },
+    {
+      "title": "Valfaris",
+      "filename": "Valfaris.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Valfaris",
+      "generated_at": "2026-08-31T14:48:07+00:00"
+    },
+    {
+      "title": "Witchbrook",
+      "filename": "Witchbrook.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Chucklefish",
+      "generated_at": "2026-08-31T14:48:11+00:00"
+    },
+    {
+      "title": "Particle system",
+      "filename": "Particle_system.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Particle_system",
+      "generated_at": "2026-08-31T14:48:15+00:00"
+    },
+    {
+      "title": "Hybrid video game console",
+      "filename": "Hybrid_video_game_console.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Video_game_console",
+      "generated_at": "2026-08-31T14:48:19+00:00"
+    },
+    {
+      "title": "National Streaming Day",
+      "filename": "National_Streaming_Day.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/National_Streaming_Day",
+      "generated_at": "2026-08-31T14:48:22+00:00"
+    },
+    {
+      "title": "FIFA 12",
+      "filename": "FIFA_12.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_12",
+      "generated_at": "2026-08-31T14:48:26+00:00"
+    },
+    {
+      "title": "Osman (video game)",
+      "filename": "Osman_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Osman_(video_game)",
+      "generated_at": "2026-08-31T14:48:29+00:00"
+    },
+    {
+      "title": "Call of Cthulhu (video game)",
+      "filename": "Call_of_Cthulhu_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Call_of_Cthulhu_(video_game)",
+      "generated_at": "2026-08-31T14:48:34+00:00"
+    },
+    {
+      "title": "1993 Space Machine",
+      "filename": "1993_Space_Machine.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/1993_Space_Machine",
+      "generated_at": "2026-08-31T14:48:38+00:00"
+    },
+    {
+      "title": "Anodyne (video game)",
+      "filename": "Anodyne_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Anodyne_(video_game)",
+      "generated_at": "2026-08-31T14:48:41+00:00"
+    },
+    {
+      "title": "BattleBit Remastered",
+      "filename": "BattleBit_Remastered.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/BattleBit_Remastered",
+      "generated_at": "2026-08-31T14:48:44+00:00"
+    },
+    {
+      "title": "Braid (video game)",
+      "filename": "Braid_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Braid_(video_game)",
+      "generated_at": "2026-08-31T14:48:47+00:00"
+    },
+    {
+      "title": "Moai (software)",
+      "filename": "Moai_software.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Moai_(software)",
+      "generated_at": "2026-08-31T14:48:50+00:00"
+    },
+    {
+      "title": "Polymega",
+      "filename": "Polymega.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Polymega",
+      "generated_at": "2026-08-31T14:48:54+00:00"
+    },
+    {
+      "title": "NEW ID",
+      "filename": "NEW_ID.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/NEW_ID",
+      "generated_at": "2026-08-31T14:48:57+00:00"
+    },
+    {
+      "title": "Heroes of Newerth",
+      "filename": "Heroes_of_Newerth.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Heroes_of_Newerth",
+      "generated_at": "2026-08-31T14:49:00+00:00"
+    },
+    {
+      "title": "Prehistoric Isle",
+      "filename": "Prehistoric_Isle.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Prehistoric_Isle",
+      "generated_at": "2026-08-31T14:49:03+00:00"
+    },
+    {
+      "title": "BotFighters",
+      "filename": "BotFighters.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/BotFighters",
+      "generated_at": "2026-08-31T14:49:06+00:00"
+    },
+    {
+      "title": "Calling (video game)",
+      "filename": "Calling_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Calling_(video_game)",
+      "generated_at": "2026-08-31T14:49:11+00:00"
+    },
+    {
+      "title": "Circa Infinity",
+      "filename": "Circa_Infinity.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Circa_Infinity",
+      "generated_at": "2026-08-31T14:49:15+00:00"
+    },
+    {
+      "title": "Cytus",
+      "filename": "Cytus.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Cytus",
+      "generated_at": "2026-08-31T14:49:18+00:00"
+    },
+    {
+      "title": "Distance (video game)",
+      "filename": "Distance_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Distance_(video_game)",
+      "generated_at": "2026-08-31T14:49:20+00:00"
+    },
+    {
+      "title": "Phun",
+      "filename": "Phun.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Algodoo",
+      "generated_at": "2026-08-31T14:49:24+00:00"
+    },
+    {
+      "title": "RetroN",
+      "filename": "RetroN.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/RetroN",
+      "generated_at": "2026-08-31T14:49:29+00:00"
+    },
+    {
+      "title": "Now Jelli",
+      "filename": "Now_Jelli.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Now_TV_(Hong_Kong)",
+      "generated_at": "2026-08-31T14:49:32+00:00"
+    },
+    {
+      "title": "FIFA 13",
+      "filename": "FIFA_13.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_13",
+      "generated_at": "2026-08-31T14:49:36+00:00"
+    },
+    {
+      "title": "Rastan Saga II",
+      "filename": "Rastan_Saga_II.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Rastan_Saga_II",
+      "generated_at": "2026-08-31T14:49:38+00:00"
+    },
+    {
+      "title": "Edge of Eternity (video game)",
+      "filename": "Edge_of_Eternity_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Edge_of_Eternity_(video_game)",
+      "generated_at": "2026-08-31T14:49:43+00:00"
+    },
+    {
+      "title": "Centum (video game)",
+      "filename": "Centum_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Centum_(video_game)",
+      "generated_at": "2026-08-31T14:49:47+00:00"
+    },
+    {
+      "title": "Music of the Chocobo series",
+      "filename": "Music_of_the_Chocobo_series.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Music_of_the_Chocobo_series",
+      "generated_at": "2026-08-31T14:49:51+00:00"
+    },
+    {
+      "title": "Felvidek (video game)",
+      "filename": "Felvidek_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Felvidek_(video_game)",
+      "generated_at": "2026-08-31T14:49:54+00:00"
+    },
+    {
+      "title": "Gang Garrison 2",
+      "filename": "Gang_Garrison_2.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Gang_Garrison_2",
+      "generated_at": "2026-08-31T14:49:57+00:00"
+    },
+    {
+      "title": "Mscape",
+      "filename": "Mscape.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Mscape",
+      "generated_at": "2026-08-31T14:50:00+00:00"
+    },
+    {
+      "title": "Museum of the Game",
+      "filename": "Museum_of_the_Game.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Museum_of_the_Game",
+      "generated_at": "2026-08-31T14:50:04+00:00"
+    },
+    {
+      "title": "Now TV (Hong Kong)",
+      "filename": "Now_TV_Hong_Kong.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Now_TV_(Hong_Kong)",
+      "generated_at": "2026-08-31T14:50:07+00:00"
+    },
+    {
+      "title": "Heroes of the Storm",
+      "filename": "Heroes_of_the_Storm.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Heroes_of_the_Storm",
+      "generated_at": "2026-08-31T14:50:10+00:00"
+    },
+    {
+      "title": "Scramble Spirits",
+      "filename": "Scramble_Spirits.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Scramble_Spirits",
+      "generated_at": "2026-08-31T14:50:13+00:00"
+    },
+    {
+      "title": "Can You See Me Now?",
+      "filename": "Can_You_See_Me_Now.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Can_You_See_Me_Now%3F",
+      "generated_at": "2026-08-31T14:50:16+00:00"
+    },
+    {
+      "title": "Halcyon 6",
+      "filename": "Halcyon_6.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Halcyon_6",
+      "generated_at": "2026-08-31T14:50:20+00:00"
+    },
+    {
+      "title": "I Wanna Be the Guy",
+      "filename": "I_Wanna_Be_the_Guy.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/I_Wanna_Be_the_Guy",
+      "generated_at": "2026-08-31T14:50:24+00:00"
+    },
+    {
+      "title": "Just Shapes & Beats",
+      "filename": "Just_Shapes_Beats.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Just_Shapes_%26_Beats",
+      "generated_at": "2026-08-31T14:50:28+00:00"
+    },
+    {
+      "title": "Lil' Guardsman",
+      "filename": "Lil_Guardsman.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Lil'_Guardsman",
+      "generated_at": "2026-08-31T14:50:30+00:00"
+    },
+    {
+      "title": "Physics processing unit",
+      "filename": "Physics_processing_unit.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Physics_processing_unit",
+      "generated_at": "2026-08-31T14:50:35+00:00"
+    },
+    {
+      "title": "Open IPTV Forum",
+      "filename": "Open_IPTV_Forum.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Open_IPTV_Forum",
+      "generated_at": "2026-08-31T14:50:40+00:00"
+    },
+    {
+      "title": "Original programming",
+      "filename": "Original_programming.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Original_programming",
+      "generated_at": "2026-08-31T14:50:43+00:00"
+    },
+    {
+      "title": "FIFA 14",
+      "filename": "FIFA_14.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_14",
+      "generated_at": "2026-08-31T14:50:48+00:00"
+    },
+    {
+      "title": "Space Dungeon",
+      "filename": "Space_Dungeon.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Space_Dungeon",
+      "generated_at": "2026-08-31T14:50:52+00:00"
+    },
+    {
+      "title": "Clive Barker's Jericho",
+      "filename": "Clive_Barker_s_Jericho.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Clive_Barker's_Jericho",
+      "generated_at": "2026-08-31T14:50:56+00:00"
+    },
+    {
+      "title": "Mercenary Kings",
+      "filename": "Mercenary_Kings.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Mercenary_Kings",
+      "generated_at": "2026-08-31T14:51:01+00:00"
+    },
+    {
+      "title": "Multibowl",
+      "filename": "Multibowl.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Multibowl",
+      "generated_at": "2026-08-31T14:51:05+00:00"
+    },
+    {
+      "title": "Octodad",
+      "filename": "Octodad.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Octodad",
+      "generated_at": "2026-08-31T14:51:08+00:00"
+    },
+    {
+      "title": "Pathway (video game)",
+      "filename": "Pathway_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Pathway_(video_game)",
+      "generated_at": "2026-08-31T14:51:10+00:00"
+    },
+    {
+      "title": "MT Framework",
+      "filename": "MT_Framework.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/MT_Framework",
+      "generated_at": "2026-08-31T14:51:13+00:00"
+    },
+    {
+      "title": "Over-the-top media service",
+      "filename": "Over_the_top_media_service.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Over-the-top_media_service",
+      "generated_at": "2026-08-31T14:51:18+00:00"
+    },
+    {
+      "title": "Phantom Entertainment",
+      "filename": "Phantom_Entertainment.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Phantom_Entertainment",
+      "generated_at": "2026-08-31T14:51:22+00:00"
+    },
+    {
+      "title": "Knockout City",
+      "filename": "Knockout_City.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Knockout_City",
+      "generated_at": "2026-08-31T14:51:24+00:00"
+    },
+    {
+      "title": "Strike Force (video game)",
+      "filename": "Strike_Force_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Strike_Force_(video_game)",
+      "generated_at": "2026-08-31T14:51:27+00:00"
+    },
+    {
+      "title": "CityStrides",
+      "filename": "CityStrides.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/CityStrides",
+      "generated_at": "2026-08-31T14:51:31+00:00"
+    },
+    {
+      "title": "Clive Barker's Undying",
+      "filename": "Clive_Barker_s_Undying.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Clive_Barker's_Undying",
+      "generated_at": "2026-08-31T14:51:35+00:00"
+    },
+    {
+      "title": "Music of the Command & Conquer series",
+      "filename": "Music_of_the_Command_Conquer_series.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Music_of_the_Command_%26_Conquer_series",
+      "generated_at": "2026-08-31T14:51:40+00:00"
+    },
+    {
+      "title": "Puzzlejuice",
+      "filename": "Puzzlejuice.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Puzzlejuice",
+      "generated_at": "2026-08-31T14:51:43+00:00"
+    },
+    {
+      "title": "Runestone Keeper",
+      "filename": "Runestone_Keeper.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Runestone_Keeper",
+      "generated_at": "2026-08-31T14:51:45+00:00"
+    },
+    {
+      "title": "Phyz",
+      "filename": "Phyz.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Phyz",
+      "generated_at": "2026-08-31T14:51:50+00:00"
+    },
+    {
+      "title": "PPS.tv",
+      "filename": "PPS_tv.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/PPS.tv",
+      "generated_at": "2026-08-31T14:51:55+00:00"
+    },
+    {
+      "title": "Rostelecom",
+      "filename": "Rostelecom.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Rostelecom",
+      "generated_at": "2026-08-31T14:51:58+00:00"
+    },
+    {
+      "title": "FIFA 15",
+      "filename": "FIFA_15.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_15",
+      "generated_at": "2026-08-31T14:52:02+00:00"
+    },
+    {
+      "title": "Tekken Tag Tournament",
+      "filename": "Tekken_Tag_Tournament.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Tekken_Tag_Tournament",
+      "generated_at": "2026-08-31T14:52:05+00:00"
+    },
+    {
+      "title": "A Short Hike",
+      "filename": "A_Short_Hike.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/A_Short_Hike",
+      "generated_at": "2026-08-31T14:52:09+00:00"
+    },
+    {
+      "title": "Clock Tower 3",
+      "filename": "Clock_Tower_3.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Clock_Tower_3",
+      "generated_at": "2026-08-31T14:52:13+00:00"
+    },
+    {
+      "title": "SpellTower",
+      "filename": "SpellTower.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/SpellTower",
+      "generated_at": "2026-08-31T14:52:17+00:00"
+    },
+    {
+      "title": "Super Meat Boy",
+      "filename": "Super_Meat_Boy.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Super_Meat_Boy",
+      "generated_at": "2026-08-31T14:52:20+00:00"
+    },
+    {
+      "title": "Tiny Glade",
+      "filename": "Tiny_Glade.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Tiny_Glade",
+      "generated_at": "2026-08-31T14:52:23+00:00"
+    },
+    {
+      "title": "Multiverse Network",
+      "filename": "Multiverse_Network.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Multiverse_Network",
+      "generated_at": "2026-08-31T14:52:25+00:00"
+    },
+    {
+      "title": "Social television",
+      "filename": "Social_television.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Social_television",
+      "generated_at": "2026-08-31T14:52:30+00:00"
+    },
+    {
+      "title": "Soop (service)",
+      "filename": "Soop_service.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Soop_(service)",
+      "generated_at": "2026-08-31T14:52:34+00:00"
+    },
+    {
+      "title": "League of Legends",
+      "filename": "League_of_Legends.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/League_of_Legends",
+      "generated_at": "2026-08-31T14:52:37+00:00"
+    },
+    {
+      "title": "Twinkle Star Sprites",
+      "filename": "Twinkle_Star_Sprites.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Twinkle_Star_Sprites",
+      "generated_at": "2026-08-31T14:52:39+00:00"
+    },
+    {
+      "title": "Dragon Quest Walk",
+      "filename": "Dragon_Quest_Walk.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Dragon_Quest_Walk",
+      "generated_at": "2026-08-31T14:52:43+00:00"
+    },
+    {
+      "title": "Valhalla Hills",
+      "filename": "Valhalla_Hills.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Valhalla_Hills",
+      "generated_at": "2026-08-31T14:52:47+00:00"
+    },
+    {
+      "title": "With Those We Love Alive",
+      "filename": "With_Those_We_Love_Alive.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/With_Those_We_Love_Alive",
+      "generated_at": "2026-08-31T14:52:51+00:00"
+    },
+    {
+      "title": "2048 (video game)",
+      "filename": "2048_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/2048_(video_game)",
+      "generated_at": "2026-08-31T14:52:54+00:00"
+    },
+    {
+      "title": "Anomaly Collapse",
+      "filename": "Anomaly_Collapse.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Anomaly_Collapse",
+      "generated_at": "2026-08-31T14:52:57+00:00"
+    },
+    {
+      "title": "Project Chrono",
+      "filename": "Project_Chrono.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Project_Chrono",
+      "generated_at": "2026-08-31T14:53:01+00:00"
+    },
+    {
+      "title": "Switched video",
+      "filename": "Switched_video.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Switched_video",
+      "generated_at": "2026-08-31T14:53:06+00:00"
+    },
+    {
+      "title": "TDtv",
+      "filename": "TDtv.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/TDtv",
+      "generated_at": "2026-08-31T14:53:09+00:00"
+    },
+    {
+      "title": "FIFA 16",
+      "filename": "FIFA_16.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_16",
+      "generated_at": "2026-08-31T14:53:13+00:00"
+    },
+    {
+      "title": "World Heroes 2 Jet",
+      "filename": "World_Heroes_2_Jet.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/World_Heroes_2_Jet",
+      "generated_at": "2026-08-31T14:53:17+00:00"
+    },
+    {
+      "title": "Clock Tower (1996 video game)",
+      "filename": "Clock_Tower_1996_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Clock_Tower_(1996_video_game)",
+      "generated_at": "2026-08-31T14:53:22+00:00"
+    },
+    {
+      "title": "Music of the Dead Space series",
+      "filename": "Music_of_the_Dead_Space_series.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Music_of_the_Dead_Space_series",
+      "generated_at": "2026-08-31T14:53:27+00:00"
+    },
+    {
+      "title": "BattleBlock Theater",
+      "filename": "BattleBlock_Theater.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/BattleBlock_Theater",
+      "generated_at": "2026-08-31T14:53:31+00:00"
+    },
+    {
+      "title": "BrainPipe",
+      "filename": "BrainPipe.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/BrainPipe",
+      "generated_at": "2026-08-31T14:53:34+00:00"
+    },
+    {
+      "title": "Citizen Sleeper",
+      "filename": "Citizen_Sleeper.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Citizen_Sleeper",
+      "generated_at": "2026-08-31T14:53:36+00:00"
+    },
+    {
+      "title": "Northlight Engine",
+      "filename": "Northlight_Engine.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Remedy_Entertainment",
+      "generated_at": "2026-08-31T14:53:39+00:00"
+    },
+    {
+      "title": "NBA 2K",
+      "filename": "NBA_2K.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/NBA_2K",
+      "generated_at": "2026-08-31T14:53:44+00:00"
+    },
+    {
+      "title": "FIFA 17",
+      "filename": "FIFA_17.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_17",
+      "generated_at": "2026-08-31T14:53:49+00:00"
+    },
+    {
+      "title": "New State Mobile",
+      "filename": "New_State_Mobile.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/New_State_Mobile",
+      "generated_at": "2026-08-31T14:53:52+00:00"
+    },
+    {
+      "title": "1942 (video game)",
+      "filename": "1942_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/1942_(video_game)",
+      "generated_at": "2026-08-31T14:53:55+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|36044e504c3a4436040992543a30324604362a42320994011901dcc5dc16|75685257",
-    "Category:Video game franchises": "page|342a2c52402a044446542a042e4c5a4e502a40403a4e073604343a442a4004342a44502a4e5a0306342a2c52402a044446542a042e4c5a4e502a40403a4e04343a442a4004342a44502a4e5a0125250c01dcc0dcc2dcbbdcc1dcbfdcc0dcc2dcbcdcc1dc0a|5070173",
-    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
+    "Category:Indie games": "page|2e522c32042e4c322a50464c040f0530011301dcc2dcbedc|80749637",
     "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
-    "Category:Video game engines": "page|4a040992362a4232043244363a4432099403064a040992362a4232043244363a44320994012301dcc4dcc2dcbfdc12|23688058"
+    "Category:Video game franchises": "page|342a2c52402a044446542a042e4c5a4e502a40403a4e073604343a442a4004342a44502a4e5a0306342a2c52402a044446542a042e4c5a4e502a40403a4e04343a442a4004342a44502a4e5a0125250c01dcc0dcc2dcbbdcc1dcbfdcc0dcc2dcbcdcc1dc0a|5070173",
+    "Category:Video game engines": "page|4a040992362a4232043244363a4432099403064a040992362a4232043244363a44320994012301dcc4dcc2dcbfdc12|23688058",
+    "Category:Esports games": "page|48463e32424644042e46424832503a503a54320448402a5a030648463e3242464404543a30324604362a4232044e324c3a324e042e46424832503a503a54320448402a5a0142882d88250901dcaddc2e|60144282",
+    "Category:Arcade video games": "page|2a4c4204564c324e50403a4436040992543a30324604362a42320994011e01dcc3e019|3781946"
   }
 }
