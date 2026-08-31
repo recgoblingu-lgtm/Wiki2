@@ -34,7 +34,7 @@ jobs:
         run: python add_social_meta.py
 
       - name: Generate up to 100 unique articles
-        run: python generator.py --batch 100
+        run: python generator.py --batch 500
 
       - name: Commit and push the new article
         run: |
