@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Wiki2 Feedback</title>
+<meta name="description" content="Send feedback to Wiki2.">
+<link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<!-- Top Banner -->
+<div class="top-banner">
+  <p>
+    Hello! Welcome user, we are always looking for more information and Wiki archives!
+    Join us at <a href="https://discord.gg/KaSQ7FRtBq" target="_blank">Discord</a>
+  </p>
+</div>
+
+<div class="container">
+
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>Community</h3>
+    <a href="feedback.html">Feedback</a>
+  </div>
+
+  <div class="content">
+
+    <h1>Feedback</h1>
+    <p>Have suggestions, ideas, or found an issue? Send feedback directly to the Wiki2 team.</p>
+
+    <textarea id="feedback" placeholder="Type your feedback here..." rows="6" style="width:100%; padding:10px;"></textarea>
+
+    <br><br>
+
+    <button onclick="sendFeedback()">Send Feedback</button>
+
+    <p id="status"></p>
+
+  </div>
+
+</div>
+
+<script>
+function sendFeedback() {
+  const text = document.getElementById("feedback").value;
+  const status = document.getElementById("status");
+
+  if (!text.trim()) {
+    status.innerText = "Please enter feedback first.";
+    return;
+  }
+
+  fetch("YOUR_WEBHOOK_URL_HERE", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      content: "📩 **New Wiki2 Feedback:**\n" + text
+    })
+  })
+  .then(() => {
+    status.innerText = "Feedback sent!";
+    document.getElementById("feedback").value = "";
+  })
+  .catch(() => {
+    status.innerText = "Error sending feedback.";
+  });
+}
+</script>
+
+<style>
+.top-banner {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #5865F2, #404EED);
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+button {
+  padding: 10px 16px;
+  background: #5865F2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #404EED;
+}
+</style>
+
+</body>
+</html>
