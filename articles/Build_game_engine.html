@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Build (game engine) - Wiki2</title>
+  <meta name="description" content="The Build Engine is a first-person shooter engine created by Ken Silverman, author of Ken&#x27;s Labyrinth, for 3D Realms. Like the Doom engine, the Build Engine represents its world on a two-dimensional grid using closed 2D shapes called sector">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Build_game_engine.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Build (game engine) - Wiki2">
+  <meta property="og:description" content="The Build Engine is a first-person shooter engine created by Ken Silverman, author of Ken&#x27;s Labyrinth, for 3D Realms. Like the Doom engine, the Build Engine represents its world on a two-dimensional grid using closed 2D shapes called sector">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Build_game_engine.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/0/06/Build_engine_logo.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Build (game engine) - Wiki2">
+  <meta name="twitter:description" content="The Build Engine is a first-person shooter engine created by Ken Silverman, author of Ken&#x27;s Labyrinth, for 3D Realms. Like the Doom engine, the Build Engine represents its world on a two-dimensional grid using closed 2D shapes called sector">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/0/06/Build_engine_logo.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+  </div>
+  <div class="content">
+    <h1>Build (game engine)</h1>
+    <p><b>Build (game engine)</b> is an encyclopedia entry in the <b>Game engines</b> collection.</p>
+    <p>The Build Engine is a first-person shooter engine created by Ken Silverman, author of Ken&#x27;s Labyrinth, for 3D Realms. Like the Doom engine, the Build Engine represents its world on a two-dimensional grid using closed 2D shapes called sectors, and uses simple flat objects called sprites to populate the world geometry with objects.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Build_engine_logo.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Build (game engine)"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Build_engine_logo.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Build engine logo.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/en/e/e6/Build_engine_screenshot.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Build engine screenshot.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>The Build Engine is a first-person shooter engine created by Ken Silverman , author of Ken&#x27;s Labyrinth , for 3D Realms . Like the Doom engine , the Build Engine represents its world on a two-dimensional grid using closed 2D shapes called sectors, and uses simple flat objects called sprites to populate the world geometry with objects. The Build Engine is generally considered to be a 2.5D engine, as the basic world geometry is two-dimensional with an added height component, allowing each sector to have a different ceiling height and floor height. Some floors can be lower and some can be higher; the same is true with ceilings (in relation to each other). Floors and ceilings can hinge along one of the sector&#x27;s walls, resulting in a slope. With this information, the Build Engine renders the world in a way that looks three-dimensional , unlike modern game engines that create actual 3D environments. Though the Build Engine achieved most of its fame from powering the 1996 first-person shooter Duke Nukem 3D , it was also used for many other games.</p>
+    <hr>
+    <h2>Sectors</h2>
+    <p>Sectors are the building blocks of a level&#x27;s layout, consisting of a two-dimensional polygonal outline when viewed from above, with the top and bottom faces of the sector given separate altitudes to create a three-dimensional space. Hence, all walls are perfectly vertical—anything appearing otherwise is technically a sloped floor or ceiling. The word room can be used as a loose substitute to aid understanding, though one room in the game world can consist of many sectors, and parallaxed skies can give the illusion of being outdoors. Sectors can be manipulated in real-time; all of their attributes such as shape, height, and slope could be modified &quot;on-the-fly&quot; by games, unlike the earlier Doom engine . This allowed games to have destructible environments, such as those seen in Blood . This technique is similar to the use of push walls in the earlier Apogee Software title Rise of the Triad which featured similar dynamic environments. Developers of games based on the engine used special reserved &quot;sprites&quot; (game objects), often called &quot;sector effectors [ sic ]&quot;, that, when given special tags (numbers with defined meanings), would allow the level designer to construct a dynamic world; similar tag information could be given to the sector walls and floor area to give a sector special characteristics. For example, a particular sector effector may let players fall through the floor if t</p>
+    <hr>
+    <h2>Voxels</h2>
+    <p>Later versions of Ken Silverman&#x27;s Build Engine allowed game selected art tiles to be replaced by 3D objects made of voxels . This feature appeared too late to be used in Duke Nukem 3D , but was seen in some of the later Build Engine games. Blood uses voxels for weapon and ammo pickups, power-ups, and eye-candy (such as the tombstones in the &quot;Cradle to Grave&quot; level, some chairs, and a crystal ball in &quot;Dark Carnival&quot;). Shadow Warrior makes even more advanced use of the technology, with voxels that can be placed on walls (all of the game&#x27;s switches and buttons are voxels). For several years, Ken worked on a modern engine based entirely on voxels, known as Voxlap .</p>
+    <hr>
+    <h2>Room over room</h2>
+    <p>One limitation of the Build Engine is that its level geometry is only capable of representing one connection between sectors for any given wall. Due to this, a structure as simple as a shelf with space both above and below it is impossible, though sometimes sprites or voxels can be substituted. Buildings with several floors are technically possible, but it is not possible for such a building to contain an external window directly above or below another window. In addition, some liberties will need to be taken with the staircases, elevators, and other methods of access for each floor. Several Build Engine games (namely Shadow Warrior , Blood , and Redneck Rampage ) worked around this by displaying a &quot;viewport&quot; to another sector through an additional rendering pass. This technique, called room-over-room (ROR), appears seamless to the player. In addition to an expanded range of vertical construction, ROR was often used to give bodies of water translucent surfaces. ROR was never a feature of the Build Engine itself, but rather a &quot;trick&quot; that was created by game developers. A trick used in Duke Nukem 3D to get around this, as in the case of its opaque underwater sections, was to simply transport the player quickly to another region of the map made to mimic it, similar to the elevators from Rise of the Triad . In 2011, a feature was added to EDuke32 called true room over room (TROR),</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="al.html">Éalú</a></li>
+      <li><a href="Diamond_Trust_of_London.html">Diamond Trust of London</a></li>
+      <li><a href="Hytale.html">Hytale</a></li>
+      <li><a href="Dark_Salvation.html">Dark Salvation</a></li>
+      <li><a href="Contra_4.html">Contra 4</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Build_(game_engine)">Wikimedia article</a></small></p>
+    <p><i>Last edited: August 31, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
