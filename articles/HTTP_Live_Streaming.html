@@ -1,60 +1,60 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>HTTP Live Streaming - Wiki2</title>
-  <meta name="description" content="HTTP Live Streaming is an HTTP-based adaptive bitrate streaming communications protocol developed by Apple Inc. and released in 2009. Support for the protocol is widespread in media players, web browsers, mobile devices, and streaming media">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/HTTP_Live_Streaming.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="HTTP Live Streaming - Wiki2">
-  <meta property="og:description" content="HTTP Live Streaming is an HTTP-based adaptive bitrate streaming communications protocol developed by Apple Inc. and released in 2009. Support for the protocol is widespread in media players, web browsers, mobile devices, and streaming media">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/HTTP_Live_Streaming.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="HTTP Live Streaming - Wiki2">
-  <meta name="twitter:description" content="HTTP Live Streaming is an HTTP-based adaptive bitrate streaming communications protocol developed by Apple Inc. and released in 2009. Support for the protocol is widespread in media players, web browsers, mobile devices, and streaming media">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>HTTP Live Streaming - Wiki2</title>
+<meta content="HTTP Live Streaming is an HTTP-based adaptive bitrate streaming communications protocol developed by Apple Inc. and released in 2009. Support for the protocol is widespread in media players, web browsers, mobile devices, and streaming media" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/HTTP_Live_Streaming.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="HTTP Live Streaming" property="og:title"/>
+<meta content="HTTP Live Streaming is an encyclopedia entry in the Streaming services collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/HTTP_Live_Streaming.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="HTTP Live Streaming" name="twitter:title"/>
+<meta content="HTTP Live Streaming is an encyclopedia entry in the Streaming services collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-  </div>
-  <div class="content">
-    <h1>HTTP Live Streaming</h1>
-    <p><b>HTTP Live Streaming</b> is an encyclopedia entry in the <b>Streaming services</b> collection.</p>
-    <p>HTTP Live Streaming is an HTTP-based adaptive bitrate streaming communications protocol developed by Apple Inc. and released in 2009. Support for the protocol is widespread in media players, web browsers, mobile devices, and streaming media servers. As of 2022, an annual video industry survey has consistently found it to be the most popular streaming format.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>HTTP Live Streaming (also known as HLS ) is an HTTP -based adaptive bitrate streaming communications protocol developed by Apple Inc. and released in 2009. Support for the protocol is widespread in media players, web browsers, mobile devices, and streaming media servers. As of 2022, an annual video industry survey has consistently found it to be the most popular streaming format. HLS resembles MPEG-DASH in that it works by breaking the overall stream into a sequence of small HTTP-based file downloads, each downloading one short chunk of an overall potentially unbounded transport stream. A list of available streams, encoded at different bit rates, is sent to the client using an extended M3U playlist. Based on standard HTTP transactions, HTTP Live Streaming can traverse any firewall or proxy server that lets through standard HTTP traffic, unlike UDP-based protocols such as RTP . This also allows content to be offered from conventional HTTP servers and delivered over widely available HTTP-based content delivery networks . The standard also includes a standard encryption mechanism and secure-key distribution using HTTPS , which together provide a simple DRM system. Later versions of the protocol also provide for trick-mode fast-forward and rewind and for integration of subtitles. Apple has documented HTTP Live Streaming as an Internet Draft (Individual Submission), the first stage </p>
-    <hr>
-    <h2>Architecture</h2>
-    <p>HTTP Live Streaming uses a conventional web server , that implements support for HTTP Live Streaming (HLS), to distribute audiovisual content and requires specific software, such as OBS to fit the content into a proper format ( codec ) for transmission in real time over a network . The service architecture comprises:</p>
-    <hr>
-    <h2>Features</h2>
-    <p>HTTP Live Streaming provides mechanisms for players to adapt to unreliable network conditions without causing user-visible playback stalling. For example, on an unreliable wireless network, HLS allows the player to use a lower quality video, thus reducing bandwidth usage. HLS videos can be made highly available by providing multiple servers for the same video, allowing the player to swap seamlessly if one of the servers fails.</p>
-    <hr>
-    <h2>Adaptability</h2>
-    <p>To enable a player to adapt to the bandwidth of the network, the original video is encoded in several distinct quality levels . The server serves an index, called a master playlist , of these encodings , called variant streams . The player can then choose between the variant streams during playback, changing back and forth seamlessly as network conditions change.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Commodore_64x.html">Commodore 64x</a></li>
-      <li><a href="Clickteam.html">Clickteam</a></li>
-      <li><a href="Sunless_Sea.html">Sunless Sea</a></li>
-      <li><a href="Space_Warlord_Organ_Trading_Simulator.html">Space Warlord Organ Trading Simulator</a></li>
-      <li><a href="Paralives.html">Paralives</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/HTTP_Live_Streaming">Wikimedia article</a></small></p>
-    <p><i>Last edited: August 31, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+</div>
+<div class="content">
+<h1>HTTP Live Streaming</h1>
+<p><b>HTTP Live Streaming</b> is an encyclopedia entry in the <b>Streaming services</b> collection.</p>
+<p>HTTP Live Streaming is an HTTP-based adaptive bitrate streaming communications protocol developed by Apple Inc. and released in 2009. Support for the protocol is widespread in media players, web browsers, mobile devices, and streaming media servers. As of 2022, an annual video industry survey has consistently found it to be the most popular streaming format.</p>
+<hr/>
+<h2>Background</h2>
+<p>HTTP Live Streaming (also known as HLS ) is an HTTP -based adaptive bitrate streaming communications protocol developed by Apple Inc. and released in 2009. Support for the protocol is widespread in media players, web browsers, mobile devices, and streaming media servers. As of 2022, an annual video industry survey has consistently found it to be the most popular streaming format. HLS resembles MPEG-DASH in that it works by breaking the overall stream into a sequence of small HTTP-based file downloads, each downloading one short chunk of an overall potentially unbounded transport stream. A list of available streams, encoded at different bit rates, is sent to the client using an extended M3U playlist. Based on standard HTTP transactions, HTTP Live Streaming can traverse any firewall or proxy server that lets through standard HTTP traffic, unlike UDP-based protocols such as RTP . This also allows content to be offered from conventional HTTP servers and delivered over widely available HTTP-based content delivery networks . The standard also includes a standard encryption mechanism and secure-key distribution using HTTPS , which together provide a simple DRM system. Later versions of the protocol also provide for trick-mode fast-forward and rewind and for integration of subtitles. Apple has documented HTTP Live Streaming as an Internet Draft (Individual Submission), the first stage </p>
+<hr/>
+<h2>Architecture</h2>
+<p>HTTP Live Streaming uses a conventional web server , that implements support for HTTP Live Streaming (HLS), to distribute audiovisual content and requires specific software, such as OBS to fit the content into a proper format ( codec ) for transmission in real time over a network . The service architecture comprises:</p>
+<hr/>
+<h2>Features</h2>
+<p>HTTP Live Streaming provides mechanisms for players to adapt to unreliable network conditions without causing user-visible playback stalling. For example, on an unreliable wireless network, HLS allows the player to use a lower quality video, thus reducing bandwidth usage. HLS videos can be made highly available by providing multiple servers for the same video, allowing the player to swap seamlessly if one of the servers fails.</p>
+<hr/>
+<h2>Adaptability</h2>
+<p>To enable a player to adapt to the bandwidth of the network, the original video is encoded in several distinct quality levels . The server serves an index, called a master playlist , of these encodings , called variant streams . The player can then choose between the variant streams during playback, changing back and forth seamlessly as network conditions change.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Commodore_64x.html">Commodore 64x</a></li>
+<li><a href="Clickteam.html">Clickteam</a></li>
+<li><a href="Sunless_Sea.html">Sunless Sea</a></li>
+<li><a href="Space_Warlord_Organ_Trading_Simulator.html">Space Warlord Organ Trading Simulator</a></li>
+<li><a href="Paralives.html">Paralives</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/HTTP_Live_Streaming">Wikimedia article</a></small></p>
+<p><i>Last edited: August 31, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

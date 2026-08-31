@@ -1,61 +1,62 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Explorer/85 - Wiki2</title>
-  <meta name="description" content="The Netronics Explorer 85 was an Intel 8085 based computer produced by Netronics R&amp;D Ltd. located in New Milford, Connecticut between 1979 and 1984. Netronics also produced the more well known ELF II computer, and the ill-fated Explorer 88 ">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Explorer_85.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Explorer/85 - Wiki2">
-  <meta property="og:description" content="The Netronics Explorer 85 was an Intel 8085 based computer produced by Netronics R&amp;D Ltd. located in New Milford, Connecticut between 1979 and 1984. Netronics also produced the more well known ELF II computer, and the ill-fated Explorer 88 ">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Explorer_85.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/en/4/41/Explorer85Small.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Explorer/85 - Wiki2">
-  <meta name="twitter:description" content="The Netronics Explorer 85 was an Intel 8085 based computer produced by Netronics R&amp;D Ltd. located in New Milford, Connecticut between 1979 and 1984. Netronics also produced the more well known ELF II computer, and the ill-fated Explorer 88 ">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/en/4/41/Explorer85Small.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Explorer/85 - Wiki2</title>
+<meta content="The Netronics Explorer 85 was an Intel 8085 based computer produced by Netronics R&amp;D Ltd. located in New Milford, Connecticut between 1979 and 1984. Netronics also produced the more well known ELF II computer, and the ill-fated Explorer 88 " name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Explorer_85.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Explorer/85" property="og:title"/>
+<meta content="Explorer/85 is an encyclopedia entry in the Platforms collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Explorer_85.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/en/4/41/Explorer85Small.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Explorer/85" name="twitter:title"/>
+<meta content="Explorer/85 is an encyclopedia entry in the Platforms collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/en/4/41/Explorer85Small.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-  </div>
-  <div class="content">
-    <h1>Explorer/85</h1>
-    <p><b>Explorer/85</b> is an encyclopedia entry in the <b>Platforms</b> collection.</p>
-    <p>The Netronics Explorer 85 was an Intel 8085 based computer produced by Netronics R&amp;D Ltd. located in New Milford, Connecticut between 1979 and 1984. Netronics also produced the more well known ELF II computer, and the ill-fated Explorer 88 computer.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/en/4/41/Explorer85Small.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Explorer/85"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/en/4/41/Explorer85Small.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Explorer85Small.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>The Netronics Explorer 85 was an Intel 8085 based computer produced by Netronics R&amp;D Ltd. located in New Milford, Connecticut between 1979 and 1984. Netronics also produced the more well known ELF II computer, and the ill-fated Explorer 88 computer.</p>
-    <hr>
-    <h2>Specifications</h2>
-    <p>The Intel 8085 CPU used a 6.144 MHz crystal, resulting in the processor operating at 3.072 MHz. The basic system had 256 bytes of RAM and 2048 bytes of ROM . The base system also had cassette tape IO, serial IO which could be configured for RS-232 or current loop , and thirty eight bits of parallel IO. The system could be expanded to have from two to six S-100 bus sockets.</p>
-    <hr>
-    <h2>Unique features</h2>
-    <p>Although this computer did have an S-100 bus, it was different from most of its contemporary S-100 bus computers in that it had a large motherboard containing the CPU and associated circuitry, and only two S-100 bus sockets. The Sol-20 computer also had this arrangement. Another unique feature of this computer was its serial port. The serial data was connected to the Intel 8085&#x27;s SID and SOD (Serial In Data and Serial Out Data) pins. This allowed the use of the Intel 8085&#x27;s RIM and SIM instructions to read the level on the SID and set the level on SOD line. What was so unique about this implementation was that after resetting the Explorer 85, the user had to press the space bar on the attached computer terminal . The Explorer 85&#x27;s firmware would measure the time between the start bit and the first data bit in the ASCII code for the space character. This allowed the Explorer 85 to automatically calculate and match the baud rate of the terminal. The down side of this technique was that the firmware needed to be in a loop monitoring the level on the SID pin to receive data from the terminal. If the processor was doing some other task when the user pressed a key on the terminal, that data would be lost. In addition to having a reset button on the front of the computer, the Explorer 85 had an interrupt button. This allow the user to interrupt a locked up program and return to the de</p>
-    <hr>
-    <h2>Level A</h2>
-    <p>Level A was just the motherboard with no S-100 bus sockets loaded. This could be ordered with firmware configured for either a computer terminal, or for a hexadecimal keypad which was available from Netronics. The Level A configuration did not include a power supply , so the user had to provide their own eight volt power supply, or purchase one from Netronics. The Level A motherboard contained a prototyping area, where the user could add circuitry of their own design. In 1982 the Level A system sold for $129.95.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Crystal_Tools.html">Crystal Tools</a></li>
-      <li><a href="Psycho_Patrol_R.html">Psycho Patrol R</a></li>
-      <li><a href="Party_Animals_video_game.html">Party Animals (video game)</a></li>
-      <li><a href="Skate_upcoming_video_game.html">Skate (upcoming video game)</a></li>
-      <li><a href="Dere_Evil_Exe.html">Dere Evil Exe</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Explorer%2F85">Wikimedia article</a></small></p>
-    <p><i>Last edited: August 31, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+</div>
+<div class="content">
+<h1>Explorer/85</h1>
+<p><b>Explorer/85</b> is an encyclopedia entry in the <b>Platforms</b> collection.</p>
+<p>The Netronics Explorer 85 was an Intel 8085 based computer produced by Netronics R&amp;D Ltd. located in New Milford, Connecticut between 1979 and 1984. Netronics also produced the more well known ELF II computer, and the ill-fated Explorer 88 computer.</p>
+<figure class="article-image"><img alt="Explorer/85" src="https://upload.wikimedia.org/wikipedia/en/4/41/Explorer85Small.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Explorer85Small.jpg" src="https://upload.wikimedia.org/wikipedia/en/4/41/Explorer85Small.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>The Netronics Explorer 85 was an Intel 8085 based computer produced by Netronics R&amp;D Ltd. located in New Milford, Connecticut between 1979 and 1984. Netronics also produced the more well known ELF II computer, and the ill-fated Explorer 88 computer.</p>
+<hr/>
+<h2>Specifications</h2>
+<p>The Intel 8085 CPU used a 6.144 MHz crystal, resulting in the processor operating at 3.072 MHz. The basic system had 256 bytes of RAM and 2048 bytes of ROM . The base system also had cassette tape IO, serial IO which could be configured for RS-232 or current loop , and thirty eight bits of parallel IO. The system could be expanded to have from two to six S-100 bus sockets.</p>
+<hr/>
+<h2>Unique features</h2>
+<p>Although this computer did have an S-100 bus, it was different from most of its contemporary S-100 bus computers in that it had a large motherboard containing the CPU and associated circuitry, and only two S-100 bus sockets. The Sol-20 computer also had this arrangement. Another unique feature of this computer was its serial port. The serial data was connected to the Intel 8085's SID and SOD (Serial In Data and Serial Out Data) pins. This allowed the use of the Intel 8085's RIM and SIM instructions to read the level on the SID and set the level on SOD line. What was so unique about this implementation was that after resetting the Explorer 85, the user had to press the space bar on the attached computer terminal . The Explorer 85's firmware would measure the time between the start bit and the first data bit in the ASCII code for the space character. This allowed the Explorer 85 to automatically calculate and match the baud rate of the terminal. The down side of this technique was that the firmware needed to be in a loop monitoring the level on the SID pin to receive data from the terminal. If the processor was doing some other task when the user pressed a key on the terminal, that data would be lost. In addition to having a reset button on the front of the computer, the Explorer 85 had an interrupt button. This allow the user to interrupt a locked up program and return to the de</p>
+<hr/>
+<h2>Level A</h2>
+<p>Level A was just the motherboard with no S-100 bus sockets loaded. This could be ordered with firmware configured for either a computer terminal, or for a hexadecimal keypad which was available from Netronics. The Level A configuration did not include a power supply , so the user had to provide their own eight volt power supply, or purchase one from Netronics. The Level A motherboard contained a prototyping area, where the user could add circuitry of their own design. In 1982 the Level A system sold for $129.95.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Crystal_Tools.html">Crystal Tools</a></li>
+<li><a href="Psycho_Patrol_R.html">Psycho Patrol R</a></li>
+<li><a href="Party_Animals_video_game.html">Party Animals (video game)</a></li>
+<li><a href="Skate_upcoming_video_game.html">Skate (upcoming video game)</a></li>
+<li><a href="Dere_Evil_Exe.html">Dere Evil Exe</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Explorer%2F85">Wikimedia article</a></small></p>
+<p><i>Last edited: August 31, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
