@@ -403,6 +403,9 @@ def render_article(category: str, title: str, summary: dict[str, Any], ledger: d
     <a href="../index.html">Main Page</a>
     <a href="../article.html">Random Page</a>
     <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
   </div>
   <div class="content">
     <h1>{html.escape(title)}</h1>
@@ -436,7 +439,7 @@ def update_index(ledger: dict[str, Any]) -> None:
     INDEX.write_text(f'''<!DOCTYPE html>
 <html lang="en">
 <head><meta charset="UTF-8"><title>Wiki2</title>{social_meta("Wiki2", "An automatically growing old-school encyclopedia of real-world topics.", SITE_URL, DEFAULT_PREVIEW_IMAGE)}<link rel="stylesheet" href="style.css"></head>
-<body><div class="container"><div class="sidebar"><h2>Wiki2</h2><a href="index.html">Main Page</a><a href="article.html">Random Page</a><a href="#categories">Categories</a></div>
+<body><div class="container"><div class="sidebar"><h2>Wiki2</h2><a href="index.html">Main Page</a><a href="article.html">Random Page</a><a href="#categories">Categories</a><hr><h3>WikiTube</h3><a href="wiki2ube/">Video Index</a><a href="wiki2ube/about.html">About WikiTube</a></div>
 <div class="content"><h1>Welcome to Wiki2</h1><p>This is an automatically growing, old-school encyclopedia of real-world topics.</p><p>Total pages indexed: <b>{len(ledger["articles"])}</b></p><hr><h2 id="categories">Article index</h2>{listing}</div></div></body></html>
 ''', encoding="utf-8")
 
