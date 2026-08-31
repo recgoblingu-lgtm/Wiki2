@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Submit Article - Wiki2</title>
+<meta name="description" content="Submit an article to Wiki2 for review.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<!-- Top Banner -->
+<div class="top-banner">
+  <p>
+    Hello! Welcome user, we are always looking for more information and Wiki archives!
+    Join us at <a href="https://discord.gg/KaSQ7FRtBq" target="_blank">Discord</a>
+  </p>
+</div>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>Community</h3>
+    <a href="submit.html">Submit Article</a>
+    <a href="feedback.html">Feedback</a>
+  </div>
+  <div class="content">
+<h1>Submit an Article</h1>
+<p>Have something to add to Wiki2? Submit your article below. All submissions are reviewed before being added.</p>
+<label>Article Title</label><br>
+<input id="title" style="width:100%; padding:8px;"><br><br>
+<label>Category</label><br>
+<input id="category" placeholder="e.g. Games, Technology" style="width:100%; padding:8px;"><br><br>
+<label>Your Name (optional)</label><br>
+<input id="author" style="width:100%; padding:8px;"><br><br>
+<label>Article Content</label><br>
+<textarea id="content" rows="10" style="width:100%; padding:10px;"></textarea><br><br>
+<button onclick="sendSubmission()">Submit</button>
+<p id="status"></p>
+  </div>
+</div>
+<script>
+function sendSubmission() {
+  const title = document.getElementById("title").value;
+  const category = document.getElementById("category").value;
+  const author = document.getElementById("author").value || "Anonymous";
+  const content = document.getElementById("content").value;
+  const status = document.getElementById("status");
+  if (!title || !category || !content) {
+    status.innerText = "Please fill in all required fields.";
+    return;
+  }
+  fetch("https://discord.com/api/webhooks/1544109364275839018/7wSCoUioctrbPaGcR98h9WBvhZQLzEfkOM6DqECQRKFXR_7FpqmG3HymUnCGSqwIz1n1", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      content:
+        "📄 **New Wiki2 Article Submission**\n\n" +
+        "**Title:** " + title + "\n" +
+        "**Category:** " + category + "\n" +
+        "**Author:** " + author + "\n\n" +
+        "**Content:**\n" + content
+    })
+  })
+  .then(() => {
+    status.innerText = "Submission sent for review!";
+    document.getElementById("title").value = "";
+    document.getElementById("category").value = "";
+    document.getElementById("author").value = "";
+    document.getElementById("content").value = "";
+  })
+  .catch(() => {
+    status.innerText = "Error sending submission.";
+  });
+}
+</script>
+<style>
+.top-banner {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #5865F2, #404EED);
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+button {
+  padding: 10px 16px;
+  background: #5865F2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #404EED;
+}
+input, textarea {
+  border: 1px solid #ccc;
+}
+</style>
+</body>
+</html>
