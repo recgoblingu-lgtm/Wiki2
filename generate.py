@@ -1,32 +1,39 @@
 import requests
 import os
-import json
 import re
+import json
 
-print("🔥 SCRIPT STARTED")
+print("🔥 GENERATOR STARTED")
 
 RANDOM_API = "https://en.wikipedia.org/api/rest_v1/page/random/summary"
 
-USED_FILE = "used.json"
 OUTPUT_DIR = "page"
 TEMPLATE_FILE = "templates/article.html"
 
 PAGES_PER_RUN = 20
 
 
+# -----------------------------
+# Helpers
+# -----------------------------
+
 def clean_filename(name):
     return re.sub(r'[^a-zA-Z0-9_-]', '_', name)
 
 
 def ensure_dirs():
-    print("📁 Checking folders...")
+    print("📁 Ensuring /page exists...")
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
-def get_random_article():
-    print("🌐 Fetching Wikipedia page...")
+def get_random_page():
+    print("🌐 Requesting Wikipedia page...")
     r = requests.get(RANDOM_API, timeout=10)
+
     print("Status:", r.status_code)
+
+    if r.status_code != 200:
+        return None, None
 
     data = r.json()
     return data.get("title"), data.get("extract")
@@ -34,48 +41,57 @@ def get_random_article():
 
 def make_html(title, content):
     print("🧩 Building HTML:", title)
+
     with open(TEMPLATE_FILE, "r", encoding="utf-8") as f:
         template = f.read()
 
-    return template.replace("{{title}}", title).replace("{{content}}", content)
+    return (
+        template.replace("{{title}}", title)
+                 .replace("{{content}}", content)
+    )
 
 
-def save_article(title, html):
-    name = clean_filename(title)
-    path = f"{OUTPUT_DIR}/{name}.html"
+def save_page(title, html):
+    filename = clean_filename(title) + ".html"
+    path = os.path.join(OUTPUT_DIR, filename)
 
-    print("💾 Writing:", path)
+    print("💾 Saving:", path)
 
     with open(path, "w", encoding="utf-8") as f:
         f.write(html)
 
-    return True
 
+# -----------------------------
+# Main
+# -----------------------------
 
 def main():
     ensure_dirs()
 
     created = 0
+    attempts = 0
+    max_attempts = PAGES_PER_RUN * 5
 
-    for i in range(PAGES_PER_RUN):
-        print(f"\n🔁 Page {i+1}")
+    while created < PAGES_PER_RUN and attempts < max_attempts:
+        attempts += 1
 
-        try:
-            title, content = get_random_article()
+        print(f"\n🔁 Attempt {attempts}")
 
-            if not title or not content:
-                print("❌ Missing data")
-                continue
+        title, content = get_random_page()
 
-            html = make_html(title, content)
-            save_article(title, html)
+        if not title or not content:
+            print("❌ Invalid page, skipping")
+            continue
 
-            created += 1
+        html = make_html(title, content)
+        save_page(title, html)
 
-        except Exception as e:
-            print("❌ ERROR:", e)
+        created += 1
+        print(f"✅ Created {created}/{PAGES_PER_RUN}")
 
-    print("\n🎉 DONE. Created:", created)
+    print("\n🎉 DONE")
+    print("Total pages created:", created)
 
 
+# Run immediately
 main()
