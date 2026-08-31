@@ -1,62 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Particle system - Wiki2</title>
-  <meta name="description" content="A particle system is a technique in game physics, motion graphics, and computer graphics that uses many minute sprites, 3D models, or other graphic objects to simulate certain kinds of &quot;fuzzy&quot; phenomena, which are otherwise very hard to rep">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Particle_system.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Particle system - Wiki2">
-  <meta property="og:description" content="A particle system is a technique in game physics, motion graphics, and computer graphics that uses many minute sprites, 3D models, or other graphic objects to simulate certain kinds of &quot;fuzzy&quot; phenomena, which are otherwise very hard to rep">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Particle_system.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/f/f2/Particle_sys_fire.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Particle system - Wiki2">
-  <meta name="twitter:description" content="A particle system is a technique in game physics, motion graphics, and computer graphics that uses many minute sprites, 3D models, or other graphic objects to simulate certain kinds of &quot;fuzzy&quot; phenomena, which are otherwise very hard to rep">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/f/f2/Particle_sys_fire.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Particle system - Wiki2</title>
+<meta content='A particle system is a technique in game physics, motion graphics, and computer graphics that uses many minute sprites, 3D models, or other graphic objects to simulate certain kinds of "fuzzy" phenomena, which are otherwise very hard to rep' name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Particle_system.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Particle system" property="og:title"/>
+<meta content="Particle system is an encyclopedia entry in the Game engines collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Particle_system.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/f/f2/Particle_sys_fire.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Particle system" name="twitter:title"/>
+<meta content="Particle system is an encyclopedia entry in the Game engines collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/f/f2/Particle_sys_fire.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-  </div>
-  <div class="content">
-    <h1>Particle system</h1>
-    <p><b>Particle system</b> is an encyclopedia entry in the <b>Game engines</b> collection.</p>
-    <p>A particle system is a technique in game physics, motion graphics, and computer graphics that uses many minute sprites, 3D models, or other graphic objects to simulate certain kinds of &quot;fuzzy&quot; phenomena, which are otherwise very hard to reproduce with conventional rendering techniques – usually highly chaotic systems, natural phenomena, or processes caused by chemical reactions.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Particle_sys_fire.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Particle system"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Particle_Emitter.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Particle Emitter.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Particle_sys_fire.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Particle sys fire.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>A particle system is a technique in game physics , motion graphics , and computer graphics that uses many minute sprites , 3D models , or other graphic objects to simulate certain kinds of &quot;fuzzy&quot; phenomena, which are otherwise very hard to reproduce with conventional rendering techniques – usually highly chaotic systems, natural phenomena, or processes caused by chemical reactions. Introduced in the 1982 film Star Trek II: The Wrath of Khan for the fictional &quot;Genesis effect&quot;, other examples include replicating the phenomena of fire , explosions , smoke , moving water (such as a waterfall), sparks , falling leaves, rock falls, clouds , fog , snow , dust , meteor tails, stars and galaxies, or abstract visual effects like glowing trails, magic spells , etc. – these use particles that fade out quickly and are then re-emitted from the effect&#x27;s source. Another technique can be used for things that contain many strands – such as fur, hair, and grass – involving rendering an entire particle&#x27;s lifetime at once, which can then be drawn and manipulated as a single strand of the material in question. Particle systems are defined as a group of points in space, guided by a collection of rules defining behavior and appearance. Particle systems model phenomena as a cloud of particles, using stochastic processes to simplify the definition of dynamical system and fluid mechanics with that are d</p>
-    <hr>
-    <h2>Emission stage</h2>
-    <p>An emitter implements a spawning rate (how many particles are generated per unit of time), the particles&#x27; initial velocity vector (the direction they are emitted upon creation). When using a mesh object as an emitter, the initial velocity vector is often set to be normal to the individual face(s) of the object, making the particles appear to &quot;spray&quot; directly from each face but this is optional.</p>
-    <hr>
-    <h2>Simulation stage</h2>
-    <p>During the simulation stage, the number of new particles that must be created is calculated based on spawning rates and the interval between updates, and each of them is spawned in a specific position in 3D space based on the emitter&#x27;s position and the spawning area specified. Each of the particle&#x27;s parameters (i.e. velocity, color, etc.) is initialized according to the emitter&#x27;s parameters. At each update, all existing particles are checked to see if they have exceeded their lifetime, in which case they are removed from the simulation. Otherwise, the particles&#x27; position and other characteristics are advanced based on a physical simulation, which can be as simple as translating their current position, or as complicated as performing physically accurate trajectory calculations which take into account external forces (gravity, friction, wind, etc.). It is common to perform collision detection between particles and specified 3D objects in the scene to make the particles bounce off of or otherwise interact with obstacles in the environment. Collisions between particles are rarely used, as they are computationally expensive and not visually relevant for most simulations.</p>
-    <hr>
-    <h2>Rendering stage</h2>
-    <p>After the update is complete, each particle is rendered, usually in the form of a textured billboarded quad (i.e. a quadrilateral that is always facing the viewer). However, this is sometimes not necessary for games; a particle may be rendered as a single pixel in small resolution/limited processing power environments. Conversely, in motion graphics particles tend to be full but small-scale and easy-to-render 3D models, to ensure fidelity even at high resolution. Particles can be rendered as Metaballs in off-line rendering; isosurfaces computed from particle-metaballs make quite convincing liquids. Finally, 3D mesh objects can &quot;stand in&quot; for the particles — a snowstorm might consist of a single 3D snowflake mesh being duplicated and rotated to match the positions of thousands or millions of particles.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Witchbrook.html">Witchbrook</a></li>
-      <li><a href="Valfaris.html">Valfaris</a></li>
-      <li><a href="Bemani.html">Bemani</a></li>
-      <li><a href="Tiny_Bookshop.html">Tiny Bookshop</a></li>
-      <li><a href="Aglet_video_game.html">Aglet (video game)</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Particle_system">Wikimedia article</a></small></p>
-    <p><i>Last edited: August 31, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+</div>
+<div class="content">
+<h1>Particle system</h1>
+<p><b>Particle system</b> is an encyclopedia entry in the <b>Game engines</b> collection.</p>
+<p>A particle system is a technique in game physics, motion graphics, and computer graphics that uses many minute sprites, 3D models, or other graphic objects to simulate certain kinds of "fuzzy" phenomena, which are otherwise very hard to reproduce with conventional rendering techniques – usually highly chaotic systems, natural phenomena, or processes caused by chemical reactions.</p>
+<figure class="article-image"><img alt="Particle system" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Particle_sys_fire.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Particle Emitter.jpg" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Particle_Emitter.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Particle sys fire.jpg" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Particle_sys_fire.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>A particle system is a technique in game physics , motion graphics , and computer graphics that uses many minute sprites , 3D models , or other graphic objects to simulate certain kinds of "fuzzy" phenomena, which are otherwise very hard to reproduce with conventional rendering techniques – usually highly chaotic systems, natural phenomena, or processes caused by chemical reactions. Introduced in the 1982 film Star Trek II: The Wrath of Khan for the fictional "Genesis effect", other examples include replicating the phenomena of fire , explosions , smoke , moving water (such as a waterfall), sparks , falling leaves, rock falls, clouds , fog , snow , dust , meteor tails, stars and galaxies, or abstract visual effects like glowing trails, magic spells , etc. – these use particles that fade out quickly and are then re-emitted from the effect's source. Another technique can be used for things that contain many strands – such as fur, hair, and grass – involving rendering an entire particle's lifetime at once, which can then be drawn and manipulated as a single strand of the material in question. Particle systems are defined as a group of points in space, guided by a collection of rules defining behavior and appearance. Particle systems model phenomena as a cloud of particles, using stochastic processes to simplify the definition of dynamical system and fluid mechanics with that are d</p>
+<hr/>
+<h2>Emission stage</h2>
+<p>An emitter implements a spawning rate (how many particles are generated per unit of time), the particles' initial velocity vector (the direction they are emitted upon creation). When using a mesh object as an emitter, the initial velocity vector is often set to be normal to the individual face(s) of the object, making the particles appear to "spray" directly from each face but this is optional.</p>
+<hr/>
+<h2>Simulation stage</h2>
+<p>During the simulation stage, the number of new particles that must be created is calculated based on spawning rates and the interval between updates, and each of them is spawned in a specific position in 3D space based on the emitter's position and the spawning area specified. Each of the particle's parameters (i.e. velocity, color, etc.) is initialized according to the emitter's parameters. At each update, all existing particles are checked to see if they have exceeded their lifetime, in which case they are removed from the simulation. Otherwise, the particles' position and other characteristics are advanced based on a physical simulation, which can be as simple as translating their current position, or as complicated as performing physically accurate trajectory calculations which take into account external forces (gravity, friction, wind, etc.). It is common to perform collision detection between particles and specified 3D objects in the scene to make the particles bounce off of or otherwise interact with obstacles in the environment. Collisions between particles are rarely used, as they are computationally expensive and not visually relevant for most simulations.</p>
+<hr/>
+<h2>Rendering stage</h2>
+<p>After the update is complete, each particle is rendered, usually in the form of a textured billboarded quad (i.e. a quadrilateral that is always facing the viewer). However, this is sometimes not necessary for games; a particle may be rendered as a single pixel in small resolution/limited processing power environments. Conversely, in motion graphics particles tend to be full but small-scale and easy-to-render 3D models, to ensure fidelity even at high resolution. Particles can be rendered as Metaballs in off-line rendering; isosurfaces computed from particle-metaballs make quite convincing liquids. Finally, 3D mesh objects can "stand in" for the particles — a snowstorm might consist of a single 3D snowflake mesh being duplicated and rotated to match the positions of thousands or millions of particles.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Witchbrook.html">Witchbrook</a></li>
+<li><a href="Valfaris.html">Valfaris</a></li>
+<li><a href="Bemani.html">Bemani</a></li>
+<li><a href="Tiny_Bookshop.html">Tiny Bookshop</a></li>
+<li><a href="Aglet_video_game.html">Aglet (video game)</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Particle_system">Wikimedia article</a></small></p>
+<p><i>Last edited: August 31, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

@@ -15031,14 +15031,182 @@
       "category": "Classic games",
       "source": "https://en.wikipedia.org/wiki/1942_(video_game)",
       "generated_at": "2026-08-31T14:53:55+00:00"
+    },
+    {
+      "title": "CloverPit",
+      "filename": "CloverPit.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/CloverPit",
+      "generated_at": "2026-08-31T20:17:38+00:00"
+    },
+    {
+      "title": "Dadish",
+      "filename": "Dadish.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Dadish",
+      "generated_at": "2026-08-31T20:17:41+00:00"
+    },
+    {
+      "title": "Distant Worlds 2",
+      "filename": "Distant_Worlds_2.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Distant_Worlds_2",
+      "generated_at": "2026-08-31T20:17:44+00:00"
+    },
+    {
+      "title": "Eets",
+      "filename": "Eets.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Eets",
+      "generated_at": "2026-08-31T20:17:47+00:00"
+    },
+    {
+      "title": "Fenix Rage",
+      "filename": "Fenix_Rage.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Fenix_Rage",
+      "generated_at": "2026-08-31T20:17:49+00:00"
+    },
+    {
+      "title": "Ragdoll physics",
+      "filename": "Ragdoll_physics.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Ragdoll_physics",
+      "generated_at": "2026-08-31T20:17:52+00:00"
+    },
+    {
+      "title": "FIFA 18",
+      "filename": "FIFA_18.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_18",
+      "generated_at": "2026-08-31T20:17:59+00:00"
+    },
+    {
+      "title": "Overwatch",
+      "filename": "Overwatch.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Overwatch",
+      "generated_at": "2026-08-31T20:18:02+00:00"
+    },
+    {
+      "title": "FIFA 19",
+      "filename": "FIFA_19.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_19",
+      "generated_at": "2026-08-31T20:18:05+00:00"
+    },
+    {
+      "title": "Ashura Blaster",
+      "filename": "Ashura_Blaster.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Ashura_Blaster",
+      "generated_at": "2026-08-31T20:18:08+00:00"
+    },
+    {
+      "title": "Gbanga",
+      "filename": "Gbanga.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Gbanga",
+      "generated_at": "2026-08-31T20:18:11+00:00"
+    },
+    {
+      "title": "Cluck Yegger in Escape from the Planet of the Poultroid",
+      "filename": "Cluck_Yegger_in_Escape_from_the_Planet_of_the_Poultroid.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Cluck_Yegger_in_Escape_from_the_Planet_of_the_Poultroid",
+      "generated_at": "2026-08-31T20:18:14+00:00"
+    },
+    {
+      "title": "Garden Story",
+      "filename": "Garden_Story.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Garden_Story",
+      "generated_at": "2026-08-31T20:18:18+00:00"
+    },
+    {
+      "title": "Half Sword",
+      "filename": "Half_Sword.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Half_Sword",
+      "generated_at": "2026-08-31T20:18:20+00:00"
+    },
+    {
+      "title": "I'm O.K – A Murder Simulator",
+      "filename": "I_m_O_K_A_Murder_Simulator.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/I'm_O.K_%E2%80%93_A_Murder_Simulator",
+      "generated_at": "2026-08-31T20:18:22+00:00"
+    },
+    {
+      "title": "Official Hamster Republic Role Playing Game Construction Engine",
+      "filename": "Official_Hamster_Republic_Role_Playing_Game_Construction_Engine.html",
+      "category": "Game engines",
+      "source": "https://en.wikipedia.org/wiki/Official_Hamster_Republic_Role_Playing_Game_Construction_Engine",
+      "generated_at": "2026-08-31T20:18:25+00:00"
+    },
+    {
+      "title": "Overwatch (2016 video game)",
+      "filename": "Overwatch_2016_video_game.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Overwatch_(2016_video_game)",
+      "generated_at": "2026-08-31T20:18:30+00:00"
+    },
+    {
+      "title": "FIFA 20",
+      "filename": "FIFA_20.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/FIFA_20",
+      "generated_at": "2026-08-31T20:18:34+00:00"
+    },
+    {
+      "title": "Overwatch (2023 video game)",
+      "filename": "Overwatch_2023_video_game.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Overwatch_(2023_video_game)",
+      "generated_at": "2026-08-31T20:18:37+00:00"
+    },
+    {
+      "title": "Big Karnak",
+      "filename": "Big_Karnak.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Big_Karnak",
+      "generated_at": "2026-08-31T20:18:39+00:00"
+    },
+    {
+      "title": "Music of the Drakengard series",
+      "filename": "Music_of_the_Drakengard_series.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Music_of_the_Drakengard_series",
+      "generated_at": "2026-08-31T20:18:43+00:00"
+    },
+    {
+      "title": "The Coffin of Andy and Leyley",
+      "filename": "The_Coffin_of_Andy_and_Leyley.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/The_Coffin_of_Andy_and_Leyley",
+      "generated_at": "2026-08-31T20:18:47+00:00"
+    },
+    {
+      "title": "Justice Duel",
+      "filename": "Justice_Duel.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Justice_Duel",
+      "generated_at": "2026-08-31T20:18:50+00:00"
+    },
+    {
+      "title": "Limbo (video game)",
+      "filename": "Limbo_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Limbo_(video_game)",
+      "generated_at": "2026-08-31T20:18:53+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|2e522c32042e4c322a50464c040f0530011301dcc2dcbedc|80749637",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
-    "Category:Video game franchises": "page|342a2c52402a044446542a042e4c5a4e502a40403a4e073604343a442a4004342a44502a4e5a0306342a2c52402a044446542a042e4c5a4e502a40403a4e04343a442a4004342a44502a4e5a0125250c01dcc0dcc2dcbbdcc1dcbfdcc0dcc2dcbcdcc1dc0a|5070173",
+    "Category:Indie games": "page|422a502e3846010a01dc09|73882426",
+    "Category:Arcade video games": "page|2e2a403a2c324c04080f34010e01dc0d|33980522",
     "Category:Video game engines": "page|4a040992362a4232043244363a4432099403064a040992362a4232043244363a44320994012301dcc4dcc2dcbfdc12|23688058",
     "Category:Esports games": "page|48463e32424644042e46424832503a503a54320448402a5a030648463e3242464404543a30324604362a4232044e324c3a324e042e46424832503a503a54320448402a5a0142882d88250901dcaddc2e|60144282",
-    "Category:Arcade video games": "page|2a4c4204564c324e50403a4436040992543a30324604362a42320994011e01dcc3e019|3781946"
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
+    "Category:Video game franchises": "page|342a2c52402a044446542a042e4c5a4e502a40403a4e073604343a442a4004342a44502a4e5a0306342a2c52402a044446542a042e4c5a4e502a40403a4e04343a442a4004342a44502a4e5a0125250c01dcc0dcc2dcbbdcc1dcbfdcc0dcc2dcbcdcc1dc0a|5070173"
   }
 }
