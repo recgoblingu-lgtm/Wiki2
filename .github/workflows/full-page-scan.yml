@@ -1,0 +1,44 @@
+name: Wiki2 Full Page Scan
+
+on:
+  workflow_dispatch:   # lets you run it manually for ALL pages
+  push:
+    paths:
+      - '**.html'
+
+jobs:
+  scan-pages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Send all pages to Discord
+        run: |
+          COUNT=0
+
+          for file in $(find . -name "*.html")
+          do
+            COUNT=$((COUNT+1))
+
+            NAME=$(basename "$file" .html)
+            URL="https://github.com/recgoblingu-lgtm/Wiki2/${file#./}"
+
+            curl -H "Content-Type: application/json" \
+            -X POST \
+            -d "{
+              \"embeds\": [{
+                \"title\": \"Page Detected\",
+                \"description\": \"$NAME\",
+                \"url\": \"$URL\",
+                \"fields\": [
+                  {\"name\": \"Page #\", \"value\": \"$COUNT\", \"inline\": true}
+                ],
+                \"color\": 3447003
+              }]
+            }" \
+            https://discord.com/api/webhooks/1544161873467932672/QzxOkjIBH1jHhQADznl7Gj6q1EOZtc6U1PkiohH3vxN1Mi7uOc2o69YOtO-7-FNiUQFb
+
+            sleep 1
+          done
