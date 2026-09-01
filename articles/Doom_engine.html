@@ -1,63 +1,64 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Doom engine - Wiki2</title>
-  <meta name="description" content="The Doom engine is the game engine used in the id Software video games Doom and Doom II: Hell on Earth. It is also used in Heretic, Hexen: Beyond Heretic, Strife: Quest for the Sigil, Hacx: Twitch &#x27;n Kill, Freedoom, and other games produced">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Doom_engine.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Doom engine - Wiki2">
-  <meta property="og:description" content="The Doom engine is the game engine used in the id Software video games Doom and Doom II: Hell on Earth. It is also used in Heretic, Hexen: Beyond Heretic, Strife: Quest for the Sigil, Hacx: Twitch &#x27;n Kill, Freedoom, and other games produced">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Doom_engine.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/6/65/Camera_Rotation_vs_Shearing.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Doom engine - Wiki2">
-  <meta name="twitter:description" content="The Doom engine is the game engine used in the id Software video games Doom and Doom II: Hell on Earth. It is also used in Heretic, Hexen: Beyond Heretic, Strife: Quest for the Sigil, Hacx: Twitch &#x27;n Kill, Freedoom, and other games produced">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/6/65/Camera_Rotation_vs_Shearing.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Doom engine - Wiki2</title>
+<meta content="The Doom engine is the game engine used in the id Software video games Doom and Doom II: Hell on Earth. It is also used in Heretic, Hexen: Beyond Heretic, Strife: Quest for the Sigil, Hacx: Twitch 'n Kill, Freedoom, and other games produced" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Doom_engine.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Doom engine" property="og:title"/>
+<meta content="Doom engine is an encyclopedia entry in the Game engines collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Doom_engine.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/6/65/Camera_Rotation_vs_Shearing.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Doom engine" name="twitter:title"/>
+<meta content="Doom engine is an encyclopedia entry in the Game engines collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/6/65/Camera_Rotation_vs_Shearing.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Doom engine</h1>
-    <p><b>Doom engine</b> is an encyclopedia entry in the <b>Game engines</b> collection.</p>
-    <p>The Doom engine is the game engine used in the id Software video games Doom and Doom II: Hell on Earth. It is also used in Heretic, Hexen: Beyond Heretic, Strife: Quest for the Sigil, Hacx: Twitch &#x27;n Kill, Freedoom, and other games produced by licensees. It was created by John Carmack, with auxiliary functions written by Mike Abrash, John Romero, Dave Taylor, and Paul Radek. Originally developed on NeXT computers, it was ported to MS-DOS and compatible operating systems for Doom&#x27;s initial release and was later ported to several game consoles and operating systems.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Camera_Rotation_vs_Shearing.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Camera Rotation vs Shearing.gif"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>The Doom engine is the game engine used in the id Software video games Doom and Doom II: Hell on Earth . It is also used in Heretic , Hexen: Beyond Heretic , Strife: Quest for the Sigil , Hacx: Twitch &#x27;n Kill , Freedoom , and other games produced by licensees. It was created by John Carmack , with auxiliary functions written by Mike Abrash , John Romero , Dave Taylor , and Paul Radek. Originally developed on NeXT computers, it was ported to MS-DOS and compatible operating systems for Doom &#x27;s initial release and was later ported to several game consoles and operating systems . The source code to the Linux version of Doom was released to the public under a license that granted rights to non-commercial use on December 23, 1997, followed by the Linux version of Doom II about a week later on December 29, 1997. The source code was later re-released under the GNU General Public License v2.0 or later on October 3, 1999. The dozens of unofficial Doom source ports that have been created since then allow Doom to run on previously unsupported operating systems and sometimes radically expand the engine&#x27;s functionality with new features. Although the engine renders a 3D space, that space is projected from a two-dimensional floor plan . The line of sight is always parallel to the floor, walls must be perpendicular to the floors, and it is not possible to create multi-level structures or slope</p>
-    <hr>
-    <h2>Game world</h2>
-    <p>The Doom engine separates rendering from the rest of the game. The graphics engine runs as fast as possible, but the game world runs at 35 frames per second regardless of the hardware, so multiple players can play against each other using computers of varying performance.</p>
-    <hr>
-    <h2>Level structure</h2>
-    <p>A simple setup demonstrating how Doom represents levels internally Viewed from the top down, all Doom levels are actually two-dimensional, demonstrating one of the key limitations of the Doom engine: room-over-room is not possible. This limitation, however, has a silver lining: a &quot;map mode&quot; can be easily displayed, which represents the walls and the player&#x27;s position, much like the first image to the right.</p>
-    <hr>
-    <h2>Basic objects</h2>
-    <p>The base unit is the vertex , which represents a single 2D point. Vertices (or &quot;vertexes&quot; as they are referred to internally) are then joined to form lines , known as &quot;linedefs&quot;. Each linedef can have either one or two sides, which are known as &quot;sidedefs&quot;. Sidedefs are then grouped together to form polygons ; these are called &quot;sectors&quot;. Sectors represent particular areas of the level.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Squad_video_game.html">Squad (video game)</a></li>
-      <li><a href="Skillshot_City.html">Skillshot City</a></li>
-      <li><a href="Samorost.html">Samorost</a></li>
-      <li><a href="Rakuen_video_game.html">Rakuen (video game)</a></li>
-      <li><a href="David_King_Dead_by_Daylight.html">David King (Dead by Daylight)</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Doom_engine">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 1, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Doom engine</h1>
+<p><b>Doom engine</b> is an encyclopedia entry in the <b>Game engines</b> collection.</p>
+<p>The Doom engine is the game engine used in the id Software video games Doom and Doom II: Hell on Earth. It is also used in Heretic, Hexen: Beyond Heretic, Strife: Quest for the Sigil, Hacx: Twitch 'n Kill, Freedoom, and other games produced by licensees. It was created by John Carmack, with auxiliary functions written by Mike Abrash, John Romero, Dave Taylor, and Paul Radek. Originally developed on NeXT computers, it was ported to MS-DOS and compatible operating systems for Doom's initial release and was later ported to several game consoles and operating systems.</p>
+<figure class="article-image"><img alt="Camera Rotation vs Shearing.gif" src="https://upload.wikimedia.org/wikipedia/commons/6/65/Camera_Rotation_vs_Shearing.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>The Doom engine is the game engine used in the id Software video games Doom and Doom II: Hell on Earth . It is also used in Heretic , Hexen: Beyond Heretic , Strife: Quest for the Sigil , Hacx: Twitch 'n Kill , Freedoom , and other games produced by licensees. It was created by John Carmack , with auxiliary functions written by Mike Abrash , John Romero , Dave Taylor , and Paul Radek. Originally developed on NeXT computers, it was ported to MS-DOS and compatible operating systems for Doom 's initial release and was later ported to several game consoles and operating systems . The source code to the Linux version of Doom was released to the public under a license that granted rights to non-commercial use on December 23, 1997, followed by the Linux version of Doom II about a week later on December 29, 1997. The source code was later re-released under the GNU General Public License v2.0 or later on October 3, 1999. The dozens of unofficial Doom source ports that have been created since then allow Doom to run on previously unsupported operating systems and sometimes radically expand the engine's functionality with new features. Although the engine renders a 3D space, that space is projected from a two-dimensional floor plan . The line of sight is always parallel to the floor, walls must be perpendicular to the floors, and it is not possible to create multi-level structures or slope</p>
+<hr/>
+<h2>Game world</h2>
+<p>The Doom engine separates rendering from the rest of the game. The graphics engine runs as fast as possible, but the game world runs at 35 frames per second regardless of the hardware, so multiple players can play against each other using computers of varying performance.</p>
+<hr/>
+<h2>Level structure</h2>
+<p>A simple setup demonstrating how Doom represents levels internally Viewed from the top down, all Doom levels are actually two-dimensional, demonstrating one of the key limitations of the Doom engine: room-over-room is not possible. This limitation, however, has a silver lining: a "map mode" can be easily displayed, which represents the walls and the player's position, much like the first image to the right.</p>
+<hr/>
+<h2>Basic objects</h2>
+<p>The base unit is the vertex , which represents a single 2D point. Vertices (or "vertexes" as they are referred to internally) are then joined to form lines , known as "linedefs". Each linedef can have either one or two sides, which are known as "sidedefs". Sidedefs are then grouped together to form polygons ; these are called "sectors". Sectors represent particular areas of the level.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Squad_video_game.html">Squad (video game)</a></li>
+<li><a href="Skillshot_City.html">Skillshot City</a></li>
+<li><a href="Samorost.html">Samorost</a></li>
+<li><a href="Rakuen_video_game.html">Rakuen (video game)</a></li>
+<li><a href="David_King_Dead_by_Daylight.html">David King (Dead by Daylight)</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Doom_engine">Wikimedia article</a></small></p>
+<p><i>Last edited: September 1, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
