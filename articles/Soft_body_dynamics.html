@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soft-body dynamics - Wiki2</title>
+  <meta name="description" content="Soft-body dynamics is a field of computer graphics that focuses on visually realistic physical simulations of the motion and properties of deformable objects. The applications are mostly in video games and films. Unlike in simulation of rig">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Soft_body_dynamics.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Soft-body dynamics - Wiki2">
+  <meta property="og:description" content="Soft-body dynamics is a field of computer graphics that focuses on visually realistic physical simulations of the motion and properties of deformable objects. The applications are mostly in video games and films. Unlike in simulation of rig">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Soft_body_dynamics.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/f/fb/Blender3D_HiddenTextSoftbody.ogv?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Soft-body dynamics - Wiki2">
+  <meta name="twitter:description" content="Soft-body dynamics is a field of computer graphics that focuses on visually realistic physical simulations of the motion and properties of deformable objects. The applications are mostly in video games and films. Unlike in simulation of rig">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/f/fb/Blender3D_HiddenTextSoftbody.ogv?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Soft-body dynamics</h1>
+    <p><b>Soft-body dynamics</b> is an encyclopedia entry in the <b>Game engines</b> collection.</p>
+    <p>Soft-body dynamics is a field of computer graphics that focuses on visually realistic physical simulations of the motion and properties of deformable objects. The applications are mostly in video games and films. Unlike in simulation of rigid bodies, the shape of soft bodies can change, meaning that the relative distance of two points on the object is not fixed. While the relative distances of points are not fixed, the body is expected to retain its shape to some degree. The scope of soft body dynamics is quite broad, including simulation of soft organic materials such as muscle, fat, hair and vegetation, as well as other deformable materials such as clothing and fabric. Generally, these methods only provide visually plausible emulations rather than accurate scientific/engineering simulations, though there is some crossover with scientific methods, particularly in the case of finite element simulations. Several physics engines currently provide software for soft-body simulation.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Blender3D_HiddenTextSoftbody.ogv?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Soft-body dynamics"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>Soft-body dynamics is a field of computer graphics that focuses on visually realistic physical simulations of the motion and properties of deformable objects (or soft bodies ). The applications are mostly in video games and films. Unlike in simulation of rigid bodies , the shape of soft bodies can change, meaning that the relative distance of two points on the object is not fixed. While the relative distances of points are not fixed, the body is expected to retain its shape to some degree (unlike a fluid ). The scope of soft body dynamics is quite broad, including simulation of soft organic materials such as muscle, fat, hair and vegetation, as well as other deformable materials such as clothing and fabric. Generally, these methods only provide visually plausible emulations rather than accurate scientific/engineering simulations, though there is some crossover with scientific methods, particularly in the case of finite element simulations. Several physics engines currently provide software for soft-body simulation.</p>
+    <hr>
+    <h2>Deformable solids</h2>
+    <p>The simulation of volumetric solid soft bodies can be realised by using a variety of approaches.</p>
+    <hr>
+    <h2>Spring/mass models</h2>
+    <p>In this approach, the body is modeled as a set of point masses (nodes) connected by ideal weightless elastic springs obeying some variant of Hooke&#x27;s law . The nodes may either derive from the edges of a two-dimensional polygonal mesh representation of the surface of the object, or from a three-dimensional network of nodes and edges modeling the internal structure of the object (or even a one-dimensional system of links, if for example a rope or hair strand is being simulated). Additional springs between nodes can be added, or the force law of the springs modified, to achieve desired effects. Applying Newton&#x27;s second law to the point masses including the forces applied by the springs and any external forces (due to contact, gravity, air resistance, wind, and so on) gives a system of differential equations for the motion of the nodes, which is solved by standard numerical schemes for solving ODEs . Rendering of a three-dimensional mass-spring lattice is often done using free-form deformation , in which the rendered mesh is embedded in the lattice and distorted to conform to the shape of the lattice as it evolves. Assuming all point masses equal to zero one can obtain the Stretched grid method aimed at several engineering problems solution relative to the elastic grid behavior. These are sometimes known as mass-spring-damper models . In pressurized soft bodies spring-mass model is</p>
+    <hr>
+    <h2>Finite element simulation</h2>
+    <p>This is a more physically accurate approach, which uses the widely used finite element method to solve the partial differential equations which govern the dynamics of an elastic material . The body is modeled as a three-dimensional elastic continuum by breaking it into a large number of solid elements which fit together, and solving for the stresses and strains in each element using a model of the material. The elements are typically tetrahedral, the nodes being the vertices of the tetrahedra (relatively simple methods exist to tetrahedralize a three dimensional region bounded by a polygon mesh into tetrahedra , similarly to how a two-dimensional polygon may be triangulated into triangles). The strain (which measures the local deformation of the points of the material from their rest state) is quantified by the strain tensor . The stress (which measures the local forces per-unit area in all directions acting on the material) is quantified by the Cauchy stress tensor . Given the current local strain, the local stress can be computed via the generalized form of Hooke&#x27;s law : where is the elasticity tensor , which encodes the material properties (parametrized in linear elasticity for an isotropic material by the Poisson ratio and Young&#x27;s modulus ). The equation of motion of the element nodes is obtained by integrating the stress field over each element and relating this, via Newto</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Battleships_Forever.html">Battleships Forever</a></li>
+      <li><a href="Another_Crab_s_Treasure.html">Another Crab&#x27;s Treasure</a></li>
+      <li><a href="6180_the_moon.html">6180 the moon</a></li>
+      <li><a href="Dark_Seed_video_game.html">Dark Seed (video game)</a></li>
+      <li><a href="Within_a_Deep_Forest.html">Within a Deep Forest</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Soft-body_dynamics">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 1, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

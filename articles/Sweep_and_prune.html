@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sweep and prune - Wiki2</title>
+  <meta name="description" content="In physical simulations, sweep and prune is a broad phase algorithm used during collision detection to limit the number of pairs of solids that need to be checked for collision, i.e. intersection. This is achieved by sorting the starts and ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Sweep_and_prune.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Sweep and prune - Wiki2">
+  <meta property="og:description" content="In physical simulations, sweep and prune is a broad phase algorithm used during collision detection to limit the number of pairs of solids that need to be checked for collision, i.e. intersection. This is achieved by sorting the starts and ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Sweep_and_prune.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sweep and prune - Wiki2">
+  <meta name="twitter:description" content="In physical simulations, sweep and prune is a broad phase algorithm used during collision detection to limit the number of pairs of solids that need to be checked for collision, i.e. intersection. This is achieved by sorting the starts and ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Sweep and prune</h1>
+    <p><b>Sweep and prune</b> is an encyclopedia entry in the <b>Game engines</b> collection.</p>
+    <p>In physical simulations, sweep and prune is a broad phase algorithm used during collision detection to limit the number of pairs of solids that need to be checked for collision, i.e. intersection. This is achieved by sorting the starts and ends of the bounding volume of each solid along a number of arbitrary axes. As the solids move, their starts and ends may overlap. When the bounding volumes of two solids overlap in all axes they are flagged to be tested by more precise and time-consuming algorithms.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>In physical simulations , sweep and prune is a broad phase algorithm used during collision detection to limit the number of pairs of solids that need to be checked for collision , i.e. intersection. This is achieved by sorting the starts (lower bound) and ends (upper bound) of the bounding volume of each solid along a number of arbitrary axes. As the solids move, their starts and ends may overlap. When the bounding volumes of two solids overlap in all axes they are flagged to be tested by more precise and time-consuming algorithms. Sweep and prune exploits temporal coherence as it is likely that solids do not move significantly between two simulation steps. Because of that, at each step, the sorted lists of bounding volume starts and ends can be updated with relatively few computational operations. Sorting algorithms which are fast at sorting almost-sorted lists, such as insertion sort , are particularly good for this purpose. According with the type of bounding volume used, it is necessary to update the bounding volume dimensions every time a solid is reoriented. To circumvent this, temporal coherence can be used to compute the changes in bounding volume geometry with fewer operations. Another approach is to use bounding spheres or other orientation independent bounding volumes. Sweep and prune is also known as sort and sweep , referred to this way in David Baraff&#x27;s Ph.D. thes</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Garten_of_Banban_video_game.html">Garten of Banban (video game)</a></li>
+      <li><a href="Fez_video_game.html">Fez (video game)</a></li>
+      <li><a href="Eidolon_video_game.html">Eidolon (video game)</a></li>
+      <li><a href="Divekick.html">Divekick</a></li>
+      <li><a href="Dark_Seed_II.html">Dark Seed II</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Sweep_and_prune">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 1, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
