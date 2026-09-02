@@ -29241,12 +29241,47 @@
       "category": "Classic games",
       "source": "https://en.wikipedia.org/wiki/Last_Duel_(video_game)",
       "generated_at": "2026-09-02T00:23:25+00:00"
+    },
+    {
+      "title": "The Castle Doctrine",
+      "filename": "The_Castle_Doctrine.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Castle_Doctrine",
+      "generated_at": "2026-09-02T04:48:08+00:00"
+    },
+    {
+      "title": "Crab Game",
+      "filename": "Crab_Game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Crab_Game",
+      "generated_at": "2026-09-02T04:48:21+00:00"
+    },
+    {
+      "title": "Deemo",
+      "filename": "Deemo.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Deemo",
+      "generated_at": "2026-09-02T04:48:32+00:00"
+    },
+    {
+      "title": "Drums Rock",
+      "filename": "Drums_Rock.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Drums_Rock",
+      "generated_at": "2026-09-02T04:48:40+00:00"
+    },
+    {
+      "title": "Eternights",
+      "filename": "Eternights.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Eternights",
+      "generated_at": "2026-09-02T04:48:47+00:00"
     }
   ],
   "category_cursors": {
     "Category:Arcade video games": "page|422a2e3207360450383204302a4c3e042a3632011601dcc1dcc3dcc2dc06|2037499",
-    "Category:Video game franchises": "page|3a422a363a4432040992543a30324604362a4232044e324c3a324e0994011f01dc1e|47549049",
-    "Category:Indie games": "page|2c462c096e4e04362a4232010e01dcc1dc07|23934062",
-    "Category:Video game engines": "page|4a040992362a4232043244363a4432099403064a040992362a4232043244363a44320994012301dcc4dcc2dcbfdc12|23688058"
+    "Category:Video game franchises": "page|5a32503a4e48464c504e010e01dc0d|1217338",
+    "Category:Indie games": "page|342a44502a4e503a2e042e4644504c2a48503a46440409920f539e04543a30324604362a4232099401250701dcbddc1d|28194385",
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017"
   }
 }
