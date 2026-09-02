@@ -32776,12 +32776,27 @@
       "category": "Indie games",
       "source": "https://en.wikipedia.org/wiki/Tumblestone",
       "generated_at": "2026-09-02T10:27:39+00:00"
+    },
+    {
+      "title": "K-On! Hōkago Rhythm Selection",
+      "filename": "K_On_H_kago_Rhythm_Selection.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/K-On!",
+      "generated_at": "2026-09-02T13:35:34+00:00"
+    },
+    {
+      "title": "Lethal Enforcers",
+      "filename": "Lethal_Enforcers.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Lethal_Enforcers",
+      "generated_at": "2026-09-02T13:35:43+00:00"
     }
   ],
   "category_cursors": {
     "Category:Indie games": "page|5244482a2e3e3a4436040992543a30324604362a42320994011a01dc19|69518992",
-    "Category:Arcade video games": "page|383a423a504e52044446042a3a484c3a011401dcbcdcc5dc06|76155525",
+    "Category:Arcade video games": "page|422a2e3207360450383204302a4c3e042a3632011601dcc1dcc3dcc2dc06|2037499",
     "Category:Video game franchises": "page|5a32503a4e48464c504e010e01dc0d|1217338",
-    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017"
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
+    "Category:Video game engines": "page|4a040992362a4232043244363a4432099403064a040992362a4232043244363a44320994012301dcc4dcc2dcbfdc12|23688058"
   }
 }
