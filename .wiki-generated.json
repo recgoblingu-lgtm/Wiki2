@@ -29276,12 +29276,3512 @@
       "category": "Indie games",
       "source": "https://en.wikipedia.org/wiki/Eternights",
       "generated_at": "2026-09-02T04:48:47+00:00"
+    },
+    {
+      "title": "Metal Gear Online",
+      "filename": "Metal_Gear_Online.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Metal_Gear_Online",
+      "generated_at": "2026-09-02T09:06:51+00:00"
+    },
+    {
+      "title": "The NewZealand Story",
+      "filename": "The_NewZealand_Story.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/The_NewZealand_Story",
+      "generated_at": "2026-09-02T09:07:04+00:00"
+    },
+    {
+      "title": "Pipe Mania",
+      "filename": "Pipe_Mania.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Pipe_Mania",
+      "generated_at": "2026-09-02T09:07:14+00:00"
+    },
+    {
+      "title": "The Quest of Ki",
+      "filename": "The_Quest_of_Ki.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/The_Quest_of_Ki",
+      "generated_at": "2026-09-02T09:07:22+00:00"
+    },
+    {
+      "title": "RoboCop 2 (video game)",
+      "filename": "RoboCop_2_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/RoboCop_2_(video_game)",
+      "generated_at": "2026-09-02T09:07:29+00:00"
+    },
+    {
+      "title": "Forgotton Anne",
+      "filename": "Forgotton_Anne.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Forgotton_Anne",
+      "generated_at": "2026-09-02T09:07:43+00:00"
+    },
+    {
+      "title": "Gone Home",
+      "filename": "Gone_Home.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Gone_Home",
+      "generated_at": "2026-09-02T09:07:55+00:00"
+    },
+    {
+      "title": "Hidden Folks",
+      "filename": "Hidden_Folks.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Hidden_Folks",
+      "generated_at": "2026-09-02T09:08:05+00:00"
+    },
+    {
+      "title": "Inquisitor (video game)",
+      "filename": "Inquisitor_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Inquisitor_(video_game)",
+      "generated_at": "2026-09-02T09:08:12+00:00"
+    },
+    {
+      "title": "Knuckle Sandwich (video game)",
+      "filename": "Knuckle_Sandwich_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Knuckle_Sandwich_(video_game)",
+      "generated_at": "2026-09-02T09:08:19+00:00"
+    },
+    {
+      "title": "Skull & Crossbones (video game)",
+      "filename": "Skull_Crossbones_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Skull_%26_Crossbones_(video_game)",
+      "generated_at": "2026-09-02T09:08:33+00:00"
+    },
+    {
+      "title": "Star Wars (1983 video game)",
+      "filename": "Star_Wars_1983_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Star_Wars_(1983_video_game)",
+      "generated_at": "2026-09-02T09:08:47+00:00"
+    },
+    {
+      "title": "Superman (1988 video game)",
+      "filename": "Superman_1988_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Superman_(1988_video_game)",
+      "generated_at": "2026-09-02T09:08:56+00:00"
+    },
+    {
+      "title": "Tobe! Polystars",
+      "filename": "Tobe_Polystars.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Tobe!_Polystars",
+      "generated_at": "2026-09-02T09:09:05+00:00"
+    },
+    {
+      "title": "Virtua Fighter 4",
+      "filename": "Virtua_Fighter_4.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Virtua_Fighter_4",
+      "generated_at": "2026-09-02T09:09:11+00:00"
+    },
+    {
+      "title": "Lucky Luna",
+      "filename": "Lucky_Luna.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Lucky_Luna",
+      "generated_at": "2026-09-02T09:09:21+00:00"
+    },
+    {
+      "title": "Misao (video game)",
+      "filename": "Misao_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Misao_(video_game)",
+      "generated_at": "2026-09-02T09:09:32+00:00"
+    },
+    {
+      "title": "Nidhogg 2",
+      "filename": "Nidhogg_2.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Nidhogg_2",
+      "generated_at": "2026-09-02T09:09:41+00:00"
+    },
+    {
+      "title": "Orbitals (video game)",
+      "filename": "Orbitals_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Orbitals_(video_game)",
+      "generated_at": "2026-09-02T09:09:47+00:00"
+    },
+    {
+      "title": "Pixel Dungeon",
+      "filename": "Pixel_Dungeon.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Pixel_Dungeon",
+      "generated_at": "2026-09-02T09:09:54+00:00"
+    },
+    {
+      "title": "Apache 3",
+      "filename": "Apache_3.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Apache_3",
+      "generated_at": "2026-09-02T09:10:10+00:00"
+    },
+    {
+      "title": "Andro Dunos",
+      "filename": "Andro_Dunos.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Andro_Dunos",
+      "generated_at": "2026-09-02T09:10:23+00:00"
+    },
+    {
+      "title": "Battle Bakraid",
+      "filename": "Battle_Bakraid.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Battle_Bakraid",
+      "generated_at": "2026-09-02T09:10:33+00:00"
+    },
+    {
+      "title": "Bonze Adventure",
+      "filename": "Bonze_Adventure.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Bonze_Adventure",
+      "generated_at": "2026-09-02T09:10:41+00:00"
+    },
+    {
+      "title": "Cobra Command (1984 video game)",
+      "filename": "Cobra_Command_1984_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Cobra_Command_(1984_video_game)",
+      "generated_at": "2026-09-02T09:10:47+00:00"
+    },
+    {
+      "title": "Reverie Knights Tactics",
+      "filename": "Reverie_Knights_Tactics.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Reverie_Knights_Tactics",
+      "generated_at": "2026-09-02T09:11:02+00:00"
+    },
+    {
+      "title": "The Scroll of Taiwu",
+      "filename": "The_Scroll_of_Taiwu.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Scroll_of_Taiwu",
+      "generated_at": "2026-09-02T09:11:15+00:00"
+    },
+    {
+      "title": "Sokobond",
+      "filename": "Sokobond.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Sokobond",
+      "generated_at": "2026-09-02T09:11:23+00:00"
+    },
+    {
+      "title": "SteamWorld Heist",
+      "filename": "SteamWorld_Heist.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/SteamWorld_Heist",
+      "generated_at": "2026-09-02T09:11:30+00:00"
+    },
+    {
+      "title": "Temtem",
+      "filename": "Temtem.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Temtem",
+      "generated_at": "2026-09-02T09:11:38+00:00"
+    },
+    {
+      "title": "Darius Gaiden",
+      "filename": "Darius_Gaiden.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Darius_Gaiden",
+      "generated_at": "2026-09-02T09:11:54+00:00"
+    },
+    {
+      "title": "Ehrgeiz",
+      "filename": "Ehrgeiz.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Ehrgeiz",
+      "generated_at": "2026-09-02T09:12:07+00:00"
+    },
+    {
+      "title": "Freedom Force (1988 video game)",
+      "filename": "Freedom_Force_1988_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Freedom_Force_(1988_video_game)",
+      "generated_at": "2026-09-02T09:12:16+00:00"
+    },
+    {
+      "title": "Gunnail",
+      "filename": "Gunnail.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Gunnail",
+      "generated_at": "2026-09-02T09:12:24+00:00"
+    },
+    {
+      "title": "Joe & Mac",
+      "filename": "Joe_Mac.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Joe_%26_Mac",
+      "generated_at": "2026-09-02T09:12:30+00:00"
+    },
+    {
+      "title": "Tribal Trouble",
+      "filename": "Tribal_Trouble.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Tribal_Trouble",
+      "generated_at": "2026-09-02T09:12:41+00:00"
+    },
+    {
+      "title": "Warsaw (video game)",
+      "filename": "Warsaw_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Warsaw_(video_game)",
+      "generated_at": "2026-09-02T09:12:52+00:00"
+    },
+    {
+      "title": "Zeno Clash 2",
+      "filename": "Zeno_Clash_2.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Zeno_Clash_2",
+      "generated_at": "2026-09-02T09:13:02+00:00"
+    },
+    {
+      "title": "Alina of the Arena",
+      "filename": "Alina_of_the_Arena.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Alina_of_the_Arena",
+      "generated_at": "2026-09-02T09:13:10+00:00"
+    },
+    {
+      "title": "Atomicrops",
+      "filename": "Atomicrops.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Atomicrops",
+      "generated_at": "2026-09-02T09:13:16+00:00"
+    },
+    {
+      "title": "Last Mission (video game)",
+      "filename": "Last_Mission_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Last_Mission_(video_game)",
+      "generated_at": "2026-09-02T09:13:29+00:00"
+    },
+    {
+      "title": "Metal Hawk",
+      "filename": "Metal_Hawk.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Metal_Hawk",
+      "generated_at": "2026-09-02T09:13:42+00:00"
+    },
+    {
+      "title": "NFL Blitz (1997 video game)",
+      "filename": "NFL_Blitz_1997_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/NFL_Blitz_(1997_video_game)",
+      "generated_at": "2026-09-02T09:13:52+00:00"
+    },
+    {
+      "title": "Pipi & Bibi's",
+      "filename": "Pipi_Bibi_s.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Pipi_%26_Bibi's",
+      "generated_at": "2026-09-02T09:14:03+00:00"
+    },
+    {
+      "title": "Quester",
+      "filename": "Quester.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Quester",
+      "generated_at": "2026-09-02T09:14:08+00:00"
+    },
+    {
+      "title": "Black Room",
+      "filename": "Black_Room.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Black_Room",
+      "generated_at": "2026-09-02T09:14:23+00:00"
+    },
+    {
+      "title": "Castle Story",
+      "filename": "Castle_Story.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Castle_Story",
+      "generated_at": "2026-09-02T09:14:34+00:00"
+    },
+    {
+      "title": "Crash Club",
+      "filename": "Crash_Club.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Crash_Club",
+      "generated_at": "2026-09-02T09:14:42+00:00"
+    },
+    {
+      "title": "Deep Rock Galactic",
+      "filename": "Deep_Rock_Galactic.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Deep_Rock_Galactic",
+      "generated_at": "2026-09-02T09:14:49+00:00"
+    },
+    {
+      "title": "Duck Game",
+      "filename": "Duck_Game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Duck_Game",
+      "generated_at": "2026-09-02T09:14:55+00:00"
+    },
+    {
+      "title": "Roc'n Rope",
+      "filename": "Roc_n_Rope.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Roc'n_Rope",
+      "generated_at": "2026-09-02T09:15:10+00:00"
+    },
+    {
+      "title": "Skull Fang",
+      "filename": "Skull_Fang.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Skull_Fang",
+      "generated_at": "2026-09-02T09:15:24+00:00"
+    },
+    {
+      "title": "Star Wars Arcade",
+      "filename": "Star_Wars_Arcade.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Star_Wars_Arcade",
+      "generated_at": "2026-09-02T09:15:33+00:00"
+    },
+    {
+      "title": "Superstars V8 Racing",
+      "filename": "Superstars_V8_Racing.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Superstars_V8_Racing",
+      "generated_at": "2026-09-02T09:15:42+00:00"
+    },
+    {
+      "title": "Toki (video game)",
+      "filename": "Toki_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Toki_(video_game)",
+      "generated_at": "2026-09-02T09:15:48+00:00"
+    },
+    {
+      "title": "Europa (video game)",
+      "filename": "Europa_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Europa_(video_game)",
+      "generated_at": "2026-09-02T09:15:58+00:00"
+    },
+    {
+      "title": "FortressCraft",
+      "filename": "FortressCraft.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/FortressCraft",
+      "generated_at": "2026-09-02T09:16:08+00:00"
+    },
+    {
+      "title": "Gonner",
+      "filename": "Gonner.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Gonner",
+      "generated_at": "2026-09-02T09:16:17+00:00"
+    },
+    {
+      "title": "High Hell",
+      "filename": "High_Hell.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/High_Hell",
+      "generated_at": "2026-09-02T09:16:24+00:00"
+    },
+    {
+      "title": "The Inquisitor (video game)",
+      "filename": "The_Inquisitor_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Inquisitor_(video_game)",
+      "generated_at": "2026-09-02T09:16:29+00:00"
+    },
+    {
+      "title": "Virtua Fighter Kids",
+      "filename": "Virtua_Fighter_Kids.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Virtua_Fighter_Kids",
+      "generated_at": "2026-09-02T09:16:42+00:00"
+    },
+    {
+      "title": "Aqua Jack",
+      "filename": "Aqua_Jack.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Aqua_Jack",
+      "generated_at": "2026-09-02T09:16:59+00:00"
+    },
+    {
+      "title": "Anti-Aircraft (video game)",
+      "filename": "Anti_Aircraft_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Anti-Aircraft_(video_game)",
+      "generated_at": "2026-09-02T09:17:07+00:00"
+    },
+    {
+      "title": "Battle Balls",
+      "filename": "Battle_Balls.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Battle_Balls",
+      "generated_at": "2026-09-02T09:17:17+00:00"
+    },
+    {
+      "title": "Boong-Ga Boong-Ga",
+      "filename": "Boong_Ga_Boong_Ga.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Boong-Ga_Boong-Ga",
+      "generated_at": "2026-09-02T09:17:24+00:00"
+    },
+    {
+      "title": "Knytt",
+      "filename": "Knytt.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Knytt",
+      "generated_at": "2026-09-02T09:17:37+00:00"
+    },
+    {
+      "title": "Lucky's Tale",
+      "filename": "Lucky_s_Tale.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Lucky's_Tale",
+      "generated_at": "2026-09-02T09:17:49+00:00"
+    },
+    {
+      "title": "MiSide",
+      "filename": "MiSide.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/MiSide",
+      "generated_at": "2026-09-02T09:17:57+00:00"
+    },
+    {
+      "title": "Night Call (video game)",
+      "filename": "Night_Call_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Night_Call_(video_game)",
+      "generated_at": "2026-09-02T09:18:04+00:00"
+    },
+    {
+      "title": "Order of the Sinking Star",
+      "filename": "Order_of_the_Sinking_Star.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Order_of_the_Sinking_Star",
+      "generated_at": "2026-09-02T09:18:10+00:00"
+    },
+    {
+      "title": "Cobra Command (1988 video game)",
+      "filename": "Cobra_Command_1988_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Cobra_Command_(1988_video_game)",
+      "generated_at": "2026-09-02T09:18:25+00:00"
+    },
+    {
+      "title": "Darius II (video game)",
+      "filename": "Darius_II_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Darius_II_(video_game)",
+      "generated_at": "2026-09-02T09:18:39+00:00"
+    },
+    {
+      "title": "Eight Man (video game)",
+      "filename": "Eight_Man_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Eight_Man_(video_game)",
+      "generated_at": "2026-09-02T09:18:48+00:00"
+    },
+    {
+      "title": "Frenzy (1982 video game)",
+      "filename": "Frenzy_1982_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Frenzy_(1982_video_game)",
+      "generated_at": "2026-09-02T09:18:56+00:00"
+    },
+    {
+      "title": "Gururin",
+      "filename": "Gururin.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Gururin",
+      "generated_at": "2026-09-02T09:19:02+00:00"
+    },
+    {
+      "title": "Pixel Piracy",
+      "filename": "Pixel_Piracy.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Pixel_Piracy",
+      "generated_at": "2026-09-02T09:19:12+00:00"
+    },
+    {
+      "title": "Revolution 60",
+      "filename": "Revolution_60.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Revolution_60",
+      "generated_at": "2026-09-02T09:19:24+00:00"
+    },
+    {
+      "title": "Rusty Lake Paradise",
+      "filename": "Rusty_Lake_Paradise.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Rusty_Lake_Paradise",
+      "generated_at": "2026-09-02T09:19:34+00:00"
+    },
+    {
+      "title": "Sol Survivor",
+      "filename": "Sol_Survivor.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Sol_Survivor",
+      "generated_at": "2026-09-02T09:19:40+00:00"
+    },
+    {
+      "title": "SteamWorld Quest",
+      "filename": "SteamWorld_Quest.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/SteamWorld_Quest",
+      "generated_at": "2026-09-02T09:19:47+00:00"
+    },
+    {
+      "title": "JoJo's Bizarre Adventure (video game)",
+      "filename": "JoJo_s_Bizarre_Adventure_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/JoJo's_Bizarre_Adventure_(video_game)",
+      "generated_at": "2026-09-02T09:20:02+00:00"
+    },
+    {
+      "title": "Last Resort (video game)",
+      "filename": "Last_Resort_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Last_Resort_(video_game)",
+      "generated_at": "2026-09-02T09:20:18+00:00"
+    },
+    {
+      "title": "Metal Slug (1996 video game)",
+      "filename": "Metal_Slug_1996_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Metal_Slug_(1996_video_game)",
+      "generated_at": "2026-09-02T09:20:27+00:00"
+    },
+    {
+      "title": "NFL Blitz 2000",
+      "filename": "NFL_Blitz_2000.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/NFL_Blitz_2000",
+      "generated_at": "2026-09-02T09:20:35+00:00"
+    },
+    {
+      "title": "Pirate Ship Higemaru",
+      "filename": "Pirate_Ship_Higemaru.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Pirate_Ship_Higemaru",
+      "generated_at": "2026-09-02T09:20:43+00:00"
+    },
+    {
+      "title": "Tenderfoot Tactics",
+      "filename": "Tenderfoot_Tactics.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Tenderfoot_Tactics",
+      "generated_at": "2026-09-02T09:20:56+00:00"
+    },
+    {
+      "title": "Tribes of Midgard",
+      "filename": "Tribes_of_Midgard.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Tribes_of_Midgard",
+      "generated_at": "2026-09-02T09:21:06+00:00"
+    },
+    {
+      "title": "Wartales",
+      "filename": "Wartales.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Wartales",
+      "generated_at": "2026-09-02T09:21:14+00:00"
+    },
+    {
+      "title": "ZeroRanger",
+      "filename": "ZeroRanger.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/ZeroRanger",
+      "generated_at": "2026-09-02T09:21:21+00:00"
+    },
+    {
+      "title": "All Our Asias",
+      "filename": "All_Our_Asias.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/All_Our_Asias",
+      "generated_at": "2026-09-02T09:21:28+00:00"
+    },
+    {
+      "title": "Quiz Show (video game)",
+      "filename": "Quiz_Show_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Quiz_Show_(video_game)",
+      "generated_at": "2026-09-02T09:21:43+00:00"
+    },
+    {
+      "title": "Rockman EXE Battle Chip Stadium",
+      "filename": "Rockman_EXE_Battle_Chip_Stadium.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Rockman_EXE_Battle_Chip_Stadium",
+      "generated_at": "2026-09-02T09:21:56+00:00"
+    },
+    {
+      "title": "Sky Destroyer",
+      "filename": "Sky_Destroyer.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Sky_Destroyer",
+      "generated_at": "2026-09-02T09:22:05+00:00"
+    },
+    {
+      "title": "Star Wars Battle Pod",
+      "filename": "Star_Wars_Battle_Pod.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Star_Wars_Battle_Pod",
+      "generated_at": "2026-09-02T09:22:14+00:00"
+    },
+    {
+      "title": "Surprise Attack (video game)",
+      "filename": "Surprise_Attack_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Surprise_Attack_(video_game)",
+      "generated_at": "2026-09-02T09:22:20+00:00"
+    },
+    {
+      "title": "Attack of the Earthlings",
+      "filename": "Attack_of_the_Earthlings.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Attack_of_the_Earthlings",
+      "generated_at": "2026-09-02T09:22:30+00:00"
+    },
+    {
+      "title": "Black Shades",
+      "filename": "Black_Shades.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Black_Shades",
+      "generated_at": "2026-09-02T09:22:41+00:00"
+    },
+    {
+      "title": "CastleMiner",
+      "filename": "CastleMiner.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/CastleMiner",
+      "generated_at": "2026-09-02T09:22:49+00:00"
+    },
+    {
+      "title": "Crashout Crew",
+      "filename": "Crashout_Crew.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Crashout_Crew",
+      "generated_at": "2026-09-02T09:22:56+00:00"
+    },
+    {
+      "title": "Deep Sky Derelicts",
+      "filename": "Deep_Sky_Derelicts.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Deep_Sky_Derelicts",
+      "generated_at": "2026-09-02T09:23:04+00:00"
+    },
+    {
+      "title": "Tōkidenshō Angel Eyes",
+      "filename": "T_kidensh_Angel_Eyes.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/T%C5%8Dkidensh%C5%8D_Angel_Eyes",
+      "generated_at": "2026-09-02T09:23:17+00:00"
+    },
+    {
+      "title": "Virtua Racing",
+      "filename": "Virtua_Racing.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Virtua_Racing",
+      "generated_at": "2026-09-02T09:23:31+00:00"
+    },
+    {
+      "title": "Aqua Jet",
+      "filename": "Aqua_Jet.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Aqua_Jet",
+      "generated_at": "2026-09-02T09:23:41+00:00"
+    },
+    {
+      "title": "APB (1987 video game)",
+      "filename": "APB_1987_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/APB_(1987_video_game)",
+      "generated_at": "2026-09-02T09:23:50+00:00"
+    },
+    {
+      "title": "Battle Chopper",
+      "filename": "Battle_Chopper.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Battle_Chopper",
+      "generated_at": "2026-09-02T09:23:56+00:00"
+    },
+    {
+      "title": "Dude, Stop",
+      "filename": "Dude_Stop.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Dude%2C_Stop",
+      "generated_at": "2026-09-02T09:24:10+00:00"
+    },
+    {
+      "title": "Even the Ocean",
+      "filename": "Even_the_Ocean.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Even_the_Ocean",
+      "generated_at": "2026-09-02T09:24:22+00:00"
+    },
+    {
+      "title": "Foul Play (video game)",
+      "filename": "Foul_Play_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Foul_Play_(video_game)",
+      "generated_at": "2026-09-02T09:24:29+00:00"
+    },
+    {
+      "title": "Goodboy Galaxy",
+      "filename": "Goodboy_Galaxy.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Goodboy_Galaxy",
+      "generated_at": "2026-09-02T09:24:37+00:00"
+    },
+    {
+      "title": "High on Life (video game)",
+      "filename": "High_on_Life_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/High_on_Life_(video_game)",
+      "generated_at": "2026-09-02T09:24:43+00:00"
+    },
+    {
+      "title": "Boot Hill (video game)",
+      "filename": "Boot_Hill_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Boot_Hill_(video_game)",
+      "generated_at": "2026-09-02T09:24:57+00:00"
+    },
+    {
+      "title": "Colony 7",
+      "filename": "Colony_7.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Colony_7",
+      "generated_at": "2026-09-02T09:25:11+00:00"
+    },
+    {
+      "title": "Dariusburst",
+      "filename": "Dariusburst.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Dariusburst",
+      "generated_at": "2026-09-02T09:25:19+00:00"
+    },
+    {
+      "title": "Elevator Action Returns",
+      "filename": "Elevator_Action_Returns.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Elevator_Action_Returns",
+      "generated_at": "2026-09-02T09:25:27+00:00"
+    },
+    {
+      "title": "Frisky Tom",
+      "filename": "Frisky_Tom.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Frisky_Tom",
+      "generated_at": "2026-09-02T09:25:33+00:00"
+    },
+    {
+      "title": "Inscryption",
+      "filename": "Inscryption.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Inscryption",
+      "generated_at": "2026-09-02T09:25:44+00:00"
+    },
+    {
+      "title": "Knytt Stories",
+      "filename": "Knytt_Stories.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Knytt_Stories",
+      "generated_at": "2026-09-02T09:25:54+00:00"
+    },
+    {
+      "title": "Ludum Dare",
+      "filename": "Ludum_Dare.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Ludum_Dare",
+      "generated_at": "2026-09-02T09:26:03+00:00"
+    },
+    {
+      "title": "Missed Messages",
+      "filename": "Missed_Messages.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Missed_Messages",
+      "generated_at": "2026-09-02T09:26:10+00:00"
+    },
+    {
+      "title": "Night in the Woods",
+      "filename": "Night_in_the_Woods.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Night_in_the_Woods",
+      "generated_at": "2026-09-02T09:26:17+00:00"
+    },
+    {
+      "title": "Guttang Gottong",
+      "filename": "Guttang_Gottong.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Guttang_Gottong",
+      "generated_at": "2026-09-02T09:26:30+00:00"
+    },
+    {
+      "title": "Journey (1983 video game)",
+      "filename": "Journey_1983_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Journey_(1983_video_game)",
+      "generated_at": "2026-09-02T09:26:43+00:00"
+    },
+    {
+      "title": "Le Mans 24 (video game)",
+      "filename": "Le_Mans_24_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Le_Mans_24_(video_game)",
+      "generated_at": "2026-09-02T09:26:52+00:00"
+    },
+    {
+      "title": "Metal Slug 2",
+      "filename": "Metal_Slug_2.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Metal_Slug_2",
+      "generated_at": "2026-09-02T09:27:00+00:00"
+    },
+    {
+      "title": "Nibbler (video game)",
+      "filename": "Nibbler_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Nibbler_(video_game)",
+      "generated_at": "2026-09-02T09:27:07+00:00"
+    },
+    {
+      "title": "Organ Trail",
+      "filename": "Organ_Trail.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Organ_Trail",
+      "generated_at": "2026-09-02T09:27:21+00:00"
+    },
+    {
+      "title": "Pixel Privateers",
+      "filename": "Pixel_Privateers.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Pixel_Privateers",
+      "generated_at": "2026-09-02T09:27:31+00:00"
+    },
+    {
+      "title": "A Ride into the Mountains",
+      "filename": "A_Ride_into_the_Mountains.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/A_Ride_into_the_Mountains",
+      "generated_at": "2026-09-02T09:27:39+00:00"
+    },
+    {
+      "title": "Sea of Solitude",
+      "filename": "Sea_of_Solitude.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Sea_of_Solitude",
+      "generated_at": "2026-09-02T09:27:46+00:00"
+    },
+    {
+      "title": "Solar Ash",
+      "filename": "Solar_Ash.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Solar_Ash",
+      "generated_at": "2026-09-02T09:27:52+00:00"
+    },
+    {
+      "title": "Pistol Daimyo no Bōken",
+      "filename": "Pistol_Daimyo_no_B_ken.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Pistol_Daimyo_no_B%C5%8Dken",
+      "generated_at": "2026-09-02T09:28:07+00:00"
+    },
+    {
+      "title": "Qwak!",
+      "filename": "Qwak.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Qwak!",
+      "generated_at": "2026-09-02T09:28:20+00:00"
+    },
+    {
+      "title": "Rockman EXE The Medal Operation",
+      "filename": "Rockman_EXE_The_Medal_Operation.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Rockman_EXE_The_Medal_Operation",
+      "generated_at": "2026-09-02T09:28:30+00:00"
+    },
+    {
+      "title": "Sky Diver",
+      "filename": "Sky_Diver.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Sky_Diver",
+      "generated_at": "2026-09-02T09:28:38+00:00"
+    },
+    {
+      "title": "Star Wars Trilogy Arcade",
+      "filename": "Star_Wars_Trilogy_Arcade.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Star_Wars_Trilogy_Arcade",
+      "generated_at": "2026-09-02T09:28:45+00:00"
+    },
+    {
+      "title": "SteamWorld Tower Defense",
+      "filename": "SteamWorld_Tower_Defense.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/SteamWorld_Tower_Defense",
+      "generated_at": "2026-09-02T09:28:55+00:00"
+    },
+    {
+      "title": "Tenebris Somnia",
+      "filename": "Tenebris_Somnia.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Tenebris_Somnia",
+      "generated_at": "2026-09-02T09:29:06+00:00"
+    },
+    {
+      "title": "Tricky Towers",
+      "filename": "Tricky_Towers.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Tricky_Towers",
+      "generated_at": "2026-09-02T09:29:14+00:00"
+    },
+    {
+      "title": "Wasteland Angel",
+      "filename": "Wasteland_Angel.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Wasteland_Angel",
+      "generated_at": "2026-09-02T09:29:21+00:00"
+    },
+    {
+      "title": "Ziggurat (2014 video game)",
+      "filename": "Ziggurat_2014_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Ziggurat_(2014_video_game)",
+      "generated_at": "2026-09-02T09:29:29+00:00"
+    },
+    {
+      "title": "Survival Arts",
+      "filename": "Survival_Arts.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Survival_Arts",
+      "generated_at": "2026-09-02T09:29:41+00:00"
+    },
+    {
+      "title": "Tokimeki Memorial Taisen Puzzle-dama",
+      "filename": "Tokimeki_Memorial_Taisen_Puzzle_dama.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Tokimeki_Memorial_Taisen_Puzzle-dama",
+      "generated_at": "2026-09-02T09:29:55+00:00"
+    },
+    {
+      "title": "Virtua Striker 2",
+      "filename": "Virtua_Striker_2.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Virtua_Striker_2",
+      "generated_at": "2026-09-02T09:30:03+00:00"
+    },
+    {
+      "title": "Arabian Fight",
+      "filename": "Arabian_Fight.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Arabian_Fight",
+      "generated_at": "2026-09-02T09:30:14+00:00"
+    },
+    {
+      "title": "Apron of Magic",
+      "filename": "Apron_of_Magic.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Apron_of_Magic",
+      "generated_at": "2026-09-02T09:30:23+00:00"
+    },
+    {
+      "title": "All Walls Must Fall",
+      "filename": "All_Walls_Must_Fall.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/All_Walls_Must_Fall",
+      "generated_at": "2026-09-02T09:30:37+00:00"
+    },
+    {
+      "title": "Attractio",
+      "filename": "Attractio.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Attractio",
+      "generated_at": "2026-09-02T09:30:47+00:00"
+    },
+    {
+      "title": "Black the Fall",
+      "filename": "Black_the_Fall.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Black_the_Fall",
+      "generated_at": "2026-09-02T09:30:55+00:00"
+    },
+    {
+      "title": "The Cat and the Coup",
+      "filename": "The_Cat_and_the_Coup.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Cat_and_the_Coup",
+      "generated_at": "2026-09-02T09:31:02+00:00"
+    },
+    {
+      "title": "Crawl (video game)",
+      "filename": "Crawl_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Crawl_(video_game)",
+      "generated_at": "2026-09-02T09:31:09+00:00"
+    },
+    {
+      "title": "Battle Circuit",
+      "filename": "Battle_Circuit.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Battle_Circuit",
+      "generated_at": "2026-09-02T09:31:24+00:00"
+    },
+    {
+      "title": "Border Break",
+      "filename": "Border_Break.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Border_Break",
+      "generated_at": "2026-09-02T09:31:37+00:00"
+    },
+    {
+      "title": "Columns II",
+      "filename": "Columns_II.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Columns_II",
+      "generated_at": "2026-09-02T09:31:46+00:00"
+    },
+    {
+      "title": "Dark Adventure",
+      "filename": "Dark_Adventure.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Dark_Adventure",
+      "generated_at": "2026-09-02T09:31:54+00:00"
+    },
+    {
+      "title": "Eliminator (1981 video game)",
+      "filename": "Eliminator_1981_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Eliminator_(1981_video_game)",
+      "generated_at": "2026-09-02T09:32:00+00:00"
+    },
+    {
+      "title": "The Deer God",
+      "filename": "The_Deer_God.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Deer_God",
+      "generated_at": "2026-09-02T09:32:10+00:00"
+    },
+    {
+      "title": "Dudebro II",
+      "filename": "Dudebro_II.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Dudebro_II",
+      "generated_at": "2026-09-02T09:32:21+00:00"
+    },
+    {
+      "title": "Event 0",
+      "filename": "Event_0.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Event_0",
+      "generated_at": "2026-09-02T09:32:30+00:00"
+    },
+    {
+      "title": "Foundation (video game)",
+      "filename": "Foundation_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Foundation_(video_game)",
+      "generated_at": "2026-09-02T09:32:36+00:00"
+    },
+    {
+      "title": "Goodbye Volcano High",
+      "filename": "Goodbye_Volcano_High.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Goodbye_Volcano_High",
+      "generated_at": "2026-09-02T09:32:42+00:00"
+    },
+    {
+      "title": "Frogs (video game)",
+      "filename": "Frogs_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Frogs_(video_game)",
+      "generated_at": "2026-09-02T09:32:56+00:00"
+    },
+    {
+      "title": "Guzzler",
+      "filename": "Guzzler.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Guzzler",
+      "generated_at": "2026-09-02T09:33:10+00:00"
+    },
+    {
+      "title": "Joust (video game)",
+      "filename": "Joust_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Joust_(video_game)",
+      "generated_at": "2026-09-02T09:33:19+00:00"
+    },
+    {
+      "title": "League Bowling",
+      "filename": "League_Bowling.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/League_Bowling",
+      "generated_at": "2026-09-02T09:33:27+00:00"
+    },
+    {
+      "title": "Metal Slug 3",
+      "filename": "Metal_Slug_3.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Metal_Slug_3",
+      "generated_at": "2026-09-02T09:33:33+00:00"
+    },
+    {
+      "title": "High Times (video game)",
+      "filename": "High_Times_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/High_Times_(video_game)",
+      "generated_at": "2026-09-02T09:33:46+00:00"
+    },
+    {
+      "title": "Inside My Radio",
+      "filename": "Inside_My_Radio.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Inside_My_Radio",
+      "generated_at": "2026-09-02T09:33:57+00:00"
+    },
+    {
+      "title": "Knytt Underground",
+      "filename": "Knytt_Underground.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Knytt_Underground",
+      "generated_at": "2026-09-02T09:34:05+00:00"
+    },
+    {
+      "title": "Luftrausers",
+      "filename": "Luftrausers.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Luftrausers",
+      "generated_at": "2026-09-02T09:34:11+00:00"
+    },
+    {
+      "title": "Moida Mansion",
+      "filename": "Moida_Mansion.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Moida_Mansion",
+      "generated_at": "2026-09-02T09:34:19+00:00"
+    },
+    {
+      "title": "Nicktoons Nitro",
+      "filename": "Nicktoons_Nitro.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Nicktoons_Nitro",
+      "generated_at": "2026-09-02T09:34:33+00:00"
+    },
+    {
+      "title": "The Pit (video game)",
+      "filename": "The_Pit_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/The_Pit_(video_game)",
+      "generated_at": "2026-09-02T09:34:47+00:00"
+    },
+    {
+      "title": "R-Type",
+      "filename": "R_Type.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/R-Type",
+      "generated_at": "2026-09-02T09:34:56+00:00"
+    },
+    {
+      "title": "Rod Land",
+      "filename": "Rod_Land.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Rod_Land",
+      "generated_at": "2026-09-02T09:35:04+00:00"
+    },
+    {
+      "title": "Sky Kid",
+      "filename": "Sky_Kid.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Sky_Kid",
+      "generated_at": "2026-09-02T09:35:10+00:00"
+    },
+    {
+      "title": "Night of the Consumers",
+      "filename": "Night_of_the_Consumers.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Night_of_the_Consumers",
+      "generated_at": "2026-09-02T09:35:21+00:00"
+    },
+    {
+      "title": "Ori and the Blind Forest",
+      "filename": "Ori_and_the_Blind_Forest.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Ori_and_the_Blind_Forest",
+      "generated_at": "2026-09-02T09:35:32+00:00"
+    },
+    {
+      "title": "Pizza Tower",
+      "filename": "Pizza_Tower.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Pizza_Tower",
+      "generated_at": "2026-09-02T09:35:42+00:00"
+    },
+    {
+      "title": "Ridiculous Fishing",
+      "filename": "Ridiculous_Fishing.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Ridiculous_Fishing",
+      "generated_at": "2026-09-02T09:35:49+00:00"
+    },
+    {
+      "title": "Sea of Stars",
+      "filename": "Sea_of_Stars.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Sea_of_Stars",
+      "generated_at": "2026-09-02T09:35:55+00:00"
+    },
+    {
+      "title": "Starblade (1991 game)",
+      "filename": "Starblade_1991_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Starblade_(1991_game)",
+      "generated_at": "2026-09-02T09:36:07+00:00"
+    },
+    {
+      "title": "Suzuka 8 Hours (video game)",
+      "filename": "Suzuka_8_Hours_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Suzuka_8_Hours_(video_game)",
+      "generated_at": "2026-09-02T09:36:21+00:00"
+    },
+    {
+      "title": "Tokyo Wars",
+      "filename": "Tokyo_Wars.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Tokyo_Wars",
+      "generated_at": "2026-09-02T09:36:31+00:00"
+    },
+    {
+      "title": "Virtua Tennis (video game)",
+      "filename": "Virtua_Tennis_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Virtua_Tennis_(video_game)",
+      "generated_at": "2026-09-02T09:36:39+00:00"
+    },
+    {
+      "title": "Ark Area",
+      "filename": "Ark_Area.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Ark_Area",
+      "generated_at": "2026-09-02T09:36:48+00:00"
+    },
+    {
+      "title": "Solasta II",
+      "filename": "Solasta_II.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Solasta_II",
+      "generated_at": "2026-09-02T09:37:01+00:00"
+    },
+    {
+      "title": "Steel Assault",
+      "filename": "Steel_Assault.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Steel_Assault",
+      "generated_at": "2026-09-02T09:37:12+00:00"
+    },
+    {
+      "title": "Terra Invicta",
+      "filename": "Terra_Invicta.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Terra_Invicta",
+      "generated_at": "2026-09-02T09:37:19+00:00"
+    },
+    {
+      "title": "Triennale Game Collection",
+      "filename": "Triennale_Game_Collection.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Triennale_Game_Collection",
+      "generated_at": "2026-09-02T09:37:26+00:00"
+    },
+    {
+      "title": "Wattam",
+      "filename": "Wattam.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Wattam",
+      "generated_at": "2026-09-02T09:37:31+00:00"
+    },
+    {
+      "title": "Arabian (video game)",
+      "filename": "Arabian_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Arabian_(video_game)",
+      "generated_at": "2026-09-02T09:37:49+00:00"
+    },
+    {
+      "title": "Battle City",
+      "filename": "Battle_City.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Battle_City",
+      "generated_at": "2026-09-02T09:38:02+00:00"
+    },
+    {
+      "title": "Border Down",
+      "filename": "Border_Down.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Border_Down",
+      "generated_at": "2026-09-02T09:38:12+00:00"
+    },
+    {
+      "title": "Columns III",
+      "filename": "Columns_III.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Columns_III",
+      "generated_at": "2026-09-02T09:38:20+00:00"
+    },
+    {
+      "title": "Darwin 4078",
+      "filename": "Darwin_4078.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Darwin_4078",
+      "generated_at": "2026-09-02T09:38:27+00:00"
+    },
+    {
+      "title": "Ziggurat (video game)",
+      "filename": "Ziggurat_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Ziggurat_(video_game)",
+      "generated_at": "2026-09-02T09:38:39+00:00"
+    },
+    {
+      "title": "The Almost Gone",
+      "filename": "The_Almost_Gone.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Almost_Gone",
+      "generated_at": "2026-09-02T09:38:50+00:00"
+    },
+    {
+      "title": "Audioshield",
+      "filename": "Audioshield.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Audioshield",
+      "generated_at": "2026-09-02T09:38:58+00:00"
+    },
+    {
+      "title": "Blackhole (video game)",
+      "filename": "Blackhole_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Blackhole_(video_game)",
+      "generated_at": "2026-09-02T09:39:05+00:00"
+    },
+    {
+      "title": "Cat Bird",
+      "filename": "Cat_Bird.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Cat_Bird",
+      "generated_at": "2026-09-02T09:39:11+00:00"
+    },
+    {
+      "title": "Emergency Call Ambulance",
+      "filename": "Emergency_Call_Ambulance.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Emergency_Call_Ambulance",
+      "generated_at": "2026-09-02T09:39:24+00:00"
+    },
+    {
+      "title": "Front Line (video game)",
+      "filename": "Front_Line_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Front_Line_(video_game)",
+      "generated_at": "2026-09-02T09:39:38+00:00"
+    },
+    {
+      "title": "Gyro13",
+      "filename": "Gyro13.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Gyro13",
+      "generated_at": "2026-09-02T09:39:46+00:00"
+    },
+    {
+      "title": "Joypolis",
+      "filename": "Joypolis.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Joypolis",
+      "generated_at": "2026-09-02T09:39:55+00:00"
+    },
+    {
+      "title": "Legend of Hero Tonma",
+      "filename": "Legend_of_Hero_Tonma.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Legend_of_Hero_Tonma",
+      "generated_at": "2026-09-02T09:40:03+00:00"
+    },
+    {
+      "title": "Crayon Physics Deluxe",
+      "filename": "Crayon_Physics_Deluxe.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Crayon_Physics_Deluxe",
+      "generated_at": "2026-09-02T09:40:16+00:00"
+    },
+    {
+      "title": "DEFCON (video game)",
+      "filename": "DEFCON_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/DEFCON_(video_game)",
+      "generated_at": "2026-09-02T09:40:27+00:00"
+    },
+    {
+      "title": "Due Process (video game)",
+      "filename": "Due_Process_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Due_Process_(video_game)",
+      "generated_at": "2026-09-02T09:40:34+00:00"
+    },
+    {
+      "title": "Everhood",
+      "filename": "Everhood.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Everhood",
+      "generated_at": "2026-09-02T09:40:42+00:00"
+    },
+    {
+      "title": "Fox N Forests",
+      "filename": "Fox_N_Forests.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Fox_N_Forests",
+      "generated_at": "2026-09-02T09:40:49+00:00"
+    },
+    {
+      "title": "Metal Slug 4",
+      "filename": "Metal_Slug_4.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Metal_Slug_4",
+      "generated_at": "2026-09-02T09:41:03+00:00"
+    },
+    {
+      "title": "Nicktoons Racing",
+      "filename": "Nicktoons_Racing.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Nicktoons_Racing",
+      "generated_at": "2026-09-02T09:41:18+00:00"
+    },
+    {
+      "title": "Planet Harriers",
+      "filename": "Planet_Harriers.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Planet_Harriers",
+      "generated_at": "2026-09-02T09:41:27+00:00"
+    },
+    {
+      "title": "R-Type II",
+      "filename": "R_Type_II.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/R-Type_II",
+      "generated_at": "2026-09-02T09:41:35+00:00"
+    },
+    {
+      "title": "Roller Jammer",
+      "filename": "Roller_Jammer.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Roller_Jammer",
+      "generated_at": "2026-09-02T09:41:41+00:00"
+    },
+    {
+      "title": "Goodnight Universe",
+      "filename": "Goodnight_Universe.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Goodnight_Universe",
+      "generated_at": "2026-09-02T09:41:51+00:00"
+    },
+    {
+      "title": "HighFleet",
+      "filename": "HighFleet.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/HighFleet",
+      "generated_at": "2026-09-02T09:42:02+00:00"
+    },
+    {
+      "title": "Inspector Waffles",
+      "filename": "Inspector_Waffles.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Inspector_Waffles",
+      "generated_at": "2026-09-02T09:42:10+00:00"
+    },
+    {
+      "title": "Kokoromi",
+      "filename": "Kokoromi.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Kokoromi",
+      "generated_at": "2026-09-02T09:42:16+00:00"
+    },
+    {
+      "title": "Lugaru",
+      "filename": "Lugaru.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Lugaru",
+      "generated_at": "2026-09-02T09:42:22+00:00"
+    },
+    {
+      "title": "Sky Skipper",
+      "filename": "Sky_Skipper.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Sky_Skipper",
+      "generated_at": "2026-09-02T09:42:35+00:00"
+    },
+    {
+      "title": "Stargate (1981 video game)",
+      "filename": "Stargate_1981_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Stargate_(1981_video_game)",
+      "generated_at": "2026-09-02T09:42:48+00:00"
+    },
+    {
+      "title": "Syvalion",
+      "filename": "Syvalion.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Syvalion",
+      "generated_at": "2026-09-02T09:42:57+00:00"
+    },
+    {
+      "title": "Tommy Lasorda Baseball",
+      "filename": "Tommy_Lasorda_Baseball.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Tommy_Lasorda_Baseball",
+      "generated_at": "2026-09-02T09:43:05+00:00"
+    },
+    {
+      "title": "Virtua Tennis 2",
+      "filename": "Virtua_Tennis_2.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Virtua_Tennis_2",
+      "generated_at": "2026-09-02T09:43:12+00:00"
+    },
+    {
+      "title": "Moirai (video game)",
+      "filename": "Moirai_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Moirai_(video_game)",
+      "generated_at": "2026-09-02T09:43:26+00:00"
+    },
+    {
+      "title": "NightCry",
+      "filename": "NightCry.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/NightCry",
+      "generated_at": "2026-09-02T09:43:37+00:00"
+    },
+    {
+      "title": "Ori and the Will of the Wisps",
+      "filename": "Ori_and_the_Will_of_the_Wisps.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Ori_and_the_Will_of_the_Wisps",
+      "generated_at": "2026-09-02T09:43:44+00:00"
+    },
+    {
+      "title": "PlaneShift (video game)",
+      "filename": "PlaneShift_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/PlaneShift_(video_game)",
+      "generated_at": "2026-09-02T09:43:51+00:00"
+    },
+    {
+      "title": "Rime (video game)",
+      "filename": "Rime_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Rime_(video_game)",
+      "generated_at": "2026-09-02T09:43:58+00:00"
+    },
+    {
+      "title": "Aikatsu Friends! season 1",
+      "filename": "Aikatsu_Friends_season_1.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Aikatsu_Friends!_season_1",
+      "generated_at": "2026-09-02T09:44:15+00:00"
+    },
+    {
+      "title": "Arabian Magic",
+      "filename": "Arabian_Magic.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Arabian_Magic",
+      "generated_at": "2026-09-02T09:44:29+00:00"
+    },
+    {
+      "title": "Battle Cross (1982 video game)",
+      "filename": "Battle_Cross_1982_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Battle_Cross_(1982_video_game)",
+      "generated_at": "2026-09-02T09:44:38+00:00"
+    },
+    {
+      "title": "Borderline (video game)",
+      "filename": "Borderline_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Borderline_(video_game)",
+      "generated_at": "2026-09-02T09:44:47+00:00"
+    },
+    {
+      "title": "Combat School",
+      "filename": "Combat_School.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Combat_School",
+      "generated_at": "2026-09-02T09:44:53+00:00"
+    },
+    {
+      "title": "A Second Face",
+      "filename": "A_Second_Face.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/A_Second_Face",
+      "generated_at": "2026-09-02T09:45:04+00:00"
+    },
+    {
+      "title": "Solipskier",
+      "filename": "Solipskier.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Solipskier",
+      "generated_at": "2026-09-02T09:45:18+00:00"
+    },
+    {
+      "title": "Steel Storm",
+      "filename": "Steel_Storm.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Steel_Storm",
+      "generated_at": "2026-09-02T09:45:26+00:00"
+    },
+    {
+      "title": "Terra Nil",
+      "filename": "Terra_Nil.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Terra_Nil",
+      "generated_at": "2026-09-02T09:45:33+00:00"
+    },
+    {
+      "title": "Triple Town",
+      "filename": "Triple_Town.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Triple_Town",
+      "generated_at": "2026-09-02T09:45:38+00:00"
+    },
+    {
+      "title": "Daytona USA",
+      "filename": "Daytona_USA.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Daytona_USA",
+      "generated_at": "2026-09-02T09:45:51+00:00"
+    },
+    {
+      "title": "EmuDX",
+      "filename": "EmuDX.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/EmuDX",
+      "generated_at": "2026-09-02T09:46:04+00:00"
+    },
+    {
+      "title": "G-Darius",
+      "filename": "G_Darius.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/G-Darius",
+      "generated_at": "2026-09-02T09:46:13+00:00"
+    },
+    {
+      "title": "Gyrodine",
+      "filename": "Gyrodine.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Gyrodine",
+      "generated_at": "2026-09-02T09:46:21+00:00"
+    },
+    {
+      "title": "Judge Dredd (1997 video game)",
+      "filename": "Judge_Dredd_1997_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Judge_Dredd_(1997_video_game)",
+      "generated_at": "2026-09-02T09:46:27+00:00"
+    },
+    {
+      "title": "Waveform (video game)",
+      "filename": "Waveform_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Waveform_(video_game)",
+      "generated_at": "2026-09-02T09:46:42+00:00"
+    },
+    {
+      "title": "Freeplay Independent Games Festival",
+      "filename": "Freeplay_Independent_Games_Festival.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Freeplay_Independent_Games_Festival",
+      "generated_at": "2026-09-02T09:46:54+00:00"
+    },
+    {
+      "title": "Alphabear",
+      "filename": "Alphabear.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Alphabear",
+      "generated_at": "2026-09-02T09:47:01+00:00"
+    },
+    {
+      "title": "Audiosurf",
+      "filename": "Audiosurf.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Audiosurf",
+      "generated_at": "2026-09-02T09:47:09+00:00"
+    },
+    {
+      "title": "The Blackwell Convergence",
+      "filename": "The_Blackwell_Convergence.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Blackwell_Convergence",
+      "generated_at": "2026-09-02T09:47:15+00:00"
+    },
+    {
+      "title": "The Legend of Kage",
+      "filename": "The_Legend_of_Kage.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/The_Legend_of_Kage",
+      "generated_at": "2026-09-02T09:47:29+00:00"
+    },
+    {
+      "title": "Metal Slug 5",
+      "filename": "Metal_Slug_5.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Metal_Slug_5",
+      "generated_at": "2026-09-02T09:47:43+00:00"
+    },
+    {
+      "title": "Night Driver (video game)",
+      "filename": "Night_Driver_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Night_Driver_(video_game)",
+      "generated_at": "2026-09-02T09:47:52+00:00"
+    },
+    {
+      "title": "Pleiades (video game)",
+      "filename": "Pleiades_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Pleiades_(video_game)",
+      "generated_at": "2026-09-02T09:48:00+00:00"
+    },
+    {
+      "title": "R-Type Leo",
+      "filename": "R_Type_Leo.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/R-Type_Leo",
+      "generated_at": "2026-09-02T09:48:07+00:00"
+    },
+    {
+      "title": "The Cat Lady",
+      "filename": "The_Cat_Lady.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Cat_Lady",
+      "generated_at": "2026-09-02T09:48:17+00:00"
+    },
+    {
+      "title": "Creaks",
+      "filename": "Creaks.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Creaks",
+      "generated_at": "2026-09-02T09:48:29+00:00"
+    },
+    {
+      "title": "Defender's Quest",
+      "filename": "Defender_s_Quest.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Defender's_Quest",
+      "generated_at": "2026-09-02T09:48:37+00:00"
+    },
+    {
+      "title": "Dujanah",
+      "filename": "Dujanah.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Dujanah",
+      "generated_at": "2026-09-02T09:48:44+00:00"
+    },
+    {
+      "title": "Everhood 2",
+      "filename": "Everhood_2.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Everhood_2",
+      "generated_at": "2026-09-02T09:48:50+00:00"
+    },
+    {
+      "title": "RollerGames (video game)",
+      "filename": "RollerGames_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/RollerGames_(video_game)",
+      "generated_at": "2026-09-02T09:49:02+00:00"
+    },
+    {
+      "title": "Sky Soldiers",
+      "filename": "Sky_Soldiers.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Sky_Soldiers",
+      "generated_at": "2026-09-02T09:49:16+00:00"
+    },
+    {
+      "title": "Starhawk (1979 video game)",
+      "filename": "Starhawk_1979_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Starhawk_(1979_video_game)",
+      "generated_at": "2026-09-02T09:49:25+00:00"
+    },
+    {
+      "title": "Tag Team Wrestling",
+      "filename": "Tag_Team_Wrestling.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Tag_Team_Wrestling",
+      "generated_at": "2026-09-02T09:49:34+00:00"
+    },
+    {
+      "title": "Toobin'",
+      "filename": "Toobin.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Toobin'",
+      "generated_at": "2026-09-02T09:49:40+00:00"
+    },
+    {
+      "title": "Foxhole (video game)",
+      "filename": "Foxhole_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Foxhole_(video_game)",
+      "generated_at": "2026-09-02T09:49:53+00:00"
+    },
+    {
+      "title": "Gord (video game)",
+      "filename": "Gord_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Gord_(video_game)",
+      "generated_at": "2026-09-02T09:50:04+00:00"
+    },
+    {
+      "title": "Hill Climb Racing",
+      "filename": "Hill_Climb_Racing.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Hill_Climb_Racing",
+      "generated_at": "2026-09-02T09:50:16+00:00"
+    },
+    {
+      "title": "Installation 01",
+      "filename": "Installation_01.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Installation_01",
+      "generated_at": "2026-09-02T09:50:24+00:00"
+    },
+    {
+      "title": "Kudos (video game)",
+      "filename": "Kudos_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Kudos_(video_game)",
+      "generated_at": "2026-09-02T09:50:30+00:00"
+    },
+    {
+      "title": "Virtua Tennis 3",
+      "filename": "Virtua_Tennis_3.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Virtua_Tennis_3",
+      "generated_at": "2026-09-02T09:50:44+00:00"
+    },
+    {
+      "title": "Aikatsu Friends!",
+      "filename": "Aikatsu_Friends.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Aikatsu_Friends!",
+      "generated_at": "2026-09-02T09:51:01+00:00"
+    },
+    {
+      "title": "Arbalester",
+      "filename": "Arbalester.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Arbalester",
+      "generated_at": "2026-09-02T09:51:10+00:00"
+    },
+    {
+      "title": "Battle Fantasia",
+      "filename": "Battle_Fantasia.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Battle_Fantasia",
+      "generated_at": "2026-09-02T09:51:18+00:00"
+    },
+    {
+      "title": "Bosconian",
+      "filename": "Bosconian.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Bosconian",
+      "generated_at": "2026-09-02T09:51:24+00:00"
+    },
+    {
+      "title": "Lunacid",
+      "filename": "Lunacid.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Lunacid",
+      "generated_at": "2026-09-02T09:51:33+00:00"
+    },
+    {
+      "title": "Momotype",
+      "filename": "Momotype.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Momotype",
+      "generated_at": "2026-09-02T09:51:43+00:00"
+    },
+    {
+      "title": "Nightingale (video game)",
+      "filename": "Nightingale_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Nightingale_(video_game)",
+      "generated_at": "2026-09-02T09:51:53+00:00"
+    },
+    {
+      "title": "Orwell (video game)",
+      "filename": "Orwell_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Orwell_(video_game)",
+      "generated_at": "2026-09-02T09:51:59+00:00"
+    },
+    {
+      "title": "Planet of Lana",
+      "filename": "Planet_of_Lana.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Planet_of_Lana",
+      "generated_at": "2026-09-02T09:52:05+00:00"
+    },
+    {
+      "title": "The Combatribes",
+      "filename": "The_Combatribes.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/The_Combatribes",
+      "generated_at": "2026-09-02T09:52:18+00:00"
+    },
+    {
+      "title": "DDRMAX Dance Dance Revolution 6thMix",
+      "filename": "DDRMAX_Dance_Dance_Revolution_6thMix.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/DDRMAX_Dance_Dance_Revolution_6thMix",
+      "generated_at": "2026-09-02T09:52:33+00:00"
+    },
+    {
+      "title": "Enduro Racer",
+      "filename": "Enduro_Racer.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Enduro_Racer",
+      "generated_at": "2026-09-02T09:52:41+00:00"
+    },
+    {
+      "title": "G.I. Joe (1992 video game)",
+      "filename": "G_I_Joe_1992_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/G.I._Joe_(1992_video_game)",
+      "generated_at": "2026-09-02T09:52:49+00:00"
+    },
+    {
+      "title": "Gyruss",
+      "filename": "Gyruss.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Gyruss",
+      "generated_at": "2026-09-02T09:52:55+00:00"
+    },
+    {
+      "title": "RimWorld",
+      "filename": "RimWorld.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/RimWorld",
+      "generated_at": "2026-09-02T09:53:08+00:00"
+    },
+    {
+      "title": "Secret Ponchos",
+      "filename": "Secret_Ponchos.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Secret_Ponchos",
+      "generated_at": "2026-09-02T09:53:19+00:00"
+    },
+    {
+      "title": "The Solitaire Conspiracy",
+      "filename": "The_Solitaire_Conspiracy.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Solitaire_Conspiracy",
+      "generated_at": "2026-09-02T09:53:28+00:00"
+    },
+    {
+      "title": "Stela (video game)",
+      "filename": "Stela_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Stela_(video_game)",
+      "generated_at": "2026-09-02T09:53:34+00:00"
+    },
+    {
+      "title": "Teslagrad 2",
+      "filename": "Teslagrad_2.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Teslagrad_2",
+      "generated_at": "2026-09-02T09:53:40+00:00"
+    },
+    {
+      "title": "Jump Bug",
+      "filename": "Jump_Bug.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Jump_Bug",
+      "generated_at": "2026-09-02T09:53:55+00:00"
+    },
+    {
+      "title": "Legend of Makai",
+      "filename": "Legend_of_Makai.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Legend_of_Makai",
+      "generated_at": "2026-09-02T09:54:10+00:00"
+    },
+    {
+      "title": "Metamorphic Force",
+      "filename": "Metamorphic_Force.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Metamorphic_Force",
+      "generated_at": "2026-09-02T09:54:19+00:00"
+    },
+    {
+      "title": "Night Slashers",
+      "filename": "Night_Slashers.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Night_Slashers",
+      "generated_at": "2026-09-02T09:54:27+00:00"
+    },
+    {
+      "title": "Plotting (video game)",
+      "filename": "Plotting_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Plotting_(video_game)",
+      "generated_at": "2026-09-02T09:54:34+00:00"
+    },
+    {
+      "title": "Triple-I (video game industry)",
+      "filename": "Triple_I_video_game_industry.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/AAA_(video_game_industry)",
+      "generated_at": "2026-09-02T09:54:43+00:00"
+    },
+    {
+      "title": "A Way Out",
+      "filename": "A_Way_Out.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/A_Way_Out",
+      "generated_at": "2026-09-02T09:54:54+00:00"
+    },
+    {
+      "title": "Independent Games Festival",
+      "filename": "Independent_Games_Festival.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Independent_Games_Festival",
+      "generated_at": "2026-09-02T09:55:05+00:00"
+    },
+    {
+      "title": "Alphabet (video game)",
+      "filename": "Alphabet_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Alphabet_(video_game)",
+      "generated_at": "2026-09-02T09:55:11+00:00"
+    },
+    {
+      "title": "Audiosurf 2",
+      "filename": "Audiosurf_2.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Audiosurf_2",
+      "generated_at": "2026-09-02T09:55:17+00:00"
+    },
+    {
+      "title": "R.B.I. Baseball",
+      "filename": "R_B_I_Baseball.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/R.B.I._Baseball",
+      "generated_at": "2026-09-02T09:55:30+00:00"
+    },
+    {
+      "title": "Rolling Thunder (video game)",
+      "filename": "Rolling_Thunder_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Rolling_Thunder_(video_game)",
+      "generated_at": "2026-09-02T09:55:43+00:00"
+    },
+    {
+      "title": "Sky Target",
+      "filename": "Sky_Target.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Sky_Target",
+      "generated_at": "2026-09-02T09:55:53+00:00"
+    },
+    {
+      "title": "Starhorse",
+      "filename": "Starhorse.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Starhorse",
+      "generated_at": "2026-09-02T09:56:00+00:00"
+    },
+    {
+      "title": "Taiko no Tatsujin",
+      "filename": "Taiko_no_Tatsujin.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Taiko_no_Tatsujin",
+      "generated_at": "2026-09-02T09:56:07+00:00"
+    },
+    {
+      "title": "The Blackwell Deception",
+      "filename": "The_Blackwell_Deception.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Blackwell_Deception",
+      "generated_at": "2026-09-02T09:56:21+00:00"
+    },
+    {
+      "title": "The Catacombs of Solaris",
+      "filename": "The_Catacombs_of_Solaris.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Catacombs_of_Solaris",
+      "generated_at": "2026-09-02T09:56:32+00:00"
+    },
+    {
+      "title": "Creatures of Aether",
+      "filename": "Creatures_of_Aether.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Rivals_of_Aether",
+      "generated_at": "2026-09-02T09:56:40+00:00"
+    },
+    {
+      "title": "Defense Grid 2",
+      "filename": "Defense_Grid_2.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Defense_Grid_2",
+      "generated_at": "2026-09-02T09:56:47+00:00"
+    },
+    {
+      "title": "Dungeon Defenders",
+      "filename": "Dungeon_Defenders.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Dungeon_Defenders",
+      "generated_at": "2026-09-02T09:56:53+00:00"
+    },
+    {
+      "title": "Top Gun (1987 video game)",
+      "filename": "Top_Gun_1987_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Top_Gun_(1987_video_game)",
+      "generated_at": "2026-09-02T09:57:07+00:00"
+    },
+    {
+      "title": "Virtuality (product)",
+      "filename": "Virtuality_product.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Virtuality_(product)",
+      "generated_at": "2026-09-02T09:57:20+00:00"
+    },
+    {
+      "title": "Aikatsu Friends! season 2",
+      "filename": "Aikatsu_Friends_season_2.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Aikatsu_Friends!_season_2",
+      "generated_at": "2026-09-02T09:57:31+00:00"
+    },
+    {
+      "title": "Arcade Archives",
+      "filename": "Arcade_Archives.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Arcade_Archives",
+      "generated_at": "2026-09-02T09:57:40+00:00"
+    },
+    {
+      "title": "Battle Garegga",
+      "filename": "Battle_Garegga.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Battle_Garegga",
+      "generated_at": "2026-09-02T09:57:47+00:00"
+    },
+    {
+      "title": "Every Day the Same Dream",
+      "filename": "Every_Day_the_Same_Dream.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Every_Day_the_Same_Dream",
+      "generated_at": "2026-09-02T09:57:56+00:00"
+    },
+    {
+      "title": "Fragments of Him",
+      "filename": "Fragments_of_Him.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Fragments_of_Him",
+      "generated_at": "2026-09-02T09:58:07+00:00"
+    },
+    {
+      "title": "Gorogoa",
+      "filename": "Gorogoa.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Gorogoa",
+      "generated_at": "2026-09-02T09:58:16+00:00"
+    },
+    {
+      "title": "Hindsight (video game)",
+      "filename": "Hindsight_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Hindsight_(video_game)",
+      "generated_at": "2026-09-02T09:58:23+00:00"
+    },
+    {
+      "title": "Instruments of Destruction",
+      "filename": "Instruments_of_Destruction.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Instruments_of_Destruction",
+      "generated_at": "2026-09-02T09:58:28+00:00"
+    },
+    {
+      "title": "Boulder Dash (video game)",
+      "filename": "Boulder_Dash_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Boulder_Dash_(video_game)",
+      "generated_at": "2026-09-02T09:58:41+00:00"
+    },
+    {
+      "title": "Commando (video game)",
+      "filename": "Commando_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Commando_(video_game)",
+      "generated_at": "2026-09-02T09:58:54+00:00"
+    },
+    {
+      "title": "Dead Angle",
+      "filename": "Dead_Angle.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Dead_Angle",
+      "generated_at": "2026-09-02T09:59:04+00:00"
+    },
+    {
+      "title": "Enma Daiō",
+      "filename": "Enma_Dai.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Enma_Dai%C5%8D",
+      "generated_at": "2026-09-02T09:59:12+00:00"
+    },
+    {
+      "title": "Gaiapolis",
+      "filename": "Gaiapolis.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Gaiapolis",
+      "generated_at": "2026-09-02T09:59:18+00:00"
+    },
+    {
+      "title": "Kunai (video game)",
+      "filename": "Kunai_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Kunai_(video_game)",
+      "generated_at": "2026-09-02T09:59:31+00:00"
+    },
+    {
+      "title": "Lunark",
+      "filename": "Lunark.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Lunark",
+      "generated_at": "2026-09-02T09:59:42+00:00"
+    },
+    {
+      "title": "Monaco 2",
+      "filename": "Monaco_2.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Monaco_2",
+      "generated_at": "2026-09-02T09:59:49+00:00"
+    },
+    {
+      "title": "Nightmare Cops",
+      "filename": "Nightmare_Cops.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Nightmare_Cops",
+      "generated_at": "2026-09-02T09:59:56+00:00"
+    },
+    {
+      "title": "Osmos",
+      "filename": "Osmos.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Osmos",
+      "generated_at": "2026-09-02T10:00:02+00:00"
+    },
+    {
+      "title": "H2Overdrive",
+      "filename": "H2Overdrive.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/H2Overdrive",
+      "generated_at": "2026-09-02T10:00:16+00:00"
+    },
+    {
+      "title": "Jungle Hunt",
+      "filename": "Jungle_Hunt.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Jungle_Hunt",
+      "generated_at": "2026-09-02T10:00:29+00:00"
+    },
+    {
+      "title": "Legend of Success Joe",
+      "filename": "Legend_of_Success_Joe.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Legend_of_Success_Joe",
+      "generated_at": "2026-09-02T10:00:38+00:00"
+    },
+    {
+      "title": "Metro-Cross",
+      "filename": "Metro_Cross.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Metro-Cross",
+      "generated_at": "2026-09-02T10:00:46+00:00"
+    },
+    {
+      "title": "Night Striker",
+      "filename": "Night_Striker.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Night_Striker",
+      "generated_at": "2026-09-02T10:00:53+00:00"
+    },
+    {
+      "title": "Planet of Lana II",
+      "filename": "Planet_of_Lana_II.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Planet_of_Lana_II",
+      "generated_at": "2026-09-02T10:01:03+00:00"
+    },
+    {
+      "title": "Rinse and Repeat",
+      "filename": "Rinse_and_Repeat.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Rinse_and_Repeat",
+      "generated_at": "2026-09-02T10:01:13+00:00"
+    },
+    {
+      "title": "Secrets of Rætikon",
+      "filename": "Secrets_of_R_tikon.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Secrets_of_R%C3%A6tikon",
+      "generated_at": "2026-09-02T10:01:24+00:00"
+    },
+    {
+      "title": "Solium Infernum",
+      "filename": "Solium_Infernum.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Solium_Infernum",
+      "generated_at": "2026-09-02T10:01:31+00:00"
+    },
+    {
+      "title": "Stephen's Sausage Roll",
+      "filename": "Stephen_s_Sausage_Roll.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Stephen's_Sausage_Roll",
+      "generated_at": "2026-09-02T10:01:37+00:00"
+    },
+    {
+      "title": "Plus Alpha",
+      "filename": "Plus_Alpha.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Plus_Alpha",
+      "generated_at": "2026-09-02T10:01:51+00:00"
+    },
+    {
+      "title": "Rabio Lepus",
+      "filename": "Rabio_Lepus.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Rabio_Lepus",
+      "generated_at": "2026-09-02T10:02:04+00:00"
+    },
+    {
+      "title": "Rolling Thunder 2",
+      "filename": "Rolling_Thunder_2.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Rolling_Thunder_2",
+      "generated_at": "2026-09-02T10:02:13+00:00"
+    },
+    {
+      "title": "Slalom (video game)",
+      "filename": "Slalom_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Slalom_(video_game)",
+      "generated_at": "2026-09-02T10:02:21+00:00"
+    },
+    {
+      "title": "Starship 1",
+      "filename": "Starship_1.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Starship_1",
+      "generated_at": "2026-09-02T10:02:27+00:00"
+    },
+    {
+      "title": "Tetrageddon Games",
+      "filename": "Tetrageddon_Games.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Tetrageddon_Games",
+      "generated_at": "2026-09-02T10:02:41+00:00"
+    },
+    {
+      "title": "Trombone Champ",
+      "filename": "Trombone_Champ.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Trombone_Champ",
+      "generated_at": "2026-09-02T10:02:51+00:00"
+    },
+    {
+      "title": "The Way (video game)",
+      "filename": "The_Way_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Way_(video_game)",
+      "generated_at": "2026-09-02T10:02:59+00:00"
+    },
+    {
+      "title": "IndieCade",
+      "filename": "IndieCade.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/IndieCade",
+      "generated_at": "2026-09-02T10:03:07+00:00"
+    },
+    {
+      "title": "Alto's Adventure",
+      "filename": "Alto_s_Adventure.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Alto's_Adventure",
+      "generated_at": "2026-09-02T10:03:14+00:00"
+    },
+    {
+      "title": "Tail Gunner",
+      "filename": "Tail_Gunner.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Tail_Gunner",
+      "generated_at": "2026-09-02T10:03:30+00:00"
+    },
+    {
+      "title": "Top Player's Golf",
+      "filename": "Top_Player_s_Golf.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Top_Player's_Golf",
+      "generated_at": "2026-09-02T10:03:43+00:00"
+    },
+    {
+      "title": "Volfied",
+      "filename": "Volfied.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Volfied",
+      "generated_at": "2026-09-02T10:03:51+00:00"
+    },
+    {
+      "title": "Aikatsu Stars! season 1",
+      "filename": "Aikatsu_Stars_season_1.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Aikatsu_Stars!_season_1",
+      "generated_at": "2026-09-02T10:04:01+00:00"
+    },
+    {
+      "title": "Arcana Heart (video game)",
+      "filename": "Arcana_Heart_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Arcana_Heart_(video_game)",
+      "generated_at": "2026-09-02T10:04:09+00:00"
+    },
+    {
+      "title": "Automatoys",
+      "filename": "Automatoys.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Automatoys",
+      "generated_at": "2026-09-02T10:04:18+00:00"
+    },
+    {
+      "title": "The Blackwell Legacy",
+      "filename": "The_Blackwell_Legacy.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Blackwell_Legacy",
+      "generated_at": "2026-09-02T10:04:32+00:00"
+    },
+    {
+      "title": "Catlateral Damage",
+      "filename": "Catlateral_Damage.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Catlateral_Damage",
+      "generated_at": "2026-09-02T10:04:40+00:00"
+    },
+    {
+      "title": "Creepy Castle",
+      "filename": "Creepy_Castle.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Creepy_Castle",
+      "generated_at": "2026-09-02T10:04:47+00:00"
+    },
+    {
+      "title": "Deliver Us the Moon",
+      "filename": "Deliver_Us_the_Moon.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Deliver_Us_the_Moon",
+      "generated_at": "2026-09-02T10:04:55+00:00"
+    },
+    {
+      "title": "Battle K-Road",
+      "filename": "Battle_K_Road.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Battle_K-Road",
+      "generated_at": "2026-09-02T10:05:08+00:00"
+    },
+    {
+      "title": "Bravoman",
+      "filename": "Bravoman.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Bravoman",
+      "generated_at": "2026-09-02T10:05:21+00:00"
+    },
+    {
+      "title": "Computer Space",
+      "filename": "Computer_Space.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Computer_Space",
+      "generated_at": "2026-09-02T10:05:30+00:00"
+    },
+    {
+      "title": "Dead Connection",
+      "filename": "Dead_Connection.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Dead_Connection",
+      "generated_at": "2026-09-02T10:05:38+00:00"
+    },
+    {
+      "title": "Escape from the Planet of the Robot Monsters",
+      "filename": "Escape_from_the_Planet_of_the_Robot_Monsters.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Escape_from_the_Planet_of_the_Robot_Monsters",
+      "generated_at": "2026-09-02T10:05:44+00:00"
+    },
+    {
+      "title": "Dungeon Hearts",
+      "filename": "Dungeon_Hearts.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Dungeon_Hearts",
+      "generated_at": "2026-09-02T10:05:58+00:00"
+    },
+    {
+      "title": "Everything (video game)",
+      "filename": "Everything_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Everything_(video_game)",
+      "generated_at": "2026-09-02T10:06:11+00:00"
+    },
+    {
+      "title": "Fragoria",
+      "filename": "Fragoria.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Fragoria",
+      "generated_at": "2026-09-02T10:06:18+00:00"
+    },
+    {
+      "title": "Grapple Dog",
+      "filename": "Grapple_Dog.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Grapple_Dog",
+      "generated_at": "2026-09-02T10:06:27+00:00"
+    },
+    {
+      "title": "Hohokum",
+      "filename": "Hohokum.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Hohokum",
+      "generated_at": "2026-09-02T10:06:33+00:00"
+    },
+    {
+      "title": "Gain Ground",
+      "filename": "Gain_Ground.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Gain_Ground",
+      "generated_at": "2026-09-02T10:06:48+00:00"
+    },
+    {
+      "title": "Hacha Mecha Fighter",
+      "filename": "Hacha_Mecha_Fighter.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Hacha_Mecha_Fighter",
+      "generated_at": "2026-09-02T10:07:01+00:00"
+    },
+    {
+      "title": "Jungler",
+      "filename": "Jungler.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Jungler",
+      "generated_at": "2026-09-02T10:07:10+00:00"
+    },
+    {
+      "title": "The Legend of Valkyrie",
+      "filename": "The_Legend_of_Valkyrie.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/The_Legend_of_Valkyrie",
+      "generated_at": "2026-09-02T10:07:19+00:00"
+    },
+    {
+      "title": "Michael Jackson's Moonwalker",
+      "filename": "Michael_Jackson_s_Moonwalker.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Michael_Jackson's_Moonwalker",
+      "generated_at": "2026-09-02T10:07:25+00:00"
+    },
+    {
+      "title": "Intel Level Up",
+      "filename": "Intel_Level_Up.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Intel_Level_Up",
+      "generated_at": "2026-09-02T10:07:33+00:00"
+    },
+    {
+      "title": "Kung Fu Rabbit",
+      "filename": "Kung_Fu_Rabbit.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Kung_Fu_Rabbit",
+      "generated_at": "2026-09-02T10:07:44+00:00"
+    },
+    {
+      "title": "Lux (video game)",
+      "filename": "Lux_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Lux_(video_game)",
+      "generated_at": "2026-09-02T10:07:55+00:00"
+    },
+    {
+      "title": "Monster Crown",
+      "filename": "Monster_Crown.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Monster_Crown",
+      "generated_at": "2026-09-02T10:08:03+00:00"
+    },
+    {
+      "title": "Nightmare Kart",
+      "filename": "Nightmare_Kart.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Nightmare_Kart",
+      "generated_at": "2026-09-02T10:08:08+00:00"
+    },
+    {
+      "title": "Nightmare in the Dark",
+      "filename": "Nightmare_in_the_Dark.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Nightmare_in_the_Dark",
+      "generated_at": "2026-09-02T10:08:22+00:00"
+    },
+    {
+      "title": "Pochi and Nyaa",
+      "filename": "Pochi_and_Nyaa.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Pochi_and_Nyaa",
+      "generated_at": "2026-09-02T10:08:37+00:00"
+    },
+    {
+      "title": "Racing Hero",
+      "filename": "Racing_Hero.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Racing_Hero",
+      "generated_at": "2026-09-02T10:08:53+00:00"
+    },
+    {
+      "title": "Rompers (video game)",
+      "filename": "Rompers_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Rompers_(video_game)",
+      "generated_at": "2026-09-02T10:09:01+00:00"
+    },
+    {
+      "title": "Slap Fight",
+      "filename": "Slap_Fight.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Slap_Fight",
+      "generated_at": "2026-09-02T10:09:09+00:00"
+    },
+    {
+      "title": "Osu!",
+      "filename": "Osu.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Osu!",
+      "generated_at": "2026-09-02T10:09:22+00:00"
+    },
+    {
+      "title": "Planet Stronghold",
+      "filename": "Planet_Stronghold.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Planet_Stronghold",
+      "generated_at": "2026-09-02T10:09:36+00:00"
+    },
+    {
+      "title": "Rise of Industry",
+      "filename": "Rise_of_Industry.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Rise_of_Industry",
+      "generated_at": "2026-09-02T10:09:44+00:00"
+    },
+    {
+      "title": "Self Simulated",
+      "filename": "Self_Simulated.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Self_Simulated",
+      "generated_at": "2026-09-02T10:09:51+00:00"
+    },
+    {
+      "title": "Solstice (2016 video game)",
+      "filename": "Solstice_2016_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Solstice_(2016_video_game)",
+      "generated_at": "2026-09-02T10:09:57+00:00"
+    },
+    {
+      "title": "Starsweep",
+      "filename": "Starsweep.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Starsweep",
+      "generated_at": "2026-09-02T10:10:12+00:00"
+    },
+    {
+      "title": "Tail to Nose",
+      "filename": "Tail_to_Nose.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Tail_to_Nose",
+      "generated_at": "2026-09-02T10:10:24+00:00"
+    },
+    {
+      "title": "Top Skater",
+      "filename": "Top_Skater.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Top_Skater",
+      "generated_at": "2026-09-02T10:10:33+00:00"
+    },
+    {
+      "title": "Voltage Fighter Gowcaizer",
+      "filename": "Voltage_Fighter_Gowcaizer.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Voltage_Fighter_Gowcaizer",
+      "generated_at": "2026-09-02T10:10:42+00:00"
+    },
+    {
+      "title": "Aikatsu! season 1",
+      "filename": "Aikatsu_season_1.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Aikatsu!_season_1",
+      "generated_at": "2026-09-02T10:10:49+00:00"
+    },
+    {
+      "title": "Stick Shift (video game)",
+      "filename": "Stick_Shift_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Stick_Shift_(video_game)",
+      "generated_at": "2026-09-02T10:10:59+00:00"
+    },
+    {
+      "title": "Tevi",
+      "filename": "Tevi.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Tevi",
+      "generated_at": "2026-09-02T10:11:10+00:00"
+    },
+    {
+      "title": "Trover Saves the Universe",
+      "filename": "Trover_Saves_the_Universe.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Trover_Saves_the_Universe",
+      "generated_at": "2026-09-02T10:11:18+00:00"
+    },
+    {
+      "title": "We Are the Dwarves",
+      "filename": "We_Are_the_Dwarves.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/We_Are_the_Dwarves",
+      "generated_at": "2026-09-02T10:11:25+00:00"
+    },
+    {
+      "title": "17-Bit",
+      "filename": "17_Bit.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/17-Bit",
+      "generated_at": "2026-09-02T10:11:32+00:00"
+    },
+    {
+      "title": "Arcana Heart 3",
+      "filename": "Arcana_Heart_3.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Arcana_Heart_3",
+      "generated_at": "2026-09-02T10:11:45+00:00"
+    },
+    {
+      "title": "Battle Shark",
+      "filename": "Battle_Shark.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Battle_Shark",
+      "generated_at": "2026-09-02T10:11:58+00:00"
+    },
+    {
+      "title": "Breakers (1996 video game)",
+      "filename": "Breakers_1996_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Breakers_(1996_video_game)",
+      "generated_at": "2026-09-02T10:12:08+00:00"
+    },
+    {
+      "title": "Confidential Mission",
+      "filename": "Confidential_Mission.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Confidential_Mission",
+      "generated_at": "2026-09-02T10:12:17+00:00"
+    },
+    {
+      "title": "Dead or Alive (video game)",
+      "filename": "Dead_or_Alive_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Dead_or_Alive_(video_game)",
+      "generated_at": "2026-09-02T10:12:23+00:00"
+    },
+    {
+      "title": "Alto's Odyssey",
+      "filename": "Alto_s_Odyssey.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Alto's_Odyssey",
+      "generated_at": "2026-09-02T10:12:36+00:00"
+    },
+    {
+      "title": "Aven Colony",
+      "filename": "Aven_Colony.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Aven_Colony",
+      "generated_at": "2026-09-02T10:12:46+00:00"
+    },
+    {
+      "title": "Blackwell Unbound",
+      "filename": "Blackwell_Unbound.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Blackwell_Unbound",
+      "generated_at": "2026-09-02T10:12:54+00:00"
+    },
+    {
+      "title": "Cattails (video game)",
+      "filename": "Cattails_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Cattails_(video_game)",
+      "generated_at": "2026-09-02T10:13:01+00:00"
+    },
+    {
+      "title": "Crime O'Clock",
+      "filename": "Crime_O_Clock.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Crime_O'Clock",
+      "generated_at": "2026-09-02T10:13:10+00:00"
+    },
+    {
+      "title": "Escape Kids",
+      "filename": "Escape_Kids.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Escape_Kids",
+      "generated_at": "2026-09-02T10:13:24+00:00"
+    },
+    {
+      "title": "Galactic Warriors",
+      "filename": "Galactic_Warriors.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Galactic_Warriors",
+      "generated_at": "2026-09-02T10:13:37+00:00"
+    },
+    {
+      "title": "Halley's Comet (video game)",
+      "filename": "Halley_s_Comet_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Halley's_Comet_(video_game)",
+      "generated_at": "2026-09-02T10:13:46+00:00"
+    },
+    {
+      "title": "Juno First",
+      "filename": "Juno_First.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Juno_First",
+      "generated_at": "2026-09-02T10:13:57+00:00"
+    },
+    {
+      "title": "Legendary Wings",
+      "filename": "Legendary_Wings.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Legendary_Wings",
+      "generated_at": "2026-09-02T10:14:02+00:00"
+    },
+    {
+      "title": "Deltarune",
+      "filename": "Deltarune.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Deltarune",
+      "generated_at": "2026-09-02T10:14:12+00:00"
+    },
+    {
+      "title": "Dungeon Souls",
+      "filename": "Dungeon_Souls.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Dungeon_Souls",
+      "generated_at": "2026-09-02T10:14:23+00:00"
+    },
+    {
+      "title": "Everything is Going to Be OK",
+      "filename": "Everything_is_Going_to_Be_OK.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Everything_is_Going_to_Be_OK",
+      "generated_at": "2026-09-02T10:14:32+00:00"
+    },
+    {
+      "title": "Fraymakers",
+      "filename": "Fraymakers.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Fraymakers",
+      "generated_at": "2026-09-02T10:14:39+00:00"
+    },
+    {
+      "title": "Grappling Hook (video game)",
+      "filename": "Grappling_Hook_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Grappling_Hook_(video_game)",
+      "generated_at": "2026-09-02T10:14:46+00:00"
+    },
+    {
+      "title": "Midnight Landing",
+      "filename": "Midnight_Landing.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Midnight_Landing",
+      "generated_at": "2026-09-02T10:14:58+00:00"
+    },
+    {
+      "title": "Ninja (1986 video game)",
+      "filename": "Ninja_1986_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Ninja_(1986_video_game)",
+      "generated_at": "2026-09-02T10:15:13+00:00"
+    },
+    {
+      "title": "Point Blank (video game series)",
+      "filename": "Point_Blank_video_game_series.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Point_Blank_(video_game_series)",
+      "generated_at": "2026-09-02T10:15:23+00:00"
+    },
+    {
+      "title": "Rack 'Em Up",
+      "filename": "Rack_Em_Up.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Rack_'Em_Up",
+      "generated_at": "2026-09-02T10:15:32+00:00"
+    },
+    {
+      "title": "Round-Up (video game)",
+      "filename": "Round_Up_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Round-Up_(video_game)",
+      "generated_at": "2026-09-02T10:15:37+00:00"
+    },
+    {
+      "title": "Hokko Life",
+      "filename": "Hokko_Life.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Hokko_Life",
+      "generated_at": "2026-09-02T10:15:51+00:00"
+    },
+    {
+      "title": "Into the Breach",
+      "filename": "Into_the_Breach.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Into_the_Breach",
+      "generated_at": "2026-09-02T10:16:01+00:00"
+    },
+    {
+      "title": "Labyrinth of the Demon King",
+      "filename": "Labyrinth_of_the_Demon_King.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Labyrinth_of_the_Demon_King",
+      "generated_at": "2026-09-02T10:16:10+00:00"
+    },
+    {
+      "title": "Luxuria Superbia",
+      "filename": "Luxuria_Superbia.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Luxuria_Superbia",
+      "generated_at": "2026-09-02T10:16:17+00:00"
+    },
+    {
+      "title": "Monster Prom",
+      "filename": "Monster_Prom.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Monster_Prom",
+      "generated_at": "2026-09-02T10:16:23+00:00"
+    },
+    {
+      "title": "Sly Spy",
+      "filename": "Sly_Spy.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Sly_Spy",
+      "generated_at": "2026-09-02T10:16:38+00:00"
+    },
+    {
+      "title": "Starwing Paradox",
+      "filename": "Starwing_Paradox.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Starwing_Paradox",
+      "generated_at": "2026-09-02T10:16:52+00:00"
+    },
+    {
+      "title": "Taisen Puzzle-dama (video game)",
+      "filename": "Taisen_Puzzle_dama_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Taisen_Puzzle-dama_(video_game)",
+      "generated_at": "2026-09-02T10:17:01+00:00"
+    },
+    {
+      "title": "Top Speed (video game)",
+      "filename": "Top_Speed_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Top_Speed_(video_game)",
+      "generated_at": "2026-09-02T10:17:10+00:00"
+    },
+    {
+      "title": "Vulgus",
+      "filename": "Vulgus.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Vulgus",
+      "generated_at": "2026-09-02T10:17:16+00:00"
+    },
+    {
+      "title": "NightSky",
+      "filename": "NightSky.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/NightSky",
+      "generated_at": "2026-09-02T10:17:25+00:00"
+    },
+    {
+      "title": "Othercide",
+      "filename": "Othercide.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Othercide",
+      "generated_at": "2026-09-02T10:17:35+00:00"
+    },
+    {
+      "title": "Planetbase",
+      "filename": "Planetbase.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Planetbase",
+      "generated_at": "2026-09-02T10:17:43+00:00"
+    },
+    {
+      "title": "The Rise of the Golden Idol",
+      "filename": "The_Rise_of_the_Golden_Idol.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Rise_of_the_Golden_Idol",
+      "generated_at": "2026-09-02T10:17:50+00:00"
+    },
+    {
+      "title": "Semblance (video game)",
+      "filename": "Semblance_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Semblance_(video_game)",
+      "generated_at": "2026-09-02T10:17:57+00:00"
+    },
+    {
+      "title": "Aikatsu! season 2",
+      "filename": "Aikatsu_season_2.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Aikatsu!_season_2",
+      "generated_at": "2026-09-02T10:18:12+00:00"
+    },
+    {
+      "title": "Arch Rivals",
+      "filename": "Arch_Rivals.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Arch_Rivals",
+      "generated_at": "2026-09-02T10:18:25+00:00"
+    },
+    {
+      "title": "Battle Tryst",
+      "filename": "Battle_Tryst.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Battle_Tryst",
+      "generated_at": "2026-09-02T10:18:35+00:00"
+    },
+    {
+      "title": "Breakout (video game)",
+      "filename": "Breakout_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Breakout_(video_game)",
+      "generated_at": "2026-09-02T10:18:44+00:00"
+    },
+    {
+      "title": "Congo Bongo",
+      "filename": "Congo_Bongo.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Congo_Bongo",
+      "generated_at": "2026-09-02T10:18:50+00:00"
+    },
+    {
+      "title": "The Solus Project",
+      "filename": "The_Solus_Project.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Solus_Project",
+      "generated_at": "2026-09-02T10:19:04+00:00"
+    },
+    {
+      "title": "Stickets",
+      "filename": "Stickets.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Stickets",
+      "generated_at": "2026-09-02T10:19:14+00:00"
+    },
+    {
+      "title": "Thank Goodness You're Here!",
+      "filename": "Thank_Goodness_You_re_Here.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Thank_Goodness_You're_Here!",
+      "generated_at": "2026-09-02T10:19:22+00:00"
+    },
+    {
+      "title": "TumbleSeed",
+      "filename": "TumbleSeed.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/TumbleSeed",
+      "generated_at": "2026-09-02T10:19:29+00:00"
+    },
+    {
+      "title": "We Happy Few",
+      "filename": "We_Happy_Few.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/We_Happy_Few",
+      "generated_at": "2026-09-02T10:19:34+00:00"
+    },
+    {
+      "title": "Dead or Alive 2",
+      "filename": "Dead_or_Alive_2.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Dead_or_Alive_2",
+      "generated_at": "2026-09-02T10:19:50+00:00"
+    },
+    {
+      "title": "ESP Ra.De.",
+      "filename": "ESP_Ra_De.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/ESP_Ra.De.",
+      "generated_at": "2026-09-02T10:20:04+00:00"
+    },
+    {
+      "title": "Galaga '88",
+      "filename": "Galaga_88.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Galaga_'88",
+      "generated_at": "2026-09-02T10:20:12+00:00"
+    },
+    {
+      "title": "Hanaho",
+      "filename": "Hanaho.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Hanaho",
+      "generated_at": "2026-09-02T10:20:20+00:00"
+    },
+    {
+      "title": "Jurassic Park (arcade game)",
+      "filename": "Jurassic_Park_arcade_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Jurassic_Park_(arcade_game)",
+      "generated_at": "2026-09-02T10:20:26+00:00"
+    },
+    {
+      "title": "Abbey Games",
+      "filename": "Abbey_Games.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Reus_(video_game)",
+      "generated_at": "2026-09-02T10:20:37+00:00"
+    },
+    {
+      "title": "Alwa's Legacy",
+      "filename": "Alwa_s_Legacy.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Alwa's_Legacy",
+      "generated_at": "2026-09-02T10:20:48+00:00"
+    },
+    {
+      "title": "Awaria",
+      "filename": "Awaria.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Awaria",
+      "generated_at": "2026-09-02T10:20:57+00:00"
+    },
+    {
+      "title": "Blades of Exile",
+      "filename": "Blades_of_Exile.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Blades_of_Exile",
+      "generated_at": "2026-09-02T10:21:04+00:00"
+    },
+    {
+      "title": "Cave Story",
+      "filename": "Cave_Story.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Cave_Story",
+      "generated_at": "2026-09-02T10:21:11+00:00"
+    },
+    {
+      "title": "Leprechaun (video game)",
+      "filename": "Leprechaun_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Leprechaun_(video_game)",
+      "generated_at": "2026-09-02T10:21:23+00:00"
+    },
+    {
+      "title": "Midnight Resistance",
+      "filename": "Midnight_Resistance.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Midnight_Resistance",
+      "generated_at": "2026-09-02T10:21:37+00:00"
+    },
+    {
+      "title": "Ninja Baseball Bat Man",
+      "filename": "Ninja_Baseball_Bat_Man.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Ninja_Baseball_Bat_Man",
+      "generated_at": "2026-09-02T10:21:47+00:00"
+    },
+    {
+      "title": "Pokémon Frienda",
+      "filename": "Pok_mon_Frienda.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_video_games",
+      "generated_at": "2026-09-02T10:21:55+00:00"
+    },
+    {
+      "title": "Rad Mobile",
+      "filename": "Rad_Mobile.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Rad_Mobile",
+      "generated_at": "2026-09-02T10:22:01+00:00"
+    },
+    {
+      "title": "Crimson Room",
+      "filename": "Crimson_Room.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Crimson_Room",
+      "generated_at": "2026-09-02T10:22:19+00:00"
+    },
+    {
+      "title": "Delver",
+      "filename": "Delver.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Delver",
+      "generated_at": "2026-09-02T10:22:29+00:00"
+    },
+    {
+      "title": "Dungeonborne",
+      "filename": "Dungeonborne.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Dungeonborne",
+      "generated_at": "2026-09-02T10:22:37+00:00"
+    },
+    {
+      "title": "Evoland",
+      "filename": "Evoland.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Evoland",
+      "generated_at": "2026-09-02T10:22:43+00:00"
+    },
+    {
+      "title": "Freddy Fazbear's Pizzeria Simulator",
+      "filename": "Freddy_Fazbear_s_Pizzeria_Simulator.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Five_Nights_at_Freddy's",
+      "generated_at": "2026-09-02T10:22:49+00:00"
+    },
+    {
+      "title": "Route-16",
+      "filename": "Route_16.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Route-16",
+      "generated_at": "2026-09-02T10:23:03+00:00"
+    },
+    {
+      "title": "Smash TV",
+      "filename": "Smash_TV.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Smash_TV",
+      "generated_at": "2026-09-02T10:23:17+00:00"
+    },
+    {
+      "title": "Steel Gunner",
+      "filename": "Steel_Gunner.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Steel_Gunner",
+      "generated_at": "2026-09-02T10:23:25+00:00"
+    },
+    {
+      "title": "Tang Tang",
+      "filename": "Tang_Tang.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Tang_Tang",
+      "generated_at": "2026-09-02T10:23:34+00:00"
+    },
+    {
+      "title": "Total Carnage",
+      "filename": "Total_Carnage.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Total_Carnage",
+      "generated_at": "2026-09-02T10:23:40+00:00"
+    },
+    {
+      "title": "Gratuitous Space Battles",
+      "filename": "Gratuitous_Space_Battles.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Gratuitous_Space_Battles",
+      "generated_at": "2026-09-02T10:23:50+00:00"
+    },
+    {
+      "title": "HoloCure – Save the Fans!",
+      "filename": "HoloCure_Save_the_Fans.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/HoloCure_%E2%80%93_Save_the_Fans!",
+      "generated_at": "2026-09-02T10:24:01+00:00"
+    },
+    {
+      "title": "Into the Dead 2",
+      "filename": "Into_the_Dead_2.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Into_the_Dead_2",
+      "generated_at": "2026-09-02T10:24:09+00:00"
+    },
+    {
+      "title": "Ladykiller in a Bind",
+      "filename": "Ladykiller_in_a_Bind.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Ladykiller_in_a_Bind",
+      "generated_at": "2026-09-02T10:24:16+00:00"
+    },
+    {
+      "title": "Machinarium",
+      "filename": "Machinarium.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Machinarium",
+      "generated_at": "2026-09-02T10:24:24+00:00"
+    },
+    {
+      "title": "War Final Assault",
+      "filename": "War_Final_Assault.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/War_Final_Assault",
+      "generated_at": "2026-09-02T10:24:38+00:00"
+    },
+    {
+      "title": "Aikatsu! season 3",
+      "filename": "Aikatsu_season_3.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Aikatsu!_season_3",
+      "generated_at": "2026-09-02T10:24:53+00:00"
+    },
+    {
+      "title": "Arctic Thunder",
+      "filename": "Arctic_Thunder.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Arctic_Thunder",
+      "generated_at": "2026-09-02T10:25:02+00:00"
+    },
+    {
+      "title": "The Battle-Road",
+      "filename": "The_Battle_Road.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/The_Battle-Road",
+      "generated_at": "2026-09-02T10:25:11+00:00"
+    },
+    {
+      "title": "Bristles (video game)",
+      "filename": "Bristles_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Bristles_(video_game)",
+      "generated_at": "2026-09-02T10:25:17+00:00"
+    },
+    {
+      "title": "Monster Sanctuary",
+      "filename": "Monster_Sanctuary.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Monster_Sanctuary",
+      "generated_at": "2026-09-02T10:25:31+00:00"
+    },
+    {
+      "title": "NIMBY Rails",
+      "filename": "NIMBY_Rails.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/NIMBY_Rails",
+      "generated_at": "2026-09-02T10:25:43+00:00"
+    },
+    {
+      "title": "The Otterman Empire",
+      "filename": "The_Otterman_Empire.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Otterman_Empire",
+      "generated_at": "2026-09-02T10:25:51+00:00"
+    },
+    {
+      "title": "Playing History 2 - Slave Trade",
+      "filename": "Playing_History_2_Slave_Trade.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Playing_History_2_-_Slave_Trade",
+      "generated_at": "2026-09-02T10:25:58+00:00"
+    },
+    {
+      "title": "Rise to Ruins",
+      "filename": "Rise_to_Ruins.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Rise_to_Ruins",
+      "generated_at": "2026-09-02T10:26:04+00:00"
+    },
+    {
+      "title": "Continental Circus",
+      "filename": "Continental_Circus.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Continental_Circus",
+      "generated_at": "2026-09-02T10:26:19+00:00"
+    },
+    {
+      "title": "Deadstorm Pirates",
+      "filename": "Deadstorm_Pirates.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Deadstorm_Pirates",
+      "generated_at": "2026-09-02T10:26:32+00:00"
+    },
+    {
+      "title": "Espgaluda II",
+      "filename": "Espgaluda_II.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Espgaluda_II",
+      "generated_at": "2026-09-02T10:26:41+00:00"
+    },
+    {
+      "title": "Galaxy Force",
+      "filename": "Galaxy_Force.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Galaxy_Force",
+      "generated_at": "2026-09-02T10:26:49+00:00"
+    },
+    {
+      "title": "Hang-On",
+      "filename": "Hang_On.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Hang-On",
+      "generated_at": "2026-09-02T10:26:55+00:00"
+    },
+    {
+      "title": "Serial Cleaner",
+      "filename": "Serial_Cleaner.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Serial_Cleaner",
+      "generated_at": "2026-09-02T10:27:05+00:00"
+    },
+    {
+      "title": "Something Something Soup Something",
+      "filename": "Something_Something_Soup_Something.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Something_Something_Soup_Something",
+      "generated_at": "2026-09-02T10:27:17+00:00"
+    },
+    {
+      "title": "The Stillness of the Wind",
+      "filename": "The_Stillness_of_the_Wind.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Stillness_of_the_Wind",
+      "generated_at": "2026-09-02T10:27:26+00:00"
+    },
+    {
+      "title": "Tharsis (video game)",
+      "filename": "Tharsis_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Tharsis_(video_game)",
+      "generated_at": "2026-09-02T10:27:34+00:00"
+    },
+    {
+      "title": "Tumblestone",
+      "filename": "Tumblestone.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Tumblestone",
+      "generated_at": "2026-09-02T10:27:39+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|422a2e3207360450383204302a4c3e042a3632011601dcc1dcc3dcc2dc06|2037499",
+    "Category:Indie games": "page|5244482a2e3e3a4436040992543a30324604362a42320994011a01dc19|69518992",
+    "Category:Arcade video games": "page|383a423a504e52044446042a3a484c3a011401dcbcdcc5dc06|76155525",
     "Category:Video game franchises": "page|5a32503a4e48464c504e010e01dc0d|1217338",
-    "Category:Indie games": "page|342a44502a4e503a2e042e4644504c2a48503a46440409920f539e04543a30324604362a4232099401250701dcbddc1d|28194385",
     "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017"
   }
 }
