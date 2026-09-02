@@ -29220,12 +29220,31 @@
       "category": "Classic games",
       "source": "https://en.wikipedia.org/wiki/Four_Trax",
       "generated_at": "2026-09-01T22:26:42+00:00"
+    },
+    {
+      "title": "Gunlord",
+      "filename": "Gunlord.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Gunlord",
+      "generated_at": "2026-09-02T00:23:16+00:00"
+    },
+    {
+      "title": "Jitsu Squad",
+      "filename": "Jitsu_Squad.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Jitsu_Squad",
+      "generated_at": "2026-09-02T00:23:21+00:00"
+    },
+    {
+      "title": "Last Duel (video game)",
+      "filename": "Last_Duel_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Last_Duel_(video_game)",
+      "generated_at": "2026-09-02T00:23:25+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|36324448323a045046422a04303244030636324448323a045046422a04303244012da40a01dcc0dcc2dcc3dcc0dcc1dc06|3738702",
-    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Arcade video games": "page|422a2e3207360450383204302a4c3e042a3632011601dcc1dcc3dcc2dc06|2037499",
     "Category:Video game franchises": "page|3a422a363a4432040992543a30324604362a4232044e324c3a324e0994011f01dc1e|47549049",
     "Category:Indie games": "page|2c462c096e4e04362a4232010e01dcc1dc07|23934062",
     "Category:Video game engines": "page|4a040992362a4232043244363a4432099403064a040992362a4232043244363a44320994012301dcc4dcc2dcbfdc12|23688058"
