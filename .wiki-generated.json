@@ -36311,13 +36311,61 @@
       "category": "Classic games",
       "source": "https://en.wikipedia.org/wiki/Tron_(video_game)",
       "generated_at": "2026-09-02T23:39:22+00:00"
+    },
+    {
+      "title": "Far Lands",
+      "filename": "Far_Lands.html",
+      "category": "Sandbox games",
+      "source": "https://en.wikipedia.org/wiki/Minecraft",
+      "generated_at": "2026-09-03T08:55:25+00:00"
+    },
+    {
+      "title": "Whateverland",
+      "filename": "Whateverland.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Whateverland",
+      "generated_at": "2026-09-03T08:55:32+00:00"
+    },
+    {
+      "title": "Arcane Kids",
+      "filename": "Arcane_Kids.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Arcane_Kids",
+      "generated_at": "2026-09-03T08:55:39+00:00"
+    },
+    {
+      "title": "Wild West C.O.W.-Boys of Moo Mesa (video game)",
+      "filename": "Wild_West_C_O_W_Boys_of_Moo_Mesa_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Wild_West_C.O.W.-Boys_of_Moo_Mesa",
+      "generated_at": "2026-09-03T08:56:01+00:00"
+    },
+    {
+      "title": "Backfirewall",
+      "filename": "Backfirewall.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Backfirewall",
+      "generated_at": "2026-09-03T08:56:05+00:00"
+    },
+    {
+      "title": "Clockwork Aquario",
+      "filename": "Clockwork_Aquario.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Clockwork_Aquario",
+      "generated_at": "2026-09-03T08:56:18+00:00"
+    },
+    {
+      "title": "Bloodroots",
+      "filename": "Bloodroots.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Bloodroots",
+      "generated_at": "2026-09-03T08:56:40+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|5244482a2e3e3a4436040992543a30324604362a42320994011a01dc19|69518992",
-    "Category:Arcade video games": "page|50563a44042e462c4c2a030650563a44042e462c4c2a011901dcc2dcc1dcc2dc08|723314",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
-    "Category:Video game franchises": "page|2e4642483a402a503a464404463404343a442a4004342a44502a4e5a04543a3a03062e4642483a402a503a464404463404343a442a4004342a44502a4e5a04543a3a01252401dcbbdcc4dcc1dcbfdcc3dcb8dcc1dcbfdcdcdc|1379498",
-    "Category:Video game engines": "page|4a040992362a4232043244363a4432099403064a040992362a4232043244363a44320994012301dcc4dcc2dcbfdc12|23688058"
+    "Category:Video game franchises": "page|484c3a442e324e4e04422a3e324c0409924e324c3a324e09940306484c3a442e324e4e04422a3e324c01250901dcbedcc0dcbfdcbedc08|808450",
+    "Category:Indie games": "page|2c462c096e4e04362a4232010e01dcc1dc07|23934062",
+    "Category:Video game engines": "page|4a040992362a4232043244363a4432099403064a040992362a4232043244363a44320994012301dcc4dcc2dcbfdc12|23688058",
+    "Category:Arcade video games": "page|2c32362a096e4e042c2a50504032011101dcc0dc09|20027149"
   }
 }
