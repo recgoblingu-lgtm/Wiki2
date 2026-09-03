@@ -36360,12 +36360,67 @@
       "category": "Indie games",
       "source": "https://en.wikipedia.org/wiki/Bloodroots",
       "generated_at": "2026-09-03T08:56:40+00:00"
+    },
+    {
+      "title": "Cadillacs and Dinosaurs (video game)",
+      "filename": "Cadillacs_and_Dinosaurs_video_game.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Cadillacs_and_Dinosaurs_(video_game)",
+      "generated_at": "2026-09-03T13:06:46+00:00"
+    },
+    {
+      "title": "Crazy Kong",
+      "filename": "Crazy_Kong.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Crazy_Kong",
+      "generated_at": "2026-09-03T13:06:54+00:00"
+    },
+    {
+      "title": "Derby Owners Club",
+      "filename": "Derby_Owners_Club.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Derby_Owners_Club",
+      "generated_at": "2026-09-03T13:06:57+00:00"
+    },
+    {
+      "title": "Minecraft Legacy console editions",
+      "filename": "Minecraft_Legacy_console_editions.html",
+      "category": "Sandbox games",
+      "source": "https://en.wikipedia.org/wiki/Minecraft_Legacy_console_editions",
+      "generated_at": "2026-09-03T13:07:02+00:00"
+    },
+    {
+      "title": "Charlie Murder",
+      "filename": "Charlie_Murder.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Charlie_Murder",
+      "generated_at": "2026-09-03T13:07:11+00:00"
+    },
+    {
+      "title": "Cryptark",
+      "filename": "Cryptark.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Cryptark",
+      "generated_at": "2026-09-03T13:07:16+00:00"
+    },
+    {
+      "title": "Desert Golfing",
+      "filename": "Desert_Golfing.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Desert_Golfing",
+      "generated_at": "2026-09-03T13:07:23+00:00"
+    },
+    {
+      "title": "Dweller's Empty Path",
+      "filename": "Dweller_s_Empty_Path.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Escaped_Chasm",
+      "generated_at": "2026-09-03T13:07:33+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Video game franchises": "page|484c3a442e324e4e04422a3e324c0409924e324c3a324e09940306484c3a442e324e4e04422a3e324c01250901dcbedcc0dcbfdcbedc08|808450",
-    "Category:Indie games": "page|2c462c096e4e04362a4232010e01dcc1dc07|23934062",
-    "Category:Video game engines": "page|4a040992362a4232043244363a4432099403064a040992362a4232043244363a44320994012301dcc4dcc2dcbfdc12|23688058",
-    "Category:Arcade video games": "page|2c32362a096e4e042c2a50504032011101dcc0dc09|20027149"
+    "Category:Indie games": "page|305a4e5046483a3e2a010d01dc0c|81738409",
+    "Category:Arcade video games": "page|303a44464e2a524c043e3a4436011101dcbedc07|3597128",
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017"
   }
 }
