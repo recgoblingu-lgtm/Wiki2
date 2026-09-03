@@ -36416,11 +36416,26 @@
       "category": "Indie games",
       "source": "https://en.wikipedia.org/wiki/Escaped_Chasm",
       "generated_at": "2026-09-03T13:07:33+00:00"
+    },
+    {
+      "title": "F-Zero GX",
+      "filename": "F_Zero_GX.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/F-Zero_GX",
+      "generated_at": "2026-09-03T19:43:29+00:00"
+    },
+    {
+      "title": "Gauntlet Legends",
+      "filename": "Gauntlet_Legends.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Gauntlet_Legends",
+      "generated_at": "2026-09-03T19:43:46+00:00"
     }
   ],
   "category_cursors": {
     "Category:Indie games": "page|305a4e5046483a3e2a010d01dc0c|81738409",
-    "Category:Arcade video games": "page|303a44464e2a524c043e3a4436011101dcbedc07|3597128",
-    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017"
+    "Category:Arcade video games": "page|36324448323a045046422a04303244030636324448323a045046422a04303244012da40a01dcc0dcc2dcc3dcc0dcc1dc06|3738702",
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
