@@ -39972,11 +39972,20 @@
       "category": "Classic games",
       "source": "https://en.wikipedia.org/wiki/OpenEmu",
       "generated_at": "2026-09-04T01:21:54+00:00"
+    },
+    {
+      "title": "Wireless Institute of Australia",
+      "filename": "Wireless_Institute_of_Australia.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Wireless_Institute_of_Australia",
+      "generated_at": "2026-09-04T17:55:37+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|42465038324c044c524e4e3a2a042c403232304e011801dcc0dcc0dc09|47144843",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
+    "Category:Indie games": "page|482a4c503a2e403204422a2e32011101dcbedc07|52807494",
+    "Category:Video game franchises": "page|2e4642483a402a503a464404463404343a442a4004342a44502a4e5a04543a3a03062e4642483a402a503a464404463404343a442a4004342a44502a4e5a04543a3a01252401dcbbdcc4dcc1dcbfdcc3dcb8dcc1dcbfdcdcdc|1379498",
+    "Category:Arcade video games": "page|2c32362a096e4e042c2a50504032011101dcc0dc09|20027149",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418"
   }
 }
