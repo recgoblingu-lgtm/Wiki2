@@ -39930,13 +39930,53 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Burmese_language",
       "generated_at": "2026-09-04T01:01:21+00:00"
+    },
+    {
+      "title": "Evgeni Plushenko",
+      "filename": "Evgeni_Plushenko.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Evgeni_Plushenko",
+      "generated_at": "2026-09-04T01:20:42+00:00"
+    },
+    {
+      "title": "Environmental health",
+      "filename": "Environmental_health.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Environmental_health",
+      "generated_at": "2026-09-04T01:20:57+00:00"
+    },
+    {
+      "title": "Serial port",
+      "filename": "Serial_port.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Serial_port",
+      "generated_at": "2026-09-04T01:21:11+00:00"
+    },
+    {
+      "title": "Rocas Atoll",
+      "filename": "Rocas_Atoll.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Rocas_Atoll",
+      "generated_at": "2026-09-04T01:21:26+00:00"
+    },
+    {
+      "title": "Culford School",
+      "filename": "Culford_School.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Culford_School",
+      "generated_at": "2026-09-04T01:21:41+00:00"
+    },
+    {
+      "title": "OpenEmu",
+      "filename": "OpenEmu.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/OpenEmu",
+      "generated_at": "2026-09-04T01:21:54+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|4e2a50524c302a5a04443a363850044e402a4204422a4e50324c4e011f01dcbedcc1dcc2dc0a|2289933",
-    "Category:Indie games": "page|362a402a2e503a2e042a4c424e044c2a2e32011601dcbedcc2dc07|38482134",
-    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
-    "Category:Video game franchises": "page|2e4642483a402a503a464404463404343a442a4004342a44502a4e5a04543a3a03062e4642483a402a503a464404463404343a442a4004342a44502a4e5a04543a3a01252401dcbbdcc4dcc1dcbfdcc3dcb8dcc1dcbfdcdcdc|1379498",
+    "Category:Indie games": "page|42465038324c044c524e4e3a2a042c403232304e011801dcc0dcc0dc09|47144843",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
     "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
