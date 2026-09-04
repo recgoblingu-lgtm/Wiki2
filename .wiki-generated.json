@@ -39979,13 +39979,20 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Wireless_Institute_of_Australia",
       "generated_at": "2026-09-04T17:55:37+00:00"
+    },
+    {
+      "title": "Project Zomboid",
+      "filename": "Project_Zomboid.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Project_Zomboid",
+      "generated_at": "2026-09-04T20:04:19+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|482a4c503a2e403204422a2e32011101dcbedc07|52807494",
+    "Category:Indie games": "page|484e325230464c32362a403a2a011101dc10|74657243",
     "Category:Video game franchises": "page|2e4642483a402a503a464404463404343a442a4004342a44502a4e5a04543a3a03062e4642483a402a503a464404463404343a442a4004342a44502a4e5a04543a3a01252401dcbbdcc4dcc1dcbfdcc3dcb8dcc1dcbfdcdcdc|1379498",
-    "Category:Arcade video games": "page|2c32362a096e4e042c2a50504032011101dcc0dc09|20027149",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418"
+    "Category:Arcade video games": "page|2e2a403a2c324c04080f34010e01dc0d|33980522",
+    "Category:Esports games": "page|48463e32424644042e46424832503a503a54320448402a5a030648463e3242464404543a30324604362a4232044e324c3a324e042e46424832503a503a54320448402a5a0142882d88250901dcaddc2e|60144282",
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017"
   }
 }
