@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>BPP (complexity) - Wiki2</title>
-  <meta name="description" content="In computational complexity theory, a branch of computer science, bounded-error probabilistic polynomial time (BPP) is the class of decision problems solvable by a probabilistic Turing machine in polynomial time with an error probability bo">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/BPP_complexity.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="BPP (complexity) - Wiki2">
-  <meta property="og:description" content="In computational complexity theory, a branch of computer science, bounded-error probabilistic polynomial time (BPP) is the class of decision problems solvable by a probabilistic Turing machine in polynomial time with an error probability bo">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/BPP_complexity.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="BPP (complexity) - Wiki2">
-  <meta name="twitter:description" content="In computational complexity theory, a branch of computer science, bounded-error probabilistic polynomial time (BPP) is the class of decision problems solvable by a probabilistic Turing machine in polynomial time with an error probability bo">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>BPP (complexity) - Wiki2</title>
+<meta content="In computational complexity theory, a branch of computer science, bounded-error probabilistic polynomial time (BPP) is the class of decision problems solvable by a probabilistic Turing machine in polynomial time with an error probability bo" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/BPP_complexity.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="BPP (complexity)" property="og:title"/>
+<meta content="BPP (complexity) is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/BPP_complexity.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="BPP (complexity)" name="twitter:title"/>
+<meta content="BPP (complexity) is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>BPP (complexity)</h1>
-    <p><b>BPP (complexity)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In computational complexity theory, a branch of computer science, bounded-error probabilistic polynomial time (BPP) is the class of decision problems solvable by a probabilistic Turing machine in polynomial time with an error probability bounded by 1/3 for all instances. BPP is one of the largest practical classes of problems, meaning most problems of interest in BPP have efficient probabilistic algorithms that can be run quickly on real modern machines. BPP also contains P, the class of problems solvable in polynomial time with a deterministic machine, since a deterministic algorithm is a special case of a probabilistic algorithm.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In computational complexity theory , a branch of computer science, bounded-error probabilistic polynomial time ( BPP ) is the class of decision problems solvable by a probabilistic Turing machine in polynomial time with an error probability bounded by 1/3 for all instances. BPP is one of the largest practical classes of problems, meaning most problems of interest in BPP have efficient probabilistic algorithms that can be run quickly on real modern machines. BPP also contains P , the class of problems solvable in polynomial time with a deterministic machine, since a deterministic algorithm is a special case of a probabilistic algorithm. Informally, a problem is in BPP if there is an algorithm for it that has the following properties:</p>
-    <hr>
-    <h2>Definition</h2>
-    <p>A language L is in BPP if and only if there exists a probabilistic Turing machine M , such that Unlike the complexity class ZPP , the machine M is required to run for polynomial time on all inputs, regardless of the outcome of the random coin flips. Alternatively, BPP can be defined using only deterministic Turing machines. A language L is in BPP if and only if there exists a polynomial p and deterministic Turing machine M , such that In this definition, the string y corresponds to the output of the random coin flips that the probabilistic Turing machine would have made. For some applications this definition is preferable since it does not mention probabilistic Turing machines. In practice, an error probability of 1/3 might not be acceptable; however, the choice of 1/3 in the definition is arbitrary. Modifying the definition to use any constant between 0 and 1/2 (exclusive) in place of 1/3 would not change the resulting set BPP . For example, if one defined the class with the restriction that the algorithm can be wrong with probability at most 1/2, this would result in the same class of problems. The error probability does not even have to be constant: the same class of problems is defined by allowing error as high as 1/2 − n on the one hand, or requiring error as small as 2 on the other hand, where c is any positive constant, and n is the length of input. This flexibility in t</p>
-    <hr>
-    <h2>Problems</h2>
-    <p>All problems in P are obviously also in BPP . However, many problems have been known to be in BPP but not known to be in P . The number of such problems is decreasing, and it is conjectured that P = BPP . For a long time, one of the most famous problems known to be in BPP but not known to be in P was the problem of determining whether a given number is prime . However, in the 2002 paper PRIMES is in P , Manindra Agrawal and his students Neeraj Kayal and Nitin Saxena found a deterministic polynomial-time algorithm for this problem, thus showing that it is in P . An important example of a problem in BPP (in fact in co-RP ) still not known to be in P is polynomial identity testing , the problem of determining whether a polynomial is identically equal to the zero polynomial, when you have access to the value of the polynomial for any given input, but not to the coefficients. In other words, is there an assignment of values to the variables such that when a nonzero polynomial is evaluated on these values, the result is nonzero? It suffices to choose each variable&#x27;s value uniformly at random from a finite subset of at least d values to achieve bounded error probability, where d is the total degree of the polynomial.</p>
-    <hr>
-    <h2>Related classes</h2>
-    <p>If the access to randomness is removed from the definition of BPP , we get the complexity class P . In the definition of the class, if we replace the ordinary Turing machine with a quantum computer , we get the class BQP . Adding postselection to BPP , or allowing computation paths to have different lengths, gives the class BPP path . BPP path is known to contain NP , and it is contained in its quantum counterpart PostBQP . A Monte Carlo algorithm is a randomized algorithm which is likely to be correct. Problems in the class BPP have Monte Carlo algorithms with polynomial bounded running time. This is compared to a Las Vegas algorithm which is a randomized algorithm which either outputs the correct answer, or outputs &quot;fail&quot; with low probability. Las Vegas algorithms with polynomial bound running times are used to define the class ZPP . Alternatively, ZPP contains probabilistic algorithms that are always correct and have expected polynomial running time. This is weaker than saying it is a polynomial time algorithm, since it may run for super-polynomial time, but with very low probability.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Mississippi_State_University.html">Mississippi State University</a></li>
-      <li><a href="Pierre_Joseph_Olivier_Chauveau.html">Pierre-Joseph-Olivier Chauveau</a></li>
-      <li><a href="Gotha_Florida.html">Gotha, Florida</a></li>
-      <li><a href="St_Joseph_Township_Stearns_County_Minnesota.html">St. Joseph Township, Stearns County, Minnesota</a></li>
-      <li><a href="Social_Democratic_Party_of_Germany.html">Social Democratic Party of Germany</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/BPP_(complexity)">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 5, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>BPP (complexity)</h1>
+<p><b>BPP (complexity)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In computational complexity theory, a branch of computer science, bounded-error probabilistic polynomial time (BPP) is the class of decision problems solvable by a probabilistic Turing machine in polynomial time with an error probability bounded by 1/3 for all instances. BPP is one of the largest practical classes of problems, meaning most problems of interest in BPP have efficient probabilistic algorithms that can be run quickly on real modern machines. BPP also contains P, the class of problems solvable in polynomial time with a deterministic machine, since a deterministic algorithm is a special case of a probabilistic algorithm.</p>
+<hr/>
+<h2>Background</h2>
+<p>In computational complexity theory , a branch of computer science, bounded-error probabilistic polynomial time ( BPP ) is the class of decision problems solvable by a probabilistic Turing machine in polynomial time with an error probability bounded by 1/3 for all instances. BPP is one of the largest practical classes of problems, meaning most problems of interest in BPP have efficient probabilistic algorithms that can be run quickly on real modern machines. BPP also contains P , the class of problems solvable in polynomial time with a deterministic machine, since a deterministic algorithm is a special case of a probabilistic algorithm. Informally, a problem is in BPP if there is an algorithm for it that has the following properties:</p>
+<hr/>
+<h2>Definition</h2>
+<p>A language L is in BPP if and only if there exists a probabilistic Turing machine M , such that Unlike the complexity class ZPP , the machine M is required to run for polynomial time on all inputs, regardless of the outcome of the random coin flips. Alternatively, BPP can be defined using only deterministic Turing machines. A language L is in BPP if and only if there exists a polynomial p and deterministic Turing machine M , such that In this definition, the string y corresponds to the output of the random coin flips that the probabilistic Turing machine would have made. For some applications this definition is preferable since it does not mention probabilistic Turing machines. In practice, an error probability of 1/3 might not be acceptable; however, the choice of 1/3 in the definition is arbitrary. Modifying the definition to use any constant between 0 and 1/2 (exclusive) in place of 1/3 would not change the resulting set BPP . For example, if one defined the class with the restriction that the algorithm can be wrong with probability at most 1/2, this would result in the same class of problems. The error probability does not even have to be constant: the same class of problems is defined by allowing error as high as 1/2 − n on the one hand, or requiring error as small as 2 on the other hand, where c is any positive constant, and n is the length of input. This flexibility in t</p>
+<hr/>
+<h2>Problems</h2>
+<p>All problems in P are obviously also in BPP . However, many problems have been known to be in BPP but not known to be in P . The number of such problems is decreasing, and it is conjectured that P = BPP . For a long time, one of the most famous problems known to be in BPP but not known to be in P was the problem of determining whether a given number is prime . However, in the 2002 paper PRIMES is in P , Manindra Agrawal and his students Neeraj Kayal and Nitin Saxena found a deterministic polynomial-time algorithm for this problem, thus showing that it is in P . An important example of a problem in BPP (in fact in co-RP ) still not known to be in P is polynomial identity testing , the problem of determining whether a polynomial is identically equal to the zero polynomial, when you have access to the value of the polynomial for any given input, but not to the coefficients. In other words, is there an assignment of values to the variables such that when a nonzero polynomial is evaluated on these values, the result is nonzero? It suffices to choose each variable's value uniformly at random from a finite subset of at least d values to achieve bounded error probability, where d is the total degree of the polynomial.</p>
+<hr/>
+<h2>Related classes</h2>
+<p>If the access to randomness is removed from the definition of BPP , we get the complexity class P . In the definition of the class, if we replace the ordinary Turing machine with a quantum computer , we get the class BQP . Adding postselection to BPP , or allowing computation paths to have different lengths, gives the class BPP path . BPP path is known to contain NP , and it is contained in its quantum counterpart PostBQP . A Monte Carlo algorithm is a randomized algorithm which is likely to be correct. Problems in the class BPP have Monte Carlo algorithms with polynomial bounded running time. This is compared to a Las Vegas algorithm which is a randomized algorithm which either outputs the correct answer, or outputs "fail" with low probability. Las Vegas algorithms with polynomial bound running times are used to define the class ZPP . Alternatively, ZPP contains probabilistic algorithms that are always correct and have expected polynomial running time. This is weaker than saying it is a polynomial time algorithm, since it may run for super-polynomial time, but with very low probability.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Mississippi_State_University.html">Mississippi State University</a></li>
+<li><a href="Pierre_Joseph_Olivier_Chauveau.html">Pierre-Joseph-Olivier Chauveau</a></li>
+<li><a href="Gotha_Florida.html">Gotha, Florida</a></li>
+<li><a href="St_Joseph_Township_Stearns_County_Minnesota.html">St. Joseph Township, Stearns County, Minnesota</a></li>
+<li><a href="Social_Democratic_Party_of_Germany.html">Social Democratic Party of Germany</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/BPP_(complexity)">Wikimedia article</a></small></p>
+<p><i>Last edited: September 5, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

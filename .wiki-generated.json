@@ -43507,15 +43507,54 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Concino_Concini",
       "generated_at": "2026-09-05T15:17:05+00:00"
+    },
+    {
+      "title": "Animal Hospital (video game)",
+      "filename": "Animal_Hospital_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Animal_Hospital_(video_game)",
+      "generated_at": "2026-09-05T19:44:41+00:00"
+    },
+    {
+      "title": "Bubble Trouble (1996 video game)",
+      "filename": "Bubble_Trouble_1996_video_game.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Bubble_Trouble_(1996_video_game)",
+      "generated_at": "2026-09-05T19:44:49+00:00"
+    },
+    {
+      "title": "Half-life",
+      "filename": "Half_life.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Half-life",
+      "generated_at": "2026-09-05T19:45:04+00:00"
+    },
+    {
+      "title": "Out of School Care and Recreation",
+      "filename": "Out_of_School_Care_and_Recreation.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Out_of_School_Care_and_Recreation",
+      "generated_at": "2026-09-05T19:45:17+00:00"
+    },
+    {
+      "title": "Influenza A virus subtype H1N1",
+      "filename": "Influenza_A_virus_subtype_H1N1.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Influenza_A_virus_subtype_H1N1",
+      "generated_at": "2026-09-05T19:45:33+00:00"
+    },
+    {
+      "title": "Navaga",
+      "filename": "Navaga.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Navaga",
+      "generated_at": "2026-09-05T19:45:45+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|563a4030042a500438322a4c500604503832030650383204563a4030042a500438322a4c5001250701e0bfdcc0dcc3dcc3e0bfdc08|70632666",
-    "Category:Arcade video games": "page|3e3a4040324c044a52323244040992543a30324604362a42320994011d01dcc0dc15|38349867",
-    "Category:Video game franchises": "page|342a2c52402a044446542a042e4c5a4e502a40403a4e073604343a442a4004342a44502a4e5a0306342a2c52402a044446542a042e4c5a4e502a40403a4e04343a442a4004342a44502a4e5a0125250c01dcc0dcc2dcbbdcc1dcbfdcc0dcc2dcbcdcc1dc0a|5070173",
-    "Category:Esports games": "page|48463e32424644042e46424832503a503a54320448402a5a030648463e3242464404543a30324604362a4232044e324c3a324e042e46424832503a503a54320448402a5a0142882d88250901dcaddc2e|60144282",
-    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
+    "Category:Arcade video games": "page|4e4652400432303632010d01dcc2dc07|173426",
+    "Category:Video game franchises": "page|5a46464e502a4c010b01dc0a|25135841",
+    "Category:Indie games": "page|2e522c320456464c4030010e01dcc2e008|39994917",
+    "Category:Esports games": "page|48463e32424644042e46424832503a503a54320448402a5a030648463e3242464404543a30324604362a4232044e324c3a324e042e46424832503a503a54320448402a5a0142882d88250901dcaddc2e|60144282"
   }
 }

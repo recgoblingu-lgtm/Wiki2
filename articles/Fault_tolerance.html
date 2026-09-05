@@ -1,64 +1,65 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Fault tolerance - Wiki2</title>
-  <meta name="description" content="Fault tolerance is the ability of a system to contain the propagation of faults. Faults may manifest as errors causing incorrect system state. Failure tolerant systems mask errors and maintain failure-free operation in the presence of one o">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Fault_tolerance.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Fault tolerance - Wiki2">
-  <meta property="og:description" content="Fault tolerance is the ability of a system to contain the propagation of faults. Faults may manifest as errors causing incorrect system state. Failure tolerant systems mask errors and maintain failure-free operation in the presence of one o">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Fault_tolerance.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Graceful_Degradation_of_Transparency_%28cleaned_up%29.png/960px-Graceful_Degradation_of_Transparency_%28cleaned_up%29.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Fault tolerance - Wiki2">
-  <meta name="twitter:description" content="Fault tolerance is the ability of a system to contain the propagation of faults. Faults may manifest as errors causing incorrect system state. Failure tolerant systems mask errors and maintain failure-free operation in the presence of one o">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Graceful_Degradation_of_Transparency_%28cleaned_up%29.png/960px-Graceful_Degradation_of_Transparency_%28cleaned_up%29.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Fault tolerance - Wiki2</title>
+<meta content="Fault tolerance is the ability of a system to contain the propagation of faults. Faults may manifest as errors causing incorrect system state. Failure tolerant systems mask errors and maintain failure-free operation in the presence of one o" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Fault_tolerance.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Fault tolerance" property="og:title"/>
+<meta content="Fault tolerance is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Fault_tolerance.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Graceful_Degradation_of_Transparency_%28cleaned_up%29.png/960px-Graceful_Degradation_of_Transparency_%28cleaned_up%29.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Fault tolerance" name="twitter:title"/>
+<meta content="Fault tolerance is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Graceful_Degradation_of_Transparency_%28cleaned_up%29.png/960px-Graceful_Degradation_of_Transparency_%28cleaned_up%29.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Fault tolerance</h1>
-    <p><b>Fault tolerance</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>Fault tolerance is the ability of a system to contain the propagation of faults. Faults may manifest as errors causing incorrect system state. Failure tolerant systems mask errors and maintain failure-free operation in the presence of one or more faulty components. This capability is essential for high-availability, mission-critical, or even life-critical systems.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Graceful_Degradation_of_Transparency_%28cleaned_up%29.png/960px-Graceful_Degradation_of_Transparency_%28cleaned_up%29.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Graceful Degradation of Transparency (cleaned up).png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Twitter_M2_mobile_website.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Twitter M2 mobile website.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>Fault tolerance is the ability of a system to contain the propagation of faults (e.g. failed transistor, shorted connector, intermittent data bus). Faults may manifest as errors (e.g. bad data value, missing message) causing incorrect system state. Failure tolerant systems mask errors and maintain failure-free operation in the presence of one or more faulty components. This capability is essential for high-availability , mission-critical , or even life-critical systems . Fault tolerance specifically refers to a system&#x27;s capability to handle faults without any degradation or downtime. In the event of an error, end-users remain unaware of any issues. Conversely, a system that experiences errors with some interruption in service or graceful degradation of performance is termed &#x27;resilient&#x27;. In resilience, the system adapts to the error, maintaining service but acknowledging a certain impact on performance. Typically, fault tolerance describes computer systems , ensuring the overall system remains functional despite hardware or software issues. Non-computing examples include structures that retain their integrity despite damage from fatigue , corrosion or impact.</p>
-    <hr>
-    <h2>History</h2>
-    <p>The first known fault-tolerant computer was SAPO , built in 1951 in Czechoslovakia by Antonín Svoboda . Its basic design was magnetic drums connected via relays, with a voting method of memory error detection ( triple modular redundancy ). Several other machines were developed along this line, mostly for military use. Eventually, they separated into three distinct categories: Most of the development in the so-called LLNM (Long Life, No Maintenance) computing was done by NASA during the 1960s, in preparation for Project Apollo and other research aspects. NASA&#x27;s first machine went into a space observatory , and their second attempt, the JSTAR computer, was used in Voyager . This computer had a backup of memory arrays to use memory recovery methods and thus it was called the Jet Propulsion Laboratory Self-Testing-And-Repairing computer. It could detect its own errors and fix them or use redundant modules as needed. The computer is still working, as of early 2022. Hyper-dependable computers were pioneered mostly by aircraft manufacturers, nuclear power companies, and the railroad industry in the United States. These entities needed computers with massive amounts of uptime that would fail gracefully enough during a fault to allow continued operation, while relying on constant human monitoring of computer output to detect faults. IBM developed the first computer of this kind for NASA</p>
-    <hr>
-    <h2>Examples</h2>
-    <p>Hardware fault tolerance sometimes requires that broken parts be removed and replaced with new parts while the system is still operational (in computing known as hot swapping ). Such a system implemented with a single backup is known as single point tolerant and represents the vast majority of fault-tolerant systems. In such systems the mean time between failures should be long enough for the operators to have sufficient time to fix the broken devices ( mean time to repair ) before the backup also fails. It is helpful if the time between failures is as long as possible, but this is not specifically required in a fault-tolerant system. Fault tolerance is notably successful in computer applications. Tandem Computers built their entire business on such machines, which used single-point tolerance to create their NonStop systems with uptimes measured in years. Fail-safe architectures may encompass also the computer software, for example by process replication . Data formats may also be designed to degrade gracefully. Hyper Text Markup Language (HTML) for example, is designed to be forward compatible , allowing Web browsers to ignore new and unsupported HTML entities without causing the document to be unusable. Additionally, proper user interface design mandates that websites provide an optional lightweight front end that does not rely on JavaScript and has a minimal layout, to ensur</p>
-    <hr>
-    <h2>Terminology</h2>
-    <p>A highly fault-tolerant system might continue at the same level of performance even though one or more components have failed. For example, a building with a backup electrical generator will provide the same voltage to wall outlets even if the grid power fails. A system that is designed to fail safe , or fail-secure, or fail gracefully , whether it functions at a reduced level or fails completely, does so in a way that protects people, property, or data from injury, damage, intrusion, or disclosure. In computers, a program might fail-safe by executing a graceful exit (as opposed to an uncontrolled crash) to prevent data corruption after an error occurs. A similar distinction is made between &quot;failing well&quot; and &quot; failing badly &quot;. A system designed to experience graceful degradation , or to fail soft (used in computing, similar to &quot;fail safe&quot;) operates at a reduced level of performance after some component fails. For example, if grid power fails, a building may operate lighting at reduced levels or elevators at reduced speeds. In computing, if insufficient network bandwidth is available to stream an online video, a lower-resolution version might be streamed in place of the high-resolution version. Progressive enhancement is another example, where web pages are available in a basic functional format for older, small-screen, or limited-capability web browsers, but in an enhanced ver</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="First_Monday.html">First Monday</a></li>
-      <li><a href="State_terrorism.html">State terrorism</a></li>
-      <li><a href="London_Monarchs.html">London Monarchs</a></li>
-      <li><a href="Lunar_orbit_rendezvous.html">Lunar orbit rendezvous</a></li>
-      <li><a href="Begging.html">Begging</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Fault_tolerance">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 5, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Fault tolerance</h1>
+<p><b>Fault tolerance</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>Fault tolerance is the ability of a system to contain the propagation of faults. Faults may manifest as errors causing incorrect system state. Failure tolerant systems mask errors and maintain failure-free operation in the presence of one or more faulty components. This capability is essential for high-availability, mission-critical, or even life-critical systems.</p>
+<figure class="article-image"><img alt="Graceful Degradation of Transparency (cleaned up).png" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Graceful_Degradation_of_Transparency_%28cleaned_up%29.png/960px-Graceful_Degradation_of_Transparency_%28cleaned_up%29.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Twitter M2 mobile website.png" src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Twitter_M2_mobile_website.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>Fault tolerance is the ability of a system to contain the propagation of faults (e.g. failed transistor, shorted connector, intermittent data bus). Faults may manifest as errors (e.g. bad data value, missing message) causing incorrect system state. Failure tolerant systems mask errors and maintain failure-free operation in the presence of one or more faulty components. This capability is essential for high-availability , mission-critical , or even life-critical systems . Fault tolerance specifically refers to a system's capability to handle faults without any degradation or downtime. In the event of an error, end-users remain unaware of any issues. Conversely, a system that experiences errors with some interruption in service or graceful degradation of performance is termed 'resilient'. In resilience, the system adapts to the error, maintaining service but acknowledging a certain impact on performance. Typically, fault tolerance describes computer systems , ensuring the overall system remains functional despite hardware or software issues. Non-computing examples include structures that retain their integrity despite damage from fatigue , corrosion or impact.</p>
+<hr/>
+<h2>History</h2>
+<p>The first known fault-tolerant computer was SAPO , built in 1951 in Czechoslovakia by Antonín Svoboda . Its basic design was magnetic drums connected via relays, with a voting method of memory error detection ( triple modular redundancy ). Several other machines were developed along this line, mostly for military use. Eventually, they separated into three distinct categories: Most of the development in the so-called LLNM (Long Life, No Maintenance) computing was done by NASA during the 1960s, in preparation for Project Apollo and other research aspects. NASA's first machine went into a space observatory , and their second attempt, the JSTAR computer, was used in Voyager . This computer had a backup of memory arrays to use memory recovery methods and thus it was called the Jet Propulsion Laboratory Self-Testing-And-Repairing computer. It could detect its own errors and fix them or use redundant modules as needed. The computer is still working, as of early 2022. Hyper-dependable computers were pioneered mostly by aircraft manufacturers, nuclear power companies, and the railroad industry in the United States. These entities needed computers with massive amounts of uptime that would fail gracefully enough during a fault to allow continued operation, while relying on constant human monitoring of computer output to detect faults. IBM developed the first computer of this kind for NASA</p>
+<hr/>
+<h2>Examples</h2>
+<p>Hardware fault tolerance sometimes requires that broken parts be removed and replaced with new parts while the system is still operational (in computing known as hot swapping ). Such a system implemented with a single backup is known as single point tolerant and represents the vast majority of fault-tolerant systems. In such systems the mean time between failures should be long enough for the operators to have sufficient time to fix the broken devices ( mean time to repair ) before the backup also fails. It is helpful if the time between failures is as long as possible, but this is not specifically required in a fault-tolerant system. Fault tolerance is notably successful in computer applications. Tandem Computers built their entire business on such machines, which used single-point tolerance to create their NonStop systems with uptimes measured in years. Fail-safe architectures may encompass also the computer software, for example by process replication . Data formats may also be designed to degrade gracefully. Hyper Text Markup Language (HTML) for example, is designed to be forward compatible , allowing Web browsers to ignore new and unsupported HTML entities without causing the document to be unusable. Additionally, proper user interface design mandates that websites provide an optional lightweight front end that does not rely on JavaScript and has a minimal layout, to ensur</p>
+<hr/>
+<h2>Terminology</h2>
+<p>A highly fault-tolerant system might continue at the same level of performance even though one or more components have failed. For example, a building with a backup electrical generator will provide the same voltage to wall outlets even if the grid power fails. A system that is designed to fail safe , or fail-secure, or fail gracefully , whether it functions at a reduced level or fails completely, does so in a way that protects people, property, or data from injury, damage, intrusion, or disclosure. In computers, a program might fail-safe by executing a graceful exit (as opposed to an uncontrolled crash) to prevent data corruption after an error occurs. A similar distinction is made between "failing well" and " failing badly ". A system designed to experience graceful degradation , or to fail soft (used in computing, similar to "fail safe") operates at a reduced level of performance after some component fails. For example, if grid power fails, a building may operate lighting at reduced levels or elevators at reduced speeds. In computing, if insufficient network bandwidth is available to stream an online video, a lower-resolution version might be streamed in place of the high-resolution version. Progressive enhancement is another example, where web pages are available in a basic functional format for older, small-screen, or limited-capability web browsers, but in an enhanced ver</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="First_Monday.html">First Monday</a></li>
+<li><a href="State_terrorism.html">State terrorism</a></li>
+<li><a href="London_Monarchs.html">London Monarchs</a></li>
+<li><a href="Lunar_orbit_rendezvous.html">Lunar orbit rendezvous</a></li>
+<li><a href="Begging.html">Begging</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Fault_tolerance">Wikimedia article</a></small></p>
+<p><i>Last edited: September 5, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
