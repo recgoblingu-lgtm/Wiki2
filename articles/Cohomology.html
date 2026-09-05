@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cohomology - Wiki2</title>
+  <meta name="description" content="In mathematics, specifically in homology theory and algebraic topology, cohomology is a way of attaching algebraic invariants to a topological space or other mathematical object that encode its properties in a way that is often computable. ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Cohomology.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Cohomology - Wiki2">
+  <meta property="og:description" content="In mathematics, specifically in homology theory and algebraic topology, cohomology is a way of attaching algebraic invariants to a topological space or other mathematical object that encode its properties in a way that is often computable. ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Cohomology.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/d/de/Moebiusband-1s.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cohomology - Wiki2">
+  <meta name="twitter:description" content="In mathematics, specifically in homology theory and algebraic topology, cohomology is a way of attaching algebraic invariants to a topological space or other mathematical object that encode its properties in a way that is often computable. ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/d/de/Moebiusband-1s.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Cohomology</h1>
+    <p><b>Cohomology</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In mathematics, specifically in homology theory and algebraic topology, cohomology is a way of attaching algebraic invariants to a topological space or other mathematical object that encode its properties in a way that is often computable. Cohomology is often related to questions of whether some local property of the space is obstructed when passing to a global property. For example, the Möbius strip is not the product space of a line segment with a circle, but locally on any segment of the circle it resembles an ordinary rectangle without the global twist. The obstruction to making the product structure global is encoded in the first cohomology of the underlying circle, which classifies the two inequivalent ways a line can twist around a circle. The fact that there are only two inequivalent ways of twisting a line around a circle is encoded in the relevant cohomology group which can be computed as isomorphic to the group where corresponds to an even number of twists, and to an odd number.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Moebiusband-1s.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Cohomology"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Kleinsche_Flasche.png/960px-Kleinsche_Flasche.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Kleinsche Flasche.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In mathematics , specifically in homology theory and algebraic topology , cohomology is a way of attaching algebraic invariants to a topological space or other mathematical object that encode its properties in a way that is often computable. Cohomology is often related to questions of whether some local property of the space is obstructed when passing to a global property. For example, the Möbius strip is not the product space of a line segment with a circle (i.e., a cylinder), but locally on any segment of the circle it resembles an ordinary rectangle (product of two line segments) without the global twist. The obstruction to making the product structure global is encoded in the first cohomology of the underlying circle, which classifies the two inequivalent ways a line can twist around a circle (an even number of twists or an odd number of twists). The fact that there are only two inequivalent ways of twisting a line around a circle is encoded in the relevant cohomology group which can be computed as isomorphic to the group where corresponds to an even number of twists, and to an odd number. In its general abstract formulation, cohomology is a sequence of abelian groups often defined from a cochain complex . Cohomology can be viewed as a method of assigning richer algebraic invariants to a space than homology . Some versions of cohomology arise by dualizing the construction o</p>
+    <hr>
+    <h2>Overview</h2>
+    <p>Cohomology is a family of related constructions that occur in several areas of mathematics. The common pattern is that one has objects called cochains , a coboundary operator measuring the failure of a cochain to satisfy a compatibility condition, and cohomology classes obtained by identifying cochains that differ by a trivial or exact contribution.</p>
+    <hr>
+    <h2>Example</h2>
+    <p>A simple example is the de Rham cohomology of the circle. One considers here smooth functions on the circle, which can be thought of as periodic functions , such that for all . (Here we are parametrizing the functions by radian measure around the unit circle .) The differential of a function is defined by the expression . Differentials of a periodic function have the property that their integral over a whole period is zero: by the fundamental theorem of calculus , , because is periodic over the circle. A differential is sometimes called an exact differential . Another type of differential can also be considered, which is not necessarily exact. An example is by itself. This does not have an integral of zero over a whole period. On the contrary, . So the differential is inexact. Any differential form , with appropriately periodic is a differential on the circle. It is inexact precisely when , and exact when . Indeed, in the latter case we can write where , the key point being that is periodic (and so defines a function on the circle). Moreover, any differential can be made exact by subtracting from it where . What we have therefore shown is that, although there are many differentials on the circle (exact or inexact), the quotient space of inexact differentials modulo exact differentials is one-dimensional, parametrized by the constant differential . Here the coboundaries are the </p>
+    <hr>
+    <h2>Cochains and coboundaries</h2>
+    <p>Cohomology is often expressed by a cochain complex with . The -th cohomology group is then Elements of are called cocycles , elements of are called coboundaries , and elements of the quotient group are called cohomology classes. In the case of the example of the de Rham cohomology of the circle, is all smooth periodic functions, is the differential of a function, is all differentials where is smooth and periodic, and all higher and are zero. One informal way to understand cohomology is that cocycles are locally or formally consistent data, while coboundaries are data that arise from a more elementary choice. The cohomology group measures the part of the consistent data that cannot be removed in this way. Thus in the case of de Rham cohomology of the circle, a more elementary choice is a function, the formally consistent data is a periodic one-form which is always locally the differential of some function, and the integral of a one-form over the whole circle is the part that cannot be absorbed into the differential of a function. For this reason, cohomology often appears in questions about whether local data can be glued globally, whether a construction can be lifted or extended, or whether two objects that look locally equivalent are globally different. This interpretation is especially explicit in sheaf cohomology , where cohomology measures the failure of local sections of a </p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Jim_Valentino.html">Jim Valentino</a></li>
+      <li><a href="Motherfucker.html">Motherfucker</a></li>
+      <li><a href="APEC_Youth_Science_Festival.html">APEC Youth Science Festival</a></li>
+      <li><a href="BPP_complexity.html">BPP (complexity)</a></li>
+      <li><a href="Mississippi_State_University.html">Mississippi State University</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Cohomology">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 5, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

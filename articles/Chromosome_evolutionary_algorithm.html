@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chromosome (evolutionary algorithm) - Wiki2</title>
+  <meta name="description" content="A chromosome or genotype in evolutionary algorithms (EA) is a set of parameters which define a proposed solution of the problem that the evolutionary algorithm is trying to solve. The set of all solutions, also called individuals according ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Chromosome_evolutionary_algorithm.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Chromosome (evolutionary algorithm) - Wiki2">
+  <meta property="og:description" content="A chromosome or genotype in evolutionary algorithms (EA) is a set of parameters which define a proposed solution of the problem that the evolutionary algorithm is trying to solve. The set of all solutions, also called individuals according ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Chromosome_evolutionary_algorithm.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/2/2b/Estimation_of_Distribution_Algorithm_animation.gif?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Chromosome (evolutionary algorithm) - Wiki2">
+  <meta name="twitter:description" content="A chromosome or genotype in evolutionary algorithms (EA) is a set of parameters which define a proposed solution of the problem that the evolutionary algorithm is trying to solve. The set of all solutions, also called individuals according ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/2/2b/Estimation_of_Distribution_Algorithm_animation.gif?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Chromosome (evolutionary algorithm)</h1>
+    <p><b>Chromosome (evolutionary algorithm)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>A chromosome or genotype in evolutionary algorithms (EA) is a set of parameters which define a proposed solution of the problem that the evolutionary algorithm is trying to solve. The set of all solutions, also called individuals according to the biological model, is known as the population. The genome of an individual consists of one, more rarely of several, chromosomes and corresponds to the genetic representation of the task to be solved. A chromosome is composed of a set of genes, where a gene consists of one or more semantically connected parameters, which are often also called decision variables. They determine one or more phenotypic characteristics of the individual or at least have an influence on them. In the basic form of genetic algorithms, the chromosome is represented as a binary string, while in later variants and in EAs in general, a wide variety of other data structures are used.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Estimation_of_Distribution_Algorithm_animation.gif?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Chromosome (evolutionary algorithm)"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Estimation_of_Distribution_Algorithm_animation.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Estimation of Distribution Algorithm animation.gif"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Gene_model_gene_types.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Gene model gene types.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>A chromosome or genotype in evolutionary algorithms (EA) is a set of parameters which define a proposed solution of the problem that the evolutionary algorithm is trying to solve. The set of all solutions, also called individuals according to the biological model, is known as the population . The genome of an individual consists of one, more rarely of several, chromosomes and corresponds to the genetic representation of the task to be solved. A chromosome is composed of a set of genes, where a gene consists of one or more semantically connected parameters , which are often also called decision variables . They determine one or more phenotypic characteristics of the individual or at least have an influence on them. In the basic form of genetic algorithms, the chromosome is represented as a binary string , while in later variants and in EAs in general, a wide variety of other data structures are used.</p>
+    <hr>
+    <h2>Chromosome design</h2>
+    <p>When creating the genetic representation of a task, it is determined which decision variables and other degrees of freedom of the task should be improved by the EA and possible additional heuristics and how the genotype-phenotype mapping should look like. The design of a chromosome translates these considerations into concrete data structures for which an EA then has to be selected, configured, extended, or, in the worst case, created. Finding a suitable representation of the problem domain for a chromosome is an important consideration, as a good representation will make the search easier by limiting the search space ; similarly, a poorer representation will allow a larger search space. In this context, suitable mutation and crossover operators must also be found or newly defined to fit the chosen chromosome design. An important requirement for these operators is that they not only allow all points in the search space to be reached in principle, but also make this as easy as possible. The following requirements must be met by a well-suited chromosome: While the first requirement is indispensable, depending on the application and the EA used, one usually only has to be satisfied with fulfilling the remaining requirements as far as possible. The evolutionary search is supported and possibly considerably accelerated by a fulfillment as complete as possible.</p>
+    <hr>
+    <h2>Chromosomes for binary codings</h2>
+    <p>In their classical form, GAs use bit strings and map the decision variables to be optimized onto them. An example for one Boolean and three integer decision variables with the value ranges , and may illustrate this: Note that the negative number here is given in two&#x27;s complement . This straight forward representation uses five bits to represent the three values of , although two bits would suffice. This is a significant redundancy. An improved alternative, where 28 is to be added for the genotype-phenotype mapping, could look like this: with .</p>
+    <hr>
+    <h2>Chromosomes with real-valued or integer genes</h2>
+    <p>For the processing of tasks with real-valued or mixed-integer decision variables, EAs such as the evolution strategy or the real-coded GAs are suited. In the case of mixed-integer values, rounding is often used, but this represents some violation of the redundancy requirement . If the necessary precisions of the real values can be reasonably narrowed down, this violation can be remedied by using integer-coded GAs. For this purpose, the valid digits of real values are mapped to integers by multiplication with a suitable factor. For example, 12.380 becomes the integer 12380 by multiplying by 1000. This must of course be taken into account in genotype-phenotype mapping for evaluation and result presentation. A common form is a chromosome consisting of a list or an array of integer or real values.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Seikan_Tunnel.html">Seikan Tunnel</a></li>
+      <li><a href="Alblasserwaard.html">Alblasserwaard</a></li>
+      <li><a href="Richards_lunar_crater.html">Richards (lunar crater)</a></li>
+      <li><a href="Nancy_Meek_Pocock.html">Nancy Meek Pocock</a></li>
+      <li><a href="Lucas_Cranach_the_Elder.html">Lucas Cranach the Elder</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Chromosome_(evolutionary_algorithm)">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 5, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

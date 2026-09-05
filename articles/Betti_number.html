@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Betti number - Wiki2</title>
+  <meta name="description" content="In algebraic topology, the Betti numbers are used to distinguish topological spaces based on the connectivity of n-dimensional simplicial complexes. For the most reasonable finite-dimensional spaces, the sequence of Betti numbers is 0 from ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Betti_number.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Betti number - Wiki2">
+  <meta property="og:description" content="In algebraic topology, the Betti numbers are used to distinguish topological spaces based on the connectivity of n-dimensional simplicial complexes. For the most reasonable finite-dimensional spaces, the sequence of Betti numbers is 0 from ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Betti_number.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Kleinsche_Flasche.png/960px-Kleinsche_Flasche.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Betti number - Wiki2">
+  <meta name="twitter:description" content="In algebraic topology, the Betti numbers are used to distinguish topological spaces based on the connectivity of n-dimensional simplicial complexes. For the most reasonable finite-dimensional spaces, the sequence of Betti numbers is 0 from ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Kleinsche_Flasche.png/960px-Kleinsche_Flasche.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Betti number</h1>
+    <p><b>Betti number</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In algebraic topology, the Betti numbers are used to distinguish topological spaces based on the connectivity of n-dimensional simplicial complexes. For the most reasonable finite-dimensional spaces, the sequence of Betti numbers is 0 from some point onward, and they are all finite.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Kleinsche_Flasche.png/960px-Kleinsche_Flasche.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Kleinsche Flasche.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Simplicialexample.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Simplicialexample.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Torus_cycles.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Torus cycles.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In algebraic topology , the Betti numbers are used to distinguish topological spaces based on the connectivity of n -dimensional simplicial complexes . For the most reasonable finite-dimensional spaces (such as compact manifolds , finite simplicial complexes or CW complexes ), the sequence of Betti numbers is 0 from some point onward (Betti numbers vanish above the dimension of a space), and they are all finite. The n th Betti number represents the rank of the n th homology group , denoted H n , which tells us the maximum number of cuts that can be made before separating a surface into two pieces or 0-cycles, 1-cycles, etc. For example, if then , if then , if then , if then , etc. Note that only the ranks of infinite groups are considered, so for example if , where is the finite cyclic group of order 2, then . These finite components of the homology groups are their torsion subgroups , and they are denoted by torsion coefficients . The term &quot;Betti number&quot; was coined by Henri Poincaré after Enrico Betti . The modern formulation is due to Emmy Noether . Betti numbers are used today in fields such as simplicial homology , computer science and digital images .</p>
+    <hr>
+    <h2>Geometric interpretation</h2>
+    <p>Informally, the k th Betti number refers to the number of k -dimensional holes on a topological surface. A &quot; k -dimensional hole &quot; is a k -dimensional cycle that is not a boundary of a ( k +1)-dimensional object. The first few Betti numbers have the following definitions for 0-dimensional, 1-dimensional, and 2-dimensional simplicial complexes : Thus, for example, a torus has one connected surface component so b 0 = 1, two &quot;circular&quot; holes (one equatorial and one meridional ) so b 1 = 2, and a single cavity enclosed within the surface so b 2 = 1. Another interpretation of b k is the maximum number of k -dimensional curves that can be removed while the object remains connected. For example, the torus remains connected after removing two 1-dimensional curves (equatorial and meridional) so b 1 = 2. The two-dimensional Betti numbers are easier to understand because we can see the world in 0, 1, 2, and 3-dimensions.</p>
+    <hr>
+    <h2>Formal definition</h2>
+    <p>For a non-negative integer k , the k th Betti number b k ( X ) of the space X is defined as the rank (number of linearly independent generators) of the abelian group H k ( X ), the k th homology group of X . The k th homology group is , the s are the boundary maps of the simplicial complex and the rank of H k is the k th Betti number. Equivalently, one can define it as the vector space dimension of H k ( X ; Q ) since the homology group in this case is a vector space over Q . The universal coefficient theorem , in a very simple torsion-free case, shows that these definitions are the same. More generally, given a field F one can define b k ( X , F ), the k th Betti number with coefficients in F , as the vector space dimension of H k ( X , F ).</p>
+    <hr>
+    <h2>Poincaré polynomial</h2>
+    <p>The Poincaré polynomial of a surface is defined to be the generating function of its Betti numbers. For example, the Betti numbers of the torus are 1, 2, and 1; thus its Poincaré polynomial is . The same definition applies to any topological space which has a finitely generated homology. Given a topological space which has a finitely generated homology, the Poincaré polynomial is defined as the generating function of its Betti numbers, via the polynomial where the coefficient of is .</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Catherine_Rodland.html">Catherine Rodland</a></li>
+      <li><a href="Greatest_Hits_1982_1989.html">Greatest Hits 1982–1989</a></li>
+      <li><a href="Prominence_video_game.html">Prominence (video game)</a></li>
+      <li><a href="Gary_Carter.html">Gary Carter</a></li>
+      <li><a href="Will_James_rugby_union_born_1976.html">Will James (rugby union, born 1976)</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Betti_number">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 5, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

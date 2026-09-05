@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Adler-32 - Wiki2</title>
+  <meta name="description" content="Adler-32 is a checksum algorithm written by Mark Adler in 1995, modifying Fletcher&#x27;s checksum. Compared to a cyclic redundancy check of the same length, it trades reliability for speed. Adler-32 is more reliable than Fletcher-16, and slight">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Adler_32.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Adler-32 - Wiki2">
+  <meta property="og:description" content="Adler-32 is a checksum algorithm written by Mark Adler in 1995, modifying Fletcher&#x27;s checksum. Compared to a cyclic redundancy check of the same length, it trades reliability for speed. Adler-32 is more reliable than Fletcher-16, and slight">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Adler_32.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Adler-32 - Wiki2">
+  <meta name="twitter:description" content="Adler-32 is a checksum algorithm written by Mark Adler in 1995, modifying Fletcher&#x27;s checksum. Compared to a cyclic redundancy check of the same length, it trades reliability for speed. Adler-32 is more reliable than Fletcher-16, and slight">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Adler-32</h1>
+    <p><b>Adler-32</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>Adler-32 is a checksum algorithm written by Mark Adler in 1995, modifying Fletcher&#x27;s checksum. Compared to a cyclic redundancy check of the same length, it trades reliability for speed. Adler-32 is more reliable than Fletcher-16, and slightly less reliable than Fletcher-32.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>Adler-32 is a checksum algorithm written by Mark Adler in 1995, modifying Fletcher&#x27;s checksum . Compared to a cyclic redundancy check of the same length, it trades reliability for speed. Adler-32 is more reliable than Fletcher-16 , and slightly less reliable than Fletcher-32 .</p>
+    <hr>
+    <h2>History</h2>
+    <p>The Adler-32 checksum is part of the widely used zlib compression library, as both were developed by Mark Adler . A &quot; rolling checksum &quot; version of Adler-32 is used in the rsync utility.</p>
+    <hr>
+    <h2>Calculation</h2>
+    <p>An Adler-32 checksum is obtained by calculating two 16-bit checksums A and B and concatenating their bits into a 32-bit integer. A is the sum of all bytes in the stream plus one, and B is the sum of the individual values of A from each step. At the beginning of an Adler-32 run, A is initialized to 1, B to 0. The sums are done modulo 65521 (the largest prime number smaller than 2). The bytes are stored in network order ( big endian ), B occupying the two most significant bytes. The function may be expressed as where D is the string of bytes for which the checksum is to be calculated, and n is the length of D .</p>
+    <hr>
+    <h2>Example</h2>
+    <p>The Adler-32 sum of the ASCII string &quot; Wikipedia &quot; would be calculated as follows: The modulo operation had no effect in this example, since none of the values reached 65521.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Poughkeepsie_town_New_York.html">Poughkeepsie (town), New York</a></li>
+      <li><a href="Arion.html">Arion</a></li>
+      <li><a href="Icko_Iben.html">Icko Iben</a></li>
+      <li><a href="Objetivo_Fama.html">Objetivo Fama</a></li>
+      <li><a href="Posterior_cingulate_cortex.html">Posterior cingulate cortex</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Adler-32">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 5, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
