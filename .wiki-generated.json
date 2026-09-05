@@ -39986,13 +39986,35 @@
       "category": "Indie games",
       "source": "https://en.wikipedia.org/wiki/Project_Zomboid",
       "generated_at": "2026-09-04T20:04:19+00:00"
+    },
+    {
+      "title": "Lodger (Finnish band)",
+      "filename": "Lodger_Finnish_band.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Lodger_(Finnish_band)",
+      "generated_at": "2026-09-05T08:27:06+00:00"
+    },
+    {
+      "title": "Cyber-Lip",
+      "filename": "Cyber_Lip.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Cyber-Lip",
+      "generated_at": "2026-09-05T08:27:13+00:00"
+    },
+    {
+      "title": "James Gascoyne-Cecil, 2nd Marquess of Salisbury",
+      "filename": "James_Gascoyne_Cecil_2nd_Marquess_of_Salisbury.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/James_Gascoyne-Cecil%2C_2nd_Marquess_of_Salisbury",
+      "generated_at": "2026-09-05T08:27:33+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|484e325230464c32362a403a2a011101dc10|74657243",
-    "Category:Video game franchises": "page|2e4642483a402a503a464404463404343a442a4004342a44502a4e5a04543a3a03062e4642483a402a503a464404463404343a442a4004342a44502a4e5a04543a3a01252401dcbbdcc4dcc1dcbfdcc3dcb8dcc1dcbfdcdcdc|1379498",
-    "Category:Arcade video games": "page|2e2a403a2c324c04080f34010e01dc0d|33980522",
+    "Category:Indie games": "page|4e482a2e3204562a4c40464c3004464c362a4404504c2a303a4436044e3a4252402a50464c01250801dcc1e0bfdcc1dcbfdc0c|70930444",
+    "Category:Video game franchises": "page|4232362a04422a44044032363244304e0409924e324c3a324e099403064232362a04422a44044032363244304e01250d01dcc2dcc3dcbedcbfdcc2dcc3dc0a|723822",
+    "Category:Arcade video games": "page|36324448323a045046422a04303244030636324448323a045046422a04303244012da40a01dcc0dcc2dcc3dcc0dcc1dc06|3738702",
     "Category:Esports games": "page|48463e32424644042e46424832503a503a54320448402a5a030648463e3242464404543a30324604362a4232044e324c3a324e042e46424832503a503a54320448402a5a0142882d88250901dcaddc2e|60144282",
-    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017"
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
