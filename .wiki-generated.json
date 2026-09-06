@@ -43549,12 +43549,19 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Navaga",
       "generated_at": "2026-09-05T19:45:45+00:00"
+    },
+    {
+      "title": "Smegma",
+      "filename": "Smegma.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Smegma",
+      "generated_at": "2026-09-06T03:21:31+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|4e4652400432303632010d01dcc2dc07|173426",
-    "Category:Video game franchises": "page|5a46464e502a4c010b01dc0a|25135841",
-    "Category:Indie games": "page|2e522c320456464c4030010e01dcc2e008|39994917",
-    "Category:Esports games": "page|48463e32424644042e46424832503a503a54320448402a5a030648463e3242464404543a30324604362a4232044e324c3a324e042e46424832503a503a54320448402a5a0142882d88250901dcaddc2e|60144282"
+    "Category:Arcade video games": "page|4e504c32325004343a363850324c043a3a0736044c2a3a442c46560432303a503a464401250501dcc0dcbfdcdcc4dcbfdc0a|62416871",
+    "Category:Indie games": "page|303250322e503a543204364c3a42463a4c320736044e322e4c325004463404503832044e562a424801250a01dcbddcbddcb9dc08|43758610",
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418"
   }
 }
