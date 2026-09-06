@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IMG (file format) - Wiki2</title>
+  <meta name="description" content="An IMG file, a.k.a. raw disk image, contains a complete and uncompressed disk image of a storage device&#x27;s data content. The image includes the value of each memory location of the storage device, ordered sequentially such that the data can ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/IMG_file_format.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="IMG (file format) - Wiki2">
+  <meta property="og:description" content="An IMG file, a.k.a. raw disk image, contains a complete and uncompressed disk image of a storage device&#x27;s data content. The image includes the value of each memory location of the storage device, ordered sequentially such that the data can ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/IMG_file_format.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="IMG (file format) - Wiki2">
+  <meta name="twitter:description" content="An IMG file, a.k.a. raw disk image, contains a complete and uncompressed disk image of a storage device&#x27;s data content. The image includes the value of each memory location of the storage device, ordered sequentially such that the data can ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>IMG (file format)</h1>
+    <p><b>IMG (file format)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>An IMG file, a.k.a. raw disk image, contains a complete and uncompressed disk image of a storage device&#x27;s data content. The image includes the value of each memory location of the storage device, ordered sequentially such that the data can be written to a similar device to completely overwrite its content.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>An IMG file , a.k.a. raw disk image , contains a complete and uncompressed disk image of a storage device &#x27;s data content. The image includes the value of each memory location of the storage device, ordered sequentially such that the data can be written to a similar device to completely overwrite its content. The layout of data in a raw image depends on the file system of the target storage device (for example FAT ). For example, an optical disc (i.e. CD or DVD ) raw image contains the tracks of audio or video. In the case of a CD-ROM or DVD, an image usually includes not only the data of each sector, but the control headers and error correction fields for each sector as well. Since raw image files hold no additional data (&quot; metadata&quot; ) beyond the storage content, determining the structure of an existing image can be difficult. Either a user remembers what a file contains via their memory or records metadata in the file name or via some other mechanism. In some cases, a tool can detect aspects of an image file&#x27;s content. For example, a typical floppy disk raw image begins with a FAT boot sector , which can be used to identify the file system. A raw optical disc image is usually accompanied by a separate file which describes the layout of the image data, including information such as track limits which are not in the raw image.</p>
+    <hr>
+    <h2>Filename extension</h2>
+    <p>Raw disk image files sometimes have the filename extension .img , but the extension is used for other file formats and often other extensions are used for a raw disk image file. The .img file extension was originally used for floppy disk raw disk images only. A similar file extension, .ima , is also used to refer to floppy disk image files by some programs. A variant of raw image, called IMZ, consists of a zipped version of a raw floppy disk image (containing one entry with filename extension .IMA). These files use the .imz file extension, and are commonly found in compressed images of floppy disks created by WinImage. QEMU uses the .img file extension for a raw image of a hard disk drive and calls the format &quot;raw&quot;. CloneCD stores optical disc images in .img files and generates additional CloneCD Control Files (with .ccd extension) for each image to hold the necessary metadata . The CUE/BIN format stores disc images in .bin files, which are functionally equivalent to .img image files, and uses .cue files as descriptor files. The extension .img is also used for (unrelated) planar graphics files, originating with Digital Research &#x27;s GEM . It was commonly used on the Atari ST line of home computers, but also with some GEM-based PC software such as Corel Ventura or Timeworks Publisher . An Apple Disk Image file name may include the .img extension. Garmin .img is a hard-disk image f</p>
+    <hr>
+    <h2>Size</h2>
+    <p>For devices with sectors, the size of a raw disk image is a multiple of the sector size. For floppy disks and hard drives, this size is typically 512 bytes (but other sizes such as 128 and 1024 exist). More precisely, the file size of a raw disk image of a magnetic disk corresponds to: E.g. for 80 cylinders (tracks) and 2 heads (sides) with 18 sectors per track: For an optical disc such as a CD or DVD, the raw sector size is usually 2,352, making the size of a raw disc image a multiple of this value.</p>
+    <hr>
+    <h2>Comparison to ISO images</h2>
+    <p>ISO images are another type of optical disc image files, which commonly use the .iso file extension, but sometimes use the .img file extension as well. They are similar to the raw optical disc images, but contain only one track with computer data obtained from an optical disc. They cannot contain multiple tracks, nor audio or video tracks. They also do not contain the control headers and error correction fields of CD-ROM or DVD sectors that raw disc images usually store. Their internal format follows the structure of an optical disc file system, commonly ISO 9660 (for CDs) or UDF (for DVDs). The CUE/BIN and CCD/IMG formats, which usually contain raw disc images, can also store ISO images instead.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Irving_Gill.html">Irving Gill</a></li>
+      <li><a href="Naqada.html">Naqada</a></li>
+      <li><a href="Ed_Benedict.html">Ed Benedict</a></li>
+      <li><a href="Angel_Dust_comics.html">Angel Dust (comics)</a></li>
+      <li><a href="WODC.html">WODC</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/IMG_(file_format)">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 6, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
