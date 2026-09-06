@@ -47063,13 +47063,18 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Bill_Walsh",
       "generated_at": "2026-09-06T17:38:37+00:00"
+    },
+    {
+      "title": "USC Trojans",
+      "filename": "USC_Trojans.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/USC_Trojans",
+      "generated_at": "2026-09-06T21:34:56+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|3c463204302a4436324c043a44343a443a505a011701dcc3dcc0dc0b|57368674",
-    "Category:Video game franchises": "page|4232362a04422a44044032363244304e0409924e324c3a324e099403064232362a04422a44044032363244304e01250d01dcc2dcc3dcbedcbfdcc2dcc3dc0a|723822",
-    "Category:Arcade video games": "page|2e2a403a2c324c04080f34010e01dc0d|33980522",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418"
+    "Category:Indie games": "page|403250382a400440322a365232011101dcc0dc09|43694196",
+    "Category:Video game franchises": "page|484c3a442e324e4e04422a3e324c0409924e324c3a324e09940306484c3a442e324e4e04422a3e324c01250901dcbedcc0dcbfdcbedc08|808450",
+    "Category:Arcade video games": "page|303a44464e2a524c043e3a4436011101dcbedc07|3597128"
   }
 }
