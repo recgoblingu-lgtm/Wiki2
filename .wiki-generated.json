@@ -47070,11 +47070,27 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/USC_Trojans",
       "generated_at": "2026-09-06T21:34:56+00:00"
+    },
+    {
+      "title": "Huron Valley School District",
+      "filename": "Huron_Valley_School_District.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Huron_Valley_School_District",
+      "generated_at": "2026-09-06T23:05:56+00:00"
+    },
+    {
+      "title": "Laplace–Beltrami operator",
+      "filename": "Laplace_Beltrami_operator.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Laplace%E2%80%93Beltrami_operator",
+      "generated_at": "2026-09-06T23:06:28+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|403250382a400440322a365232011101dcc0dc09|43694196",
-    "Category:Video game franchises": "page|484c3a442e324e4e04422a3e324c0409924e324c3a324e09940306484c3a442e324e4e04422a3e324c01250901dcbedcc0dcbfdcbedc08|808450",
-    "Category:Arcade video games": "page|303a44464e2a524c043e3a4436011101dcbedc07|3597128"
+    "Category:Indie games": "page|44465638324c3204484c4648383250011301dcbfdc0a|68851660",
+    "Category:Arcade video games": "page|383a423a504e52044446042a3a484c3a011401dcbcdcc5dc06|76155525",
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
