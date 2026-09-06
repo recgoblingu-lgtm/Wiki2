@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Weak key - Wiki2</title>
-  <meta name="description" content="In cryptography, a weak key is a key, which, used with a specific cipher, makes the cipher behave in some undesirable way. Weak keys usually represent a very small fraction of the overall keyspace, which usually means that, a cipher key mad">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Weak_key.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Weak key - Wiki2">
-  <meta property="og:description" content="In cryptography, a weak key is a key, which, used with a specific cipher, makes the cipher behave in some undesirable way. Weak keys usually represent a very small fraction of the overall keyspace, which usually means that, a cipher key mad">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Weak_key.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Weak key - Wiki2">
-  <meta name="twitter:description" content="In cryptography, a weak key is a key, which, used with a specific cipher, makes the cipher behave in some undesirable way. Weak keys usually represent a very small fraction of the overall keyspace, which usually means that, a cipher key mad">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Weak key - Wiki2</title>
+<meta content="In cryptography, a weak key is a key, which, used with a specific cipher, makes the cipher behave in some undesirable way. Weak keys usually represent a very small fraction of the overall keyspace, which usually means that, a cipher key mad" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Weak_key.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Weak key" property="og:title"/>
+<meta content="Weak key is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Weak_key.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Weak key" name="twitter:title"/>
+<meta content="Weak key is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Weak key</h1>
-    <p><b>Weak key</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In cryptography, a weak key is a key, which, used with a specific cipher, makes the cipher behave in some undesirable way. Weak keys usually represent a very small fraction of the overall keyspace, which usually means that, a cipher key made by random number generation is very unlikely to give rise to a security problem. Nevertheless, it is considered desirable for a cipher to have no weak keys. A cipher with no weak keys is said to have a flat, or linear, key space.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In cryptography , a weak key is a key , which, used with a specific cipher , makes the cipher behave in some undesirable way. Weak keys usually represent a very small fraction of the overall keyspace, which usually means that, a cipher key made by random number generation is very unlikely to give rise to a security problem. Nevertheless, it is considered desirable for a cipher to have no weak keys. A cipher with no weak keys is said to have a flat , or linear , key space .</p>
-    <hr>
-    <h2>Historical origins</h2>
-    <p>Virtually all rotor-based cipher machines (from 1925 onwards) have implementation flaws that lead to a substantial number of weak keys being created. Some rotor machines have more problems with weak keys than others, as modern block and stream ciphers do. The first stream cipher machines were also rotor machines and had some of the same problems of weak keys as the more traditional rotor machines. The T52 was one such stream cipher machine that had weak key problems. The British first detected T52 traffic in Summer and Autumn of 1942. One link was between Sicily and Libya , codenamed &quot; Sturgeon &quot;, and another from the Aegean to Sicily , codenamed &quot; Mackerel &quot;. Operators of both links were in the habit of enciphering several messages with the same machine settings, producing large numbers of depths . There were several (mostly incompatible) versions of the T52: the T52a and T52b (which differed only in their electrical noise suppression), T52c, T52d and T52e. While the T52a/b and T52c were cryptologically weak, the last two were more advanced devices; the movement of the wheels was intermittent, the decision on whether or not to advance them being controlled by logic circuits which took as input data from the wheels themselves. In addition, a number of conceptual flaws (including very subtle ones) had been eliminated. One such flaw was the ability to reset the keystream to a fix</p>
-    <hr>
-    <h2>Weak keys in DES</h2>
-    <p>The block cipher DES has a few specific keys termed &quot;weak keys&quot; and &quot;semi-weak keys&quot;. These are keys that cause the encryption mode of DES to act identically to the decryption mode of DES (albeit potentially that of a different key). In operation, the secret 56-bit key is broken up into 16 subkeys according to the DES key schedule ; one subkey is used in each of the sixteen DES rounds. DES weak keys produce sixteen identical subkeys. This occurs when the key (expressed in hexadecimal ) is: If an implementation does not consider the parity bits, the corresponding keys with the inverted parity bits may also work as weak keys: Using weak keys, the outcome of the Permuted Choice 1 (PC-1) in the DES key schedule leads to round keys being either all zeros, all ones or alternating zero-one patterns. Since all the subkeys are identical, and DES is a Feistel network , the encryption function is self-inverting; that is, despite encrypting once giving a secure-looking cipher text, encrypting twice produces the original plaintext. DES also has semi-weak keys , which only produce two different subkeys, each used eight times in the algorithm: This means they come in pairs K 1 and K 2 , and they have the property that: where E K (M) is the encryption algorithm encrypting message M with key K . There are six semi-weak key pairs: There are also 48 possibly weak keys that produce only four disti</p>
-    <hr>
-    <h2>No weak keys as a design goal</h2>
-    <p>The goal of having a &#x27;flat&#x27; keyspace (i.e., all keys equally strong) is always a cipher design goal. As in the case of DES, sometimes a small number of weak keys is acceptable, provided that they are all identified or identifiable. An algorithm that has unknown weak keys does not inspire much trust. The two main countermeasures against inadvertently using a weak key: A large number of weak keys is a serious flaw in any cipher design, since there will then be a (perhaps too) large chance that a randomly generated one will be a weak one, compromising the security of messages encrypted under it. It will also take longer to check randomly generated keys for weakness in such cases, which will tempt shortcuts in the interest of &#x27;efficiency&#x27;. However, weak keys are much more often a problem where the adversary has some control over what keys are used, such as when a block cipher is used in a mode of operation intended to construct a secure cryptographic hash function (e.g. Davies–Meyer ).</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="HMS_Illustrious_87.html">HMS Illustrious (87)</a></li>
-      <li><a href="Lame_Ducks.html">Lame Ducks</a></li>
-      <li><a href="Pittsford_New_York.html">Pittsford, New York</a></li>
-      <li><a href="Takuboku_Ishikawa.html">Takuboku Ishikawa</a></li>
-      <li><a href="Henry_Sarwer_Foner.html">Henry Sarwer-Foner</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Weak_key">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 6, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Weak key</h1>
+<p><b>Weak key</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In cryptography, a weak key is a key, which, used with a specific cipher, makes the cipher behave in some undesirable way. Weak keys usually represent a very small fraction of the overall keyspace, which usually means that, a cipher key made by random number generation is very unlikely to give rise to a security problem. Nevertheless, it is considered desirable for a cipher to have no weak keys. A cipher with no weak keys is said to have a flat, or linear, key space.</p>
+<hr/>
+<h2>Background</h2>
+<p>In cryptography , a weak key is a key , which, used with a specific cipher , makes the cipher behave in some undesirable way. Weak keys usually represent a very small fraction of the overall keyspace, which usually means that, a cipher key made by random number generation is very unlikely to give rise to a security problem. Nevertheless, it is considered desirable for a cipher to have no weak keys. A cipher with no weak keys is said to have a flat , or linear , key space .</p>
+<hr/>
+<h2>Historical origins</h2>
+<p>Virtually all rotor-based cipher machines (from 1925 onwards) have implementation flaws that lead to a substantial number of weak keys being created. Some rotor machines have more problems with weak keys than others, as modern block and stream ciphers do. The first stream cipher machines were also rotor machines and had some of the same problems of weak keys as the more traditional rotor machines. The T52 was one such stream cipher machine that had weak key problems. The British first detected T52 traffic in Summer and Autumn of 1942. One link was between Sicily and Libya , codenamed " Sturgeon ", and another from the Aegean to Sicily , codenamed " Mackerel ". Operators of both links were in the habit of enciphering several messages with the same machine settings, producing large numbers of depths . There were several (mostly incompatible) versions of the T52: the T52a and T52b (which differed only in their electrical noise suppression), T52c, T52d and T52e. While the T52a/b and T52c were cryptologically weak, the last two were more advanced devices; the movement of the wheels was intermittent, the decision on whether or not to advance them being controlled by logic circuits which took as input data from the wheels themselves. In addition, a number of conceptual flaws (including very subtle ones) had been eliminated. One such flaw was the ability to reset the keystream to a fix</p>
+<hr/>
+<h2>Weak keys in DES</h2>
+<p>The block cipher DES has a few specific keys termed "weak keys" and "semi-weak keys". These are keys that cause the encryption mode of DES to act identically to the decryption mode of DES (albeit potentially that of a different key). In operation, the secret 56-bit key is broken up into 16 subkeys according to the DES key schedule ; one subkey is used in each of the sixteen DES rounds. DES weak keys produce sixteen identical subkeys. This occurs when the key (expressed in hexadecimal ) is: If an implementation does not consider the parity bits, the corresponding keys with the inverted parity bits may also work as weak keys: Using weak keys, the outcome of the Permuted Choice 1 (PC-1) in the DES key schedule leads to round keys being either all zeros, all ones or alternating zero-one patterns. Since all the subkeys are identical, and DES is a Feistel network , the encryption function is self-inverting; that is, despite encrypting once giving a secure-looking cipher text, encrypting twice produces the original plaintext. DES also has semi-weak keys , which only produce two different subkeys, each used eight times in the algorithm: This means they come in pairs K 1 and K 2 , and they have the property that: where E K (M) is the encryption algorithm encrypting message M with key K . There are six semi-weak key pairs: There are also 48 possibly weak keys that produce only four disti</p>
+<hr/>
+<h2>No weak keys as a design goal</h2>
+<p>The goal of having a 'flat' keyspace (i.e., all keys equally strong) is always a cipher design goal. As in the case of DES, sometimes a small number of weak keys is acceptable, provided that they are all identified or identifiable. An algorithm that has unknown weak keys does not inspire much trust. The two main countermeasures against inadvertently using a weak key: A large number of weak keys is a serious flaw in any cipher design, since there will then be a (perhaps too) large chance that a randomly generated one will be a weak one, compromising the security of messages encrypted under it. It will also take longer to check randomly generated keys for weakness in such cases, which will tempt shortcuts in the interest of 'efficiency'. However, weak keys are much more often a problem where the adversary has some control over what keys are used, such as when a block cipher is used in a mode of operation intended to construct a secure cryptographic hash function (e.g. Davies–Meyer ).</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="HMS_Illustrious_87.html">HMS Illustrious (87)</a></li>
+<li><a href="Lame_Ducks.html">Lame Ducks</a></li>
+<li><a href="Pittsford_New_York.html">Pittsford, New York</a></li>
+<li><a href="Takuboku_Ishikawa.html">Takuboku Ishikawa</a></li>
+<li><a href="Henry_Sarwer_Foner.html">Henry Sarwer-Foner</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Weak_key">Wikimedia article</a></small></p>
+<p><i>Last edited: September 6, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

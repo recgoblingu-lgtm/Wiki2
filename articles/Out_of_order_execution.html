@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Out-of-order execution - Wiki2</title>
-  <meta name="description" content="In computer engineering, out-of-order execution is an instruction scheduling paradigm used in high-performance central processing units (CPUs) to make use of instruction cycles that would otherwise be wasted. In this paradigm, a processor e">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Out_of_order_execution.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Out-of-order execution - Wiki2">
-  <meta property="og:description" content="In computer engineering, out-of-order execution is an instruction scheduling paradigm used in high-performance central processing units (CPUs) to make use of instruction cycles that would otherwise be wasted. In this paradigm, a processor e">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Out_of_order_execution.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Out-of-order execution - Wiki2">
-  <meta name="twitter:description" content="In computer engineering, out-of-order execution is an instruction scheduling paradigm used in high-performance central processing units (CPUs) to make use of instruction cycles that would otherwise be wasted. In this paradigm, a processor e">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Out-of-order execution - Wiki2</title>
+<meta content="In computer engineering, out-of-order execution is an instruction scheduling paradigm used in high-performance central processing units (CPUs) to make use of instruction cycles that would otherwise be wasted. In this paradigm, a processor e" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Out_of_order_execution.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Out-of-order execution" property="og:title"/>
+<meta content="Out-of-order execution is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Out_of_order_execution.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Out-of-order execution" name="twitter:title"/>
+<meta content="Out-of-order execution is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Out-of-order execution</h1>
-    <p><b>Out-of-order execution</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In computer engineering, out-of-order execution is an instruction scheduling paradigm used in high-performance central processing units (CPUs) to make use of instruction cycles that would otherwise be wasted. In this paradigm, a processor executes instructions in an order governed by the availability of input data and execution units, rather than by their original order in a program. In doing so, the processor can avoid being idle while waiting for the preceding instruction to complete and can, in the meantime, process the next instructions that are able to run immediately and independently.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In computer engineering , out-of-order execution (or more formally dynamic execution ) is an instruction scheduling paradigm used in high-performance central processing units (CPUs) to make use of instruction cycles that would otherwise be wasted. In this paradigm, a processor executes instructions in an order governed by the availability of input data and execution units, rather than by their original order in a program. In doing so, the processor can avoid being idle while waiting for the preceding instruction to complete and can, in the meantime, process the next instructions that are able to run immediately and independently.</p>
-    <hr>
-    <h2>History</h2>
-    <p>Out-of-order execution is a restricted form of dataflow architecture , which was a major research area in computer architecture in the 1970s and early 1980s.</p>
-    <hr>
-    <h2>Early use in supercomputers</h2>
-    <p>Arguably the first machine to use out-of-order execution is the CDC 6600 (1964), which used a scoreboard to resolve conflicts. The 6600 however lacked WAW conflict handling, choosing instead to stall. This situation was termed a &quot;First Order Conflict&quot; by Thornton. Whilst it had both RAW conflict resolution (termed &quot;Second Order Conflict&quot;) and WAR conflict resolution (termed &quot;Third Order Conflict&quot;) all of which is sufficient to declare it capable of full out-of-order execution, the 6600 did not have precise exception handling. An early and limited form of Branch prediction was possible as long as the branch was to locations on what was termed the &quot;Instruction Stack&quot; which was limited to within a depth of seven words from the Program Counter. About two years later, the IBM System/360 Model 91 (1966) introduced register renaming with Tomasulo&#x27;s algorithm , which dissolves false dependencies (WAW and WAR), making full out-of-order execution possible. An instruction addressing a write into a register r n can be executed before an earlier instruction using the register r n is executed, by actually writing into an alternative (renamed) register alt-r n , which is turned into a normal register r n only when all the earlier instructions addressing r n have been executed, but until then r n is given for earlier instructions and alt-r n for later ones addressing r n . In the Model 91 the </p>
-    <hr>
-    <h2>Precise exceptions</h2>
-    <p>To have precise exceptions , the proper in-order state of the program&#x27;s execution must be available upon an exception. By 1985 various approaches were developed as described by James E. Smith and Andrew R. Pleszkun. The CDC Cyber 205 was a precursor, as upon a virtual memory interrupt the entire state of the processor (including the information on the partially executed instructions) is saved into an invisible exchange package , so that it can resume at the same state of execution. However to make all exceptions precise, there has to be a way to cancel the effects of instructions. The CDC Cyber 990 (1984) implements precise interrupts by using a history buffer, which holds the old (overwritten) values of registers that are restored when an exception necessitates the reverting of instructions. Through simulation, Smith determined that adding a reorder buffer (or history buffer or equivalent) to the Cray-1S would reduce the performance of executing the first 14 Livermore loops (unvectorized) by only 3%. Important academic research in this subject was led by Yale Patt with his HPSm simulator. In the 1980s many early RISC microprocessors, had out-of-order writeback to the registers, invariably resulting in imprecise exceptions. The Motorola 88100 was one of the few early microprocessors that did not suffer from imprecise exceptions despite out-of-order writes, although it did allow</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Pratunam.html">Pratunam</a></li>
-      <li><a href="Cocalico_Creek.html">Cocalico Creek</a></li>
-      <li><a href="Solon_Springs_Wisconsin.html">Solon Springs, Wisconsin</a></li>
-      <li><a href="Heflin_Alabama.html">Heflin, Alabama</a></li>
-      <li><a href="Gen.html">Gen&#x27;ō</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Out-of-order_execution">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 6, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Out-of-order execution</h1>
+<p><b>Out-of-order execution</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In computer engineering, out-of-order execution is an instruction scheduling paradigm used in high-performance central processing units (CPUs) to make use of instruction cycles that would otherwise be wasted. In this paradigm, a processor executes instructions in an order governed by the availability of input data and execution units, rather than by their original order in a program. In doing so, the processor can avoid being idle while waiting for the preceding instruction to complete and can, in the meantime, process the next instructions that are able to run immediately and independently.</p>
+<hr/>
+<h2>Background</h2>
+<p>In computer engineering , out-of-order execution (or more formally dynamic execution ) is an instruction scheduling paradigm used in high-performance central processing units (CPUs) to make use of instruction cycles that would otherwise be wasted. In this paradigm, a processor executes instructions in an order governed by the availability of input data and execution units, rather than by their original order in a program. In doing so, the processor can avoid being idle while waiting for the preceding instruction to complete and can, in the meantime, process the next instructions that are able to run immediately and independently.</p>
+<hr/>
+<h2>History</h2>
+<p>Out-of-order execution is a restricted form of dataflow architecture , which was a major research area in computer architecture in the 1970s and early 1980s.</p>
+<hr/>
+<h2>Early use in supercomputers</h2>
+<p>Arguably the first machine to use out-of-order execution is the CDC 6600 (1964), which used a scoreboard to resolve conflicts. The 6600 however lacked WAW conflict handling, choosing instead to stall. This situation was termed a "First Order Conflict" by Thornton. Whilst it had both RAW conflict resolution (termed "Second Order Conflict") and WAR conflict resolution (termed "Third Order Conflict") all of which is sufficient to declare it capable of full out-of-order execution, the 6600 did not have precise exception handling. An early and limited form of Branch prediction was possible as long as the branch was to locations on what was termed the "Instruction Stack" which was limited to within a depth of seven words from the Program Counter. About two years later, the IBM System/360 Model 91 (1966) introduced register renaming with Tomasulo's algorithm , which dissolves false dependencies (WAW and WAR), making full out-of-order execution possible. An instruction addressing a write into a register r n can be executed before an earlier instruction using the register r n is executed, by actually writing into an alternative (renamed) register alt-r n , which is turned into a normal register r n only when all the earlier instructions addressing r n have been executed, but until then r n is given for earlier instructions and alt-r n for later ones addressing r n . In the Model 91 the </p>
+<hr/>
+<h2>Precise exceptions</h2>
+<p>To have precise exceptions , the proper in-order state of the program's execution must be available upon an exception. By 1985 various approaches were developed as described by James E. Smith and Andrew R. Pleszkun. The CDC Cyber 205 was a precursor, as upon a virtual memory interrupt the entire state of the processor (including the information on the partially executed instructions) is saved into an invisible exchange package , so that it can resume at the same state of execution. However to make all exceptions precise, there has to be a way to cancel the effects of instructions. The CDC Cyber 990 (1984) implements precise interrupts by using a history buffer, which holds the old (overwritten) values of registers that are restored when an exception necessitates the reverting of instructions. Through simulation, Smith determined that adding a reorder buffer (or history buffer or equivalent) to the Cray-1S would reduce the performance of executing the first 14 Livermore loops (unvectorized) by only 3%. Important academic research in this subject was led by Yale Patt with his HPSm simulator. In the 1980s many early RISC microprocessors, had out-of-order writeback to the registers, invariably resulting in imprecise exceptions. The Motorola 88100 was one of the few early microprocessors that did not suffer from imprecise exceptions despite out-of-order writes, although it did allow</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Pratunam.html">Pratunam</a></li>
+<li><a href="Cocalico_Creek.html">Cocalico Creek</a></li>
+<li><a href="Solon_Springs_Wisconsin.html">Solon Springs, Wisconsin</a></li>
+<li><a href="Heflin_Alabama.html">Heflin, Alabama</a></li>
+<li><a href="Gen.html">Gen'ō</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Out-of-order_execution">Wikimedia article</a></small></p>
+<p><i>Last edited: September 6, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
