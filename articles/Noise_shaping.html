@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Noise shaping - Wiki2</title>
+  <meta name="description" content="In signal processing, noise shaping is a technique typically used when processing digital audio, image, and video signals. It is usually used in combination with dithering, and forms part of the process of quantization or bit-depth reductio">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Noise_shaping.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Noise shaping - Wiki2">
+  <meta property="og:description" content="In signal processing, noise shaping is a technique typically used when processing digital audio, image, and video signals. It is usually used in combination with dithering, and forms part of the process of quantization or bit-depth reductio">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Noise_shaping.html">
+  <meta property="og:image" content="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Quantization_dither_noshaping_spectrum.png/960px-Quantization_dither_noshaping_spectrum.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Noise shaping - Wiki2">
+  <meta name="twitter:description" content="In signal processing, noise shaping is a technique typically used when processing digital audio, image, and video signals. It is usually used in combination with dithering, and forms part of the process of quantization or bit-depth reductio">
+  <meta name="twitter:image" content="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Quantization_dither_noshaping_spectrum.png/960px-Quantization_dither_noshaping_spectrum.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Noise shaping</h1>
+    <p><b>Noise shaping</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In signal processing, noise shaping is a technique typically used when processing digital audio, image, and video signals. It is usually used in combination with dithering, and forms part of the process of quantization or bit-depth reduction of a signal. Its purpose is to increase the apparent signal-to-noise ratio of the resultant signal. It does this by altering the spectral shape of the error that is introduced by dithering and quantization, such that the noise power is at a lower level in frequency bands at which noise is considered to be less desirable and at a correspondingly higher level in bands where it is considered to be more desirable. A popular noise shaping algorithm used in image processing is known as ‘Floyd Steinberg dithering’; and many noise shaping algorithms used in audio processing are based on an ‘Absolute threshold of hearing’ model.</p>
+    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Quantization_dither_noshaping_spectrum.png/960px-Quantization_dither_noshaping_spectrum.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Quantization dither noshaping spectrum.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Quantization_nodither_noshaping_spectrum.png/960px-Quantization_nodither_noshaping_spectrum.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Quantization nodither noshaping spectrum.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Quantization_shaped_dither_spectrum.png/960px-Quantization_shaped_dither_spectrum.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Quantization shaped dither spectrum.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In signal processing , noise shaping is a technique typically used when processing digital audio , image , and video signals. It is usually used in combination with dithering , and forms part of the process of quantization or bit-depth reduction of a signal . Its purpose is to increase the apparent signal-to-noise ratio of the resultant signal. It does this by altering the spectral shape of the error that is introduced by dithering and quantization, such that the noise power is at a lower level in frequency bands at which noise is considered to be less desirable and at a correspondingly higher level in bands where it is considered to be more desirable. A popular noise shaping algorithm used in image processing is known as ‘ Floyd Steinberg dithering ’; and many noise shaping algorithms used in audio processing are based on an ‘ Absolute threshold of hearing ’ model.</p>
+    <hr>
+    <h2>Operation</h2>
+    <p>Any feedback loop functions as a filter . Noise shaping works by putting quantization noise in a feedback loop designed to filter the noise as desired.</p>
+    <hr>
+    <h2>Low-pass boxcar filter example</h2>
+    <p>Consider the feedback system: where b is a constant, n is the cycle number, x [ n ] is the input sample value, y [ n ] is the value being quantized , and e [ n ] is its quantization error: In this model, when any sample&#x27;s bit depth is reduced, the quantization error is measured and, on the next cycle, added to the next sample prior to quantization. The effect is that the quantization error is low-pass filtered by a 2-sample boxcar filter (also known as a simple moving average filter ). As a result, compared to before, the quantization error has lower power at higher frequencies and higher power at lower frequencies. The filter&#x27;s cutoff frequency can be adjusted by modifying b , the proportion of error from the previous sample that is fed back.</p>
+    <hr>
+    <h2>Impulse response filters in general</h2>
+    <p>More generally, any FIR filter or IIR filter can be used to create a more complex frequency response curve. Such filters can be designed using the weighted least squares method. In the case of digital audio, typically the weighting function used is one divided by the absolute threshold of hearing curve, i.e.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Adige.html">Adige</a></li>
+      <li><a href="PLOS.html">PLOS</a></li>
+      <li><a href="Coronation.html">Coronation</a></li>
+      <li><a href="Dodge_Avenger.html">Dodge Avenger</a></li>
+      <li><a href="Elim_Pentecostal_Church.html">Elim Pentecostal Church</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Noise_shaping">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 8, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

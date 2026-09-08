@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Mean squared prediction error - Wiki2</title>
-  <meta name="description" content="In statistics the mean squared prediction error (MSPE), also known as mean squared error of the predictions, of a smoothing, curve fitting, or regression procedure is the expected value of the squared prediction errors (PE), the square diff">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Mean_squared_prediction_error.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Mean squared prediction error - Wiki2">
-  <meta property="og:description" content="In statistics the mean squared prediction error (MSPE), also known as mean squared error of the predictions, of a smoothing, curve fitting, or regression procedure is the expected value of the squared prediction errors (PE), the square diff">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Mean_squared_prediction_error.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Mean squared prediction error - Wiki2">
-  <meta name="twitter:description" content="In statistics the mean squared prediction error (MSPE), also known as mean squared error of the predictions, of a smoothing, curve fitting, or regression procedure is the expected value of the squared prediction errors (PE), the square diff">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Mean squared prediction error - Wiki2</title>
+<meta content="In statistics the mean squared prediction error (MSPE), also known as mean squared error of the predictions, of a smoothing, curve fitting, or regression procedure is the expected value of the squared prediction errors (PE), the square diff" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Mean_squared_prediction_error.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Mean squared prediction error" property="og:title"/>
+<meta content="Mean squared prediction error is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Mean_squared_prediction_error.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Mean squared prediction error" name="twitter:title"/>
+<meta content="Mean squared prediction error is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Mean squared prediction error</h1>
-    <p><b>Mean squared prediction error</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In statistics the mean squared prediction error (MSPE), also known as mean squared error of the predictions, of a smoothing, curve fitting, or regression procedure is the expected value of the squared prediction errors (PE), the square difference between the fitted values implied by the predictive function and the values of the (unobservable) true value g. It is an inverse measure of the explanatory power of and can be used in the process of cross-validation of an estimated model. Knowledge of g would be required in order to calculate the MSPE exactly; in practice, MSPE is estimated.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In statistics the mean squared prediction error ( MSPE ), also known as mean squared error of the predictions , of a smoothing , curve fitting , or regression procedure is the expected value of the squared prediction errors ( PE ), the square difference between the fitted values implied by the predictive function and the values of the (unobservable) true value g . It is an inverse measure of the explanatory power of and can be used in the process of cross-validation of an estimated model. Knowledge of g would be required in order to calculate the MSPE exactly; in practice, MSPE is estimated.</p>
-    <hr>
-    <h2>Formulation</h2>
-    <p>If the smoothing or fitting procedure has projection matrix (i.e., hat matrix) L , which maps the observed values vector to predicted values vector then PE and MSPE are formulated as: The MSPE can be decomposed into two terms: the squared bias (mean error) of the fitted values and the variance of the fitted values: The quantity SSPE= n MSPE is called sum squared prediction error . The root mean squared prediction error is the square root of MSPE: RMSPE= √ MSPE .</p>
-    <hr>
-    <h2>Computation of MSPE over out-of-sample data</h2>
-    <p>The mean squared prediction error can be computed exactly in two contexts. First, with a data sample of length n , the data analyst may run the regression over only q of the data points (with q &lt; n ), holding back the other n – q data points with the specific purpose of using them to compute the estimated model’s MSPE out of sample (i.e., not using data that were used in the model estimation process). Since the regression process is tailored to the q in-sample points, normally the in-sample MSPE will be smaller than the out-of-sample one computed over the n – q held-back points. If the increase in the MSPE out of sample compared to in sample is relatively slight, that results in the model being viewed favorably. And if two models are to be compared, the one with the lower MSPE over the n – q out-of-sample data points is viewed more favorably, regardless of the models’ relative in-sample performances. The out-of-sample MSPE in this context is exact for the out-of-sample data points that it was computed over, but is merely an estimate of the model’s MSPE for the mostly unobserved population from which the data were drawn. Second, as time goes on more data may become available to the data analyst, and then the MSPE can be computed over these new data.</p>
-    <hr>
-    <h2>Estimation of MSPE over the population</h2>
-    <p>When the model has been estimated over all available data with none held back, the MSPE of the model over the entire population of mostly unobserved data can be estimated as follows. For the model where , one may write Using in-sample data values, the first term on the right side is equivalent to Thus, If is known or well-estimated by , it becomes possible to estimate MSPE by Colin Mallows advocated this method in the construction of his model selection statistic C p , which is a normalized version of the estimated MSPE: where p the number of estimated parameters p and is computed from the version of the model that includes all possible regressors. That concludes this proof.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Transport_Act_1962.html">Transport Act 1962</a></li>
-      <li><a href="Monopoly.html">Monopoly</a></li>
-      <li><a href="Maynard_s_House.html">Maynard&#x27;s House</a></li>
-      <li><a href="Larry_Mullen_Jr.html">Larry Mullen Jr.</a></li>
-      <li><a href="Bedminster_Township_Pennsylvania.html">Bedminster Township, Pennsylvania</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Mean_squared_prediction_error">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 7, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Mean squared prediction error</h1>
+<p><b>Mean squared prediction error</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In statistics the mean squared prediction error (MSPE), also known as mean squared error of the predictions, of a smoothing, curve fitting, or regression procedure is the expected value of the squared prediction errors (PE), the square difference between the fitted values implied by the predictive function and the values of the (unobservable) true value g. It is an inverse measure of the explanatory power of and can be used in the process of cross-validation of an estimated model. Knowledge of g would be required in order to calculate the MSPE exactly; in practice, MSPE is estimated.</p>
+<hr/>
+<h2>Background</h2>
+<p>In statistics the mean squared prediction error ( MSPE ), also known as mean squared error of the predictions , of a smoothing , curve fitting , or regression procedure is the expected value of the squared prediction errors ( PE ), the square difference between the fitted values implied by the predictive function and the values of the (unobservable) true value g . It is an inverse measure of the explanatory power of and can be used in the process of cross-validation of an estimated model. Knowledge of g would be required in order to calculate the MSPE exactly; in practice, MSPE is estimated.</p>
+<hr/>
+<h2>Formulation</h2>
+<p>If the smoothing or fitting procedure has projection matrix (i.e., hat matrix) L , which maps the observed values vector to predicted values vector then PE and MSPE are formulated as: The MSPE can be decomposed into two terms: the squared bias (mean error) of the fitted values and the variance of the fitted values: The quantity SSPE= n MSPE is called sum squared prediction error . The root mean squared prediction error is the square root of MSPE: RMSPE= √ MSPE .</p>
+<hr/>
+<h2>Computation of MSPE over out-of-sample data</h2>
+<p>The mean squared prediction error can be computed exactly in two contexts. First, with a data sample of length n , the data analyst may run the regression over only q of the data points (with q &lt; n ), holding back the other n – q data points with the specific purpose of using them to compute the estimated model’s MSPE out of sample (i.e., not using data that were used in the model estimation process). Since the regression process is tailored to the q in-sample points, normally the in-sample MSPE will be smaller than the out-of-sample one computed over the n – q held-back points. If the increase in the MSPE out of sample compared to in sample is relatively slight, that results in the model being viewed favorably. And if two models are to be compared, the one with the lower MSPE over the n – q out-of-sample data points is viewed more favorably, regardless of the models’ relative in-sample performances. The out-of-sample MSPE in this context is exact for the out-of-sample data points that it was computed over, but is merely an estimate of the model’s MSPE for the mostly unobserved population from which the data were drawn. Second, as time goes on more data may become available to the data analyst, and then the MSPE can be computed over these new data.</p>
+<hr/>
+<h2>Estimation of MSPE over the population</h2>
+<p>When the model has been estimated over all available data with none held back, the MSPE of the model over the entire population of mostly unobserved data can be estimated as follows. For the model where , one may write Using in-sample data values, the first term on the right side is equivalent to Thus, If is known or well-estimated by , it becomes possible to estimate MSPE by Colin Mallows advocated this method in the construction of his model selection statistic C p , which is a normalized version of the estimated MSPE: where p the number of estimated parameters p and is computed from the version of the model that includes all possible regressors. That concludes this proof.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Transport_Act_1962.html">Transport Act 1962</a></li>
+<li><a href="Monopoly.html">Monopoly</a></li>
+<li><a href="Maynard_s_House.html">Maynard's House</a></li>
+<li><a href="Larry_Mullen_Jr.html">Larry Mullen Jr.</a></li>
+<li><a href="Bedminster_Township_Pennsylvania.html">Bedminster Township, Pennsylvania</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Mean_squared_prediction_error">Wikimedia article</a></small></p>
+<p><i>Last edited: September 7, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
