@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>User Datagram Protocol - Wiki2</title>
-  <meta name="description" content="In computer networking, the User Datagram Protocol (UDP) is one of the core communication protocols of the Internet protocol suite used to send messages to other hosts on an Internet Protocol (IP) network. Within an IP network, UDP does not">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/User_Datagram_Protocol.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="User Datagram Protocol - Wiki2">
-  <meta property="og:description" content="In computer networking, the User Datagram Protocol (UDP) is one of the core communication protocols of the Internet protocol suite used to send messages to other hosts on an Internet Protocol (IP) network. Within an IP network, UDP does not">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/User_Datagram_Protocol.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="User Datagram Protocol - Wiki2">
-  <meta name="twitter:description" content="In computer networking, the User Datagram Protocol (UDP) is one of the core communication protocols of the Internet protocol suite used to send messages to other hosts on an Internet Protocol (IP) network. Within an IP network, UDP does not">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>User Datagram Protocol - Wiki2</title>
+<meta content="In computer networking, the User Datagram Protocol (UDP) is one of the core communication protocols of the Internet protocol suite used to send messages to other hosts on an Internet Protocol (IP) network. Within an IP network, UDP does not" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/User_Datagram_Protocol.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="User Datagram Protocol" property="og:title"/>
+<meta content="User Datagram Protocol is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/User_Datagram_Protocol.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="User Datagram Protocol" name="twitter:title"/>
+<meta content="User Datagram Protocol is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>User Datagram Protocol</h1>
-    <p><b>User Datagram Protocol</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In computer networking, the User Datagram Protocol (UDP) is one of the core communication protocols of the Internet protocol suite used to send messages to other hosts on an Internet Protocol (IP) network. Within an IP network, UDP does not require prior communication to set up communication channels or data paths.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In computer networking , the User Datagram Protocol ( UDP ) is one of the core communication protocols of the Internet protocol suite used to send messages (transported as datagrams in packets ) to other hosts on an Internet Protocol (IP) network. Within an IP network, UDP does not require prior communication to set up communication channels or data paths. UDP is a connectionless protocol, meaning that messages are sent without negotiating a connection and that UDP does not keep track of what it has sent. UDP provides checksums for data integrity , and port numbers for addressing different functions at the source and destination of the datagram. It has no handshaking dialogues and thus exposes the user&#x27;s program to any unreliability of the underlying network; there is no guarantee of delivery, ordering, or duplicate protection. If error-correction facilities are needed at the network interface level, an application may instead use Transmission Control Protocol (TCP) or Stream Control Transmission Protocol (SCTP), which are designed for this purpose. UDP is suitable for purposes where error checking and correction are either not necessary or are performed in the application; UDP avoids the overhead of such processing in the protocol stack . Time-sensitive applications often use UDP because dropping packets is preferable to waiting for packets delayed due to retransmission , whic</p>
-    <hr>
-    <h2>Attributes</h2>
-    <p>UDP is a simple message-oriented transport layer protocol that is documented in RFC 768 . Although UDP provides integrity verification (via checksum ) of the header and payload, it provides no guarantees to the upper layer protocol for message delivery and the UDP layer retains no state of UDP messages once sent. For this reason, UDP sometimes is referred to as Unreliable Datagram Protocol . If transmission reliability is desired, it must be implemented in the user&#x27;s application. A number of UDP&#x27;s attributes make it especially suited for certain applications.</p>
-    <hr>
-    <h2>Ports</h2>
-    <p>Applications can use datagram sockets to establish host-to-host communications. An application binds a socket to its endpoint of data transmission, which is a combination of an IP address and a port . In this way, UDP provides application multiplexing . A port is a software structure that is identified by the port number , a 16-bit integer value, allowing for port numbers between 0 and 65535. Port 0 is reserved, but is a permissible source port value if the sending process does not expect messages in response. The Internet Assigned Numbers Authority (IANA) has divided port numbers into three ranges. Port numbers 0 through 1023 are used for common, well-known services. On Unix -like operating systems , using one of these ports requires superuser operating permission. Port numbers 1024 through 49151 are the registered ports used for IANA-registered services. Ports 49152 through 65535 are dynamic ports that are not officially designated for any specific service and may be used for any purpose. These may also be used as ephemeral ports , which software running on the host may use to dynamically create communications endpoints as needed.</p>
-    <hr>
-    <h2>UDP datagram structure</h2>
-    <p>A UDP datagram consists of a datagram header followed by a data section (the payload data for the application). The UDP datagram header consists of 4 fields, each of which is 2 bytes (16 bits): The use of the Checksum and Source Port fields is optional in IPv4 (light purple background in table). In IPv6, only the Source Port field is optional. If not used, these fields should be set to zero.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="OpenTTD.html">OpenTTD</a></li>
-      <li><a href="Brochis_haraldschultzi.html">Brochis haraldschultzi</a></li>
-      <li><a href="Surfers_Choice.html">Surfers&#x27; Choice</a></li>
-      <li><a href="Asian_conical_hat.html">Asian conical hat</a></li>
-      <li><a href="Flatwoods.html">Flatwoods</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/User_Datagram_Protocol">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 8, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>User Datagram Protocol</h1>
+<p><b>User Datagram Protocol</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In computer networking, the User Datagram Protocol (UDP) is one of the core communication protocols of the Internet protocol suite used to send messages to other hosts on an Internet Protocol (IP) network. Within an IP network, UDP does not require prior communication to set up communication channels or data paths.</p>
+<hr/>
+<h2>Background</h2>
+<p>In computer networking , the User Datagram Protocol ( UDP ) is one of the core communication protocols of the Internet protocol suite used to send messages (transported as datagrams in packets ) to other hosts on an Internet Protocol (IP) network. Within an IP network, UDP does not require prior communication to set up communication channels or data paths. UDP is a connectionless protocol, meaning that messages are sent without negotiating a connection and that UDP does not keep track of what it has sent. UDP provides checksums for data integrity , and port numbers for addressing different functions at the source and destination of the datagram. It has no handshaking dialogues and thus exposes the user's program to any unreliability of the underlying network; there is no guarantee of delivery, ordering, or duplicate protection. If error-correction facilities are needed at the network interface level, an application may instead use Transmission Control Protocol (TCP) or Stream Control Transmission Protocol (SCTP), which are designed for this purpose. UDP is suitable for purposes where error checking and correction are either not necessary or are performed in the application; UDP avoids the overhead of such processing in the protocol stack . Time-sensitive applications often use UDP because dropping packets is preferable to waiting for packets delayed due to retransmission , whic</p>
+<hr/>
+<h2>Attributes</h2>
+<p>UDP is a simple message-oriented transport layer protocol that is documented in RFC 768 . Although UDP provides integrity verification (via checksum ) of the header and payload, it provides no guarantees to the upper layer protocol for message delivery and the UDP layer retains no state of UDP messages once sent. For this reason, UDP sometimes is referred to as Unreliable Datagram Protocol . If transmission reliability is desired, it must be implemented in the user's application. A number of UDP's attributes make it especially suited for certain applications.</p>
+<hr/>
+<h2>Ports</h2>
+<p>Applications can use datagram sockets to establish host-to-host communications. An application binds a socket to its endpoint of data transmission, which is a combination of an IP address and a port . In this way, UDP provides application multiplexing . A port is a software structure that is identified by the port number , a 16-bit integer value, allowing for port numbers between 0 and 65535. Port 0 is reserved, but is a permissible source port value if the sending process does not expect messages in response. The Internet Assigned Numbers Authority (IANA) has divided port numbers into three ranges. Port numbers 0 through 1023 are used for common, well-known services. On Unix -like operating systems , using one of these ports requires superuser operating permission. Port numbers 1024 through 49151 are the registered ports used for IANA-registered services. Ports 49152 through 65535 are dynamic ports that are not officially designated for any specific service and may be used for any purpose. These may also be used as ephemeral ports , which software running on the host may use to dynamically create communications endpoints as needed.</p>
+<hr/>
+<h2>UDP datagram structure</h2>
+<p>A UDP datagram consists of a datagram header followed by a data section (the payload data for the application). The UDP datagram header consists of 4 fields, each of which is 2 bytes (16 bits): The use of the Checksum and Source Port fields is optional in IPv4 (light purple background in table). In IPv6, only the Source Port field is optional. If not used, these fields should be set to zero.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="OpenTTD.html">OpenTTD</a></li>
+<li><a href="Brochis_haraldschultzi.html">Brochis haraldschultzi</a></li>
+<li><a href="Surfers_Choice.html">Surfers' Choice</a></li>
+<li><a href="Asian_conical_hat.html">Asian conical hat</a></li>
+<li><a href="Flatwoods.html">Flatwoods</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/User_Datagram_Protocol">Wikimedia article</a></small></p>
+<p><i>Last edited: September 8, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

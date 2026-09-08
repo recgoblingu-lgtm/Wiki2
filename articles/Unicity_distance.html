@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Unicity distance - Wiki2</title>
-  <meta name="description" content="In cryptography, unicity distance is the length of an original ciphertext needed to break the cipher by reducing the number of possible spurious keys to zero in a brute force attack. That is, after trying every possible key, there should be">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Unicity_distance.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Unicity distance - Wiki2">
-  <meta property="og:description" content="In cryptography, unicity distance is the length of an original ciphertext needed to break the cipher by reducing the number of possible spurious keys to zero in a brute force attack. That is, after trying every possible key, there should be">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Unicity_distance.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Unicity distance - Wiki2">
-  <meta name="twitter:description" content="In cryptography, unicity distance is the length of an original ciphertext needed to break the cipher by reducing the number of possible spurious keys to zero in a brute force attack. That is, after trying every possible key, there should be">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Unicity distance - Wiki2</title>
+<meta content="In cryptography, unicity distance is the length of an original ciphertext needed to break the cipher by reducing the number of possible spurious keys to zero in a brute force attack. That is, after trying every possible key, there should be" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Unicity_distance.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Unicity distance" property="og:title"/>
+<meta content="Unicity distance is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Unicity_distance.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Unicity distance" name="twitter:title"/>
+<meta content="Unicity distance is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Unicity distance</h1>
-    <p><b>Unicity distance</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In cryptography, unicity distance is the length of an original ciphertext needed to break the cipher by reducing the number of possible spurious keys to zero in a brute force attack. That is, after trying every possible key, there should be just one decipherment that makes sense, i.e. expected amount of ciphertext needed to determine the key completely, assuming the underlying message has redundancy.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In cryptography , unicity distance is the length of an original ciphertext needed to break the cipher by reducing the number of possible spurious keys to zero in a brute force attack . That is, after trying every possible key , there should be just one decipherment that makes sense, i.e. expected amount of ciphertext needed to determine the key completely, assuming the underlying message has redundancy. Claude Shannon defined the unicity distance in his 1949 paper &quot; Communication Theory of Secrecy Systems &quot;. Consider an attack on the ciphertext string &quot;WNAIW&quot; encrypted using a Vigenère cipher with a five letter key. Conceivably, this string could be deciphered into any other string—RIVER and WATER are both possibilities for certain keys. This is a general rule of cryptanalysis : with no additional information it is impossible to decode this message. Of course, even in this case, only a certain number of five letter keys will result in English words. Trying all possible keys we will not only get RIVER and WATER, but SXOOS and KHDOP as well. The number of &quot;working&quot; keys will likely be very much smaller than the set of all possible keys. The problem is knowing which of these &quot;working&quot; keys is the right one; the rest are spurious.</p>
-    <hr>
-    <h2>Relation with key size and possible plaintexts</h2>
-    <p>In general, given particular assumptions about the size of the key and the number of possible messages, there is an average ciphertext length where there is only one key (on average) that will generate a readable message. In the example above we see only upper case English characters, so if we assume that the plaintext has this form, then there are 26 possible letters for each position in the string. Likewise if we assume five-character upper case keys, there are K=26 possible keys, of which the majority will not &quot;work&quot;. A tremendous number of possible messages, N, can be generated using even this limited set of characters: N = 26, where L is the length of the message. However, only a smaller set of them is readable plaintext due to the rules of the language, perhaps M of them, where M is likely to be very much smaller than N. Moreover, M has a one-to-one relationship with the number of keys that work, so given K possible keys, only K × (M/N) of them will &quot;work&quot;. One of these is the correct key, the rest are spurious. Since M/N gets arbitrarily small as the length L of the message increases, there is eventually some L that is large enough to make the number of spurious keys equal to zero. Roughly speaking, this is the L that makes KM/N=1. This L is the unicity distance.</p>
-    <hr>
-    <h2>Relation with key entropy and plaintext redundancy</h2>
-    <p>The unicity distance can equivalently be defined as the minimum amount of ciphertext required to permit a computationally unlimited adversary to recover the unique encryption key. The expected unicity distance can then be shown to be: where U is the unicity distance, H ( k ) is the entropy of the key space (e.g. 128 for 2 equiprobable keys, rather less if the key is a memorized pass-phrase). D is defined as the plaintext redundancy in bits per character. Now an alphabet of 32 characters can carry 5 bits of information per character (as 32 = 2). In general the number of bits of information per character is log 2 (N) , where N is the number of characters in the alphabet and log 2 is the binary logarithm . So for English each character can convey log 2 (26) = 4.7 bits of information. However the average amount of actual information carried per character in meaningful English text is only about 1.5 bits per character. So the plain text redundancy is D = 4.7 − 1.5 = 3.2. Basically the bigger the unicity distance the better. For a one time pad of unlimited size, given the unbounded entropy of the key space, we have , which is consistent with the one-time pad being unbreakable.</p>
-    <hr>
-    <h2>Unicity distance of substitution cipher</h2>
-    <p>For a simple substitution cipher , the number of possible keys is 26! = 4.0329 × 10 = 2 , the number of ways in which the alphabet can be permuted. Assuming all keys are equally likely, H ( k ) = log 2 (26!) = 88.4 bits. For English text D = 3.2 , thus U = 88.4/3.2 = 28 . So given 28 characters of ciphertext it should be theoretically possible to work out an English plaintext and hence the key.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Alternative_manga.html">Alternative manga</a></li>
-      <li><a href="Nouveau_Riche_Swedish_band.html">Nouveau Riche (Swedish band)</a></li>
-      <li><a href="Leningrad_Cowboys.html">Leningrad Cowboys</a></li>
-      <li><a href="Meadow_Branch.html">Meadow Branch</a></li>
-      <li><a href="Magellanic_Clouds.html">Magellanic Clouds</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Unicity_distance">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 8, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Unicity distance</h1>
+<p><b>Unicity distance</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In cryptography, unicity distance is the length of an original ciphertext needed to break the cipher by reducing the number of possible spurious keys to zero in a brute force attack. That is, after trying every possible key, there should be just one decipherment that makes sense, i.e. expected amount of ciphertext needed to determine the key completely, assuming the underlying message has redundancy.</p>
+<hr/>
+<h2>Background</h2>
+<p>In cryptography , unicity distance is the length of an original ciphertext needed to break the cipher by reducing the number of possible spurious keys to zero in a brute force attack . That is, after trying every possible key , there should be just one decipherment that makes sense, i.e. expected amount of ciphertext needed to determine the key completely, assuming the underlying message has redundancy. Claude Shannon defined the unicity distance in his 1949 paper " Communication Theory of Secrecy Systems ". Consider an attack on the ciphertext string "WNAIW" encrypted using a Vigenère cipher with a five letter key. Conceivably, this string could be deciphered into any other string—RIVER and WATER are both possibilities for certain keys. This is a general rule of cryptanalysis : with no additional information it is impossible to decode this message. Of course, even in this case, only a certain number of five letter keys will result in English words. Trying all possible keys we will not only get RIVER and WATER, but SXOOS and KHDOP as well. The number of "working" keys will likely be very much smaller than the set of all possible keys. The problem is knowing which of these "working" keys is the right one; the rest are spurious.</p>
+<hr/>
+<h2>Relation with key size and possible plaintexts</h2>
+<p>In general, given particular assumptions about the size of the key and the number of possible messages, there is an average ciphertext length where there is only one key (on average) that will generate a readable message. In the example above we see only upper case English characters, so if we assume that the plaintext has this form, then there are 26 possible letters for each position in the string. Likewise if we assume five-character upper case keys, there are K=26 possible keys, of which the majority will not "work". A tremendous number of possible messages, N, can be generated using even this limited set of characters: N = 26, where L is the length of the message. However, only a smaller set of them is readable plaintext due to the rules of the language, perhaps M of them, where M is likely to be very much smaller than N. Moreover, M has a one-to-one relationship with the number of keys that work, so given K possible keys, only K × (M/N) of them will "work". One of these is the correct key, the rest are spurious. Since M/N gets arbitrarily small as the length L of the message increases, there is eventually some L that is large enough to make the number of spurious keys equal to zero. Roughly speaking, this is the L that makes KM/N=1. This L is the unicity distance.</p>
+<hr/>
+<h2>Relation with key entropy and plaintext redundancy</h2>
+<p>The unicity distance can equivalently be defined as the minimum amount of ciphertext required to permit a computationally unlimited adversary to recover the unique encryption key. The expected unicity distance can then be shown to be: where U is the unicity distance, H ( k ) is the entropy of the key space (e.g. 128 for 2 equiprobable keys, rather less if the key is a memorized pass-phrase). D is defined as the plaintext redundancy in bits per character. Now an alphabet of 32 characters can carry 5 bits of information per character (as 32 = 2). In general the number of bits of information per character is log 2 (N) , where N is the number of characters in the alphabet and log 2 is the binary logarithm . So for English each character can convey log 2 (26) = 4.7 bits of information. However the average amount of actual information carried per character in meaningful English text is only about 1.5 bits per character. So the plain text redundancy is D = 4.7 − 1.5 = 3.2. Basically the bigger the unicity distance the better. For a one time pad of unlimited size, given the unbounded entropy of the key space, we have , which is consistent with the one-time pad being unbreakable.</p>
+<hr/>
+<h2>Unicity distance of substitution cipher</h2>
+<p>For a simple substitution cipher , the number of possible keys is 26! = 4.0329 × 10 = 2 , the number of ways in which the alphabet can be permuted. Assuming all keys are equally likely, H ( k ) = log 2 (26!) = 88.4 bits. For English text D = 3.2 , thus U = 88.4/3.2 = 28 . So given 28 characters of ciphertext it should be theoretically possible to work out an English plaintext and hence the key.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Alternative_manga.html">Alternative manga</a></li>
+<li><a href="Nouveau_Riche_Swedish_band.html">Nouveau Riche (Swedish band)</a></li>
+<li><a href="Leningrad_Cowboys.html">Leningrad Cowboys</a></li>
+<li><a href="Meadow_Branch.html">Meadow Branch</a></li>
+<li><a href="Magellanic_Clouds.html">Magellanic Clouds</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Unicity_distance">Wikimedia article</a></small></p>
+<p><i>Last edited: September 8, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
