@@ -1,64 +1,65 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CPU time - Wiki2</title>
-  <meta name="description" content="CPU time is the amount of time that a central processing unit (CPU) was used for processing a specific set of instructions of a computer program or operating system, as opposed to total time from start to finish, where the CPU might have sp">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/CPU_time.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="CPU time - Wiki2">
-  <meta property="og:description" content="CPU time is the amount of time that a central processing unit (CPU) was used for processing a specific set of instructions of a computer program or operating system, as opposed to total time from start to finish, where the CPU might have sp">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/CPU_time.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/9/91/CpuTimeonSingleCpuMultiTaskingSystem.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="CPU time - Wiki2">
-  <meta name="twitter:description" content="CPU time is the amount of time that a central processing unit (CPU) was used for processing a specific set of instructions of a computer program or operating system, as opposed to total time from start to finish, where the CPU might have sp">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/9/91/CpuTimeonSingleCpuMultiTaskingSystem.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>CPU time - Wiki2</title>
+<meta content="CPU time is the amount of time that a central processing unit (CPU) was used for processing a specific set of instructions of a computer program or operating system, as opposed to total time from start to finish, where the CPU might have sp" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/CPU_time.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="CPU time" property="og:title"/>
+<meta content="CPU time is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/CPU_time.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/9/91/CpuTimeonSingleCpuMultiTaskingSystem.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="CPU time" name="twitter:title"/>
+<meta content="CPU time is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/9/91/CpuTimeonSingleCpuMultiTaskingSystem.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>CPU time</h1>
-    <p><b>CPU time</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>CPU time is the amount of time that a central processing unit (CPU) was used for processing a specific set of instructions of a computer program or operating system, as opposed to total time from start to finish, where the CPU might have spent time on other processes. See the figure. CPU time is measured in clock ticks or seconds. Sometimes it is useful to convert CPU time into a percentage of the CPU capacity, giving the CPU usage.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/CpuTimeonSingleCpuMultiTaskingSystem.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="CPU time"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/CPU_Time.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="CPU Time.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>CPU time (or process time ) is the amount of time that a central processing unit (CPU) was used for processing a specific set of instructions of a computer program or operating system , as opposed to total time from start to finish, where the CPU might have spent time on other processes. See the figure. CPU time is measured in clock ticks or seconds. Sometimes it is useful to convert CPU time into a percentage of the CPU capacity, giving the CPU usage . Measuring CPU time for two functionally identical programs that process identical inputs can indicate which program is faster, but it is a common misunderstanding that CPU time can be used to compare algorithms . Comparing programs by their CPU time compares specific implementations of algorithms. (It is possible to have both efficient and inefficient implementations of the same algorithm.) Algorithms are more commonly compared using measures of time complexity and space complexity . Typically, the CPU time used by a program is measured by the operating system, which schedules all of the work of the CPU. Modern multitasking operating systems run hundreds of processes. (A process is a running program.) Upon starting a process, the operating system records the time using an internal timer. When the process is suspended or terminated, the operating system again records the time. The total time that a process spent running is its CP</p>
-    <hr>
-    <h2>User and System time</h2>
-    <p>The process &quot;accounting&quot; done by the Unix family of operating systems includes two components of CPU time . User time and System time reflect the fact that most programs make requests to the operating system while they execute. Input/output operations, such as reading a file or writing to the screen, are done by issuing requests to the operating system, possibly through system calls . I/O and other operations performed by the operating system on behalf of a process constitute system time. Other operating systems such as Microsoft Windows similarly has separate accounting for &quot;kernel time&quot;, which is a very similar concept as &quot;system time&quot;. In contrast, elapsed real time (or simply real time, or wall-clock time ) is the time taken from the start of a computer program until the end as measured by an ordinary clock. Elapsed real time includes User time, System time, plus time that the process was not running for any reason, such as when its execution was preempted.</p>
-    <hr>
-    <h2>Unix command top</h2>
-    <p>The Unix command top provides CPU time, priority, elapsed real time , and other information for all processes and updates it in real time.</p>
-    <hr>
-    <h2>Unix command time</h2>
-    <p>The Unix command time prints CPU time and elapsed real time for the execution of a Unix command (or pipeline ). Note that many command-line shells have their own implementation of this command. To run the Unix program time , we provide its full path, /usr/bin/time : This process took a total of 0.02 seconds of CPU time (User + System). The reported System time is 0.00 seconds, indicating that the amount of System time used was less than the printed resolution of 0.01 seconds. Elapsed real time was 0.08 seconds. The following is the source code of the application nextPrimeNumber which was used in the above example.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="K_J_Yesudas.html">K. J. Yesudas</a></li>
-      <li><a href="Barakat_ibn_Umar_Din.html">Barakat ibn Umar Din</a></li>
-      <li><a href="Stanis_aw_Kluza.html">Stanisław Kluza</a></li>
-      <li><a href="Duke_of_Newcastle.html">Duke of Newcastle</a></li>
-      <li><a href="William_Buckley_convict.html">William Buckley (convict)</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/CPU_time">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 9, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>CPU time</h1>
+<p><b>CPU time</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>CPU time is the amount of time that a central processing unit (CPU) was used for processing a specific set of instructions of a computer program or operating system, as opposed to total time from start to finish, where the CPU might have spent time on other processes. See the figure. CPU time is measured in clock ticks or seconds. Sometimes it is useful to convert CPU time into a percentage of the CPU capacity, giving the CPU usage.</p>
+<figure class="article-image"><img alt="CPU time" src="https://upload.wikimedia.org/wikipedia/commons/9/91/CpuTimeonSingleCpuMultiTaskingSystem.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="CPU Time.png" src="https://upload.wikimedia.org/wikipedia/commons/9/9f/CPU_Time.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>CPU time (or process time ) is the amount of time that a central processing unit (CPU) was used for processing a specific set of instructions of a computer program or operating system , as opposed to total time from start to finish, where the CPU might have spent time on other processes. See the figure. CPU time is measured in clock ticks or seconds. Sometimes it is useful to convert CPU time into a percentage of the CPU capacity, giving the CPU usage . Measuring CPU time for two functionally identical programs that process identical inputs can indicate which program is faster, but it is a common misunderstanding that CPU time can be used to compare algorithms . Comparing programs by their CPU time compares specific implementations of algorithms. (It is possible to have both efficient and inefficient implementations of the same algorithm.) Algorithms are more commonly compared using measures of time complexity and space complexity . Typically, the CPU time used by a program is measured by the operating system, which schedules all of the work of the CPU. Modern multitasking operating systems run hundreds of processes. (A process is a running program.) Upon starting a process, the operating system records the time using an internal timer. When the process is suspended or terminated, the operating system again records the time. The total time that a process spent running is its CP</p>
+<hr/>
+<h2>User and System time</h2>
+<p>The process "accounting" done by the Unix family of operating systems includes two components of CPU time . User time and System time reflect the fact that most programs make requests to the operating system while they execute. Input/output operations, such as reading a file or writing to the screen, are done by issuing requests to the operating system, possibly through system calls . I/O and other operations performed by the operating system on behalf of a process constitute system time. Other operating systems such as Microsoft Windows similarly has separate accounting for "kernel time", which is a very similar concept as "system time". In contrast, elapsed real time (or simply real time, or wall-clock time ) is the time taken from the start of a computer program until the end as measured by an ordinary clock. Elapsed real time includes User time, System time, plus time that the process was not running for any reason, such as when its execution was preempted.</p>
+<hr/>
+<h2>Unix command top</h2>
+<p>The Unix command top provides CPU time, priority, elapsed real time , and other information for all processes and updates it in real time.</p>
+<hr/>
+<h2>Unix command time</h2>
+<p>The Unix command time prints CPU time and elapsed real time for the execution of a Unix command (or pipeline ). Note that many command-line shells have their own implementation of this command. To run the Unix program time , we provide its full path, /usr/bin/time : This process took a total of 0.02 seconds of CPU time (User + System). The reported System time is 0.00 seconds, indicating that the amount of System time used was less than the printed resolution of 0.01 seconds. Elapsed real time was 0.08 seconds. The following is the source code of the application nextPrimeNumber which was used in the above example.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="K_J_Yesudas.html">K. J. Yesudas</a></li>
+<li><a href="Barakat_ibn_Umar_Din.html">Barakat ibn Umar Din</a></li>
+<li><a href="Stanis_aw_Kluza.html">Stanisław Kluza</a></li>
+<li><a href="Duke_of_Newcastle.html">Duke of Newcastle</a></li>
+<li><a href="William_Buckley_convict.html">William Buckley (convict)</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/CPU_time">Wikimedia article</a></small></p>
+<p><i>Last edited: September 9, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

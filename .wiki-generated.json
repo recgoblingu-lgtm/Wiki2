@@ -61091,12 +61091,47 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Hampton_Township%2C_New_Jersey",
       "generated_at": "2026-09-09T02:22:31+00:00"
+    },
+    {
+      "title": "Army Trail Road",
+      "filename": "Army_Trail_Road.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Army_Trail_Road",
+      "generated_at": "2026-09-09T09:44:45+00:00"
+    },
+    {
+      "title": "Book of Kells",
+      "filename": "Book_of_Kells.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Book_of_Kells",
+      "generated_at": "2026-09-09T09:44:59+00:00"
+    },
+    {
+      "title": "The Bridges at Toko-Ri",
+      "filename": "The_Bridges_at_Toko_Ri.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/The_Bridges_at_Toko-Ri",
+      "generated_at": "2026-09-09T09:45:13+00:00"
+    },
+    {
+      "title": "Surrey Police",
+      "filename": "Surrey_Police.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Surrey_Police",
+      "generated_at": "2026-09-09T09:45:30+00:00"
+    },
+    {
+      "title": "Neal Conan",
+      "filename": "Neal_Conan.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Neal_Conan",
+      "generated_at": "2026-09-09T09:45:44+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|563a5c040992543a30324604362a42320994011401e013|81759664",
-    "Category:Indie games": "page|42465038324c3652444e383a48011101dc10|57524481",
-    "Category:Video game franchises": "page|5a464e383a040992543a30324604362a4232044e324c3a324e0994011d01dc1c|30918076",
+    "Category:Indie games": "page|4e382a304656042e3a503a324e011101dcc0dc09|58694793",
+    "Category:Video game franchises": "page|484c4604483a442c2a4040010f01dcc3dc0a|4448718",
+    "Category:Arcade video games": "page|303a44464e2a524c043e3a4436011101dcbedc07|3597128",
     "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
     "Category:Esports games": "page|48463e32424644042e46424832503a503a54320448402a5a030648463e3242464404543a30324604362a4232044e324c3a324e042e46424832503a503a54320448402a5a0142882d88250901dcaddc2e|60144282"
   }
