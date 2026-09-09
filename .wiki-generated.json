@@ -61126,13 +61126,48 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Neal_Conan",
       "generated_at": "2026-09-09T09:45:44+00:00"
+    },
+    {
+      "title": "Enterbrain",
+      "filename": "Enterbrain.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Enterbrain",
+      "generated_at": "2026-09-09T13:57:09+00:00"
+    },
+    {
+      "title": "1979 World Snooker Championship",
+      "filename": "1979_World_Snooker_Championship.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/1979_World_Snooker_Championship",
+      "generated_at": "2026-09-09T13:57:47+00:00"
+    },
+    {
+      "title": "Kwavi dialect",
+      "filename": "Kwavi_dialect.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Kwavi_dialect",
+      "generated_at": "2026-09-09T13:58:13+00:00"
+    },
+    {
+      "title": "1988 Governor General's Awards",
+      "filename": "1988_Governor_General_s_Awards.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/1988_Governor_General's_Awards",
+      "generated_at": "2026-09-09T13:58:35+00:00"
+    },
+    {
+      "title": "Acol",
+      "filename": "Acol.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Acol",
+      "generated_at": "2026-09-09T13:58:56+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|4e382a304656042e3a503a324e011101dcc0dc09|58694793",
-    "Category:Video game franchises": "page|484c4604483a442c2a4040010f01dcc3dc0a|4448718",
-    "Category:Arcade video games": "page|303a44464e2a524c043e3a4436011101dcbedc07|3597128",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Esports games": "page|48463e32424644042e46424832503a503a54320448402a5a030648463e3242464404543a30324604362a4232044e324c3a324e042e46424832503a503a54320448402a5a0142882d88250901dcaddc2e|60144282"
+    "Category:Indie games": "page|563a3e042a44300450383204342a2c4032044634044e4652404e011e01e0bbdcbedc08|3180893",
+    "Category:Arcade video games": "page|422a2e3207360450383204302a4c3e042a3632011601dcc1dcc3dcc2dc06|2037499",
+    "Category:Video game franchises": "page|342a2c52402a044446542a042e4c5a4e502a40403a4e073604343a442a4004342a44502a4e5a0306342a2c52402a044446542a042e4c5a4e502a40403a4e04343a442a4004342a44502a4e5a0125250c01dcc0dcc2dcbbdcc1dcbfdcc0dcc2dcbcdcc1dc0a|5070173",
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418"
   }
 }
