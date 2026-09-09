@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kernel (category theory) - Wiki2</title>
+  <meta name="description" content="In category theory and its applications to other branches of mathematics, kernels are a generalization of the kernels of group homomorphisms, the kernels of module homomorphisms and certain other kernels from algebra. Intuitively, the kerne">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Kernel_category_theory.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Kernel (category theory) - Wiki2">
+  <meta property="og:description" content="In category theory and its applications to other branches of mathematics, kernels are a generalization of the kernels of group homomorphisms, the kernels of module homomorphisms and certain other kernels from algebra. Intuitively, the kerne">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Kernel_category_theory.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kernel (category theory) - Wiki2">
+  <meta name="twitter:description" content="In category theory and its applications to other branches of mathematics, kernels are a generalization of the kernels of group homomorphisms, the kernels of module homomorphisms and certain other kernels from algebra. Intuitively, the kerne">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Kernel (category theory)</h1>
+    <p><b>Kernel (category theory)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In category theory and its applications to other branches of mathematics, kernels are a generalization of the kernels of group homomorphisms, the kernels of module homomorphisms and certain other kernels from algebra. Intuitively, the kernel of the morphism f : X → Y is the &quot;most general&quot; morphism k : K → X that yields zero when composed with f.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>In category theory and its applications to other branches of mathematics , kernels are a generalization of the kernels of group homomorphisms , the kernels of module homomorphisms and certain other kernels from algebra . Intuitively, the kernel of the morphism f : X → Y is the &quot;most general&quot; morphism k : K → X that yields zero when composed with (followed by) f . Kernel pairs and difference kernels (also known as binary equalisers ) sometimes go by the name &quot;kernel&quot;, and are not discussed in this article.</p>
+    <hr>
+    <h2>Definition</h2>
+    <p>Let C be a category . In order to define a kernel in the general category-theoretical sense, C needs to have zero morphisms . In that case, if f : X → Y is an arbitrary morphism in C , then a kernel of f is an equaliser of f and the zero morphism from X to Y . In symbols: To be more explicit, the following universal property can be used. A kernel of f is an object K together with a morphism k : K → X such that the following two assertions hold: As for every universal property, there is a unique isomorphism between two kernels of the same morphism, and the morphism k is always a monomorphism (in the categorical sense). So, it is common to talk of the kernel of a morphism. In concrete categories , one can thus take a subset of X for K , in which case, the morphism k is the inclusion map . This allows one to talk of K as the kernel, since k is implicitly defined by K . There are non-concrete categories, where one can similarly define a &quot;natural&quot; kernel, such that K defines k implicitly. Not every morphism needs to have a kernel, but if it does, then all its kernels are isomorphic in a strong sense: if k : K → X and ℓ : L → X are kernels of f : X → Y , then there exists a unique isomorphism φ : K → L such that ℓ ∘φ = k .</p>
+    <hr>
+    <h2>Examples</h2>
+    <p>Kernels are familiar in many categories from abstract algebra , such as the category of groups or the category of (left) modules over a fixed ring (including vector spaces over a fixed field ). To be explicit, if f : X → Y is a homomorphism in one of these categories, and K is its kernel in the usual algebraic sense , then K is a subobject of X and the inclusion homomorphism from K to X is a kernel in the categorical sense. Note that in the category of monoids , category-theoretic kernels exist just as for groups, but these kernels don&#x27;t carry sufficient information for algebraic purposes. Therefore, the notion of kernel studied in monoid theory is slightly different (see #Relationship to algebraic kernels below). In the category of unital rings , there are no kernels in the category-theoretic sense; indeed, this category does not even have zero morphisms. Nevertheless, there is still a notion of kernel studied in ring theory that corresponds to kernels in the category of non-unital rings . In the category of pointed topological spaces , if f : X → Y is a continuous pointed map, then the preimage of the distinguished point, K , is a subspace of X . The inclusion map of K into X is the categorical kernel of f .</p>
+    <hr>
+    <h2>Relation to other categorical concepts</h2>
+    <p>The dual concept to that of kernel is that of cokernel . That is, the kernel of a morphism is its cokernel in the opposite category , and vice versa. As mentioned above, a kernel is a type of binary equaliser, or difference kernel . Conversely, in a preadditive category , every binary equaliser can be constructed as a kernel. To be specific, the equaliser of the morphisms f and g is the kernel of the difference g − f . In symbols: It is because of this fact that binary equalisers are called &quot;difference kernels&quot;, even in non-preadditive categories where morphisms cannot be subtracted. Every kernel, like any other equaliser, is a monomorphism . Conversely, a monomorphism is called normal if it is the kernel of some morphism. A category is called normal if every monomorphism is normal. Abelian categories , in particular, are always normal. In this situation, the kernel of the cokernel of any morphism (which always exists in an abelian category) turns out to be the image of that morphism; in symbols: When m is a monomorphism, it must be its own image; thus, not only are abelian categories normal, so that every monomorphism is a kernel, but we also know which morphism the monomorphism is a kernel of, to wit, its cokernel. In symbols:</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Bastien_Range.html">Bastien Range</a></li>
+      <li><a href="Vanessa_Paradis.html">Vanessa Paradis</a></li>
+      <li><a href="Ciao_website.html">Ciao (website)</a></li>
+      <li><a href="Altan_band.html">Altan (band)</a></li>
+      <li><a href="Chess.html">Chess</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Kernel_(category_theory)">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 9, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

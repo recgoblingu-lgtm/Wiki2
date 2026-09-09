@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Named pipe - Wiki2</title>
+  <meta name="description" content="In computing, a named pipe is an extension of the traditional pipe concept on Unix and Unix-like systems, and is one of the methods of inter-process communication (IPC). The concept is also found in the OS/2 and Microsoft Windows operating ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Named_pipe.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Named pipe - Wiki2">
+  <meta property="og:description" content="In computing, a named pipe is an extension of the traditional pipe concept on Unix and Unix-like systems, and is one of the methods of inter-process communication (IPC). The concept is also found in the OS/2 and Microsoft Windows operating ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Named_pipe.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Named pipe - Wiki2">
+  <meta name="twitter:description" content="In computing, a named pipe is an extension of the traditional pipe concept on Unix and Unix-like systems, and is one of the methods of inter-process communication (IPC). The concept is also found in the OS/2 and Microsoft Windows operating ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Named pipe</h1>
+    <p><b>Named pipe</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In computing, a named pipe is an extension of the traditional pipe concept on Unix and Unix-like systems, and is one of the methods of inter-process communication (IPC). The concept is also found in the OS/2 and Microsoft Windows operating systems, although the programming semantics differ substantially. A traditional pipe is &quot;unnamed&quot; and lasts only as long as the process. A named pipe, on the other hand, can last as long as the system is up, beyond the life of the process, and can be deleted if no longer used. Usually a named pipe appears as a file, and generally processes attach to it for inter-process communication (IPC).</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>In computing , a named pipe (also known as a FIFO for its behavior) is an extension of the traditional pipe concept on Unix and Unix-like systems, and is one of the methods of inter-process communication (IPC). The concept is also found in the OS/2 and Microsoft Windows operating systems, although the programming semantics differ substantially. A traditional pipe is &quot; unnamed &quot; and lasts only as long as the process. A named pipe, on the other hand, can last as long as the system is up, beyond the life of the process, and can be deleted if no longer used. Usually a named pipe appears as a file, and generally processes attach to it for inter-process communication (IPC).</p>
+    <hr>
+    <h2>In Unix</h2>
+    <p>Instead of a conventional unnamed pipe, a named pipe makes use of the filesystem . Named pipes are explicitly created using mkfifo() or mknod() , Any number of processes can access a named pipe by name — one process can open it for reading, and another process can open it for writing, at which point the pipe is instantiated and data can be transmitted through it like on a regular pipe. For example, one can create a pipe and set up gzip to compress things piped to it: In a separate process, independently, one could send the data to be compressed: At the point the second shell opens my_pipe for writing in the process that will run cat , the read-only opening by the first shell is unblocked and both gzip and cat are then executed concurrently one feeding data to the other through the pipe. The named pipe can be deleted just like any file: A named pipe can be used to transfer information from one application to another without the use of an intermediary temporary file. For example, you can pipe the output of gzip into a named pipe (here out.gz is from above example but it can be any gz): Then load the data being decompressed on the fly into a MySQL table like so: Without this named pipe, one would need to write out the entire uncompressed version of file.gz before loading it into MySQL. Writing the temporary file is time-consuming, and results in more I/O usage and less free space </p>
+    <hr>
+    <h2>In Windows</h2>
+    <p>In the Windows operating system, a named pipe can be accessed much like a file. Win32 SDK functions CreateFile , ReadFile , WriteFile and CloseHandle open, read from, write to, and close a pipe, respectively. Unlike Unix, there is no command line interface , except for PowerShell . Named pipes cannot be created as files within a normal filesystem, unlike in Unix. Also unlike their Unix counterparts, named pipes are volatile (removed after the last reference to them is closed). Every pipe is placed in the root directory of the named pipe filesystem (NPFS), mounted under the special path \\.\pipe\ (that is, a pipe named &quot; foo &quot; would have a full path name of \\.\pipe\foo ). Anonymous pipes used in pipelining are actually named pipes with a random name. Named pipes are very rarely seen by Windows users, but there are notable exceptions. The VMware Workstation PC hardware virtualization tool, for instance, can expose emulated serial ports to the host system as named pipes, and the WinDbg kernel mode debugger from Microsoft supports named pipes as a transport for debugging sessions (in fact, VMware and WinDbg can be coupled together – as WinDbg normally requires a serial connection to the target computer – letting driver developers do their development and testing on a single computer). Both programs require the user to enter names in the \\.\pipe\ name form. Windows NT named pipes </p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Epipalaeolithic_Near_East.html">Epipalaeolithic Near East</a></li>
+      <li><a href="Quasiprobability_distribution.html">Quasiprobability distribution</a></li>
+      <li><a href="Pharaoh_ant.html">Pharaoh ant</a></li>
+      <li><a href="Jamaican_boa.html">Jamaican boa</a></li>
+      <li><a href="Slow_Burn_David_Bowie_song.html">Slow Burn (David Bowie song)</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Named_pipe">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 9, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

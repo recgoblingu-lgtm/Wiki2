@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MIPS architecture - Wiki2</title>
+  <meta name="description" content="MIPS is a family of reduced instruction set computer (RISC) instruction set architectures (ISA) developed by MIPS Computer Systems, now MIPS Technologies, based in the United States.">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/MIPS_architecture.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="MIPS architecture - Wiki2">
+  <meta property="og:description" content="MIPS is a family of reduced instruction set computer (RISC) instruction set architectures (ISA) developed by MIPS Computer Systems, now MIPS Technologies, based in the United States.">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/MIPS_architecture.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MIPS architecture - Wiki2">
+  <meta name="twitter:description" content="MIPS is a family of reduced instruction set computer (RISC) instruction set architectures (ISA) developed by MIPS Computer Systems, now MIPS Technologies, based in the United States.">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>MIPS architecture</h1>
+    <p><b>MIPS architecture</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>MIPS is a family of reduced instruction set computer (RISC) instruction set architectures (ISA) developed by MIPS Computer Systems, now MIPS Technologies, based in the United States.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>MIPS ( Microprocessor without Interlocked Pipelined Stages ) is a family of reduced instruction set computer (RISC) instruction set architectures (ISA) developed by MIPS Computer Systems, now MIPS Technologies , based in the United States . There are multiple versions of MIPS, including MIPS I, II, III, IV, and V, as well as five releases of MIPS32/64 (for 32- and 64-bit implementations, respectively). The early MIPS architectures were 32-bit; 64-bit versions were developed later. As of April 2017, the current version of MIPS is MIPS32/64 Release 6. MIPS32/64 primarily differs from MIPS I–V by defining the privileged kernel mode System Control Coprocessor in addition to the user mode architecture. The MIPS architecture has several optional extensions: MIPS-3D , a simple set of floating-point SIMD instructions dedicated to 3D computer graphics ; MDMX (MaDMaX), a more extensive integer SIMD instruction set using 64-bit floating-point registers; MIPS16e, which adds compression to the instruction stream to reduce the memory programs require; and MIPS MT, which adds multithreading capability. Computer architecture courses in universities and technical schools often study the MIPS architecture. The architecture greatly influenced later RISC architectures such as Alpha . In March 2021, MIPS announced that the development of the MIPS architecture had ended as the company is making the </p>
+    <hr>
+    <h2>History</h2>
+    <p>The first version of the MIPS architecture was designed by MIPS Computer Systems for its R2000 microprocessor, the first MIPS implementation. Both MIPS and the R2000 were introduced together in 1985. When MIPS II was introduced, MIPS was renamed MIPS I to distinguish it from the new version. MIPS Computer Systems &#x27; R6000 microprocessor (1989) was the first MIPS II implementation. Designed for servers, the R6000 was fabricated and sold by Bipolar Integrated Technology , but was a commercial failure. During the mid-1990s, many new 32-bit MIPS processors for embedded systems were MIPS II implementations because the introduction of the 64-bit MIPS III architecture in 1991 left MIPS II as the newest 32-bit MIPS architecture until MIPS32 was introduced in 1999. MIPS Computer Systems &#x27; R4000 microprocessor (1991) was the first MIPS III implementation. It was designed for use in personal, workstation, and server computers. MIPS Computer Systems aggressively promoted the MIPS architecture and R4000, establishing the Advanced Computing Environment (ACE) consortium to advance its Advanced RISC Computing (ARC) standard, which aimed to establish MIPS as the dominant personal computing platform. ARC found little success in personal computers, but the R4000 (and the R4400 derivative) were widely used in workstation and server computers, especially by its largest user, Silicon Graphics . Other</p>
+    <hr>
+    <h2>Design</h2>
+    <p>MIPS is a modular architecture supporting up to four coprocessors (COP0/1/2/3). In MIPS terminology, COP0 is the System Control Coprocessor (an essential part of the processor that is implementation-defined in MIPS I–V), COP1 is an optional floating-point unit (FPU), and COP2 and COP3 are optional implementation-defined coprocessors (MIPS III removed COP3 and reused its opcodes for other purposes). For example, in the PlayStation video game console, COP2 is the Geometry Transformation Engine (GTE), which accelerates the processing of geometry in 3D computer graphics.</p>
+    <hr>
+    <h2>MIPS I</h2>
+    <p>MIPS is a load/store architecture (also known as a register-register architecture ); except for the load/store instructions used to access memory , all instructions operate on the registers. MIPS I has thirty-two 32-bit general-purpose registers (GPR). Register $0 is hardwired to zero and writes to it are discarded. Register $31 is the link register . For integer multiplication and division instructions, which run asynchronously from other instructions, a pair of 32-bit registers, HI and LO , are provided. There is a small set of instructions for copying data between the general-purpose registers and the HI/LO registers. The program counter has 32 bits. The two low-order bits always contain zero since MIPS I instructions are 32 bits long and are aligned to their natural word boundaries. Instructions are divided into three types: R (register), I (immediate), and J (jump). Every instruction starts with a 6-bit opcode. In addition to the opcode, R-type instructions specify three registers, a shift amount field, and a function field; I-type instructions specify two registers and a 16-bit immediate value; J-type instructions follow the opcode with a 26-bit jump target. The following are the three formats used for the core instruction set: MIPS I has instructions that load and store 8-bit bytes, 16-bit halfwords, and 32-bit words. Only one addressing mode is supported: base + displac</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Elephant_gun.html">Elephant gun</a></li>
+      <li><a href="Baitul_Mukarram.html">Baitul Mukarram</a></li>
+      <li><a href="North_American_porcupine.html">North American porcupine</a></li>
+      <li><a href="Simple_ring.html">Simple ring</a></li>
+      <li><a href="Tigris.html">Tigris</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/MIPS_architecture">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 9, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

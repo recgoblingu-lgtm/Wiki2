@@ -1,63 +1,64 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Markov blanket - Wiki2</title>
-  <meta name="description" content="In statistics and machine learning, a Markov blanket of a random variable is a set of variables that renders the variable conditionally independent of all other variables in the system. This concept is central in probabilistic graphical mod">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Markov_blanket.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Markov blanket - Wiki2">
-  <meta property="og:description" content="In statistics and machine learning, a Markov blanket of a random variable is a set of variables that renders the variable conditionally independent of all other variables in the system. This concept is central in probabilistic graphical mod">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Markov_blanket.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/eb/Diagram_of_a_Markov_blanket.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Markov blanket - Wiki2">
-  <meta name="twitter:description" content="In statistics and machine learning, a Markov blanket of a random variable is a set of variables that renders the variable conditionally independent of all other variables in the system. This concept is central in probabilistic graphical mod">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/e/eb/Diagram_of_a_Markov_blanket.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Markov blanket - Wiki2</title>
+<meta content="In statistics and machine learning, a Markov blanket of a random variable is a set of variables that renders the variable conditionally independent of all other variables in the system. This concept is central in probabilistic graphical mod" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Markov_blanket.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Markov blanket" property="og:title"/>
+<meta content="Markov blanket is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Markov_blanket.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/e/eb/Diagram_of_a_Markov_blanket.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Markov blanket" name="twitter:title"/>
+<meta content="Markov blanket is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/e/eb/Diagram_of_a_Markov_blanket.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Markov blanket</h1>
-    <p><b>Markov blanket</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In statistics and machine learning, a Markov blanket of a random variable is a set of variables that renders the variable conditionally independent of all other variables in the system. This concept is central in probabilistic graphical models and feature selection. If a Markov blanket is minimal—meaning that no variable in it can be removed without losing this conditional independence—it is called a Markov boundary. Identifying a Markov blanket or boundary allows for efficient inference and helps isolate relevant variables for prediction or causal reasoning. The terms Markov blanket and Markov boundary were coined by Judea Pearl in 1988. A Markov blanket may be derived from the structure of a probabilistic graphical model such as a Bayesian network or Markov random field.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Diagram_of_a_Markov_blanket.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Markov blanket"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>In statistics and machine learning , a Markov blanket of a random variable is a set of variables that renders the variable conditionally independent of all other variables in the system. This concept is central in probabilistic graphical models and feature selection . If a Markov blanket is minimal—meaning that no variable in it can be removed without losing this conditional independence—it is called a Markov boundary . Identifying a Markov blanket or boundary allows for efficient inference and helps isolate relevant variables for prediction or causal reasoning. The terms Markov blanket and Markov boundary were coined by Judea Pearl in 1988. A Markov blanket may be derived from the structure of a probabilistic graphical model such as a Bayesian network or Markov random field .</p>
-    <hr>
-    <h2>Definition</h2>
-    <p>A Markov blanket of a random variable in a random variable set is any subset of , conditioned on which other variables are independent with : It means that contains at least all the information one needs to infer , where the variables in are redundant. In general, a given Markov blanket is not unique. Any set in that contains a Markov blanket is also a Markov blanket itself. Specifically, is a Markov blanket of in .</p>
-    <hr>
-    <h2>Example</h2>
-    <p>In a Bayesian network , the Markov blanket of a node consists of its parents, its children, and its children&#x27;s other parents (i.e., co-parents). Knowing the values of these nodes makes the target node conditionally independent of the rest of the network. In a Markov random field , the Markov blanket of a node is simply its immediate neighbors.</p>
-    <hr>
-    <h2>Markov condition</h2>
-    <p>The concept of a Markov blanket is rooted in the Markov condition , which states that in a probabilistic graphical model, each variable is conditionally independent of its non-descendants given its parents. This condition implies the existence of a minimal separating set — the Markov blanket — that shields a variable from the rest of the network. For instance, when a person holds an object stationary against gravity, the object’s acceleration is fully determined by its direct causes—namely, the upward force from the hand and the downward gravitational pull. Other variables such as air pressure or temperature are causally irrelevant.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Chamber_Music_poetry_collection.html">Chamber Music (poetry collection)</a></li>
-      <li><a href="Peace_River_Regional_District.html">Peace River Regional District</a></li>
-      <li><a href="Hikikomori.html">Hikikomori</a></li>
-      <li><a href="Aerocar_Aero_Plane.html">Aerocar Aero-Plane</a></li>
-      <li><a href="People_s_Daily.html">People&#x27;s Daily</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Markov_blanket">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 8, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Markov blanket</h1>
+<p><b>Markov blanket</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In statistics and machine learning, a Markov blanket of a random variable is a set of variables that renders the variable conditionally independent of all other variables in the system. This concept is central in probabilistic graphical models and feature selection. If a Markov blanket is minimal—meaning that no variable in it can be removed without losing this conditional independence—it is called a Markov boundary. Identifying a Markov blanket or boundary allows for efficient inference and helps isolate relevant variables for prediction or causal reasoning. The terms Markov blanket and Markov boundary were coined by Judea Pearl in 1988. A Markov blanket may be derived from the structure of a probabilistic graphical model such as a Bayesian network or Markov random field.</p>
+<figure class="article-image"><img alt="Markov blanket" src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Diagram_of_a_Markov_blanket.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>In statistics and machine learning , a Markov blanket of a random variable is a set of variables that renders the variable conditionally independent of all other variables in the system. This concept is central in probabilistic graphical models and feature selection . If a Markov blanket is minimal—meaning that no variable in it can be removed without losing this conditional independence—it is called a Markov boundary . Identifying a Markov blanket or boundary allows for efficient inference and helps isolate relevant variables for prediction or causal reasoning. The terms Markov blanket and Markov boundary were coined by Judea Pearl in 1988. A Markov blanket may be derived from the structure of a probabilistic graphical model such as a Bayesian network or Markov random field .</p>
+<hr/>
+<h2>Definition</h2>
+<p>A Markov blanket of a random variable in a random variable set is any subset of , conditioned on which other variables are independent with : It means that contains at least all the information one needs to infer , where the variables in are redundant. In general, a given Markov blanket is not unique. Any set in that contains a Markov blanket is also a Markov blanket itself. Specifically, is a Markov blanket of in .</p>
+<hr/>
+<h2>Example</h2>
+<p>In a Bayesian network , the Markov blanket of a node consists of its parents, its children, and its children's other parents (i.e., co-parents). Knowing the values of these nodes makes the target node conditionally independent of the rest of the network. In a Markov random field , the Markov blanket of a node is simply its immediate neighbors.</p>
+<hr/>
+<h2>Markov condition</h2>
+<p>The concept of a Markov blanket is rooted in the Markov condition , which states that in a probabilistic graphical model, each variable is conditionally independent of its non-descendants given its parents. This condition implies the existence of a minimal separating set — the Markov blanket — that shields a variable from the rest of the network. For instance, when a person holds an object stationary against gravity, the object’s acceleration is fully determined by its direct causes—namely, the upward force from the hand and the downward gravitational pull. Other variables such as air pressure or temperature are causally irrelevant.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Chamber_Music_poetry_collection.html">Chamber Music (poetry collection)</a></li>
+<li><a href="Peace_River_Regional_District.html">Peace River Regional District</a></li>
+<li><a href="Hikikomori.html">Hikikomori</a></li>
+<li><a href="Aerocar_Aero_Plane.html">Aerocar Aero-Plane</a></li>
+<li><a href="People_s_Daily.html">People's Daily</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Markov_blanket">Wikimedia article</a></small></p>
+<p><i>Last edited: September 8, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
