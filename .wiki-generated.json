@@ -61161,13 +61161,18 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Acol",
       "generated_at": "2026-09-09T13:58:56+00:00"
+    },
+    {
+      "title": "Kirby and the World Beyond",
+      "filename": "Kirby_and_the_World_Beyond.html",
+      "category": "Sandbox games",
+      "source": "https://en.wikipedia.org/wiki/Kirby_and_the_World_Beyond",
+      "generated_at": "2026-09-09T19:58:33+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|563a3e042a44300450383204342a2c4032044634044e4652404e011e01e0bbdcbedc08|3180893",
     "Category:Arcade video games": "page|422a2e3207360450383204302a4c3e042a3632011601dcc1dcc3dcc2dc06|2037499",
-    "Category:Video game franchises": "page|342a2c52402a044446542a042e4c5a4e502a40403a4e073604343a442a4004342a44502a4e5a0306342a2c52402a044446542a042e4c5a4e502a40403a4e04343a442a4004342a44502a4e5a0125250c01dcc0dcc2dcbbdcc1dcbfdcc0dcc2dcbcdcc1dc0a|5070173",
-    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
+    "Category:Video game franchises": "page|3a442e4c32303a2c403204422a2e383a443206045038320306503832043a442e4c32303a2c403204422a2e383a443201251101dcbcdcbedcc3dcc3dcbcdc0a|575221",
     "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418"
   }
 }
