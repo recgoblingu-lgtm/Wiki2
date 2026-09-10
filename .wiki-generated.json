@@ -61168,11 +61168,19 @@
       "category": "Sandbox games",
       "source": "https://en.wikipedia.org/wiki/Kirby_and_the_World_Beyond",
       "generated_at": "2026-09-09T19:58:33+00:00"
+    },
+    {
+      "title": "Metal Slug 6",
+      "filename": "Metal_Slug_6.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Metal_Slug_6",
+      "generated_at": "2026-09-10T04:53:29+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|422a2e3207360450383204302a4c3e042a3632011601dcc1dcc3dcc2dc06|2037499",
-    "Category:Video game franchises": "page|3a442e4c32303a2c403204422a2e383a443206045038320306503832043a442e4c32303a2c403204422a2e383a443201251101dcbcdcbedcc3dcc3dcbcdc0a|575221",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418"
+    "Category:Arcade video games": "page|4246443e325a04422a363a2e040992543a30324604362a42320994011d01dcc0dc15|19916311",
+    "Category:Video game franchises": "page|484c4604483a442c2a4040010f01dcc3dc0a|4448718",
+    "Category:Indie games": "page|2c2a443a4e383230040992543a30324604362a42320994011901dc18|38890782",
+    "Category:Esports games": "page|48463e32424644042e46424832503a503a54320448402a5a030648463e3242464404543a30324604362a4232044e324c3a324e042e46424832503a503a54320448402a5a0142882d88250901dcaddc2e|60144282"
   }
 }
