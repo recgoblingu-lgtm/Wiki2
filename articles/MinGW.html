@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MinGW - Wiki2</title>
+  <meta name="description" content="MinGW is a compiler toolchain for creating native Microsoft Windows applications. It provides a port of the GNU Compiler Collection (GCC) and related tools that generate executables targeting the Windows API without requiring a compatibilit">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/MinGW.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="MinGW - Wiki2">
+  <meta property="og:description" content="MinGW is a compiler toolchain for creating native Microsoft Windows applications. It provides a port of the GNU Compiler Collection (GCC) and related tools that generate executables targeting the Windows API without requiring a compatibilit">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/MinGW.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MinGW - Wiki2">
+  <meta name="twitter:description" content="MinGW is a compiler toolchain for creating native Microsoft Windows applications. It provides a port of the GNU Compiler Collection (GCC) and related tools that generate executables targeting the Windows API without requiring a compatibilit">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>MinGW</h1>
+    <p><b>MinGW</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>MinGW is a compiler toolchain for creating native Microsoft Windows applications. It provides a port of the GNU Compiler Collection (GCC) and related tools that generate executables targeting the Windows API without requiring a compatibility layer or emulation environment.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>MinGW (&quot;Minimalist GNU for Windows&quot;) is a compiler toolchain for creating native Microsoft Windows applications. It provides a port of the GNU Compiler Collection (GCC) and related tools that generate executables targeting the Windows API without requiring a compatibility layer or emulation environment. MinGW was developed to support native Windows development using GNU tools. Unlike POSIX -based environments such as Cygwin , MinGW targets the Windows API directly and does not attempt to provide a full Unix -like runtime environment. It includes ports of essential GNU development tools, including GCC and GNU Binutils , along with a minimal Unix-like shell environment (MSYS) used to assist with build processes. Later projects and distributions such as Mingw-w64 and MSYS2 provide modern, actively maintained environments for native Windows builds using GNU toolchains.</p>
+    <hr>
+    <h2>Architecture</h2>
+    <p>MinGW is designed to produce native Windows executables rather than provide a POSIX compatibility layer; unlike Cygwin-based toolchains, it links against standard Microsoft DLLs such as MSVCRT rather than a Unix emulation runtime. Because MinGW does not provide a full POSIX environment, applications that rely on strictly POSIX-compliant process management, such as fork() , require modifications to compile or run correctly on Windows.</p>
+    <hr>
+    <h2>Toolchain flow</h2>
+    <p>The MinGW toolchain follows the standard GNU compilation pipeline adapted for the Windows platform: The use of the Portable Executable format distinguishes MinGW-generated binaries from typical Unix systems, which commonly use the ELF (Executable and Linkable Format) binary format.</p>
+    <hr>
+    <h2>Comparison with Cygwin</h2>
+    <p>Although both Cygwin and MinGW can be used to build software for Windows, they have different design goals. Cygwin provides a POSIX compatibility layer and a Unix-like runtime environment on Windows, while MinGW targets the Windows API directly and produces native Windows executables. Programs built with Cygwin typically depend on the Cygwin runtime DLL, whereas MinGW-generated programs do not require such a compatibility layer.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Jan_w_Nikiszowiec.html">Janów-Nikiszowiec</a></li>
+      <li><a href="Play_Me_or_Trade_Me.html">Play Me or Trade Me</a></li>
+      <li><a href="Jane_Leavy.html">Jane Leavy</a></li>
+      <li><a href="Saint_Augustine_by_the_Sea_Catholic_Church.html">Saint Augustine by the Sea Catholic Church</a></li>
+      <li><a href="Pente.html">Pente</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/MinGW">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 10, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
