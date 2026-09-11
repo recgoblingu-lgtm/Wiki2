@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Ford–Fulkerson algorithm - Wiki2</title>
-  <meta name="description" content="The Ford–Fulkerson method or Ford–Fulkerson algorithm (FFA) is a greedy algorithm that computes the maximum flow in a flow network. It is sometimes called a &quot;method&quot; instead of an &quot;algorithm&quot; as the approach to finding augmenting paths in a">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Ford_Fulkerson_algorithm.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Ford–Fulkerson algorithm - Wiki2">
-  <meta property="og:description" content="The Ford–Fulkerson method or Ford–Fulkerson algorithm (FFA) is a greedy algorithm that computes the maximum flow in a flow network. It is sometimes called a &quot;method&quot; instead of an &quot;algorithm&quot; as the approach to finding augmenting paths in a">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Ford_Fulkerson_algorithm.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Ford–Fulkerson algorithm - Wiki2">
-  <meta name="twitter:description" content="The Ford–Fulkerson method or Ford–Fulkerson algorithm (FFA) is a greedy algorithm that computes the maximum flow in a flow network. It is sometimes called a &quot;method&quot; instead of an &quot;algorithm&quot; as the approach to finding augmenting paths in a">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Ford–Fulkerson algorithm - Wiki2</title>
+<meta content='The Ford–Fulkerson method or Ford–Fulkerson algorithm (FFA) is a greedy algorithm that computes the maximum flow in a flow network. It is sometimes called a "method" instead of an "algorithm" as the approach to finding augmenting paths in a' name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Ford_Fulkerson_algorithm.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Ford–Fulkerson algorithm" property="og:title"/>
+<meta content="Ford–Fulkerson algorithm is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Ford_Fulkerson_algorithm.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Ford–Fulkerson algorithm" name="twitter:title"/>
+<meta content="Ford–Fulkerson algorithm is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Ford–Fulkerson algorithm</h1>
-    <p><b>Ford–Fulkerson algorithm</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>The Ford–Fulkerson method or Ford–Fulkerson algorithm (FFA) is a greedy algorithm that computes the maximum flow in a flow network. It is sometimes called a &quot;method&quot; instead of an &quot;algorithm&quot; as the approach to finding augmenting paths in a residual graph is not fully specified or it is specified in several implementations with different running times. It was published in 1956 by L. R. Ford Jr. and D. R. Fulkerson. The name &quot;Ford–Fulkerson&quot; is often also used for the Edmonds–Karp algorithm, which is a fully defined implementation of the Ford–Fulkerson method.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>The Ford–Fulkerson method or Ford–Fulkerson algorithm ( FFA ) is a greedy algorithm that computes the maximum flow in a flow network . It is sometimes called a &quot;method&quot; instead of an &quot;algorithm&quot; as the approach to finding augmenting paths in a residual graph is not fully specified or it is specified in several implementations with different running times. It was published in 1956 by L. R. Ford Jr. and D. R. Fulkerson . The name &quot;Ford–Fulkerson&quot; is often also used for the Edmonds–Karp algorithm , which is a fully defined implementation of the Ford–Fulkerson method. The idea behind the algorithm is as follows: as long as there is a path from the source (start node) to the sink (end node), with available capacity on all edges in the path, we send flow along one of the paths. Then we find another path, and so on. A path with available capacity is called an augmenting path .</p>
-    <hr>
-    <h2>Algorithm</h2>
-    <p>Let be a graph, and for each edge from u to v , let be the capacity and be the flow. We want to find the maximum flow from the source s to the sink t . After every step in the algorithm the following is maintained: This means that the flow through the network is a legal flow after each round in the algorithm. We define the residual network to be the network with capacity and no flow. Notice that it can happen that a flow from v to u is allowed in the residual network, though disallowed in the original network: if and then . The path in step 2 can be found with, for example, breadth-first search (BFS) or depth-first search in . The former is known as the Edmonds–Karp algorithm . When no more paths in step 2 can be found, s will not be able to reach t in the residual network. If S is the set of nodes reachable by s in the residual network, then the total capacity in the original network of edges from S to the remainder of V is on the one hand equal to the total flow we found from s to t , and on the other hand serves as an upper bound for all such flows. This proves that the flow we found is maximal. See also Max-flow Min-cut theorem . If the graph has multiple sources and sinks, we act as follows: Suppose that and . Add a new source with an edge from to every node , with capacity . And add a new sink with an edge from every node to , with capacity . Then apply the Ford–Fulkerson</p>
-    <hr>
-    <h2>Complexity</h2>
-    <p>By adding the flow augmenting path to the flow already established in the graph, the maximum flow will be reached when no more flow augmenting paths can be found in the graph. However, there is no certainty that this situation will ever be reached, so the best that can be guaranteed is that the answer will be correct if the algorithm terminates. In the case that the algorithm does not terminate, the flow might not converge towards the maximum flow. However, this situation only occurs with irrational flow values. When the capacities are integers, the runtime of Ford–Fulkerson is bounded by (see big O notation ), where is the number of edges in the graph and is the maximum flow in the graph. This is because each augmenting path can be found in time and increases the flow by an integer amount of at least , with the upper bound . A variation of the Ford–Fulkerson algorithm with guaranteed termination and a runtime independent of the maximum flow value is the Edmonds–Karp algorithm , which runs in time.</p>
-    <hr>
-    <h2>Integer flow example</h2>
-    <p>The following example shows the first steps of Ford–Fulkerson in a flow network with 4 nodes, source and sink . This example shows the worst-case behaviour of the algorithm. In each step, only a flow of is sent across the network. If breadth-first-search were used instead, only two steps would be needed.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Venus_of_Brassempouy.html">Venus of Brassempouy</a></li>
-      <li><a href="Irreversible_circuit.html">Irreversible circuit</a></li>
-      <li><a href="Alexander_Kipnis.html">Alexander Kipnis</a></li>
-      <li><a href="North_East_Link.html">North East Link</a></li>
-      <li><a href="Uttaradit_province.html">Uttaradit province</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 10, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Ford–Fulkerson algorithm</h1>
+<p><b>Ford–Fulkerson algorithm</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>The Ford–Fulkerson method or Ford–Fulkerson algorithm (FFA) is a greedy algorithm that computes the maximum flow in a flow network. It is sometimes called a "method" instead of an "algorithm" as the approach to finding augmenting paths in a residual graph is not fully specified or it is specified in several implementations with different running times. It was published in 1956 by L. R. Ford Jr. and D. R. Fulkerson. The name "Ford–Fulkerson" is often also used for the Edmonds–Karp algorithm, which is a fully defined implementation of the Ford–Fulkerson method.</p>
+<hr/>
+<h2>Background</h2>
+<p>The Ford–Fulkerson method or Ford–Fulkerson algorithm ( FFA ) is a greedy algorithm that computes the maximum flow in a flow network . It is sometimes called a "method" instead of an "algorithm" as the approach to finding augmenting paths in a residual graph is not fully specified or it is specified in several implementations with different running times. It was published in 1956 by L. R. Ford Jr. and D. R. Fulkerson . The name "Ford–Fulkerson" is often also used for the Edmonds–Karp algorithm , which is a fully defined implementation of the Ford–Fulkerson method. The idea behind the algorithm is as follows: as long as there is a path from the source (start node) to the sink (end node), with available capacity on all edges in the path, we send flow along one of the paths. Then we find another path, and so on. A path with available capacity is called an augmenting path .</p>
+<hr/>
+<h2>Algorithm</h2>
+<p>Let be a graph, and for each edge from u to v , let be the capacity and be the flow. We want to find the maximum flow from the source s to the sink t . After every step in the algorithm the following is maintained: This means that the flow through the network is a legal flow after each round in the algorithm. We define the residual network to be the network with capacity and no flow. Notice that it can happen that a flow from v to u is allowed in the residual network, though disallowed in the original network: if and then . The path in step 2 can be found with, for example, breadth-first search (BFS) or depth-first search in . The former is known as the Edmonds–Karp algorithm . When no more paths in step 2 can be found, s will not be able to reach t in the residual network. If S is the set of nodes reachable by s in the residual network, then the total capacity in the original network of edges from S to the remainder of V is on the one hand equal to the total flow we found from s to t , and on the other hand serves as an upper bound for all such flows. This proves that the flow we found is maximal. See also Max-flow Min-cut theorem . If the graph has multiple sources and sinks, we act as follows: Suppose that and . Add a new source with an edge from to every node , with capacity . And add a new sink with an edge from every node to , with capacity . Then apply the Ford–Fulkerson</p>
+<hr/>
+<h2>Complexity</h2>
+<p>By adding the flow augmenting path to the flow already established in the graph, the maximum flow will be reached when no more flow augmenting paths can be found in the graph. However, there is no certainty that this situation will ever be reached, so the best that can be guaranteed is that the answer will be correct if the algorithm terminates. In the case that the algorithm does not terminate, the flow might not converge towards the maximum flow. However, this situation only occurs with irrational flow values. When the capacities are integers, the runtime of Ford–Fulkerson is bounded by (see big O notation ), where is the number of edges in the graph and is the maximum flow in the graph. This is because each augmenting path can be found in time and increases the flow by an integer amount of at least , with the upper bound . A variation of the Ford–Fulkerson algorithm with guaranteed termination and a runtime independent of the maximum flow value is the Edmonds–Karp algorithm , which runs in time.</p>
+<hr/>
+<h2>Integer flow example</h2>
+<p>The following example shows the first steps of Ford–Fulkerson in a flow network with 4 nodes, source and sink . This example shows the worst-case behaviour of the algorithm. In each step, only a flow of is sent across the network. If breadth-first-search were used instead, only two steps would be needed.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Venus_of_Brassempouy.html">Venus of Brassempouy</a></li>
+<li><a href="Irreversible_circuit.html">Irreversible circuit</a></li>
+<li><a href="Alexander_Kipnis.html">Alexander Kipnis</a></li>
+<li><a href="North_East_Link.html">North East Link</a></li>
+<li><a href="Uttaradit_province.html">Uttaradit province</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm">Wikimedia article</a></small></p>
+<p><i>Last edited: September 10, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

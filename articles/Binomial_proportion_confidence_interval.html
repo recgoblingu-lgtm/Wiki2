@@ -1,65 +1,66 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Binomial proportion confidence interval - Wiki2</title>
-  <meta name="description" content="In statistics, a binomial proportion confidence interval is a confidence interval for the probability of success calculated from the outcome of a series of success–failure experiments. In other words, a binomial proportion confidence interv">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Binomial_proportion_confidence_interval.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Binomial proportion confidence interval - Wiki2">
-  <meta property="og:description" content="In statistics, a binomial proportion confidence interval is a confidence interval for the probability of success calculated from the outcome of a series of success–failure experiments. In other words, a binomial proportion confidence interv">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Binomial_proportion_confidence_interval.html">
-  <meta property="og:image" content="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Normal_approx_interval_and_logistic_example.png/960px-Normal_approx_interval_and_logistic_example.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Binomial proportion confidence interval - Wiki2">
-  <meta name="twitter:description" content="In statistics, a binomial proportion confidence interval is a confidence interval for the probability of success calculated from the outcome of a series of success–failure experiments. In other words, a binomial proportion confidence interv">
-  <meta name="twitter:image" content="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Normal_approx_interval_and_logistic_example.png/960px-Normal_approx_interval_and_logistic_example.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Binomial proportion confidence interval - Wiki2</title>
+<meta content="In statistics, a binomial proportion confidence interval is a confidence interval for the probability of success calculated from the outcome of a series of success–failure experiments. In other words, a binomial proportion confidence interv" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Binomial_proportion_confidence_interval.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Binomial proportion confidence interval" property="og:title"/>
+<meta content="Binomial proportion confidence interval is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Binomial_proportion_confidence_interval.html" property="og:url"/>
+<meta content="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Normal_approx_interval_and_logistic_example.png/960px-Normal_approx_interval_and_logistic_example.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Binomial proportion confidence interval" name="twitter:title"/>
+<meta content="Binomial proportion confidence interval is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Normal_approx_interval_and_logistic_example.png/960px-Normal_approx_interval_and_logistic_example.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Binomial proportion confidence interval</h1>
-    <p><b>Binomial proportion confidence interval</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In statistics, a binomial proportion confidence interval is a confidence interval for the probability of success calculated from the outcome of a series of success–failure experiments. In other words, a binomial proportion confidence interval is an interval estimate of a success probability when only the number of experiments and the number of successes are known.</p>
-    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Normal_approx_interval_and_logistic_example.png/960px-Normal_approx_interval_and_logistic_example.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Normal approx interval and logistic example.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Wilson_score_interval_and_logistic_example.png/960px-Wilson_score_interval_and_logistic_example.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Wilson score interval and logistic example.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/en/thumb/5/54/Wilson_score_pdf_and_interval_equality.png/960px-Wilson_score_pdf_and_interval_equality.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Wilson score pdf and interval equality.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>In statistics , a binomial proportion confidence interval is a confidence interval for the probability of success calculated from the outcome of a series of success–failure experiments ( Bernoulli trials ). In other words, a binomial proportion confidence interval is an interval estimate of a success probability when only the number of experiments and the number of successes are known. There are several formulas for a binomial confidence interval, but all of them rely on the assumption of a binomial distribution . In general, a binomial distribution applies when an experiment is repeated a fixed number of times, each trial of the experiment has two possible outcomes (success and failure), the probability of success is the same for each trial, and the trials are statistically independent . Because the binomial distribution is a discrete probability distribution (i.e., not continuous) and difficult to calculate for large numbers of trials, a variety of approximations are used to calculate this confidence interval, all with their own tradeoffs in accuracy and computational intensity. A simple example of a binomial distribution is the set of various possible outcomes, and their probabilities, for the number of heads observed when a coin is flipped ten times. The observed binomial proportion is the fraction of the flips that turn out to be heads. Given this observed proportion, the </p>
-    <hr>
-    <h2>Problems with using a normal approximation or &quot;Wald interval&quot;</h2>
-    <p>A commonly used formula for a binomial confidence interval relies on approximating the distribution of error about a binomially-distributed observation, with a normal distribution . The normal approximation depends on the de Moivre–Laplace theorem (the original, binomial -only version of the central limit theorem ) and becomes unreliable when it violates the theorems&#x27; premises, as the sample size becomes small or the success probability grows close to either 0 or 1 . Using the normal approximation, the success probability is estimated by where is the proportion of successes in a Bernoulli trial process and an estimator for in the underlying Bernoulli distribution . The equivalent formula in terms of observation counts is where the data are the results of trials that yielded successes and failures. The distribution function argument is the quantile of a standard normal distribution (i.e., the probit ) corresponding to the target error rate For a 95% confidence level, the error so that and When using the Wald formula to estimate or just considering the possible outcomes of this calculation, two problems immediately become apparent: (Another version of the second, overshoot problem, arises when instead falls below the same upper bound: probability too high / too close to 1 .) An important theoretical derivation of this confidence interval involves the inversion of a hypothesis tes</p>
-    <hr>
-    <h2>Standard error of a proportion estimation when using weighted data</h2>
-    <p>To apply the principles of the weighted data correctly, you need to understand the type of the weight you are dealing with. For analytic weights, the following calculation can be applied. Let be such that each is i.i.d from a Bernoulli ( p ) distribution and weight is the weight for each observation, with the (positive) weights normalized so they sum to 1 . The weighted sample proportion is: Since each of the is independent from all the others, and each one has variance for every the sampling variance of the proportion therefore is: The standard error of is the square root of this quantity. Because we do not know we have to estimate it. Although there are many possible estimators, a conventional one is to use the sample mean, and plug this into the formula. That gives: For otherwise unweighted data, the effective weights are uniform giving The becomes leading to the familiar formulas, showing that the calculation for weighted data is a direct generalization of them. If the weights in question are the complex sampling design weights, appropriate statistical software (R package survey ; Python package svy ) needs to be used to obtain standard errors corrected for the survey sampling design. An extension of the § Clopper-Pearson interval presented below to the complex survey data is also known as the Korn-Graubard confidence interval.</p>
-    <hr>
-    <h2>Wilson score interval</h2>
-    <p>The Wilson score interval was developed by E.B. Wilson (1927). It is an improvement over the normal approximation interval in multiple respects: Unlike the symmetric normal approximation interval (above), the Wilson score interval is asymmetric , and it doesn&#x27;t suffer from problems of overshoot and zero-width intervals that afflict the normal interval. It can be safely employed with small samples and skewed observations. The observed coverage probability is consistently closer to the nominal value, . Like the normal interval, the interval can be computed directly from a formula. Wilson started with the normal approximation to the binomial: where is the standard normal interval half-width corresponding to the desired confidence The analytic formula for a binomial sample standard deviation is Combining the two, and squaring out the radical, gives an equation that is quadratic in or Transforming the relation into a standard-form quadratic equation for treating and as known values from the sample (see prior section), and using the value of that corresponds to the desired confidence for the estimate of gives this: where all of the values bracketed by parentheses are known quantities. The solution for estimates the upper and lower limits of the confidence interval for Hence the probability of success is estimated by and with confidence bracketed in the interval where is an abbreviati</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Uncrewed_spaceflights_to_the_International_Space_Station.html">Uncrewed spaceflights to the International Space Station</a></li>
-      <li><a href="Hot_Streets.html">Hot Streets</a></li>
-      <li><a href="Mehama_Oregon.html">Mehama, Oregon</a></li>
-      <li><a href="96_Drum_n_Bass_Classixxx.html">96 Drum &#x27;n&#x27; Bass Classixxx</a></li>
-      <li><a href="Ice_hockey_at_the_1956_Winter_Olympics.html">Ice hockey at the 1956 Winter Olympics</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 10, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Binomial proportion confidence interval</h1>
+<p><b>Binomial proportion confidence interval</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In statistics, a binomial proportion confidence interval is a confidence interval for the probability of success calculated from the outcome of a series of success–failure experiments. In other words, a binomial proportion confidence interval is an interval estimate of a success probability when only the number of experiments and the number of successes are known.</p>
+<figure class="article-image"><img alt="Normal approx interval and logistic example.png" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Normal_approx_interval_and_logistic_example.png/960px-Normal_approx_interval_and_logistic_example.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Wilson score interval and logistic example.png" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Wilson_score_interval_and_logistic_example.png/960px-Wilson_score_interval_and_logistic_example.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Wilson score pdf and interval equality.png" src="https://thumb.wikimedia.org/wikipedia/en/thumb/5/54/Wilson_score_pdf_and_interval_equality.png/960px-Wilson_score_pdf_and_interval_equality.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>In statistics , a binomial proportion confidence interval is a confidence interval for the probability of success calculated from the outcome of a series of success–failure experiments ( Bernoulli trials ). In other words, a binomial proportion confidence interval is an interval estimate of a success probability when only the number of experiments and the number of successes are known. There are several formulas for a binomial confidence interval, but all of them rely on the assumption of a binomial distribution . In general, a binomial distribution applies when an experiment is repeated a fixed number of times, each trial of the experiment has two possible outcomes (success and failure), the probability of success is the same for each trial, and the trials are statistically independent . Because the binomial distribution is a discrete probability distribution (i.e., not continuous) and difficult to calculate for large numbers of trials, a variety of approximations are used to calculate this confidence interval, all with their own tradeoffs in accuracy and computational intensity. A simple example of a binomial distribution is the set of various possible outcomes, and their probabilities, for the number of heads observed when a coin is flipped ten times. The observed binomial proportion is the fraction of the flips that turn out to be heads. Given this observed proportion, the </p>
+<hr/>
+<h2>Problems with using a normal approximation or "Wald interval"</h2>
+<p>A commonly used formula for a binomial confidence interval relies on approximating the distribution of error about a binomially-distributed observation, with a normal distribution . The normal approximation depends on the de Moivre–Laplace theorem (the original, binomial -only version of the central limit theorem ) and becomes unreliable when it violates the theorems' premises, as the sample size becomes small or the success probability grows close to either 0 or 1 . Using the normal approximation, the success probability is estimated by where is the proportion of successes in a Bernoulli trial process and an estimator for in the underlying Bernoulli distribution . The equivalent formula in terms of observation counts is where the data are the results of trials that yielded successes and failures. The distribution function argument is the quantile of a standard normal distribution (i.e., the probit ) corresponding to the target error rate For a 95% confidence level, the error so that and When using the Wald formula to estimate or just considering the possible outcomes of this calculation, two problems immediately become apparent: (Another version of the second, overshoot problem, arises when instead falls below the same upper bound: probability too high / too close to 1 .) An important theoretical derivation of this confidence interval involves the inversion of a hypothesis tes</p>
+<hr/>
+<h2>Standard error of a proportion estimation when using weighted data</h2>
+<p>To apply the principles of the weighted data correctly, you need to understand the type of the weight you are dealing with. For analytic weights, the following calculation can be applied. Let be such that each is i.i.d from a Bernoulli ( p ) distribution and weight is the weight for each observation, with the (positive) weights normalized so they sum to 1 . The weighted sample proportion is: Since each of the is independent from all the others, and each one has variance for every the sampling variance of the proportion therefore is: The standard error of is the square root of this quantity. Because we do not know we have to estimate it. Although there are many possible estimators, a conventional one is to use the sample mean, and plug this into the formula. That gives: For otherwise unweighted data, the effective weights are uniform giving The becomes leading to the familiar formulas, showing that the calculation for weighted data is a direct generalization of them. If the weights in question are the complex sampling design weights, appropriate statistical software (R package survey ; Python package svy ) needs to be used to obtain standard errors corrected for the survey sampling design. An extension of the § Clopper-Pearson interval presented below to the complex survey data is also known as the Korn-Graubard confidence interval.</p>
+<hr/>
+<h2>Wilson score interval</h2>
+<p>The Wilson score interval was developed by E.B. Wilson (1927). It is an improvement over the normal approximation interval in multiple respects: Unlike the symmetric normal approximation interval (above), the Wilson score interval is asymmetric , and it doesn't suffer from problems of overshoot and zero-width intervals that afflict the normal interval. It can be safely employed with small samples and skewed observations. The observed coverage probability is consistently closer to the nominal value, . Like the normal interval, the interval can be computed directly from a formula. Wilson started with the normal approximation to the binomial: where is the standard normal interval half-width corresponding to the desired confidence The analytic formula for a binomial sample standard deviation is Combining the two, and squaring out the radical, gives an equation that is quadratic in or Transforming the relation into a standard-form quadratic equation for treating and as known values from the sample (see prior section), and using the value of that corresponds to the desired confidence for the estimate of gives this: where all of the values bracketed by parentheses are known quantities. The solution for estimates the upper and lower limits of the confidence interval for Hence the probability of success is estimated by and with confidence bracketed in the interval where is an abbreviati</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Uncrewed_spaceflights_to_the_International_Space_Station.html">Uncrewed spaceflights to the International Space Station</a></li>
+<li><a href="Hot_Streets.html">Hot Streets</a></li>
+<li><a href="Mehama_Oregon.html">Mehama, Oregon</a></li>
+<li><a href="96_Drum_n_Bass_Classixxx.html">96 Drum 'n' Bass Classixxx</a></li>
+<li><a href="Ice_hockey_at_the_1956_Winter_Olympics.html">Ice hockey at the 1956 Winter Olympics</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval">Wikimedia article</a></small></p>
+<p><i>Last edited: September 10, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

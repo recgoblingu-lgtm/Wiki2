@@ -64689,12 +64689,19 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Wooster%2C_Arkansas",
       "generated_at": "2026-09-10T17:21:39+00:00"
+    },
+    {
+      "title": "Vector potential",
+      "filename": "Vector_potential.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Vector_potential",
+      "generated_at": "2026-09-11T06:09:15+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|385a48324c04403a36385004304c3a3450324c011701dcc1dcc1dc0a|40792578",
-    "Category:Arcade video games": "page|422a2e3207360450383204302a4c3e042a3632011601dcc1dcc3dcc2dc06|2037499",
-    "Category:Video game franchises": "page|342a2c52402a044446542a042e4c5a4e502a40403a4e073604343a442a4004342a44502a4e5a0306342a2c52402a044446542a042e4c5a4e502a40403a4e04343a442a4004342a44502a4e5a0125250c01dcc0dcc2dcbbdcc1dcbfdcc0dcc2dcbcdcc1dc0a|5070173",
+    "Category:Indie games": "page|3c46524c44325a0409920f53a204543a30324604362a42320994011a01dc19|27730446",
+    "Category:Arcade video games": "page|463434044c462a30042e382a404032443632011601dcc3dcc2dc0c|6216408",
+    "Category:Video game franchises": "page|3a442e4c32303a2c403204422a2e383a443206045038320306503832043a442e4c32303a2c403204422a2e383a443201251101dcbcdcbedcc3dcc3dcbcdc0a|575221",
     "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }

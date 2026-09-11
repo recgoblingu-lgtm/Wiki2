@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>MIME - Wiki2</title>
-  <meta name="description" content="Multipurpose Internet Mail Extensions (MIME) is a standard that extends the format of email messages to support text in character sets other than ASCII, as well as attachments of audio, video, images, and application programs. Message bodie">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/MIME.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="MIME - Wiki2">
-  <meta property="og:description" content="Multipurpose Internet Mail Extensions (MIME) is a standard that extends the format of email messages to support text in character sets other than ASCII, as well as attachments of audio, video, images, and application programs. Message bodie">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/MIME.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="MIME - Wiki2">
-  <meta name="twitter:description" content="Multipurpose Internet Mail Extensions (MIME) is a standard that extends the format of email messages to support text in character sets other than ASCII, as well as attachments of audio, video, images, and application programs. Message bodie">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>MIME - Wiki2</title>
+<meta content="Multipurpose Internet Mail Extensions (MIME) is a standard that extends the format of email messages to support text in character sets other than ASCII, as well as attachments of audio, video, images, and application programs. Message bodie" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/MIME.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="MIME" property="og:title"/>
+<meta content="MIME is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/MIME.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="MIME" name="twitter:title"/>
+<meta content="MIME is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>MIME</h1>
-    <p><b>MIME</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>Multipurpose Internet Mail Extensions (MIME) is a standard that extends the format of email messages to support text in character sets other than ASCII, as well as attachments of audio, video, images, and application programs. Message bodies may consist of multiple parts, and header information may be specified in non-ASCII character sets. Email messages with MIME formatting are typically transmitted with standard protocols, such as the Simple Mail Transfer Protocol (SMTP), the Post Office Protocol (POP), and the Internet Message Access Protocol (IMAP).</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>Multipurpose Internet Mail Extensions ( MIME ) is a standard that extends the format of email messages to support text in character sets other than ASCII , as well as attachments of audio, video, images, and application programs. Message bodies may consist of multiple parts, and header information may be specified in non-ASCII character sets. Email messages with MIME formatting are typically transmitted with standard protocols, such as the Simple Mail Transfer Protocol (SMTP), the Post Office Protocol (POP), and the Internet Message Access Protocol (IMAP). MIME is an Internet standard – specified in the following request for comments (RFC) publications: RFC 2045 , RFC 2046 , RFC 2047 , RFC 4288 , RFC 4289 and RFC 2049 . The integration with SMTP email is specified in RFC 1521 and RFC 1522 . Although the MIME formalism was designed mainly for SMTP, its content types are also important in other communication protocols . In the Hypertext Transfer Protocol (HTTP) for the World Wide Web , servers insert a MIME header field at the beginning of any Web transmission. Clients use the content type header to select an appropriate viewer application for the type of data indicated.</p>
-    <hr>
-    <h2>History</h2>
-    <p>MIME originated from the Andrew Messaging System, which was part of Andrew Project developed at Carnegie Mellon University (CMU), as a cross-platform alternative to the Andrew-specific data format.</p>
-    <hr>
-    <h2>MIME-Version</h2>
-    <p>The presence of this header field indicates the message is MIME-formatted. The value is typically &quot;1.0&quot;. The field appears as follows: According to MIME co-creator Nathaniel Borenstein , the version number was introduced to permit changes to the MIME protocol in subsequent versions. However, Borenstein admitted short-comings in the specification that hindered the implementation of this feature: We did not adequately specify how to handle a future MIME version. ... So if you write something that knows 1.0, what should you do if you encounter 2.0 or 1.1? I sort of thought it was obvious but it turned out everyone implemented that in different ways. And the result is that it would be just about impossible for the Internet to ever define a 2.0 or a 1.1.</p>
-    <hr>
-    <h2>Content-Disposition</h2>
-    <p>The original MIME specifications only described the structure of mail messages. They did not address the issue of presentation styles. The content-disposition header field was added in RFC 2183 to specify the presentation style. A MIME part can have: In addition to the presentation style, the field Content-Disposition also provides parameters for specifying the name of the file, the creation date and modification date, which can be used by the reader&#x27;s mail user agent to store the attachment. The following example is taken from RFC 2183, where the header field is defined: The filename may be encoded as defined in RFC 2231. As of 2010, a majority of mail user agents did not follow this prescription fully. The widely used Mozilla Thunderbird mail client ignores the content-disposition fields in the messages and uses independent algorithms for selecting the MIME parts to display automatically. Thunderbird prior to version 3 also sends out newly composed messages with inline content disposition for all MIME parts. Most users are unaware of how to set the content disposition to attachment . Many mail user agents also send messages with the file name in the name parameter of the content-type header instead of the filename parameter of the header field Content-Disposition . This practice is discouraged, as the file name should be specified either with the parameter filename , or with </p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Safita.html">Safita</a></li>
-      <li><a href="Sergei_Tiulpanov.html">Sergei Tiulpanov</a></li>
-      <li><a href="La_traviata.html">La traviata</a></li>
-      <li><a href="Michael_G_Turnbull.html">Michael G. Turnbull</a></li>
-      <li><a href="Knockin.html">Knockin</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/MIME">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 10, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>MIME</h1>
+<p><b>MIME</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>Multipurpose Internet Mail Extensions (MIME) is a standard that extends the format of email messages to support text in character sets other than ASCII, as well as attachments of audio, video, images, and application programs. Message bodies may consist of multiple parts, and header information may be specified in non-ASCII character sets. Email messages with MIME formatting are typically transmitted with standard protocols, such as the Simple Mail Transfer Protocol (SMTP), the Post Office Protocol (POP), and the Internet Message Access Protocol (IMAP).</p>
+<hr/>
+<h2>Background</h2>
+<p>Multipurpose Internet Mail Extensions ( MIME ) is a standard that extends the format of email messages to support text in character sets other than ASCII , as well as attachments of audio, video, images, and application programs. Message bodies may consist of multiple parts, and header information may be specified in non-ASCII character sets. Email messages with MIME formatting are typically transmitted with standard protocols, such as the Simple Mail Transfer Protocol (SMTP), the Post Office Protocol (POP), and the Internet Message Access Protocol (IMAP). MIME is an Internet standard – specified in the following request for comments (RFC) publications: RFC 2045 , RFC 2046 , RFC 2047 , RFC 4288 , RFC 4289 and RFC 2049 . The integration with SMTP email is specified in RFC 1521 and RFC 1522 . Although the MIME formalism was designed mainly for SMTP, its content types are also important in other communication protocols . In the Hypertext Transfer Protocol (HTTP) for the World Wide Web , servers insert a MIME header field at the beginning of any Web transmission. Clients use the content type header to select an appropriate viewer application for the type of data indicated.</p>
+<hr/>
+<h2>History</h2>
+<p>MIME originated from the Andrew Messaging System, which was part of Andrew Project developed at Carnegie Mellon University (CMU), as a cross-platform alternative to the Andrew-specific data format.</p>
+<hr/>
+<h2>MIME-Version</h2>
+<p>The presence of this header field indicates the message is MIME-formatted. The value is typically "1.0". The field appears as follows: According to MIME co-creator Nathaniel Borenstein , the version number was introduced to permit changes to the MIME protocol in subsequent versions. However, Borenstein admitted short-comings in the specification that hindered the implementation of this feature: We did not adequately specify how to handle a future MIME version. ... So if you write something that knows 1.0, what should you do if you encounter 2.0 or 1.1? I sort of thought it was obvious but it turned out everyone implemented that in different ways. And the result is that it would be just about impossible for the Internet to ever define a 2.0 or a 1.1.</p>
+<hr/>
+<h2>Content-Disposition</h2>
+<p>The original MIME specifications only described the structure of mail messages. They did not address the issue of presentation styles. The content-disposition header field was added in RFC 2183 to specify the presentation style. A MIME part can have: In addition to the presentation style, the field Content-Disposition also provides parameters for specifying the name of the file, the creation date and modification date, which can be used by the reader's mail user agent to store the attachment. The following example is taken from RFC 2183, where the header field is defined: The filename may be encoded as defined in RFC 2231. As of 2010, a majority of mail user agents did not follow this prescription fully. The widely used Mozilla Thunderbird mail client ignores the content-disposition fields in the messages and uses independent algorithms for selecting the MIME parts to display automatically. Thunderbird prior to version 3 also sends out newly composed messages with inline content disposition for all MIME parts. Most users are unaware of how to set the content disposition to attachment . Many mail user agents also send messages with the file name in the name parameter of the content-type header instead of the filename parameter of the header field Content-Disposition . This practice is discouraged, as the file name should be specified either with the parameter filename , or with </p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Safita.html">Safita</a></li>
+<li><a href="Sergei_Tiulpanov.html">Sergei Tiulpanov</a></li>
+<li><a href="La_traviata.html">La traviata</a></li>
+<li><a href="Michael_G_Turnbull.html">Michael G. Turnbull</a></li>
+<li><a href="Knockin.html">Knockin</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/MIME">Wikimedia article</a></small></p>
+<p><i>Last edited: September 10, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
