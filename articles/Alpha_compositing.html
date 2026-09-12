@@ -1,65 +1,66 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Alpha compositing - Wiki2</title>
-  <meta name="description" content="In computer graphics, alpha compositing or alpha blending is the process of combining one image with a background to create the appearance of partial or full transparency. It is often useful to render picture elements (pixels) in separate p">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Alpha_compositing.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Alpha compositing - Wiki2">
-  <meta property="og:description" content="In computer graphics, alpha compositing or alpha blending is the process of combining one image with a background to create the appearance of partial or full transparency. It is often useful to render picture elements (pixels) in separate p">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Alpha_compositing.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/9/94/Hue_alpha_falloff_with_logo.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Alpha compositing - Wiki2">
-  <meta name="twitter:description" content="In computer graphics, alpha compositing or alpha blending is the process of combining one image with a background to create the appearance of partial or full transparency. It is often useful to render picture elements (pixels) in separate p">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/9/94/Hue_alpha_falloff_with_logo.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Alpha compositing - Wiki2</title>
+<meta content="In computer graphics, alpha compositing or alpha blending is the process of combining one image with a background to create the appearance of partial or full transparency. It is often useful to render picture elements (pixels) in separate p" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Alpha_compositing.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Alpha compositing" property="og:title"/>
+<meta content="Alpha compositing is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Alpha_compositing.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/9/94/Hue_alpha_falloff_with_logo.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Alpha compositing" name="twitter:title"/>
+<meta content="Alpha compositing is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/9/94/Hue_alpha_falloff_with_logo.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Alpha compositing</h1>
-    <p><b>Alpha compositing</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In computer graphics, alpha compositing or alpha blending is the process of combining one image with a background to create the appearance of partial or full transparency. It is often useful to render picture elements (pixels) in separate passes or layers and then combine the resulting 2D images into a single, final image called the composite. Compositing is used extensively in film when combining computer-rendered image elements with live footage. Alpha blending is also used in 2D computer graphics to put rasterized foreground elements over a background.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Hue_alpha_falloff_with_logo.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Alpha compositing"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Mix_lazy.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Mix lazy.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Mix_precise.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Mix precise.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>In computer graphics , alpha compositing or alpha blending is the process of combining one image with a background to create the appearance of partial or full transparency . It is often useful to render picture elements (pixels) in separate passes or layers and then combine the resulting 2D images into a single, final image called the composite . Compositing is used extensively in film when combining computer-rendered image elements with live footage . Alpha blending is also used in 2D computer graphics to put rasterized foreground elements over a background. In order to combine the picture elements of the images correctly, it is necessary to keep an associated matte for each element in addition to its color. This matte layer contains the coverage information—the shape of the geometry being drawn—making it possible to distinguish between parts of the image where something was drawn and parts that are empty. Although the most basic operation of combining two images is to put one over the other, there are many operations, or blend modes , that are used.</p>
-    <hr>
-    <h2>History</h2>
-    <p>The concept of an alpha channel was introduced by Alvy Ray Smith and Ed Catmull in the late 1970s at the New York Institute of Technology Computer Graphics Lab . Bruce A. Wallace derived the same straight over operator based on a physical reflectance / transmittance model in 1981. A 1984 paper by Thomas Porter and Tom Duff introduced premultiplied alpha using a geometrical approach. The use of the term alpha is explained by Smith as follows: &quot;We called it that because of the classic linear interpolation formula that uses the Greek letter (alpha) to control the amount of interpolation between, in this case, two images A and B&quot;. That is, when compositing image A atop image B, the value of in the formula is taken directly from A&#x27;s alpha channel.</p>
-    <hr>
-    <h2>Description</h2>
-    <p>In a 2D image, a color combination is stored for each picture element (pixel), often a combination of red, green and blue ( RGB ). When alpha compositing is in use, each pixel has an additional numeric value stored in its alpha channel , with a value ranging from 0 to 1. A value of 0 means that the pixel is fully transparent and the color in the pixel beneath will show through. A value of 1 means that the pixel is fully opaque. With the existence of an alpha channel, it is possible to express compositing image operations using a compositing algebra . For example, given two images A and B , the most common compositing operation is to combine the images so that A appears in the foreground and B appears in the background. This can be expressed as A over B . In addition to over , Porter and Duff defined the compositing operators in , held out by (the phrase refers to holdout matting and is usually abbreviated out ), atop , and xor (and the reverse operators rover , rin , rout , and ratop ) from a consideration of choices in blending the colors of two pixels when their coverage is, conceptually, overlaid orthogonally: As an example, the over operator can be accomplished by applying the following formula to each pixel: Here , and stand for the color components of the pixels in the result of the &quot;over&quot;, image A, and image B respectively, applied to each color channel (red/green/blue) </p>
-    <hr>
-    <h2>Straight versus premultiplied</h2>
-    <p>If an alpha channel is used in an image, there are two common representations that are available: straight (unassociated) alpha and premultiplied (associated) alpha.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Abd_Al_Rahman_Al_Gillani.html">Abd Al-Rahman Al-Gillani</a></li>
-      <li><a href="Royal_British_Columbia_Museum.html">Royal British Columbia Museum</a></li>
-      <li><a href="Cooking_base.html">Cooking base</a></li>
-      <li><a href="ASCI_Red.html">ASCI Red</a></li>
-      <li><a href="Army_Ranger_Wing.html">Army Ranger Wing</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Alpha_compositing">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 12, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Alpha compositing</h1>
+<p><b>Alpha compositing</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In computer graphics, alpha compositing or alpha blending is the process of combining one image with a background to create the appearance of partial or full transparency. It is often useful to render picture elements (pixels) in separate passes or layers and then combine the resulting 2D images into a single, final image called the composite. Compositing is used extensively in film when combining computer-rendered image elements with live footage. Alpha blending is also used in 2D computer graphics to put rasterized foreground elements over a background.</p>
+<figure class="article-image"><img alt="Alpha compositing" src="https://upload.wikimedia.org/wikipedia/commons/9/94/Hue_alpha_falloff_with_logo.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Mix lazy.png" src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Mix_lazy.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Mix precise.png" src="https://upload.wikimedia.org/wikipedia/commons/9/98/Mix_precise.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>In computer graphics , alpha compositing or alpha blending is the process of combining one image with a background to create the appearance of partial or full transparency . It is often useful to render picture elements (pixels) in separate passes or layers and then combine the resulting 2D images into a single, final image called the composite . Compositing is used extensively in film when combining computer-rendered image elements with live footage . Alpha blending is also used in 2D computer graphics to put rasterized foreground elements over a background. In order to combine the picture elements of the images correctly, it is necessary to keep an associated matte for each element in addition to its color. This matte layer contains the coverage information—the shape of the geometry being drawn—making it possible to distinguish between parts of the image where something was drawn and parts that are empty. Although the most basic operation of combining two images is to put one over the other, there are many operations, or blend modes , that are used.</p>
+<hr/>
+<h2>History</h2>
+<p>The concept of an alpha channel was introduced by Alvy Ray Smith and Ed Catmull in the late 1970s at the New York Institute of Technology Computer Graphics Lab . Bruce A. Wallace derived the same straight over operator based on a physical reflectance / transmittance model in 1981. A 1984 paper by Thomas Porter and Tom Duff introduced premultiplied alpha using a geometrical approach. The use of the term alpha is explained by Smith as follows: "We called it that because of the classic linear interpolation formula that uses the Greek letter (alpha) to control the amount of interpolation between, in this case, two images A and B". That is, when compositing image A atop image B, the value of in the formula is taken directly from A's alpha channel.</p>
+<hr/>
+<h2>Description</h2>
+<p>In a 2D image, a color combination is stored for each picture element (pixel), often a combination of red, green and blue ( RGB ). When alpha compositing is in use, each pixel has an additional numeric value stored in its alpha channel , with a value ranging from 0 to 1. A value of 0 means that the pixel is fully transparent and the color in the pixel beneath will show through. A value of 1 means that the pixel is fully opaque. With the existence of an alpha channel, it is possible to express compositing image operations using a compositing algebra . For example, given two images A and B , the most common compositing operation is to combine the images so that A appears in the foreground and B appears in the background. This can be expressed as A over B . In addition to over , Porter and Duff defined the compositing operators in , held out by (the phrase refers to holdout matting and is usually abbreviated out ), atop , and xor (and the reverse operators rover , rin , rout , and ratop ) from a consideration of choices in blending the colors of two pixels when their coverage is, conceptually, overlaid orthogonally: As an example, the over operator can be accomplished by applying the following formula to each pixel: Here , and stand for the color components of the pixels in the result of the "over", image A, and image B respectively, applied to each color channel (red/green/blue) </p>
+<hr/>
+<h2>Straight versus premultiplied</h2>
+<p>If an alpha channel is used in an image, there are two common representations that are available: straight (unassociated) alpha and premultiplied (associated) alpha.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Abd_Al_Rahman_Al_Gillani.html">Abd Al-Rahman Al-Gillani</a></li>
+<li><a href="Royal_British_Columbia_Museum.html">Royal British Columbia Museum</a></li>
+<li><a href="Cooking_base.html">Cooking base</a></li>
+<li><a href="ASCI_Red.html">ASCI Red</a></li>
+<li><a href="Army_Ranger_Wing.html">Army Ranger Wing</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Alpha_compositing">Wikimedia article</a></small></p>
+<p><i>Last edited: September 12, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

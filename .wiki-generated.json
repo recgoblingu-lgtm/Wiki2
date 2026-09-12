@@ -68210,12 +68210,17 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Pierogi",
       "generated_at": "2026-09-12T05:52:38+00:00"
+    },
+    {
+      "title": "Nigel Waterson",
+      "filename": "Nigel_Waterson.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Nigel_Waterson",
+      "generated_at": "2026-09-12T09:35:44+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|4c46443a44040992543a30324604362a42320994011601dc15|46780329",
-    "Category:Arcade video games": "page|383a423a504e52044446042a3a484c3a011401dcbcdcc5dc06|76155525",
-    "Category:Video game franchises": "page|5a464e383a040992543a30324604362a4232044e324c3a324e0994011d01dc1c|30918076",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
+    "Category:Indie games": "page|4e32585a042c4c52502a403206045038320306503832044e32585a042c4c52502a403201250501dcc2dcbedcc3dcc3dcc2dc0a|53759283",
+    "Category:Arcade video games": "page|422a2e3207360450383204302a4c3e042a3632011601dcc1dcc3dcc2dc06|2037499"
   }
 }
