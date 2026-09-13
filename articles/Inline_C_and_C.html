@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Inline (C and C++) - Wiki2</title>
-  <meta name="description" content="In the C and C++ programming languages, an inline function is one qualified with the keyword inline; this serves two purposes:It serves as a compiler directive that suggests that the compiler substitute the body of the function inline by pe">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Inline_C_and_C.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Inline (C and C++) - Wiki2">
-  <meta property="og:description" content="In the C and C++ programming languages, an inline function is one qualified with the keyword inline; this serves two purposes:It serves as a compiler directive that suggests that the compiler substitute the body of the function inline by pe">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Inline_C_and_C.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Inline (C and C++) - Wiki2">
-  <meta name="twitter:description" content="In the C and C++ programming languages, an inline function is one qualified with the keyword inline; this serves two purposes:It serves as a compiler directive that suggests that the compiler substitute the body of the function inline by pe">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Inline (C and C++) - Wiki2</title>
+<meta content="In the C and C++ programming languages, an inline function is one qualified with the keyword inline; this serves two purposes:It serves as a compiler directive that suggests that the compiler substitute the body of the function inline by pe" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Inline_C_and_C.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Inline (C and C++)" property="og:title"/>
+<meta content="Inline (C and C++) is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Inline_C_and_C.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Inline (C and C++)" name="twitter:title"/>
+<meta content="Inline (C and C++) is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Inline (C and C++)</h1>
-    <p><b>Inline (C and C++)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In the C and C++ programming languages, an inline function is one qualified with the keyword inline; this serves two purposes:It serves as a compiler directive that suggests that the compiler substitute the body of the function inline by performing inline expansion, i.e. by inserting the function code at the address of each function call, thereby saving the overhead of a function call. In this respect it is analogous to the register storage class specifier, which similarly provides an optimization hint. The second purpose of inline is to change linkage behavior. This is necessary due to the C/C++ separate compilation + linkage model, specifically because the definition (body) of the function must be duplicated in all translation units where it is used, to allow inlining during compiling, which, if the function has external linkage, causes a collision during linking. C and C++ resolve this in different ways.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In the C and C++ programming languages , an inline function is one qualified with the keyword inline ; this serves two purposes:</p>
-    <hr>
-    <h2>Example</h2>
-    <p>An inline function can be written in C or C++ like this: Then, a statement such as the following: may be translated into (if the compiler decides to do the inlining, which typically requires optimization to be enabled): When implementing a sorting algorithm doing lots of swaps, this can increase the execution speed.</p>
-    <hr>
-    <h2>Standard support</h2>
-    <p>C++ and C99 , but not its predecessors K&amp;R C and C89 , have support for inline functions, though with different semantics. In both cases, inline does not force inlining; the compiler is free to choose not to inline the function at all, or only in some cases. Different compilers vary in how complex a function they can manage to inline. Mainstream C++ compilers like Microsoft Visual C++ and GCC support an option that lets the compilers automatically inline any suitable function, even those not marked as inline functions. However, simply omitting the inline keyword to let the compiler make all inlining decisions is not possible, since the linker will then complain about duplicate definitions in different translation units. This is because inline not only gives the compiler a hint that the function should be inlined, it also has an effect on whether the compiler will generate a callable out-of-line copy of the function (see storage classes of inline functions ).</p>
-    <hr>
-    <h2>Nonstandard extensions</h2>
-    <p>GNU C , as part of the dialect gnu89 that it offers, has support for inline as an extension to C89. However, the semantics differ from both those of C++ and C99. armcc in C90 mode also offers inline as a non-standard extension, with semantics different from gnu89 and C99. Some implementations provide a means by which to force the compiler to inline a function, usually by means of implementation-specific declaration specifiers: Indiscriminate uses of that can result in larger code (bloated executable file), minimal or no performance gain, and in some cases even a loss in performance. Moreover, the compiler cannot inline the function in all circumstances, even when inlining is forced; in this case both gcc and Visual C++ generate warnings. Forcing inlining is useful if: For code portability, the following preprocessor directives may be used:</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Smolenskaya_Filyovskaya_line.html">Smolenskaya (Filyovskaya line)</a></li>
-      <li><a href="Greater_Worcester_Land_Trust.html">Greater Worcester Land Trust</a></li>
-      <li><a href="George_Ellery_Hale.html">George Ellery Hale</a></li>
-      <li><a href="Geta_footwear.html">Geta (footwear)</a></li>
-      <li><a href="Yeovil.html">Yeovil</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Inline_(C_and_C%2B%2B)">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 13, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Inline (C and C++)</h1>
+<p><b>Inline (C and C++)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In the C and C++ programming languages, an inline function is one qualified with the keyword inline; this serves two purposes:It serves as a compiler directive that suggests that the compiler substitute the body of the function inline by performing inline expansion, i.e. by inserting the function code at the address of each function call, thereby saving the overhead of a function call. In this respect it is analogous to the register storage class specifier, which similarly provides an optimization hint. The second purpose of inline is to change linkage behavior. This is necessary due to the C/C++ separate compilation + linkage model, specifically because the definition (body) of the function must be duplicated in all translation units where it is used, to allow inlining during compiling, which, if the function has external linkage, causes a collision during linking. C and C++ resolve this in different ways.</p>
+<hr/>
+<h2>Background</h2>
+<p>In the C and C++ programming languages , an inline function is one qualified with the keyword inline ; this serves two purposes:</p>
+<hr/>
+<h2>Example</h2>
+<p>An inline function can be written in C or C++ like this: Then, a statement such as the following: may be translated into (if the compiler decides to do the inlining, which typically requires optimization to be enabled): When implementing a sorting algorithm doing lots of swaps, this can increase the execution speed.</p>
+<hr/>
+<h2>Standard support</h2>
+<p>C++ and C99 , but not its predecessors K&amp;R C and C89 , have support for inline functions, though with different semantics. In both cases, inline does not force inlining; the compiler is free to choose not to inline the function at all, or only in some cases. Different compilers vary in how complex a function they can manage to inline. Mainstream C++ compilers like Microsoft Visual C++ and GCC support an option that lets the compilers automatically inline any suitable function, even those not marked as inline functions. However, simply omitting the inline keyword to let the compiler make all inlining decisions is not possible, since the linker will then complain about duplicate definitions in different translation units. This is because inline not only gives the compiler a hint that the function should be inlined, it also has an effect on whether the compiler will generate a callable out-of-line copy of the function (see storage classes of inline functions ).</p>
+<hr/>
+<h2>Nonstandard extensions</h2>
+<p>GNU C , as part of the dialect gnu89 that it offers, has support for inline as an extension to C89. However, the semantics differ from both those of C++ and C99. armcc in C90 mode also offers inline as a non-standard extension, with semantics different from gnu89 and C99. Some implementations provide a means by which to force the compiler to inline a function, usually by means of implementation-specific declaration specifiers: Indiscriminate uses of that can result in larger code (bloated executable file), minimal or no performance gain, and in some cases even a loss in performance. Moreover, the compiler cannot inline the function in all circumstances, even when inlining is forced; in this case both gcc and Visual C++ generate warnings. Forcing inlining is useful if: For code portability, the following preprocessor directives may be used:</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Smolenskaya_Filyovskaya_line.html">Smolenskaya (Filyovskaya line)</a></li>
+<li><a href="Greater_Worcester_Land_Trust.html">Greater Worcester Land Trust</a></li>
+<li><a href="George_Ellery_Hale.html">George Ellery Hale</a></li>
+<li><a href="Geta_footwear.html">Geta (footwear)</a></li>
+<li><a href="Yeovil.html">Yeovil</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Inline_(C_and_C%2B%2B)">Wikimedia article</a></small></p>
+<p><i>Last edited: September 13, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

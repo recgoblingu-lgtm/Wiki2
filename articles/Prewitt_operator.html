@@ -1,61 +1,62 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Prewitt operator - Wiki2</title>
-  <meta name="description" content="The Prewitt operator is used in image processing, particularly within edge detection algorithms. Technically, it is a discrete differentiation operator, computing an approximation of the gradient of the image intensity function. At each poi">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Prewitt_operator.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Prewitt operator - Wiki2">
-  <meta property="og:description" content="The Prewitt operator is used in image processing, particularly within edge detection algorithms. Technically, it is a discrete differentiation operator, computing an approximation of the gradient of the image intensity function. At each poi">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Prewitt_operator.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/3/3f/Bikesgray.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Prewitt operator - Wiki2">
-  <meta name="twitter:description" content="The Prewitt operator is used in image processing, particularly within edge detection algorithms. Technically, it is a discrete differentiation operator, computing an approximation of the gradient of the image intensity function. At each poi">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/3/3f/Bikesgray.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Prewitt operator - Wiki2</title>
+<meta content="The Prewitt operator is used in image processing, particularly within edge detection algorithms. Technically, it is a discrete differentiation operator, computing an approximation of the gradient of the image intensity function. At each poi" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Prewitt_operator.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Prewitt operator" property="og:title"/>
+<meta content="Prewitt operator is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Prewitt_operator.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/3/3f/Bikesgray.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Prewitt operator" name="twitter:title"/>
+<meta content="Prewitt operator is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/3/3f/Bikesgray.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Prewitt operator</h1>
-    <p><b>Prewitt operator</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>The Prewitt operator is used in image processing, particularly within edge detection algorithms. Technically, it is a discrete differentiation operator, computing an approximation of the gradient of the image intensity function. At each point in the image, the result of the Prewitt operator is either the corresponding gradient vector or the norm of this vector. The Prewitt operator is based on convolving the image with a small, separable, and integer valued filter in horizontal and vertical directions and is therefore relatively inexpensive in terms of computations like Sobel and Kayyali operators. On the other hand, the gradient approximation which it produces is relatively crude, in particular for high frequency variations in the image. The Prewitt operator was developed by Judith M. S. Prewitt.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Bikesgray.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Bikesgray.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Bikesgray_prewitt.JPG?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Bikesgray prewitt.JPG"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>The Prewitt operator is used in image processing , particularly within edge detection algorithms. Technically, it is a discrete differentiation operator , computing an approximation of the gradient of the image intensity function. At each point in the image, the result of the Prewitt operator is either the corresponding gradient vector or the norm of this vector. The Prewitt operator is based on convolving the image with a small, separable, and integer valued filter in horizontal and vertical directions and is therefore relatively inexpensive in terms of computations like Sobel and Kayyali operators. On the other hand, the gradient approximation which it produces is relatively crude, in particular for high frequency variations in the image. The Prewitt operator was developed by Judith M. S. Prewitt .</p>
-    <hr>
-    <h2>Simplified description</h2>
-    <p>In simple terms, the operator calculates the gradient of the image intensity at each point, giving the direction of the largest possible increase from light to dark and the rate of change in that direction. The result therefore shows how &quot;abruptly&quot; or &quot;smoothly&quot; the image changes at that point, and therefore how likely it is that part of the image represents an edge , as well as how that edge is likely to be oriented. In practice, the magnitude (likelihood of an edge) calculation is more reliable and easier to interpret than the direction calculation. Mathematically, the gradient of a two-variable function (here the image intensity function) is at each image point a 2D vector with the components given by the derivatives in the horizontal and vertical directions. At each image point, the gradient vector points in the direction of largest possible intensity increase, and the length of the gradient vector corresponds to the rate of change in that direction. This implies that the result of the Prewitt operator at an image point which is in a region of constant image intensity is a zero vector and at a point on an edge is a vector which points across the edge, from darker to brighter values.</p>
-    <hr>
-    <h2>Formulation</h2>
-    <p>Mathematically, the operator uses two 3×3 kernels which are convolved with the original image to calculate approximations of the derivatives - one for horizontal changes, and one for vertical. If we define as the source image, and and are two images which at each point contain the horizontal and vertical derivative approximations, the latter are computed as: where here denotes the 2-dimensional convolution operation. Since the Prewitt kernels can be decomposed as the products of an averaging and a differentiation kernel, they compute the gradient with smoothing. Therefore, it is a separable filter . For example, can be written as The x -coordinate is defined here as increasing in the &quot;left&quot;-direction, and the y -coordinate is defined as increasing in the &quot;up&quot;-direction. At each point in the image, the resulting gradient approximations can be combined to give the gradient magnitude, using: Using this information, we can also calculate the gradient&#x27;s direction: where, for example, Θ is 0 for a vertical edge which is darker on the right side.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Elgin_Oklahoma.html">Elgin, Oklahoma</a></li>
-      <li><a href="Holker_Hall.html">Holker Hall</a></li>
-      <li><a href="Intercollegiate_Center_for_Classical_Studies.html">Intercollegiate Center for Classical Studies</a></li>
-      <li><a href="Katerini.html">Katerini</a></li>
-      <li><a href="Omaha_class_cruiser.html">Omaha-class cruiser</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Prewitt_operator">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 13, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Prewitt operator</h1>
+<p><b>Prewitt operator</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>The Prewitt operator is used in image processing, particularly within edge detection algorithms. Technically, it is a discrete differentiation operator, computing an approximation of the gradient of the image intensity function. At each point in the image, the result of the Prewitt operator is either the corresponding gradient vector or the norm of this vector. The Prewitt operator is based on convolving the image with a small, separable, and integer valued filter in horizontal and vertical directions and is therefore relatively inexpensive in terms of computations like Sobel and Kayyali operators. On the other hand, the gradient approximation which it produces is relatively crude, in particular for high frequency variations in the image. The Prewitt operator was developed by Judith M. S. Prewitt.</p>
+<figure class="article-image"><img alt="Bikesgray.jpg" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Bikesgray.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Bikesgray prewitt.JPG" src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Bikesgray_prewitt.JPG?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>The Prewitt operator is used in image processing , particularly within edge detection algorithms. Technically, it is a discrete differentiation operator , computing an approximation of the gradient of the image intensity function. At each point in the image, the result of the Prewitt operator is either the corresponding gradient vector or the norm of this vector. The Prewitt operator is based on convolving the image with a small, separable, and integer valued filter in horizontal and vertical directions and is therefore relatively inexpensive in terms of computations like Sobel and Kayyali operators. On the other hand, the gradient approximation which it produces is relatively crude, in particular for high frequency variations in the image. The Prewitt operator was developed by Judith M. S. Prewitt .</p>
+<hr/>
+<h2>Simplified description</h2>
+<p>In simple terms, the operator calculates the gradient of the image intensity at each point, giving the direction of the largest possible increase from light to dark and the rate of change in that direction. The result therefore shows how "abruptly" or "smoothly" the image changes at that point, and therefore how likely it is that part of the image represents an edge , as well as how that edge is likely to be oriented. In practice, the magnitude (likelihood of an edge) calculation is more reliable and easier to interpret than the direction calculation. Mathematically, the gradient of a two-variable function (here the image intensity function) is at each image point a 2D vector with the components given by the derivatives in the horizontal and vertical directions. At each image point, the gradient vector points in the direction of largest possible intensity increase, and the length of the gradient vector corresponds to the rate of change in that direction. This implies that the result of the Prewitt operator at an image point which is in a region of constant image intensity is a zero vector and at a point on an edge is a vector which points across the edge, from darker to brighter values.</p>
+<hr/>
+<h2>Formulation</h2>
+<p>Mathematically, the operator uses two 3×3 kernels which are convolved with the original image to calculate approximations of the derivatives - one for horizontal changes, and one for vertical. If we define as the source image, and and are two images which at each point contain the horizontal and vertical derivative approximations, the latter are computed as: where here denotes the 2-dimensional convolution operation. Since the Prewitt kernels can be decomposed as the products of an averaging and a differentiation kernel, they compute the gradient with smoothing. Therefore, it is a separable filter . For example, can be written as The x -coordinate is defined here as increasing in the "left"-direction, and the y -coordinate is defined as increasing in the "up"-direction. At each point in the image, the resulting gradient approximations can be combined to give the gradient magnitude, using: Using this information, we can also calculate the gradient's direction: where, for example, Θ is 0 for a vertical edge which is darker on the right side.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Elgin_Oklahoma.html">Elgin, Oklahoma</a></li>
+<li><a href="Holker_Hall.html">Holker Hall</a></li>
+<li><a href="Intercollegiate_Center_for_Classical_Studies.html">Intercollegiate Center for Classical Studies</a></li>
+<li><a href="Katerini.html">Katerini</a></li>
+<li><a href="Omaha_class_cruiser.html">Omaha-class cruiser</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Prewitt_operator">Wikimedia article</a></small></p>
+<p><i>Last edited: September 13, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

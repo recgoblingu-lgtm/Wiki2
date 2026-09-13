@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Canonical correlation - Wiki2</title>
-  <meta name="description" content="In statistics, canonical-correlation analysis (CCA), also called canonical variates analysis, is a way of inferring information from cross-covariance matrices. If we have two vectors X = (X1, ..., Xn) and Y = (Y1, ..., Ym) of random variabl">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Canonical_correlation.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Canonical correlation - Wiki2">
-  <meta property="og:description" content="In statistics, canonical-correlation analysis (CCA), also called canonical variates analysis, is a way of inferring information from cross-covariance matrices. If we have two vectors X = (X1, ..., Xn) and Y = (Y1, ..., Ym) of random variabl">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Canonical_correlation.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Canonical correlation - Wiki2">
-  <meta name="twitter:description" content="In statistics, canonical-correlation analysis (CCA), also called canonical variates analysis, is a way of inferring information from cross-covariance matrices. If we have two vectors X = (X1, ..., Xn) and Y = (Y1, ..., Ym) of random variabl">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Canonical correlation - Wiki2</title>
+<meta content="In statistics, canonical-correlation analysis (CCA), also called canonical variates analysis, is a way of inferring information from cross-covariance matrices. If we have two vectors X = (X1, ..., Xn) and Y = (Y1, ..., Ym) of random variabl" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Canonical_correlation.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Canonical correlation" property="og:title"/>
+<meta content="Canonical correlation is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Canonical_correlation.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Canonical correlation" name="twitter:title"/>
+<meta content="Canonical correlation is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Canonical correlation</h1>
-    <p><b>Canonical correlation</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In statistics, canonical-correlation analysis (CCA), also called canonical variates analysis, is a way of inferring information from cross-covariance matrices. If we have two vectors X = (X1, ..., Xn) and Y = (Y1, ..., Ym) of random variables, and there are correlations among the variables, then canonical-correlation analysis will find linear combinations of X and Y that have a maximum correlation with each other. T. R. Knapp notes that &quot;virtually all of the commonly encountered parametric tests of significance can be treated as special cases of canonical-correlation analysis, which is the general procedure for investigating the relationships between two sets of variables.&quot; The method was first introduced by Harold Hotelling in 1936, although in the context of angles between flats the mathematical concept was published by Camille Jordan in 1875.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In statistics , canonical-correlation analysis ( CCA ), also called canonical variates analysis , is a way of inferring information from cross-covariance matrices . If we have two vectors X = ( X 1 , ..., X n ) and Y = ( Y 1 , ..., Y m ) of random variables , and there are correlations among the variables, then canonical-correlation analysis will find linear combinations of X and Y that have a maximum correlation with each other. T. R. Knapp notes that &quot;virtually all of the commonly encountered parametric tests of significance can be treated as special cases of canonical-correlation analysis, which is the general procedure for investigating the relationships between two sets of variables.&quot; The method was first introduced by Harold Hotelling in 1936, although in the context of angles between flats the mathematical concept was published by Camille Jordan in 1875. CCA is important in multivariate statistics and multi-view learning, and a number of interpretations and extensions have been proposed, such as probabilistic CCA, sparse CCA, multi-view CCA, deep CCA, and DeepGeoCCA. Literature on the subject can on occasion be inconsistent with notation. These inconsistencies are noted in this article to help the reader make best use of the existing literature and techniques available. Like its sister method PCA , CCA can be viewed in population form (corresponding to random vectors and</p>
-    <hr>
-    <h2>Population CCA definition via correlations</h2>
-    <p>Given two column vectors and of random variables with finite second moments , one may define the cross-covariance to be the matrix whose entry is the covariance . In practice, we would estimate the covariance matrix based on sampled data from and (i.e. from a pair of data matrices). Canonical-correlation analysis seeks a sequence of vectors ( ) and ( ) such that the random variables and maximize the correlation . The (scalar) random variables and are the first pair of canonical variables . Then one seeks vectors maximizing the same correlation subject to the constraint that they are to be uncorrelated with the first pair of canonical variables; this gives the second pair of canonical variables . This procedure may be continued up to times. The sets of vectors are called canonical directions or weight vectors or simply weights . The &#x27;dual&#x27; sets of vectors are called canonical loading vectors or simply loadings ; these are often more straightforward to interpret than the weights.</p>
-    <hr>
-    <h2>Derivation</h2>
-    <p>Let be the cross-covariance matrix for any pair of (vector-shaped) random variables and . The target function to maximize is The first step is to define a change of basis and define where and can be obtained from the eigen-decomposition (or by diagonalization ): and Thus By the Cauchy–Schwarz inequality , There is equality if the vectors and are collinear. In addition, the maximum of correlation is attained if is the eigenvector with the maximum eigenvalue for the matrix (see Rayleigh quotient ). The subsequent pairs are found by using eigenvalues of decreasing magnitudes. Orthogonality is guaranteed by the symmetry of the correlation matrices. Another way of viewing this computation is that and are the left and right singular vectors of the correlation matrix of X and Y corresponding to the highest singular value.</p>
-    <hr>
-    <h2>Solution</h2>
-    <p>The solution is therefore: Reciprocally, there is also: Reversing the change of coordinates, we have that The canonical variables are defined by:</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Trespass_on_the_case.html">Trespass on the case</a></li>
-      <li><a href="Kamioka_Liquid_Scintillator_Antineutrino_Detector.html">Kamioka Liquid Scintillator Antineutrino Detector</a></li>
-      <li><a href="Epicurus.html">Epicurus</a></li>
-      <li><a href="Academy_Award_for_Best_Makeup_and_Hairstyling.html">Academy Award for Best Makeup and Hairstyling</a></li>
-      <li><a href="VSE_operating_system.html">VSE (operating system)</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Canonical_correlation">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 13, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Canonical correlation</h1>
+<p><b>Canonical correlation</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In statistics, canonical-correlation analysis (CCA), also called canonical variates analysis, is a way of inferring information from cross-covariance matrices. If we have two vectors X = (X1, ..., Xn) and Y = (Y1, ..., Ym) of random variables, and there are correlations among the variables, then canonical-correlation analysis will find linear combinations of X and Y that have a maximum correlation with each other. T. R. Knapp notes that "virtually all of the commonly encountered parametric tests of significance can be treated as special cases of canonical-correlation analysis, which is the general procedure for investigating the relationships between two sets of variables." The method was first introduced by Harold Hotelling in 1936, although in the context of angles between flats the mathematical concept was published by Camille Jordan in 1875.</p>
+<hr/>
+<h2>Background</h2>
+<p>In statistics , canonical-correlation analysis ( CCA ), also called canonical variates analysis , is a way of inferring information from cross-covariance matrices . If we have two vectors X = ( X 1 , ..., X n ) and Y = ( Y 1 , ..., Y m ) of random variables , and there are correlations among the variables, then canonical-correlation analysis will find linear combinations of X and Y that have a maximum correlation with each other. T. R. Knapp notes that "virtually all of the commonly encountered parametric tests of significance can be treated as special cases of canonical-correlation analysis, which is the general procedure for investigating the relationships between two sets of variables." The method was first introduced by Harold Hotelling in 1936, although in the context of angles between flats the mathematical concept was published by Camille Jordan in 1875. CCA is important in multivariate statistics and multi-view learning, and a number of interpretations and extensions have been proposed, such as probabilistic CCA, sparse CCA, multi-view CCA, deep CCA, and DeepGeoCCA. Literature on the subject can on occasion be inconsistent with notation. These inconsistencies are noted in this article to help the reader make best use of the existing literature and techniques available. Like its sister method PCA , CCA can be viewed in population form (corresponding to random vectors and</p>
+<hr/>
+<h2>Population CCA definition via correlations</h2>
+<p>Given two column vectors and of random variables with finite second moments , one may define the cross-covariance to be the matrix whose entry is the covariance . In practice, we would estimate the covariance matrix based on sampled data from and (i.e. from a pair of data matrices). Canonical-correlation analysis seeks a sequence of vectors ( ) and ( ) such that the random variables and maximize the correlation . The (scalar) random variables and are the first pair of canonical variables . Then one seeks vectors maximizing the same correlation subject to the constraint that they are to be uncorrelated with the first pair of canonical variables; this gives the second pair of canonical variables . This procedure may be continued up to times. The sets of vectors are called canonical directions or weight vectors or simply weights . The 'dual' sets of vectors are called canonical loading vectors or simply loadings ; these are often more straightforward to interpret than the weights.</p>
+<hr/>
+<h2>Derivation</h2>
+<p>Let be the cross-covariance matrix for any pair of (vector-shaped) random variables and . The target function to maximize is The first step is to define a change of basis and define where and can be obtained from the eigen-decomposition (or by diagonalization ): and Thus By the Cauchy–Schwarz inequality , There is equality if the vectors and are collinear. In addition, the maximum of correlation is attained if is the eigenvector with the maximum eigenvalue for the matrix (see Rayleigh quotient ). The subsequent pairs are found by using eigenvalues of decreasing magnitudes. Orthogonality is guaranteed by the symmetry of the correlation matrices. Another way of viewing this computation is that and are the left and right singular vectors of the correlation matrix of X and Y corresponding to the highest singular value.</p>
+<hr/>
+<h2>Solution</h2>
+<p>The solution is therefore: Reciprocally, there is also: Reversing the change of coordinates, we have that The canonical variables are defined by:</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Trespass_on_the_case.html">Trespass on the case</a></li>
+<li><a href="Kamioka_Liquid_Scintillator_Antineutrino_Detector.html">Kamioka Liquid Scintillator Antineutrino Detector</a></li>
+<li><a href="Epicurus.html">Epicurus</a></li>
+<li><a href="Academy_Award_for_Best_Makeup_and_Hairstyling.html">Academy Award for Best Makeup and Hairstyling</a></li>
+<li><a href="VSE_operating_system.html">VSE (operating system)</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Canonical_correlation">Wikimedia article</a></small></p>
+<p><i>Last edited: September 13, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
