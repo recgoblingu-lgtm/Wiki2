@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simply typed lambda calculus - Wiki2</title>
+  <meta name="description" content="The simply typed lambda calculus, a form of type theory, is a typed interpretation of the lambda calculus with only one type constructor that builds function types. It is the canonical and simplest example of a typed lambda calculus. The si">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Simply_typed_lambda_calculus.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Simply typed lambda calculus - Wiki2">
+  <meta property="og:description" content="The simply typed lambda calculus, a form of type theory, is a typed interpretation of the lambda calculus with only one type constructor that builds function types. It is the canonical and simplest example of a typed lambda calculus. The si">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Simply_typed_lambda_calculus.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Simply typed lambda calculus - Wiki2">
+  <meta name="twitter:description" content="The simply typed lambda calculus, a form of type theory, is a typed interpretation of the lambda calculus with only one type constructor that builds function types. It is the canonical and simplest example of a typed lambda calculus. The si">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Simply typed lambda calculus</h1>
+    <p><b>Simply typed lambda calculus</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>The simply typed lambda calculus, a form of type theory, is a typed interpretation of the lambda calculus with only one type constructor that builds function types. It is the canonical and simplest example of a typed lambda calculus. The simply typed lambda calculus was originally introduced by Alonzo Church in 1940 as an attempt to avoid paradoxical use of the untyped lambda calculus.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>The simply typed lambda calculus ( ⁠ ⁠ ), a form of type theory , is a typed interpretation of the lambda calculus with only one type constructor ( ⁠ ⁠ ) that builds function types . It is the canonical and simplest example of a typed lambda calculus. The simply typed lambda calculus was originally introduced by Alonzo Church in 1940 as an attempt to avoid paradoxical use of the untyped lambda calculus . The term simple type is also used to refer to extensions of the simply typed lambda calculus with constructs such as products , coproducts or natural numbers ( System T ) or even full recursion (like PCF ). In contrast, systems that introduce polymorphic types (like System F ) or dependent types (like the Logical Framework ) are not considered simply typed . The simple types, except for full recursion, are still considered simple because the Church encodings of such structures can be done using only and suitable type variables, while polymorphism and dependency cannot.</p>
+    <hr>
+    <h2>Syntax</h2>
+    <p>In the 1930s Alonzo Church sought to use the logistic method : his lambda calculus , as a formal language based on symbolic expressions, consisted of a denumerably infinite series of axioms and variables, but also a finite set of primitive symbols, denoting abstraction and scope, as well as four constants: negation, disjunction, universal quantification, and selection respectively; and also, a finite set of rules I to VI. This finite set of rules included rule V modus ponens as well as IV and VI for substitution and generalization respectively. Rules I to III are known as alpha, beta, and eta conversion in the lambda calculus. Church sought to use English only as a syntax language (that is, a metamathematical language) for describing symbolic expressions with no interpretations. In 1940 Church settled on a subscript notation for denoting the type in a symbolic expression. In his presentation, Church used only two base types: for &quot;the type of propositions&quot; and for &quot;the type of individuals&quot;. The type has no term constants, whereas has one term constant. Frequently the calculus with only one base type, usually ⁠ ⁠ , is considered. The Greek letter subscripts ⁠ ⁠ , ⁠ ⁠ , etc. denote type variables; the parenthesized subscripted denotes the function type ⁠ ⁠ . Church 1940 p.58 used &#x27;arrow or ⁠ ⁠ &#x27; to denote stands for , or is an abbreviation for . By the 1970s stand-alone arrow nota</p>
+    <hr>
+    <h2>Typing rules</h2>
+    <p>To define the set of well-typed lambda terms of a given type, one defines a typing relation between terms and types. First, one introduces typing contexts , or typing environments , which are sets of typing assumptions. A typing assumption has the form ⁠ ⁠ , meaning variable has type ⁠ ⁠ . The typing relation indicates that is a term of type in context ⁠ ⁠ . In this case is said to be well-typed (having type ⁠ ⁠ ). Instances of the typing relation are called typing judgments . The validity of a typing judgment is shown by providing a typing derivation , constructed using typing rules (wherein the premises above the line allow us to derive the conclusion below the line). Simply typed lambda calculus uses these rules: In words, Examples of closed terms, i.e. terms typable in the empty context, are: These are the typed lambda calculus representations of the basic combinators of combinatory logic . Each type is assigned an order, a number ⁠ ⁠ . For base types, ⁠ ⁠ ; for function types, ⁠ ⁠ . That is, the order of a type measures the depth of the most left-nested arrow. Hence:</p>
+    <hr>
+    <h2>Intrinsic vs. extrinsic interpretations</h2>
+    <p>Broadly speaking, there are two different ways of assigning meaning to the simply typed lambda calculus, as to typed languages more generally, variously called intrinsic vs. extrinsic, ontological vs. semantical, or Church-style vs. Curry-style. An intrinsic semantics only assigns meaning to well-typed terms, or more precisely, assigns meaning directly to typing derivations. This has the effect that terms differing only by type annotations can nonetheless be assigned different meanings. For example, the identity term on integers and the identity term on Booleans may mean different things. (The classic intended interpretations are the identity function on integers and the identity function on Boolean values.) In contrast, an extrinsic semantics assigns meaning to terms regardless of typing, as they would be interpreted in an untyped language. In this view, and mean the same thing (i.e., the same thing as ⁠ ⁠ ). The distinction between intrinsic and extrinsic semantics is sometimes associated with the presence or absence of annotations on lambda abstractions, but strictly speaking this usage is imprecise. It is possible to define an extrinsic semantics on annotated terms simply by ignoring the types (i.e., through type erasure ), as it is possible to give an intrinsic semantics on unannotated terms when the types can be deduced from context (i.e., through type inference ). The es</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Alberta_Civil_Trial_Lawyers_Association.html">Alberta Civil Trial Lawyers Association</a></li>
+      <li><a href="Social_reality.html">Social reality</a></li>
+      <li><a href="Bridgewater_Township_Rice_County_Minnesota.html">Bridgewater Township, Rice County, Minnesota</a></li>
+      <li><a href="Lernmatrix.html">Lernmatrix</a></li>
+      <li><a href="HMS_Atheling.html">HMS Atheling</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 13, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

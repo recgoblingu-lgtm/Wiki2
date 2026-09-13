@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Baum–Welch algorithm - Wiki2</title>
+  <meta name="description" content="In electrical engineering, statistical computing and bioinformatics, the Baum–Welch algorithm is a special case of the expectation–maximization algorithm used to find the unknown parameters of a hidden Markov model (HMM). It makes use of th">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Baum_Welch_algorithm.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Baum–Welch algorithm - Wiki2">
+  <meta property="og:description" content="In electrical engineering, statistical computing and bioinformatics, the Baum–Welch algorithm is a special case of the expectation–maximization algorithm used to find the unknown parameters of a hidden Markov model (HMM). It makes use of th">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Baum_Welch_algorithm.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Baum–Welch algorithm - Wiki2">
+  <meta name="twitter:description" content="In electrical engineering, statistical computing and bioinformatics, the Baum–Welch algorithm is a special case of the expectation–maximization algorithm used to find the unknown parameters of a hidden Markov model (HMM). It makes use of th">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Baum–Welch algorithm</h1>
+    <p><b>Baum–Welch algorithm</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In electrical engineering, statistical computing and bioinformatics, the Baum–Welch algorithm is a special case of the expectation–maximization algorithm used to find the unknown parameters of a hidden Markov model (HMM). It makes use of the forward-backward algorithm to compute the statistics for the expectation step. The Baum–Welch algorithm, the primary method for inference in hidden Markov models, is numerically unstable due to its recursive calculation of joint probabilities. As the number of variables grows, these joint probabilities become increasingly small, leading to the forward recursions rapidly approaching values below machine precision.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>In electrical engineering , statistical computing and bioinformatics , the Baum–Welch algorithm is a special case of the expectation–maximization algorithm used to find the unknown parameters of a hidden Markov model (HMM). It makes use of the forward-backward algorithm to compute the statistics for the expectation step. The Baum–Welch algorithm, the primary method for inference in hidden Markov models, is numerically unstable due to its recursive calculation of joint probabilities. As the number of variables grows, these joint probabilities become increasingly small, leading to the forward recursions rapidly approaching values below machine precision.</p>
+    <hr>
+    <h2>History</h2>
+    <p>The Baum–Welch algorithm was named after its inventors Leonard E. Baum and Lloyd R. Welch . The algorithm and the Hidden Markov models were first described in a series of articles by Baum and his peers at the IDA Center for Communications Research, Princeton in the late 1960s and early 1970s. One of the first major applications of HMMs was to the field of speech processing . In the 1980s, HMMs were emerging as a useful tool in the analysis of biological systems and information, and in particular genetic information . They have since become an important tool in the probabilistic modeling of genomic sequences.</p>
+    <hr>
+    <h2>Description</h2>
+    <p>A hidden Markov model describes the joint probability of a collection of &quot; hidden &quot; and observed discrete random variables. It relies on the assumption that the i -th hidden variable given the ( i − 1)-th hidden variable is independent of previous hidden variables, and the current observation variables depend only on the current hidden state. The Baum–Welch algorithm uses the well known EM algorithm to find the maximum likelihood estimate of the parameters of a hidden Markov model given a set of observed feature vectors. Let be a discrete hidden random variable with possible values (i.e. We assume there are states in total). We assume the is independent of time , which leads to the definition of the time-independent stochastic transition matrix The initial state distribution (i.e. when ) is given by The observation variables can take one of possible values. We also assume the observation given the &quot;hidden&quot; state is time independent. The probability of a certain observation at time for state is given by Taking into account all the possible values of and , we obtain the matrix where belongs to all the possible states and belongs to all the observations. An observation sequence is given by . Thus we can describe a hidden Markov chain by . The Baum–Welch algorithm finds a local maximum for (i.e. the HMM parameters that maximize the probability of the observation).</p>
+    <hr>
+    <h2>Algorithm</h2>
+    <p>Set with random initial conditions. They can also be set using prior information about the parameters if it is available; this can speed up the algorithm and also steer it toward the desired local maximum. Let , the probability of seeing the observations and being in state at time . This is found recursively: Since this series converges exponentially to zero, the algorithm will numerically underflow for longer sequences. However, this can be avoided in a slightly modified algorithm by scaling in the forward and in the backward procedure below. Let that is the probability of the ending partial sequence given starting state at time . We calculate as, We can now calculate the temporary variables, according to Bayes&#x27; theorem : which is the probability of being in state at time given the observed sequence and the parameters which is the probability of being in state and at times and respectively given the observed sequence and parameters . The denominators of and are the same ; they represent the probability of making the observation given the parameters . The parameters of the hidden Markov model can now be updated: which is the expected frequency spent in state at time . which is the expected number of transitions from state i to state j compared to the expected total number of transitions starting in state i , including from state i to itself. The number of transitions starting i</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Upper_Merion_Township_Pennsylvania.html">Upper Merion Township, Pennsylvania</a></li>
+      <li><a href="Ratoath.html">Ratoath</a></li>
+      <li><a href="Negawatt_market.html">Negawatt market</a></li>
+      <li><a href="Westerville_Nebraska.html">Westerville, Nebraska</a></li>
+      <li><a href="UNESCO_Artist_for_Peace.html">UNESCO Artist for Peace</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Baum%E2%80%93Welch_algorithm">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 13, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
