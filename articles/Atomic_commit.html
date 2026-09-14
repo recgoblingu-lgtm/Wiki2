@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Atomic commit - Wiki2</title>
-  <meta name="description" content="In the field of computer science, an atomic commit is an operation that applies a set of distinct changes as a single operation. If the changes are applied, then the atomic commit is said to have succeeded. If there is a failure before the ">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Atomic_commit.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Atomic commit - Wiki2">
-  <meta property="og:description" content="In the field of computer science, an atomic commit is an operation that applies a set of distinct changes as a single operation. If the changes are applied, then the atomic commit is said to have succeeded. If there is a failure before the ">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Atomic_commit.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Atomic commit - Wiki2">
-  <meta name="twitter:description" content="In the field of computer science, an atomic commit is an operation that applies a set of distinct changes as a single operation. If the changes are applied, then the atomic commit is said to have succeeded. If there is a failure before the ">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Atomic commit - Wiki2</title>
+<meta content="In the field of computer science, an atomic commit is an operation that applies a set of distinct changes as a single operation. If the changes are applied, then the atomic commit is said to have succeeded. If there is a failure before the " name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Atomic_commit.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Atomic commit" property="og:title"/>
+<meta content="Atomic commit is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Atomic_commit.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Atomic commit" name="twitter:title"/>
+<meta content="Atomic commit is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Atomic commit</h1>
-    <p><b>Atomic commit</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In the field of computer science, an atomic commit is an operation that applies a set of distinct changes as a single operation. If the changes are applied, then the atomic commit is said to have succeeded. If there is a failure before the atomic commit can be completed, then all of the changes completed in the atomic commit are reversed. This ensures that the system is always left in a consistent state. The other key property of isolation comes from their nature as atomic operations. Isolation ensures that only one atomic commit is processed at a time. The most common uses of atomic commits are in database systems and version control systems.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In the field of computer science , an atomic commit is an operation that applies a set of distinct changes as a single operation. If the changes are applied, then the atomic commit is said to have succeeded. If there is a failure before the atomic commit can be completed, then all of the changes completed in the atomic commit are reversed. This ensures that the system is always left in a consistent state. The other key property of isolation comes from their nature as atomic operations. Isolation ensures that only one atomic commit is processed at a time. The most common uses of atomic commits are in database systems and version control systems . The problem with atomic commits is that they require coordination between multiple systems. As computer networks are unreliable services, this means no algorithm can coordinate with all systems as proven in the Two Generals Problem . As databases become more and more distributed, this coordination will increase the difficulty of making truly atomic commits.</p>
-    <hr>
-    <h2>Usage</h2>
-    <p>Atomic commits are essential for multi-step updates to data. This can be clearly shown in a simple example of a money transfer between two checking accounts. This example is complicated by a transaction to check the balance of account Y during a transaction for transferring 100 dollars from account X to Y. To start, first 100 dollars is removed from account X. Second, 100 dollars is added to account Y. If the entire operation is not completed as one atomic commit, then several problems could occur. If the system fails in the middle of the operation, after removing the money from X and before adding into Y, then 100 dollars has just disappeared. Another issue is if the balance of Y is checked before the 100 dollars is added, the wrong balance for Y will be reported. With atomic commits neither of these cases can happen, in the first case of the system failure, the atomic commit would be rolled back and the money returned to X. In the second case, the request of the balance of Y cannot occur until the atomic commit is fully completed.</p>
-    <hr>
-    <h2>Database systems</h2>
-    <p>Atomic commits in database systems fulfil two of the key properties of ACID , atomicity and consistency . Consistency is only achieved if each change in the atomic commit is consistent. As shown in the example atomic commits are critical to multistep operations in databases. Due to modern hardware design of the physical disk on which the database resides true atomic commits cannot exist. The smallest area that can be written to on disk is known as a sector. A single database entry may span several different sectors. Only one sector can be written at a time. This writing limit is why true atomic commits are not possible. After the database entries in memory have been modified they are queued up to be written to disk. This means the same problems identified in the example have reoccurred. Any algorithmic solution to this problem will still encounter the Two Generals’ Problem. The two-phase commit protocol and three-phase commit protocol attempt to solve this and some of the other problems associated with atomic commits. The two-phase commit protocol requires a coordinator to maintain all the information needed to recover the original state of the database if something goes wrong. As the name indicates there are two phases, voting and commit . During the voting phase each node writes the changes in the atomic commit to its own disk. The nodes then report their status to the coordi</p>
-    <hr>
-    <h2>Revision control</h2>
-    <p>Atomic commits are a common feature of version control software , and crucial for maintaining a consistent state in the repository. Most version control software will not apply any part of a commit that fails. Notable exceptions are CVS , VSS and IBM Rational ClearCase (when in UCM mode). For instance, if version control software encounters a merge conflict that can not be automatically resolved, then no part of the changeset is merged. Instead, the developer is given an opportunity to either revert their changes or manually resolve the conflict. This prevents the entire project from entering a broken state due to a partially applied change set, where one file from a commit is successfully committed, but another file with dependent changes fails. Atomic commits may also refer to the ability to simultaneously make changes across multiple projects using version control software in a single operation, using a version control software development strategy known as a monorepo .</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Deborah_Lipstadt.html">Deborah Lipstadt</a></li>
-      <li><a href="Leidenfrost_effect.html">Leidenfrost effect</a></li>
-      <li><a href="HMS_Vanguard_1870.html">HMS Vanguard (1870)</a></li>
-      <li><a href="Auto_Union.html">Auto Union</a></li>
-      <li><a href="Oyo_Boy_Sotto.html">Oyo Boy Sotto</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Atomic_commit">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 13, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Atomic commit</h1>
+<p><b>Atomic commit</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In the field of computer science, an atomic commit is an operation that applies a set of distinct changes as a single operation. If the changes are applied, then the atomic commit is said to have succeeded. If there is a failure before the atomic commit can be completed, then all of the changes completed in the atomic commit are reversed. This ensures that the system is always left in a consistent state. The other key property of isolation comes from their nature as atomic operations. Isolation ensures that only one atomic commit is processed at a time. The most common uses of atomic commits are in database systems and version control systems.</p>
+<hr/>
+<h2>Background</h2>
+<p>In the field of computer science , an atomic commit is an operation that applies a set of distinct changes as a single operation. If the changes are applied, then the atomic commit is said to have succeeded. If there is a failure before the atomic commit can be completed, then all of the changes completed in the atomic commit are reversed. This ensures that the system is always left in a consistent state. The other key property of isolation comes from their nature as atomic operations. Isolation ensures that only one atomic commit is processed at a time. The most common uses of atomic commits are in database systems and version control systems . The problem with atomic commits is that they require coordination between multiple systems. As computer networks are unreliable services, this means no algorithm can coordinate with all systems as proven in the Two Generals Problem . As databases become more and more distributed, this coordination will increase the difficulty of making truly atomic commits.</p>
+<hr/>
+<h2>Usage</h2>
+<p>Atomic commits are essential for multi-step updates to data. This can be clearly shown in a simple example of a money transfer between two checking accounts. This example is complicated by a transaction to check the balance of account Y during a transaction for transferring 100 dollars from account X to Y. To start, first 100 dollars is removed from account X. Second, 100 dollars is added to account Y. If the entire operation is not completed as one atomic commit, then several problems could occur. If the system fails in the middle of the operation, after removing the money from X and before adding into Y, then 100 dollars has just disappeared. Another issue is if the balance of Y is checked before the 100 dollars is added, the wrong balance for Y will be reported. With atomic commits neither of these cases can happen, in the first case of the system failure, the atomic commit would be rolled back and the money returned to X. In the second case, the request of the balance of Y cannot occur until the atomic commit is fully completed.</p>
+<hr/>
+<h2>Database systems</h2>
+<p>Atomic commits in database systems fulfil two of the key properties of ACID , atomicity and consistency . Consistency is only achieved if each change in the atomic commit is consistent. As shown in the example atomic commits are critical to multistep operations in databases. Due to modern hardware design of the physical disk on which the database resides true atomic commits cannot exist. The smallest area that can be written to on disk is known as a sector. A single database entry may span several different sectors. Only one sector can be written at a time. This writing limit is why true atomic commits are not possible. After the database entries in memory have been modified they are queued up to be written to disk. This means the same problems identified in the example have reoccurred. Any algorithmic solution to this problem will still encounter the Two Generals’ Problem. The two-phase commit protocol and three-phase commit protocol attempt to solve this and some of the other problems associated with atomic commits. The two-phase commit protocol requires a coordinator to maintain all the information needed to recover the original state of the database if something goes wrong. As the name indicates there are two phases, voting and commit . During the voting phase each node writes the changes in the atomic commit to its own disk. The nodes then report their status to the coordi</p>
+<hr/>
+<h2>Revision control</h2>
+<p>Atomic commits are a common feature of version control software , and crucial for maintaining a consistent state in the repository. Most version control software will not apply any part of a commit that fails. Notable exceptions are CVS , VSS and IBM Rational ClearCase (when in UCM mode). For instance, if version control software encounters a merge conflict that can not be automatically resolved, then no part of the changeset is merged. Instead, the developer is given an opportunity to either revert their changes or manually resolve the conflict. This prevents the entire project from entering a broken state due to a partially applied change set, where one file from a commit is successfully committed, but another file with dependent changes fails. Atomic commits may also refer to the ability to simultaneously make changes across multiple projects using version control software in a single operation, using a version control software development strategy known as a monorepo .</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Deborah_Lipstadt.html">Deborah Lipstadt</a></li>
+<li><a href="Leidenfrost_effect.html">Leidenfrost effect</a></li>
+<li><a href="HMS_Vanguard_1870.html">HMS Vanguard (1870)</a></li>
+<li><a href="Auto_Union.html">Auto Union</a></li>
+<li><a href="Oyo_Boy_Sotto.html">Oyo Boy Sotto</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Atomic_commit">Wikimedia article</a></small></p>
+<p><i>Last edited: September 13, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

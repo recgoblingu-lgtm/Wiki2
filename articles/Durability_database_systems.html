@@ -1,63 +1,64 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Durability (database systems) - Wiki2</title>
-  <meta name="description" content="In database systems, durability is the ACID property that guarantees that the effects of transactions that have been committed will survive permanently, even in cases of failures, including incidents and catastrophic events. For example, if">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Durability_database_systems.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Durability (database systems) - Wiki2">
-  <meta property="og:description" content="In database systems, durability is the ACID property that guarantees that the effects of transactions that have been committed will survive permanently, even in cases of failures, including incidents and catastrophic events. For example, if">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Durability_database_systems.html">
-  <meta property="og:image" content="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Database_failure_states_and_relations.png/960px-Database_failure_states_and_relations.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Durability (database systems) - Wiki2">
-  <meta name="twitter:description" content="In database systems, durability is the ACID property that guarantees that the effects of transactions that have been committed will survive permanently, even in cases of failures, including incidents and catastrophic events. For example, if">
-  <meta name="twitter:image" content="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Database_failure_states_and_relations.png/960px-Database_failure_states_and_relations.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Durability (database systems) - Wiki2</title>
+<meta content="In database systems, durability is the ACID property that guarantees that the effects of transactions that have been committed will survive permanently, even in cases of failures, including incidents and catastrophic events. For example, if" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Durability_database_systems.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Durability (database systems)" property="og:title"/>
+<meta content="Durability (database systems) is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Durability_database_systems.html" property="og:url"/>
+<meta content="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Database_failure_states_and_relations.png/960px-Database_failure_states_and_relations.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Durability (database systems)" name="twitter:title"/>
+<meta content="Durability (database systems) is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Database_failure_states_and_relations.png/960px-Database_failure_states_and_relations.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Durability (database systems)</h1>
-    <p><b>Durability (database systems)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In database systems, durability is the ACID property that guarantees that the effects of transactions that have been committed will survive permanently, even in cases of failures, including incidents and catastrophic events. For example, if a flight booking reports that a seat has successfully been booked, then the seat will remain booked even if the system crashes.</p>
-    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Database_failure_states_and_relations.png/960px-Database_failure_states_and_relations.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Database failure states and relations.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>In database systems , durability is the ACID property that guarantees that the effects of transactions that have been committed will survive permanently, even in cases of failures, including incidents and catastrophic events. For example, if a flight booking reports that a seat has successfully been booked, then the seat will remain booked even if the system crashes. Formally, a database system ensures the durability property if it tolerates three types of failures: transaction, system, and media failures. In particular, a transaction fails if its execution is interrupted before all its operations have been processed by the system. These kinds of interruptions can be originated at the transaction level by data-entry errors, operator cancellation, timeout , or application-specific errors, like withdrawing money from a bank account with insufficient funds. At the system level, a failure occurs if the contents of the volatile storage are lost, due, for instance, to system crashes , like out-of-memory events. At the media level, where media means a stable storage that withstands system failures, failures happen when the stable storage, or part of it, is lost. These cases are typically represented by disk failures . Thus, to be durable, the database system should implement strategies and operations that guarantee that the effects of transactions that have been committed before the f</p>
-    <hr>
-    <h2>Mechanisms</h2>
-    <p>In transaction-based systems, the mechanisms that assure durability are historically associated with the concept of reliability of systems, as proposed by Jim Gray in 1981. This concept includes durability, but it also relies on aspects of the atomicity and consistency properties. Specifically, a reliability mechanism requires primitives that explicitly state the beginning, the end, and the rollback of transactions, which are also implied for the other two aforementioned properties. In this article, only the mechanisms strictly related to durability have been considered. These mechanisms are divided into three levels: transaction, system, and media level. This can be seen as well for scenarios where failures could happen and that have to be considered in the design of database systems to address durability.</p>
-    <hr>
-    <h2>Transaction level</h2>
-    <p>Durability against failures that occur at transaction level, such as canceled calls and inconsistent actions that may be blocked before committing by constraints and triggers , is guaranteed by the serializability property of the execution of transactions. The state generated by the effects of precedently committed transactions is available in main memory and, thus, is resilient, while the changes carried by non-committed transactions can be undone. In fact, thanks to serializability, they can be discerned from other transactions and, therefore, their changes are discarded. In addition, it is relevant to consider that in-place changes, which overwrite old values without keeping any kind of history are discouraged. There exist multiple approaches that keep track of the history of changes, such as timestamp -based solutions or logging and locking .</p>
-    <hr>
-    <h2>System level</h2>
-    <p>At system level, failures happen, by definition, when the contents of the volatile storage are lost. This can occur in events like system crashes or power outages . Existing database systems use volatile storage (i.e. the main memory of the system) for different purposes: some store their whole state and data in it, even without any durability guarantee; others keep the state and the data, or part of them, in memory, but also use the non-volatile storage for data; other systems only keep the state in main memory, while keeping all the data on disk. The reason behind the choice of having volatile storage, which is subject to this type of failure, and non-volatile storage, is found in the performance differences of the existing technologies that are used to implement these kinds of storage. However, the situation is likely to evolve as the popularity of non-volatile memories (NVM) technologies grows. In systems that include non-volatile storage, durability can be achieved by keeping and flushing an immutable sequential log of the transactions to such non-volatile storage before acknowledging commitment. Thanks to their atomicity property, the transactions can be considered the unit of work in the recovery process that guarantees durability while exploiting the log. In particular, the logging mechanism is called write-ahead log (WAL) and allows durability by buffering changes to t</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Liberian_English.html">Liberian English</a></li>
-      <li><a href="Sandale_transmitting_station.html">Sandale transmitting station</a></li>
-      <li><a href="Bodies_2004_TV_series.html">Bodies (2004 TV series)</a></li>
-      <li><a href="Angela_s_Eyes.html">Angela&#x27;s Eyes</a></li>
-      <li><a href="Today_BBC_Radio_4.html">Today (BBC Radio 4)</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Durability_(database_systems)">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 13, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Durability (database systems)</h1>
+<p><b>Durability (database systems)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In database systems, durability is the ACID property that guarantees that the effects of transactions that have been committed will survive permanently, even in cases of failures, including incidents and catastrophic events. For example, if a flight booking reports that a seat has successfully been booked, then the seat will remain booked even if the system crashes.</p>
+<figure class="article-image"><img alt="Database failure states and relations.png" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Database_failure_states_and_relations.png/960px-Database_failure_states_and_relations.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>In database systems , durability is the ACID property that guarantees that the effects of transactions that have been committed will survive permanently, even in cases of failures, including incidents and catastrophic events. For example, if a flight booking reports that a seat has successfully been booked, then the seat will remain booked even if the system crashes. Formally, a database system ensures the durability property if it tolerates three types of failures: transaction, system, and media failures. In particular, a transaction fails if its execution is interrupted before all its operations have been processed by the system. These kinds of interruptions can be originated at the transaction level by data-entry errors, operator cancellation, timeout , or application-specific errors, like withdrawing money from a bank account with insufficient funds. At the system level, a failure occurs if the contents of the volatile storage are lost, due, for instance, to system crashes , like out-of-memory events. At the media level, where media means a stable storage that withstands system failures, failures happen when the stable storage, or part of it, is lost. These cases are typically represented by disk failures . Thus, to be durable, the database system should implement strategies and operations that guarantee that the effects of transactions that have been committed before the f</p>
+<hr/>
+<h2>Mechanisms</h2>
+<p>In transaction-based systems, the mechanisms that assure durability are historically associated with the concept of reliability of systems, as proposed by Jim Gray in 1981. This concept includes durability, but it also relies on aspects of the atomicity and consistency properties. Specifically, a reliability mechanism requires primitives that explicitly state the beginning, the end, and the rollback of transactions, which are also implied for the other two aforementioned properties. In this article, only the mechanisms strictly related to durability have been considered. These mechanisms are divided into three levels: transaction, system, and media level. This can be seen as well for scenarios where failures could happen and that have to be considered in the design of database systems to address durability.</p>
+<hr/>
+<h2>Transaction level</h2>
+<p>Durability against failures that occur at transaction level, such as canceled calls and inconsistent actions that may be blocked before committing by constraints and triggers , is guaranteed by the serializability property of the execution of transactions. The state generated by the effects of precedently committed transactions is available in main memory and, thus, is resilient, while the changes carried by non-committed transactions can be undone. In fact, thanks to serializability, they can be discerned from other transactions and, therefore, their changes are discarded. In addition, it is relevant to consider that in-place changes, which overwrite old values without keeping any kind of history are discouraged. There exist multiple approaches that keep track of the history of changes, such as timestamp -based solutions or logging and locking .</p>
+<hr/>
+<h2>System level</h2>
+<p>At system level, failures happen, by definition, when the contents of the volatile storage are lost. This can occur in events like system crashes or power outages . Existing database systems use volatile storage (i.e. the main memory of the system) for different purposes: some store their whole state and data in it, even without any durability guarantee; others keep the state and the data, or part of them, in memory, but also use the non-volatile storage for data; other systems only keep the state in main memory, while keeping all the data on disk. The reason behind the choice of having volatile storage, which is subject to this type of failure, and non-volatile storage, is found in the performance differences of the existing technologies that are used to implement these kinds of storage. However, the situation is likely to evolve as the popularity of non-volatile memories (NVM) technologies grows. In systems that include non-volatile storage, durability can be achieved by keeping and flushing an immutable sequential log of the transactions to such non-volatile storage before acknowledging commitment. Thanks to their atomicity property, the transactions can be considered the unit of work in the recovery process that guarantees durability while exploiting the log. In particular, the logging mechanism is called write-ahead log (WAL) and allows durability by buffering changes to t</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Liberian_English.html">Liberian English</a></li>
+<li><a href="Sandale_transmitting_station.html">Sandale transmitting station</a></li>
+<li><a href="Bodies_2004_TV_series.html">Bodies (2004 TV series)</a></li>
+<li><a href="Angela_s_Eyes.html">Angela's Eyes</a></li>
+<li><a href="Today_BBC_Radio_4.html">Today (BBC Radio 4)</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Durability_(database_systems)">Wikimedia article</a></small></p>
+<p><i>Last edited: September 13, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
