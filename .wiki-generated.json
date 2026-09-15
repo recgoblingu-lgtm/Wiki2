@@ -78738,12 +78738,19 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Lisa_vs._Malibu_Stacy",
       "generated_at": "2026-09-15T04:57:34+00:00"
+    },
+    {
+      "title": "MyWhoosh",
+      "filename": "MyWhoosh.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/MyWhoosh",
+      "generated_at": "2026-09-15T21:42:30+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|42464e2a3a2e040992543a30324604362a42320994011701dc16|76090421",
-    "Category:Video game franchises": "page|5a464e383a040992543a30324604362a4232044e324c3a324e0994011d01dc1c|30918076",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Arcade video games": "page|2a4c4204564c324e50403a4436040992543a30324604362a42320994011e01dcc3e019|3781946"
+    "Category:Indie games": "page|444654524e043a442e3248503a46011201dcc1dc0b|47487003",
+    "Category:Arcade video games": "page|2a4c4204564c324e50403a4436040992543a30324604362a42320994011e01dcc3e019|3781946",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
   }
 }
