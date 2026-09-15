@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Division algorithm - Wiki2</title>
+  <meta name="description" content="A division algorithm is an algorithm which, given two integers N and D, computes their quotient and/or remainder, the result of Euclidean division. Some are applied by hand, while others are employed by digital circuit designs and software.">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Division_algorithm.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Division algorithm - Wiki2">
+  <meta property="og:description" content="A division algorithm is an algorithm which, given two integers N and D, computes their quotient and/or remainder, the result of Euclidean division. Some are applied by hand, while others are employed by digital circuit designs and software.">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Division_algorithm.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Division algorithm - Wiki2">
+  <meta name="twitter:description" content="A division algorithm is an algorithm which, given two integers N and D, computes their quotient and/or remainder, the result of Euclidean division. Some are applied by hand, while others are employed by digital circuit designs and software.">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Division algorithm</h1>
+    <p><b>Division algorithm</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>A division algorithm is an algorithm which, given two integers N and D, computes their quotient and/or remainder, the result of Euclidean division. Some are applied by hand, while others are employed by digital circuit designs and software.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>A division algorithm is an algorithm which, given two integers N and D (respectively the numerator and the denominator), computes their quotient and/or remainder , the result of Euclidean division . Some are applied by hand, while others are employed by digital circuit designs and software. Division algorithms fall into two main categories: slow division and fast division. Slow division algorithms produce one digit of the final quotient per iteration. Examples of slow division include restoring , non-performing restoring, non-restoring , and SRT division. Fast division methods start with a close approximation to the final quotient and produce twice as many digits of the final quotient on each iteration. Newton–Raphson and Goldschmidt algorithms fall into this category. Variants of these algorithms allow using fast multiplication algorithms . It results that, for large integers, the computer time needed for a division is the same, up to a constant factor, as the time needed for a multiplication, whichever multiplication algorithm is used. Discussion will refer to the form , where is the input, and is the output.</p>
+    <hr>
+    <h2>Division by repeated subtraction</h2>
+    <p>The simplest division algorithm, historically incorporated into a greatest common divisor algorithm presented in Euclid&#x27;s Elements , Book VII, Proposition 1, finds the remainder given two positive integers using only subtractions and comparisons: The proof that the quotient and remainder exist and are unique (described at Euclidean division ) gives rise to a complete division algorithm, applicable to both negative and positive numbers, using additions, subtractions, and comparisons: This procedure always produces R ≥ 0. Although very simple, it takes Ω(Q) steps, and so is exponentially slower than even slow division algorithms like long division. It is useful if Q is known to be small (being an output-sensitive algorithm ), and can serve as an executable specification.</p>
+    <hr>
+    <h2>Alternative implementation</h2>
+    <p>An alternative implementation increments a remainder and resets it when it reaches the divisor. For , the algorithm computes such that , with : Consider this code in Python : Notes Alternative implementation as counter machine A simple counter machine (CM) can be based on the alternative implementation. The CM instructions are The counter machine program is After the CM finishes the computation on initial register values R1=N, R2=D (remaining registers = 0),</p>
+    <hr>
+    <h2>Long division</h2>
+    <p>Long division is the standard algorithm used for pen-and-paper division of multi-digit numbers expressed in decimal notation. It shifts gradually from the left to the right end of the dividend, subtracting the largest possible multiple of the divisor (at the digit level) at each stage; the multiples then become the digits of the quotient, and the final difference is then the remainder. When used with a binary radix, this method forms the basis for the (unsigned) integer division with remainder algorithm below. Short division is an abbreviated form of long division suitable for one-digit divisors. Chunking – also known as the partial quotients method or the hangman method – is a less-efficient form of long division which may be easier to understand. By allowing one to subtract more multiples than what one currently has at each stage, a more freeform variant of long division can be developed as well.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Alesi.html">Alesi</a></li>
+      <li><a href="Ramaz_School.html">Ramaz School</a></li>
+      <li><a href="Luigi_Lanzi.html">Luigi Lanzi</a></li>
+      <li><a href="Fabulous_Freebirds.html">Fabulous Freebirds</a></li>
+      <li><a href="Gnosis.html">Gnosis</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Division_algorithm">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 15, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

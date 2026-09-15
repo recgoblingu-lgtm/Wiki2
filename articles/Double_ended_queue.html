@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Double-ended queue - Wiki2</title>
+  <meta name="description" content="In computer science, a double-ended queue, is an abstract data type that serves as a container, with a restricted access to the stored items. As a generalization of both the stack and the queue, the deque may have similar functions as a dat">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Double_ended_queue.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Double-ended queue - Wiki2">
+  <meta property="og:description" content="In computer science, a double-ended queue, is an abstract data type that serves as a container, with a restricted access to the stored items. As a generalization of both the stack and the queue, the deque may have similar functions as a dat">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Double_ended_queue.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/3/3a/Deque-01.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Double-ended queue - Wiki2">
+  <meta name="twitter:description" content="In computer science, a double-ended queue, is an abstract data type that serves as a container, with a restricted access to the stored items. As a generalization of both the stack and the queue, the deque may have similar functions as a dat">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/3/3a/Deque-01.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Double-ended queue</h1>
+    <p><b>Double-ended queue</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In computer science, a double-ended queue, is an abstract data type that serves as a container, with a restricted access to the stored items. As a generalization of both the stack and the queue, the deque may have similar functions as a data buffer: it can be use both as a retainer (queue), or for backtracking (stack). However it offers greater flexibility in managing the order of elements and some algorithms are based on its functionalities.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Deque-01.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Double-ended queue"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In computer science , a double-ended queue (abbreviated as deque — / d ɛ k / DEK ), is an abstract data type that serves as a container , with a restricted access to the stored items. As a generalization of both the stack and the queue , the deque may have similar functions as a data buffer : it can be use both as a retainer (queue), or for backtracking (stack). However it offers greater flexibility in managing the order of elements and some algorithms are based on its functionalities.</p>
+    <hr>
+    <h2>Description</h2>
+    <p>The double-ended queue is most often presented as a generalized queue, which gives its name. It is a queue that &quot;allows insertions and deletions at both ends&quot;. The deque is also described as a generalization of the stack abstract data structure, as &quot;two stacks joined together at the base&quot;, with a shared bottom item, or as a combination of both the stack and the queue. And then conversely the queue and the stack are restricted forms of the deque. Different analogies with real-world objects are used to describe the deque. It is compared to a &quot;deck of cards&quot; with which the structure shares some properties and the pronunciation. The deque is also likened to a &quot;necklace with beads that can be added and/or removed at either end&quot;. Like the queue, it is depicted as a set of items lined up in a pipe open at both ends ; unlike the queue, the items can move in both direction in the pipe. The &quot;railroad model&quot; introduced by Knuth (after &quot;Dijkstra&#x27;s shunting yard&quot; ) focus on the similarity with the queue, with one input and one output, and switches to select the side of the deque to be accessed. The main operations on a deque are said to act on either side (or end ) of the structure: addition of an item into the collection ( enqueue ), removal of an item (dequeue ), and reading of an item ( peek ). At a given point in time only two items can be accessed, from either side of the deque, based </p>
+    <hr>
+    <h2>Specification</h2>
+    <p>The deque is here considered as unbounded: it can contain an unlimited (and undefined) number of items. A bounded deque is possible, and requires a slightly different specification, but when an overflow occurs the behavior depends on the implementation: error value, exception, deletion, etc. Let a deque d ∈ D , an item x ∈ X , and a side (end) e ∈ E = {left,right} with ¬ left = right Key operations: with D = D \ {Λ} As a linear structure, the deque can be specified in terms of catenation (noted &quot; ~ &quot;) of sequences and singleton sequences (noted &quot; &lt; ... &gt; &quot;). An axiomatic specification (or algebraic ) of the deque can be obtained by extending and merging those of the stack and the queue. (see Nguyen thesis for an alternative formulation). Axiomatic constraints: The sequence of operations in the previous example results in the following expression: d = remove ( right, add (left, DE , remove ( left, remove ( left, add (right, UE , add (right, QUE , add (left, STA , remove (left, add (right, CK , add (left, DE ,Λ) ))))))))) This can be simplified with the axioms ( 1 ), ( 2 ) and ( 3 ). In order of application, from the empty deque : This results in the following expression: As a transformation from an empty sequence : Conversely the stack and the queue can be specified axiomatically in terms of the deque. Let a stack s ∈ S ⊂ D Let a queue q ∈ Q ⊂ D</p>
+    <hr>
+    <h2>Terminology</h2>
+    <p>The term deque ( / d ɛ k / DEK ) is used as an abbreviation of D ouble- E nded QUE ue. Dequeue is sometimes used but can be confusing as the term is also used for the operation of removing an element of the deque. A deque may also be called a head-tail linked list , though properly this refers to a specific implementation . An output-restricted deque may be designated as steque (for stack-ended queue). There is no standard vocabulary associated with deques. The terms enqueue and dequeue , borrowed from the queue structure, generally denote the basic operations on a deque, on either end. But papers and actual implementations often use different names. The names of the operations vary depending on the context, the author, the implementation or the programming language: Unlike the associated data structures the deque is symmetrical. Its sides may be freely named according to the context: The full name of an operation may be a combination of the name of the basic operation and the name of the side: e.g. push_front and pop_back . Terms from different analogies may be associated in a single context: append and pop , push and shift , or front and tail . Finally some programming languages use even different names based on the underlying data structure. Also generally implemented are &quot;peek&quot; operations, which return the value at one end without dequeuing it. It is often named after the t</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Sodium_hypophosphite.html">Sodium hypophosphite</a></li>
+      <li><a href="Habanera_aria.html">Habanera (aria)</a></li>
+      <li><a href="Mohamed_Mounir.html">Mohamed Mounir</a></li>
+      <li><a href="Verna_Eggleston.html">Verna Eggleston</a></li>
+      <li><a href="Rusinga_Island.html">Rusinga Island</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Double-ended_queue">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 15, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XFree86 - Wiki2</title>
+  <meta name="description" content="XFree86 is an implementation of the X Window System. It was originally written for Unix-like operating systems on IBM PC compatibles and was available for many other operating systems and platforms. It is free and open source software under">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/XFree86.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="XFree86 - Wiki2">
+  <meta property="og:description" content="XFree86 is an implementation of the X Window System. It was originally written for Unix-like operating systems on IBM PC compatibles and was available for many other operating systems and platforms. It is free and open source software under">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/XFree86.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/en/3/30/Xfree86.logo.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="XFree86 - Wiki2">
+  <meta name="twitter:description" content="XFree86 is an implementation of the X Window System. It was originally written for Unix-like operating systems on IBM PC compatibles and was available for many other operating systems and platforms. It is free and open source software under">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/en/3/30/Xfree86.logo.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>XFree86</h1>
+    <p><b>XFree86</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>XFree86 is an implementation of the X Window System. It was originally written for Unix-like operating systems on IBM PC compatibles and was available for many other operating systems and platforms. It is free and open source software under the XFree86 License version 1.1. It was developed by the XFree86 Project, Inc. The lead developer was David Dawes. The last released version was 4.8.0, released December 2008. The last XFree86 CVS commit was made on May 18, 2009; the project was confirmed dormant in December 2011.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/en/3/30/Xfree86.logo.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Xfree86.logo.gif"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>XFree86 is an implementation of the X Window System . It was originally written for Unix-like operating systems on IBM PC compatibles and was available for many other operating systems and platforms. It is free and open source software under the XFree86 License version 1.1. It was developed by the XFree86 Project, Inc. The lead developer was David Dawes . The last released version was 4.8.0, released December 2008. The last XFree86 CVS commit was made on May 18, 2009; the project was confirmed dormant in December 2011. For most of the 1990s and early 2000s, the project was the source of most innovation in X and was the de facto steward of X development. Until early 2004, it was almost universal on Linux and the BSDs . In February 2004, with version 4.4.0, The XFree86 Project began distributing new code with a copyright license that the Free Software Foundation considered GPL incompatible . Most open source operating systems using XFree86 found this unacceptable and moved to a fork from before the license change. The first fork was the abortive Xouvert, but X.Org Server soon became dominant. Most XFree86 developers also moved to X.Org.</p>
+    <hr>
+    <h2>Usage</h2>
+    <p>While XFree86 was widely used by most Unix-like computer operating systems before its license change with version 4.4.0, it has since then been superseded by X.org and is used rarely nowadays. The last remaining operating system distribution to use it was NetBSD , which shipped some platforms with 4.5.0 by default until removing it as obsolete in 2015. NetBSD § 5.0 and later releases use X.org by default on various ports (including i386 and amd64), and X.org is available through NetBSD pkgsrc for architectures for which XFree86 remains the default because of better support. As of 19 April 2019, the netbsd-7 branch and NetBSD § 7.2 release were the last to potentially contain XFree86, and XFree86 was completely removed before netbsd-8 branch and NetBSD § 8.0 release in 2018.</p>
+    <hr>
+    <h2>Architecture</h2>
+    <p>The XFree86 server communicates with the host operating system &#x27;s kernel to drive input and output devices, with the exception of graphics cards . These are generally managed directly by XFree86, so it includes its own drivers for all graphic cards a user might have. Some cards are supported by vendors themselves via binary-only drivers. Since version 4.0, XFree86 has supported certain accelerated 3D graphics cards via the GLX and DRI extensions. Version 4.0 also moved to a new driver model, from one X server binary per driver to a unique X server capable of loading several drivers at a time. Because the server usually needs low level access to graphics hardware, on many configurations it needs to run as the superuser , or a user with UID 0. However, on some systems and configurations it is possible to run the server as a normal user. It is also possible to use XFree86 in a framebuffer device , which in turn uses a kernel graphics card driver. On a typical POSIX -system, the directory /etc/X11 includes the configuration files. The basic configuration file is /etc/X11/XF86Config (or XF86Config-4) that includes variables about the screen (monitor), keyboard and graphics card . The program xf86config is often used, although xf86cfg also comes with the XFree86 server and is friendlier. Many Linux distributions used to include a configuration tool that was easier to use (such as Deb</p>
+    <hr>
+    <h2>Early history and naming</h2>
+    <p>The project began in 1992 when David Wexelblat, Glenn Lai, David Dawes and Jim Tsillas joined forces addressing bugs in the source code of the X386 X display server (written by Thomas Roell ), as contributed to X11R5. This version was initially called X386 1.2E . As newer versions of the (originally freeware) X386 were being sold under a proprietary software license by SGCS (of which Roell was a partner), confusion existed between the projects. After discussion, the project was renamed X Free 86, as a pun (compare X-three-eighty-six to X-free-eighty-six). Roell has continued to sell proprietary X servers, most recently under the name Accelerated-X .</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="MTV_Eesti.html">MTV Eesti</a></li>
+      <li><a href="Queenston_Delta.html">Queenston Delta</a></li>
+      <li><a href="Bentham_North_Yorkshire.html">Bentham, North Yorkshire</a></li>
+      <li><a href="Eco_efficiency.html">Eco-efficiency</a></li>
+      <li><a href="One_on_One_American_TV_series.html">One on One (American TV series)</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/XFree86">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 15, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

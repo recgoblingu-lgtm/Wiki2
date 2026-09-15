@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mesa (programming language) - Wiki2</title>
+  <meta name="description" content="Mesa is a programming language developed in the mid 1970s at the Xerox Palo Alto Research Center in Palo Alto, California, United States. The language name was a pun based upon the programming language catchphrases of the time, because Mesa">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Mesa_programming_language.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Mesa (programming language) - Wiki2">
+  <meta property="og:description" content="Mesa is a programming language developed in the mid 1970s at the Xerox Palo Alto Research Center in Palo Alto, California, United States. The language name was a pun based upon the programming language catchphrases of the time, because Mesa">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Mesa_programming_language.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mesa (programming language) - Wiki2">
+  <meta name="twitter:description" content="Mesa is a programming language developed in the mid 1970s at the Xerox Palo Alto Research Center in Palo Alto, California, United States. The language name was a pun based upon the programming language catchphrases of the time, because Mesa">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Mesa (programming language)</h1>
+    <p><b>Mesa (programming language)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>Mesa is a programming language developed in the mid 1970s at the Xerox Palo Alto Research Center in Palo Alto, California, United States. The language name was a pun based upon the programming language catchphrases of the time, because Mesa is a &quot;high level&quot; programming language.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>Mesa is a programming language developed in the mid 1970s at the Xerox Palo Alto Research Center in Palo Alto, California , United States . The language name was a pun based upon the programming language catchphrases of the time, because Mesa is a &quot;high level&quot; programming language . Mesa is an ALGOL -like language with strong support for modular programming . Every library module has at least two source files: a definitions file specifying the library&#x27;s interface plus one or more program files specifying the implementation of the procedures in the interface. To use a library, a program or higher-level library must &quot;import&quot; the definitions. The Mesa compiler type-checks all uses of imported entities; this combination of separate compilation with type-checking was unusual at the time. Mesa introduced several other innovations in language design and implementation, notably in the handling of software exceptions , thread synchronization , and incremental compilation . Mesa was developed on the Xerox Alto , one of the first personal computers with a graphical user interface , however, most of the Alto&#x27;s system software was written in BCPL . Mesa was the system programming language of the later Xerox Star workstations, and for the GlobalView desktop environment. Xerox PARC later developed Cedar , which was a superset of Mesa. Mesa and Cedar had a major influence on the design of othe</p>
+    <hr>
+    <h2>History</h2>
+    <p>Mesa was originally designed in the Computer Systems Laboratory (CSL), a branch of the Xerox Palo Alto Research Center, for the Alto , an experimental micro-coded workstation. Initially, its spread was confined to PARC and a few universities to which Xerox had donated some Altos. Mesa was later adopted as the systems programming language for Xerox&#x27;s commercial workstations such as the Xerox 8010 (Xerox Star, Dandelion) and Xerox 6085 (Daybreak) , in particular for the Pilot operating system . A secondary development environment, called the Xerox Development Environment (XDE) allowed developers to debug both the operating system Pilot as well as ViewPoint GUI applications using a world swap mechanism. This allowed the entire &quot;state&quot; of the world to be swapped out, and allowed low-level system crashes which paralyzed the whole system to be debugged. This technique did not scale very well to large application images (several megabytes), and so the Pilot/Mesa world in later releases moved away from the world swap view when the micro-coded machines were phased out in favor of SPARC workstations and Intel PCs running a Mesa PrincOps emulator for the basic hardware instruction set. Mesa was compiled into a stack-machine language, purportedly with the highest code density ever achieved (roughly 4 bytes per high-level language statement). This was touted in a 1981 paper where implemento</p>
+    <hr>
+    <h2>Semantics</h2>
+    <p>Mesa was a strongly typed programming language with type-checking across module boundaries, but with enough flexibility in its type system that heap allocators could be written in Mesa. Due to its strict separation between interface and implementation, Mesa allows true incremental compilation and encourages architecture - and platform -independent programming. They also simplified source-level debugging , including remote debugging via the Ethernet . Mesa had rich exception handling facilities, with four types of exceptions. It had support for thread synchronization via monitors. Mesa was the first language to implement monitor BROADCAST, a concept introduced by the Pilot operating system.</p>
+    <hr>
+    <h2>Syntax</h2>
+    <p>Mesa has an &quot;imperative&quot; and &quot;algebraic&quot; syntax , based on ALGOL and Pascal rather than on BCPL or C ; for instance, compound commands are indicated by the BEGIN and END keywords rather than braces . In Mesa, all keywords are written in uppercase. Due to PARC&#x27;s using the 1963 variant of ASCII rather than the more common 1967 variant, the Alto&#x27;s character set included a left-pointing arrow (←) rather than an underscore. The result of this is that Alto programmers (including those using Mesa, Smalltalk etc.) conventionally used camelCase for compound identifiers, a practice which was incorporated in PARC&#x27;s standard programming style. On the other hand, the availability of the left-pointing arrow allowed them to use it for the assignment operator, as it originally had been in ALGOL. When the Mesa designers wanted to implement an exception facility, they hired a recent M.Sc. graduate from Colorado who had written his thesis on exception handling facilities in algorithmic languages. This led to the richest exception facility for its time, with primitives SIGNAL , ERROR , ABORT , RETRY , CATCH , and CONTINUE . As the language did not have type-safe checks to verify full coverage for signal handling, uncaught exceptions were a common cause of bugs in released software.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Minnesota_Supreme_Court.html">Minnesota Supreme Court</a></li>
+      <li><a href="Rekha.html">Rekha</a></li>
+      <li><a href="Western_Digital_Raptor.html">Western Digital Raptor</a></li>
+      <li><a href="B_Sides_Rarities_Nick_Cave_and_the_Bad_Seeds_album.html">B-Sides &amp; Rarities (Nick Cave and the Bad Seeds album)</a></li>
+      <li><a href="Ransom_of_John_II_of_France.html">Ransom of John II of France</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Mesa_(programming_language)">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 15, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

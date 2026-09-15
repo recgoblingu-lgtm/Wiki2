@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Local Inter-Process Communication - Wiki2</title>
+  <meta name="description" content="The Local Inter-Process Communication is an internal, undocumented inter-process communication facility provided by the Microsoft Windows NT kernel for lightweight IPC between processes on the same computer. As of Windows Vista, LPC has bee">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Local_Inter_Process_Communication.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Local Inter-Process Communication - Wiki2">
+  <meta property="og:description" content="The Local Inter-Process Communication is an internal, undocumented inter-process communication facility provided by the Microsoft Windows NT kernel for lightweight IPC between processes on the same computer. As of Windows Vista, LPC has bee">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Local_Inter_Process_Communication.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Local Inter-Process Communication - Wiki2">
+  <meta name="twitter:description" content="The Local Inter-Process Communication is an internal, undocumented inter-process communication facility provided by the Microsoft Windows NT kernel for lightweight IPC between processes on the same computer. As of Windows Vista, LPC has bee">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Local Inter-Process Communication</h1>
+    <p><b>Local Inter-Process Communication</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>The Local Inter-Process Communication is an internal, undocumented inter-process communication facility provided by the Microsoft Windows NT kernel for lightweight IPC between processes on the same computer. As of Windows Vista, LPC has been rewritten as Asynchronous Local Inter-Process Communication in order to provide a high-speed scalable communication mechanism required to efficiently implement User-Mode Driver Framework (UMDF), whose user-mode parts require an efficient communication channel with UMDF&#x27;s components in the executive.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>The Local Inter-Process Communication ( LPC , often also referred to as Local Procedure Call or Lightweight Procedure Call ) is an internal, undocumented inter-process communication facility provided by the Microsoft Windows NT kernel for lightweight IPC between processes on the same computer. As of Windows Vista , LPC has been rewritten as Asynchronous Local Inter-Process Communication ( ALPC , often also Advanced Local Procedure Call ) in order to provide a high-speed scalable communication mechanism required to efficiently implement User-Mode Driver Framework (UMDF), whose user-mode parts require an efficient communication channel with UMDF&#x27;s components in the executive . The (A)LPC interface is part of Windows NT&#x27;s undocumented Native API , and as such is not available to applications for direct use. However, it can be used indirectly in the following instances:</p>
+    <hr>
+    <h2>Implementation</h2>
+    <p>(A)LPC is implemented using kernel &quot;port&quot; objects, which are securable (with ACLs , allowing e.g. only specific SIDs to use them) and allow identification of the process on the other side of the connection. Individual messages are also securable: applications can set per-message SIDs, and also test for changes of the security context in the token associated with the (A)LPC message. The typical communication scenario between the server and the client is as follows: (A)LPC supports the following three modes of message exchange between the server and client: ALPC has a performance advantage over the former LPC interface, as it can be configured to use I/O completion ports instead of synchronous request/reply mechanism that LPC exclusively uses. This enables ALPC ports high-speed communication which automatically balances the number of messages and threads. Additionally, ALPC messages can be batched together so as to minimize user-mode/kernel-mode switches.</p>
+    <hr>
+    <h2>Known usage</h2>
+    <p>(A)LPC is used heavily in communication between internal subsystems in Windows NT. The Win32 subsystem uses (A)LPC heavily for communication between client and the subsystem server ( CSRSS ). Quick LPC was introduced in version 3.51 of Windows NT to make these calls faster. This method was largely abandoned in version 4.0 in favor of moving the performance critical server portions into kernel mode (win32k.sys). The Local Security Authority Subsystem Service (LSASS), Session Manager (SMSS), and Service Control Manager all use (A)LPC ports directly to communicate with client processes. Winlogon and the Security Reference Monitor use it to communicate with the LSASS process. As mentioned, Microsoft RPC can use (A)LPC as a transport when the client and server are both on the same machine. Many services that are designed to communicate only on the local computer use (A)LPC as the only transport through RPC. The implementation of remote OLE and DCOM in many cases uses (A)LPC for local communication as well.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Arthur_W_Cutten.html">Arthur W. Cutten</a></li>
+      <li><a href="Maunesha_River.html">Maunesha River</a></li>
+      <li><a href="Syrinx.html">Syrinx</a></li>
+      <li><a href="Hertha_BSC.html">Hertha BSC</a></li>
+      <li><a href="Popular_psychology.html">Popular psychology</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Local_Inter-Process_Communication">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 15, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

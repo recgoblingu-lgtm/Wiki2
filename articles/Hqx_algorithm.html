@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hqx (algorithm) - Wiki2</title>
+  <meta name="description" content="hqx is a set of 3 image upscaling algorithms developed by Maxim Stepin. The algorithms are hq2x, hq3x, and hq4x, which magnify by a factor of 2, 3, and 4 respectively. It was initially created in 2003 for the Super NES emulator ZSNES, and i">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Hqx_algorithm.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Hqx (algorithm) - Wiki2">
+  <meta property="og:description" content="hqx is a set of 3 image upscaling algorithms developed by Maxim Stepin. The algorithms are hq2x, hq3x, and hq4x, which magnify by a factor of 2, 3, and 4 respectively. It was initially created in 2003 for the Super NES emulator ZSNES, and i">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Hqx_algorithm.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/3/30/Image_enlarged_to_3_times_original_size_with_bilinear_interpolation.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hqx (algorithm) - Wiki2">
+  <meta name="twitter:description" content="hqx is a set of 3 image upscaling algorithms developed by Maxim Stepin. The algorithms are hq2x, hq3x, and hq4x, which magnify by a factor of 2, 3, and 4 respectively. It was initially created in 2003 for the Super NES emulator ZSNES, and i">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/3/30/Image_enlarged_to_3_times_original_size_with_bilinear_interpolation.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Hqx (algorithm)</h1>
+    <p><b>Hqx (algorithm)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>hqx is a set of 3 image upscaling algorithms developed by Maxim Stepin. The algorithms are hq2x, hq3x, and hq4x, which magnify by a factor of 2, 3, and 4 respectively. It was initially created in 2003 for the Super NES emulator ZSNES, and is used in emulators such as Nestopia, FCEUX, higan, and Snes9x.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Image_enlarged_to_3_times_original_size_with_bilinear_interpolation.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Image enlarged to 3 times original size with bilinear interpolation.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Test_hq3x.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Test hq3x.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Test_nn.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Test nn.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>hqx (&quot;high quality scale&quot;) is a set of 3 image upscaling algorithms developed by Maxim Stepin. The algorithms are hq2x , hq3x , and hq4x , which magnify by a factor of 2, 3, and 4 respectively. It was initially created in 2003 for the Super NES emulator ZSNES , and is used in emulators such as Nestopia , FCEUX , higan , and Snes9x .</p>
+    <hr>
+    <h2>Algorithm</h2>
+    <p>The source image&#x27;s pixels are iterated through from top-left to bottom-right. For each pixel, the surrounding 8 pixels are compared to the color of the source pixel. Shapes are detected by checking for pixels of similar color according to a YUV threshold. hqx uses the YUV color space to calculate color differences, so that differences in brightness are weighted higher in order to mimic human perception. This gives a total of combinations of similar or dissimilar neighbors. To expand the single pixel into a 2×2, 3×3, or 4×4 block of pixels, the arrangement of neighbors is looked up in a predefined table which contains the necessary interpolation patterns. The interpolation data in the lookup tables are constrained by the requirement that continuity of line segments must be preserved, while optimizing for smoothness. Generating these 256-filter lookup tables is relatively slow, and is the major source of complexity in the algorithm: the render stage is very simple and fast, and designed to be capable of being performed in real time on a MMX -capable CPU. In the source code, the interpolation data is represented as preprocessor macros to be inserted into switch case statements, and there is no source code leading to the generation of a lookup table. The author describes the process of generating a look-up table as: ... for each combination the most probable vector representation o</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Cultural_depictions_of_Joan_of_Arc.html">Cultural depictions of Joan of Arc</a></li>
+      <li><a href="Ghost_in_the_Noonday_Sun.html">Ghost in the Noonday Sun</a></li>
+      <li><a href="Tushhan.html">Tushhan</a></li>
+      <li><a href="Ni_de.html">Niğde</a></li>
+      <li><a href="Summit_League.html">Summit League</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Hqx_(algorithm)">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 15, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
