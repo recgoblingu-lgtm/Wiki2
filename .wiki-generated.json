@@ -78745,12 +78745,19 @@
       "category": "Esports titles",
       "source": "https://en.wikipedia.org/wiki/MyWhoosh",
       "generated_at": "2026-09-15T21:42:30+00:00"
+    },
+    {
+      "title": "Assonet, Massachusetts",
+      "filename": "Assonet_Massachusetts.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Assonet%2C_Massachusetts",
+      "generated_at": "2026-09-16T01:42:35+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|444654524e043a442e3248503a46011201dcc1dc0b|47487003",
-    "Category:Arcade video games": "page|2a4c4204564c324e50403a4436040992543a30324604362a42320994011e01dcc3e019|3781946",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
+    "Category:Indie games": "page|484c465046362a402a585a010f01dcc2dc09|29557795",
+    "Category:Arcade video games": "page|2c32362a096e4e042c2a50504032011101dcc0dc09|20027149",
+    "Category:Video game franchises": "page|342a2c52402a044446542a042e4c5a4e502a40403a4e073604343a442a4004342a44502a4e5a0306342a2c52402a044446542a042e4c5a4e502a40403a4e04343a442a4004342a44502a4e5a0125250c01dcc0dcc2dcbbdcc1dcbfdcc0dcc2dcbcdcc1dc0a|5070173",
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017"
   }
 }
