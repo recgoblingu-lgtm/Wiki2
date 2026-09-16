@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thundering herd problem - Wiki2</title>
+  <meta name="description" content="The thundering herd problem is a performance-degrading phenomenon in computer science and computer networking that occurs when a large number of processes or threads are simultaneously awakened, typically in response to a specific event or ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Thundering_herd_problem.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Thundering herd problem - Wiki2">
+  <meta property="og:description" content="The thundering herd problem is a performance-degrading phenomenon in computer science and computer networking that occurs when a large number of processes or threads are simultaneously awakened, typically in response to a specific event or ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Thundering_herd_problem.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Thundering herd problem - Wiki2">
+  <meta name="twitter:description" content="The thundering herd problem is a performance-degrading phenomenon in computer science and computer networking that occurs when a large number of processes or threads are simultaneously awakened, typically in response to a specific event or ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Thundering herd problem</h1>
+    <p><b>Thundering herd problem</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>The thundering herd problem is a performance-degrading phenomenon in computer science and computer networking that occurs when a large number of processes or threads are simultaneously awakened, typically in response to a specific event or the availability of a resource. However, only one process is able to respond to the event or access the new resource, causing most other processes to fail and go back to sleep. This unnecessary awakening consumes CPU and other system resources, potentially reducing overall performance and slowing the process that succeeds.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>The thundering herd problem is a performance-degrading phenomenon in computer science and computer networking that occurs when a large number of processes or threads are simultaneously awakened, typically in response to a specific event or the availability of a resource. However, only one process is able to respond to the event or access the new resource, causing most other processes to fail and go back to sleep. This unnecessary awakening consumes CPU and other system resources, potentially reducing overall performance and slowing the process that succeeds. When the thundering herd problem occurs while attempting to access a cache, it is often referred to as a cache stampede .</p>
+    <hr>
+    <h2>Mitigation</h2>
+    <p>The Linux kernel serializes responses for requests to a single file descriptor , so only one thread or process is woken up. For epoll () in version 4.5 of the Linux kernel, the EPOLLEXCLUSIVE flag was added. Thus several epoll sets (different threads or different processes) may wait on the same resource and only one set will be woken up. For certain workloads this flag can give significant processing time reduction. Similarly in Microsoft Windows, I/O completion ports can mitigate the thundering herd problem, as they can be configured such that only one of the threads waiting on the completion port is woken up when an event occurs. In systems that rely on a backoff mechanism (e.g. exponential backoff ), the clients will retry failed calls by waiting a specific amount of time between consecutive retries. In order to avoid the thundering herd problem, jitter can be purposefully introduced in order to break the synchronization across the clients, thereby avoiding collisions. In this approach, randomness is added to the wait intervals between retries, so that clients are no longer synchronized.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Taylor_County_Kentucky.html">Taylor County, Kentucky</a></li>
+      <li><a href="Stanley_Crook.html">Stanley Crook</a></li>
+      <li><a href="Christine_North_Dakota.html">Christine, North Dakota</a></li>
+      <li><a href="BMW_M70.html">BMW M70</a></li>
+      <li><a href="Tarnobrzeg.html">Tarnobrzeg</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Thundering_herd_problem">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 16, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
