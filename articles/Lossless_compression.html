@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lossless compression - Wiki2</title>
+  <meta name="description" content="Lossless compression is a class of data compression that allows the original data to be perfectly reconstructed from the compressed data with no loss of information. Lossless compression is possible because most real-world data exhibits sta">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Lossless_compression.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Lossless compression - Wiki2">
+  <meta property="og:description" content="Lossless compression is a class of data compression that allows the original data to be perfectly reconstructed from the compressed data with no loss of information. Lossless compression is possible because most real-world data exhibits sta">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Lossless_compression.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Lossless compression - Wiki2">
+  <meta name="twitter:description" content="Lossless compression is a class of data compression that allows the original data to be perfectly reconstructed from the compressed data with no loss of information. Lossless compression is possible because most real-world data exhibits sta">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Lossless compression</h1>
+    <p><b>Lossless compression</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>Lossless compression is a class of data compression that allows the original data to be perfectly reconstructed from the compressed data with no loss of information. Lossless compression is possible because most real-world data exhibits statistical redundancy. By contrast, lossy compression permits reconstruction only of an approximation of the original data, though usually with greatly improved compression rates.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>Lossless compression is a class of data compression that allows the original data to be perfectly reconstructed from the compressed data with no loss of information . Lossless compression is possible because most real-world data exhibits statistical redundancy . By contrast, lossy compression permits reconstruction only of an approximation of the original data , though usually with greatly improved compression rates (and therefore reduced media sizes). By operation of the pigeonhole principle , no lossless compression algorithm can shrink the size of all possible data: Some data will get longer by at least one symbol or bit. Compression algorithms are usually effective for human- and machine-readable documents and cannot shrink the size of random data that contain no redundancy . Different algorithms exist that are designed either with a specific type of input data in mind or with specific assumptions about what kinds of redundancy the uncompressed data are likely to contain. Lossless data compression is used in many applications. For example, it is used in the ZIP file format and in the GNU tool gzip . It is also often used as a component within lossy data compression technologies (e.g. lossless mid/side joint stereo preprocessing by MP3 encoders and other lossy audio encoders). Lossless compression is used in cases where it is important that the original and the decompressed </p>
+    <hr>
+    <h2>Techniques</h2>
+    <p>Most lossless compression programs do two things in sequence: the first step generates a statistical model for the input data, and the second step uses this model to map input data to bit sequences in such a way that &quot;probable&quot; (i.e. frequently encountered) data will produce shorter output than &quot;improbable&quot; data. The primary encoding algorithms used to produce bit sequences are Huffman coding (also used by the deflate algorithm ) and arithmetic coding . Arithmetic coding achieves compression rates close to the best possible for a particular statistical model, which is given by the information entropy , whereas Huffman compression is simpler and faster but produces poor results for models that deal with symbol probabilities close to 1. There are two primary ways of constructing statistical models: in a static model, the data is analyzed and a model is constructed, then this model is stored with the compressed data. This approach is simple and modular, but has the disadvantage that the model itself can be expensive to store, and also that it forces using a single model for all data being compressed, and so performs poorly on files that contain heterogeneous data. Adaptive models dynamically update the model as the data is compressed. Both the encoder and decoder begin with a trivial model, yielding poor compression of initial data, but as they learn more about the data, performan</p>
+    <hr>
+    <h2>Multimedia</h2>
+    <p>These techniques take advantage of the specific characteristics of images such as the common phenomenon of contiguous 2-D areas of similar tones. Every pixel but the first is replaced by the difference to its left neighbor. This leads to small values having a much higher probability than large values. This is often also applied to sound files, and can compress files that contain mostly low frequencies and low volumes. For images, this step can be repeated by taking the difference to the top pixel, and then in videos, the difference to the pixel in the next frame can be taken. The adaptive encoding uses the probabilities from the previous sample in sound encoding, from the left and upper pixel in image encoding, and additionally from the previous frame in video encoding. In the wavelet transformation, the probabilities are also passed through the hierarchy.</p>
+    <hr>
+    <h2>Historical legal issues</h2>
+    <p>Many of these methods are implemented in open-source and proprietary tools. Some algorithms are patented, and their legal usage requires licensing by the patent holder. Because of patents on certain kinds of LZW compression, and in particular licensing practices by patent holder Unisys that many developers considered abusive, some open source proponents encouraged people to avoid using the Graphics Interchange Format (GIF) for compressing still image files in favor of Portable Network Graphics (PNG), which combines the LZ77 -based deflate algorithm with a selection of domain-specific prediction filters. However, the patents on LZW expired on June 20, 2003. Many of the lossless compression techniques used for text also work reasonably well for indexed images , but there are other techniques that do not work for typical text that are useful for some images (particularly simple bitmaps), and other techniques that take advantage of the specific characteristics of images (such as the common phenomenon of contiguous 2-D areas of similar tones, and the fact that color images usually have a preponderance of a limited range of colors out of those representable in the color space). As mentioned previously, lossless sound compression is a somewhat specialized area. Lossless sound compression algorithms can take advantage of the repeating patterns shown by the wave-like nature of the data </p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="XSL.html">XSL</a></li>
+      <li><a href="River_Worth.html">River Worth</a></li>
+      <li><a href="Salisbury_National_Cemetery.html">Salisbury National Cemetery</a></li>
+      <li><a href="Alzey_Land.html">Alzey-Land</a></li>
+      <li><a href="Thyroglobulin.html">Thyroglobulin</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Lossless_compression">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 17, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

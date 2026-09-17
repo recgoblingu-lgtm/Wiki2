@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Negative binomial distribution - Wiki2</title>
+  <meta name="description" content="In probability theory and statistics, the negative binomial distribution, also called a Pascal distribution, is a discrete probability distribution that models the number of failures in a sequence of independent and identically distributed ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Negative_binomial_distribution.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Negative binomial distribution - Wiki2">
+  <meta property="og:description" content="In probability theory and statistics, the negative binomial distribution, also called a Pascal distribution, is a discrete probability distribution that models the number of failures in a sequence of independent and identically distributed ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Negative_binomial_distribution.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/8/83/Negbinomial.gif?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Negative binomial distribution - Wiki2">
+  <meta name="twitter:description" content="In probability theory and statistics, the negative binomial distribution, also called a Pascal distribution, is a discrete probability distribution that models the number of failures in a sequence of independent and identically distributed ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/8/83/Negbinomial.gif?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Negative binomial distribution</h1>
+    <p><b>Negative binomial distribution</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In probability theory and statistics, the negative binomial distribution, also called a Pascal distribution, is a discrete probability distribution that models the number of failures in a sequence of independent and identically distributed Bernoulli trials before a specified/constant/fixed number of successes occur. For example, we can define rolling a 6 on some dice as a success, and rolling any other number as a failure, and ask how many failure rolls will occur before we see the third success. In such a case, the probability distribution of the number of failures that appear will be a negative binomial distribution.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Negbinomial.gif?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Negative binomial distribution"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Negbinomial.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Negbinomial.gif"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In probability theory and statistics , the negative binomial distribution , also called a Pascal distribution , is a discrete probability distribution that models the number of failures in a sequence of independent and identically distributed Bernoulli trials before a specified/constant/fixed number of successes occur. (Sometimes the roles are swapped: the number of failures is fixed and the number of successes is modeled.) For example, we can define rolling a 6 on some dice as a success, and rolling any other number as a failure, and ask how many failure rolls will occur before we see the third success ( ). In such a case, the probability distribution of the number of failures that appear will be a negative binomial distribution. An alternative formulation is to model the number of total trials (instead of the number of failures). In fact, for a specified (non-random) number of successes ( r ) , the number of failures ( n − r ) is random because the number of total trials ( n ) is random. For example, we could use the negative binomial distribution to model the number of days n (random) a certain machine works (specified by r ) before it breaks down. The negative binomial distribution has a variance , with the distribution becoming identical to Poisson in the limit for a given mean (i.e. when the failures are increasingly rare). Here is the success probability of each Bernoull</p>
+    <hr>
+    <h2>Definitions</h2>
+    <p>Imagine a sequence of independent Bernoulli trials : each trial has two potential outcomes called &quot;success&quot; and &quot;failure.&quot; In each trial the probability of success is and of failure is . We observe this sequence until a predefined number of successes occurs. Then the random number of observed failures, , follows the negative binomial distribution:</p>
+    <hr>
+    <h2>Probability mass function</h2>
+    <p>The probability mass function of the negative binomial distribution is where r is the number of successes, X = k is the number of failures before the r -th success, and p is the probability of success on each trial. Here, the quantity in parentheses is the binomial coefficient , and is equal to Note that Γ( r ) is the Gamma function , and is the multiset coefficient . There are k failures chosen from k + r − 1 trials rather than k + r because the last of the k + r trials is by definition a success. This quantity can alternatively be written in the following manner, explaining the name &quot;negative binomial&quot;: Note that by the last expression and the binomial series , for every 0 ≤ p &lt; 1 and , hence the terms of the probability mass function indeed add up to one as below. To understand the above definition of the probability mass function, note that the probability for every specific sequence of r successes and k failures is p (1 − p ) , because the outcomes of the k + r trials are supposed to happen independently . Since the r -th success always comes last, it remains to choose the k trials with failures out of the remaining k + r − 1 trials. The above binomial coefficient, due to its combinatorial interpretation, gives precisely the number of all these sequences of length k + r − 1 . An alternate interpretation of the probability mass function&#x27;s binomial coefficient arises when co</p>
+    <hr>
+    <h2>Cumulative distribution function</h2>
+    <p>The cumulative distribution function can be expressed in terms of the regularized incomplete beta function : for non-negative integer k . This formula is using the same parameterization as in the article&#x27;s table, with r the number of successes, and with the mean. It can also be expressed in terms of the cumulative distribution function of the binomial distribution :</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Bethune_College.html">Bethune College</a></li>
+      <li><a href="Michael_Posner_psychologist.html">Michael Posner (psychologist)</a></li>
+      <li><a href="Nicholas_Moore.html">Nicholas Moore</a></li>
+      <li><a href="193_BC.html">193 BC</a></li>
+      <li><a href="Derek_Armstrong_ice_hockey.html">Derek Armstrong (ice hockey)</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Negative_binomial_distribution">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 17, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
