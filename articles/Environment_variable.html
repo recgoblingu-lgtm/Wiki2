@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Environment variable - Wiki2</title>
-  <meta name="description" content="An environment variable is a user-definable value that can affect the way running processes will behave on a computer. Environment variables are part of the environment in which a process runs. For example, a running process can query the v">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Environment_variable.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Environment variable - Wiki2">
-  <meta property="og:description" content="An environment variable is a user-definable value that can affect the way running processes will behave on a computer. Environment variables are part of the environment in which a process runs. For example, a running process can query the v">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Environment_variable.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Environment variable - Wiki2">
-  <meta name="twitter:description" content="An environment variable is a user-definable value that can affect the way running processes will behave on a computer. Environment variables are part of the environment in which a process runs. For example, a running process can query the v">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Environment variable - Wiki2</title>
+<meta content="An environment variable is a user-definable value that can affect the way running processes will behave on a computer. Environment variables are part of the environment in which a process runs. For example, a running process can query the v" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Environment_variable.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Environment variable" property="og:title"/>
+<meta content="Environment variable is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Environment_variable.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Environment variable" name="twitter:title"/>
+<meta content="Environment variable is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Environment variable</h1>
-    <p><b>Environment variable</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>An environment variable is a user-definable value that can affect the way running processes will behave on a computer. Environment variables are part of the environment in which a process runs. For example, a running process can query the value of the TEMP environment variable to discover a suitable location to store temporary files, or the HOME or USERPROFILE variable to find the directory structure owned by the user running the process.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>An environment variable is a user-definable value that can affect the way running processes will behave on a computer. Environment variables are part of the environment in which a process runs. For example, a running process can query the value of the TEMP environment variable to discover a suitable location to store temporary files , or the HOME or USERPROFILE variable to find the directory structure owned by the user running the process. They were introduced in their modern form in 1979 with Version 7 Unix , so are included in all Unix operating system flavors and variants from that point onward including Linux and macOS . From PC DOS 2.0 in 1982, all succeeding Microsoft operating systems, including Microsoft Windows , and OS/2 also have included them as a feature, although with somewhat different syntax, usage and standard variable names.</p>
-    <hr>
-    <h2>Design</h2>
-    <p>In all Unix and Unix-like systems, as well as on Windows, each process has its own separate set of environment variables . By default, when a process is created, it inherits a duplicate run-time environment of its parent process, except for explicit changes made by the parent when it creates the child. At the API level, these changes must be done between running fork and exec . Alternatively, from command shells such as bash , a user can change environment variables for a particular command invocation by indirectly invoking it via env or using the ENVIRONMENT_VARIABLE=VALUE notation. A running program can access the values of environment variables for configuration purposes. Shell scripts and batch files use environment variables to communicate data and preferences to child processes . They can also be used to store temporary values for reference later in a shell script. However, in Unix, non-exported variables are preferred for this as they do not leak outside the process. In Unix, an environment variable that is changed in a script or compiled program will only affect that process and possibly child processes. The parent process and any unrelated processes will not be affected. Similarly, changing or removing a variable&#x27;s value inside a DOS or Windows batch file will change the variable for the duration of COMMAND.COM or CMD.EXE &#x27;s existence, respectively. In Unix, the enviro</p>
-    <hr>
-    <h2>Syntax</h2>
-    <p>The variables can be used both in scripts and on the command line . They are usually referenced by putting special symbols in front of or around the variable name. By convention, names of environment variables are normally expressed in all capital letters. This helps keep environment variables distinctly different from other variables and identifiers used in programming codes. Nevertheless, note that case sensitivity in environment variable names differs between operating systems. That is, Unix-like operating systems are case-sensitive with respect to environment variable names, while DOS, OS/2, and Windows are not case-sensitive.</p>
-    <hr>
-    <h2>Unix</h2>
-    <p>In most Unix and Unix-like command-line shells , an environment variable&#x27;s value is retrieved by placing a $ sign before the variable&#x27;s name. If necessary, the name can also be surrounded by braces. To display the user home directory, the user may type: In Unix and Unix-like systems, the names of environment variables are case-sensitive. The command env displays all environment variables and their values. The command printenv can also be used to print a single variable by giving that variable name as the sole argument to the command.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Constitutional_crisis.html">Constitutional crisis</a></li>
-      <li><a href="SAS_Group.html">SAS Group</a></li>
-      <li><a href="Communications_system.html">Communications system</a></li>
-      <li><a href="Harrow_Garden_Village.html">Harrow Garden Village</a></li>
-      <li><a href="Balangoda_Ananda_Maitreya_Thero.html">Balangoda Ananda Maitreya Thero</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Environment_variable">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 17, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Environment variable</h1>
+<p><b>Environment variable</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>An environment variable is a user-definable value that can affect the way running processes will behave on a computer. Environment variables are part of the environment in which a process runs. For example, a running process can query the value of the TEMP environment variable to discover a suitable location to store temporary files, or the HOME or USERPROFILE variable to find the directory structure owned by the user running the process.</p>
+<hr/>
+<h2>Background</h2>
+<p>An environment variable is a user-definable value that can affect the way running processes will behave on a computer. Environment variables are part of the environment in which a process runs. For example, a running process can query the value of the TEMP environment variable to discover a suitable location to store temporary files , or the HOME or USERPROFILE variable to find the directory structure owned by the user running the process. They were introduced in their modern form in 1979 with Version 7 Unix , so are included in all Unix operating system flavors and variants from that point onward including Linux and macOS . From PC DOS 2.0 in 1982, all succeeding Microsoft operating systems, including Microsoft Windows , and OS/2 also have included them as a feature, although with somewhat different syntax, usage and standard variable names.</p>
+<hr/>
+<h2>Design</h2>
+<p>In all Unix and Unix-like systems, as well as on Windows, each process has its own separate set of environment variables . By default, when a process is created, it inherits a duplicate run-time environment of its parent process, except for explicit changes made by the parent when it creates the child. At the API level, these changes must be done between running fork and exec . Alternatively, from command shells such as bash , a user can change environment variables for a particular command invocation by indirectly invoking it via env or using the ENVIRONMENT_VARIABLE=VALUE notation. A running program can access the values of environment variables for configuration purposes. Shell scripts and batch files use environment variables to communicate data and preferences to child processes . They can also be used to store temporary values for reference later in a shell script. However, in Unix, non-exported variables are preferred for this as they do not leak outside the process. In Unix, an environment variable that is changed in a script or compiled program will only affect that process and possibly child processes. The parent process and any unrelated processes will not be affected. Similarly, changing or removing a variable's value inside a DOS or Windows batch file will change the variable for the duration of COMMAND.COM or CMD.EXE 's existence, respectively. In Unix, the enviro</p>
+<hr/>
+<h2>Syntax</h2>
+<p>The variables can be used both in scripts and on the command line . They are usually referenced by putting special symbols in front of or around the variable name. By convention, names of environment variables are normally expressed in all capital letters. This helps keep environment variables distinctly different from other variables and identifiers used in programming codes. Nevertheless, note that case sensitivity in environment variable names differs between operating systems. That is, Unix-like operating systems are case-sensitive with respect to environment variable names, while DOS, OS/2, and Windows are not case-sensitive.</p>
+<hr/>
+<h2>Unix</h2>
+<p>In most Unix and Unix-like command-line shells , an environment variable's value is retrieved by placing a $ sign before the variable's name. If necessary, the name can also be surrounded by braces. To display the user home directory, the user may type: In Unix and Unix-like systems, the names of environment variables are case-sensitive. The command env displays all environment variables and their values. The command printenv can also be used to print a single variable by giving that variable name as the sole argument to the command.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Constitutional_crisis.html">Constitutional crisis</a></li>
+<li><a href="SAS_Group.html">SAS Group</a></li>
+<li><a href="Communications_system.html">Communications system</a></li>
+<li><a href="Harrow_Garden_Village.html">Harrow Garden Village</a></li>
+<li><a href="Balangoda_Ananda_Maitreya_Thero.html">Balangoda Ananda Maitreya Thero</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Environment_variable">Wikimedia article</a></small></p>
+<p><i>Last edited: September 17, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

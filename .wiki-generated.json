@@ -85752,12 +85752,19 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/T%C3%BDr",
       "generated_at": "2026-09-17T09:36:38+00:00"
+    },
+    {
+      "title": "Fire performance",
+      "filename": "Fire_performance.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Fire_performance",
+      "generated_at": "2026-09-17T10:09:28+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|4c2a40405a042c3a3e3203064c2a40405a042c3a3e32011901dcc1dcc2dcc1dc07|6285240",
-    "Category:Indie games": "page|2c462c096e4e04362a4232010e01dcc1dc07|23934062",
-    "Category:Video game franchises": "page|2e4642483a402a503a464404463404343a442a4004342a44502a4e5a04543a3a03062e4642483a402a503a464404463404343a442a4004342a44502a4e5a04543a3a01252401dcbbdcc4dcc1dcbfdcc3dcb8dcc1dcbfdcdcdc|1379498",
+    "Category:Arcade video games": "page|4e464e0409922a4c2e2a303204362a4232099403064e464e0409922a4c2e2a303204362a4232099401250601dcc2dcc0dcc1dcdcdc12|3666777",
+    "Category:Indie games": "page|2e522c3204324e2e2a4832010f01dcc2dc09|68047153",
+    "Category:Video game franchises": "page|342a2c52402a044446542a042e4c5a4e502a40403a4e073604343a442a4004342a44502a4e5a0306342a2c52402a044446542a042e4c5a4e502a40403a4e04343a442a4004342a44502a4e5a0125250c01dcc0dcc2dcbbdcc1dcbfdcc0dcc2dcbcdcc1dc0a|5070173",
     "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
     "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
     "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",

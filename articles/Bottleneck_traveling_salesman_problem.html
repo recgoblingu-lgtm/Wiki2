@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Bottleneck traveling salesman problem - Wiki2</title>
-  <meta name="description" content="The Bottleneck traveling salesman problem is a problem in discrete or combinatorial optimization. The problem is to find the Hamiltonian cycle in a weighted graph which minimizes the weight of the highest-weight edge of the cycle. It was fi">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Bottleneck_traveling_salesman_problem.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Bottleneck traveling salesman problem - Wiki2">
-  <meta property="og:description" content="The Bottleneck traveling salesman problem is a problem in discrete or combinatorial optimization. The problem is to find the Hamiltonian cycle in a weighted graph which minimizes the weight of the highest-weight edge of the cycle. It was fi">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Bottleneck_traveling_salesman_problem.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Bottleneck traveling salesman problem - Wiki2">
-  <meta name="twitter:description" content="The Bottleneck traveling salesman problem is a problem in discrete or combinatorial optimization. The problem is to find the Hamiltonian cycle in a weighted graph which minimizes the weight of the highest-weight edge of the cycle. It was fi">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Bottleneck traveling salesman problem - Wiki2</title>
+<meta content="The Bottleneck traveling salesman problem is a problem in discrete or combinatorial optimization. The problem is to find the Hamiltonian cycle in a weighted graph which minimizes the weight of the highest-weight edge of the cycle. It was fi" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Bottleneck_traveling_salesman_problem.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Bottleneck traveling salesman problem" property="og:title"/>
+<meta content="Bottleneck traveling salesman problem is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Bottleneck_traveling_salesman_problem.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Bottleneck traveling salesman problem" name="twitter:title"/>
+<meta content="Bottleneck traveling salesman problem is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Bottleneck traveling salesman problem</h1>
-    <p><b>Bottleneck traveling salesman problem</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>The Bottleneck traveling salesman problem is a problem in discrete or combinatorial optimization. The problem is to find the Hamiltonian cycle in a weighted graph which minimizes the weight of the highest-weight edge of the cycle. It was first formulated by Gilmore &amp; Gomory (1964) with some additional constraints, and in its full generality by Garfinkel &amp; Gilbert (1978).</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>The Bottleneck traveling salesman problem ( bottleneck TSP ) is a problem in discrete or combinatorial optimization . The problem is to find the Hamiltonian cycle (visiting each node exactly once) in a weighted graph which minimizes the weight of the highest-weight edge of the cycle. It was first formulated by Gilmore &amp; Gomory (1964) with some additional constraints, and in its full generality by Garfinkel &amp; Gilbert (1978) .</p>
-    <hr>
-    <h2>Complexity</h2>
-    <p>The problem is known to be NP-hard . The decision problem version of this, &quot;for a given length x is there a Hamiltonian cycle in a graph G with no edge longer than x ?&quot;, is NP-complete . NP-completeness follows immediately by a reduction from the problem of finding a Hamiltonian cycle.</p>
-    <hr>
-    <h2>Algorithms</h2>
-    <p>Another reduction, from the bottleneck TSP to the usual TSP (where the goal is to minimize the sum of edge lengths), allows any algorithm for the usual TSP to also be used to solve the bottleneck TSP. If the edge weights of the bottleneck TSP are replaced by any other numbers that have the same relative order, then the bottleneck solution remains unchanged. If, in addition, each number in the sequence exceeds the sum of all smaller numbers, then the bottleneck solution will also equal the usual TSP solution. For instance, such a result may be attained by resetting each weight to n where n is the number of vertices in the graph and i is the rank of the original weight of the edge in the sorted sequence of weights. For instance, following this transformation, the Held–Karp algorithm could be used to solve the bottleneck TSP in time O ( n 2) . Alternatively, the problem can be solved by performing a binary search or sequential search for the smallest x such that the subgraph of edges of weight at most x has a Hamiltonian cycle. This method leads to solutions whose running time is only a logarithmic factor larger than the time to find a Hamiltonian cycle.</p>
-    <hr>
-    <h2>Variations</h2>
-    <p>In an asymmetric bottleneck TSP , there are cases where the weight from node A to B is different from the weight from B to A (e. g. travel time between two cities with a traffic jam in one direction). The Euclidean bottleneck TSP , or planar bottleneck TSP, is the bottleneck TSP with the distance being the ordinary Euclidean distance . The problem still remains NP-hard. However, many heuristics work better for it than for other distance functions. The maximum scatter traveling salesman problem is another variation of the traveling salesman problem in which the goal is to find a Hamiltonian cycle that maximizes the minimum edge length rather than minimizing the maximum length. Its applications include the analysis of medical images, and the scheduling of metalworking steps in aircraft manufacture to avoid heat buildup from steps that are nearby in both time and space. It can be translated into an instance of the bottleneck TSP problem by negating all edge lengths (or, to keep the results positive, subtracting them all from a large enough constant). However, although this transformation preserves the optimal solution, it does not preserve the quality of approximations to that solution.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="North_Dumpling_Island.html">North Dumpling Island</a></li>
-      <li><a href="Summa.html">Summa</a></li>
-      <li><a href="Can_t_Buy_a_Thrill.html">Can&#x27;t Buy a Thrill</a></li>
-      <li><a href="P_draig_Flynn.html">Pádraig Flynn</a></li>
-      <li><a href="Rubiales_plant.html">Rubiales (plant)</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Bottleneck_traveling_salesman_problem">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 17, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Bottleneck traveling salesman problem</h1>
+<p><b>Bottleneck traveling salesman problem</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>The Bottleneck traveling salesman problem is a problem in discrete or combinatorial optimization. The problem is to find the Hamiltonian cycle in a weighted graph which minimizes the weight of the highest-weight edge of the cycle. It was first formulated by Gilmore &amp; Gomory (1964) with some additional constraints, and in its full generality by Garfinkel &amp; Gilbert (1978).</p>
+<hr/>
+<h2>Background</h2>
+<p>The Bottleneck traveling salesman problem ( bottleneck TSP ) is a problem in discrete or combinatorial optimization . The problem is to find the Hamiltonian cycle (visiting each node exactly once) in a weighted graph which minimizes the weight of the highest-weight edge of the cycle. It was first formulated by Gilmore &amp; Gomory (1964) with some additional constraints, and in its full generality by Garfinkel &amp; Gilbert (1978) .</p>
+<hr/>
+<h2>Complexity</h2>
+<p>The problem is known to be NP-hard . The decision problem version of this, "for a given length x is there a Hamiltonian cycle in a graph G with no edge longer than x ?", is NP-complete . NP-completeness follows immediately by a reduction from the problem of finding a Hamiltonian cycle.</p>
+<hr/>
+<h2>Algorithms</h2>
+<p>Another reduction, from the bottleneck TSP to the usual TSP (where the goal is to minimize the sum of edge lengths), allows any algorithm for the usual TSP to also be used to solve the bottleneck TSP. If the edge weights of the bottleneck TSP are replaced by any other numbers that have the same relative order, then the bottleneck solution remains unchanged. If, in addition, each number in the sequence exceeds the sum of all smaller numbers, then the bottleneck solution will also equal the usual TSP solution. For instance, such a result may be attained by resetting each weight to n where n is the number of vertices in the graph and i is the rank of the original weight of the edge in the sorted sequence of weights. For instance, following this transformation, the Held–Karp algorithm could be used to solve the bottleneck TSP in time O ( n 2) . Alternatively, the problem can be solved by performing a binary search or sequential search for the smallest x such that the subgraph of edges of weight at most x has a Hamiltonian cycle. This method leads to solutions whose running time is only a logarithmic factor larger than the time to find a Hamiltonian cycle.</p>
+<hr/>
+<h2>Variations</h2>
+<p>In an asymmetric bottleneck TSP , there are cases where the weight from node A to B is different from the weight from B to A (e. g. travel time between two cities with a traffic jam in one direction). The Euclidean bottleneck TSP , or planar bottleneck TSP, is the bottleneck TSP with the distance being the ordinary Euclidean distance . The problem still remains NP-hard. However, many heuristics work better for it than for other distance functions. The maximum scatter traveling salesman problem is another variation of the traveling salesman problem in which the goal is to find a Hamiltonian cycle that maximizes the minimum edge length rather than minimizing the maximum length. Its applications include the analysis of medical images, and the scheduling of metalworking steps in aircraft manufacture to avoid heat buildup from steps that are nearby in both time and space. It can be translated into an instance of the bottleneck TSP problem by negating all edge lengths (or, to keep the results positive, subtracting them all from a large enough constant). However, although this transformation preserves the optimal solution, it does not preserve the quality of approximations to that solution.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="North_Dumpling_Island.html">North Dumpling Island</a></li>
+<li><a href="Summa.html">Summa</a></li>
+<li><a href="Can_t_Buy_a_Thrill.html">Can't Buy a Thrill</a></li>
+<li><a href="P_draig_Flynn.html">Pádraig Flynn</a></li>
+<li><a href="Rubiales_plant.html">Rubiales (plant)</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Bottleneck_traveling_salesman_problem">Wikimedia article</a></small></p>
+<p><i>Last edited: September 17, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
