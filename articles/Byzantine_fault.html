@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Byzantine fault - Wiki2</title>
+  <meta name="description" content="A Byzantine fault is a condition of a system, particularly a distributed computing system, where a fault occurs such that different symptoms are presented to different observers, including imperfect information on whether a system component">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Byzantine_fault.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Byzantine fault - Wiki2">
+  <meta property="og:description" content="A Byzantine fault is a condition of a system, particularly a distributed computing system, where a fault occurs such that different symptoms are presented to different observers, including imperfect information on whether a system component">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Byzantine_fault.html">
+  <meta property="og:image" content="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Byzantine_Generals.png/960px-Byzantine_Generals.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Byzantine fault - Wiki2">
+  <meta name="twitter:description" content="A Byzantine fault is a condition of a system, particularly a distributed computing system, where a fault occurs such that different symptoms are presented to different observers, including imperfect information on whether a system component">
+  <meta name="twitter:image" content="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Byzantine_Generals.png/960px-Byzantine_Generals.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Byzantine fault</h1>
+    <p><b>Byzantine fault</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>A Byzantine fault is a condition of a system, particularly a distributed computing system, where a fault occurs such that different symptoms are presented to different observers, including imperfect information on whether a system component has failed. The term takes its name from an allegory, the &quot;Byzantine generals problem&quot;, developed to describe a situation in which, to avoid catastrophic failure of a system, the system&#x27;s actors must agree on a strategy, but some of these actors are unreliable in a way which causes other (good) actors to disagree on the strategy and they may be unaware of the disagreement.</p>
+    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Byzantine_Generals.png/960px-Byzantine_Generals.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Byzantine Generals.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>A Byzantine fault is a condition of a system, particularly a distributed computing system, where a fault occurs such that different symptoms are presented to different observers, including imperfect information on whether a system component has failed. The term takes its name from an allegory , the &quot;Byzantine generals problem&quot;, developed to describe a situation in which, to avoid catastrophic failure of a system, the system&#x27;s actors must agree on a strategy, but some of these actors are unreliable in a way which causes other (good) actors to disagree on the strategy and they may be unaware of the disagreement. A Byzantine fault is also known as a Byzantine generals problem , a Byzantine agreement problem , or a Byzantine failure . Byzantine fault tolerance ( BFT ) is the resilience of a fault-tolerant computer system or similar system to such conditions.</p>
+    <hr>
+    <h2>Definition</h2>
+    <p>A Byzantine fault is any fault presenting different symptoms to different observers. A Byzantine failure is the loss of a system service due to a Byzantine fault in systems that require consensus among multiple components. The Byzantine allegory considers a number of generals who are attacking a fortress. The generals must decide as a group whether to attack or retreat; some may prefer to attack, while others prefer to retreat. The important thing is that all generals agree on a common decision, for a half-hearted attack by a few generals would become a rout , and would be worse than either a coordinated attack or a coordinated retreat. The problem is complicated by the presence of treacherous generals who may not only cast a vote for a suboptimal strategy; they may do so selectively. For instance, if nine generals are voting, four of whom support attacking while four others are in favor of retreat, the ninth general may send a vote of retreat to those generals in favor of retreat, and a vote of attack to the rest. Those who received a retreat vote from the ninth general will retreat, while the rest will attack (which may not go well for the attackers). The problem is complicated further by the generals being physically separated and having to send their votes via messengers who may fail to deliver votes or may forge false votes. Without message signing, Byzantine fault toleran</p>
+    <hr>
+    <h2>History</h2>
+    <p>The problem of obtaining Byzantine consensus was conceived and formalized by Robert Shostak , who dubbed it the interactive consistency problem. This work was done in 1978 in the context of the NASA-sponsored SIFT project in the Computer Science Lab at SRI International . SIFT (for Software Implemented Fault Tolerance) was the brainchild of John Wensley, and was based on the idea of using multiple general-purpose computers that would communicate through pairwise messaging in order to reach a consensus, even if some of the computers were faulty. At the beginning of the project, it was not clear how many computers in total were needed to guarantee that a conspiracy of n faulty computers could not &quot;thwart&quot; the efforts of the correctly-operating ones to reach consensus. Shostak showed that a minimum of 3 n+ 1 are needed, and devised a two-round 3 n+1 messaging protocol that would work for n =1. His colleague Marshall Pease generalized the algorithm for any n &gt; 0, proving that 3 n +1 is both necessary and sufficient. These results, together with a later proof by Leslie Lamport of the sufficiency of 3 n using digital signatures, were published in the seminal paper, Reaching Agreement in the Presence of Faults. The authors were awarded the 2005 Edsger W. Dijkstra Prize for this paper. To make the interactive consistency problem easier to understand, Lamport devised a colorful allegory</p>
+    <hr>
+    <h2>Mitigation</h2>
+    <p>The objective of Byzantine fault tolerance is to be able to defend against failures of system components with or without symptoms that prevent other components of the system from reaching an agreement among themselves, where such an agreement is needed for the correct operation of the system. The remaining operationally correct components of a Byzantine fault tolerant system will be able to continue providing the system&#x27;s service as originally intended, assuming there are a sufficient number of accurately-operating components to maintain the service. When considering failure propagation only via errors, Byzantine failures are considered the most general and most difficult class of failures among the failure modes . The so-called fail-stop failure mode occupies the simplest end of the spectrum. Whereas the fail-stop failure mode simply means that the only way to fail is a node crash, detected by other nodes, Byzantine failures imply no restrictions on what errors can be created, which means that a failed node can generate arbitrary data, including data that makes it appear like a functioning node to a subset of other nodes. Thus, Byzantine failures can confuse failure detection systems, which makes fault tolerance difficult. Despite the allegory, a Byzantine failure is not necessarily a security problem involving hostile human interference: it can arise purely from physical or s</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Magyar_Ag_r.html">Magyar Agár</a></li>
+      <li><a href="Neutral_Bay.html">Neutral Bay</a></li>
+      <li><a href="Yabanc_Damat.html">Yabancı Damat</a></li>
+      <li><a href="ATC_code_P01.html">ATC code P01</a></li>
+      <li><a href="Leonardo_da_Vinci.html">Leonardo da Vinci</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Byzantine_fault">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 17, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

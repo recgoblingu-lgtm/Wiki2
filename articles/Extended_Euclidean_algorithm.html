@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Extended Euclidean algorithm - Wiki2</title>
+  <meta name="description" content="In arithmetic and computer programming, the extended Euclidean algorithm is an extension to the Euclidean algorithm, and computes, in addition to the greatest common divisor (gcd) of integers a and b, also the coefficients of Bézout&#x27;s ident">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Extended_Euclidean_algorithm.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Extended Euclidean algorithm - Wiki2">
+  <meta property="og:description" content="In arithmetic and computer programming, the extended Euclidean algorithm is an extension to the Euclidean algorithm, and computes, in addition to the greatest common divisor (gcd) of integers a and b, also the coefficients of Bézout&#x27;s ident">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Extended_Euclidean_algorithm.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Extended Euclidean algorithm - Wiki2">
+  <meta name="twitter:description" content="In arithmetic and computer programming, the extended Euclidean algorithm is an extension to the Euclidean algorithm, and computes, in addition to the greatest common divisor (gcd) of integers a and b, also the coefficients of Bézout&#x27;s ident">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Extended Euclidean algorithm</h1>
+    <p><b>Extended Euclidean algorithm</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In arithmetic and computer programming, the extended Euclidean algorithm is an extension to the Euclidean algorithm, and computes, in addition to the greatest common divisor (gcd) of integers a and b, also the coefficients of Bézout&#x27;s identity, which are integers x and y such that ; it is generally denoted as .</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>In arithmetic and computer programming , the extended Euclidean algorithm is an extension to the Euclidean algorithm , and computes, in addition to the greatest common divisor (gcd) of integers a and b , also the coefficients of Bézout&#x27;s identity , which are integers x and y such that ; it is generally denoted as . This is a certifying algorithm , because the gcd is the only number that can simultaneously satisfy this equation and divide the inputs. It allows one to compute also, with almost no extra cost, the quotients of a and b by their greatest common divisor. Extended Euclidean algorithm also refers to a very similar algorithm for computing the polynomial greatest common divisor and the coefficients of Bézout&#x27;s identity of two univariate polynomials . The extended Euclidean algorithm is particularly useful when a and b are coprime . With that provision, x is the modular multiplicative inverse of a modulo b , and y is the modular multiplicative inverse of b modulo a . Similarly, the polynomial extended Euclidean algorithm allows one to compute the multiplicative inverse in algebraic field extensions and, in particular in finite fields of non-prime order. It follows that both extended Euclidean algorithms are widely used in cryptography . In particular, the computation of the modular multiplicative inverse is an essential step in the derivation of key-pairs in the RSA public</p>
+    <hr>
+    <h2>Description</h2>
+    <p>The standard Euclidean algorithm proceeds by a succession of Euclidean divisions whose quotients are not used. Only the remainders are kept. For the extended algorithm, the successive quotients are used. More precisely, the standard Euclidean algorithm with a and b as input, consists of computing a sequence of quotients and a sequence of remainders such that It is the main property of Euclidean division that the inequalities on the right define uniquely and from and The computation stops when one reaches a remainder which is zero; the greatest common divisor is then the last nonzero remainder The extended Euclidean algorithm proceeds similarly, but adds two other sequences, as follows The computation also stops when and gives Moreover, if a and b are both positive and , then for where denotes the integral part of x , that is the greatest integer not greater than x . This implies that the pair of Bézout&#x27;s coefficients provided by the extended Euclidean algorithm is the minimal pair of Bézout coefficients, as being the unique pair satisfying both above inequalities. It also means that if a and b fit into an unsigned integer data type , a computer program can compute the Bézout coefficients in the corresponding signed integer type without integer overflow .</p>
+    <hr>
+    <h2>Examples</h2>
+    <p>The following table shows how the extended Euclidean algorithm proceeds with input 240 and 46 . The greatest common divisor is the last nonzero entry, 2 in the column &quot;remainder&quot;. The computation stops at row 6, because the remainder in it is 0 . Bézout coefficients appear in the last two columns of the second-to-last row. In fact, it is easy to verify that −9 × 240 + 47 × 46 = 2 . Finally the last two entries 23 and −120 of the last row are, up to the sign, the quotients of the input 46 and 240 by the greatest common divisor 2 . The following example uses a more compact notation. The greatest common divisor of and can be calculated like this: where in the first step means that times is added to (the gcd does not change when adding a multiple of one number to the other). Applying the green-indicated additions of multiples analogously to equations, starting with and leads to according to the adjacent calculations (the corresponding table far right uses row operations).</p>
+    <hr>
+    <h2>Proof</h2>
+    <p>Since , the sequence is a strictly decreasing sequence of non-negative integers, for . Thus, it must stop with some . This proves that the algorithm stops, eventually. From the equation it follows that . As a consequence, . Until this point, the proof is the same as that of the classical Euclidean algorithm. The recurrence relations, for , can be proven by induction. In fact, for they reduce to Assuming they are satisfied for some , the equations for follow from the computation In particular, the equation shows that and are coprime . Multiplying by , it implies that Therefore, , from where it follows that divides . As a consequence, there is an integer such that . Dividing by the relation gives Hence, and are coprime integers that are the quotients of and by a common factor, which is thus their greatest common divisor or its opposite . To prove the last assertion, assume that and are both positive and . Then, , and if , it can be seen that the s and t sequences for ( a , b ) under the EEA are, up to initial 0s and 1s, the t and s sequences for ( b , a ). The definitions then show that the ( a , b ) case reduces to the ( b , a ) case. So assume that without loss of generality . It can be seen that is 1 and (which exists by ) is a negative integer. Thereafter, the alternate in sign and strictly increase in magnitude, which follows inductively from the definitions and the fact tha</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="World_Union_of_Jewish_Students.html">World Union of Jewish Students</a></li>
+      <li><a href="Let_Us_Prey.html">Let Us Prey</a></li>
+      <li><a href="Pope_Agapetus_I.html">Pope Agapetus I</a></li>
+      <li><a href="521_BC.html">521 BC</a></li>
+      <li><a href="Trial_of_Michael_Jackson.html">Trial of Michael Jackson</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 17, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

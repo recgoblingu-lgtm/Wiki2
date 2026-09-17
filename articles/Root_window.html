@@ -1,57 +1,58 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Root window - Wiki2</title>
-  <meta name="description" content="In the X Window System, a window is the region of the screen where drawing can occur. The root window covers the entire screen surface. Every window created is contained within it, forming a hierarchy with the root window at the very top. A">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Root_window.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Root window - Wiki2">
-  <meta property="og:description" content="In the X Window System, a window is the region of the screen where drawing can occur. The root window covers the entire screen surface. Every window created is contained within it, forming a hierarchy with the root window at the very top. A">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Root_window.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/4/49/Some_X_windows.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Root window - Wiki2">
-  <meta name="twitter:description" content="In the X Window System, a window is the region of the screen where drawing can occur. The root window covers the entire screen surface. Every window created is contained within it, forming a hierarchy with the root window at the very top. A">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/4/49/Some_X_windows.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Root window - Wiki2</title>
+<meta content="In the X Window System, a window is the region of the screen where drawing can occur. The root window covers the entire screen surface. Every window created is contained within it, forming a hierarchy with the root window at the very top. A" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Root_window.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Root window" property="og:title"/>
+<meta content="Root window is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Root_window.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/4/49/Some_X_windows.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Root window" name="twitter:title"/>
+<meta content="Root window is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/4/49/Some_X_windows.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Root window</h1>
-    <p><b>Root window</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In the X Window System, a window is the region of the screen where drawing can occur. The root window covers the entire screen surface. Every window created is contained within it, forming a hierarchy with the root window at the very top. All other windows are either children or descendants of it.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Some_X_windows.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Root window"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>In the X Window System , a window is the region of the screen where drawing can occur. The root window covers the entire screen surface. Every window created is contained within it, forming a hierarchy with the root window at the very top. All other windows are either children or descendants of it. Since every window covers the part of its parent it is staying on, all other windows appear to be above the root window. As a result, the root window is visible as the part of the screen that is behind all other windows. In other words, the root window forms the background of the screen. An image can be used as the wallpaper of the screen by setting it as the background image of the root window. This can be done for example using the xsetroot or the xv programs. The direct children of the root window are called top-level windows . These windows are usually drawn with a decorative frame and a title bar (which are actually added by the window manager ). The top-level windows are, informally, the regular windows in the terminology of most GUIs . The windows that are not top-level are used for buttons, textboxes, etc. The properties of the root window are sometimes used as a rudimentary form of inter-client communication means. For example, the cut buffers are properties of the root window that are used for copying selected text from a window to another, and the dwm window manager displa</p>
-    <hr>
-    <h2>Virtual root window</h2>
-    <p>The swm window manager introduced the virtual root window . From the point of view of the X protocol, this is a regular window. However, X window managers using the virtual root window reparent all windows to it instead of to the real root window. Virtual root windows are mainly used by re-parenting window managers, for example, for realizing a number of virtual desktops the user can switch between. Other clients (beside the window manager) may need to use the virtual root window. The identifier of this window can be found in a window property named __SWM_VROOT in a direct child of the real root window. Technically, many programs use the macros for finding the root windows as redefined by an include file named vroot.h . The freedesktop window manager specification requires a property named _NET_VIRTUAL_ROOTS of the real root window to contain a list of the windows that are acting as virtual root windows; the virtual root window that is currently active can be found in the property _NET_CURRENT_DESKTOP of the real root window. The virtual root window is used by the window managers swm, tvtwm , amiwm , and enlightenment . Other systems such as KDE use a virtual background window (which contains the icons, for example) but do not reparent the other windows to this one. The virtual root window is also used by XScreenSaver : when the screensaver is activated, this program creates a </p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="J_J_Stevenson_geologist.html">J. J. Stevenson (geologist)</a></li>
-      <li><a href="1983_Beirut_barracks_bombings.html">1983 Beirut barracks bombings</a></li>
-      <li><a href="Petershill_F_C.html">Petershill F.C.</a></li>
-      <li><a href="Viscount_Kingston.html">Viscount Kingston</a></li>
-      <li><a href="Prefix.html">Prefix</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Root_window">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 16, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Root window</h1>
+<p><b>Root window</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In the X Window System, a window is the region of the screen where drawing can occur. The root window covers the entire screen surface. Every window created is contained within it, forming a hierarchy with the root window at the very top. All other windows are either children or descendants of it.</p>
+<figure class="article-image"><img alt="Root window" src="https://upload.wikimedia.org/wikipedia/commons/4/49/Some_X_windows.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>In the X Window System , a window is the region of the screen where drawing can occur. The root window covers the entire screen surface. Every window created is contained within it, forming a hierarchy with the root window at the very top. All other windows are either children or descendants of it. Since every window covers the part of its parent it is staying on, all other windows appear to be above the root window. As a result, the root window is visible as the part of the screen that is behind all other windows. In other words, the root window forms the background of the screen. An image can be used as the wallpaper of the screen by setting it as the background image of the root window. This can be done for example using the xsetroot or the xv programs. The direct children of the root window are called top-level windows . These windows are usually drawn with a decorative frame and a title bar (which are actually added by the window manager ). The top-level windows are, informally, the regular windows in the terminology of most GUIs . The windows that are not top-level are used for buttons, textboxes, etc. The properties of the root window are sometimes used as a rudimentary form of inter-client communication means. For example, the cut buffers are properties of the root window that are used for copying selected text from a window to another, and the dwm window manager displa</p>
+<hr/>
+<h2>Virtual root window</h2>
+<p>The swm window manager introduced the virtual root window . From the point of view of the X protocol, this is a regular window. However, X window managers using the virtual root window reparent all windows to it instead of to the real root window. Virtual root windows are mainly used by re-parenting window managers, for example, for realizing a number of virtual desktops the user can switch between. Other clients (beside the window manager) may need to use the virtual root window. The identifier of this window can be found in a window property named __SWM_VROOT in a direct child of the real root window. Technically, many programs use the macros for finding the root windows as redefined by an include file named vroot.h . The freedesktop window manager specification requires a property named _NET_VIRTUAL_ROOTS of the real root window to contain a list of the windows that are acting as virtual root windows; the virtual root window that is currently active can be found in the property _NET_CURRENT_DESKTOP of the real root window. The virtual root window is used by the window managers swm, tvtwm , amiwm , and enlightenment . Other systems such as KDE use a virtual background window (which contains the icons, for example) but do not reparent the other windows to this one. The virtual root window is also used by XScreenSaver : when the screensaver is activated, this program creates a </p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="J_J_Stevenson_geologist.html">J. J. Stevenson (geologist)</a></li>
+<li><a href="1983_Beirut_barracks_bombings.html">1983 Beirut barracks bombings</a></li>
+<li><a href="Petershill_F_C.html">Petershill F.C.</a></li>
+<li><a href="Viscount_Kingston.html">Viscount Kingston</a></li>
+<li><a href="Prefix.html">Prefix</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Root_window">Wikimedia article</a></small></p>
+<p><i>Last edited: September 16, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

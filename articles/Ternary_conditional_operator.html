@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Ternary conditional operator - Wiki2</title>
-  <meta name="description" content="In computer programming, the ternary conditional operator is a conditional expression with three parts: the Boolean condition, the then-expression, and the else-expression. If the condition is true, the then-expression is evaluated; otherwi">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Ternary_conditional_operator.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Ternary conditional operator - Wiki2">
-  <meta property="og:description" content="In computer programming, the ternary conditional operator is a conditional expression with three parts: the Boolean condition, the then-expression, and the else-expression. If the condition is true, the then-expression is evaluated; otherwi">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Ternary_conditional_operator.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Ternary conditional operator - Wiki2">
-  <meta name="twitter:description" content="In computer programming, the ternary conditional operator is a conditional expression with three parts: the Boolean condition, the then-expression, and the else-expression. If the condition is true, the then-expression is evaluated; otherwi">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Ternary conditional operator - Wiki2</title>
+<meta content="In computer programming, the ternary conditional operator is a conditional expression with three parts: the Boolean condition, the then-expression, and the else-expression. If the condition is true, the then-expression is evaluated; otherwi" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Ternary_conditional_operator.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Ternary conditional operator" property="og:title"/>
+<meta content="Ternary conditional operator is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Ternary_conditional_operator.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Ternary conditional operator" name="twitter:title"/>
+<meta content="Ternary conditional operator is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Ternary conditional operator</h1>
-    <p><b>Ternary conditional operator</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In computer programming, the ternary conditional operator is a conditional expression with three parts: the Boolean condition, the then-expression, and the else-expression. If the condition is true, the then-expression is evaluated; otherwise, the else-expression is evaluated; and the value is returned. Thus it is a non-strict operator, like other conditional expressions. It is also called a conditional operator, ternary if, immediate if, or inline if (iif).</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In computer programming , the ternary conditional operator is a conditional expression with three parts: the Boolean condition , the then -expression, and the else -expression. If the condition is true, the then -expression is evaluated; otherwise, the else -expression is evaluated; and the value is returned. Thus it is a non-strict operator, like other conditional expressions. It is also called a conditional operator , ternary if , immediate if , or inline if ( iif ). Although a ternary operator in general is any operator with three arguments, the three-argument conditional operator is the only common one in programming, so it is loosely called the ternary operator. C introduced the syntax a ? b : c , read as &quot;if a then b otherwise c&quot;, which is widely used by other languages with C-like syntax . Some languages use functional syntax: in Visual Basic , it is written If(a, b, c) . Many languages support conditional expressions with two, three, or more clauses. Languages following ALGOL -like syntax often support them with the same syntax as conditional statements , if a then b else c . The construct first appeared in CPL in 1963, as a → b, c .</p>
-    <hr>
-    <h2>Assignment</h2>
-    <p>The value of the operator can be assigned to a variable. For a weakly typed language, the data type of the selected value may determine the type of the assigned value. For a strongly typed language, both value expressions must evaluate to a type that is compatible with the target variable. The operator is similar to the way conditional expressions (if-then-else) work in functional programming languages, like Scheme , ML , Haskell , and XQuery , since if-then-else forms an expression instead of a statement in those languages. The operator allows for initializing a variable via a single statement which otherwise might require multiple statements. Use in variable assignment reduces the probability of a bug from a faulty assignment as the assigned variable is stated only once. For example, in Python: instead of: In a language with block scope , a variable must be declared before the if-else statement. For example: Use of the conditional operator simplifies this: Furthermore, since initialization is now part of the declaration, rather than a separate statement, the identifier can be a constant. For example:</p>
-    <hr>
-    <h2>Variations</h2>
-    <p>The syntax and semantics of the operator vary by language. Major differences include whether the expressions can have side effects and whether the language provides short-circuit evaluation semantics, whereby only the selected expression is evaluated. If a language supports expressions with side effects but does not specify short-circuit evaluation, then a further distinction exists about which expression evaluates first. If no order is guaranteed, a distinction exists about whether the result is then classified as indeterminate (the value obtained from some order) or undefined (any value at all at the whim of the compiler in the face of side effects, or even a crash). If a language does not permit side-effects in expressions (common in functional languages), then the order of evaluation has no value semantics – though it may yet bear on whether an infinite recursion terminates, or have other performance implications (in a functional language with match expressions, short-circuit evaluation is inherent, and natural uses for the ternary operator arise less often, so this point is of limited concern). For these reasons, in some languages the statement form r = condition ? expr1 : expr2 can have subtly different semantics than the block conditional form if ( condition ) { r = expr1 ; } else { r = expr2 ; } . In almost all languages, the ternary operator is right associative , so t</p>
-    <hr>
-    <h2>Ada</h2>
-    <p>The 2012 edition of Ada introduced conditional expressions (using if and case ), as part of an enlarged set of expressions including quantified expressions and expression functions. The Rationale for Ada 2012 states motives for Ada not having had them before, as well as motives for now adding them, such as to support &quot;contracts&quot; (also new). When the value of an if_expression is itself of Boolean type, then the else part may be omitted, the value being True. Multiple conditions may chained using elsif .</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Oprah_s_Book_Club.html">Oprah&#x27;s Book Club</a></li>
-      <li><a href="Gojslav.html">Gojslav</a></li>
-      <li><a href="Fabales.html">Fabales</a></li>
-      <li><a href="Poundon.html">Poundon</a></li>
-      <li><a href="Hark_The_Herald_Angels_Sing.html">Hark! The Herald Angels Sing</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Ternary_conditional_operator">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 16, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Ternary conditional operator</h1>
+<p><b>Ternary conditional operator</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In computer programming, the ternary conditional operator is a conditional expression with three parts: the Boolean condition, the then-expression, and the else-expression. If the condition is true, the then-expression is evaluated; otherwise, the else-expression is evaluated; and the value is returned. Thus it is a non-strict operator, like other conditional expressions. It is also called a conditional operator, ternary if, immediate if, or inline if (iif).</p>
+<hr/>
+<h2>Background</h2>
+<p>In computer programming , the ternary conditional operator is a conditional expression with three parts: the Boolean condition , the then -expression, and the else -expression. If the condition is true, the then -expression is evaluated; otherwise, the else -expression is evaluated; and the value is returned. Thus it is a non-strict operator, like other conditional expressions. It is also called a conditional operator , ternary if , immediate if , or inline if ( iif ). Although a ternary operator in general is any operator with three arguments, the three-argument conditional operator is the only common one in programming, so it is loosely called the ternary operator. C introduced the syntax a ? b : c , read as "if a then b otherwise c", which is widely used by other languages with C-like syntax . Some languages use functional syntax: in Visual Basic , it is written If(a, b, c) . Many languages support conditional expressions with two, three, or more clauses. Languages following ALGOL -like syntax often support them with the same syntax as conditional statements , if a then b else c . The construct first appeared in CPL in 1963, as a → b, c .</p>
+<hr/>
+<h2>Assignment</h2>
+<p>The value of the operator can be assigned to a variable. For a weakly typed language, the data type of the selected value may determine the type of the assigned value. For a strongly typed language, both value expressions must evaluate to a type that is compatible with the target variable. The operator is similar to the way conditional expressions (if-then-else) work in functional programming languages, like Scheme , ML , Haskell , and XQuery , since if-then-else forms an expression instead of a statement in those languages. The operator allows for initializing a variable via a single statement which otherwise might require multiple statements. Use in variable assignment reduces the probability of a bug from a faulty assignment as the assigned variable is stated only once. For example, in Python: instead of: In a language with block scope , a variable must be declared before the if-else statement. For example: Use of the conditional operator simplifies this: Furthermore, since initialization is now part of the declaration, rather than a separate statement, the identifier can be a constant. For example:</p>
+<hr/>
+<h2>Variations</h2>
+<p>The syntax and semantics of the operator vary by language. Major differences include whether the expressions can have side effects and whether the language provides short-circuit evaluation semantics, whereby only the selected expression is evaluated. If a language supports expressions with side effects but does not specify short-circuit evaluation, then a further distinction exists about which expression evaluates first. If no order is guaranteed, a distinction exists about whether the result is then classified as indeterminate (the value obtained from some order) or undefined (any value at all at the whim of the compiler in the face of side effects, or even a crash). If a language does not permit side-effects in expressions (common in functional languages), then the order of evaluation has no value semantics – though it may yet bear on whether an infinite recursion terminates, or have other performance implications (in a functional language with match expressions, short-circuit evaluation is inherent, and natural uses for the ternary operator arise less often, so this point is of limited concern). For these reasons, in some languages the statement form r = condition ? expr1 : expr2 can have subtly different semantics than the block conditional form if ( condition ) { r = expr1 ; } else { r = expr2 ; } . In almost all languages, the ternary operator is right associative , so t</p>
+<hr/>
+<h2>Ada</h2>
+<p>The 2012 edition of Ada introduced conditional expressions (using if and case ), as part of an enlarged set of expressions including quantified expressions and expression functions. The Rationale for Ada 2012 states motives for Ada not having had them before, as well as motives for now adding them, such as to support "contracts" (also new). When the value of an if_expression is itself of Boolean type, then the else part may be omitted, the value being True. Multiple conditions may chained using elsif .</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Oprah_s_Book_Club.html">Oprah's Book Club</a></li>
+<li><a href="Gojslav.html">Gojslav</a></li>
+<li><a href="Fabales.html">Fabales</a></li>
+<li><a href="Poundon.html">Poundon</a></li>
+<li><a href="Hark_The_Herald_Angels_Sing.html">Hark! The Herald Angels Sing</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Ternary_conditional_operator">Wikimedia article</a></small></p>
+<p><i>Last edited: September 16, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

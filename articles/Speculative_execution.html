@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Speculative execution - Wiki2</title>
-  <meta name="description" content="In computer science and processor design, speculative execution or speculation is a design characteristic where a processor is able to perform potentially useful work by guessing what work is needed next, compute them prematurely, and immed">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Speculative_execution.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Speculative execution - Wiki2">
-  <meta property="og:description" content="In computer science and processor design, speculative execution or speculation is a design characteristic where a processor is able to perform potentially useful work by guessing what work is needed next, compute them prematurely, and immed">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Speculative_execution.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Speculative execution - Wiki2">
-  <meta name="twitter:description" content="In computer science and processor design, speculative execution or speculation is a design characteristic where a processor is able to perform potentially useful work by guessing what work is needed next, compute them prematurely, and immed">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Speculative execution - Wiki2</title>
+<meta content="In computer science and processor design, speculative execution or speculation is a design characteristic where a processor is able to perform potentially useful work by guessing what work is needed next, compute them prematurely, and immed" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Speculative_execution.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Speculative execution" property="og:title"/>
+<meta content="Speculative execution is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Speculative_execution.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Speculative execution" name="twitter:title"/>
+<meta content="Speculative execution is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Speculative execution</h1>
-    <p><b>Speculative execution</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In computer science and processor design, speculative execution or speculation is a design characteristic where a processor is able to perform potentially useful work by guessing what work is needed next, compute them prematurely, and immediately applying or discarding the results when the work&#x27;s necessity is eventually known. Since the 21st century, speculation is commonly seen on superscalar central processors (CPUs), as an optimization technique to increase its performance. It is often used in combination with branch prediction to increase the accuracy of the guessing process.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In computer science and processor design , speculative execution or speculation is a design characteristic where a processor is able to perform potentially useful work by guessing what work is needed next, compute them prematurely, and immediately applying or discarding the results when the work&#x27;s necessity is eventually known. Since the 21st century , speculation is commonly seen on superscalar central processors (CPUs), as an optimization technique to increase its performance . It is often used in combination with branch prediction to increase the accuracy of the guessing process.</p>
-    <hr>
-    <h2>Overview</h2>
-    <p>In speculative execution, work is done before it is known whether it is actually needed, so as to prevent a delay that would have to be incurred by doing the work after it is known that it is needed. If it turns out the work was not needed after all, most changes made by the work are reverted and the results are ignored. The objective is to provide more concurrency if extra resources are available. This approach is employed in a variety of areas, including branch prediction in pipelined processors , value prediction for exploiting value locality, prefetching memory and files , and optimistic concurrency control in database systems . Since the results from speculative execution become useless when the guessed work turns out to be wrong (e.g., not needed), its performance benefits are limited by the accuracy of the prediction process. Speculative multithreading is a special case of speculative execution. Modern pipelined microprocessors use speculative execution to reduce the cost of conditional branch instructions using schemes that predict the execution path of a program based on the history of branch executions. In order to improve performance and utilization of computer resources, instructions can be scheduled at a time when it has not yet been determined that the instructions will need to be executed, ahead of a branch .</p>
-    <hr>
-    <h2>Eager execution</h2>
-    <p>Eager execution is a form of speculative execution where both sides of the conditional branch are executed; however, the results are committed only if the predicate is true. With unlimited resources, eager execution (also known as oracle execution ) would in theory provide the same performance as perfect branch prediction . With limited resources, eager execution should be employed carefully, since the number of resources needed grows exponentially with each level of branch executed eagerly.</p>
-    <hr>
-    <h2>Predictive execution</h2>
-    <p>Predictive execution is a form of speculative execution where some outcome is predicted and execution proceeds along the predicted path until the actual result is known. If the prediction is true, the predicted execution is allowed to commit; however, if there is a misprediction, execution has to be unrolled and re-executed. Common forms of this include branch predictors and memory dependence prediction . A generalized form is sometimes referred to as value prediction.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Harry_Stovey.html">Harry Stovey</a></li>
-      <li><a href="Tony_Cloninger.html">Tony Cloninger</a></li>
-      <li><a href="Bigeye_tuna.html">Bigeye tuna</a></li>
-      <li><a href="Shamarpa.html">Shamarpa</a></li>
-      <li><a href="Gliese_667.html">Gliese 667</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Speculative_execution">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 16, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Speculative execution</h1>
+<p><b>Speculative execution</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In computer science and processor design, speculative execution or speculation is a design characteristic where a processor is able to perform potentially useful work by guessing what work is needed next, compute them prematurely, and immediately applying or discarding the results when the work's necessity is eventually known. Since the 21st century, speculation is commonly seen on superscalar central processors (CPUs), as an optimization technique to increase its performance. It is often used in combination with branch prediction to increase the accuracy of the guessing process.</p>
+<hr/>
+<h2>Background</h2>
+<p>In computer science and processor design , speculative execution or speculation is a design characteristic where a processor is able to perform potentially useful work by guessing what work is needed next, compute them prematurely, and immediately applying or discarding the results when the work's necessity is eventually known. Since the 21st century , speculation is commonly seen on superscalar central processors (CPUs), as an optimization technique to increase its performance . It is often used in combination with branch prediction to increase the accuracy of the guessing process.</p>
+<hr/>
+<h2>Overview</h2>
+<p>In speculative execution, work is done before it is known whether it is actually needed, so as to prevent a delay that would have to be incurred by doing the work after it is known that it is needed. If it turns out the work was not needed after all, most changes made by the work are reverted and the results are ignored. The objective is to provide more concurrency if extra resources are available. This approach is employed in a variety of areas, including branch prediction in pipelined processors , value prediction for exploiting value locality, prefetching memory and files , and optimistic concurrency control in database systems . Since the results from speculative execution become useless when the guessed work turns out to be wrong (e.g., not needed), its performance benefits are limited by the accuracy of the prediction process. Speculative multithreading is a special case of speculative execution. Modern pipelined microprocessors use speculative execution to reduce the cost of conditional branch instructions using schemes that predict the execution path of a program based on the history of branch executions. In order to improve performance and utilization of computer resources, instructions can be scheduled at a time when it has not yet been determined that the instructions will need to be executed, ahead of a branch .</p>
+<hr/>
+<h2>Eager execution</h2>
+<p>Eager execution is a form of speculative execution where both sides of the conditional branch are executed; however, the results are committed only if the predicate is true. With unlimited resources, eager execution (also known as oracle execution ) would in theory provide the same performance as perfect branch prediction . With limited resources, eager execution should be employed carefully, since the number of resources needed grows exponentially with each level of branch executed eagerly.</p>
+<hr/>
+<h2>Predictive execution</h2>
+<p>Predictive execution is a form of speculative execution where some outcome is predicted and execution proceeds along the predicted path until the actual result is known. If the prediction is true, the predicted execution is allowed to commit; however, if there is a misprediction, execution has to be unrolled and re-executed. Common forms of this include branch predictors and memory dependence prediction . A generalized form is sometimes referred to as value prediction.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Harry_Stovey.html">Harry Stovey</a></li>
+<li><a href="Tony_Cloninger.html">Tony Cloninger</a></li>
+<li><a href="Bigeye_tuna.html">Bigeye tuna</a></li>
+<li><a href="Shamarpa.html">Shamarpa</a></li>
+<li><a href="Gliese_667.html">Gliese 667</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Speculative_execution">Wikimedia article</a></small></p>
+<p><i>Last edited: September 16, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

@@ -1,57 +1,57 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Generalized nondeterministic finite automaton - Wiki2</title>
-  <meta name="description" content="In the theory of computation, a generalized nondeterministic finite automaton (GNFA), also known as an expression automaton or a generalized nondeterministic finite state machine, is a variation of a nondeterministic finite automaton (NFA) ">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Generalized_nondeterministic_finite_automaton.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Generalized nondeterministic finite automaton - Wiki2">
-  <meta property="og:description" content="In the theory of computation, a generalized nondeterministic finite automaton (GNFA), also known as an expression automaton or a generalized nondeterministic finite state machine, is a variation of a nondeterministic finite automaton (NFA) ">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Generalized_nondeterministic_finite_automaton.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Generalized nondeterministic finite automaton - Wiki2">
-  <meta name="twitter:description" content="In the theory of computation, a generalized nondeterministic finite automaton (GNFA), also known as an expression automaton or a generalized nondeterministic finite state machine, is a variation of a nondeterministic finite automaton (NFA) ">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Generalized nondeterministic finite automaton - Wiki2</title>
+<meta content="In the theory of computation, a generalized nondeterministic finite automaton (GNFA), also known as an expression automaton or a generalized nondeterministic finite state machine, is a variation of a nondeterministic finite automaton (NFA) " name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Generalized_nondeterministic_finite_automaton.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Generalized nondeterministic finite automaton" property="og:title"/>
+<meta content="Generalized nondeterministic finite automaton is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Generalized_nondeterministic_finite_automaton.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Generalized nondeterministic finite automaton" name="twitter:title"/>
+<meta content="Generalized nondeterministic finite automaton is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Generalized nondeterministic finite automaton</h1>
-    <p><b>Generalized nondeterministic finite automaton</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In the theory of computation, a generalized nondeterministic finite automaton (GNFA), also known as an expression automaton or a generalized nondeterministic finite state machine, is a variation of a nondeterministic finite automaton (NFA) where each transition is labeled with any regular expression. The GNFA reads blocks of symbols from the input which constitute a string as defined by the regular expression on the transition. There are several differences between a standard finite state machine and a generalized nondeterministic finite state machine. A GNFA must have only one start state and one accept state, and these cannot be the same state, whereas an NFA or DFA both may have several accept states, and the start state can be an accept state. A GNFA must have only one transition between any two states, whereas a NFA or DFA both allow for numerous transitions between states. In a GNFA, a state has a single transition to every state in the machine, although often it is a convention to ignore the transitions that are labelled with the empty set when drawing generalized nondeterministic finite state machines.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In the theory of computation , a generalized nondeterministic finite automaton ( GNFA ), also known as an expression automaton or a generalized nondeterministic finite state machine , is a variation of a nondeterministic finite automaton (NFA) where each transition is labeled with any regular expression . The GNFA reads blocks of symbols from the input which constitute a string as defined by the regular expression on the transition. There are several differences between a standard finite state machine and a generalized nondeterministic finite state machine. A GNFA must have only one start state and one accept state, and these cannot be the same state, whereas an NFA or DFA both may have several accept states, and the start state can be an accept state. A GNFA must have only one transition between any two states, whereas a NFA or DFA both allow for numerous transitions between states. In a GNFA, a state has a single transition to every state in the machine, although often it is a convention to ignore the transitions that are labelled with the empty set when drawing generalized nondeterministic finite state machines.</p>
-    <hr>
-    <h2>Formal definition</h2>
-    <p>A GNFA can be defined as a 5-tuple , ( S , Σ, T , s , a ), consisting of where R is the collection of all regular expressions over the alphabet Σ. The transition function takes as its argument a pair of two states and outputs a regular expression (the label of the transition). This differs from other finite state machines, which take as input a single state and an input from the alphabet (or the empty string in the case of nondeterministic finite state machines) and outputs the next state (or the set of possible states in the case of nondeterministic finite state machines). A DFA or NFA can easily be converted into a GNFA and then the GNFA can be easily converted into a regular expression by repeatedly collapsing parts of it to single edges until S = { s , a }. Similarly, GNFAs can be reduced to NFAs by changing regular expression operators into new edges until each edge is labelled with a regular expression matching a single string of length at most 1. NFAs, in turn, can be reduced to DFAs using the powerset construction . This shows that GNFAs recognize the same set of formal languages as DFAs and NFAs.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Arnold_Cooke.html">Arnold Cooke</a></li>
-      <li><a href="River_Hamble.html">River Hamble</a></li>
-      <li><a href="Conscription_Crisis_of_1917.html">Conscription Crisis of 1917</a></li>
-      <li><a href="Clovis_I.html">Clovis I</a></li>
-      <li><a href="Longnose_sucker.html">Longnose sucker</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Generalized_nondeterministic_finite_automaton">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 16, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Generalized nondeterministic finite automaton</h1>
+<p><b>Generalized nondeterministic finite automaton</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In the theory of computation, a generalized nondeterministic finite automaton (GNFA), also known as an expression automaton or a generalized nondeterministic finite state machine, is a variation of a nondeterministic finite automaton (NFA) where each transition is labeled with any regular expression. The GNFA reads blocks of symbols from the input which constitute a string as defined by the regular expression on the transition. There are several differences between a standard finite state machine and a generalized nondeterministic finite state machine. A GNFA must have only one start state and one accept state, and these cannot be the same state, whereas an NFA or DFA both may have several accept states, and the start state can be an accept state. A GNFA must have only one transition between any two states, whereas a NFA or DFA both allow for numerous transitions between states. In a GNFA, a state has a single transition to every state in the machine, although often it is a convention to ignore the transitions that are labelled with the empty set when drawing generalized nondeterministic finite state machines.</p>
+<hr/>
+<h2>Background</h2>
+<p>In the theory of computation , a generalized nondeterministic finite automaton ( GNFA ), also known as an expression automaton or a generalized nondeterministic finite state machine , is a variation of a nondeterministic finite automaton (NFA) where each transition is labeled with any regular expression . The GNFA reads blocks of symbols from the input which constitute a string as defined by the regular expression on the transition. There are several differences between a standard finite state machine and a generalized nondeterministic finite state machine. A GNFA must have only one start state and one accept state, and these cannot be the same state, whereas an NFA or DFA both may have several accept states, and the start state can be an accept state. A GNFA must have only one transition between any two states, whereas a NFA or DFA both allow for numerous transitions between states. In a GNFA, a state has a single transition to every state in the machine, although often it is a convention to ignore the transitions that are labelled with the empty set when drawing generalized nondeterministic finite state machines.</p>
+<hr/>
+<h2>Formal definition</h2>
+<p>A GNFA can be defined as a 5-tuple , ( S , Σ, T , s , a ), consisting of where R is the collection of all regular expressions over the alphabet Σ. The transition function takes as its argument a pair of two states and outputs a regular expression (the label of the transition). This differs from other finite state machines, which take as input a single state and an input from the alphabet (or the empty string in the case of nondeterministic finite state machines) and outputs the next state (or the set of possible states in the case of nondeterministic finite state machines). A DFA or NFA can easily be converted into a GNFA and then the GNFA can be easily converted into a regular expression by repeatedly collapsing parts of it to single edges until S = { s , a }. Similarly, GNFAs can be reduced to NFAs by changing regular expression operators into new edges until each edge is labelled with a regular expression matching a single string of length at most 1. NFAs, in turn, can be reduced to DFAs using the powerset construction . This shows that GNFAs recognize the same set of formal languages as DFAs and NFAs.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Arnold_Cooke.html">Arnold Cooke</a></li>
+<li><a href="River_Hamble.html">River Hamble</a></li>
+<li><a href="Conscription_Crisis_of_1917.html">Conscription Crisis of 1917</a></li>
+<li><a href="Clovis_I.html">Clovis I</a></li>
+<li><a href="Longnose_sucker.html">Longnose sucker</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Generalized_nondeterministic_finite_automaton">Wikimedia article</a></small></p>
+<p><i>Last edited: September 16, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
