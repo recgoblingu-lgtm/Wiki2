@@ -1,65 +1,66 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Inter frame - Wiki2</title>
-  <meta name="description" content="An inter frame is a frame in a video compression stream which is expressed in terms of one or more neighboring frames. The &quot;inter&quot; part of the term refers to the use of Inter frame prediction. This tries to take advantage of temporal redund">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Inter_frame.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Inter frame - Wiki2">
-  <meta property="og:description" content="An inter frame is a frame in a video compression stream which is expressed in terms of one or more neighboring frames. The &quot;inter&quot; part of the term refers to the use of Inter frame prediction. This tries to take advantage of temporal redund">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Inter_frame.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/c/ce/Block_partition.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Inter frame - Wiki2">
-  <meta name="twitter:description" content="An inter frame is a frame in a video compression stream which is expressed in terms of one or more neighboring frames. The &quot;inter&quot; part of the term refers to the use of Inter frame prediction. This tries to take advantage of temporal redund">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/c/ce/Block_partition.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Inter frame - Wiki2</title>
+<meta content='An inter frame is a frame in a video compression stream which is expressed in terms of one or more neighboring frames. The "inter" part of the term refers to the use of Inter frame prediction. This tries to take advantage of temporal redund' name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Inter_frame.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Inter frame" property="og:title"/>
+<meta content="Inter frame is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Inter_frame.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/c/ce/Block_partition.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Inter frame" name="twitter:title"/>
+<meta content="Inter frame is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/c/ce/Block_partition.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Inter frame</h1>
-    <p><b>Inter frame</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>An inter frame is a frame in a video compression stream which is expressed in terms of one or more neighboring frames. The &quot;inter&quot; part of the term refers to the use of Inter frame prediction. This tries to take advantage of temporal redundancy between neighboring frames, enabling higher compression rates.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Block_partition.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Block partition.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Interframe_prediction.png/960px-Interframe_prediction.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Interframe prediction.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Subpel_interpolation.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Subpel interpolation.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>An inter frame is a frame in a video compression stream which is expressed in terms of one or more neighboring frames. The &quot;inter&quot; part of the term refers to the use of Inter frame prediction . This tries to take advantage of temporal redundancy between neighboring frames, enabling higher compression rates.</p>
-    <hr>
-    <h2>Inter frame prediction</h2>
-    <p>An inter coded frame is divided into blocks known as macroblocks . After that, instead of directly encoding the raw pixel values for each block, the encoder will try to find a block similar to the one it is encoding on a previously encoded frame, referred to as a reference frame . This process is done by a block matching algorithm . If the encoder succeeds on its search, the block could be encoded by a vector, known as motion vector , which points to the position of the matching block at the reference frame. The process of motion vector determination is called motion estimation . In most cases the encoder will succeed, but the block found is likely not an exact match to the block it is encoding. This is why the encoder will compute the differences between them. Those residual values are known as the prediction error and need to be transformed and sent to the decoder. To sum up, if the encoder succeeds in finding a matching block on a reference frame, it will obtain a motion vector pointing to the matched block and a prediction error. Using both elements, the decoder will be able to recover the raw pixels of the block. The following image shows the whole process graphically: This kind of prediction has some pros and cons: Because of these drawbacks, a reliable and time periodic reference frame must be used for this technique to be efficient and useful. That reference frame is kn</p>
-    <hr>
-    <h2>Frame types</h2>
-    <p>The difference between P-frames and B-frames is the reference frame they are allowed to use.</p>
-    <hr>
-    <h2>P-frame</h2>
-    <p>P-frame is the term used to define the forward Predicted pictures. The prediction is made from an earlier picture, mainly an I-frame or P-frame, so that require less coding data (≈50% when compared to I-frame size). The amount of data needed for doing this prediction consist of motion vectors and transform coefficients describing prediction correction. It involves the use of motion compensation .</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Addison_Township_Pennsylvania.html">Addison Township, Pennsylvania</a></li>
-      <li><a href="Fred_Astaire.html">Fred Astaire</a></li>
-      <li><a href="Germaine_of_Foix.html">Germaine of Foix</a></li>
-      <li><a href="Javed_Omar.html">Javed Omar</a></li>
-      <li><a href="Alta_California.html">Alta California</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Inter_frame">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 17, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Inter frame</h1>
+<p><b>Inter frame</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>An inter frame is a frame in a video compression stream which is expressed in terms of one or more neighboring frames. The "inter" part of the term refers to the use of Inter frame prediction. This tries to take advantage of temporal redundancy between neighboring frames, enabling higher compression rates.</p>
+<figure class="article-image"><img alt="Block partition.jpg" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Block_partition.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Interframe prediction.png" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Interframe_prediction.png/960px-Interframe_prediction.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Subpel interpolation.jpg" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Subpel_interpolation.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>An inter frame is a frame in a video compression stream which is expressed in terms of one or more neighboring frames. The "inter" part of the term refers to the use of Inter frame prediction . This tries to take advantage of temporal redundancy between neighboring frames, enabling higher compression rates.</p>
+<hr/>
+<h2>Inter frame prediction</h2>
+<p>An inter coded frame is divided into blocks known as macroblocks . After that, instead of directly encoding the raw pixel values for each block, the encoder will try to find a block similar to the one it is encoding on a previously encoded frame, referred to as a reference frame . This process is done by a block matching algorithm . If the encoder succeeds on its search, the block could be encoded by a vector, known as motion vector , which points to the position of the matching block at the reference frame. The process of motion vector determination is called motion estimation . In most cases the encoder will succeed, but the block found is likely not an exact match to the block it is encoding. This is why the encoder will compute the differences between them. Those residual values are known as the prediction error and need to be transformed and sent to the decoder. To sum up, if the encoder succeeds in finding a matching block on a reference frame, it will obtain a motion vector pointing to the matched block and a prediction error. Using both elements, the decoder will be able to recover the raw pixels of the block. The following image shows the whole process graphically: This kind of prediction has some pros and cons: Because of these drawbacks, a reliable and time periodic reference frame must be used for this technique to be efficient and useful. That reference frame is kn</p>
+<hr/>
+<h2>Frame types</h2>
+<p>The difference between P-frames and B-frames is the reference frame they are allowed to use.</p>
+<hr/>
+<h2>P-frame</h2>
+<p>P-frame is the term used to define the forward Predicted pictures. The prediction is made from an earlier picture, mainly an I-frame or P-frame, so that require less coding data (≈50% when compared to I-frame size). The amount of data needed for doing this prediction consist of motion vectors and transform coefficients describing prediction correction. It involves the use of motion compensation .</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Addison_Township_Pennsylvania.html">Addison Township, Pennsylvania</a></li>
+<li><a href="Fred_Astaire.html">Fred Astaire</a></li>
+<li><a href="Germaine_of_Foix.html">Germaine of Foix</a></li>
+<li><a href="Javed_Omar.html">Javed Omar</a></li>
+<li><a href="Alta_California.html">Alta California</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Inter_frame">Wikimedia article</a></small></p>
+<p><i>Last edited: September 17, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

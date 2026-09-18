@@ -1,65 +1,66 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Motion compensation - Wiki2</title>
-  <meta name="description" content="Motion compensation in computing is an algorithmic technique used to predict a frame in a video given the previous and/or future frames by accounting for motion of the camera or objects in the video. It is employed in the encoding of video ">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Motion_compensation.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Motion compensation - Wiki2">
-  <meta property="og:description" content="Motion compensation in computing is an algorithmic technique used to predict a frame in a video given the previous and/or future frames by accounting for motion of the camera or objects in the video. It is employed in the encoding of video ">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Motion_compensation.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/c/c0/Elephantsdream_vectorstill04_crop.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Motion compensation - Wiki2">
-  <meta name="twitter:description" content="Motion compensation in computing is an algorithmic technique used to predict a frame in a video given the previous and/or future frames by accounting for motion of the camera or objects in the video. It is employed in the encoding of video ">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/c/c0/Elephantsdream_vectorstill04_crop.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Motion compensation - Wiki2</title>
+<meta content="Motion compensation in computing is an algorithmic technique used to predict a frame in a video given the previous and/or future frames by accounting for motion of the camera or objects in the video. It is employed in the encoding of video " name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Motion_compensation.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Motion compensation" property="og:title"/>
+<meta content="Motion compensation is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Motion_compensation.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/c/c0/Elephantsdream_vectorstill04_crop.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Motion compensation" name="twitter:title"/>
+<meta content="Motion compensation is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/c/c0/Elephantsdream_vectorstill04_crop.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Motion compensation</h1>
-    <p><b>Motion compensation</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>Motion compensation in computing is an algorithmic technique used to predict a frame in a video given the previous and/or future frames by accounting for motion of the camera or objects in the video. It is employed in the encoding of video data for video compression, for example, in the generation of MPEG-2 files. Motion compensation describes a picture in terms of the transformation of a reference picture to the current picture. The reference picture may be previous in time or even from the future. When images can be accurately synthesized from previously transmitted/stored images, the compression efficiency can be improved.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Elephantsdream_vectorstill04_crop.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Motion compensation"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Elephantsdream_vectorstill04_crop.png/960px-Elephantsdream_vectorstill04_crop.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Elephantsdream vectorstill04 crop.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Motion_compensation_example-compensated_difference.jpg/960px-Motion_compensation_example-compensated_difference.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Motion compensation example-compensated difference.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>Motion compensation in computing is an algorithmic technique used to predict a frame in a video given the previous and/or future frames by accounting for motion of the camera or objects in the video. It is employed in the encoding of video data for video compression , for example, in the generation of MPEG-2 files. Motion compensation describes a picture in terms of the transformation of a reference picture to the current picture. The reference picture may be previous in time or even from the future. When images can be accurately synthesized from previously transmitted/stored images, the compression efficiency can be improved. Motion compensation is one of the two key video compression techniques used in video coding standards , along with the discrete cosine transform (DCT). Most video coding standards, such as the H.26x and MPEG formats, typically use motion-compensated DCT hybrid coding, known as block motion compensation (BMC) or motion-compensated DCT (MC DCT).</p>
-    <hr>
-    <h2>Functionality</h2>
-    <p>Motion compensation exploits the fact that, often, for many frames of a movie, the only difference between one frame and another is the result of either the camera moving or an object in the frame moving. In reference to a video file, this means much of the information that represents one frame will be the same as the information used in the next frame. Using motion compensation, a video stream will contain some full (reference) frames; then, the only information stored for the frames in between would be the information needed to transform the previous frame into the next frame.</p>
-    <hr>
-    <h2>Illustrated example</h2>
-    <p>The following is a simplistic illustrated explanation of how motion compensation works. Two successive frames were captured from the movie Elephants Dream . As can be seen from the images, the bottom (motion compensated) difference between two frames contains significantly less detail than the prior images, and thus compresses much better than the rest.</p>
-    <hr>
-    <h2>MPEG</h2>
-    <p>In MPEG , images are predicted from previous frames ( P frames ) or bidirectionally from previous and future frames ( B frames ). B frames are more complex because the image sequence must be transmitted and stored out of order so that the future frame is available to generate the B frames. After predicting frames using motion compensation, the coder finds the residual, which is then compressed and transmitted.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Audi_RS_6.html">Audi RS 6</a></li>
-      <li><a href="Miskawayh.html">Miskawayh</a></li>
-      <li><a href="Inter_frame.html">Inter frame</a></li>
-      <li><a href="Addison_Township_Pennsylvania.html">Addison Township, Pennsylvania</a></li>
-      <li><a href="Fred_Astaire.html">Fred Astaire</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Motion_compensation">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 17, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Motion compensation</h1>
+<p><b>Motion compensation</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>Motion compensation in computing is an algorithmic technique used to predict a frame in a video given the previous and/or future frames by accounting for motion of the camera or objects in the video. It is employed in the encoding of video data for video compression, for example, in the generation of MPEG-2 files. Motion compensation describes a picture in terms of the transformation of a reference picture to the current picture. The reference picture may be previous in time or even from the future. When images can be accurately synthesized from previously transmitted/stored images, the compression efficiency can be improved.</p>
+<figure class="article-image"><img alt="Motion compensation" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Elephantsdream_vectorstill04_crop.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Elephantsdream vectorstill04 crop.png" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Elephantsdream_vectorstill04_crop.png/960px-Elephantsdream_vectorstill04_crop.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Motion compensation example-compensated difference.jpg" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Motion_compensation_example-compensated_difference.jpg/960px-Motion_compensation_example-compensated_difference.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>Motion compensation in computing is an algorithmic technique used to predict a frame in a video given the previous and/or future frames by accounting for motion of the camera or objects in the video. It is employed in the encoding of video data for video compression , for example, in the generation of MPEG-2 files. Motion compensation describes a picture in terms of the transformation of a reference picture to the current picture. The reference picture may be previous in time or even from the future. When images can be accurately synthesized from previously transmitted/stored images, the compression efficiency can be improved. Motion compensation is one of the two key video compression techniques used in video coding standards , along with the discrete cosine transform (DCT). Most video coding standards, such as the H.26x and MPEG formats, typically use motion-compensated DCT hybrid coding, known as block motion compensation (BMC) or motion-compensated DCT (MC DCT).</p>
+<hr/>
+<h2>Functionality</h2>
+<p>Motion compensation exploits the fact that, often, for many frames of a movie, the only difference between one frame and another is the result of either the camera moving or an object in the frame moving. In reference to a video file, this means much of the information that represents one frame will be the same as the information used in the next frame. Using motion compensation, a video stream will contain some full (reference) frames; then, the only information stored for the frames in between would be the information needed to transform the previous frame into the next frame.</p>
+<hr/>
+<h2>Illustrated example</h2>
+<p>The following is a simplistic illustrated explanation of how motion compensation works. Two successive frames were captured from the movie Elephants Dream . As can be seen from the images, the bottom (motion compensated) difference between two frames contains significantly less detail than the prior images, and thus compresses much better than the rest.</p>
+<hr/>
+<h2>MPEG</h2>
+<p>In MPEG , images are predicted from previous frames ( P frames ) or bidirectionally from previous and future frames ( B frames ). B frames are more complex because the image sequence must be transmitted and stored out of order so that the future frame is available to generate the B frames. After predicting frames using motion compensation, the coder finds the residual, which is then compressed and transmitted.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Audi_RS_6.html">Audi RS 6</a></li>
+<li><a href="Miskawayh.html">Miskawayh</a></li>
+<li><a href="Inter_frame.html">Inter frame</a></li>
+<li><a href="Addison_Township_Pennsylvania.html">Addison Township, Pennsylvania</a></li>
+<li><a href="Fred_Astaire.html">Fred Astaire</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Motion_compensation">Wikimedia article</a></small></p>
+<p><i>Last edited: September 17, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

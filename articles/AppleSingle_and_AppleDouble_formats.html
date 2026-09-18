@@ -1,60 +1,60 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>AppleSingle and AppleDouble formats - Wiki2</title>
-  <meta name="description" content="AppleSingle Format and AppleDouble Format are file formats developed by Apple Computer to store Mac OS &quot;dual-forked&quot; files on the Unix filesystem being used in A/UX, the Macintosh platform&#x27;s first Unix-like operating system. AppleSingle com">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/AppleSingle_and_AppleDouble_formats.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="AppleSingle and AppleDouble formats - Wiki2">
-  <meta property="og:description" content="AppleSingle Format and AppleDouble Format are file formats developed by Apple Computer to store Mac OS &quot;dual-forked&quot; files on the Unix filesystem being used in A/UX, the Macintosh platform&#x27;s first Unix-like operating system. AppleSingle com">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/AppleSingle_and_AppleDouble_formats.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="AppleSingle and AppleDouble formats - Wiki2">
-  <meta name="twitter:description" content="AppleSingle Format and AppleDouble Format are file formats developed by Apple Computer to store Mac OS &quot;dual-forked&quot; files on the Unix filesystem being used in A/UX, the Macintosh platform&#x27;s first Unix-like operating system. AppleSingle com">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>AppleSingle and AppleDouble formats - Wiki2</title>
+<meta content="AppleSingle Format and AppleDouble Format are file formats developed by Apple Computer to store Mac OS &quot;dual-forked&quot; files on the Unix filesystem being used in A/UX, the Macintosh platform's first Unix-like operating system. AppleSingle com" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/AppleSingle_and_AppleDouble_formats.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="AppleSingle and AppleDouble formats" property="og:title"/>
+<meta content="AppleSingle and AppleDouble formats is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/AppleSingle_and_AppleDouble_formats.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="AppleSingle and AppleDouble formats" name="twitter:title"/>
+<meta content="AppleSingle and AppleDouble formats is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>AppleSingle and AppleDouble formats</h1>
-    <p><b>AppleSingle and AppleDouble formats</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>AppleSingle Format and AppleDouble Format are file formats developed by Apple Computer to store Mac OS &quot;dual-forked&quot; files on the Unix filesystem being used in A/UX, the Macintosh platform&#x27;s first Unix-like operating system. AppleSingle combined both file forks and the related Finder meta-file information into a single file, whereas AppleDouble stored them as two separate files. Support for the formats was later added to Unix software such as NFS and MAE, but they saw little use outside this small market.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>AppleSingle Format and AppleDouble Format are file formats developed by Apple Computer to store Mac OS &quot;dual-forked&quot; files on the Unix filesystem being used in A/UX , the Macintosh platform&#x27;s first Unix-like operating system . AppleSingle combined both file forks and the related Finder meta-file information into a single file, whereas AppleDouble stored them as two separate files. Support for the formats was later added to Unix software such as NFS and MAE , but they saw little use outside this small market. AppleSingle is similar in concept to the more popular MacBinary format, in that the resource and data forks are combined with a header containing the Finder information. In fact, the format is so similar, it seemed there was no reason why Apple did not simply use MacBinary instead, which by that point was widely known and used. Some not-so-obvious reasons are explained in an Internet Draft. The format was later assigned the MIME type application/applefile . AppleDouble leaves the data fork in its original format, allowing it to be edited by normal Unix utilities. The resource fork and Finder information, both proprietary and lacking editors under Unix, were combined into a second file. A MIME type was also assigned to AppleDouble, multipart/appledouble . For sending to an AppleDouble un-aware system, the file was generally encoded using Base64 , as opposed to being converte</p>
-    <hr>
-    <h2>Usage</h2>
-    <p>Before Mac OS X , AppleSingle and Double had little presence in the Mac market, due largely to the small market share of A/UX. Nevertheless, they did force various file compression vendors to add support for the formats, and confuse future MacBinary versions. Mac OS X revived the use of AppleDouble; on file systems such as NFS and WebDAV that do not natively support resource forks, Finder information, or extended attributes, that information is stored in AppleDouble format, with the second file having a name generated by prepending &quot;._&quot; to the name of the first file (thus, this information acts as a hidden file when viewed from a non-Apple Unix-based operating system). The files are sometimes moved to a separate directory called .AppleDouble . Metadata separation is also done in the OS X 10.3+ Finder Zip compression and the command line ditto utility, with a copy of the AppleDouble metadata stored in a __MACOSX directory.</p>
-    <hr>
-    <h2>Manipulation</h2>
-    <p>Unwanted &quot;._&quot; files can be removed using dot_clean -m on Mac OS X. Doing so also merges AppleDouble metadata with the corresponding files. AppleDouble files can be manually created through creative abuse of ditto (which is AppleDouble-aware) and unzip (which is not). On other systems, the ad command and a Perl script called apple_dump can be used to view AppleDouble data. Both are part of Netatalk . The macOS system provides a set of copyfile library functions that allows for packing and unpacking AppleSingle and AppleDouble files in C.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Kenneth_Koch.html">Kenneth Koch</a></li>
-      <li><a href="Cindy_Bishop.html">Cindy Bishop</a></li>
-      <li><a href="1931_St_Louis_Cardinals_season.html">1931 St. Louis Cardinals season</a></li>
-      <li><a href="Echizen_Province.html">Echizen Province</a></li>
-      <li><a href="Andrew_Scott_judge.html">Andrew Scott (judge)</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/AppleSingle_and_AppleDouble_formats">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 17, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>AppleSingle and AppleDouble formats</h1>
+<p><b>AppleSingle and AppleDouble formats</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>AppleSingle Format and AppleDouble Format are file formats developed by Apple Computer to store Mac OS "dual-forked" files on the Unix filesystem being used in A/UX, the Macintosh platform's first Unix-like operating system. AppleSingle combined both file forks and the related Finder meta-file information into a single file, whereas AppleDouble stored them as two separate files. Support for the formats was later added to Unix software such as NFS and MAE, but they saw little use outside this small market.</p>
+<hr/>
+<h2>Background</h2>
+<p>AppleSingle Format and AppleDouble Format are file formats developed by Apple Computer to store Mac OS "dual-forked" files on the Unix filesystem being used in A/UX , the Macintosh platform's first Unix-like operating system . AppleSingle combined both file forks and the related Finder meta-file information into a single file, whereas AppleDouble stored them as two separate files. Support for the formats was later added to Unix software such as NFS and MAE , but they saw little use outside this small market. AppleSingle is similar in concept to the more popular MacBinary format, in that the resource and data forks are combined with a header containing the Finder information. In fact, the format is so similar, it seemed there was no reason why Apple did not simply use MacBinary instead, which by that point was widely known and used. Some not-so-obvious reasons are explained in an Internet Draft. The format was later assigned the MIME type application/applefile . AppleDouble leaves the data fork in its original format, allowing it to be edited by normal Unix utilities. The resource fork and Finder information, both proprietary and lacking editors under Unix, were combined into a second file. A MIME type was also assigned to AppleDouble, multipart/appledouble . For sending to an AppleDouble un-aware system, the file was generally encoded using Base64 , as opposed to being converte</p>
+<hr/>
+<h2>Usage</h2>
+<p>Before Mac OS X , AppleSingle and Double had little presence in the Mac market, due largely to the small market share of A/UX. Nevertheless, they did force various file compression vendors to add support for the formats, and confuse future MacBinary versions. Mac OS X revived the use of AppleDouble; on file systems such as NFS and WebDAV that do not natively support resource forks, Finder information, or extended attributes, that information is stored in AppleDouble format, with the second file having a name generated by prepending "._" to the name of the first file (thus, this information acts as a hidden file when viewed from a non-Apple Unix-based operating system). The files are sometimes moved to a separate directory called .AppleDouble . Metadata separation is also done in the OS X 10.3+ Finder Zip compression and the command line ditto utility, with a copy of the AppleDouble metadata stored in a __MACOSX directory.</p>
+<hr/>
+<h2>Manipulation</h2>
+<p>Unwanted "._" files can be removed using dot_clean -m on Mac OS X. Doing so also merges AppleDouble metadata with the corresponding files. AppleDouble files can be manually created through creative abuse of ditto (which is AppleDouble-aware) and unzip (which is not). On other systems, the ad command and a Perl script called apple_dump can be used to view AppleDouble data. Both are part of Netatalk . The macOS system provides a set of copyfile library functions that allows for packing and unpacking AppleSingle and AppleDouble files in C.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Kenneth_Koch.html">Kenneth Koch</a></li>
+<li><a href="Cindy_Bishop.html">Cindy Bishop</a></li>
+<li><a href="1931_St_Louis_Cardinals_season.html">1931 St. Louis Cardinals season</a></li>
+<li><a href="Echizen_Province.html">Echizen Province</a></li>
+<li><a href="Andrew_Scott_judge.html">Andrew Scott (judge)</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/AppleSingle_and_AppleDouble_formats">Wikimedia article</a></small></p>
+<p><i>Last edited: September 17, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
