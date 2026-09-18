@@ -1,63 +1,64 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Subgraph isomorphism problem - Wiki2</title>
-  <meta name="description" content="In theoretical computer science, the subgraph isomorphism problem is a computational task in which two graphs and are given as input, and one must determine whether contains a subgraph that is isomorphic to . Subgraph isomorphism is a gener">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Subgraph_isomorphism_problem.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Subgraph isomorphism problem - Wiki2">
-  <meta property="og:description" content="In theoretical computer science, the subgraph isomorphism problem is a computational task in which two graphs and are given as input, and one must determine whether contains a subgraph that is isomorphic to . Subgraph isomorphism is a gener">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Subgraph_isomorphism_problem.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/b/b1/Subgraph_isomorphism.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Subgraph isomorphism problem - Wiki2">
-  <meta name="twitter:description" content="In theoretical computer science, the subgraph isomorphism problem is a computational task in which two graphs and are given as input, and one must determine whether contains a subgraph that is isomorphic to . Subgraph isomorphism is a gener">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/b/b1/Subgraph_isomorphism.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Subgraph isomorphism problem - Wiki2</title>
+<meta content="In theoretical computer science, the subgraph isomorphism problem is a computational task in which two graphs and are given as input, and one must determine whether contains a subgraph that is isomorphic to . Subgraph isomorphism is a gener" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Subgraph_isomorphism_problem.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Subgraph isomorphism problem" property="og:title"/>
+<meta content="Subgraph isomorphism problem is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Subgraph_isomorphism_problem.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/b/b1/Subgraph_isomorphism.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Subgraph isomorphism problem" name="twitter:title"/>
+<meta content="Subgraph isomorphism problem is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/b/b1/Subgraph_isomorphism.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Subgraph isomorphism problem</h1>
-    <p><b>Subgraph isomorphism problem</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In theoretical computer science, the subgraph isomorphism problem is a computational task in which two graphs and are given as input, and one must determine whether contains a subgraph that is isomorphic to . Subgraph isomorphism is a generalization of both the maximum clique problem and the problem of testing whether a graph contains a Hamiltonian cycle, and is therefore NP-complete. However certain other cases of subgraph isomorphism may be solved in polynomial time.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Subgraph_isomorphism.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Subgraph isomorphism problem"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>In theoretical computer science , the subgraph isomorphism problem is a computational task in which two graphs and are given as input, and one must determine whether contains a subgraph that is isomorphic to . Subgraph isomorphism is a generalization of both the maximum clique problem and the problem of testing whether a graph contains a Hamiltonian cycle , and is therefore NP-complete . However certain other cases of subgraph isomorphism may be solved in polynomial time. Sometimes the name subgraph matching is also used for the same problem. This name puts emphasis on finding such a subgraph as opposed to the bare decision problem.</p>
-    <hr>
-    <h2>Decision problem and computational complexity</h2>
-    <p>To prove subgraph isomorphism is NP-complete, it must be formulated as a decision problem . The input to the decision problem is a pair of graphs and H . The answer to the problem is positive if H is isomorphic to a subgraph of G , and negative otherwise. Formal question: Let , be graphs. Is there a subgraph such that ? I. e., does there exist a bijection such that ? The proof of subgraph isomorphism being NP-complete is simple and based on reduction of the clique problem , an NP-complete decision problem in which the input is a single graph G and a number k , and the question is whether G contains a complete subgraph with k vertices. To translate this to a subgraph isomorphism problem, simply let H be the complete graph K k ; then the answer to the subgraph isomorphism problem for G and H is equal to the answer to the clique problem for G and k . Since the clique problem is NP-complete, this polynomial-time many-one reduction shows that subgraph isomorphism is also NP-complete. An alternative reduction from the Hamiltonian cycle problem translates a graph G which is to be tested for Hamiltonicity into the pair of graphs G and H , where H is a cycle having the same number of vertices as G . Because the Hamiltonian cycle problem is NP-complete even for planar graphs , this shows that subgraph isomorphism remains NP-complete even in the planar case. Subgraph isomorphism is a gene</p>
-    <hr>
-    <h2>Algorithms</h2>
-    <p>Ullmann (1976) describes a recursive backtracking procedure for solving the subgraph isomorphism problem. Although its running time is, in general, exponential, it takes polynomial time for any fixed choice of H (with a polynomial that depends on the choice of H ). When G is a planar graph (or more generally a graph of bounded expansion ) and H is fixed, the running time of subgraph isomorphism can be reduced to linear time . Ullmann (2010) is a substantial update to the 1976 subgraph isomorphism algorithm paper. Cordella (2004) proposed in 2004 another algorithm based on Ullmann&#x27;s, VF2, which improves the refinement process using different heuristics and uses significantly less memory. Bonnici &amp; Giugno (2013) proposed a better algorithm, which improves the initial order of the vertices using some heuristics. The current state of the art solver for moderately-sized, hard instances is the Glasgow Subgraph Solver ( McCreesh, Prosser &amp; Trimble (2020) ). This solver adopts a constraint programming approach, using bit-parallel data structures and specialized propagation algorithms for performance. It supports most common variations of the problem and is capable of counting or enumerating solutions as well as deciding whether one exists. For large graphs, state-of-the art algorithms include CFL-Match and Turboiso, and extensions thereupon such as DAF by Han et al. (2019) . Inspired b</p>
-    <hr>
-    <h2>Applications</h2>
-    <p>As subgraph isomorphism has been applied in the area of cheminformatics to find similarities between chemical compounds from their structural formula ; often in this area the term substructure search is used. A query structure is often defined graphically using a structure editor program; SMILES based database systems typically define queries using SMARTS , a SMILES extension. The closely related problem of counting the number of isomorphic copies of a graph H in a larger graph G has been applied to pattern discovery in databases, the bioinformatics of protein-protein interaction networks, and in exponential random graph methods for mathematically modeling social networks . Ohlrich et al. (1993) describe an application of subgraph isomorphism in the computer-aided design of electronic circuits . Subgraph matching is also a substep in graph rewriting (the most runtime-intensive), and thus offered by graph rewrite tools . The problem is also of interest in artificial intelligence , where it is considered part of an array of pattern matching in graphs problems; an extension of subgraph isomorphism known as graph mining is also of interest in that area.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Masters_of_Illusion_album.html">Masters of Illusion (album)</a></li>
-      <li><a href="Centerville_Utah.html">Centerville, Utah</a></li>
-      <li><a href="Imperial_Japanese_Army_General_Staff_Office.html">Imperial Japanese Army General Staff Office</a></li>
-      <li><a href="Isle_of_Ely_constituency.html">Isle of Ely (constituency)</a></li>
-      <li><a href="New_York_State_Route_429.html">New York State Route 429</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Subgraph_isomorphism_problem">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 18, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Subgraph isomorphism problem</h1>
+<p><b>Subgraph isomorphism problem</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In theoretical computer science, the subgraph isomorphism problem is a computational task in which two graphs and are given as input, and one must determine whether contains a subgraph that is isomorphic to . Subgraph isomorphism is a generalization of both the maximum clique problem and the problem of testing whether a graph contains a Hamiltonian cycle, and is therefore NP-complete. However certain other cases of subgraph isomorphism may be solved in polynomial time.</p>
+<figure class="article-image"><img alt="Subgraph isomorphism problem" src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Subgraph_isomorphism.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>In theoretical computer science , the subgraph isomorphism problem is a computational task in which two graphs and are given as input, and one must determine whether contains a subgraph that is isomorphic to . Subgraph isomorphism is a generalization of both the maximum clique problem and the problem of testing whether a graph contains a Hamiltonian cycle , and is therefore NP-complete . However certain other cases of subgraph isomorphism may be solved in polynomial time. Sometimes the name subgraph matching is also used for the same problem. This name puts emphasis on finding such a subgraph as opposed to the bare decision problem.</p>
+<hr/>
+<h2>Decision problem and computational complexity</h2>
+<p>To prove subgraph isomorphism is NP-complete, it must be formulated as a decision problem . The input to the decision problem is a pair of graphs and H . The answer to the problem is positive if H is isomorphic to a subgraph of G , and negative otherwise. Formal question: Let , be graphs. Is there a subgraph such that ? I. e., does there exist a bijection such that ? The proof of subgraph isomorphism being NP-complete is simple and based on reduction of the clique problem , an NP-complete decision problem in which the input is a single graph G and a number k , and the question is whether G contains a complete subgraph with k vertices. To translate this to a subgraph isomorphism problem, simply let H be the complete graph K k ; then the answer to the subgraph isomorphism problem for G and H is equal to the answer to the clique problem for G and k . Since the clique problem is NP-complete, this polynomial-time many-one reduction shows that subgraph isomorphism is also NP-complete. An alternative reduction from the Hamiltonian cycle problem translates a graph G which is to be tested for Hamiltonicity into the pair of graphs G and H , where H is a cycle having the same number of vertices as G . Because the Hamiltonian cycle problem is NP-complete even for planar graphs , this shows that subgraph isomorphism remains NP-complete even in the planar case. Subgraph isomorphism is a gene</p>
+<hr/>
+<h2>Algorithms</h2>
+<p>Ullmann (1976) describes a recursive backtracking procedure for solving the subgraph isomorphism problem. Although its running time is, in general, exponential, it takes polynomial time for any fixed choice of H (with a polynomial that depends on the choice of H ). When G is a planar graph (or more generally a graph of bounded expansion ) and H is fixed, the running time of subgraph isomorphism can be reduced to linear time . Ullmann (2010) is a substantial update to the 1976 subgraph isomorphism algorithm paper. Cordella (2004) proposed in 2004 another algorithm based on Ullmann's, VF2, which improves the refinement process using different heuristics and uses significantly less memory. Bonnici &amp; Giugno (2013) proposed a better algorithm, which improves the initial order of the vertices using some heuristics. The current state of the art solver for moderately-sized, hard instances is the Glasgow Subgraph Solver ( McCreesh, Prosser &amp; Trimble (2020) ). This solver adopts a constraint programming approach, using bit-parallel data structures and specialized propagation algorithms for performance. It supports most common variations of the problem and is capable of counting or enumerating solutions as well as deciding whether one exists. For large graphs, state-of-the art algorithms include CFL-Match and Turboiso, and extensions thereupon such as DAF by Han et al. (2019) . Inspired b</p>
+<hr/>
+<h2>Applications</h2>
+<p>As subgraph isomorphism has been applied in the area of cheminformatics to find similarities between chemical compounds from their structural formula ; often in this area the term substructure search is used. A query structure is often defined graphically using a structure editor program; SMILES based database systems typically define queries using SMARTS , a SMILES extension. The closely related problem of counting the number of isomorphic copies of a graph H in a larger graph G has been applied to pattern discovery in databases, the bioinformatics of protein-protein interaction networks, and in exponential random graph methods for mathematically modeling social networks . Ohlrich et al. (1993) describe an application of subgraph isomorphism in the computer-aided design of electronic circuits . Subgraph matching is also a substep in graph rewriting (the most runtime-intensive), and thus offered by graph rewrite tools . The problem is also of interest in artificial intelligence , where it is considered part of an array of pattern matching in graphs problems; an extension of subgraph isomorphism known as graph mining is also of interest in that area.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Masters_of_Illusion_album.html">Masters of Illusion (album)</a></li>
+<li><a href="Centerville_Utah.html">Centerville, Utah</a></li>
+<li><a href="Imperial_Japanese_Army_General_Staff_Office.html">Imperial Japanese Army General Staff Office</a></li>
+<li><a href="Isle_of_Ely_constituency.html">Isle of Ely (constituency)</a></li>
+<li><a href="New_York_State_Route_429.html">New York State Route 429</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Subgraph_isomorphism_problem">Wikimedia article</a></small></p>
+<p><i>Last edited: September 18, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

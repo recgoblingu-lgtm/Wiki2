@@ -1,65 +1,66 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Hercules (emulator) - Wiki2</title>
-  <meta name="description" content="Hercules is a computer emulator allowing software written for IBM mainframe computers and for plug compatible mainframes to run on other types of computer hardware, notably on low-cost personal computers. Development started in 1999 by Roge">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Hercules_emulator.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Hercules (emulator) - Wiki2">
-  <meta property="og:description" content="Hercules is a computer emulator allowing software written for IBM mainframe computers and for plug compatible mainframes to run on other types of computer hardware, notably on low-cost personal computers. Development started in 1999 by Roge">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Hercules_emulator.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/3/34/Hercules-emulator-running-ubuntu.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hercules (emulator) - Wiki2">
-  <meta name="twitter:description" content="Hercules is a computer emulator allowing software written for IBM mainframe computers and for plug compatible mainframes to run on other types of computer hardware, notably on low-cost personal computers. Development started in 1999 by Roge">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/3/34/Hercules-emulator-running-ubuntu.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Hercules (emulator) - Wiki2</title>
+<meta content="Hercules is a computer emulator allowing software written for IBM mainframe computers and for plug compatible mainframes to run on other types of computer hardware, notably on low-cost personal computers. Development started in 1999 by Roge" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Hercules_emulator.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Hercules (emulator)" property="og:title"/>
+<meta content="Hercules (emulator) is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Hercules_emulator.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/3/34/Hercules-emulator-running-ubuntu.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Hercules (emulator)" name="twitter:title"/>
+<meta content="Hercules (emulator) is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/3/34/Hercules-emulator-running-ubuntu.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Hercules (emulator)</h1>
-    <p><b>Hercules (emulator)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>Hercules is a computer emulator allowing software written for IBM mainframe computers and for plug compatible mainframes to run on other types of computer hardware, notably on low-cost personal computers. Development started in 1999 by Roger Bowler, a mainframe systems programmer.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Hercules-emulator-running-ubuntu.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Hercules (emulator)"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Hercules-emulator-running-ubuntu.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Hercules-emulator-running-ubuntu.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/en/a/a1/Hercules-logo.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Hercules-logo.gif"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>Hercules is a computer emulator allowing software written for IBM mainframe computers ( System/370 , System/390 , and zSeries/System z ) and for plug compatible mainframes (such as Amdahl machines) to run on other types of computer hardware , notably on low-cost personal computers . Development started in 1999 by Roger Bowler, a mainframe systems programmer. Hercules runs under multiple parent operating systems including Linux , Microsoft Windows , FreeBSD , NetBSD , Solaris , and macOS and is released under the open source software license QPL . It is analogous to Bochs and QEMU in that it emulates CPU instructions and select peripheral devices only. A vendor (or distributor) must still provide an operating system, and the user must install it. Hercules was the first mainframe emulator to incorporate 64-bit z/Architecture support.</p>
-    <hr>
-    <h2>Design</h2>
-    <p>The emulator is written almost entirely in C . Its developers ruled out using machine-specific assembly code to avoid problems with portability even though such code could significantly improve performance. There are two exceptions: Hercules uses hardware assists to provide inter-processor consistency when emulating multiple CPUs on SMP host systems, and Hercules uses assembler assists to convert between little-endian and big-endian data on platforms where the operating system provides such services and on x86 / x86-64 processors.</p>
-    <hr>
-    <h2>Operating systems status</h2>
-    <p>Hercules is technically compatible with all IBM mainframe operating systems, even older versions which no longer run on newer mainframes. However, many mainframe operating systems require vendor licenses to run legally. Newer licensed operating systems, such as OS/390 , z/OS , VSE/ESA , z/VSE , VM/ESA , z/VM , TPF/ESA , and z/TPF are technically compatible but cannot legally run on the Hercules emulator except in very limited circumstances, and they must always be licensed from IBM. IBM&#x27;s Coupling Facility control code, which enables Parallel Sysplex , and UTS also require licenses to run. Operating systems which may legally be run, without license costs, on Hercules include:</p>
-    <hr>
-    <h2>Usage</h2>
-    <p>Hercules can be used as a development environment to verify that code is portable (across Linux processor architectures, for example), supports symmetric multiprocessing (SMP), and is 64-bit &quot;clean.&quot; There is also a large community of current and former mainframe operators and programmers, as well as those with no prior experience, who use Hercules and the public domain IBM operating systems as a hobby and for learning purposes. The open source nature of Hercules means that anyone can produce their own customized version of the emulator. For example, a group of developers independent of the Hercules project implemented a hybrid mainframe architecture which they dubbed &quot;S/380&quot; using modifications to both Hercules and to freely available classic versions of MVS (and later VM and DOS/VS), enhancing the operating systems with some degree of 31-bit (and as of 2016, 64-bit) binary compatibility with later operating system versions (and as of 2018, 32-bit is also supported).</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Befunge.html">Befunge</a></li>
-      <li><a href="Josef_Meinrad.html">Josef Meinrad</a></li>
-      <li><a href="William_Tryon.html">William Tryon</a></li>
-      <li><a href="Oxford_Wisconsin.html">Oxford, Wisconsin</a></li>
-      <li><a href="Richard_Allinson.html">Richard Allinson</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Hercules_(emulator)">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 18, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Hercules (emulator)</h1>
+<p><b>Hercules (emulator)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>Hercules is a computer emulator allowing software written for IBM mainframe computers and for plug compatible mainframes to run on other types of computer hardware, notably on low-cost personal computers. Development started in 1999 by Roger Bowler, a mainframe systems programmer.</p>
+<figure class="article-image"><img alt="Hercules (emulator)" src="https://upload.wikimedia.org/wikipedia/commons/3/34/Hercules-emulator-running-ubuntu.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Hercules-emulator-running-ubuntu.png" src="https://upload.wikimedia.org/wikipedia/commons/3/34/Hercules-emulator-running-ubuntu.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Hercules-logo.gif" src="https://upload.wikimedia.org/wikipedia/en/a/a1/Hercules-logo.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>Hercules is a computer emulator allowing software written for IBM mainframe computers ( System/370 , System/390 , and zSeries/System z ) and for plug compatible mainframes (such as Amdahl machines) to run on other types of computer hardware , notably on low-cost personal computers . Development started in 1999 by Roger Bowler, a mainframe systems programmer. Hercules runs under multiple parent operating systems including Linux , Microsoft Windows , FreeBSD , NetBSD , Solaris , and macOS and is released under the open source software license QPL . It is analogous to Bochs and QEMU in that it emulates CPU instructions and select peripheral devices only. A vendor (or distributor) must still provide an operating system, and the user must install it. Hercules was the first mainframe emulator to incorporate 64-bit z/Architecture support.</p>
+<hr/>
+<h2>Design</h2>
+<p>The emulator is written almost entirely in C . Its developers ruled out using machine-specific assembly code to avoid problems with portability even though such code could significantly improve performance. There are two exceptions: Hercules uses hardware assists to provide inter-processor consistency when emulating multiple CPUs on SMP host systems, and Hercules uses assembler assists to convert between little-endian and big-endian data on platforms where the operating system provides such services and on x86 / x86-64 processors.</p>
+<hr/>
+<h2>Operating systems status</h2>
+<p>Hercules is technically compatible with all IBM mainframe operating systems, even older versions which no longer run on newer mainframes. However, many mainframe operating systems require vendor licenses to run legally. Newer licensed operating systems, such as OS/390 , z/OS , VSE/ESA , z/VSE , VM/ESA , z/VM , TPF/ESA , and z/TPF are technically compatible but cannot legally run on the Hercules emulator except in very limited circumstances, and they must always be licensed from IBM. IBM's Coupling Facility control code, which enables Parallel Sysplex , and UTS also require licenses to run. Operating systems which may legally be run, without license costs, on Hercules include:</p>
+<hr/>
+<h2>Usage</h2>
+<p>Hercules can be used as a development environment to verify that code is portable (across Linux processor architectures, for example), supports symmetric multiprocessing (SMP), and is 64-bit "clean." There is also a large community of current and former mainframe operators and programmers, as well as those with no prior experience, who use Hercules and the public domain IBM operating systems as a hobby and for learning purposes. The open source nature of Hercules means that anyone can produce their own customized version of the emulator. For example, a group of developers independent of the Hercules project implemented a hybrid mainframe architecture which they dubbed "S/380" using modifications to both Hercules and to freely available classic versions of MVS (and later VM and DOS/VS), enhancing the operating systems with some degree of 31-bit (and as of 2016, 64-bit) binary compatibility with later operating system versions (and as of 2018, 32-bit is also supported).</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Befunge.html">Befunge</a></li>
+<li><a href="Josef_Meinrad.html">Josef Meinrad</a></li>
+<li><a href="William_Tryon.html">William Tryon</a></li>
+<li><a href="Oxford_Wisconsin.html">Oxford, Wisconsin</a></li>
+<li><a href="Richard_Allinson.html">Richard Allinson</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Hercules_(emulator)">Wikimedia article</a></small></p>
+<p><i>Last edited: September 18, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

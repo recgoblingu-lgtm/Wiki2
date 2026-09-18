@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Befunge - Wiki2</title>
-  <meta name="description" content="Befunge is a two-dimensional stack-based, reflective, esoteric programming language. It differs from conventional languages in that programs are arranged on a two-dimensional grid. &quot;Arrow&quot; instructions direct the control flow to the left, r">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Befunge.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Befunge - Wiki2">
-  <meta property="og:description" content="Befunge is a two-dimensional stack-based, reflective, esoteric programming language. It differs from conventional languages in that programs are arranged on a two-dimensional grid. &quot;Arrow&quot; instructions direct the control flow to the left, r">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Befunge.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Befunge - Wiki2">
-  <meta name="twitter:description" content="Befunge is a two-dimensional stack-based, reflective, esoteric programming language. It differs from conventional languages in that programs are arranged on a two-dimensional grid. &quot;Arrow&quot; instructions direct the control flow to the left, r">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Befunge - Wiki2</title>
+<meta content='Befunge is a two-dimensional stack-based, reflective, esoteric programming language. It differs from conventional languages in that programs are arranged on a two-dimensional grid. "Arrow" instructions direct the control flow to the left, r' name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Befunge.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Befunge" property="og:title"/>
+<meta content="Befunge is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Befunge.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Befunge" name="twitter:title"/>
+<meta content="Befunge is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Befunge</h1>
-    <p><b>Befunge</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>Befunge is a two-dimensional stack-based, reflective, esoteric programming language. It differs from conventional languages in that programs are arranged on a two-dimensional grid. &quot;Arrow&quot; instructions direct the control flow to the left, right, up or down, and loops are constructed by sending the control flow in a cycle. It has been described as &quot;a cross between Forth and Lemmings&quot;.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>Befunge is a two-dimensional stack-based , reflective , esoteric programming language . It differs from conventional languages in that programs are arranged on a two-dimensional grid. &quot;Arrow&quot; instructions direct the control flow to the left, right, up or down, and loops are constructed by sending the control flow in a cycle. It has been described as &quot;a cross between Forth and Lemmings &quot;. Befunge was created by Chris Pressey in 1993 for the Amiga. The language was designed to be as hard to compile as possible, featuring self-modifying code and a multi-dimensional playfield. Despite this, several compilers have been written for the language. The original Befunge-93 specification limited programs to an 80x25 grid, and while not Turing-complete, subsequent extensions like Funge-98 expanded the concept to achieve Turing completeness. The name &quot;Befunge&quot; originated from a typing error in an online discussion. While it was designed to be difficult to compile, compilers such as bef2c and Betty have managed to implement the language using various techniques. Befunge programs are characterized by their use of arrows to change control flow, and they can produce outputs like random number sequences or classic &quot;Hello, World!&quot; messages.</p>
-    <hr>
-    <h2>History</h2>
-    <p>The language was originally created by Chris Pressey in 1993 for the Amiga , as an attempt to devise a language which is as hard to compile as possible. Note that the p command allows for self-modifying code . Nevertheless, a number of compilers have subsequently been written. A number of extensions to the original &quot;Befunge-93&quot; specification also exist, most notably Funge-98, which extends the concept to an arbitrary number of dimensions and can be multithreaded , with multiple instruction pointers operating simultaneously on the same space. Befunge-extensions and variants are called Fungeoids or just Funges . The Befunge-93 specification restricts each valid program to a grid of 80 instructions horizontally by 25 instructions vertically. Program execution which exceeds these limits &quot;wraps around&quot; to a corresponding point on the other side of the grid; a Befunge program is in this manner topologically equivalent to a torus . Since a Befunge-93 program can only have a single stack and its storage array is bounded, the Befunge-93 language is not Turing-complete (however, it has been shown that Befunge-93 is Turing Complete with unbounded stack word size). The later Funge-98 specification provides Turing completeness by removing the size restrictions on the program; rather than wrapping around at a fixed limit, the movement of a Funge-98 instruction pointer follows a model dubbed </p>
-    <hr>
-    <h2>Etymology</h2>
-    <p>The word Befunge is derived from a typing error in an online discussion, where the word &#x27;before&#x27; was intended.</p>
-    <hr>
-    <h2>Compilation</h2>
-    <p>As stated, the design goal for Befunge was to create a language which was difficult to compile. This was attempted with the implementation of self-modifying code (the &#x27;p&#x27; instruction can write new instructions into the playfield) and a multi-dimensional playfield (the same instruction can be executed in four different directions). Nevertheless, these obstacles have been overcome, to some degree, and Befunge compilers have been written using appropriate techniques. The bef2c compiler included with the standard Befunge-93 distribution uses threaded code : each instruction is compiled to a snippet of C code, and control flows through the snippets just as it does in a Befunge interpreter (that is, conditionally on the value of some &#x27;direction&#x27; register). This does not result in a significant advantage over a good interpreter. Note that the bef2c compiler is not correct since it does not handle either &#x27;p&#x27; or string mode, but it would not be impossible to make it do so (although the C language might not be well-suited for this). The Betty compiler, for example, treats every possible straight line of instructions as a subprogram, and if a &#x27;p&#x27; instruction alters that subprogram, that subprogram is recompiled. This variation on just-in-time compilation results in a much better advantage over an interpreter, since many instructions can be executed in native code without making intervenin</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Josef_Meinrad.html">Josef Meinrad</a></li>
-      <li><a href="William_Tryon.html">William Tryon</a></li>
-      <li><a href="Oxford_Wisconsin.html">Oxford, Wisconsin</a></li>
-      <li><a href="Richard_Allinson.html">Richard Allinson</a></li>
-      <li><a href="Trilateral_Commission.html">Trilateral Commission</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Befunge">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 18, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Befunge</h1>
+<p><b>Befunge</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>Befunge is a two-dimensional stack-based, reflective, esoteric programming language. It differs from conventional languages in that programs are arranged on a two-dimensional grid. "Arrow" instructions direct the control flow to the left, right, up or down, and loops are constructed by sending the control flow in a cycle. It has been described as "a cross between Forth and Lemmings".</p>
+<hr/>
+<h2>Background</h2>
+<p>Befunge is a two-dimensional stack-based , reflective , esoteric programming language . It differs from conventional languages in that programs are arranged on a two-dimensional grid. "Arrow" instructions direct the control flow to the left, right, up or down, and loops are constructed by sending the control flow in a cycle. It has been described as "a cross between Forth and Lemmings ". Befunge was created by Chris Pressey in 1993 for the Amiga. The language was designed to be as hard to compile as possible, featuring self-modifying code and a multi-dimensional playfield. Despite this, several compilers have been written for the language. The original Befunge-93 specification limited programs to an 80x25 grid, and while not Turing-complete, subsequent extensions like Funge-98 expanded the concept to achieve Turing completeness. The name "Befunge" originated from a typing error in an online discussion. While it was designed to be difficult to compile, compilers such as bef2c and Betty have managed to implement the language using various techniques. Befunge programs are characterized by their use of arrows to change control flow, and they can produce outputs like random number sequences or classic "Hello, World!" messages.</p>
+<hr/>
+<h2>History</h2>
+<p>The language was originally created by Chris Pressey in 1993 for the Amiga , as an attempt to devise a language which is as hard to compile as possible. Note that the p command allows for self-modifying code . Nevertheless, a number of compilers have subsequently been written. A number of extensions to the original "Befunge-93" specification also exist, most notably Funge-98, which extends the concept to an arbitrary number of dimensions and can be multithreaded , with multiple instruction pointers operating simultaneously on the same space. Befunge-extensions and variants are called Fungeoids or just Funges . The Befunge-93 specification restricts each valid program to a grid of 80 instructions horizontally by 25 instructions vertically. Program execution which exceeds these limits "wraps around" to a corresponding point on the other side of the grid; a Befunge program is in this manner topologically equivalent to a torus . Since a Befunge-93 program can only have a single stack and its storage array is bounded, the Befunge-93 language is not Turing-complete (however, it has been shown that Befunge-93 is Turing Complete with unbounded stack word size). The later Funge-98 specification provides Turing completeness by removing the size restrictions on the program; rather than wrapping around at a fixed limit, the movement of a Funge-98 instruction pointer follows a model dubbed </p>
+<hr/>
+<h2>Etymology</h2>
+<p>The word Befunge is derived from a typing error in an online discussion, where the word 'before' was intended.</p>
+<hr/>
+<h2>Compilation</h2>
+<p>As stated, the design goal for Befunge was to create a language which was difficult to compile. This was attempted with the implementation of self-modifying code (the 'p' instruction can write new instructions into the playfield) and a multi-dimensional playfield (the same instruction can be executed in four different directions). Nevertheless, these obstacles have been overcome, to some degree, and Befunge compilers have been written using appropriate techniques. The bef2c compiler included with the standard Befunge-93 distribution uses threaded code : each instruction is compiled to a snippet of C code, and control flows through the snippets just as it does in a Befunge interpreter (that is, conditionally on the value of some 'direction' register). This does not result in a significant advantage over a good interpreter. Note that the bef2c compiler is not correct since it does not handle either 'p' or string mode, but it would not be impossible to make it do so (although the C language might not be well-suited for this). The Betty compiler, for example, treats every possible straight line of instructions as a subprogram, and if a 'p' instruction alters that subprogram, that subprogram is recompiled. This variation on just-in-time compilation results in a much better advantage over an interpreter, since many instructions can be executed in native code without making intervenin</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Josef_Meinrad.html">Josef Meinrad</a></li>
+<li><a href="William_Tryon.html">William Tryon</a></li>
+<li><a href="Oxford_Wisconsin.html">Oxford, Wisconsin</a></li>
+<li><a href="Richard_Allinson.html">Richard Allinson</a></li>
+<li><a href="Trilateral_Commission.html">Trilateral Commission</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Befunge">Wikimedia article</a></small></p>
+<p><i>Last edited: September 18, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
