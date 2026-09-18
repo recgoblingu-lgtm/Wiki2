@@ -92773,12 +92773,21 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Interoperability",
       "generated_at": "2026-09-18T21:05:32+00:00"
+    },
+    {
+      "title": "Oldcastle, Ontario",
+      "filename": "Oldcastle_Ontario.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Oldcastle%2C_Ontario",
+      "generated_at": "2026-09-18T23:14:27+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|4c464040324c304c464232010f01dc0e|71441945",
-    "Category:Arcade video games": "page|4634340450383204562a40400409920f538d04543a30324604362a42320994011f01dcbfe016|12501629",
-    "Category:Video game franchises": "page|484c4604483a442c2a4040010f01dcc3dc0a|4448718",
+    "Category:Indie games": "page|4e3254324c3230040992543a30324604362a42320994011801dc17|42481314",
+    "Category:Arcade video games": "page|4c2a40405a042c3a3e3203064c2a40405a042c3a3e32011901dcc1dcc2dcc1dc07|6285240",
+    "Category:Video game franchises": "page|4e504c32325004343a363850324c011201dcc0dc0a|17438226",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
     "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
   }
 }
