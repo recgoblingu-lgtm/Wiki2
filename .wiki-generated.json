@@ -92787,12 +92787,41 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/.32-20_Winchester",
       "generated_at": "2026-09-19T09:47:13+00:00"
+    },
+    {
+      "title": "Gossypium",
+      "filename": "Gossypium.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Gossypium",
+      "generated_at": "2026-09-19T21:13:00+00:00"
+    },
+    {
+      "title": "Strike Fighter",
+      "filename": "Strike_Fighter.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Strike_Fighter",
+      "generated_at": "2026-09-19T21:13:04+00:00"
+    },
+    {
+      "title": "Fightback (video game)",
+      "filename": "Fightback_video_game.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Fightback_(video_game)",
+      "generated_at": "2026-09-19T21:13:11+00:00"
+    },
+    {
+      "title": "Miss Havisham",
+      "filename": "Miss_Havisham.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Miss_Havisham",
+      "generated_at": "2026-09-19T21:13:28+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|4e482a2e3204505a4c2a4450011001dcc1dc09|70493419",
-    "Category:Arcade video games": "page|4e464e0409922a4c2e2a303204362a4232099403064e464e0409922a4c2e2a303204362a4232099401250601dcc2dcc0dcc1dcdcdc12|3666777",
-    "Category:Video game franchises": "page|5a464e383a040992543a30324604362a4232044e324c3a324e0994011d01dc1c|30918076",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
+    "Category:Indie games": "page|5244343a443a4e383230044e562a4406045038320306503832045244343a443a4e383230044e562a4401250b01dcbcdcbddcc3dcbcdc07|36146896",
+    "Category:Arcade video games": "page|50524c2c46044652504c5244030650524c2c46044652504c5244011d01dcc1dcc0dcc1dcc4dc06|1362824",
+    "Category:Video game franchises": "page|342a2c52402a044446542a042e4c5a4e502a40403a4e073604343a442a4004342a44502a4e5a0306342a2c52402a044446542a042e4c5a4e502a40403a4e04343a442a4004342a44502a4e5a0125250c01dcc0dcc2dcbbdcc1dcbfdcc0dcc2dcbcdcc1dc0a|5070173",
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
