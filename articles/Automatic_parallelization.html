@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Automatic parallelization - Wiki2</title>
+  <meta name="description" content="Automatic parallelization, also auto-parallelization or autoparallelization, is a compiler optimization in which a compiler or other software tool transforms sequential program code so that some of its operations can execute in parallel. Th">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Automatic_parallelization.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Automatic parallelization - Wiki2">
+  <meta property="og:description" content="Automatic parallelization, also auto-parallelization or autoparallelization, is a compiler optimization in which a compiler or other software tool transforms sequential program code so that some of its operations can execute in parallel. Th">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Automatic_parallelization.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/6/67/Automatic_parallelization_overview.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Automatic parallelization - Wiki2">
+  <meta name="twitter:description" content="Automatic parallelization, also auto-parallelization or autoparallelization, is a compiler optimization in which a compiler or other software tool transforms sequential program code so that some of its operations can execute in parallel. Th">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/6/67/Automatic_parallelization_overview.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Automatic parallelization</h1>
+    <p><b>Automatic parallelization</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>Automatic parallelization, also auto-parallelization or autoparallelization, is a compiler optimization in which a compiler or other software tool transforms sequential program code so that some of its operations can execute in parallel. The generated program may use multiple processor cores or hardware threads, vector instructions, or other forms of parallel execution.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Automatic_parallelization_overview.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Automatic parallelization"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>Automatic parallelization , also auto-parallelization or autoparallelization , is a compiler optimization in which a compiler or other software tool transforms sequential program code so that some of its operations can execute in parallel . The generated program may use multiple processor cores or hardware threads, vector instructions , or other forms of parallel execution. Automatic parallelization attempts to reduce the amount of explicit parallel programming required of the programmer. To do so, a compiler must determine whether operations can execute concurrently without changing the behavior of the program and whether executing them in parallel is likely to improve performance. This involves analyses such as dependence analysis , alias analysis and data-flow analysis , together with program transformations that expose or increase usable parallelism. Loops have historically been an important target for automatic parallelization, particularly in numerical programs with regular array accesses. Automatic parallelization is therefore closely related to automatic vectorization , loop transformation, and other compiler techniques for exploiting parallel hardware.</p>
+    <hr>
+    <h2>Overview</h2>
+    <p>Consider a sequential loop in which corresponding elements of two arrays are added: Each iteration writes to a different element of z and, assuming the arrays do not overlap in a way that introduces a dependence, does not require the result of another iteration. The iterations can therefore potentially execute concurrently. A loop for which all iterations of a given invocation can execute concurrently is commonly called a DOALL loop. By contrast: contains a loop-carried dependence : iteration i reads a value produced by iteration i - 1 . Executing the iterations simultaneously without an additional transformation would therefore change the program&#x27;s behavior. A parallelizing compiler consequently has to address two distinct questions: The distinction is important because parallel execution has overhead. Work may need to be divided among threads, processors may need to synchronize or communicate, and memory-system effects can reduce the speedup obtained from concurrent execution. A transformation can therefore be legal without being profitable. Some dependences can be modified or eliminated by program transformations. Automatic parallelization can therefore involve both detecting parallelism already present in a program and restructuring computations to expose additional parallelism.</p>
+    <hr>
+    <h2>History</h2>
+    <p>Research on automatic parallelization developed alongside work on optimizing compilers, vector processors and parallel computer architectures. One motivation was the existence of sequential scientific programs, particularly in Fortran , that researchers sought to execute efficiently on machines capable of performing multiple operations concurrently. During the 1970s, David Kuck and colleagues at the University of Illinois Urbana-Champaign developed the Parafrase compiler system. Parafrase was used to investigate automatic vectorization, dependence-based program restructuring and transformations for parallel execution. Work on Parafrase influenced subsequent restructuring-compiler research at other institutions, including work associated with Ken Kennedy at Rice University and parallelizing-compiler research at IBM . At IBM, Frances Allen and colleagues developed PTRAN (Parallel TRANslator), a system for automatically restructuring sequential Fortran programs for execution on parallel architectures. PTRAN&#x27;s analysis incorporated interprocedural information into dependence analysis. Allen&#x27;s work on compiler optimization, interprocedural analysis and parallelization later formed part of the work for which she received the 2006 Turing Award ; she was the first woman to receive the award. At Rice University, Kennedy and collaborators developed compiler analyses and restructuring tec</p>
+    <hr>
+    <h2>Compiler techniques</h2>
+    <p>Automatic parallelization generally combines several forms of program analysis and transformation rather than following a single fixed compiler pipeline.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Xi2_Capricorni.html">Xi2 Capricorni</a></li>
+      <li><a href="Fraternity_Records.html">Fraternity Records</a></li>
+      <li><a href="Heinrich_Ewald.html">Heinrich Ewald</a></li>
+      <li><a href="Pohick_Creek.html">Pohick Creek</a></li>
+      <li><a href="Immaculate_Heart_Academy.html">Immaculate Heart Academy</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Automatic_parallelization">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 20, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
