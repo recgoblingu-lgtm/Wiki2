@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>End-of-Transmission character - Wiki2</title>
+  <meta name="description" content="In telecommunications, an End-of-Transmission character (EOT) is a transmission control character. Its intended use is to indicate the conclusion of a transmission that may have included one or more texts and any associated message headings">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/End_of_Transmission_character.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="End-of-Transmission character - Wiki2">
+  <meta property="og:description" content="In telecommunications, an End-of-Transmission character (EOT) is a transmission control character. Its intended use is to indicate the conclusion of a transmission that may have included one or more texts and any associated message headings">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/End_of_Transmission_character.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="End-of-Transmission character - Wiki2">
+  <meta name="twitter:description" content="In telecommunications, an End-of-Transmission character (EOT) is a transmission control character. Its intended use is to indicate the conclusion of a transmission that may have included one or more texts and any associated message headings">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>End-of-Transmission character</h1>
+    <p><b>End-of-Transmission character</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In telecommunications, an End-of-Transmission character (EOT) is a transmission control character. Its intended use is to indicate the conclusion of a transmission that may have included one or more texts and any associated message headings.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>In telecommunications , an End-of-Transmission character ( EOT ) is a transmission control character . Its intended use is to indicate the conclusion of a transmission that may have included one or more texts and any associated message headings. An EOT is often used to initiate other functions, such as releasing circuits, disconnecting terminals, or placing receive terminals in a standby condition. Its most common use today is to cause a Unix terminal driver to signal end of file and thus exit programs that are awaiting input. In ASCII and Unicode , the character is encoded at U+0004 . It can be referred to as Ctrl + D , ^D in caret notation . Unicode provides the character U+2404 ␄ SYMBOL FOR END OF TRANSMISSION for when EOT needs to be displayed graphically. In addition, U+2301 ⌁ ELECTRIC ARROW can also be used as a graphic representation of EOT; it is defined in Unicode as &quot;symbol for End of Transmission&quot;.</p>
+    <hr>
+    <h2>Meaning in Unix</h2>
+    <p>The EOT character in Unix is different from the Control-Z in DOS. The DOS Control-Z byte is actually sent and/or placed in files to indicate where the text ends. In contrast, the Control-D causes the Unix terminal driver to signal the EOF condition, which is not a character, while the byte has no special meaning if actually read or written from a file or terminal. In Unix, the end-of-file character (by default EOT) causes the terminal driver to make available all characters in its input buffer immediately; normally the driver would collect characters until it sees an end-of-line character. If the input buffer is empty (because no characters have been typed since the last end-of-line or end-of-file), a program reading from the terminal reads a count of zero bytes. In Unix, such a condition is understood as having reached the end of the file. This can be demonstrated with the cat program on Unix -like operating systems such as Linux : Run the cat command with no arguments, so it accepts its input from the keyboard and prints output to the screen. Type a few characters without pressing ↵ Enter , then type Ctrl + D . The characters typed to that point are sent to cat, which then writes them to the screen. If Ctrl + D is typed without typing any characters first, the input stream is terminated and the program ends. An actual EOT is obtained by typing Ctrl + V then Ctrl + D . If the </p>
+    <hr>
+    <h2>Usage in mainframe computer system communications protocols</h2>
+    <p>The EOT character is used in legacy communications protocols by mainframe computer manufacturers such as IBM , Burroughs Corporation , and the BUNCH . Terminal transmission control protocols such as IBM 3270 Poll/Select, or Burroughs TD830 Contention Mode protocol use the EOT character to terminate a communications sequence between two cooperating stations (such as a host multiplexer or Input/Output terminal). A single Poll (ask the station for data) or Select (send data to the station) operation will include two round-trip send-reply operations between the polling station and the station being polled, the final operation being transmission of a single EOT character to the initiating station.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Franklin_County_Washington.html">Franklin County, Washington</a></li>
+      <li><a href="St_Leger_family.html">St Leger family</a></li>
+      <li><a href="Millennium_film.html">Millennium (film)</a></li>
+      <li><a href="Lord_Lieutenant_of_Tyne_and_Wear.html">Lord Lieutenant of Tyne and Wear</a></li>
+      <li><a href="Natterjack_toad.html">Natterjack toad</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/End-of-Transmission_character">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 20, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

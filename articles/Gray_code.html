@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gray code - Wiki2</title>
+  <meta name="description" content="The reflected binary code (RBC), also known as reflected binary (RB) or Gray code after Frank Gray, is an ordering of the binary numeral system such that two successive values differ in only one bit.">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Gray_code.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Gray code - Wiki2">
+  <meta property="og:description" content="The reflected binary code (RBC), also known as reflected binary (RB) or Gray code after Frank Gray, is an ordering of the binary numeral system such that two successive values differ in only one bit.">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Gray_code.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/0/07/9-bit%2C_Single-Track_Gray_Code.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gray code - Wiki2">
+  <meta name="twitter:description" content="The reflected binary code (RBC), also known as reflected binary (RB) or Gray code after Frank Gray, is an ordering of the binary numeral system such that two successive values differ in only one bit.">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/0/07/9-bit%2C_Single-Track_Gray_Code.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Gray code</h1>
+    <p><b>Gray code</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>The reflected binary code (RBC), also known as reflected binary (RB) or Gray code after Frank Gray, is an ordering of the binary numeral system such that two successive values differ in only one bit.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/07/9-bit%2C_Single-Track_Gray_Code.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="9-bit, Single-Track Gray Code.gif"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Animated_Graycode.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Animated Graycode.gif"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Gray_code_rotary_encoder_13-track_opened.jpg/960px-Gray_code_rotary_encoder_13-track_opened.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Gray code rotary encoder 13-track opened.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>The reflected binary code ( RBC ), also known as reflected binary ( RB ) or Gray code after Frank Gray , is an ordering of the binary numeral system such that two successive values differ in only one bit (binary digit). For example, the representation of the decimal value &quot;1&quot; in binary would normally be &quot; 001 &quot;, and &quot;2&quot; would be &quot; 010 &quot;. In Gray code, these values are represented as &quot; 001 &quot; and &quot; 011 &quot;. That way, incrementing a value from 1 to 2 requires only one bit to change, instead of two. Gray codes are widely used to prevent spurious output from electromechanical switches and to facilitate error correction in digital communications such as digital terrestrial television and some cable TV systems. The use of Gray code in these devices helps simplify logic operations and reduce errors in practice.</p>
+    <hr>
+    <h2>Function</h2>
+    <p>Many devices indicate position by closing and opening switches. If that device uses natural binary codes , positions 3 and 4 are next to each other but all three bits of the binary representation differ: The problem with natural binary codes is that physical switches are not ideal: it is very unlikely that physical switches will change states exactly in synchrony. In the transition between the two states shown above, all three switches change state. In the brief period while all are changing, the switches will read some spurious position. Even without keybounce , the transition might look like 011 — 001 — 101 — 100 . When the switches appear to be in position 001 , the observer cannot tell if that is the &quot;real&quot; position 1, or a transitional state between two other positions. If the output feeds into a sequential system, possibly via combinational logic , then the sequential system may store a false value. This problem can be solved by changing only one switch at a time, so there is never any ambiguity of position, resulting in codes assigning to each of a contiguous set of integers , or to each member of a circular list, a word of symbols such that no two code words are identical and each two adjacent code words differ by exactly one symbol. These codes are also known as unit-distance , single-distance , single-step , monostrophic or syncopic codes , in reference to the Hamming</p>
+    <hr>
+    <h2>Invention</h2>
+    <p>In principle, there can be more than one such code for a given word length, but the term Gray code was first applied to a particular binary code for non-negative integers, the binary-reflected Gray code , or BRGC . The Bell Labs researcher George R. Stibitz described such a code in a 1941 patent application, granted in 1943. Frank Gray introduced the term reflected binary code in his 1947 patent application, remarking that the code had &quot;as yet no recognized name&quot;. He derived the name from the fact that it &quot;may be built up from the conventional binary code by a sort of reflection process&quot;. In the standard encoding of the Gray code the least significant bit follows a repetitive pattern of 2 on, 2 off (… 11001100 …); the next digit a pattern of 4 on, 4 off; the i -th least significant bit a pattern of 2 on 2 off. The most significant digit is an exception to this: for an n -bit Gray code, the most significant digit follows the pattern 2 on, 2 off, which is the same (cyclic) sequence of values as for the second-most significant digit, but shifted forwards 2 places. The four-bit version of this is shown below: For decimal 15 the code rolls over to decimal 0 with only one switch change. This is called the cyclic or adjacency property of the code. In modern digital communications , Gray codes play an important role in error correction . For example, in a digital modulation scheme such</p>
+    <hr>
+    <h2>Mathematical puzzles</h2>
+    <p>Reflected binary codes were applied to mathematical puzzles before they became known to engineers. The binary-reflected Gray code represents the underlying scheme of the classical Chinese rings puzzle , a sequential mechanical puzzle mechanism described by the French Louis Gros in 1872. It can serve as a solution guide for the Towers of Hanoi problem, based on a game by the French Édouard Lucas in 1883. Similarly, the so-called Towers of Bucharest and Towers of Klagenfurt game configurations yield ternary and pentary Gray codes. Martin Gardner wrote a popular account of the Gray code in his August 1972 &quot;Mathematical Games&quot; column in Scientific American . The code also forms a Hamiltonian cycle in a hypercube graph , of length</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Struwwelpeter.html">Struwwelpeter</a></li>
+      <li><a href="Prairie_dog.html">Prairie dog</a></li>
+      <li><a href="Maurice_novel.html">Maurice (novel)</a></li>
+      <li><a href="Secret_Six_comics.html">Secret Six (comics)</a></li>
+      <li><a href="Greenford_station.html">Greenford station</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Gray_code">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 20, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
