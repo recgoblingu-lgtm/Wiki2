@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Dependent type - Wiki2</title>
-  <meta name="description" content="In computer science and logic, a dependent type is a type whose definition depends on a value. It is an overlapping feature of type theory and type systems. In intuitionistic type theory, dependent types are used to encode logic&#x27;s quantifie">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Dependent_type.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Dependent type - Wiki2">
-  <meta property="og:description" content="In computer science and logic, a dependent type is a type whose definition depends on a value. It is an overlapping feature of type theory and type systems. In intuitionistic type theory, dependent types are used to encode logic&#x27;s quantifie">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Dependent_type.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Dependent type - Wiki2">
-  <meta name="twitter:description" content="In computer science and logic, a dependent type is a type whose definition depends on a value. It is an overlapping feature of type theory and type systems. In intuitionistic type theory, dependent types are used to encode logic&#x27;s quantifie">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Dependent type - Wiki2</title>
+<meta content="In computer science and logic, a dependent type is a type whose definition depends on a value. It is an overlapping feature of type theory and type systems. In intuitionistic type theory, dependent types are used to encode logic's quantifie" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Dependent_type.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Dependent type" property="og:title"/>
+<meta content="Dependent type is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Dependent_type.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Dependent type" name="twitter:title"/>
+<meta content="Dependent type is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Dependent type</h1>
-    <p><b>Dependent type</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In computer science and logic, a dependent type is a type whose definition depends on a value. It is an overlapping feature of type theory and type systems. In intuitionistic type theory, dependent types are used to encode logic&#x27;s quantifiers like &quot;for all&quot; and &quot;there exists&quot;. In functional programming languages like Agda, ATS, Rocq, F*, Epigram, Idris, and Lean, dependent types help reduce bugs by enabling the programmer to assign types that further restrain the set of possible implementations.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In computer science and logic , a dependent type is a type whose definition depends on a value. It is an overlapping feature of type theory and type systems . In intuitionistic type theory , dependent types are used to encode logic&#x27;s quantifiers like &quot;for all&quot; and &quot;there exists&quot;. In functional programming languages like Agda , ATS , Rocq (previously known as Coq ), F* , Epigram , Idris , and Lean , dependent types help reduce bugs by enabling the programmer to assign types that further restrain the set of possible implementations. Two common examples of dependent types are dependent functions and dependent pairs . The return type of a dependent function may depend on the value (not just type) of one of its arguments. For instance, a function that takes a positive integer may return an array of length , where the array length is part of the type of the array. (Note that this is different from polymorphism and generic programming , both of which include the type as an argument.) A dependent pair may have a second value, the type of which depends on the first value. Sticking with the array example, a dependent pair may be used to pair an array with its length in a type-safe way. Dependent types add complexity to a type system. Deciding the equality of dependent types in a program may require computations. If arbitrary values are allowed in dependent types, then deciding type equal</p>
-    <hr>
-    <h2>History</h2>
-    <p>In 1934, Haskell Curry noticed that the types used in typed lambda calculus , and in its combinatory logic counterpart, followed the same pattern as axioms in propositional logic . Going further, for every proof in the logic, there was a matching function (term) in the programming language. One of Curry&#x27;s examples was the correspondence between simply typed lambda calculus and intuitionistic logic . Predicate logic is an extension of propositional logic, adding quantifiers. Howard and de Bruijn extended lambda calculus to match this more powerful logic by creating types for dependent functions, which correspond to &quot;for all&quot;, and dependent pairs, which correspond to &quot;there exists&quot;. Because of this, and other work by Howard, propositions-as-types is known as the Curry–Howard correspondence .</p>
-    <hr>
-    <h2>Formal definition</h2>
-    <p>In dependent type theory, a dependent type is a type whose specification may vary with a value, and can be viewed as analogous to an indexed family of sets . Let denote a universe of types, and write to indicate that is a type in . For a term of type , write . A dependent family of types over is written , meaning that to each term the family assigns a type . Thus, given and , the expression denotes a type that depends on the particular value . In standard terminology, this is described by saying that the type varies with .</p>
-    <hr>
-    <h2>Π type</h2>
-    <p>A function whose type of return value varies with its argument (i.e. there is no fixed codomain ) is a dependent function and the type of this function is called dependent product type , pi-type ( Π type ) or dependent function type . From a family of types we may construct the type of dependent functions , whose terms are functions that take a term and return a term in . For this example, the dependent function type is typically written as or . If is a constant function, the corresponding dependent product type is equivalent to an ordinary function type . That is, is judgmentally equal to when does not depend on . The name &#x27;Π-type&#x27; comes from the idea that these may be viewed as a Cartesian product of types. Π-types can also be understood as models of universal quantifiers . For example, if we write for n -tuples of real numbers , then would be the type of a function which, given a natural number n , returns a tuple of real numbers of size n . The usual function space arises as a special case when the range type does not actually depend on the input. E.g. is the type of functions from natural numbers to the real numbers, which is written as in typed lambda calculus. For a more concrete example, taking to be the type of unsigned integers from 0 to 255 (the ones that fit into 8 bits or 1 byte) and for , then devolves into the product of .</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Outstanding_Sports_Personality_Play_by_Play.html">Outstanding Sports Personality, Play-by-Play</a></li>
-      <li><a href="Automatic_parallelization.html">Automatic parallelization</a></li>
-      <li><a href="Xi2_Capricorni.html">Xi2 Capricorni</a></li>
-      <li><a href="Fraternity_Records.html">Fraternity Records</a></li>
-      <li><a href="Heinrich_Ewald.html">Heinrich Ewald</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Dependent_type">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 20, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Dependent type</h1>
+<p><b>Dependent type</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In computer science and logic, a dependent type is a type whose definition depends on a value. It is an overlapping feature of type theory and type systems. In intuitionistic type theory, dependent types are used to encode logic's quantifiers like "for all" and "there exists". In functional programming languages like Agda, ATS, Rocq, F*, Epigram, Idris, and Lean, dependent types help reduce bugs by enabling the programmer to assign types that further restrain the set of possible implementations.</p>
+<hr/>
+<h2>Background</h2>
+<p>In computer science and logic , a dependent type is a type whose definition depends on a value. It is an overlapping feature of type theory and type systems . In intuitionistic type theory , dependent types are used to encode logic's quantifiers like "for all" and "there exists". In functional programming languages like Agda , ATS , Rocq (previously known as Coq ), F* , Epigram , Idris , and Lean , dependent types help reduce bugs by enabling the programmer to assign types that further restrain the set of possible implementations. Two common examples of dependent types are dependent functions and dependent pairs . The return type of a dependent function may depend on the value (not just type) of one of its arguments. For instance, a function that takes a positive integer may return an array of length , where the array length is part of the type of the array. (Note that this is different from polymorphism and generic programming , both of which include the type as an argument.) A dependent pair may have a second value, the type of which depends on the first value. Sticking with the array example, a dependent pair may be used to pair an array with its length in a type-safe way. Dependent types add complexity to a type system. Deciding the equality of dependent types in a program may require computations. If arbitrary values are allowed in dependent types, then deciding type equal</p>
+<hr/>
+<h2>History</h2>
+<p>In 1934, Haskell Curry noticed that the types used in typed lambda calculus , and in its combinatory logic counterpart, followed the same pattern as axioms in propositional logic . Going further, for every proof in the logic, there was a matching function (term) in the programming language. One of Curry's examples was the correspondence between simply typed lambda calculus and intuitionistic logic . Predicate logic is an extension of propositional logic, adding quantifiers. Howard and de Bruijn extended lambda calculus to match this more powerful logic by creating types for dependent functions, which correspond to "for all", and dependent pairs, which correspond to "there exists". Because of this, and other work by Howard, propositions-as-types is known as the Curry–Howard correspondence .</p>
+<hr/>
+<h2>Formal definition</h2>
+<p>In dependent type theory, a dependent type is a type whose specification may vary with a value, and can be viewed as analogous to an indexed family of sets . Let denote a universe of types, and write to indicate that is a type in . For a term of type , write . A dependent family of types over is written , meaning that to each term the family assigns a type . Thus, given and , the expression denotes a type that depends on the particular value . In standard terminology, this is described by saying that the type varies with .</p>
+<hr/>
+<h2>Π type</h2>
+<p>A function whose type of return value varies with its argument (i.e. there is no fixed codomain ) is a dependent function and the type of this function is called dependent product type , pi-type ( Π type ) or dependent function type . From a family of types we may construct the type of dependent functions , whose terms are functions that take a term and return a term in . For this example, the dependent function type is typically written as or . If is a constant function, the corresponding dependent product type is equivalent to an ordinary function type . That is, is judgmentally equal to when does not depend on . The name 'Π-type' comes from the idea that these may be viewed as a Cartesian product of types. Π-types can also be understood as models of universal quantifiers . For example, if we write for n -tuples of real numbers , then would be the type of a function which, given a natural number n , returns a tuple of real numbers of size n . The usual function space arises as a special case when the range type does not actually depend on the input. E.g. is the type of functions from natural numbers to the real numbers, which is written as in typed lambda calculus. For a more concrete example, taking to be the type of unsigned integers from 0 to 255 (the ones that fit into 8 bits or 1 byte) and for , then devolves into the product of .</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Outstanding_Sports_Personality_Play_by_Play.html">Outstanding Sports Personality, Play-by-Play</a></li>
+<li><a href="Automatic_parallelization.html">Automatic parallelization</a></li>
+<li><a href="Xi2_Capricorni.html">Xi2 Capricorni</a></li>
+<li><a href="Fraternity_Records.html">Fraternity Records</a></li>
+<li><a href="Heinrich_Ewald.html">Heinrich Ewald</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Dependent_type">Wikimedia article</a></small></p>
+<p><i>Last edited: September 20, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
