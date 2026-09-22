@@ -99843,12 +99843,18 @@
       "category": "Mobile games",
       "source": "https://en.wikipedia.org/wiki/Obey_me!_One_Master_To_Rule_Them_All",
       "generated_at": "2026-09-22T11:28:49+00:00"
+    },
+    {
+      "title": "Geared (video game)",
+      "filename": "Geared_video_game.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Geared_(video_game)",
+      "generated_at": "2026-09-22T21:37:28+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|4e464c2e324c044e504c3a3e324c03064e464c2e324c044e504c3a3e324c012101dcc0dcbfdcc0dc0a|22846630",
+    "Category:Arcade video games": "page|4e504c32325004343a363850324c043a3a0450524c2c46011b01dcc0dcbfdcdcc5dc08|6574955",
     "Category:Indie games": "page|422a583a425242042a2e503a4644011201dcbfdc09|61012587",
-    "Category:Video game franchises": "page|4232362a04422a440458010e01dcc2dcc3dc|5871016",
-    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474"
+    "Category:Video game franchises": "page|4232362a04422a440458010e01dcc2dcc3dc|5871016"
   }
 }
