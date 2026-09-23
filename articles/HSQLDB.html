@@ -1,64 +1,65 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>HSQLDB - Wiki2</title>
-  <meta name="description" content="HSQLDB is a relational database management system written in Java. It has a JDBC driver and supports a large subset of SQL-92, SQL:2008, SQL:2011, and SQL:2016 standards. It offers a fast, small database engine which offers both in-memory a">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/HSQLDB.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="HSQLDB - Wiki2">
-  <meta property="og:description" content="HSQLDB is a relational database management system written in Java. It has a JDBC driver and supports a large subset of SQL-92, SQL:2008, SQL:2011, and SQL:2016 standards. It offers a fast, small database engine which offers both in-memory a">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/HSQLDB.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/d/d9/Hsql.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="HSQLDB - Wiki2">
-  <meta name="twitter:description" content="HSQLDB is a relational database management system written in Java. It has a JDBC driver and supports a large subset of SQL-92, SQL:2008, SQL:2011, and SQL:2016 standards. It offers a fast, small database engine which offers both in-memory a">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/d/d9/Hsql.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>HSQLDB - Wiki2</title>
+<meta content="HSQLDB is a relational database management system written in Java. It has a JDBC driver and supports a large subset of SQL-92, SQL:2008, SQL:2011, and SQL:2016 standards. It offers a fast, small database engine which offers both in-memory a" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/HSQLDB.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="HSQLDB" property="og:title"/>
+<meta content="HSQLDB is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/HSQLDB.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/d/d9/Hsql.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="HSQLDB" name="twitter:title"/>
+<meta content="HSQLDB is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/d/d9/Hsql.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>HSQLDB</h1>
-    <p><b>HSQLDB</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>HSQLDB is a relational database management system written in Java. It has a JDBC driver and supports a large subset of SQL-92, SQL:2008, SQL:2011, and SQL:2016 standards. It offers a fast, small database engine which offers both in-memory and disk-based tables. Both embedded and server modes are available.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Hsql.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="HSQLDB"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Hsql.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Hsql.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>HSQLDB ( H yper SQL D ata b ase ) is a relational database management system written in Java . It has a JDBC driver and supports a large subset of SQL-92 , SQL:2008 , SQL:2011 , and SQL:2016 standards. It offers a fast, small (around 1300 kilobytes in version 2.2) database engine which offers both in-memory and disk-based tables. Both embedded and server modes are available. Additionally, it includes tools such as a minimal Web server , command line and GUI management tools (can be run as applets), and a number of demonstration examples. It can run on Java runtimes from version 1.1 upwards, including free Java implementations such as Kaffe . HSQLDB is available under a BSD license . It is used as a database and persistence engine in many open source software projects, such as descendants of OpenOffice.org Base (i.e., Apache OpenOffice Base , LibreOffice Base , etc.), and the Jitsi VoIP and video-conference client since version 2.6. It is also used in commercial products, such as Mathematica and InstallAnywhere (starting with version 8.0).</p>
-    <hr>
-    <h2>Transaction support</h2>
-    <p>HSQLDB version 2.0 has three transaction control modes. It supports read committed and serializable transaction isolation levels with table level locks or with multiversion concurrency control (MVCC), or a combination of locks and MVCC. Version 1.8.1 supports transaction isolation level 0 (read uncommitted) only.</p>
-    <hr>
-    <h2>Data storage</h2>
-    <p>HSQLDB has two main table types used for durable read-write data storage, i.e., if a transaction has been successfully committed, it is guaranteed that the data will survive system failure and will keep their integrity. The default MEMORY type stores all data changes to the disk in the form of a SQL script. During engine start-up, these commands are executed and data are reconstructed into the memory. Another table type is CACHED, which allows one to store more data, at the cost of the slower performance. The HSQLDB engine loads them only partially and synchronizes the data to the disk on transaction commits. However, the engine always loads all rows affected during an update into the memory. This renders very large updates impossible without splitting the work into smaller parts. Other table types allow access to comma-separated values (CSV) files. These tables can participate, for example, in queries with JOINs and simplify spreadsheet processing and read-write non-durable in-memory data storage.</p>
-    <hr>
-    <h2>SQL features</h2>
-    <p>HSQLDB 2.0 supports all the core features and many optional features of SQL:2008 . Advanced features include user-defined SQL procedures and functions, schemas, datetime intervals, updatable views, arrays, lobs, full and lateral joins and set operations . Many non-standard functions such as TO_CHAR and DECODE are also supported. Extensions to standard SQL include user-defined aggregate functions .</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Missouri_Route_371.html">Missouri Route 371</a></li>
-      <li><a href="Nederwetten_en_Eckart.html">Nederwetten en Eckart</a></li>
-      <li><a href="Hilbert_basis_linear_programming.html">Hilbert basis (linear programming)</a></li>
-      <li><a href="Liar_s_dice.html">Liar&#x27;s dice</a></li>
-      <li><a href="Wool_Exchange_Bradford.html">Wool Exchange, Bradford</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/HSQLDB">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 23, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>HSQLDB</h1>
+<p><b>HSQLDB</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>HSQLDB is a relational database management system written in Java. It has a JDBC driver and supports a large subset of SQL-92, SQL:2008, SQL:2011, and SQL:2016 standards. It offers a fast, small database engine which offers both in-memory and disk-based tables. Both embedded and server modes are available.</p>
+<figure class="article-image"><img alt="HSQLDB" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Hsql.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Hsql.png" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Hsql.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>HSQLDB ( H yper SQL D ata b ase ) is a relational database management system written in Java . It has a JDBC driver and supports a large subset of SQL-92 , SQL:2008 , SQL:2011 , and SQL:2016 standards. It offers a fast, small (around 1300 kilobytes in version 2.2) database engine which offers both in-memory and disk-based tables. Both embedded and server modes are available. Additionally, it includes tools such as a minimal Web server , command line and GUI management tools (can be run as applets), and a number of demonstration examples. It can run on Java runtimes from version 1.1 upwards, including free Java implementations such as Kaffe . HSQLDB is available under a BSD license . It is used as a database and persistence engine in many open source software projects, such as descendants of OpenOffice.org Base (i.e., Apache OpenOffice Base , LibreOffice Base , etc.), and the Jitsi VoIP and video-conference client since version 2.6. It is also used in commercial products, such as Mathematica and InstallAnywhere (starting with version 8.0).</p>
+<hr/>
+<h2>Transaction support</h2>
+<p>HSQLDB version 2.0 has three transaction control modes. It supports read committed and serializable transaction isolation levels with table level locks or with multiversion concurrency control (MVCC), or a combination of locks and MVCC. Version 1.8.1 supports transaction isolation level 0 (read uncommitted) only.</p>
+<hr/>
+<h2>Data storage</h2>
+<p>HSQLDB has two main table types used for durable read-write data storage, i.e., if a transaction has been successfully committed, it is guaranteed that the data will survive system failure and will keep their integrity. The default MEMORY type stores all data changes to the disk in the form of a SQL script. During engine start-up, these commands are executed and data are reconstructed into the memory. Another table type is CACHED, which allows one to store more data, at the cost of the slower performance. The HSQLDB engine loads them only partially and synchronizes the data to the disk on transaction commits. However, the engine always loads all rows affected during an update into the memory. This renders very large updates impossible without splitting the work into smaller parts. Other table types allow access to comma-separated values (CSV) files. These tables can participate, for example, in queries with JOINs and simplify spreadsheet processing and read-write non-durable in-memory data storage.</p>
+<hr/>
+<h2>SQL features</h2>
+<p>HSQLDB 2.0 supports all the core features and many optional features of SQL:2008 . Advanced features include user-defined SQL procedures and functions, schemas, datetime intervals, updatable views, arrays, lobs, full and lateral joins and set operations . Many non-standard functions such as TO_CHAR and DECODE are also supported. Extensions to standard SQL include user-defined aggregate functions .</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Missouri_Route_371.html">Missouri Route 371</a></li>
+<li><a href="Nederwetten_en_Eckart.html">Nederwetten en Eckart</a></li>
+<li><a href="Hilbert_basis_linear_programming.html">Hilbert basis (linear programming)</a></li>
+<li><a href="Liar_s_dice.html">Liar's dice</a></li>
+<li><a href="Wool_Exchange_Bradford.html">Wool Exchange, Bradford</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/HSQLDB">Wikimedia article</a></small></p>
+<p><i>Last edited: September 23, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

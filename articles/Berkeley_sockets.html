@@ -1,63 +1,64 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Berkeley sockets - Wiki2</title>
-  <meta name="description" content="Berkeley sockets is an application programming interface (API) for Internet domain sockets and Unix domain sockets, used for inter-process communication (IPC). It is commonly implemented as a library of linkable modules. It originated with ">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Berkeley_sockets.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Berkeley sockets - Wiki2">
-  <meta property="og:description" content="Berkeley sockets is an application programming interface (API) for Internet domain sockets and Unix domain sockets, used for inter-process communication (IPC). It is commonly implemented as a library of linkable modules. It originated with ">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Berkeley_sockets.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/a/a1/InternetSocketBasicDiagram_zhtw.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Berkeley sockets - Wiki2">
-  <meta name="twitter:description" content="Berkeley sockets is an application programming interface (API) for Internet domain sockets and Unix domain sockets, used for inter-process communication (IPC). It is commonly implemented as a library of linkable modules. It originated with ">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/a/a1/InternetSocketBasicDiagram_zhtw.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Berkeley sockets - Wiki2</title>
+<meta content="Berkeley sockets is an application programming interface (API) for Internet domain sockets and Unix domain sockets, used for inter-process communication (IPC). It is commonly implemented as a library of linkable modules. It originated with " name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Berkeley_sockets.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Berkeley sockets" property="og:title"/>
+<meta content="Berkeley sockets is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Berkeley_sockets.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/a/a1/InternetSocketBasicDiagram_zhtw.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Berkeley sockets" name="twitter:title"/>
+<meta content="Berkeley sockets is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/a/a1/InternetSocketBasicDiagram_zhtw.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Berkeley sockets</h1>
-    <p><b>Berkeley sockets</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>Berkeley sockets is an application programming interface (API) for Internet domain sockets and Unix domain sockets, used for inter-process communication (IPC). It is commonly implemented as a library of linkable modules. It originated with the 4.2BSD Unix operating system, which was released in 1983.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/InternetSocketBasicDiagram_zhtw.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="InternetSocketBasicDiagram zhtw.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>Berkeley sockets is an application programming interface (API) for Internet domain sockets and Unix domain sockets , used for inter-process communication (IPC). It is commonly implemented as a library of linkable modules. It originated with the 4.2BSD Unix operating system, which was released in 1983. A socket is an abstract representation ( handle ) for the local endpoint of a network communication path. The Berkeley sockets API represents it as a file descriptor in the Unix philosophy that provides a common interface for input and output to streams of data. Berkeley sockets evolved with little modification from a de facto standard into a component of the POSIX specification. The term POSIX sockets is essentially synonymous with Berkeley sockets , but they are also known as BSD sockets , acknowledging the first implementation in the Berkeley Software Distribution .</p>
-    <hr>
-    <h2>History and implementations</h2>
-    <p>Berkeley sockets originated with the 4.2 BSD Unix operating system , released in 1983, as a programming interface. Not until 1989, however, could the University of California, Berkeley release versions of the operating system and networking library free from the licensing constraints of AT&amp;T Corporation &#x27;s proprietary Unix. All modern operating systems implement a version of the Berkeley socket interface. It became the standard interface for applications running in the Internet . Even the Winsock implementation for MS Windows, created by unaffiliated developers, closely follows the standard. The BSD sockets API is written in the C programming language . Most other programming languages provide similar interfaces, typically written as a wrapper library based on the C API.</p>
-    <hr>
-    <h2>BSD and POSIX sockets</h2>
-    <p>As the Berkeley socket API evolved and ultimately yielded the POSIX socket API, certain functions were deprecated or removed and replaced by others. The POSIX API is also designed to be reentrant and supports IPv6.</p>
-    <hr>
-    <h2>Alternatives</h2>
-    <p>The STREAMS -based Transport Layer Interface (TLI) API offers an alternative to the socket API. Many systems that provide the TLI API also provide the Berkeley socket API. Non-Unix systems often expose the Berkeley socket API with a translation layer to a native networking API. Plan 9 and Genode use file-system APIs with control files rather than file-descriptors.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Type_87_self_propelled_anti_aircraft_gun.html">Type 87 self-propelled anti-aircraft gun</a></li>
-      <li><a href="Guishan_Island_Yilan.html">Guishan Island (Yilan)</a></li>
-      <li><a href="Designated_Player_Rule.html">Designated Player Rule</a></li>
-      <li><a href="Ferazel_s_Wand.html">Ferazel&#x27;s Wand</a></li>
-      <li><a href="Wardogs.html">Wardogs</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Berkeley_sockets">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 23, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Berkeley sockets</h1>
+<p><b>Berkeley sockets</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>Berkeley sockets is an application programming interface (API) for Internet domain sockets and Unix domain sockets, used for inter-process communication (IPC). It is commonly implemented as a library of linkable modules. It originated with the 4.2BSD Unix operating system, which was released in 1983.</p>
+<figure class="article-image"><img alt="InternetSocketBasicDiagram zhtw.png" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/InternetSocketBasicDiagram_zhtw.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>Berkeley sockets is an application programming interface (API) for Internet domain sockets and Unix domain sockets , used for inter-process communication (IPC). It is commonly implemented as a library of linkable modules. It originated with the 4.2BSD Unix operating system, which was released in 1983. A socket is an abstract representation ( handle ) for the local endpoint of a network communication path. The Berkeley sockets API represents it as a file descriptor in the Unix philosophy that provides a common interface for input and output to streams of data. Berkeley sockets evolved with little modification from a de facto standard into a component of the POSIX specification. The term POSIX sockets is essentially synonymous with Berkeley sockets , but they are also known as BSD sockets , acknowledging the first implementation in the Berkeley Software Distribution .</p>
+<hr/>
+<h2>History and implementations</h2>
+<p>Berkeley sockets originated with the 4.2 BSD Unix operating system , released in 1983, as a programming interface. Not until 1989, however, could the University of California, Berkeley release versions of the operating system and networking library free from the licensing constraints of AT&amp;T Corporation 's proprietary Unix. All modern operating systems implement a version of the Berkeley socket interface. It became the standard interface for applications running in the Internet . Even the Winsock implementation for MS Windows, created by unaffiliated developers, closely follows the standard. The BSD sockets API is written in the C programming language . Most other programming languages provide similar interfaces, typically written as a wrapper library based on the C API.</p>
+<hr/>
+<h2>BSD and POSIX sockets</h2>
+<p>As the Berkeley socket API evolved and ultimately yielded the POSIX socket API, certain functions were deprecated or removed and replaced by others. The POSIX API is also designed to be reentrant and supports IPv6.</p>
+<hr/>
+<h2>Alternatives</h2>
+<p>The STREAMS -based Transport Layer Interface (TLI) API offers an alternative to the socket API. Many systems that provide the TLI API also provide the Berkeley socket API. Non-Unix systems often expose the Berkeley socket API with a translation layer to a native networking API. Plan 9 and Genode use file-system APIs with control files rather than file-descriptors.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Type_87_self_propelled_anti_aircraft_gun.html">Type 87 self-propelled anti-aircraft gun</a></li>
+<li><a href="Guishan_Island_Yilan.html">Guishan Island (Yilan)</a></li>
+<li><a href="Designated_Player_Rule.html">Designated Player Rule</a></li>
+<li><a href="Ferazel_s_Wand.html">Ferazel's Wand</a></li>
+<li><a href="Wardogs.html">Wardogs</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Berkeley_sockets">Wikimedia article</a></small></p>
+<p><i>Last edited: September 23, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
