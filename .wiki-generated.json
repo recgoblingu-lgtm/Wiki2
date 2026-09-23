@@ -99864,12 +99864,18 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Culver%2C_Kansas",
       "generated_at": "2026-09-22T22:02:24+00:00"
+    },
+    {
+      "title": "Resident Evil",
+      "filename": "Resident_Evil.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Resident_Evil",
+      "generated_at": "2026-09-23T00:16:31+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|563a4450324c0438322a50010f01e0c0dc07|65991633",
     "Category:Indie games": "page|42464e2a3a2e040992543a30324604362a42320994011701dc16|76090421",
-    "Category:Video game franchises": "page|484c4604483a442c2a4040010f01dcc3dc0a|4448718",
+    "Category:Video game franchises": "page|4e504c2a5032363a2e042e4642422a4430040992543a30324604362a4232044e324c3a324e099401250801dcbddc1e|25419084",
     "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
