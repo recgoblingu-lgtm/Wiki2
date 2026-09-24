@@ -106878,11 +106878,19 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Puigcerd%C3%A0",
       "generated_at": "2026-09-24T02:28:58+00:00"
+    },
+    {
+      "title": "Parfums Caron",
+      "filename": "Parfums_Caron.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Parfums_Caron",
+      "generated_at": "2026-09-24T13:39:16+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|385a403a2e4e010a01dc09|56431774",
-    "Category:Video game franchises": "page|48402a4432504e3a3032010e01dcc1dc07|72838664",
-    "Category:Arcade video games": "page|2a4c423230044846403a2e32042c2a504c3a30324c011901dcc1dcc0dc0b|20996957"
+    "Category:Indie games": "page|4032363244304e04463404323a4e3244562a4030011801dcbcdc0c|48442418",
+    "Category:Video game franchises": "page|562a4c4e0409924e324c3a324e0994011101e010|873111",
+    "Category:Arcade video games": "page|2e2a40464c3a32043e524404544e0804424636524c2a443a2a44011e01dcbfdcbfdc0d|5630748",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418"
   }
 }
