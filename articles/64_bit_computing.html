@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>64-bit computing - Wiki2</title>
+  <meta name="description" content="In computer architecture, 64-bit integers, memory addresses, or other data units are those that are 64 bits wide. Also, 64-bit central processing units (CPU) and arithmetic logic units (ALU) are those that are based on processor registers, ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/64_bit_computing.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="64-bit computing - Wiki2">
+  <meta property="og:description" content="In computer architecture, 64-bit integers, memory addresses, or other data units are those that are 64 bits wide. Also, 64-bit central processing units (CPU) and arithmetic logic units (ALU) are those that are based on processor registers, ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/64_bit_computing.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/3/3a/Hex_dump_of_the_Section_Table_in_a_64_bit_PE_File.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="64-bit computing - Wiki2">
+  <meta name="twitter:description" content="In computer architecture, 64-bit integers, memory addresses, or other data units are those that are 64 bits wide. Also, 64-bit central processing units (CPU) and arithmetic logic units (ALU) are those that are based on processor registers, ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/3/3a/Hex_dump_of_the_Section_Table_in_a_64_bit_PE_File.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>64-bit computing</h1>
+    <p><b>64-bit computing</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In computer architecture, 64-bit integers, memory addresses, or other data units are those that are 64 bits wide. Also, 64-bit central processing units (CPU) and arithmetic logic units (ALU) are those that are based on processor registers, address buses, or data buses of that size. A computer that uses such a processor is a 64-bit computer.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Hex_dump_of_the_Section_Table_in_a_64_bit_PE_File.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="64-bit computing"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Hex_dump_of_the_Section_Table_in_a_64_bit_PE_File.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Hex dump of the Section Table in a 64 bit PE File.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In computer architecture , 64-bit integers , memory addresses , or other data units are those that are 64 bits wide. Also, 64-bit central processing units (CPU) and arithmetic logic units (ALU) are those that are based on processor registers , address buses , or data buses of that size. A computer that uses such a processor is a 64-bit computer. From the software perspective, 64-bit computing means the use of machine code with 64-bit virtual memory addresses. However, not all 64-bit instruction sets support full 64-bit virtual memory addresses; x86-64 and AArch64 , for example, support only 48 bits of virtual address, with the remaining 16 bits of the virtual address required to be all zeros (000...) or all ones (111...), and several 64-bit instruction sets support fewer than 64 bits of physical memory address. The term 64-bit also describes a generation of computers in which 64-bit processors are the norm. 64 bits is a word size that defines certain classes of computer architecture, buses, memory, and CPUs and, by extension, the software that runs on them. 64-bit CPUs have been used in supercomputers since the 1970s ( Cray-1 , 1975) and in reduced instruction set computers (RISC) based workstations and servers since the early 1990s. In 2003, 64-bit CPUs were introduced to the mainstream PC market in the form of x86-64 processors and the PowerPC G5 . A 64-bit register can hold </p>
+    <hr>
+    <h2>Architectural implications</h2>
+    <p>Processor registers are typically divided into several groups: integer , floating-point , single instruction, multiple data (SIMD), control , and often special registers for address arithmetic which may have various uses and names such as address , index , or base registers . However, in modern designs, these functions are often performed by more general purpose integer registers. In most processors, only integer or address-registers can be used to address data in memory; the other types of registers cannot. The size of these registers therefore normally limits the amount of directly addressable memory, even if there are registers, such as floating-point registers, that are wider. Most high performance 32-bit and 64-bit processors (some notable exceptions are older or embedded ARM architecture (ARM) and 32-bit MIPS architecture (MIPS) CPUs) have integrated floating point hardware, which is often, but not always, based on 64-bit units of data. For example, although the x86 / x87 architecture has instructions able to load and store 64-bit (and 32-bit) floating-point values in memory, the internal floating-point data and register format is 80 bits wide, while the general-purpose registers are 32 bits wide. In contrast, the 64-bit Alpha family uses a 64-bit floating-point data and register format, and 64-bit integer registers.</p>
+    <hr>
+    <h2>History</h2>
+    <p>Many computer instruction sets are designed so that a single integer register can store the memory address to any location in the computer&#x27;s physical or virtual memory . Therefore, the total number of addresses to memory is often determined by the width of these registers. The IBM System/360 of the 1960s was an early 32-bit computer; it had 32-bit integer registers, although it only used the low order 24 bits of a word for addresses, resulting in a 16 MiB ( 16 × 1024 bytes ) address space. 32-bit superminicomputers , such as the DEC VAX , became common in the 1970s, and 32-bit microprocessors, such as the Motorola 68000 family and the 32-bit members of the x86 family starting with the Intel 80386 , appeared in the mid-1980s, making 32 bits something of a de facto consensus as a convenient register size. A 32-bit address register meant that 2 addresses, or 4 GB of random-access memory (RAM), could be referenced. When these architectures were devised, 4 GB of memory was so far beyond the typical amounts (4 MiB) in installations, that this was considered to be enough headroom for addressing. 4.29 billion addresses were considered an appropriate size to work with for another important reason: 4.29 billion integers are enough to assign unique references to most entities in applications like databases . Most modern computers contain room for 8-32 billion unique addresses inside of th</p>
+    <hr>
+    <h2>Limits of processors</h2>
+    <p>In principle, a 64-bit microprocessor can address 16 EB ( 16 × 1024 = 2 = 18,446,744,073,709,551,616 bytes ) of memory. However, not all instruction sets, and not all processors implementing those instruction sets, support a full 64-bit virtual or physical address space. The x86-64 architecture (as of March 2024) allows 48 bits for virtual memory and, for any given processor, up to 52 bits for physical memory. These limits allow memory sizes of 256 TB ( 256 × 1024 bytes ) and 4 PB ( 4 × 1024 bytes ), respectively. A PC cannot currently contain 4 petabytes of memory (due to the physical size of the memory chips), but AMD envisioned large servers, shared memory clusters, and other uses of physical address space that might approach this in the foreseeable future. Thus the 52-bit physical address provides ample room for expansion while not incurring the cost of implementing full 64-bit physical addresses. Similarly, the 48-bit virtual address space was designed to provide 65,536 (2) times the 32-bit limit of 4 GB ( 4 × 1024 bytes ), allowing room for later expansion and incurring no overhead of translating full 64-bit addresses. The Power ISA v3.0 allows 64 bits for an effective address, mapped to a segmented address with between 65 and 78 bits allowed, for virtual memory, and, for any given processor, up to 60 bits for physical memory. The Oracle SPARC Architecture 2015 allows 64 </p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Yuka_music.html">Yuka (music)</a></li>
+      <li><a href="TAT_5.html">TAT-5</a></li>
+      <li><a href="Vasiliy_Khmelevskiy.html">Vasiliy Khmelevskiy</a></li>
+      <li><a href="Dick_Greenwood.html">Dick Greenwood</a></li>
+      <li><a href="Great_Andaman.html">Great Andaman</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/64-bit_computing">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 24, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

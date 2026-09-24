@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wget - Wiki2</title>
+  <meta name="description" content="GNU Wget is a computer program that retrieves content from web servers. It is part of the GNU Project. Its name derives from &quot;World Wide Web&quot; and &quot;get&quot;, a HTTP request method. It supports downloading via HTTP, HTTPS, and FTP.">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Wget.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Wget - Wiki2">
+  <meta property="og:description" content="GNU Wget is a computer program that retrieves content from web servers. It is part of the GNU Project. Its name derives from &quot;World Wide Web&quot; and &quot;get&quot;, a HTTP request method. It supports downloading via HTTP, HTTPS, and FTP.">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Wget.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/6/60/Wget_1.13.4.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Wget - Wiki2">
+  <meta name="twitter:description" content="GNU Wget is a computer program that retrieves content from web servers. It is part of the GNU Project. Its name derives from &quot;World Wide Web&quot; and &quot;get&quot;, a HTTP request method. It supports downloading via HTTP, HTTPS, and FTP.">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/6/60/Wget_1.13.4.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Wget</h1>
+    <p><b>Wget</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>GNU Wget is a computer program that retrieves content from web servers. It is part of the GNU Project. Its name derives from &quot;World Wide Web&quot; and &quot;get&quot;, a HTTP request method. It supports downloading via HTTP, HTTPS, and FTP.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Wget_1.13.4.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Wget"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Gwget-1.0.4.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Gwget-1.0.4.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Wget_1.13.4.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Wget 1.13.4.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>GNU Wget (or just Wget , formerly Geturl , also written as its package name, wget ) is a computer program that retrieves content from web servers . It is part of the GNU Project . Its name derives from &quot; World Wide Web &quot; and &quot; get &quot;, a HTTP request method. It supports downloading via HTTP , HTTPS , and FTP . Its features include recursive download, conversion of links for offline viewing of local HTML, and support for proxies. It appeared in 1996, coinciding with the boom of popularity of the Web, causing its wide use among Unix users and distribution with most major Linux distributions . Wget is written in C , and can be easily installed on any Unix-like system. Wget has been ported to Microsoft Windows , macOS , OpenVMS , HP-UX , AmigaOS , MorphOS , and Solaris . Since version 1.14, Wget has been able to save its output in the web archiving standard WARC format.</p>
+    <hr>
+    <h2>History</h2>
+    <p>Wget descends from an earlier program named Geturl by the same author, the development of which commenced in late 1995. The name changed to Wget after the author became aware of an earlier Amiga program named GetURL, written by James Burton in AREXX . Wget filled a gap in the inconsistent web-downloading software available in the mid-1990s. No single program could reliably use both HTTP and FTP to download files. Existing programs either supported FTP (such as NcFTP and dl) or were written in Perl , which was not yet ubiquitous. While Wget was inspired by features of some of the existing programs, it supported both HTTP and FTP and could be built using only the standard development tools found on every Unix system. At that time many Unix users struggled behind extremely slow university and dial-up Internet connections, leading to a growing need for a downloading agent that could deal with transient network failures without assistance from the human operator.</p>
+    <hr>
+    <h2>Robustness</h2>
+    <p>Wget has been designed for robustness over slow or unstable network connections. If a download does not complete due to a network problem, Wget will automatically try to continue the download from where it left off, and repeat this until the whole file has been retrieved. It was one of the first clients to make use of the then-new Range HTTP header to support this feature.</p>
+    <hr>
+    <h2>Recursive download</h2>
+    <p>Wget can optionally work like a web crawler by extracting resources linked from HTML pages and downloading them in sequence, repeating the process recursively until all the pages have been downloaded or a maximum recursion depth specified by the user has been reached. The downloaded pages are saved in a directory structure resembling that on the remote server. This &quot;recursive download&quot; enables partial or complete mirroring of web sites via HTTP. Links in downloaded HTML pages can be adjusted to point to locally downloaded material for offline viewing. When performing this kind of automatic mirroring of web sites, Wget supports the Robots Exclusion Standard (unless the option -e robots=off is used). Recursive download works with FTP as well, where Wget issues the LIST command to find which additional files to download, repeating this process for directories and files under the one specified in the top URL . Shell-like wildcards are supported when the download of FTP URLs is requested. When downloading recursively over either HTTP or FTP , Wget can be instructed to inspect the timestamps of local and remote files, and download only the remote files newer than the corresponding local ones. This allows easy mirroring of HTTP and FTP sites, but is considered inefficient and more error-prone when compared to programs designed for mirroring from the ground up, such as rsync . On the o</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Battle_of_Wake_Island.html">Battle of Wake Island</a></li>
+      <li><a href="Rising_Stars_of_Manga.html">Rising Stars of Manga</a></li>
+      <li><a href="Rebore_vol_3.html">Rebore, vol. 3</a></li>
+      <li><a href="North_Turton.html">North Turton</a></li>
+      <li><a href="Peer_review.html">Peer review</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Wget">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 24, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
