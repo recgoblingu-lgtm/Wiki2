@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BrownBoost - Wiki2</title>
+  <meta name="description" content="BrownBoost is a boosting algorithm that may be robust to noisy datasets. BrownBoost is an adaptive version of the boost by majority algorithm. As is the case for all boosting algorithms, BrownBoost is used in conjunction with other machine ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/BrownBoost.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="BrownBoost - Wiki2">
+  <meta property="og:description" content="BrownBoost is a boosting algorithm that may be robust to noisy datasets. BrownBoost is an adaptive version of the boost by majority algorithm. As is the case for all boosting algorithms, BrownBoost is used in conjunction with other machine ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/BrownBoost.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BrownBoost - Wiki2">
+  <meta name="twitter:description" content="BrownBoost is a boosting algorithm that may be robust to noisy datasets. BrownBoost is an adaptive version of the boost by majority algorithm. As is the case for all boosting algorithms, BrownBoost is used in conjunction with other machine ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>BrownBoost</h1>
+    <p><b>BrownBoost</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>BrownBoost is a boosting algorithm that may be robust to noisy datasets. BrownBoost is an adaptive version of the boost by majority algorithm. As is the case for all boosting algorithms, BrownBoost is used in conjunction with other machine learning methods. BrownBoost was introduced by Yoav Freund in 2001.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>BrownBoost is a boosting algorithm that may be robust to noisy datasets . BrownBoost is an adaptive version of the boost by majority algorithm. As is the case for all boosting algorithms, BrownBoost is used in conjunction with other machine learning methods. BrownBoost was introduced by Yoav Freund in 2001.</p>
+    <hr>
+    <h2>Motivation</h2>
+    <p>AdaBoost performs well on a variety of datasets; however, it can be shown that AdaBoost does not perform well on noisy data sets. This is a result of AdaBoost&#x27;s focus on examples that are repeatedly misclassified. In contrast, BrownBoost effectively &quot;gives up&quot; on examples that are repeatedly misclassified. The core assumption of BrownBoost is that noisy examples will be repeatedly mislabeled by the weak hypotheses and non-noisy examples will be correctly labeled frequently enough to not be &quot;given up on.&quot; Thus only noisy examples will be &quot;given up on,&quot; whereas non-noisy examples will contribute to the final classifier. In turn, if the final classifier is learned from the non-noisy examples, the generalization error of the final classifier may be much better than if learned from noisy and non-noisy examples. The user of the algorithm can set the amount of error to be tolerated in the training set. Thus, if the training set is noisy (say 10% of all examples are assumed to be mislabeled), the booster can be told to accept a 10% error rate. Since the noisy examples may be ignored, only the true examples will contribute to the learning process.</p>
+    <hr>
+    <h2>Algorithm description</h2>
+    <p>BrownBoost uses a non-convex potential loss function , thus it does not fit into the AdaBoost framework. The non-convex optimization provides a method to avoid overfitting noisy data sets. However, in contrast to boosting algorithms that analytically minimize a convex loss function (e.g. AdaBoost and LogitBoost ), BrownBoost solves a system of two equations and two unknowns using standard numerical methods. The only parameter of BrownBoost ( in the algorithm) is the &quot;time&quot; the algorithm runs. The theory of BrownBoost states that each hypothesis takes a variable amount of time ( in the algorithm) which is directly related to the weight given to the hypothesis . The time parameter in BrownBoost is analogous to the number of iterations in AdaBoost. A larger value of means that BrownBoost will treat the data as if it were less noisy and therefore will give up on fewer examples. Conversely, a smaller value of means that BrownBoost will treat the data as more noisy and give up on more examples. During each iteration of the algorithm, a hypothesis is selected with some advantage over random guessing. The weight of this hypothesis and the &quot;amount of time passed&quot; during the iteration are simultaneously solved in a system of two non-linear equations ( 1. uncorrelated hypothesis w.r.t example weights and 2. hold the potential constant) with two unknowns (weight of hypothesis and time pass</p>
+    <hr>
+    <h2>Empirical results</h2>
+    <p>In preliminary experimental results with noisy datasets, BrownBoost outperformed AdaBoost &#x27;s generalization error; however, LogitBoost performed as well as BrownBoost. An implementation of BrownBoost can be found in the open source software JBoost .</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Unconventional_superconductor.html">Unconventional superconductor</a></li>
+      <li><a href="Geoffrey_Beene.html">Geoffrey Beene</a></li>
+      <li><a href="Jimmy_Sturr.html">Jimmy Sturr</a></li>
+      <li><a href="Vin_Baker.html">Vin Baker</a></li>
+      <li><a href="Leap_of_Faith_film.html">Leap of Faith (film)</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/BrownBoost">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 25, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
