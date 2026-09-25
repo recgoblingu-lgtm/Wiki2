@@ -110385,13 +110385,19 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Limerick_lace",
       "generated_at": "2026-09-25T04:32:45+00:00"
+    },
+    {
+      "title": "EXPTIME",
+      "filename": "EXPTIME.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/EXPTIME",
+      "generated_at": "2026-09-25T20:44:27+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|563a443604562a4c010c01e0c2e006|13279062",
-    "Category:Indie games": "page|4c46365232044032362a2e5a011001dcc1dc09|39867608",
-    "Category:Video game franchises": "page|38524450324c4e040992543a30324604362a4232044e324c3a324e0994011f01dc1e|73303594",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Indie games": "page|4e482a2e3204345244324c2a40011101dcc1dc0a|54380150",
+    "Category:Video game franchises": "page|48402a4432504e3a3032010e01dcc1dc07|72838664",
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
     "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }

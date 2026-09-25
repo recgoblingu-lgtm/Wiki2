@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Priority queue - Wiki2</title>
-  <meta name="description" content="In computer science, a priority queue is an abstract data type similar to a regular queue where each element has an associated priority determining its order of service. Priority queue serves highest priority items first. Priority values ha">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Priority_queue.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Priority queue - Wiki2">
-  <meta property="og:description" content="In computer science, a priority queue is an abstract data type similar to a regular queue where each element has an associated priority determining its order of service. Priority queue serves highest priority items first. Priority values ha">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Priority_queue.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Priority queue - Wiki2">
-  <meta name="twitter:description" content="In computer science, a priority queue is an abstract data type similar to a regular queue where each element has an associated priority determining its order of service. Priority queue serves highest priority items first. Priority values ha">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Priority queue - Wiki2</title>
+<meta content="In computer science, a priority queue is an abstract data type similar to a regular queue where each element has an associated priority determining its order of service. Priority queue serves highest priority items first. Priority values ha" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Priority_queue.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Priority queue" property="og:title"/>
+<meta content="Priority queue is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Priority_queue.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Priority queue" name="twitter:title"/>
+<meta content="Priority queue is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Priority queue</h1>
-    <p><b>Priority queue</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In computer science, a priority queue is an abstract data type similar to a regular queue where each element has an associated priority determining its order of service. Priority queue serves highest priority items first. Priority values have to be instances of an ordered data type, and higher priority can be given either to the lesser or to the greater values with respect to the given order relation. For example, in the Java standard library, the PriorityQueue class considers the lowest element with respect to their order as having the highest priority.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In computer science , a priority queue is an abstract data type similar to a regular queue where each element has an associated priority determining its order of service. Priority queue serves highest priority items first. Priority values have to be instances of an ordered data type, and higher priority can be given either to the lesser or to the greater values with respect to the given order relation. For example, in the Java standard library, the PriorityQueue class considers the lowest element with respect to their order as having the highest priority. While priority queues are often implemented using heaps , they are conceptually distinct. A priority queue can be implemented with a heap or with other methods; just as a list can be implemented with a linked list or with an array .</p>
-    <hr>
-    <h2>Min-priority queue</h2>
-    <p>Stacks and queues can be implemented as particular kinds of priority queues, with the priority determined by the order in which the elements are inserted. In a stack, the priority of each inserted element is monotonically increasing; thus, the last element inserted is always the first retrieved. In a queue, the priority of each inserted element is monotonically decreasing; thus, the first element inserted is always the first retrieved. In some implementations, if two elements have the same priority, they are served in the same order in which they were enqueued. In other implementations, the order of elements with the same priority is undefined.</p>
-    <hr>
-    <h2>Naive implementations</h2>
-    <p>One can create a simple, but inefficient priority queue in a number of ways. These naive implementations can demonstrate the expected behaviour of a priority queue in a simpler manner.</p>
-    <hr>
-    <h2>Usual implementation</h2>
-    <p>To improve performance, priority queues are typically based on a heap , giving performance for inserts and removals, and to build the heap initially from a set of elements. Variants of the basic heap data structure such as pairing heaps or Fibonacci heaps can provide better bounds for some operations. Alternatively, when a self-balancing binary search tree is used, insertion and removal also take time, although building trees from existing sequences of elements takes time; this is typical where one might already have access to these data structures, such as with third-party or standard libraries. From a space-complexity standpoint, using self-balancing binary search tree with linked list takes more storage, since it requires storing extra references to other nodes. From a computational-complexity standpoint, priority queues are congruent to sorting algorithms. The section on the equivalence of priority queues and sorting algorithms , below, describes how efficient sorting algorithms can create efficient priority queues.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Kate_Robbins.html">Kate Robbins</a></li>
-      <li><a href="Osteopenia.html">Osteopenia</a></li>
-      <li><a href="Aero_Vodochody.html">Aero Vodochody</a></li>
-      <li><a href="Breitenbach_Rhineland_Palatinate.html">Breitenbach, Rhineland-Palatinate</a></li>
-      <li><a href="Quai_Fran_ois_Mitterrand.html">Quai François Mitterrand</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Priority_queue">Wikimedia article</a></small></p>
-    <p><i>Last edited: September 25, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Priority queue</h1>
+<p><b>Priority queue</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In computer science, a priority queue is an abstract data type similar to a regular queue where each element has an associated priority determining its order of service. Priority queue serves highest priority items first. Priority values have to be instances of an ordered data type, and higher priority can be given either to the lesser or to the greater values with respect to the given order relation. For example, in the Java standard library, the PriorityQueue class considers the lowest element with respect to their order as having the highest priority.</p>
+<hr/>
+<h2>Background</h2>
+<p>In computer science , a priority queue is an abstract data type similar to a regular queue where each element has an associated priority determining its order of service. Priority queue serves highest priority items first. Priority values have to be instances of an ordered data type, and higher priority can be given either to the lesser or to the greater values with respect to the given order relation. For example, in the Java standard library, the PriorityQueue class considers the lowest element with respect to their order as having the highest priority. While priority queues are often implemented using heaps , they are conceptually distinct. A priority queue can be implemented with a heap or with other methods; just as a list can be implemented with a linked list or with an array .</p>
+<hr/>
+<h2>Min-priority queue</h2>
+<p>Stacks and queues can be implemented as particular kinds of priority queues, with the priority determined by the order in which the elements are inserted. In a stack, the priority of each inserted element is monotonically increasing; thus, the last element inserted is always the first retrieved. In a queue, the priority of each inserted element is monotonically decreasing; thus, the first element inserted is always the first retrieved. In some implementations, if two elements have the same priority, they are served in the same order in which they were enqueued. In other implementations, the order of elements with the same priority is undefined.</p>
+<hr/>
+<h2>Naive implementations</h2>
+<p>One can create a simple, but inefficient priority queue in a number of ways. These naive implementations can demonstrate the expected behaviour of a priority queue in a simpler manner.</p>
+<hr/>
+<h2>Usual implementation</h2>
+<p>To improve performance, priority queues are typically based on a heap , giving performance for inserts and removals, and to build the heap initially from a set of elements. Variants of the basic heap data structure such as pairing heaps or Fibonacci heaps can provide better bounds for some operations. Alternatively, when a self-balancing binary search tree is used, insertion and removal also take time, although building trees from existing sequences of elements takes time; this is typical where one might already have access to these data structures, such as with third-party or standard libraries. From a space-complexity standpoint, using self-balancing binary search tree with linked list takes more storage, since it requires storing extra references to other nodes. From a computational-complexity standpoint, priority queues are congruent to sorting algorithms. The section on the equivalence of priority queues and sorting algorithms , below, describes how efficient sorting algorithms can create efficient priority queues.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Kate_Robbins.html">Kate Robbins</a></li>
+<li><a href="Osteopenia.html">Osteopenia</a></li>
+<li><a href="Aero_Vodochody.html">Aero Vodochody</a></li>
+<li><a href="Breitenbach_Rhineland_Palatinate.html">Breitenbach, Rhineland-Palatinate</a></li>
+<li><a href="Quai_Fran_ois_Mitterrand.html">Quai François Mitterrand</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Priority_queue">Wikimedia article</a></small></p>
+<p><i>Last edited: September 25, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

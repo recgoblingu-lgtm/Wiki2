@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EXPTIME - Wiki2</title>
+  <meta name="description" content="In computational complexity theory, the complexity class EXPTIME (sometimes called EXP or DEXPTIME) is the set of all decision problems that are solvable by a deterministic Turing machine in exponential time, i.e., in O(2p(n)) time, where p">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/EXPTIME.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="EXPTIME - Wiki2">
+  <meta property="og:description" content="In computational complexity theory, the complexity class EXPTIME (sometimes called EXP or DEXPTIME) is the set of all decision problems that are solvable by a deterministic Turing machine in exponential time, i.e., in O(2p(n)) time, where p">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/EXPTIME.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="EXPTIME - Wiki2">
+  <meta name="twitter:description" content="In computational complexity theory, the complexity class EXPTIME (sometimes called EXP or DEXPTIME) is the set of all decision problems that are solvable by a deterministic Turing machine in exponential time, i.e., in O(2p(n)) time, where p">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>EXPTIME</h1>
+    <p><b>EXPTIME</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In computational complexity theory, the complexity class EXPTIME (sometimes called EXP or DEXPTIME) is the set of all decision problems that are solvable by a deterministic Turing machine in exponential time, i.e., in O(2p(n)) time, where p(n) is a polynomial function of n.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>In computational complexity theory , the complexity class EXPTIME (sometimes called EXP or DEXPTIME ) is the set of all decision problems that are solvable by a deterministic Turing machine in exponential time , i.e., in O (2) time, where p ( n ) is a polynomial function of n . EXPTIME is one intuitive class in an exponential hierarchy of complexity classes with increasingly more complex oracles or quantifier alternations. For example, the class 2-EXPTIME is defined similarly to EXPTIME but with a doubly exponential time bound. This can be generalized to higher and higher time bounds. EXPTIME can also be reformulated as the space class APSPACE, the set of all problems that can be solved by an alternating Turing machine in polynomial space. EXPTIME relates to the other basic time and space complexity classes in the following way: P ⊆ NP ⊆ PSPACE ⊆ EXPTIME ⊆ NEXPTIME ⊆ EXPSPACE . Furthermore, by the time hierarchy theorem and the space hierarchy theorem , it is known that P ⊊ EXPTIME, NP ⊊ NEXPTIME and PSPACE ⊊ EXPSPACE.</p>
+    <hr>
+    <h2>Relationships to other classes</h2>
+    <p>It is known that and also, by the time hierarchy theorem and the space hierarchy theorem , that In the above expressions, the symbol ⊆ means &quot;is a subset of&quot;, and the symbol ⊊ means &quot;is a strict subset of&quot;. so at least one of the first three inclusions and at least one of the last three inclusions must be proper, but it is not known which ones are. It is also known that if P = NP , then EXPTIME = NEXPTIME , the class of problems solvable in exponential time by a nondeterministic Turing machine . More precisely, E ≠ NE if and only if there exist sparse languages in NP that are not in P . EXPTIME can be reformulated as the space class APSPACE, the set of all problems that can be solved by an alternating Turing machine in polynomial space. This is one way to see that PSPACE ⊆ EXPTIME, since an alternating Turing machine is at least as powerful as a deterministic Turing machine.</p>
+    <hr>
+    <h2>EXPTIME-complete</h2>
+    <p>A decision problem is EXPTIME-complete if it is in EXPTIME and every problem in EXPTIME has a polynomial-time many-one reduction to it. In other words, there is a polynomial-time algorithm that transforms instances of one to instances of the other with the same answer. Problems that are EXPTIME-complete might be thought of as the hardest problems in EXPTIME. Notice that although it is unknown whether NP is equal to P, we do know that EXPTIME-complete problems are not in P; it has been proven that these problems cannot be solved in polynomial time , by the time hierarchy theorem . In computability theory , one of the basic undecidable problems is the halting problem : deciding whether a deterministic Turing machine (DTM) halts. One of the most fundamental EXPTIME-complete problems is a simpler version of this, which asks if a DTM halts on a given input in at most k steps. It is in EXPTIME because a trivial simulation requires O( k ) time, and the input k is encoded using O(log k ) bits which causes exponential number of simulations. It is EXPTIME-complete because, roughly speaking, we can use it to determine if a machine solving an EXPTIME problem accepts in an exponential number of steps; it will not use more. The same problem with the number of steps written in unary is P-complete . Other examples of EXPTIME-complete problems include the problem of evaluating a position in gen</p>
+    <hr>
+    <h2>Succinct circuits</h2>
+    <p>Another set of important EXPTIME-complete problems relates to succinct circuits. The idea is that if we can exponentially compress the description of a problem that requires polynomial time, then that compressed problem would require exponential time. As one example, some graphs can be succinctly described by a small Boolean circuit. The circuit has inputs, 1 output and gates, thus requiring bits to describe. The circuit represents a graph with vertices. For each pair of vertices, if the binary code for the two vertices are put into the circuit, then the output of the circuit states whether the two vertices are connected by an edge. For many naturally occurring P-complete decision problems about graphs, where the graph is expressed in a natural representation such as an adjacency matrix , solving the same problem on a succinct circuit representation is EXPTIME-complete, because the input is exponentially smaller; but this requires nontrivial proof, since succinct circuits can only describe a subclass of graphs. Generically, a Boolean circuit with inputs and a single output is a succinct representation of a string of bits, which can be used to describe some other object, such as a graph, a 3- CNF formula , etc. For essentially all known NP-complete problems, the succinct version of it is NEXP-complete. In particular, SUCCINCT 3-SAT is NEXP-complete under polynomial-time reductio</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Limerick_lace.html">Limerick lace</a></li>
+      <li><a href="Dynamo_Joe.html">Dynamo Joe</a></li>
+      <li><a href="Ringwood_Victoria.html">Ringwood, Victoria</a></li>
+      <li><a href="Mohammed_bin_Rashid_Al_Maktoum.html">Mohammed bin Rashid Al Maktoum</a></li>
+      <li><a href="Word_Entertainment.html">Word Entertainment</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/EXPTIME">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 25, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
