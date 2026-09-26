@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apple Filing Protocol - Wiki2</title>
+  <meta name="description" content="The Apple Filing Protocol (AFP), formerly AppleTalk Filing Protocol, is a proprietary network protocol, and part of the Apple File Service (AFS), that offers file services for macOS, classic Mac OS, and Apple II computers. AFP supports Unic">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Apple_Filing_Protocol.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Apple Filing Protocol - Wiki2">
+  <meta property="og:description" content="The Apple Filing Protocol (AFP), formerly AppleTalk Filing Protocol, is a proprietary network protocol, and part of the Apple File Service (AFS), that offers file services for macOS, classic Mac OS, and Apple II computers. AFP supports Unic">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Apple_Filing_Protocol.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Apple Filing Protocol - Wiki2">
+  <meta name="twitter:description" content="The Apple Filing Protocol (AFP), formerly AppleTalk Filing Protocol, is a proprietary network protocol, and part of the Apple File Service (AFS), that offers file services for macOS, classic Mac OS, and Apple II computers. AFP supports Unic">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Apple Filing Protocol</h1>
+    <p><b>Apple Filing Protocol</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>The Apple Filing Protocol (AFP), formerly AppleTalk Filing Protocol, is a proprietary network protocol, and part of the Apple File Service (AFS), that offers file services for macOS, classic Mac OS, and Apple II computers. AFP supports Unicode file names, POSIX and access-control list permissions, resource forks, named extended attributes, and advanced file locking.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>The Apple Filing Protocol ( AFP ), formerly AppleTalk Filing Protocol , is a proprietary network protocol , and part of the Apple File Service ( AFS ), that offers file services for macOS , classic Mac OS , and Apple II computers. AFP supports Unicode file names, POSIX and access-control list permissions, resource forks , named extended attributes, and advanced file locking . In OS X 10.8 Mountain Lion and earlier, AFP was the primary protocol for file services. Starting with OS X 10.9 Mavericks , Server Message Block (SMB) was made the primary file sharing protocol. The ability to run an AFP server removed in macOS 11 Big Sur , and the client was deprecated in macOS Sequoia 15.5 and fully removed in macOS 27 Golden Gate .</p>
+    <hr>
+    <h2>Compatibility</h2>
+    <p>AFP versions 3.0 and greater rely exclusively on TCP/IP (port 548) for establishing communication, supporting AppleTalk only as a service discovery protocol. The AFP 2.x family supports both TCP/IP (using Data Stream Interface ) and AppleTalk for communication and service discovery. Many third-party AFP implementations use AFP 2.x, thereby supporting AppleTalk as a connection method. Still earlier versions rely exclusively on AppleTalk. For this reason, some older literature refers to AFP as &quot;AppleTalk Filing Protocol&quot;. Other literature may refer to AFP as AppleShare , an early file server and network service product that used AFP. Notable current compatibility topics are:</p>
+    <hr>
+    <h2>History</h2>
+    <p>AFP 1.0 was a joint development between Apple and Centram Systems West (later named TOPS and Sitka when owned by Sun Microsystems ). Version 1.0 of the protocol never shipped, while versions 1.1 and 2.0 were formalized together with the AppleTalk specification as the AppleTalk Filing Protocol . Early implementations of AFP server software were available in Mac OS starting with System 6, in AppleShare and AppleShare IP, and in early &quot;1.x&quot; releases of Mac OS X Server. In client operating systems, AFP was called &quot;Personal File Sharing&quot;, and supported up to ten simultaneous connections. These AFP implementations relied on version 1.x or 2.x of the protocol. AppleShare IP 5.x, 6.x, and the &quot;1.x&quot; releases of Mac OS X Server introduced AFP version 2.2. This was the first version to offer transport connections using TCP/IP as well as AppleTalk. It also increased the maximum share point size from four gigabytes to two terabytes , although the maximum file size that could be stored remained at two gigabytes due to limitations in the original Mac OS. Changes made in AFP since version 3.0 represent major advances in the protocol, introducing features designed specifically for Mac OS X clients. However, like the AppleShare client in original Mac OS, the AFP client in Mac OS X continues to support type and creator codes , along with filename extensions . AFP 3.0 was introduced in Mac OS X Se</p>
+    <hr>
+    <h2>macOS client</h2>
+    <p>In Mac OS X Tiger, users can connect to AFP servers by browsing for them in the Network globe or entering an AFP Uniform Resource Locator (URL) into the Connect to Server dialog. In Mac OS X Leopard and later releases, AFP shares are displayed in the Finder sidebar. AFP URLs take the form: afp:// ⟨server⟩ / ⟨share⟩ , where ⟨server⟩ is the server&#x27;s IP address , Domain Name System (DNS) name, or Bonjour name, and ⟨share⟩ is the name of the share point. In Snow Leopard and later, a URL of the form afp:// ⟨server⟩ / ⟨share⟩ / ⟨path⟩ can be used to mount a subdirectory underneath a share point. macOS also offers Personal File Sharing, a &quot;light&quot; implementation of the current version of AFP. In Mac OS X 10.4, users can share the contents of their Public folders by checking Personal File Sharing in the Sharing section of System Preferences. AFP URLs for AppleTalk servers took the form: afp://at/ ⟨AppleTalk name⟩ : ⟨AppleTalk zone⟩ . For networks without AppleTalk zones, an asterisk (*) would be substituted for the zone name.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="The_Basement_Collection.html">The Basement Collection</a></li>
+      <li><a href="WJPA.html">WJPA</a></li>
+      <li><a href="Haym_Salomon.html">Haym Salomon</a></li>
+      <li><a href="Critique.html">Critique</a></li>
+      <li><a href="Mason_Dixon.html">Mason &amp; Dixon</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Apple_Filing_Protocol">Wikimedia article</a></small></p>
+    <p><i>Last edited: September 26, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
