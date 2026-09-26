@@ -110399,10 +110399,17 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Bert_Bell",
       "generated_at": "2026-09-26T06:52:33+00:00"
+    },
+    {
+      "title": "GeoGuessr",
+      "filename": "GeoGuessr.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/GeoGuessr",
+      "generated_at": "2026-09-26T11:53:31+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|5038465038040992543a30324604362a42320994011601dc15|52002681",
+    "Category:Indie games": "page|5244305a3a4436040992543a30324604362a42320994011801dc17|75541900",
     "Category:Video game franchises": "page|4e483a30324c050e422a4404543a30324604362a42324e0306403a4e5004463404543a30324604362a42324e0434322a50524c3a4436044e483a30324c050e422a4401252201dcc0dcb7dca9dcc0dc06|2041364",
     "Category:Arcade video games": "page|2c324c403a4404562a404006045038320306503832042c324c403a4404562a4040040992543a30324604362a4232099401251001dcc0e0c1dcc3dcc3dcc0e014|6653555",
     "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
