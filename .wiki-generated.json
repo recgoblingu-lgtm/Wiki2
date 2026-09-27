@@ -113906,13 +113906,21 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Jockeys'_Guild",
       "generated_at": "2026-09-26T22:49:47+00:00"
+    },
+    {
+      "title": "Sam Huntington",
+      "filename": "Sam_Huntington.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Sam_Huntington",
+      "generated_at": "2026-09-27T01:52:38+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|484648096e44042c4652442e32011001dcc1dc09|84151099",
-    "Category:Indie games": "page|3c3a504e52044e4a522a30010f01dcc1dc08|72602035",
+    "Category:Arcade video games": "page|4e2a4404344c2a442e3a4e2e46044c524e38040f53c7011801dcc3dcbddc09|1455083",
+    "Category:Indie games": "page|403236324430044634043e323248324c4e0736042e2a4c32324c044634042a043052443632464404422a442a36324c01251101dcbddcbedcbbdcbfdc0a|72503155",
+    "Category:Video game franchises": "page|32583a40320409920f539104543a30324604362a4232044e324c3a324e0994011f01dc1e|10503",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
     "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
-    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
-    "Category:Video game franchises": "page|2e4642422a4430042a4430042e46444a52324c03062e4642422a4430040aa4042e46444a52324c01250801dcbbdcbfdcbddc0a|207666"
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017"
   }
 }
