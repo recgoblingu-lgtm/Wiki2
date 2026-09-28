@@ -113934,10 +113934,16 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Church_of_All_Worlds",
       "generated_at": "2026-09-28T01:39:47+00:00"
+    },
+    {
+      "title": "The Sift",
+      "filename": "The_Sift.html",
+      "category": "Sandbox games",
+      "source": "https://en.wikipedia.org/wiki/Minecraft",
+      "generated_at": "2026-09-28T21:28:38+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|563a443604562a4c010c01e0c2e006|13279062",
     "Category:Indie games": "page|44465036502a54010b01dcc4dcdcdcdc|47208561",
     "Category:Video game franchises": "page|48402a4432504e3a3032010e01dcc1dc07|72838664",
     "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
