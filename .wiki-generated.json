@@ -113920,12 +113920,26 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Southwest_Cay",
       "generated_at": "2026-09-27T13:02:38+00:00"
+    },
+    {
+      "title": "Civil engineer",
+      "filename": "Civil_engineer.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Civil_engineer",
+      "generated_at": "2026-09-28T01:39:15+00:00"
+    },
+    {
+      "title": "Church of All Worlds",
+      "filename": "Church_of_All_Worlds.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Church_of_All_Worlds",
+      "generated_at": "2026-09-28T01:39:47+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|4e504c32325004343a363850324c0432580f04011601dcc0dcbfdcdc05|6063805",
-    "Category:Indie games": "page|422a4e3e04463404503832044c464e32011401dcbbdc07|74163914",
-    "Category:Video game franchises": "page|38524450324c4e040992543a30324604362a4232044e324c3a324e0994011f01dc1e|73303594",
+    "Category:Arcade video games": "page|563a443604562a4c010c01e0c2e006|13279062",
+    "Category:Indie games": "page|44465036502a54010b01dcc4dcdcdcdc|47208561",
+    "Category:Video game franchises": "page|48402a4432504e3a3032010e01dcc1dc07|72838664",
     "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
     "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017"
   }
