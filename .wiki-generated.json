@@ -113941,12 +113941,18 @@
       "category": "Sandbox games",
       "source": "https://en.wikipedia.org/wiki/Minecraft",
       "generated_at": "2026-09-28T21:28:38+00:00"
+    },
+    {
+      "title": "Made My Night",
+      "filename": "Made_My_Night.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Made_My_Night",
+      "generated_at": "2026-09-29T18:47:22+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|44465036502a54010b01dcc4dcdcdcdc|47208561",
-    "Category:Video game franchises": "page|48402a4432504e3a3032010e01dcc1dc07|72838664",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
-    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017"
+    "Category:Indie games": "page|482a4c2a303a3642040992543a30324604362a42320994011901dc18|51078329",
+    "Category:Video game franchises": "page|4e483a30324c050e422a4404543a30324604362a42324e0306403a4e5004463404543a30324604362a42324e0434322a50524c3a4436044e483a30324c050e422a4401252201dcc0dcb7dca9dcc0dc06|2041364",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
