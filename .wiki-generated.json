@@ -113948,11 +113948,46 @@
       "category": "Esports titles",
       "source": "https://en.wikipedia.org/wiki/Made_My_Night",
       "generated_at": "2026-09-29T18:47:22+00:00"
+    },
+    {
+      "title": "Cool Boarders",
+      "filename": "Cool_Boarders.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Cool_Boarders",
+      "generated_at": "2026-09-30T13:54:24+00:00"
+    },
+    {
+      "title": "ChessCraft",
+      "filename": "ChessCraft.html",
+      "category": "Sandbox games",
+      "source": "https://en.wikipedia.org/wiki/List_of_chess_software",
+      "generated_at": "2026-09-30T13:54:40+00:00"
+    },
+    {
+      "title": "Prostaglandin",
+      "filename": "Prostaglandin.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Prostaglandin",
+      "generated_at": "2026-09-30T13:55:36+00:00"
+    },
+    {
+      "title": "Mountain Language",
+      "filename": "Mountain_Language.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Mountain_Language",
+      "generated_at": "2026-09-30T13:56:14+00:00"
+    },
+    {
+      "title": "Mushroom",
+      "filename": "Mushroom.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Mushroom",
+      "generated_at": "2026-09-30T13:56:33+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|482a4c2a303a3642040992543a30324604362a42320994011901dc18|51078329",
-    "Category:Video game franchises": "page|4e483a30324c050e422a4404543a30324604362a42324e0306403a4e5004463404543a30324604362a42324e0434322a50524c3a4436044e483a30324c050e422a4401252201dcc0dcb7dca9dcc0dc06|2041364",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
+    "Category:Indie games": "page|4e324c48324450043a4404503832044e502a36402a44304e011c01dcb8dc0c|46184315",
+    "Category:Arcade video games": "page|2e4c3a4e3a4e045c464432010f01dcc0dc07|1553072",
+    "Category:Video game franchises": "page|2e4642422a4430042a4430042e46444a52324c03062e4642422a4430040aa4042e46444a52324c01250801dcbbdcbfdcbddc0a|207666"
   }
 }
