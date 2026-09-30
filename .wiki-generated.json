@@ -113983,11 +113983,22 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Mushroom",
       "generated_at": "2026-09-30T13:56:33+00:00"
+    },
+    {
+      "title": "Roman roads",
+      "filename": "Roman_roads.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Roman_roads",
+      "generated_at": "2026-09-30T18:40:37+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|4e324c48324450043a4404503832044e502a36402a44304e011c01dcb8dc0c|46184315",
-    "Category:Arcade video games": "page|2e4c3a4e3a4e045c464432010f01dcc0dc07|1553072",
-    "Category:Video game franchises": "page|2e4642422a4430042a4430042e46444a52324c03062e4642422a4430040aa4042e46444a52324c01250801dcbbdcbfdcbddc0a|207666"
+    "Category:Indie games": "page|4e482a2e320434464c045038320452442c4652443006042a03062a044e482a2e320434464c045038320452442c4652443001251301dcb9dcbedcc5dcc5dcb9dc0a|72913851",
+    "Category:Arcade video games": "page|303a44464e2a524c043e3a4436011101dcbedc07|3597128",
+    "Category:Video game franchises": "page|32583a40320409920f539104543a30324604362a4232044e324c3a324e0994011f01dc1e|10503",
+    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
+    "Category:Mobile games": "page|4e5248324c0448525c5c4032042c462c2c4032011701dcc1dcc0dc09|8231017",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
