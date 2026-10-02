@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Point-to-Point Protocol - Wiki2</title>
+  <meta name="description" content="In computer networking, Point-to-Point Protocol (PPP) is a data link layer communication protocol between two routers directly without any host or any other networking in between. It can provide loop detection, authentication, transmission ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Point_to_Point_Protocol.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Point-to-Point Protocol - Wiki2">
+  <meta property="og:description" content="In computer networking, Point-to-Point Protocol (PPP) is a data link layer communication protocol between two routers directly without any host or any other networking in between. It can provide loop detection, authentication, transmission ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Point_to_Point_Protocol.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/3/3f/MLPPP_model%2C_topology_and_encapsulation_-_en.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Point-to-Point Protocol - Wiki2">
+  <meta name="twitter:description" content="In computer networking, Point-to-Point Protocol (PPP) is a data link layer communication protocol between two routers directly without any host or any other networking in between. It can provide loop detection, authentication, transmission ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/3/3f/MLPPP_model%2C_topology_and_encapsulation_-_en.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Point-to-Point Protocol</h1>
+    <p><b>Point-to-Point Protocol</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In computer networking, Point-to-Point Protocol (PPP) is a data link layer communication protocol between two routers directly without any host or any other networking in between. It can provide loop detection, authentication, transmission encryption, and data compression.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/MLPPP_model%2C_topology_and_encapsulation_-_en.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Point-to-Point Protocol"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/MLPPP_model%2C_topology_and_encapsulation_-_en.png/960px-MLPPP_model%2C_topology_and_encapsulation_-_en.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="MLPPP model, topology and encapsulation - en.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In computer networking , Point-to-Point Protocol ( PPP ) is a data link layer (layer 2) communication protocol between two routers directly without any host or any other networking in between. It can provide loop detection, authentication , transmission encryption , and data compression . PPP is used over many types of physical networks, including serial cable (PPPoS), phone line , trunk line , cellular telephone , specialized radio links, ISDN , and fiber optic links such as SONET . Since IP packets cannot be transmitted over a modem line on their own without some data link protocol that can identify where the transmitted frame starts and where it ends, Internet service providers (ISPs) have used PPP for customer dial-up access to the Internet . PPP is used on former dial-up networking lines. Two derivatives of PPP, Point-to-Point Protocol over Ethernet (PPPoE) and Point-to-Point Protocol over ATM (PPPoA), are used most commonly by ISPs to establish a digital subscriber line (DSL) Internet service LP connection with customers.</p>
+    <hr>
+    <h2>Description</h2>
+    <p>PPP is very commonly used as a data-link-layer protocol for connection over synchronous and asynchronous circuits , where it has largely superseded the older Serial Line Internet Protocol (SLIP) and telephone company mandated standards (such as Link Access Protocol, Balanced (LAPB) in the X.25 protocol suite). The only requirement for PPP is that the circuit provided be duplex . PPP was made to work with numerous network-layer protocols , including Internet Protocol (IP), TRILL , Novell&#x27;s Internetwork Packet Exchange (IPX), NBF , DEC net and AppleTalk . Like SLIP, PPP enables a full Internet connection over telephone lines via modem. It is more reliable than SLIP because it double checks to ensure Internet packets arrive intact, resending any damaged packets. PPP was designed somewhat after the original HDLC specifications. The people who had designed PPP included many additional features that had been seen only in proprietary data-link protocols up to that time. PPP is specified in RFC 1661. RFC 2516 describes Point-to-Point Protocol over Ethernet (PPPoE) as a method for transmitting PPP over Ethernet that is sometimes used with DSL . RFC 2364 describes Point-to-Point Protocol over ATM (PPPoA) as a method for transmitting PPP over ATM Adaptation Layer 5 ( AAL5 ), which is also a common alternative to PPPoE used with DSL. PPP, PPPoE and PPPoA are widely used in WAN lines. PPP i</p>
+    <hr>
+    <h2>Automatic self configuration</h2>
+    <p>LCP initiates and terminates connections gracefully, allowing hosts to negotiate connection options. It is an integral part of PPP, and is defined in the same standard specification. LCP provides automatic configuration of the interfaces at each end (such as setting datagram size, escaped characters, and magic numbers) and for selecting optional authentication. The LCP protocol runs on top of PPP (with PPP protocol number 0xC021) and therefore a basic PPP connection has to be established before LCP is able to configure it. RFC 1994 describes Challenge-Handshake Authentication Protocol (CHAP), which is preferred for establishing dial-up connections with ISPs. Although deprecated, Password Authentication Protocol (PAP) is still sometimes used. Another option for authentication over PPP is Extensible Authentication Protocol (EAP) described in RFC 2284. After the link has been established, additional network ( layer 3 ) configuration may take place. Most commonly, the Internet Protocol Control Protocol (IPCP) is used, although Internetwork Packet Exchange Control Protocol (IPXCP) and AppleTalk Control Protocol (ATCP) were once popular. Internet Protocol Version 6 Control Protocol (IPv6CP) will see extended use in the future, when IPv6 replaces IPv4 as the dominant layer-3 protocol.</p>
+    <hr>
+    <h2>Multiple network layer protocols</h2>
+    <p>PPP permits multiple network layer protocols to operate on the same communication link. For every network layer protocol used, a separate Network Control Protocol ( NCP ) is provided in order to encapsulate and negotiate options for the multiple network layer protocols. It negotiates network-layer information, e.g. network address or compression options, after the connection has been established. For example, IP uses IPCP, and Internetwork Packet Exchange (IPX) uses the Novell IPX Control Protocol ( IPX/SPX ). NCPs include fields containing standardized codes to indicate the network layer protocol type that the PPP connection encapsulates. The following NCPs may be used with PPP:</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Ken_Wilber.html">Ken Wilber</a></li>
+      <li><a href="Dinu_Patriciu.html">Dinu Patriciu</a></li>
+      <li><a href="Art_Buchwald.html">Art Buchwald</a></li>
+      <li><a href="British_Rail_Classes_485_and_486.html">British Rail Classes 485 and 486</a></li>
+      <li><a href="Abigail_song.html">Abigail (song)</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Point-to-Point_Protocol">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 2, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
