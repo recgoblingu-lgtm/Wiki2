@@ -1,63 +1,64 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Newton&#x27;s method in optimization - Wiki2</title>
-  <meta name="description" content="In calculus, Newton&#x27;s method is an iterative method for finding the roots of a differentiable function , which are solutions to the equation . However, to optimize a twice-differentiable , our goal is to find the roots of . We can therefore">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Newton_s_method_in_optimization.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Newton&#x27;s method in optimization - Wiki2">
-  <meta property="og:description" content="In calculus, Newton&#x27;s method is an iterative method for finding the roots of a differentiable function , which are solutions to the equation . However, to optimize a twice-differentiable , our goal is to find the roots of . We can therefore">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Newton_s_method_in_optimization.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/d/da/Newton_optimization_vs_grad_descent.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Newton&#x27;s method in optimization - Wiki2">
-  <meta name="twitter:description" content="In calculus, Newton&#x27;s method is an iterative method for finding the roots of a differentiable function , which are solutions to the equation . However, to optimize a twice-differentiable , our goal is to find the roots of . We can therefore">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/d/da/Newton_optimization_vs_grad_descent.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Newton's method in optimization - Wiki2</title>
+<meta content="In calculus, Newton's method is an iterative method for finding the roots of a differentiable function , which are solutions to the equation . However, to optimize a twice-differentiable , our goal is to find the roots of . We can therefore" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Newton_s_method_in_optimization.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Newton's method in optimization" property="og:title"/>
+<meta content="Newton's method in optimization is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Newton_s_method_in_optimization.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/d/da/Newton_optimization_vs_grad_descent.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Newton's method in optimization" name="twitter:title"/>
+<meta content="Newton's method in optimization is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/d/da/Newton_optimization_vs_grad_descent.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Newton&#x27;s method in optimization</h1>
-    <p><b>Newton&#x27;s method in optimization</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In calculus, Newton&#x27;s method is an iterative method for finding the roots of a differentiable function , which are solutions to the equation . However, to optimize a twice-differentiable , our goal is to find the roots of . We can therefore use Newton&#x27;s method on its derivative to find solutions to , also known as the critical points of . These solutions may be minima, maxima, or saddle points; see section &quot;Several variables&quot; in Critical point (mathematics) and also section &quot;Geometric interpretation&quot; in this article. This is relevant in optimization, which aims to find (global) minima of the function .</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Newton_optimization_vs_grad_descent.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Newton&#x27;s method in optimization"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>In calculus , Newton&#x27;s method (also called Newton–Raphson ) is an iterative method for finding the roots of a differentiable function , which are solutions to the equation . However, to optimize a twice-differentiable , our goal is to find the roots of . We can therefore use Newton&#x27;s method on its derivative to find solutions to , also known as the critical points of . These solutions may be minima, maxima, or saddle points; see section &quot;Several variables&quot; in Critical point (mathematics) and also section &quot;Geometric interpretation&quot; in this article. This is relevant in optimization , which aims to find (global) minima of the function .</p>
-    <hr>
-    <h2>Newton&#x27;s method</h2>
-    <p>The central problem of optimization is minimization of functions. Let us first consider the case of univariate functions, i.e., functions of a single real variable. We will later consider the more general and more practically useful multivariate case. Given a twice differentiable function , we seek to solve the optimization problem Newton&#x27;s method attempts to solve this problem by constructing a sequence from an initial guess (starting point) that converges towards a minimizer of by using a sequence of second-order Taylor approximations of around the iterates. The second-order Taylor expansion of f around is The next iterate is defined so as to minimize this quadratic approximation in , and setting . If the second derivative is positive, the quadratic approximation is a convex function of , and its minimum can be found by setting the derivative to zero. Since the minimum is achieved for Putting everything together, Newton&#x27;s method performs the iteration</p>
-    <hr>
-    <h2>Geometric interpretation</h2>
-    <p>The geometric interpretation of Newton&#x27;s method is that at each iteration, it amounts to the fitting of a parabola to the graph of at the trial value , having the same slope and curvature as the graph at that point, and then proceeding to the maximum or minimum of that parabola (in higher dimensions, this may also be a saddle point ), see below. Note that if happens to be a quadratic function, then the exact extremum is found in one step.</p>
-    <hr>
-    <h2>Higher dimensions</h2>
-    <p>The above iterative scheme can be generalized to dimensions by replacing the derivative with the gradient (different authors use different notation for the gradient, including ), and the reciprocal of the second derivative with the inverse of the Hessian matrix (different authors use different notation for the Hessian, including ). One thus obtains the iterative scheme Often Newton&#x27;s method is modified to include a small step size instead of : This is often done to ensure that the Wolfe conditions , or much simpler and efficient Armijo&#x27;s condition , are satisfied at each step of the method. For step sizes other than 1, the method is often referred to as the relaxed or damped Newton&#x27;s method.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Rascheid.html">Rascheid</a></li>
-      <li><a href="HMAS_Tamworth.html">HMAS Tamworth</a></li>
-      <li><a href="Vanessa_atalanta.html">Vanessa atalanta</a></li>
-      <li><a href="Rock_music_in_Slovenia.html">Rock music in Slovenia</a></li>
-      <li><a href="Dye.html">Dye</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Newton&#x27;s_method_in_optimization">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 2, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Newton's method in optimization</h1>
+<p><b>Newton's method in optimization</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In calculus, Newton's method is an iterative method for finding the roots of a differentiable function , which are solutions to the equation . However, to optimize a twice-differentiable , our goal is to find the roots of . We can therefore use Newton's method on its derivative to find solutions to , also known as the critical points of . These solutions may be minima, maxima, or saddle points; see section "Several variables" in Critical point (mathematics) and also section "Geometric interpretation" in this article. This is relevant in optimization, which aims to find (global) minima of the function .</p>
+<figure class="article-image"><img alt="Newton's method in optimization" src="https://upload.wikimedia.org/wikipedia/commons/d/da/Newton_optimization_vs_grad_descent.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>In calculus , Newton's method (also called Newton–Raphson ) is an iterative method for finding the roots of a differentiable function , which are solutions to the equation . However, to optimize a twice-differentiable , our goal is to find the roots of . We can therefore use Newton's method on its derivative to find solutions to , also known as the critical points of . These solutions may be minima, maxima, or saddle points; see section "Several variables" in Critical point (mathematics) and also section "Geometric interpretation" in this article. This is relevant in optimization , which aims to find (global) minima of the function .</p>
+<hr/>
+<h2>Newton's method</h2>
+<p>The central problem of optimization is minimization of functions. Let us first consider the case of univariate functions, i.e., functions of a single real variable. We will later consider the more general and more practically useful multivariate case. Given a twice differentiable function , we seek to solve the optimization problem Newton's method attempts to solve this problem by constructing a sequence from an initial guess (starting point) that converges towards a minimizer of by using a sequence of second-order Taylor approximations of around the iterates. The second-order Taylor expansion of f around is The next iterate is defined so as to minimize this quadratic approximation in , and setting . If the second derivative is positive, the quadratic approximation is a convex function of , and its minimum can be found by setting the derivative to zero. Since the minimum is achieved for Putting everything together, Newton's method performs the iteration</p>
+<hr/>
+<h2>Geometric interpretation</h2>
+<p>The geometric interpretation of Newton's method is that at each iteration, it amounts to the fitting of a parabola to the graph of at the trial value , having the same slope and curvature as the graph at that point, and then proceeding to the maximum or minimum of that parabola (in higher dimensions, this may also be a saddle point ), see below. Note that if happens to be a quadratic function, then the exact extremum is found in one step.</p>
+<hr/>
+<h2>Higher dimensions</h2>
+<p>The above iterative scheme can be generalized to dimensions by replacing the derivative with the gradient (different authors use different notation for the gradient, including ), and the reciprocal of the second derivative with the inverse of the Hessian matrix (different authors use different notation for the Hessian, including ). One thus obtains the iterative scheme Often Newton's method is modified to include a small step size instead of : This is often done to ensure that the Wolfe conditions , or much simpler and efficient Armijo's condition , are satisfied at each step of the method. For step sizes other than 1, the method is often referred to as the relaxed or damped Newton's method.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Rascheid.html">Rascheid</a></li>
+<li><a href="HMAS_Tamworth.html">HMAS Tamworth</a></li>
+<li><a href="Vanessa_atalanta.html">Vanessa atalanta</a></li>
+<li><a href="Rock_music_in_Slovenia.html">Rock music in Slovenia</a></li>
+<li><a href="Dye.html">Dye</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Newton's_method_in_optimization">Wikimedia article</a></small></p>
+<p><i>Last edited: October 2, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

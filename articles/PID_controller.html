@@ -1,65 +1,66 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>PID controller - Wiki2</title>
-  <meta name="description" content="A proportional–integral–derivative (PID) controller, or three-term controller, is a feedback-based control loop mechanism commonly used to manage machines and processes that require continuous control and automatic adjustment. It is typical">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/PID_controller.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="PID controller - Wiki2">
-  <meta property="og:description" content="A proportional–integral–derivative (PID) controller, or three-term controller, is a feedback-based control loop mechanism commonly used to manage machines and processes that require continuous control and automatic adjustment. It is typical">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/PID_controller.html">
-  <meta property="og:image" content="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Analogue_control_loop_evolution.png/960px-Analogue_control_loop_evolution.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="PID controller - Wiki2">
-  <meta name="twitter:description" content="A proportional–integral–derivative (PID) controller, or three-term controller, is a feedback-based control loop mechanism commonly used to manage machines and processes that require continuous control and automatic adjustment. It is typical">
-  <meta name="twitter:image" content="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Analogue_control_loop_evolution.png/960px-Analogue_control_loop_evolution.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>PID controller - Wiki2</title>
+<meta content="A proportional–integral–derivative (PID) controller, or three-term controller, is a feedback-based control loop mechanism commonly used to manage machines and processes that require continuous control and automatic adjustment. It is typical" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/PID_controller.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="PID controller" property="og:title"/>
+<meta content="PID controller is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/PID_controller.html" property="og:url"/>
+<meta content="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Analogue_control_loop_evolution.png/960px-Analogue_control_loop_evolution.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="PID controller" name="twitter:title"/>
+<meta content="PID controller is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Analogue_control_loop_evolution.png/960px-Analogue_control_loop_evolution.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>PID controller</h1>
-    <p><b>PID controller</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>A proportional–integral–derivative (PID) controller, or three-term controller, is a feedback-based control loop mechanism commonly used to manage machines and processes that require continuous control and automatic adjustment. It is typically used in industrial control systems and various other applications where constant control through modulation is necessary without human intervention. The PID controller automatically compares the desired target value with the actual value of the system. The difference between these two values is called the error value, denoted as .</p>
-    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Analogue_control_loop_evolution.png/960px-Analogue_control_loop_evolution.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Analogue control loop evolution.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Change_with_Kd.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Change with Kd.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Change_with_Ki.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Change with Ki.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>A proportional–integral–derivative ( PID ) controller , or three-term controller , is a feedback -based control loop mechanism commonly used to manage machines and processes that require continuous control and automatic adjustment. It is typically used in industrial control systems and various other applications where constant control through modulation is necessary without human intervention. The PID controller automatically compares the desired target value ( setpoint or SP) with the actual value of the system ( process variable or PV). The difference between these two values is called the error value , denoted as . It then applies corrective actions automatically to bring the PV to the same value as the SP using three methods: The proportional ( P ) component responds to the current error value by producing an output that is directly proportional to the magnitude of the error. This provides immediate correction based on how far the system is from the desired setpoint. The integral ( I ) component, in turn, considers the cumulative sum of past errors to address any residual steady-state errors that persist over time, eliminating lingering discrepancies. Lastly, the derivative ( D ) component predicts future error trend by assessing the rate of change of the error, which helps to mitigate overshoot and enhance system stability, particularly when the system undergoes rapid chan</p>
-    <hr>
-    <h2>Fundamental operation</h2>
-    <p>The most distinguishing feature of the PID controller is the ability to use the three control terms of proportional, integral and derivative influence on the controller output to apply accurate and optimal control. The block diagram on the right shows the principles of how these terms are generated and applied. It shows a PID controller, which continuously calculates an error value as the difference between a desired setpoint and a measured process variable : , and applies a correction based on proportional , integral , and derivative terms. The controller attempts to minimize the error over time by adjustment of a control variable , such as the opening of a control valve , to a new value determined by a weighted sum of the control terms. The PID controller directly generates a continuous control signal based on error, without discrete modulation. In this model: Tuning – The balance of these effects is achieved by loop tuning to produce the optimal control function. The tuning constants are shown below as &quot;K&quot; and must be derived for each control application, as they depend on the response characteristics of the physical system , external to the controller. These are dependent on the behavior of the measuring sensor, the final control element (such as a control valve), any control signal delays, and the process itself. Approximate values of constants can usually be initially ent</p>
-    <hr>
-    <h2>Control function</h2>
-    <p>The overall control function is where , , and , all non-negative, denote the coefficients for the proportional, integral, and derivative terms respectively (sometimes denoted P , I , and D ).</p>
-    <hr>
-    <h2>Standard form</h2>
-    <p>In the standard form of the equation (see later in article), and are respectively replaced by and ; the advantage of this being that and have some understandable physical meaning, as they represent an integration time and a derivative time respectively. is the time constant with which the controller will attempt to approach the set point. determines how long the controller will tolerate the output being consistently above or below the set point. where</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Maoism.html">Maoism</a></li>
-      <li><a href="Ara_G_ler.html">Ara Güler</a></li>
-      <li><a href="Johnston_Rhode_Island.html">Johnston, Rhode Island</a></li>
-      <li><a href="Skullmonkeys.html">Skullmonkeys</a></li>
-      <li><a href="The_Best_of_Sixpence_None_the_Richer.html">The Best of Sixpence None the Richer</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/PID_controller">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 2, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>PID controller</h1>
+<p><b>PID controller</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>A proportional–integral–derivative (PID) controller, or three-term controller, is a feedback-based control loop mechanism commonly used to manage machines and processes that require continuous control and automatic adjustment. It is typically used in industrial control systems and various other applications where constant control through modulation is necessary without human intervention. The PID controller automatically compares the desired target value with the actual value of the system. The difference between these two values is called the error value, denoted as .</p>
+<figure class="article-image"><img alt="Analogue control loop evolution.png" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Analogue_control_loop_evolution.png/960px-Analogue_control_loop_evolution.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Change with Kd.png" src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Change_with_Kd.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Change with Ki.png" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Change_with_Ki.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>A proportional–integral–derivative ( PID ) controller , or three-term controller , is a feedback -based control loop mechanism commonly used to manage machines and processes that require continuous control and automatic adjustment. It is typically used in industrial control systems and various other applications where constant control through modulation is necessary without human intervention. The PID controller automatically compares the desired target value ( setpoint or SP) with the actual value of the system ( process variable or PV). The difference between these two values is called the error value , denoted as . It then applies corrective actions automatically to bring the PV to the same value as the SP using three methods: The proportional ( P ) component responds to the current error value by producing an output that is directly proportional to the magnitude of the error. This provides immediate correction based on how far the system is from the desired setpoint. The integral ( I ) component, in turn, considers the cumulative sum of past errors to address any residual steady-state errors that persist over time, eliminating lingering discrepancies. Lastly, the derivative ( D ) component predicts future error trend by assessing the rate of change of the error, which helps to mitigate overshoot and enhance system stability, particularly when the system undergoes rapid chan</p>
+<hr/>
+<h2>Fundamental operation</h2>
+<p>The most distinguishing feature of the PID controller is the ability to use the three control terms of proportional, integral and derivative influence on the controller output to apply accurate and optimal control. The block diagram on the right shows the principles of how these terms are generated and applied. It shows a PID controller, which continuously calculates an error value as the difference between a desired setpoint and a measured process variable : , and applies a correction based on proportional , integral , and derivative terms. The controller attempts to minimize the error over time by adjustment of a control variable , such as the opening of a control valve , to a new value determined by a weighted sum of the control terms. The PID controller directly generates a continuous control signal based on error, without discrete modulation. In this model: Tuning – The balance of these effects is achieved by loop tuning to produce the optimal control function. The tuning constants are shown below as "K" and must be derived for each control application, as they depend on the response characteristics of the physical system , external to the controller. These are dependent on the behavior of the measuring sensor, the final control element (such as a control valve), any control signal delays, and the process itself. Approximate values of constants can usually be initially ent</p>
+<hr/>
+<h2>Control function</h2>
+<p>The overall control function is where , , and , all non-negative, denote the coefficients for the proportional, integral, and derivative terms respectively (sometimes denoted P , I , and D ).</p>
+<hr/>
+<h2>Standard form</h2>
+<p>In the standard form of the equation (see later in article), and are respectively replaced by and ; the advantage of this being that and have some understandable physical meaning, as they represent an integration time and a derivative time respectively. is the time constant with which the controller will attempt to approach the set point. determines how long the controller will tolerate the output being consistently above or below the set point. where</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Maoism.html">Maoism</a></li>
+<li><a href="Ara_G_ler.html">Ara Güler</a></li>
+<li><a href="Johnston_Rhode_Island.html">Johnston, Rhode Island</a></li>
+<li><a href="Skullmonkeys.html">Skullmonkeys</a></li>
+<li><a href="The_Best_of_Sixpence_None_the_Richer.html">The Best of Sixpence None the Richer</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/PID_controller">Wikimedia article</a></small></p>
+<p><i>Last edited: October 2, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

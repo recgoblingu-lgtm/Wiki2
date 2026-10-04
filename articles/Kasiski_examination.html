@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Kasiski examination - Wiki2</title>
-  <meta name="description" content="In cryptanalysis, Kasiski examination is a method of attacking polyalphabetic substitution ciphers, such as the Vigenère cipher. It was first published by Friedrich Kasiski in 1863, but seems to have been independently discovered by Charles">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Kasiski_examination.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Kasiski examination - Wiki2">
-  <meta property="og:description" content="In cryptanalysis, Kasiski examination is a method of attacking polyalphabetic substitution ciphers, such as the Vigenère cipher. It was first published by Friedrich Kasiski in 1863, but seems to have been independently discovered by Charles">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Kasiski_examination.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Kasiski examination - Wiki2">
-  <meta name="twitter:description" content="In cryptanalysis, Kasiski examination is a method of attacking polyalphabetic substitution ciphers, such as the Vigenère cipher. It was first published by Friedrich Kasiski in 1863, but seems to have been independently discovered by Charles">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Kasiski examination - Wiki2</title>
+<meta content="In cryptanalysis, Kasiski examination is a method of attacking polyalphabetic substitution ciphers, such as the Vigenère cipher. It was first published by Friedrich Kasiski in 1863, but seems to have been independently discovered by Charles" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Kasiski_examination.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Kasiski examination" property="og:title"/>
+<meta content="Kasiski examination is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Kasiski_examination.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Kasiski examination" name="twitter:title"/>
+<meta content="Kasiski examination is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Kasiski examination</h1>
-    <p><b>Kasiski examination</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In cryptanalysis, Kasiski examination is a method of attacking polyalphabetic substitution ciphers, such as the Vigenère cipher. It was first published by Friedrich Kasiski in 1863, but seems to have been independently discovered by Charles Babbage as early as 1846.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In cryptanalysis , Kasiski examination (also known as Kasiski&#x27;s test or Kasiski&#x27;s method ) is a method of attacking polyalphabetic substitution ciphers , such as the Vigenère cipher . It was first published by Friedrich Kasiski in 1863, but seems to have been independently discovered by Charles Babbage as early as 1846.</p>
-    <hr>
-    <h2>How it works</h2>
-    <p>In polyalphabetic substitution ciphers where the substitution alphabets are chosen by the use of a keyword , the Kasiski examination allows a cryptanalyst to deduce the length of the keyword. Once the length of the keyword is discovered, the cryptanalyst lines up the ciphertext in n columns, where n is the length of the keyword. Then each column can be treated as the ciphertext of a monoalphabetic substitution cipher . As such, each column can be attacked with frequency analysis . Similarly, where a rotor stream cipher machine has been used, this method may allow the deduction of the length of individual rotors. The Kasiski examination involves looking for strings of characters that are repeated in the ciphertext . The strings should be three characters long or more for the examination to be successful. Then, the distances between consecutive occurrences of the strings are likely to be multiples of the length of the keyword. Thus finding more repeated strings narrows down the possible lengths of the keyword, since we can take the greatest common divisor of all the distances. The reason this test works is that if a repeated string occurs in the plaintext , and the distance between corresponding characters is a multiple of the keyword length, the keyword letters will line up in the same way with both occurrences of the string. For example, consider the plaintext: The word &quot; the &quot;</p>
-    <hr>
-    <h2>A string-based attack</h2>
-    <p>The difficulty of using the Kasiski examination lies in finding repeated strings. This is a very hard task to perform manually, but computers can make it much easier. However, care is still required, since some repeated strings may just be coincidence, so that some of the repeat distances are misleading. The cryptanalyst has to rule out the coincidences to find the correct length. Then, of course, the monoalphabetic ciphertexts that result must be cryptanalyzed.</p>
-    <hr>
-    <h2>Superimposition</h2>
-    <p>Kasiski actually used &quot;superimposition&quot; to solve the Vigenère cipher. He started by finding the key length, as above. Then he took multiple copies of the message and laid them one-above-another, each one shifted left by the length of the key. Kasiski then observed that each column was made up of letters encrypted with a single alphabet. His method was equivalent to the one described above, but is perhaps easier to picture. Modern attacks on polyalphabetic ciphers are essentially identical to that described above, with the one improvement of coincidence counting . Instead of looking for repeating groups, a modern analyst would take two copies of the message and lay one above another. Modern analysts use computers, but this description illustrates the principle that the computer algorithms implement. The generalized method:</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="S_o_Paulo_Metro.html">São Paulo Metro</a></li>
-      <li><a href="Paray_le_Monial.html">Paray-le-Monial</a></li>
-      <li><a href="Calamagrostis.html">Calamagrostis</a></li>
-      <li><a href="Highwaymen_film.html">Highwaymen (film)</a></li>
-      <li><a href="The_Marriage_of_Heaven_and_Hell.html">The Marriage of Heaven and Hell</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Kasiski_examination">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 2, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Kasiski examination</h1>
+<p><b>Kasiski examination</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In cryptanalysis, Kasiski examination is a method of attacking polyalphabetic substitution ciphers, such as the Vigenère cipher. It was first published by Friedrich Kasiski in 1863, but seems to have been independently discovered by Charles Babbage as early as 1846.</p>
+<hr/>
+<h2>Background</h2>
+<p>In cryptanalysis , Kasiski examination (also known as Kasiski's test or Kasiski's method ) is a method of attacking polyalphabetic substitution ciphers , such as the Vigenère cipher . It was first published by Friedrich Kasiski in 1863, but seems to have been independently discovered by Charles Babbage as early as 1846.</p>
+<hr/>
+<h2>How it works</h2>
+<p>In polyalphabetic substitution ciphers where the substitution alphabets are chosen by the use of a keyword , the Kasiski examination allows a cryptanalyst to deduce the length of the keyword. Once the length of the keyword is discovered, the cryptanalyst lines up the ciphertext in n columns, where n is the length of the keyword. Then each column can be treated as the ciphertext of a monoalphabetic substitution cipher . As such, each column can be attacked with frequency analysis . Similarly, where a rotor stream cipher machine has been used, this method may allow the deduction of the length of individual rotors. The Kasiski examination involves looking for strings of characters that are repeated in the ciphertext . The strings should be three characters long or more for the examination to be successful. Then, the distances between consecutive occurrences of the strings are likely to be multiples of the length of the keyword. Thus finding more repeated strings narrows down the possible lengths of the keyword, since we can take the greatest common divisor of all the distances. The reason this test works is that if a repeated string occurs in the plaintext , and the distance between corresponding characters is a multiple of the keyword length, the keyword letters will line up in the same way with both occurrences of the string. For example, consider the plaintext: The word " the "</p>
+<hr/>
+<h2>A string-based attack</h2>
+<p>The difficulty of using the Kasiski examination lies in finding repeated strings. This is a very hard task to perform manually, but computers can make it much easier. However, care is still required, since some repeated strings may just be coincidence, so that some of the repeat distances are misleading. The cryptanalyst has to rule out the coincidences to find the correct length. Then, of course, the monoalphabetic ciphertexts that result must be cryptanalyzed.</p>
+<hr/>
+<h2>Superimposition</h2>
+<p>Kasiski actually used "superimposition" to solve the Vigenère cipher. He started by finding the key length, as above. Then he took multiple copies of the message and laid them one-above-another, each one shifted left by the length of the key. Kasiski then observed that each column was made up of letters encrypted with a single alphabet. His method was equivalent to the one described above, but is perhaps easier to picture. Modern attacks on polyalphabetic ciphers are essentially identical to that described above, with the one improvement of coincidence counting . Instead of looking for repeating groups, a modern analyst would take two copies of the message and lay one above another. Modern analysts use computers, but this description illustrates the principle that the computer algorithms implement. The generalized method:</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="S_o_Paulo_Metro.html">São Paulo Metro</a></li>
+<li><a href="Paray_le_Monial.html">Paray-le-Monial</a></li>
+<li><a href="Calamagrostis.html">Calamagrostis</a></li>
+<li><a href="Highwaymen_film.html">Highwaymen (film)</a></li>
+<li><a href="The_Marriage_of_Heaven_and_Hell.html">The Marriage of Heaven and Hell</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Kasiski_examination">Wikimedia article</a></small></p>
+<p><i>Last edited: October 2, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
