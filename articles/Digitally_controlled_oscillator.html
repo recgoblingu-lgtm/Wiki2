@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Digitally controlled oscillator - Wiki2</title>
-  <meta name="description" content="A digitally controlled oscillator (DCO) is used in synthesizers, microcontrollers, and software-defined radios. The name is analogous to &quot;voltage-controlled oscillator&quot;. DCOs were designed to overcome the tuning stability limitations of ear">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Digitally_controlled_oscillator.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Digitally controlled oscillator - Wiki2">
-  <meta property="og:description" content="A digitally controlled oscillator (DCO) is used in synthesizers, microcontrollers, and software-defined radios. The name is analogous to &quot;voltage-controlled oscillator&quot;. DCOs were designed to overcome the tuning stability limitations of ear">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Digitally_controlled_oscillator.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Digitally controlled oscillator - Wiki2">
-  <meta name="twitter:description" content="A digitally controlled oscillator (DCO) is used in synthesizers, microcontrollers, and software-defined radios. The name is analogous to &quot;voltage-controlled oscillator&quot;. DCOs were designed to overcome the tuning stability limitations of ear">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Digitally controlled oscillator - Wiki2</title>
+<meta content='A digitally controlled oscillator (DCO) is used in synthesizers, microcontrollers, and software-defined radios. The name is analogous to "voltage-controlled oscillator". DCOs were designed to overcome the tuning stability limitations of ear' name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Digitally_controlled_oscillator.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Digitally controlled oscillator" property="og:title"/>
+<meta content="Digitally controlled oscillator is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Digitally_controlled_oscillator.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Digitally controlled oscillator" name="twitter:title"/>
+<meta content="Digitally controlled oscillator is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Digitally controlled oscillator</h1>
-    <p><b>Digitally controlled oscillator</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>A digitally controlled oscillator (DCO) is used in synthesizers, microcontrollers, and software-defined radios. The name is analogous to &quot;voltage-controlled oscillator&quot;. DCOs were designed to overcome the tuning stability limitations of early VCO designs.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>A digitally controlled oscillator ( DCO) is used in synthesizers , microcontrollers , and software-defined radios . The name is analogous to &quot; voltage-controlled oscillator &quot;. DCOs were designed to overcome the tuning stability limitations of early VCO designs.</p>
-    <hr>
-    <h2>Terminology</h2>
-    <p>The term &quot;digitally controlled oscillator&quot; has been used to describe the combination of a voltage-controlled oscillator driven by a control signal from a digital-to-analog converter , and separately to describe numerically controlled oscillators . This article refers specifically to the DCOs used in many synthesizers of the 1980s. These include the Roland Juno-6, Juno-60 , Juno-106 , JX-3P , JX-8P , and JX-10 , the Elka Synthex , the Oberheim Matrix-6 , some instruments by Akai and Kawai , and the recent Prophet &#x27;08 and its successor Rev2 by Dave Smith Instruments .</p>
-    <hr>
-    <h2>Design</h2>
-    <p>A DCO is effectively a VCO that is synchronised to an external frequency reference. The reference in this case is the reset pulses. These are produced by a digital counter such as the 8253 chip. The counter acts as a frequency divider , counting pulses from a high frequency master clock (typically several MHz) and toggling the state of its output when the count reaches some predetermined value. The frequency of the counter&#x27;s output is defined by the number of pulses counted, and generates a square wave at the required frequency. The leading edge of this square wave is used to derive a reset pulse to discharge the capacitor in the oscillator&#x27;s ramp core. This ensures that the ramp waveform produced is of the same frequency as the counter output. A common DCO design uses a programmable counter integrated circuit such as the 8253 instead of a comparator. This provides stable digital pitch generation by using the leading edge of a square wave to derive a reset pulse to discharge the capacitor in the oscillator&#x27;s ramp core. Many voltage-controlled oscillators for electronic music are based on a capacitor charging linearly in an op-amp integrator configuration. When the capacitor charge reaches a certain level, a comparator generates a reset pulse, which discharges the capacitor and the cycle restarts. This produces a rising ramp (or sawtooth) waveform , and this type of oscillator c</p>
-    <hr>
-    <h2>History</h2>
-    <p>In the early 1980s, manufacturers were beginning to produce polyphonic synthesizers . VCO designs lacked tuning stability. Whilst this was an issue for monophonic synthesizers, the limited number of oscillators (typically 3 or fewer) meant that keeping instruments tuned was manageable, often performed using dedicated controls. With the advent of polyphony, tuning problems became worse and costs went up, due to the much larger number of oscillators involved (often 16 in an 8-voice instrument such as the Yamaha CS-80 from 1977 or Roland Jupiter-8 from 1981). This created a need for a cheap, reliable, and stable oscillator design. Engineers working on the problem looked to the frequency division technology used in electronic organs of the time and the microprocessors and associated chips that were starting to appear, and developed the DCO. The DCO was seen at the time as an improvement over the unstable tuning of VCOs. However, it shared the same ramp core, and the same limited range of waveforms. Although sophisticated analogue waveshaping is possible, the greater simplicity and arbitrary waveforms of digital systems like direct digital synthesis led to most later instruments adopting entirely digital oscillator designs.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Sunrise_Florida.html">Sunrise, Florida</a></li>
-      <li><a href="Jim_Mather.html">Jim Mather</a></li>
-      <li><a href="Michihiko_Hachiya.html">Michihiko Hachiya</a></li>
-      <li><a href="Waltham_on_the_Wolds.html">Waltham on the Wolds</a></li>
-      <li><a href="Spanish_Chess_Championship.html">Spanish Chess Championship</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Digitally_controlled_oscillator">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 4, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Digitally controlled oscillator</h1>
+<p><b>Digitally controlled oscillator</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>A digitally controlled oscillator (DCO) is used in synthesizers, microcontrollers, and software-defined radios. The name is analogous to "voltage-controlled oscillator". DCOs were designed to overcome the tuning stability limitations of early VCO designs.</p>
+<hr/>
+<h2>Background</h2>
+<p>A digitally controlled oscillator ( DCO) is used in synthesizers , microcontrollers , and software-defined radios . The name is analogous to " voltage-controlled oscillator ". DCOs were designed to overcome the tuning stability limitations of early VCO designs.</p>
+<hr/>
+<h2>Terminology</h2>
+<p>The term "digitally controlled oscillator" has been used to describe the combination of a voltage-controlled oscillator driven by a control signal from a digital-to-analog converter , and separately to describe numerically controlled oscillators . This article refers specifically to the DCOs used in many synthesizers of the 1980s. These include the Roland Juno-6, Juno-60 , Juno-106 , JX-3P , JX-8P , and JX-10 , the Elka Synthex , the Oberheim Matrix-6 , some instruments by Akai and Kawai , and the recent Prophet '08 and its successor Rev2 by Dave Smith Instruments .</p>
+<hr/>
+<h2>Design</h2>
+<p>A DCO is effectively a VCO that is synchronised to an external frequency reference. The reference in this case is the reset pulses. These are produced by a digital counter such as the 8253 chip. The counter acts as a frequency divider , counting pulses from a high frequency master clock (typically several MHz) and toggling the state of its output when the count reaches some predetermined value. The frequency of the counter's output is defined by the number of pulses counted, and generates a square wave at the required frequency. The leading edge of this square wave is used to derive a reset pulse to discharge the capacitor in the oscillator's ramp core. This ensures that the ramp waveform produced is of the same frequency as the counter output. A common DCO design uses a programmable counter integrated circuit such as the 8253 instead of a comparator. This provides stable digital pitch generation by using the leading edge of a square wave to derive a reset pulse to discharge the capacitor in the oscillator's ramp core. Many voltage-controlled oscillators for electronic music are based on a capacitor charging linearly in an op-amp integrator configuration. When the capacitor charge reaches a certain level, a comparator generates a reset pulse, which discharges the capacitor and the cycle restarts. This produces a rising ramp (or sawtooth) waveform , and this type of oscillator c</p>
+<hr/>
+<h2>History</h2>
+<p>In the early 1980s, manufacturers were beginning to produce polyphonic synthesizers . VCO designs lacked tuning stability. Whilst this was an issue for monophonic synthesizers, the limited number of oscillators (typically 3 or fewer) meant that keeping instruments tuned was manageable, often performed using dedicated controls. With the advent of polyphony, tuning problems became worse and costs went up, due to the much larger number of oscillators involved (often 16 in an 8-voice instrument such as the Yamaha CS-80 from 1977 or Roland Jupiter-8 from 1981). This created a need for a cheap, reliable, and stable oscillator design. Engineers working on the problem looked to the frequency division technology used in electronic organs of the time and the microprocessors and associated chips that were starting to appear, and developed the DCO. The DCO was seen at the time as an improvement over the unstable tuning of VCOs. However, it shared the same ramp core, and the same limited range of waveforms. Although sophisticated analogue waveshaping is possible, the greater simplicity and arbitrary waveforms of digital systems like direct digital synthesis led to most later instruments adopting entirely digital oscillator designs.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Sunrise_Florida.html">Sunrise, Florida</a></li>
+<li><a href="Jim_Mather.html">Jim Mather</a></li>
+<li><a href="Michihiko_Hachiya.html">Michihiko Hachiya</a></li>
+<li><a href="Waltham_on_the_Wolds.html">Waltham on the Wolds</a></li>
+<li><a href="Spanish_Chess_Championship.html">Spanish Chess Championship</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Digitally_controlled_oscillator">Wikimedia article</a></small></p>
+<p><i>Last edited: October 4, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
