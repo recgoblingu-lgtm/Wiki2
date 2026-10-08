@@ -124504,12 +124504,20 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Carinus",
       "generated_at": "2026-10-08T00:40:18+00:00"
+    },
+    {
+      "title": "Persona (franchise)",
+      "filename": "Persona_franchise.html",
+      "category": "Game franchises",
+      "source": "https://en.wikipedia.org/wiki/Persona_(franchise)",
+      "generated_at": "2026-10-08T20:05:32+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|50322e4246042c465640010e01dcc1dc07|437210",
-    "Category:Indie games": "page|44464c422a400440464e5004483846443206042a03062a0444464c422a400440464e5004483846443201250b01dcc0dcc2dcc0dcc5dcc5dcc0dcc2dc08|56896955",
-    "Category:Video game franchises": "page|422a4c3a4604482a4c505a010f01dcc1dc08|442588",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418"
+    "Category:Arcade video games": "page|50522c3204482a443a2e010e01dcc2dc08|81669134",
+    "Category:Indie games": "page|482a48324c04504c2a3a40040992543a30324604362a42320994011c01dcc1dc15|78576883",
+    "Category:Video game franchises": "page|4e483240402e2a4e503a44360409924e324c3a324e0994011901dc18|11853705",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
