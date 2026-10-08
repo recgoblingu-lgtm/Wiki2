@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Discrete wavelet transform - Wiki2</title>
+  <meta name="description" content="In numerical analysis and functional analysis, a discrete wavelet transform (DWT) is any wavelet transform for which the wavelets are discretely sampled. As with other wavelet transforms, a key advantage it has over Fourier transforms is te">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Discrete_wavelet_transform.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Discrete wavelet transform - Wiki2">
+  <meta property="og:description" content="In numerical analysis and functional analysis, a discrete wavelet transform (DWT) is any wavelet transform for which the wavelets are discretely sampled. As with other wavelet transforms, a key advantage it has over Fourier transforms is te">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Discrete_wavelet_transform.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/e0/Jpeg2000_2-level_wavelet_transform-lichtenstein.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Discrete wavelet transform - Wiki2">
+  <meta name="twitter:description" content="In numerical analysis and functional analysis, a discrete wavelet transform (DWT) is any wavelet transform for which the wavelets are discretely sampled. As with other wavelet transforms, a key advantage it has over Fourier transforms is te">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/e/e0/Jpeg2000_2-level_wavelet_transform-lichtenstein.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Discrete wavelet transform</h1>
+    <p><b>Discrete wavelet transform</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In numerical analysis and functional analysis, a discrete wavelet transform (DWT) is any wavelet transform for which the wavelets are discretely sampled. As with other wavelet transforms, a key advantage it has over Fourier transforms is temporal resolution: it captures both frequency and location information.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Jpeg2000_2-level_wavelet_transform-lichtenstein.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Discrete wavelet transform"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/5-level_discrete_wavelet_transform.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="5-level discrete wavelet transform.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Denosied_Wavelet.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Denosied Wavelet.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In numerical analysis and functional analysis , a discrete wavelet transform ( DWT ) is any wavelet transform for which the wavelets are discretely sampled. As with other wavelet transforms, a key advantage it has over Fourier transforms is temporal resolution : it captures both frequency and location information (location in time).</p>
+    <hr>
+    <h2>One level of the transform</h2>
+    <p>The DWT of a signal is calculated by passing it through a series of filters. First the samples are passed through a low-pass filter with impulse response resulting in a convolution of the two: The signal is also decomposed simultaneously using a high-pass filter . The outputs give the detail coefficients (from the high-pass filter) and approximation coefficients (from the low-pass). It is important that the two filters are related to each other and they are known as a quadrature mirror filter . However, since half the frequencies of the signal have now been removed, half the samples can be discarded according to Nyquist&#x27;s rule. The filter output of the low-pass filter in the diagram above is then subsampled by 2 and further processed by passing it again through a new low-pass filter and a high- pass filter with half the cut-off frequency of the previous one, i.e.: This decomposition has halved the time resolution since only half of each filter output characterises the signal. However, each output has half the frequency band of the input, so the frequency resolution has been doubled. With the subsampling operator the above summation can be written more concisely. However computing a complete convolution with subsequent downsampling would waste computation time. The Lifting scheme is an optimization where these two computations are interleaved.</p>
+    <hr>
+    <h2>Cascading and filter banks</h2>
+    <p>This decomposition is repeated to further increase the frequency resolution and the approximation coefficients decomposed with high- and low-pass filters and then down-sampled. This is represented as a binary tree with nodes representing a sub-space with a different time-frequency localisation. The tree is known as a filter bank . At each level in the above diagram the signal is decomposed into low and high frequencies. Due to the decomposition process the input signal must be a multiple of where is the number of levels. For example a signal with 32 samples, frequency range 0 to and 3 levels of decomposition, 4 output scales are produced:</p>
+    <hr>
+    <h2>Relationship to the mother wavelet</h2>
+    <p>The filterbank implementation of wavelets can be interpreted as computing the wavelet coefficients of a discrete set of child wavelets for a given mother wavelet . In the case of the discrete wavelet transform, the mother wavelet is shifted and scaled by powers of two where is the scale parameter and is the shift parameter, both of which are integers. Recall that the wavelet coefficient of a signal is the projection of onto a wavelet, and let be a signal of length . In the case of a child wavelet in the discrete family above, Now fix at a particular scale, so that is a function of only. In light of the above equation, can be viewed as a convolution of with a dilated, reflected, and normalized version of the mother wavelet, , sampled at the points . But this is precisely what the detail coefficients give at level of the discrete wavelet transform. Therefore, for an appropriate choice of and , the detail coefficients of the filter bank correspond exactly to a wavelet coefficient of a discrete set of child wavelets for a given mother wavelet . As an example, consider the discrete Haar wavelet , whose mother wavelet is . Then the dilated, reflected, and normalized version of this wavelet is , which is, indeed, the highpass decomposition filter for the discrete Haar wavelet transform.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Phi_Slama_Jama.html">Phi Slama Jama</a></li>
+      <li><a href="Xinzo_de_Limia.html">Xinzo de Limia</a></li>
+      <li><a href="Momordica_charantia.html">Momordica charantia</a></li>
+      <li><a href="T_square.html">T-square</a></li>
+      <li><a href="GB_Glace.html">GB Glace</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Discrete_wavelet_transform">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 7, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
