@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toom–Cook multiplication - Wiki2</title>
+  <meta name="description" content="Toom–Cook, sometimes known as Toom-3, named after Andrei Toom, who introduced the new algorithm with its low complexity, and Stephen Cook, who cleaned the description of it, is a multiplication algorithm for large integers.">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Toom_Cook_multiplication.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Toom–Cook multiplication - Wiki2">
+  <meta property="og:description" content="Toom–Cook, sometimes known as Toom-3, named after Andrei Toom, who introduced the new algorithm with its low complexity, and Stephen Cook, who cleaned the description of it, is a multiplication algorithm for large integers.">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Toom_Cook_multiplication.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Toom–Cook multiplication - Wiki2">
+  <meta name="twitter:description" content="Toom–Cook, sometimes known as Toom-3, named after Andrei Toom, who introduced the new algorithm with its low complexity, and Stephen Cook, who cleaned the description of it, is a multiplication algorithm for large integers.">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Toom–Cook multiplication</h1>
+    <p><b>Toom–Cook multiplication</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>Toom–Cook, sometimes known as Toom-3, named after Andrei Toom, who introduced the new algorithm with its low complexity, and Stephen Cook, who cleaned the description of it, is a multiplication algorithm for large integers.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>Toom–Cook , sometimes known as Toom-3 , named after Andrei Toom , who introduced the new algorithm with its low complexity, and Stephen Cook , who cleaned the description of it, is a multiplication algorithm for large integers. Given two large integers, a and b , Toom–Cook splits up a and b into k smaller parts each of length l , and performs operations on the parts. As k grows, one may combine many of the multiplication sub-operations, thus reducing the overall computational complexity of the algorithm. The multiplication sub-operations can then be computed recursively using Toom–Cook multiplication again, and so on. Although the terms &quot;Toom-3&quot; and &quot;Toom–Cook&quot; are sometimes incorrectly used interchangeably, Toom-3 is only a single instance of the Toom–Cook algorithm, where k = 3. Toom-3 reduces nine multiplications to five, and runs in . In general, Toom- runs in , where , is the time spent on sub-multiplications, and is the time spent on additions and multiplication by small constants (Knuth, p. 296). The Karatsuba algorithm is equivalent to Toom-2, where the number is split into two smaller ones. It reduces four multiplications to three and so operates at . Although the exponent can be set arbitrarily close to 1 by increasing , the constant term in the function grows very rapidly. The growth rate for mixed-level Toom–Cook schemes was still an open research problem in 2005. A</p>
+    <hr>
+    <h2>Details</h2>
+    <p>This section discusses exactly how to perform Toom- k for any given value of k , and is a simplification of a description of Toom–Cook polynomial multiplication described by Marco Bodrato. The algorithm has five main steps: In a typical large integer implementation, each integer is represented as a sequence of digits in positional notation , with the base or radix set to some (typically large) value b ; for this example we use b = 10000, so that each digit corresponds to a group of four decimal digits (in a computer implementation, b would typically be a power of 2 instead). Say the two integers being multiplied are: These are much smaller than would normally be processed with Toom–Cook (grade-school multiplication would be faster) but they will serve to illustrate the algorithm.</p>
+    <hr>
+    <h2>Splitting</h2>
+    <p>In Toom- k , we want to split the factors into k parts. The first step is to select the base B = b , such that the number of digits of both m and n in base B is at most k (e.g., 3 in Toom-3). A typical choice for i is given by: In our example we&#x27;ll be doing Toom-3, so we choose B = b = 10 . We then separate m and n into their base B digits m i , n i : We then use these digits as coefficients in degree- ( k − 1) polynomials p and q , with the property that p ( B ) = m and q ( B ) = n : The purpose of defining these polynomials is that if we can compute their product r ( x ) = p ( x ) q ( x ) , our answer will be r ( B ) = m × n . In the case where the numbers being multiplied are of different sizes, it&#x27;s useful to use different values of k for m and n , which we&#x27;ll call k m and k n . For example, the algorithm &quot;Toom-2.5&quot; refers to Toom–Cook with k m = 3 and k n = 2. In this case the i in B = b is typically chosen by:</p>
+    <hr>
+    <h2>Evaluation</h2>
+    <p>The Toom–Cook approach to computing the polynomial product is a commonly used one. Note that a polynomial of degree is uniquely determined by points (for example, a line – polynomial of degree one is specified by two points). The idea is to evaluate and at various points. Then multiply their values at these points to get points on the product polynomial. Finally interpolate to find its coefficients. Since , we will need points to determine the final result. Call this . In the case of Toom-3, . The algorithm will work no matter what points are chosen (with a few small exceptions, see matrix invertibility requirement in Interpolation ), but in the interest of simplifying the algorithm it&#x27;s better to choose small integer values like 0, 1, −1, and −2. One unusual point value that is frequently used is infinity, written or . To &quot;evaluate&quot; a polynomial at infinity actually means to take the limit of as goes to infinity. Consequently, is always the value of its highest-degree coefficient (in the example above coefficient ). In our Toom-3 example, we will use the points , , , , and . These choices simplify evaluation, producing the formulas: and analogously for . In our example, the values we get are: As shown, these values may be negative. For the purpose of later explanation, it will be useful to view this evaluation process as a matrix-vector multiplication, where each row of the ma</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="James_Matisoff.html">James Matisoff</a></li>
+      <li><a href="t_Hooft_Polyakov_monopole.html">&#x27;t Hooft–Polyakov monopole</a></li>
+      <li><a href="Tureen.html">Tureen</a></li>
+      <li><a href="Donald_Lynden_Bell.html">Donald Lynden-Bell</a></li>
+      <li><a href="Sipa.html">Sipa</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Toom%E2%80%93Cook_multiplication">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 9, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
