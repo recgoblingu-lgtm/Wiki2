@@ -1,64 +1,65 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>GEGL - Wiki2</title>
-  <meta name="description" content="The Generic Graphics Library (GEGL) is a programming library under development for image processing applications. It is mainly developed for GIMP in order to add support for higher bit depth images, and non-destructive editing. It was parti">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/GEGL.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="GEGL - Wiki2">
-  <meta property="og:description" content="The Generic Graphics Library (GEGL) is a programming library under development for image processing applications. It is mainly developed for GIMP in order to add support for higher bit depth images, and non-destructive editing. It was parti">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/GEGL.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/c/ce/GEGL_Logo.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="GEGL - Wiki2">
-  <meta name="twitter:description" content="The Generic Graphics Library (GEGL) is a programming library under development for image processing applications. It is mainly developed for GIMP in order to add support for higher bit depth images, and non-destructive editing. It was parti">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/c/ce/GEGL_Logo.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>GEGL - Wiki2</title>
+<meta content="The Generic Graphics Library (GEGL) is a programming library under development for image processing applications. It is mainly developed for GIMP in order to add support for higher bit depth images, and non-destructive editing. It was parti" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/GEGL.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="GEGL" property="og:title"/>
+<meta content="GEGL is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/GEGL.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/c/ce/GEGL_Logo.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="GEGL" name="twitter:title"/>
+<meta content="GEGL is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/c/ce/GEGL_Logo.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>GEGL</h1>
-    <p><b>GEGL</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>The Generic Graphics Library (GEGL) is a programming library under development for image processing applications. It is mainly developed for GIMP in order to add support for higher bit depth images, and non-destructive editing. It was partially implemented in GIMP 2.6, with more added in 2.8, and is now a central part in 2.10. Many Filters are ready, but also much work in progress. Target is full support of all important filters in roadmap in Version 3.0. It is also used by GNOME&#x27;s Photos and gedl.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/GEGL_Logo.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="GEGL"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/GEGL.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="GEGL.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>The Generic Graphics Library ( GEGL ) is a programming library under development for image processing applications. It is mainly developed for GIMP in order to add support for higher bit depth images, and non-destructive editing . It was partially implemented in GIMP 2.6, with more added in 2.8, and is now a central part in 2.10. Many Filters are ready, but also much work in progress. Target is full support of all important filters in roadmap in Version 3.0. It is also used by GNOME&#x27;s Photos and gedl .</p>
-    <hr>
-    <h2>Design</h2>
-    <p>GEGL is modelled after a directed acyclic graph , where each node represents an image operation (called &quot;operators&quot; or &quot;ops&quot;), and each edge represents an image . Operations can in general take several input images and give several output images, which corresponds to having several incoming edges (images) and several outgoing edges (images) at a given node (operation). The system uses an on-demand model, doing work only as required. This allows features such as having very quick previews while editing, and once the user has finished making changes, GEGL will repeat the same operations in full resolution for the final image in the background.</p>
-    <hr>
-    <h2>Operations</h2>
-    <p>An operation (op) is a node within a GEGL graph responsible for one action; ops can be: GEGL also has a notion of meta operations, where one operation can be constructed from other operations (e.g. unsharp mask is a combination of add , multiply , subtract and gaussian blur ops).</p>
-    <hr>
-    <h2>babl</h2>
-    <p>babl, a support library for GEGL, provides a generic way to deal with color-space conversions; babl operates abstracting the fundamental color operations so that GEGL need not be aware of them. Through babl, GEGL provides an optimized and powerful (optionally with SIMD support) treatment of arbitrary color data; this enables dependent applications to efficiently support a wide range of color spaces (from 8-bit RGB to full floating point CMYK ) with minimal extra application code.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Just_Imagine.html">Just Imagine...</a></li>
-      <li><a href="Faroe_Islands_national_football_team.html">Faroe Islands national football team</a></li>
-      <li><a href="Matanzas.html">Matanzas</a></li>
-      <li><a href="USS_Dahlgren_DD_187.html">USS Dahlgren (DD-187)</a></li>
-      <li><a href="Augustus_Addison_Gould.html">Augustus Addison Gould</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/GEGL">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 9, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>GEGL</h1>
+<p><b>GEGL</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>The Generic Graphics Library (GEGL) is a programming library under development for image processing applications. It is mainly developed for GIMP in order to add support for higher bit depth images, and non-destructive editing. It was partially implemented in GIMP 2.6, with more added in 2.8, and is now a central part in 2.10. Many Filters are ready, but also much work in progress. Target is full support of all important filters in roadmap in Version 3.0. It is also used by GNOME's Photos and gedl.</p>
+<figure class="article-image"><img alt="GEGL" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/GEGL_Logo.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="GEGL.png" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/GEGL.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>The Generic Graphics Library ( GEGL ) is a programming library under development for image processing applications. It is mainly developed for GIMP in order to add support for higher bit depth images, and non-destructive editing . It was partially implemented in GIMP 2.6, with more added in 2.8, and is now a central part in 2.10. Many Filters are ready, but also much work in progress. Target is full support of all important filters in roadmap in Version 3.0. It is also used by GNOME's Photos and gedl .</p>
+<hr/>
+<h2>Design</h2>
+<p>GEGL is modelled after a directed acyclic graph , where each node represents an image operation (called "operators" or "ops"), and each edge represents an image . Operations can in general take several input images and give several output images, which corresponds to having several incoming edges (images) and several outgoing edges (images) at a given node (operation). The system uses an on-demand model, doing work only as required. This allows features such as having very quick previews while editing, and once the user has finished making changes, GEGL will repeat the same operations in full resolution for the final image in the background.</p>
+<hr/>
+<h2>Operations</h2>
+<p>An operation (op) is a node within a GEGL graph responsible for one action; ops can be: GEGL also has a notion of meta operations, where one operation can be constructed from other operations (e.g. unsharp mask is a combination of add , multiply , subtract and gaussian blur ops).</p>
+<hr/>
+<h2>babl</h2>
+<p>babl, a support library for GEGL, provides a generic way to deal with color-space conversions; babl operates abstracting the fundamental color operations so that GEGL need not be aware of them. Through babl, GEGL provides an optimized and powerful (optionally with SIMD support) treatment of arbitrary color data; this enables dependent applications to efficiently support a wide range of color spaces (from 8-bit RGB to full floating point CMYK ) with minimal extra application code.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Just_Imagine.html">Just Imagine...</a></li>
+<li><a href="Faroe_Islands_national_football_team.html">Faroe Islands national football team</a></li>
+<li><a href="Matanzas.html">Matanzas</a></li>
+<li><a href="USS_Dahlgren_DD_187.html">USS Dahlgren (DD-187)</a></li>
+<li><a href="Augustus_Addison_Gould.html">Augustus Addison Gould</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/GEGL">Wikimedia article</a></small></p>
+<p><i>Last edited: October 9, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

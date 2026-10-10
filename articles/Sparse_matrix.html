@@ -1,64 +1,65 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sparse matrix - Wiki2</title>
-  <meta name="description" content="In numerical analysis and scientific computing, a sparse matrix or sparse array is a matrix in which most of the elements are zero. There is no strict definition regarding the proportion of zero-value elements for a matrix to qualify as spa">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Sparse_matrix.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Sparse matrix - Wiki2">
-  <meta property="og:description" content="In numerical analysis and scientific computing, a sparse matrix or sparse array is a matrix in which most of the elements are zero. There is no strict definition regarding the proportion of zero-value elements for a matrix to qualify as spa">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Sparse_matrix.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/8/8a/Finite_element_sparse_matrix.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Sparse matrix - Wiki2">
-  <meta name="twitter:description" content="In numerical analysis and scientific computing, a sparse matrix or sparse array is a matrix in which most of the elements are zero. There is no strict definition regarding the proportion of zero-value elements for a matrix to qualify as spa">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/8/8a/Finite_element_sparse_matrix.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Sparse matrix - Wiki2</title>
+<meta content="In numerical analysis and scientific computing, a sparse matrix or sparse array is a matrix in which most of the elements are zero. There is no strict definition regarding the proportion of zero-value elements for a matrix to qualify as spa" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Sparse_matrix.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Sparse matrix" property="og:title"/>
+<meta content="Sparse matrix is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Sparse_matrix.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/8/8a/Finite_element_sparse_matrix.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Sparse matrix" name="twitter:title"/>
+<meta content="Sparse matrix is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/8/8a/Finite_element_sparse_matrix.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Sparse matrix</h1>
-    <p><b>Sparse matrix</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In numerical analysis and scientific computing, a sparse matrix or sparse array is a matrix in which most of the elements are zero. There is no strict definition regarding the proportion of zero-value elements for a matrix to qualify as sparse but a common criterion is that the number of non-zero elements is roughly equal to the number of rows or columns. By contrast, if most of the elements are non-zero, the matrix is considered dense. The number of zero-valued elements divided by the total number of elements is sometimes referred to as the sparsity of the matrix.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Finite_element_sparse_matrix.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Sparse matrix"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Finite_element_sparse_matrix.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Finite element sparse matrix.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>In numerical analysis and scientific computing , a sparse matrix or sparse array is a matrix in which most of the elements are zero. There is no strict definition regarding the proportion of zero-value elements for a matrix to qualify as sparse but a common criterion is that the number of non-zero elements is roughly equal to the number of rows or columns. By contrast, if most of the elements are non-zero, the matrix is considered dense . The number of zero-valued elements divided by the total number of elements (e.g., m × n for an m × n matrix) is sometimes referred to as the sparsity of the matrix. Conceptually, sparsity corresponds to systems with few pairwise interactions. For example, consider a line of balls connected by springs from one to the next: this is a sparse system, as only adjacent balls are coupled. By contrast, if the same line of balls were to have springs connecting each ball to all other balls, the system would correspond to a dense matrix. The concept of sparsity is useful in combinatorics and application areas such as network theory and numerical analysis , which typically have a low density of significant data or connections. Large sparse matrices often appear in scientific or engineering applications when solving partial differential equations . When storing and manipulating sparse matrices on a computer , it is beneficial and often necessary to use spe</p>
-    <hr>
-    <h2>Banded</h2>
-    <p>The band matrices form a special class of sparse matrix where the non-zero elements are concentrated near the main diagonal. A band matrix is characterised by its lower and upper bandwidths, which refer to the number of diagonals below and above (respectively) the main diagonal between which all of the non-zero entries are contained. Formally, the lower bandwidth of a matrix A is the smallest number p such that the entry a i , j vanishes whenever i &gt; j + p . Similarly, the upper bandwidth is the smallest number p such that a i , j = 0 whenever i &lt; j − p ( Golub &amp; Van Loan 1996 , §1.2.1). For example, a tridiagonal matrix has lower bandwidth 1 and upper bandwidth 1 . As another example, the following sparse matrix has lower and upper bandwidth both equal to 3. Notice that zeros are represented with dots for clarity. Matrices with reasonably small upper and lower bandwidth are known as band matrices and often lend themselves to simpler algorithms than general sparse matrices; or one can sometimes apply dense matrix algorithms and gain efficiency simply by looping over a reduced number of indices. By rearranging the rows and columns of a matrix A it may be possible to obtain a matrix A ′ with a lower bandwidth. A number of algorithms are designed for bandwidth minimization . A diagonal matrix is the extreme case of a band matrix, with zero upper and lower bandwidth. A diagonal mat</p>
-    <hr>
-    <h2>Symmetric</h2>
-    <p>A symmetric sparse matrix arises as the adjacency matrix of an undirected graph ; it can be stored efficiently as an adjacency list .</p>
-    <hr>
-    <h2>Block diagonal</h2>
-    <p>A block-diagonal matrix consists of sub-matrices along its diagonal blocks. A block-diagonal matrix A has the form where A k is a square matrix for all k = 1, ..., n .</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Road_verge.html">Road verge</a></li>
-      <li><a href="Eric_Moulds.html">Eric Moulds</a></li>
-      <li><a href="Sergestus.html">Sergestus</a></li>
-      <li><a href="Cantley_railway_station.html">Cantley railway station</a></li>
-      <li><a href="Class_of_Nuke_Em_High.html">Class of Nuke &#x27;Em High</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Sparse_matrix">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 9, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Sparse matrix</h1>
+<p><b>Sparse matrix</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In numerical analysis and scientific computing, a sparse matrix or sparse array is a matrix in which most of the elements are zero. There is no strict definition regarding the proportion of zero-value elements for a matrix to qualify as sparse but a common criterion is that the number of non-zero elements is roughly equal to the number of rows or columns. By contrast, if most of the elements are non-zero, the matrix is considered dense. The number of zero-valued elements divided by the total number of elements is sometimes referred to as the sparsity of the matrix.</p>
+<figure class="article-image"><img alt="Sparse matrix" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Finite_element_sparse_matrix.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Finite element sparse matrix.png" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Finite_element_sparse_matrix.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>In numerical analysis and scientific computing , a sparse matrix or sparse array is a matrix in which most of the elements are zero. There is no strict definition regarding the proportion of zero-value elements for a matrix to qualify as sparse but a common criterion is that the number of non-zero elements is roughly equal to the number of rows or columns. By contrast, if most of the elements are non-zero, the matrix is considered dense . The number of zero-valued elements divided by the total number of elements (e.g., m × n for an m × n matrix) is sometimes referred to as the sparsity of the matrix. Conceptually, sparsity corresponds to systems with few pairwise interactions. For example, consider a line of balls connected by springs from one to the next: this is a sparse system, as only adjacent balls are coupled. By contrast, if the same line of balls were to have springs connecting each ball to all other balls, the system would correspond to a dense matrix. The concept of sparsity is useful in combinatorics and application areas such as network theory and numerical analysis , which typically have a low density of significant data or connections. Large sparse matrices often appear in scientific or engineering applications when solving partial differential equations . When storing and manipulating sparse matrices on a computer , it is beneficial and often necessary to use spe</p>
+<hr/>
+<h2>Banded</h2>
+<p>The band matrices form a special class of sparse matrix where the non-zero elements are concentrated near the main diagonal. A band matrix is characterised by its lower and upper bandwidths, which refer to the number of diagonals below and above (respectively) the main diagonal between which all of the non-zero entries are contained. Formally, the lower bandwidth of a matrix A is the smallest number p such that the entry a i , j vanishes whenever i &gt; j + p . Similarly, the upper bandwidth is the smallest number p such that a i , j = 0 whenever i &lt; j − p ( Golub &amp; Van Loan 1996 , §1.2.1). For example, a tridiagonal matrix has lower bandwidth 1 and upper bandwidth 1 . As another example, the following sparse matrix has lower and upper bandwidth both equal to 3. Notice that zeros are represented with dots for clarity. Matrices with reasonably small upper and lower bandwidth are known as band matrices and often lend themselves to simpler algorithms than general sparse matrices; or one can sometimes apply dense matrix algorithms and gain efficiency simply by looping over a reduced number of indices. By rearranging the rows and columns of a matrix A it may be possible to obtain a matrix A ′ with a lower bandwidth. A number of algorithms are designed for bandwidth minimization . A diagonal matrix is the extreme case of a band matrix, with zero upper and lower bandwidth. A diagonal mat</p>
+<hr/>
+<h2>Symmetric</h2>
+<p>A symmetric sparse matrix arises as the adjacency matrix of an undirected graph ; it can be stored efficiently as an adjacency list .</p>
+<hr/>
+<h2>Block diagonal</h2>
+<p>A block-diagonal matrix consists of sub-matrices along its diagonal blocks. A block-diagonal matrix A has the form where A k is a square matrix for all k = 1, ..., n .</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Road_verge.html">Road verge</a></li>
+<li><a href="Eric_Moulds.html">Eric Moulds</a></li>
+<li><a href="Sergestus.html">Sergestus</a></li>
+<li><a href="Cantley_railway_station.html">Cantley railway station</a></li>
+<li><a href="Class_of_Nuke_Em_High.html">Class of Nuke 'Em High</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Sparse_matrix">Wikimedia article</a></small></p>
+<p><i>Last edited: October 9, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

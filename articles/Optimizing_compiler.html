@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Optimizing compiler - Wiki2</title>
+  <meta name="description" content="An optimizing compiler is a compiler designed to generate code that is optimized in aspects such as minimizing program execution time, memory usage, storage size, and power consumption. Optimization is generally implemented as a sequence of">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Optimizing_compiler.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Optimizing compiler - Wiki2">
+  <meta property="og:description" content="An optimizing compiler is a compiler designed to generate code that is optimized in aspects such as minimizing program execution time, memory usage, storage size, and power consumption. Optimization is generally implemented as a sequence of">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Optimizing_compiler.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Optimizing compiler - Wiki2">
+  <meta name="twitter:description" content="An optimizing compiler is a compiler designed to generate code that is optimized in aspects such as minimizing program execution time, memory usage, storage size, and power consumption. Optimization is generally implemented as a sequence of">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Optimizing compiler</h1>
+    <p><b>Optimizing compiler</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>An optimizing compiler is a compiler designed to generate code that is optimized in aspects such as minimizing program execution time, memory usage, storage size, and power consumption. Optimization is generally implemented as a sequence of optimizing transformations, a.k.a. compiler optimizations – algorithms that transform code to produce semantically equivalent code optimized for some aspect.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>An optimizing compiler is a compiler designed to generate code that is optimized in aspects such as minimizing program execution time , memory usage , storage size , and power consumption . Optimization is generally implemented as a sequence of optimizing transformations , a.k.a. compiler optimizations – algorithms that transform code to produce semantically equivalent code optimized for some aspect. Optimization is limited by a number of factors. Theoretical analysis indicates that some optimization problems are NP-complete , or even undecidable . Also, producing perfectly optimal code is not possible since optimizing for one aspect often degrades performance for another (see: superoptimization ). Optimization is a collection of heuristic methods for improving resource usage in typical programs.</p>
+    <hr>
+    <h2>Local vs. global scope</h2>
+    <p>Scope describes how much of the input code is considered to apply optimizations. Local scope optimizations use information local to a basic block . Since basic blocks contain no control flow statements, these optimizations require minimal analysis, reducing time and storage requirements. However, no information is retained across jumps. Global scope optimizations, also known as intra-procedural optimizations, operate on individual functions. This gives them more information to work with but often makes expensive computations necessary. Worst-case assumptions need to be made when function calls occur or global variables are accessed because little information about them is available.</p>
+    <hr>
+    <h2>Peephole optimization</h2>
+    <p>Peephole optimizations are usually performed late in the compilation process after machine code has been generated. This optimization examines a few adjacent instructions (similar to &quot;looking through a peephole&quot; at the code) to see whether they can be replaced by a single instruction or a shorter sequence of instructions. For instance, a multiplication of a value by two might be more efficiently executed by left-shifting the value or by adding the value to itself (this example is also an instance of strength reduction ).</p>
+    <hr>
+    <h2>Inter-procedural optimization</h2>
+    <p>Interprocedural optimizations analyze all of a program&#x27;s source code. The more information available, the more effective the optimizations can be. The information can be used for various optimizations, including function inlining , where a call to a function is replaced by a copy of the function body.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Governor.html">Governor</a></li>
+      <li><a href="Rum_and_Coke.html">Rum and Coke</a></li>
+      <li><a href="Sibley_Township_Crow_Wing_County_Minnesota.html">Sibley Township, Crow Wing County, Minnesota</a></li>
+      <li><a href="Acid_set_cheese.html">Acid-set cheese</a></li>
+      <li><a href="How_Democratic_Is_the_American_Constitution.html">How Democratic Is the American Constitution?</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Optimizing_compiler">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 10, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

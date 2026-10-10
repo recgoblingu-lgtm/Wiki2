@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Address Resolution Protocol - Wiki2</title>
+  <meta name="description" content="The Address Resolution Protocol (ARP) is a communication protocol for discovering the link layer address, such as a MAC address, associated with an internet layer address, typically an IPv4 address. The protocol, part of the Internet protoc">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Address_Resolution_Protocol.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Address Resolution Protocol - Wiki2">
+  <meta property="og:description" content="The Address Resolution Protocol (ARP) is a communication protocol for discovering the link layer address, such as a MAC address, associated with an internet layer address, typically an IPv4 address. The protocol, part of the Internet protoc">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Address_Resolution_Protocol.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Address Resolution Protocol - Wiki2">
+  <meta name="twitter:description" content="The Address Resolution Protocol (ARP) is a communication protocol for discovering the link layer address, such as a MAC address, associated with an internet layer address, typically an IPv4 address. The protocol, part of the Internet protoc">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Address Resolution Protocol</h1>
+    <p><b>Address Resolution Protocol</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>The Address Resolution Protocol (ARP) is a communication protocol for discovering the link layer address, such as a MAC address, associated with an internet layer address, typically an IPv4 address. The protocol, part of the Internet protocol suite, was defined in 1982 by RFC 826, which is Internet Standard STD 37.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>The Address Resolution Protocol ( ARP ) is a communication protocol for discovering the link layer address, such as a MAC address , associated with an internet layer address, typically an IPv4 address . The protocol, part of the Internet protocol suite , was defined in 1982 by RFC 826 , which is Internet Standard STD 37. ARP enables a host to send, for example, an IPv4 packet to another node in the local network by providing a protocol to get the MAC address associated with an IP address. The host broadcasts a request containing the target node&#x27;s IP address, and the node with that IP address replies with its MAC address. ARP has been implemented with many combinations of network and data link layer technologies, such as IPv4 , Chaosnet , DECnet and Xerox PARC Universal Packet (PUP) using IEEE 802 standards, FDDI , X.25 , Frame Relay and Asynchronous Transfer Mode (ATM). In Internet Protocol Version 6 (IPv6) networks, the functionality of ARP is provided by the Neighbor Discovery Protocol (NDP).</p>
+    <hr>
+    <h2>Operating scope</h2>
+    <p>The Address Resolution Protocol is a request–response protocol. Its messages are directly encapsulated by a link-layer protocol. It is communicated within the boundaries of a single subnetwork and is never routed .</p>
+    <hr>
+    <h2>Packet structure</h2>
+    <p>The Address Resolution Protocol uses a simple message format containing one address resolution request or response. The packets are carried at the data link layer of the underlying network as raw payload. In the case of Ethernet, a 0x0806 EtherType value is used to identify ARP frames. The size of the ARP message depends on the link layer and network layer address sizes. The message header specifies the types of network in use at each layer as well as the size of addresses of each. The message header is completed with the operation code for request (1) and reply (2). The payload of the packet consists of four addresses: the hardware and protocol addresses of the sender and receiver hosts. The principal packet structure of ARP packets is shown in the following table, which illustrates the case of IPv4 networks running on Ethernet. In this scenario, the packet has 48-bit fields for the sender hardware address (SHA) and target hardware address (THA), and 32-bit fields for the corresponding sender and target protocol addresses (SPA and TPA). The ARP packet size in this case is 28 bytes. ARP parameter values have been standardized and are maintained by the Internet Assigned Numbers Authority (IANA). The EtherType for ARP is 0x0806 . This appears in the Ethernet frame header when the payload is an ARP packet and is not to be confused with PTYPE, which appears within this encapsulated</p>
+    <hr>
+    <h2>Layering</h2>
+    <p>ARP&#x27;s placement within the Internet protocol suite and the OSI model may be a matter of confusion or even of dispute. RFC 826 places it into the link layer and characterizes it as a tool to inquire about the &quot;higher level layer&quot;, such as the Internet layer. RFC 1122 also discusses ARP in its link layer section. Richard Stevens places ARP in the OSI&#x27;s data link layer while newer editions associate it with the network layer or introduce an intermediate OSI layer 2.5.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Sprott_Shaw_College.html">Sprott Shaw College</a></li>
+      <li><a href="Types_of_motorcycles.html">Types of motorcycles</a></li>
+      <li><a href="Chr_tien_de_Troyes.html">Chrétien de Troyes</a></li>
+      <li><a href="Defrocking.html">Defrocking</a></li>
+      <li><a href="Naarden.html">Naarden</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Address_Resolution_Protocol">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 10, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
