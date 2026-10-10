@@ -131511,12 +131511,18 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Decoritidae",
       "generated_at": "2026-10-10T12:12:52+00:00"
+    },
+    {
+      "title": "Cliff Sloan",
+      "filename": "Cliff_Sloan.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Cliff_Sloan",
+      "generated_at": "2026-10-10T18:49:20+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|482a44464c2a423a2e2a40010f01dc0e|43054882",
-    "Category:Video game franchises": "page|3a2e32563a443004302a40320409924e324c3a324e0994011901dcbfdc10|3440294",
-    "Category:Arcade video games": "page|2c3244042c324c46042c3238011001dcc3dcc2dc06|6653170",
-    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474"
+    "Category:Indie games": "page|4c462c2c3a32044e563a3450382a4430042a44300450383204464c2c04463404425a4e50324c3a324e01250c01dcc0dcb5dcc0dc0c|64538345",
+    "Category:Video game franchises": "page|48402a4432504e3a3032010e01dcc1dc07|72838664",
+    "Category:Arcade video games": "page|2e2a403a34464c443a2a044e48323230040992543a30324604362a42320994012101dcbcdc15|6200156"
   }
 }
