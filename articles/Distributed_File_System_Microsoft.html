@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Distributed File System (Microsoft) - Wiki2</title>
-  <meta name="description" content="Distributed File System (DFS) is a set of client and server services that allow an organization using Microsoft Windows servers to organize many distributed SMB file shares into a distributed file system. DFS has two components to its servi">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Distributed_File_System_Microsoft.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Distributed File System (Microsoft) - Wiki2">
-  <meta property="og:description" content="Distributed File System (DFS) is a set of client and server services that allow an organization using Microsoft Windows servers to organize many distributed SMB file shares into a distributed file system. DFS has two components to its servi">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Distributed_File_System_Microsoft.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Distributed File System (Microsoft) - Wiki2">
-  <meta name="twitter:description" content="Distributed File System (DFS) is a set of client and server services that allow an organization using Microsoft Windows servers to organize many distributed SMB file shares into a distributed file system. DFS has two components to its servi">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Distributed File System (Microsoft) - Wiki2</title>
+<meta content="Distributed File System (DFS) is a set of client and server services that allow an organization using Microsoft Windows servers to organize many distributed SMB file shares into a distributed file system. DFS has two components to its servi" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Distributed_File_System_Microsoft.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Distributed File System (Microsoft)" property="og:title"/>
+<meta content="Distributed File System (Microsoft) is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Distributed_File_System_Microsoft.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Distributed File System (Microsoft)" name="twitter:title"/>
+<meta content="Distributed File System (Microsoft) is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Distributed File System (Microsoft)</h1>
-    <p><b>Distributed File System (Microsoft)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>Distributed File System (DFS) is a set of client and server services that allow an organization using Microsoft Windows servers to organize many distributed SMB file shares into a distributed file system. DFS has two components to its service: Location transparency and Redundancy. Together, these components enable data availability in the case of failure or heavy load by allowing shares in multiple different locations to be logically grouped under one folder, the &quot;DFS root&quot;.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>Distributed File System ( DFS ) is a set of client and server services that allow an organization using Microsoft Windows servers to organize many distributed SMB file shares into a distributed file system . DFS has two components to its service: Location transparency (via the namespace component) and Redundancy (via the file replication component). Together, these components enable data availability in the case of failure or heavy load by allowing shares in multiple different locations to be logically grouped under one folder, the &quot;DFS root&quot;. Microsoft&#x27;s DFS is referred to interchangeably as &#x27;DFS&#x27; and &#x27;Dfs&#x27; by Microsoft and is unrelated to the DCE Distributed File System, which held the &#x27;DFS&#x27; trademark but was discontinued in 2005. It is also called &quot;MS-DFS&quot; or &quot;MSDFS&quot; in some contexts, e.g. in the Samba user space project.</p>
-    <hr>
-    <h2>Overview</h2>
-    <p>There is no requirement to use the two components of DFS together; it is perfectly possible to use the logical namespace component without using DFS file replication, and it is perfectly possible to use file replication between servers without combining them into one namespace. A DFS root can only exist on a server version of Windows (from Windows NT 4.0 and up) and Solaris (in kernel space ) or a computer running Samba (in user space .) The Enterprise and Datacenter Editions of Windows Server can host multiple DFS roots on the same server. OpenSolaris intends on supporting multiple DFS roots in &quot;a future project based on Active Directory (AD) domain-based DFS namespaces&quot;. There are two ways of implementing DFS on a server:</p>
-    <hr>
-    <h2>DFS namespaces</h2>
-    <p>Traditional file shares, associated with a single server, have SMB paths of the form Domain-based DFS file share paths are distinguished by using the domain name in place of the server name, in the form When a user accesses such a share, either directly or by mapping a drive , their computer will access one of the available servers associated with that share, following rules which can be configured by the network administrator. For example, the default behaviour is that users will access the closest server to them; but this can be overridden to prefer a particular server. If a server fails, the client can select a different server transparently to the user. One major caveat regarding this flexibility is that currently-open files will potentially become unusable, as open files cannot be failed-over .</p>
-    <hr>
-    <h2>DFS replication</h2>
-    <p>Early versions of DFS used Microsoft&#x27;s File Replication Service (FRS) which provides basic file replication capability between servers. FRS identifies changed or new files, and copies the latest version of the entire file to all servers. Windows Server 2003 R2 introduced &quot;DFS Replication&quot; (DFSR) which improves on FRS by only copying those parts of files which have changed ( remote differential compression ), by using data compression to reduce network traffic, and by allowing administrators flexible configuration options for limiting network traffic with a customizable schedule.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Upper_Sturt_South_Australia.html">Upper Sturt, South Australia</a></li>
-      <li><a href="People_smuggling.html">People smuggling</a></li>
-      <li><a href="Hoquiam_Washington.html">Hoquiam, Washington</a></li>
-      <li><a href="Eric_Sono.html">Eric Sono</a></li>
-      <li><a href="Midnight_Oil_Midnight_Oil_album.html">Midnight Oil (Midnight Oil album)</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Distributed_File_System_(Microsoft)">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 11, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Distributed File System (Microsoft)</h1>
+<p><b>Distributed File System (Microsoft)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>Distributed File System (DFS) is a set of client and server services that allow an organization using Microsoft Windows servers to organize many distributed SMB file shares into a distributed file system. DFS has two components to its service: Location transparency and Redundancy. Together, these components enable data availability in the case of failure or heavy load by allowing shares in multiple different locations to be logically grouped under one folder, the "DFS root".</p>
+<hr/>
+<h2>Background</h2>
+<p>Distributed File System ( DFS ) is a set of client and server services that allow an organization using Microsoft Windows servers to organize many distributed SMB file shares into a distributed file system . DFS has two components to its service: Location transparency (via the namespace component) and Redundancy (via the file replication component). Together, these components enable data availability in the case of failure or heavy load by allowing shares in multiple different locations to be logically grouped under one folder, the "DFS root". Microsoft's DFS is referred to interchangeably as 'DFS' and 'Dfs' by Microsoft and is unrelated to the DCE Distributed File System, which held the 'DFS' trademark but was discontinued in 2005. It is also called "MS-DFS" or "MSDFS" in some contexts, e.g. in the Samba user space project.</p>
+<hr/>
+<h2>Overview</h2>
+<p>There is no requirement to use the two components of DFS together; it is perfectly possible to use the logical namespace component without using DFS file replication, and it is perfectly possible to use file replication between servers without combining them into one namespace. A DFS root can only exist on a server version of Windows (from Windows NT 4.0 and up) and Solaris (in kernel space ) or a computer running Samba (in user space .) The Enterprise and Datacenter Editions of Windows Server can host multiple DFS roots on the same server. OpenSolaris intends on supporting multiple DFS roots in "a future project based on Active Directory (AD) domain-based DFS namespaces". There are two ways of implementing DFS on a server:</p>
+<hr/>
+<h2>DFS namespaces</h2>
+<p>Traditional file shares, associated with a single server, have SMB paths of the form Domain-based DFS file share paths are distinguished by using the domain name in place of the server name, in the form When a user accesses such a share, either directly or by mapping a drive , their computer will access one of the available servers associated with that share, following rules which can be configured by the network administrator. For example, the default behaviour is that users will access the closest server to them; but this can be overridden to prefer a particular server. If a server fails, the client can select a different server transparently to the user. One major caveat regarding this flexibility is that currently-open files will potentially become unusable, as open files cannot be failed-over .</p>
+<hr/>
+<h2>DFS replication</h2>
+<p>Early versions of DFS used Microsoft's File Replication Service (FRS) which provides basic file replication capability between servers. FRS identifies changed or new files, and copies the latest version of the entire file to all servers. Windows Server 2003 R2 introduced "DFS Replication" (DFSR) which improves on FRS by only copying those parts of files which have changed ( remote differential compression ), by using data compression to reduce network traffic, and by allowing administrators flexible configuration options for limiting network traffic with a customizable schedule.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Upper_Sturt_South_Australia.html">Upper Sturt, South Australia</a></li>
+<li><a href="People_smuggling.html">People smuggling</a></li>
+<li><a href="Hoquiam_Washington.html">Hoquiam, Washington</a></li>
+<li><a href="Eric_Sono.html">Eric Sono</a></li>
+<li><a href="Midnight_Oil_Midnight_Oil_album.html">Midnight Oil (Midnight Oil album)</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Distributed_File_System_(Microsoft)">Wikimedia article</a></small></p>
+<p><i>Last edited: October 11, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

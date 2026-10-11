@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Goal programming - Wiki2</title>
-  <meta name="description" content="Goal programming is a branch of multiobjective optimization, which in turn is a branch of multi-criteria decision analysis (MCDA). It can be thought of as an extension or generalisation of linear programming to handle multiple, normally con">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Goal_programming.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Goal programming - Wiki2">
-  <meta property="og:description" content="Goal programming is a branch of multiobjective optimization, which in turn is a branch of multi-criteria decision analysis (MCDA). It can be thought of as an extension or generalisation of linear programming to handle multiple, normally con">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Goal_programming.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Goal programming - Wiki2">
-  <meta name="twitter:description" content="Goal programming is a branch of multiobjective optimization, which in turn is a branch of multi-criteria decision analysis (MCDA). It can be thought of as an extension or generalisation of linear programming to handle multiple, normally con">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Goal programming - Wiki2</title>
+<meta content="Goal programming is a branch of multiobjective optimization, which in turn is a branch of multi-criteria decision analysis (MCDA). It can be thought of as an extension or generalisation of linear programming to handle multiple, normally con" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Goal_programming.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Goal programming" property="og:title"/>
+<meta content="Goal programming is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Goal_programming.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Goal programming" name="twitter:title"/>
+<meta content="Goal programming is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Goal programming</h1>
-    <p><b>Goal programming</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>Goal programming is a branch of multiobjective optimization, which in turn is a branch of multi-criteria decision analysis (MCDA). It can be thought of as an extension or generalisation of linear programming to handle multiple, normally conflicting objective measures. Each of these measures is given a goal or target value to be achieved. Deviations are measured from these goals both above and below the target. Unwanted deviations from this set of target values are then minimised in an achievement function. This can be a vector or a weighted sum dependent on the goal programming variant used. As satisfaction of the target is deemed to satisfy the decision maker(s), an underlying satisficing philosophy is assumed. Goal programming is used to perform three types of analysis:Determine the required resources to achieve a desired set of objectives. Determine the degree of attainment of the goals with the available resources. Providing the best satisfying solution under a varying amount of resources and priorities of the goals.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>Goal programming is a branch of multiobjective optimization , which in turn is a branch of multi-criteria decision analysis (MCDA). It can be thought of as an extension or generalisation of linear programming to handle multiple, normally conflicting objective measures. Each of these measures is given a goal or target value to be achieved. Deviations are measured from these goals both above and below the target. Unwanted deviations from this set of target values are then minimised in an achievement function. This can be a vector or a weighted sum dependent on the goal programming variant used. As satisfaction of the target is deemed to satisfy the decision maker(s), an underlying satisficing philosophy is assumed. Goal programming is used to perform three types of analysis:</p>
-    <hr>
-    <h2>History</h2>
-    <p>Goal programming was first used by Charnes, Cooper and Ferguson in 1955, although the actual name first appeared in a 1961 text by Charnes and Cooper. Seminal works by Lee, Ignizio, Ignizio and Cavalier, and Romero followed. Schniederjans gives in a bibliography of a large number of pre-1995 articles relating to goal programming, and Jones and Tamiz give an annotated bibliography of the period 1990-2000. A 2010 textbook by Jones and Tamiz gives a comprehensive overview of the state-of-the-art in goal programming. The first engineering application of goal programming, due to Ignizio in 1962, was the design and placement of the antennas employed on the second stage of the Saturn V . This was used to launch the Apollo space capsule that landed the first men on the moon.</p>
-    <hr>
-    <h2>Variants</h2>
-    <p>The initial goal programming formulations ordered the unwanted deviations into a number of priority levels, with the minimisation of a deviation in a higher priority level being infinitely more important than any deviations in lower priority levels. This is known as lexicographic or pre-emptive goal programming. Ignizio gives an algorithm showing how a lexicographic goal programme can be solved as a series of linear programmes. Lexicographic goal programming is used when there exists a clear priority ordering amongst the goals to be achieved. If the decision maker is more interested in direct comparisons of the objectives then weighted or non-pre-emptive goal programming should be used. In this case, all the unwanted deviations are multiplied by weights, reflecting their relative importance, and added together as a single sum to form the achievement function. Deviations measured in different units cannot be summed directly due to the phenomenon of incommensurability . Hence each unwanted deviation is multiplied by a normalisation constant to allow direct comparison. Popular choices for normalisation constants are the goal target value of the corresponding objective (hence turning all deviations into percentages) or the range of the corresponding objective (between the best and the worst possible values, hence mapping all deviations onto a zero-one range). For decision makers mo</p>
-    <hr>
-    <h2>Strengths and weaknesses</h2>
-    <p>A major strength of goal programming is its simplicity and ease of use. This accounts for the large number of goal programming applications in many and diverse fields. Linear goal programmes can be solved using linear programming software as either a single linear programme, or in the case of the lexicographic variant, a series of connected linear programmes. Goal programming can hence handle relatively large numbers of variables, constraints and objectives. A debated weakness is the ability of goal programming to produce solutions that are not Pareto efficient . This violates a fundamental concept of decision theory , that no rational decision maker will knowingly choose a solution that is not Pareto efficient. However, techniques are available to detect when this occurs and project the solution onto the Pareto efficient solution in an appropriate manner. The setting of appropriate weights in the goal programming model is another area that has caused debate, with some authors suggesting the use of the analytic hierarchy process or interactive methods for this purpose. Also, the weights of the objective functions can be calculated based on their preference using the ordinal priority approach .</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="National_Issues_Forums.html">National Issues Forums</a></li>
-      <li><a href="Shoal_Creek_Estates_Missouri.html">Shoal Creek Estates, Missouri</a></li>
-      <li><a href="A_10_Attack.html">A-10 Attack!</a></li>
-      <li><a href="Port_Conway_Virginia.html">Port Conway, Virginia</a></li>
-      <li><a href="Lunisolar_calendar.html">Lunisolar calendar</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Goal_programming">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 11, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Goal programming</h1>
+<p><b>Goal programming</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>Goal programming is a branch of multiobjective optimization, which in turn is a branch of multi-criteria decision analysis (MCDA). It can be thought of as an extension or generalisation of linear programming to handle multiple, normally conflicting objective measures. Each of these measures is given a goal or target value to be achieved. Deviations are measured from these goals both above and below the target. Unwanted deviations from this set of target values are then minimised in an achievement function. This can be a vector or a weighted sum dependent on the goal programming variant used. As satisfaction of the target is deemed to satisfy the decision maker(s), an underlying satisficing philosophy is assumed. Goal programming is used to perform three types of analysis:Determine the required resources to achieve a desired set of objectives. Determine the degree of attainment of the goals with the available resources. Providing the best satisfying solution under a varying amount of resources and priorities of the goals.</p>
+<hr/>
+<h2>Background</h2>
+<p>Goal programming is a branch of multiobjective optimization , which in turn is a branch of multi-criteria decision analysis (MCDA). It can be thought of as an extension or generalisation of linear programming to handle multiple, normally conflicting objective measures. Each of these measures is given a goal or target value to be achieved. Deviations are measured from these goals both above and below the target. Unwanted deviations from this set of target values are then minimised in an achievement function. This can be a vector or a weighted sum dependent on the goal programming variant used. As satisfaction of the target is deemed to satisfy the decision maker(s), an underlying satisficing philosophy is assumed. Goal programming is used to perform three types of analysis:</p>
+<hr/>
+<h2>History</h2>
+<p>Goal programming was first used by Charnes, Cooper and Ferguson in 1955, although the actual name first appeared in a 1961 text by Charnes and Cooper. Seminal works by Lee, Ignizio, Ignizio and Cavalier, and Romero followed. Schniederjans gives in a bibliography of a large number of pre-1995 articles relating to goal programming, and Jones and Tamiz give an annotated bibliography of the period 1990-2000. A 2010 textbook by Jones and Tamiz gives a comprehensive overview of the state-of-the-art in goal programming. The first engineering application of goal programming, due to Ignizio in 1962, was the design and placement of the antennas employed on the second stage of the Saturn V . This was used to launch the Apollo space capsule that landed the first men on the moon.</p>
+<hr/>
+<h2>Variants</h2>
+<p>The initial goal programming formulations ordered the unwanted deviations into a number of priority levels, with the minimisation of a deviation in a higher priority level being infinitely more important than any deviations in lower priority levels. This is known as lexicographic or pre-emptive goal programming. Ignizio gives an algorithm showing how a lexicographic goal programme can be solved as a series of linear programmes. Lexicographic goal programming is used when there exists a clear priority ordering amongst the goals to be achieved. If the decision maker is more interested in direct comparisons of the objectives then weighted or non-pre-emptive goal programming should be used. In this case, all the unwanted deviations are multiplied by weights, reflecting their relative importance, and added together as a single sum to form the achievement function. Deviations measured in different units cannot be summed directly due to the phenomenon of incommensurability . Hence each unwanted deviation is multiplied by a normalisation constant to allow direct comparison. Popular choices for normalisation constants are the goal target value of the corresponding objective (hence turning all deviations into percentages) or the range of the corresponding objective (between the best and the worst possible values, hence mapping all deviations onto a zero-one range). For decision makers mo</p>
+<hr/>
+<h2>Strengths and weaknesses</h2>
+<p>A major strength of goal programming is its simplicity and ease of use. This accounts for the large number of goal programming applications in many and diverse fields. Linear goal programmes can be solved using linear programming software as either a single linear programme, or in the case of the lexicographic variant, a series of connected linear programmes. Goal programming can hence handle relatively large numbers of variables, constraints and objectives. A debated weakness is the ability of goal programming to produce solutions that are not Pareto efficient . This violates a fundamental concept of decision theory , that no rational decision maker will knowingly choose a solution that is not Pareto efficient. However, techniques are available to detect when this occurs and project the solution onto the Pareto efficient solution in an appropriate manner. The setting of appropriate weights in the goal programming model is another area that has caused debate, with some authors suggesting the use of the analytic hierarchy process or interactive methods for this purpose. Also, the weights of the objective functions can be calculated based on their preference using the ordinal priority approach .</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="National_Issues_Forums.html">National Issues Forums</a></li>
+<li><a href="Shoal_Creek_Estates_Missouri.html">Shoal Creek Estates, Missouri</a></li>
+<li><a href="A_10_Attack.html">A-10 Attack!</a></li>
+<li><a href="Port_Conway_Virginia.html">Port Conway, Virginia</a></li>
+<li><a href="Lunisolar_calendar.html">Lunisolar calendar</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Goal_programming">Wikimedia article</a></small></p>
+<p><i>Last edited: October 11, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

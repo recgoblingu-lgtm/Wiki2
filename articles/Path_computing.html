@@ -1,63 +1,64 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Path (computing) - Wiki2</title>
-  <meta name="description" content="A path is a string that uniquely identifies an item in a hierarchical file system. Generally, a path is composed of directory names, special format specifiers, and optionally a filename, all separated by delimiters. This delimiter can vary ">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Path_computing.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Path (computing) - Wiki2">
-  <meta property="og:description" content="A path is a string that uniquely identifies an item in a hierarchical file system. Generally, a path is composed of directory names, special format specifiers, and optionally a filename, all separated by delimiters. This delimiter can vary ">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Path_computing.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/1/10/Dir_command_in_Windows_Command_Prompt.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Path (computing) - Wiki2">
-  <meta name="twitter:description" content="A path is a string that uniquely identifies an item in a hierarchical file system. Generally, a path is composed of directory names, special format specifiers, and optionally a filename, all separated by delimiters. This delimiter can vary ">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/1/10/Dir_command_in_Windows_Command_Prompt.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Path (computing) - Wiki2</title>
+<meta content="A path is a string that uniquely identifies an item in a hierarchical file system. Generally, a path is composed of directory names, special format specifiers, and optionally a filename, all separated by delimiters. This delimiter can vary " name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Path_computing.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Path (computing)" property="og:title"/>
+<meta content="Path (computing) is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Path_computing.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/1/10/Dir_command_in_Windows_Command_Prompt.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Path (computing)" name="twitter:title"/>
+<meta content="Path (computing) is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/1/10/Dir_command_in_Windows_Command_Prompt.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Path (computing)</h1>
-    <p><b>Path (computing)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>A path is a string that uniquely identifies an item in a hierarchical file system. Generally, a path is composed of directory names, special format specifiers, and optionally a filename, all separated by delimiters. This delimiter can vary by operating system, but popular, modern systems use the slash /, backslash \, or colon :.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Dir_command_in_Windows_Command_Prompt.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Dir command in Windows Command Prompt.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>A path (or filepath , file path , pathname , or similar) is a string that uniquely identifies an item in a hierarchical file system . Generally, a path is composed of directory names, special format specifiers, and optionally a filename , all separated by delimiters . This delimiter can vary by operating system, but popular, modern systems use the slash / , backslash \ , or colon : . The case-sensitivity of individual path components will vary based on operating system , or based on options specified at the time of a file system&#x27;s creation or first use . In practice, this means that for a case-sensitive system, path components named component1 and Component1 can coexist at the same level in the hierarchy, whereas for a case- in sensitive file system, they cannot (an error will occur). macOS and Windows&#x27; native file systems are case-insensitive by default, whereas typical Linux file systems are case-sensitive. A path can be either relative or absolute . A relative path is a path in relation to another, most often the working directory . An absolute path indicates a location regardless of the current directory; that is, it specifies all path components starting from the file system&#x27;s root , and does not depend on context like a relative path does. Paths are also essential for locating hierarchically-organized network resources, as seen in URLs and UNC paths .</p>
-    <hr>
-    <h2>History</h2>
-    <p>Multics first introduced a hierarchical file system with directories (separated by &quot;&gt;&quot;) in the mid-1960s. Around 1970, Unix introduced the slash / as its directory separator. Originally, MS-DOS did not support directories. When adding the feature, using the Unix standard of a slash was not a good option since many existing commands used a slash as the switch prefix (i.e., dir /w ). In contrast, Unix uses the dash - as the switch prefix. The backslash \ was ultimately chosen instead for its similarity to the slash and not conflicting with existing commands. This convention continued into Windows . However, some areas of Windows do accept or understand Unix-style slashes also, such as PowerShell .</p>
-    <hr>
-    <h2>In programming languages</h2>
-    <p>Most programming languages use the path representation of the underlying system, but some may also be system-independent. For instance, this C code is system- dependent and may fail on opposing systems:</p>
-    <hr>
-    <h2>In Unix</h2>
-    <p>Most Unix-like systems use a similar syntax. POSIX allows treating a path beginning with two slashes in an implementation-defined manner, though in other cases systems must treat consecutive slashes as one. Many applications on Unix-like systems (for example, scp , rcp , and rsync ) use resource definitions such as hostname:/directorypath/resource , or URI schemes with the service name (here &#x27; smb &#x27;), like smb://hostname/directorypath/resource .</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Rail_bird.html">Rail (bird)</a></li>
-      <li><a href="Widal_test.html">Widal test</a></li>
-      <li><a href="WGBX_TV.html">WGBX-TV</a></li>
-      <li><a href="Turija_Kobasicijada.html">Turija Kobasicijada</a></li>
-      <li><a href="Harlequin_software_company.html">Harlequin (software company)</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Path_(computing)">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 11, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Path (computing)</h1>
+<p><b>Path (computing)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>A path is a string that uniquely identifies an item in a hierarchical file system. Generally, a path is composed of directory names, special format specifiers, and optionally a filename, all separated by delimiters. This delimiter can vary by operating system, but popular, modern systems use the slash /, backslash \, or colon :.</p>
+<figure class="article-image"><img alt="Dir command in Windows Command Prompt.png" src="https://upload.wikimedia.org/wikipedia/commons/1/10/Dir_command_in_Windows_Command_Prompt.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>A path (or filepath , file path , pathname , or similar) is a string that uniquely identifies an item in a hierarchical file system . Generally, a path is composed of directory names, special format specifiers, and optionally a filename , all separated by delimiters . This delimiter can vary by operating system, but popular, modern systems use the slash / , backslash \ , or colon : . The case-sensitivity of individual path components will vary based on operating system , or based on options specified at the time of a file system's creation or first use . In practice, this means that for a case-sensitive system, path components named component1 and Component1 can coexist at the same level in the hierarchy, whereas for a case- in sensitive file system, they cannot (an error will occur). macOS and Windows' native file systems are case-insensitive by default, whereas typical Linux file systems are case-sensitive. A path can be either relative or absolute . A relative path is a path in relation to another, most often the working directory . An absolute path indicates a location regardless of the current directory; that is, it specifies all path components starting from the file system's root , and does not depend on context like a relative path does. Paths are also essential for locating hierarchically-organized network resources, as seen in URLs and UNC paths .</p>
+<hr/>
+<h2>History</h2>
+<p>Multics first introduced a hierarchical file system with directories (separated by "&gt;") in the mid-1960s. Around 1970, Unix introduced the slash / as its directory separator. Originally, MS-DOS did not support directories. When adding the feature, using the Unix standard of a slash was not a good option since many existing commands used a slash as the switch prefix (i.e., dir /w ). In contrast, Unix uses the dash - as the switch prefix. The backslash \ was ultimately chosen instead for its similarity to the slash and not conflicting with existing commands. This convention continued into Windows . However, some areas of Windows do accept or understand Unix-style slashes also, such as PowerShell .</p>
+<hr/>
+<h2>In programming languages</h2>
+<p>Most programming languages use the path representation of the underlying system, but some may also be system-independent. For instance, this C code is system- dependent and may fail on opposing systems:</p>
+<hr/>
+<h2>In Unix</h2>
+<p>Most Unix-like systems use a similar syntax. POSIX allows treating a path beginning with two slashes in an implementation-defined manner, though in other cases systems must treat consecutive slashes as one. Many applications on Unix-like systems (for example, scp , rcp , and rsync ) use resource definitions such as hostname:/directorypath/resource , or URI schemes with the service name (here ' smb '), like smb://hostname/directorypath/resource .</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Rail_bird.html">Rail (bird)</a></li>
+<li><a href="Widal_test.html">Widal test</a></li>
+<li><a href="WGBX_TV.html">WGBX-TV</a></li>
+<li><a href="Turija_Kobasicijada.html">Turija Kobasicijada</a></li>
+<li><a href="Harlequin_software_company.html">Harlequin (software company)</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Path_(computing)">Wikimedia article</a></small></p>
+<p><i>Last edited: October 11, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
