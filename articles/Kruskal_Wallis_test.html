@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kruskal–Wallis test - Wiki2</title>
+  <meta name="description" content="The Kruskal–Wallis test by ranks, Kruskal–Wallis test, or one-way ANOVA on ranks is a non-parametric statistical test for testing whether samples originate from the same distribution. It is used for comparing two or more independent samples">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Kruskal_Wallis_test.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Kruskal–Wallis test - Wiki2">
+  <meta property="og:description" content="The Kruskal–Wallis test by ranks, Kruskal–Wallis test, or one-way ANOVA on ranks is a non-parametric statistical test for testing whether samples originate from the same distribution. It is used for comparing two or more independent samples">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Kruskal_Wallis_test.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/e1/Difference_between_ANOVA_and_KW_test.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kruskal–Wallis test - Wiki2">
+  <meta name="twitter:description" content="The Kruskal–Wallis test by ranks, Kruskal–Wallis test, or one-way ANOVA on ranks is a non-parametric statistical test for testing whether samples originate from the same distribution. It is used for comparing two or more independent samples">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/e/e1/Difference_between_ANOVA_and_KW_test.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Kruskal–Wallis test</h1>
+    <p><b>Kruskal–Wallis test</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>The Kruskal–Wallis test by ranks, Kruskal–Wallis test, or one-way ANOVA on ranks is a non-parametric statistical test for testing whether samples originate from the same distribution. It is used for comparing two or more independent samples of equal or different sample sizes. It extends the Mann–Whitney U test, which is used for comparing only two groups. The parametric equivalent of the Kruskal–Wallis test is the one-way analysis of variance (ANOVA).</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Difference_between_ANOVA_and_KW_test.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Kruskal–Wallis test"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Difference_between_ANOVA_and_KW_test.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Difference between ANOVA and KW test.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Example_of_assigning_any_tied_values_the_average_of_the_rank.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Example of assigning any tied values the average of the rank.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>The Kruskal–Wallis test by ranks, Kruskal–Wallis test (named after William Kruskal and W. Allen Wallis ), or one-way ANOVA on ranks is a non-parametric statistical test for testing whether samples originate from the same distribution. It is used for comparing two or more independent samples of equal or different sample sizes. It extends the Mann–Whitney U test , which is used for comparing only two groups. The parametric equivalent of the Kruskal–Wallis test is the one-way analysis of variance (ANOVA). A significant Kruskal–Wallis test indicates that at least one sample stochastically dominates one other sample. The test does not identify where this stochastic dominance occurs or for how many pairs of groups stochastic dominance obtains. For analyzing the specific sample pairs for stochastic dominance, Dunn&#x27;s test, pairwise Mann–Whitney tests with Bonferroni correction , or the more powerful but less well known Conover–Iman test are sometimes used. It is supposed that the treatments significantly affect the response level and then there is an order among the treatments: one tends to give the lowest response, another gives the next lowest response is second, and so forth. Since it is a nonparametric method, the Kruskal–Wallis test does not assume a normal distribution of the residuals, unlike the analogous one-way analysis of variance. If the researcher can make the assumptions </p>
+    <hr>
+    <h2>Exact probability tables</h2>
+    <p>A large amount of computing resources is required to compute exact probabilities for the Kruskal–Wallis test. Existing software only provides exact probabilities for sample sizes of less than about 30 participants. These software programs rely on the asymptotic approximation for larger sample sizes. Exact probability values for larger sample sizes are available. Spurrier (2003) published exact probability tables for samples as large as 45 participants. Meyer and Seaman (2006) produced exact probability distributions for samples as large as 105 participants.</p>
+    <hr>
+    <h2>Exact distribution of H</h2>
+    <p>Choi et al. made a review of two methods that had been developed to compute the exact distribution of , proposed a new one, and compared the exact distribution to its chi-squared approximation.</p>
+    <hr>
+    <h2>Test for differences in ozone levels by month</h2>
+    <p>The following example uses data from Chambers et al. on daily readings of ozone for May 1 to September 30, 1973, in New York City. The data are in the R data set airquality , and the analysis is included in the documentation for the R function kruskal.test . Boxplots of ozone values by month are shown in the figure. The Kruskal–Wallis test finds a significant difference (p = 6.901e-06) indicating that ozone differs among the 5 months. To determine which months differ, post-hoc tests may be performed using a Wilcoxon rank-sum test for each pair of months, with a Bonferroni (or other) correction for multiple hypothesis testing. The post-hoc tests indicate that, after Bonferroni correction for multiple testing, the following differences are significant (adjusted p &lt; 0.05).</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Munsieville.html">Munsieville</a></li>
+      <li><a href="Ramsey_New_Jersey.html">Ramsey, New Jersey</a></li>
+      <li><a href="Gimbal.html">Gimbal</a></li>
+      <li><a href="Open_Financial_Exchange.html">Open Financial Exchange</a></li>
+      <li><a href="Ivanava.html">Ivanava</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Kruskal%E2%80%93Wallis_test">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 11, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
