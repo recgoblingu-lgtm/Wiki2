@@ -138546,13 +138546,33 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Borough_of_Castle_Point",
       "generated_at": "2026-10-12T00:58:52+00:00"
+    },
+    {
+      "title": "Outreau",
+      "filename": "Outreau.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Outreau",
+      "generated_at": "2026-10-12T06:55:48+00:00"
+    },
+    {
+      "title": "Takuya Kimura",
+      "filename": "Takuya_Kimura.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Takuya_Kimura",
+      "generated_at": "2026-10-12T06:56:16+00:00"
+    },
+    {
+      "title": "Avery, California",
+      "filename": "Avery_California.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Avery%2C_California",
+      "generated_at": "2026-10-12T06:56:39+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|524404482a4e04344c2a363a4032011201dc11|61689871",
-    "Category:Arcade video games": "page|504c5258504644040992543a30324604362a423209940306504c5258504644040992543a30324604362a4232099401250c01dcb2dc17|724012",
-    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
-    "Category:Video game franchises": "page|2e4642482a503a0438324c46011001dcbfdc07|32470667"
+    "Category:Video game franchises": "page|422a4c54324004544e08042e2a482e4642011501dcbcdc09|446464",
+    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
+    "Category:Arcade video games": "page|2a4c423230044846403a2e32042c2a504c3a30324c011901dcc1dcc0dc0b|20996957",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
