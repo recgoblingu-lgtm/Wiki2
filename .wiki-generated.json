@@ -138567,12 +138567,19 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Avery%2C_California",
       "generated_at": "2026-10-12T06:56:39+00:00"
+    },
+    {
+      "title": "Simsbury, Connecticut",
+      "filename": "Simsbury_Connecticut.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Simsbury%2C_Connecticut",
+      "generated_at": "2026-10-12T16:21:17+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Video game franchises": "page|422a4c54324004544e08042e2a482e4642011501dcbcdc09|446464",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
-    "Category:Arcade video games": "page|2a4c423230044846403a2e32042c2a504c3a30324c011901dcc1dcc0dc0b|20996957",
+    "Category:Video game franchises": "page|4e4832404034464c2e32010e01dcc2dc08|46894073",
+    "Category:Arcade video games": "page|2e2a403a34464c443a2a044e48323230040992543a30324604362a42320994012101dcbcdc15|6200156",
+    "Category:Indie games": "page|2c2a4436075a04384656305a010f01dcc1dc08|4344536",
     "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
