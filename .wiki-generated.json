@@ -138518,13 +138518,41 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Nat_Hentoff",
       "generated_at": "2026-10-11T17:05:39+00:00"
+    },
+    {
+      "title": "Magic (supernatural)",
+      "filename": "Magic_supernatural.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Magic_(supernatural)",
+      "generated_at": "2026-10-12T00:57:42+00:00"
+    },
+    {
+      "title": "Maritime transport",
+      "filename": "Maritime_transport.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Maritime_transport",
+      "generated_at": "2026-10-12T00:58:04+00:00"
+    },
+    {
+      "title": "Small Mauritian flying fox",
+      "filename": "Small_Mauritian_flying_fox.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Small_Mauritian_flying_fox",
+      "generated_at": "2026-10-12T00:58:30+00:00"
+    },
+    {
+      "title": "Borough of Castle Point",
+      "filename": "Borough_of_Castle_Point.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Borough_of_Castle_Point",
+      "generated_at": "2026-10-12T00:58:52+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|4e324c3a46524e044e2a420736043e2a423a3e2a5c32042a50502a2e3e075a012101dcbfdcc2dcbedc0a|34251654",
-    "Category:Arcade video games": "page|4e2a4404344c2a442e3a4e2e46044c524e38040f53c7011801dcc3dcbddc09|1455083",
-    "Category:Video game franchises": "page|48402a4432504e3a3032010e01dcc1dc07|72838664",
+    "Category:Indie games": "page|524404482a4e04344c2a363a4032011201dc11|61689871",
+    "Category:Arcade video games": "page|504c5258504644040992543a30324604362a423209940306504c5258504644040992543a30324604362a4232099401250c01dcb2dc17|724012",
     "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418"
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Video game franchises": "page|2e4642482a503a0438324c46011001dcbfdc07|32470667"
   }
 }

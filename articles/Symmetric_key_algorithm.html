@@ -1,63 +1,64 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Symmetric-key algorithm - Wiki2</title>
-  <meta name="description" content="Symmetric-key algorithms are algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext and the decryption of ciphertext. The keys may be identical, or there may be a simple transformation to go be">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Symmetric_key_algorithm.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Symmetric-key algorithm - Wiki2">
-  <meta property="og:description" content="Symmetric-key algorithms are algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext and the decryption of ciphertext. The keys may be identical, or there may be a simple transformation to go be">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Symmetric_key_algorithm.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/8/80/Simple_symmetric_encryption-en.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Symmetric-key algorithm - Wiki2">
-  <meta name="twitter:description" content="Symmetric-key algorithms are algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext and the decryption of ciphertext. The keys may be identical, or there may be a simple transformation to go be">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/8/80/Simple_symmetric_encryption-en.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Symmetric-key algorithm - Wiki2</title>
+<meta content="Symmetric-key algorithms are algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext and the decryption of ciphertext. The keys may be identical, or there may be a simple transformation to go be" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Symmetric_key_algorithm.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Symmetric-key algorithm" property="og:title"/>
+<meta content="Symmetric-key algorithm is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Symmetric_key_algorithm.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/8/80/Simple_symmetric_encryption-en.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Symmetric-key algorithm" name="twitter:title"/>
+<meta content="Symmetric-key algorithm is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/8/80/Simple_symmetric_encryption-en.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Symmetric-key algorithm</h1>
-    <p><b>Symmetric-key algorithm</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>Symmetric-key algorithms are algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext and the decryption of ciphertext. The keys may be identical, or there may be a simple transformation to go between the two keys. The keys, in practice, represent a shared secret between two or more parties that can be used to maintain a private information link. The requirement that both parties have access to the secret key is one of the main drawbacks of symmetric-key encryption, in comparison to asymmetric-key encryption. However, symmetric-key encryption algorithms are usually better for bulk encryption. With the exception of the one-time pad they have a smaller key size, which means less storage space and faster transmission. Due to this, asymmetric-key encryption is often used to exchange the secret key for symmetric-key encryption.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Simple_symmetric_encryption-en.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Symmetric-key algorithm"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>Symmetric-key algorithms are algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext and the decryption of ciphertext . The keys may be identical, or there may be a simple transformation to go between the two keys. The keys, in practice, represent a shared secret between two or more parties that can be used to maintain a private information link. The requirement that both parties have access to the secret key is one of the main drawbacks of symmetric -key encryption, in comparison to asymmetric-key encryption (also known as public-key encryption). However, symmetric-key encryption algorithms are usually better for bulk encryption. With the exception of the one-time pad they have a smaller key size, which means less storage space and faster transmission. Due to this, asymmetric-key encryption is often used to exchange the secret key for symmetric-key encryption.</p>
-    <hr>
-    <h2>Types</h2>
-    <p>Symmetric-key encryption can use either stream ciphers or block ciphers . Stream ciphers encrypt the digits (typically bytes ), or letters (in substitution ciphers) of a message one at a time. An example is ChaCha20 . Substitution ciphers are well-known ciphers, but can be easily decrypted using a frequency table . Block ciphers take a number of bits and encrypt them in a single unit, padding the plaintext to achieve a multiple of the block size. The Advanced Encryption Standard (AES) algorithm, approved by NIST in December 2001, uses 128-bit blocks.</p>
-    <hr>
-    <h2>Implementations</h2>
-    <p>Examples of popular symmetric-key algorithms include Twofish , Serpent , AES (Rijndael), Camellia , Salsa20 , ChaCha20 , Blowfish , CAST5 , Kuznyechik , RC4 , DES , 3DES , Skipjack , Safer , and IDEA .</p>
-    <hr>
-    <h2>Use as a cryptographic primitive</h2>
-    <p>Symmetric ciphers are commonly used to achieve other cryptographic primitives than just encryption. Encrypting a message does not guarantee that it will remain unchanged while encrypted. Hence, often a message authentication code is added to a ciphertext to ensure that changes to the ciphertext will be noted by the receiver. Message authentication codes can be constructed from an AEAD cipher (e.g. AES-GCM ). However, symmetric ciphers cannot be used for non-repudiation purposes except by involving additional parties. See the ISO/IEC 13888-2 standard . Another application is to build hash functions from block ciphers. See one-way compression function for descriptions of several such methods.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Doswell.html">Doswell</a></li>
-      <li><a href="Marco_Reda.html">Marco Reda</a></li>
-      <li><a href="Stormix.html">Stormix</a></li>
-      <li><a href="Unergative_verb.html">Unergative verb</a></li>
-      <li><a href="194_BC.html">194 BC</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Symmetric-key_algorithm">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 11, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Symmetric-key algorithm</h1>
+<p><b>Symmetric-key algorithm</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>Symmetric-key algorithms are algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext and the decryption of ciphertext. The keys may be identical, or there may be a simple transformation to go between the two keys. The keys, in practice, represent a shared secret between two or more parties that can be used to maintain a private information link. The requirement that both parties have access to the secret key is one of the main drawbacks of symmetric-key encryption, in comparison to asymmetric-key encryption. However, symmetric-key encryption algorithms are usually better for bulk encryption. With the exception of the one-time pad they have a smaller key size, which means less storage space and faster transmission. Due to this, asymmetric-key encryption is often used to exchange the secret key for symmetric-key encryption.</p>
+<figure class="article-image"><img alt="Symmetric-key algorithm" src="https://upload.wikimedia.org/wikipedia/commons/8/80/Simple_symmetric_encryption-en.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>Symmetric-key algorithms are algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext and the decryption of ciphertext . The keys may be identical, or there may be a simple transformation to go between the two keys. The keys, in practice, represent a shared secret between two or more parties that can be used to maintain a private information link. The requirement that both parties have access to the secret key is one of the main drawbacks of symmetric -key encryption, in comparison to asymmetric-key encryption (also known as public-key encryption). However, symmetric-key encryption algorithms are usually better for bulk encryption. With the exception of the one-time pad they have a smaller key size, which means less storage space and faster transmission. Due to this, asymmetric-key encryption is often used to exchange the secret key for symmetric-key encryption.</p>
+<hr/>
+<h2>Types</h2>
+<p>Symmetric-key encryption can use either stream ciphers or block ciphers . Stream ciphers encrypt the digits (typically bytes ), or letters (in substitution ciphers) of a message one at a time. An example is ChaCha20 . Substitution ciphers are well-known ciphers, but can be easily decrypted using a frequency table . Block ciphers take a number of bits and encrypt them in a single unit, padding the plaintext to achieve a multiple of the block size. The Advanced Encryption Standard (AES) algorithm, approved by NIST in December 2001, uses 128-bit blocks.</p>
+<hr/>
+<h2>Implementations</h2>
+<p>Examples of popular symmetric-key algorithms include Twofish , Serpent , AES (Rijndael), Camellia , Salsa20 , ChaCha20 , Blowfish , CAST5 , Kuznyechik , RC4 , DES , 3DES , Skipjack , Safer , and IDEA .</p>
+<hr/>
+<h2>Use as a cryptographic primitive</h2>
+<p>Symmetric ciphers are commonly used to achieve other cryptographic primitives than just encryption. Encrypting a message does not guarantee that it will remain unchanged while encrypted. Hence, often a message authentication code is added to a ciphertext to ensure that changes to the ciphertext will be noted by the receiver. Message authentication codes can be constructed from an AEAD cipher (e.g. AES-GCM ). However, symmetric ciphers cannot be used for non-repudiation purposes except by involving additional parties. See the ISO/IEC 13888-2 standard . Another application is to build hash functions from block ciphers. See one-way compression function for descriptions of several such methods.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Doswell.html">Doswell</a></li>
+<li><a href="Marco_Reda.html">Marco Reda</a></li>
+<li><a href="Stormix.html">Stormix</a></li>
+<li><a href="Unergative_verb.html">Unergative verb</a></li>
+<li><a href="194_BC.html">194 BC</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Symmetric-key_algorithm">Wikimedia article</a></small></p>
+<p><i>Last edited: October 11, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

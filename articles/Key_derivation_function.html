@@ -1,64 +1,65 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Key derivation function - Wiki2</title>
-  <meta name="description" content="In cryptography, a key derivation function (KDF) is an algorithm that derives one or more secret keys from a secret value, such as a master key, a password, or a passphrase using a pseudorandom function. KDFs can be used to stretch keys int">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Key_derivation_function.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Key derivation function - Wiki2">
-  <meta property="og:description" content="In cryptography, a key derivation function (KDF) is an algorithm that derives one or more secret keys from a secret value, such as a master key, a password, or a passphrase using a pseudorandom function. KDFs can be used to stretch keys int">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Key_derivation_function.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/e0/KDF_chain.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Key derivation function - Wiki2">
-  <meta name="twitter:description" content="In cryptography, a key derivation function (KDF) is an algorithm that derives one or more secret keys from a secret value, such as a master key, a password, or a passphrase using a pseudorandom function. KDFs can be used to stretch keys int">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/e/e0/KDF_chain.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Key derivation function - Wiki2</title>
+<meta content="In cryptography, a key derivation function (KDF) is an algorithm that derives one or more secret keys from a secret value, such as a master key, a password, or a passphrase using a pseudorandom function. KDFs can be used to stretch keys int" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Key_derivation_function.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Key derivation function" property="og:title"/>
+<meta content="Key derivation function is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Key_derivation_function.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/e/e0/KDF_chain.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Key derivation function" name="twitter:title"/>
+<meta content="Key derivation function is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/e/e0/KDF_chain.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Key derivation function</h1>
-    <p><b>Key derivation function</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In cryptography, a key derivation function (KDF) is an algorithm that derives one or more secret keys from a secret value, such as a master key, a password, or a passphrase using a pseudorandom function. KDFs can be used to stretch keys into longer keys or to obtain keys of a required format, such as converting a group element that is the result of a Diffie–Hellman key exchange into a symmetric key for use with AES. Keyed cryptographic hash functions are popular examples of pseudorandom functions used for key derivation.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/KDF_chain.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Key derivation function"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/KDF_chain.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="KDF chain.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>In cryptography , a key derivation function ( KDF ) is an algorithm that derives one or more secret keys from a secret value, such as a master key, a password , or a passphrase using a pseudorandom function (which typically uses a cryptographic hash function or block cipher ). KDFs can be used to stretch keys into longer keys or to obtain keys of a required format, such as converting a group element that is the result of a Diffie–Hellman key exchange into a symmetric key for use with AES . Keyed cryptographic hash functions are popular examples of pseudorandom functions used for key derivation.</p>
-    <hr>
-    <h2>Key derivation</h2>
-    <p>The original use for a KDF is key derivation, the generation of keys from secret passwords or passphrases. Variations on this theme include:</p>
-    <hr>
-    <h2>Key stretching and key strengthening</h2>
-    <p>Key derivation functions are also used in applications to derive keys from secret passwords or passphrases, which typically do not have the desired properties to be used directly as cryptographic keys. In such applications, it is generally recommended that the key derivation function be made deliberately slow so as to frustrate brute-force attack or dictionary attack on the password or passphrase input value. Such use may be expressed as DK = KDF(key, salt, iterations) , where DK is the derived key, KDF is the key derivation function , key is the original key or password, salt is a random number which acts as cryptographic salt , and iterations refers to the number of iterations of a sub-function. The derived key is used instead of the original key or password as the key to the system. The values of the salt and the number of iterations (if it is not fixed) are stored with the hashed password or sent as cleartext (unencrypted) with an encrypted message. The difficulty of a brute force attack is increased with the number of iterations. A practical limit on the iteration count is the unwillingness of users to tolerate a perceptible delay in logging into a computer or seeing a decrypted message. The use of salt prevents the attackers from precomputing a dictionary of derived keys. An alternative approach, called key strengthening , extends the key with a random salt, but then (unl</p>
-    <hr>
-    <h2>Deriving keys from passwords</h2>
-    <p>High-throughput (keyed) cryptographic hash functions are inappropriate for generating cryptographic keys from low-entropy secrets like passwords, as if the function is quick to evaluate a small search space can quickly be exhaustively searched.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Alabama_Shakespeare_Festival.html">Alabama Shakespeare Festival</a></li>
-      <li><a href="Ram_Kripal_Yadav.html">Ram Kripal Yadav</a></li>
-      <li><a href="Robert_Cimetta.html">Robert Cimetta</a></li>
-      <li><a href="Pope_music.html">Pope (music)</a></li>
-      <li><a href="Brittonic_languages.html">Brittonic languages</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Key_derivation_function">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 11, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Key derivation function</h1>
+<p><b>Key derivation function</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In cryptography, a key derivation function (KDF) is an algorithm that derives one or more secret keys from a secret value, such as a master key, a password, or a passphrase using a pseudorandom function. KDFs can be used to stretch keys into longer keys or to obtain keys of a required format, such as converting a group element that is the result of a Diffie–Hellman key exchange into a symmetric key for use with AES. Keyed cryptographic hash functions are popular examples of pseudorandom functions used for key derivation.</p>
+<figure class="article-image"><img alt="Key derivation function" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/KDF_chain.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="KDF chain.png" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/KDF_chain.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>In cryptography , a key derivation function ( KDF ) is an algorithm that derives one or more secret keys from a secret value, such as a master key, a password , or a passphrase using a pseudorandom function (which typically uses a cryptographic hash function or block cipher ). KDFs can be used to stretch keys into longer keys or to obtain keys of a required format, such as converting a group element that is the result of a Diffie–Hellman key exchange into a symmetric key for use with AES . Keyed cryptographic hash functions are popular examples of pseudorandom functions used for key derivation.</p>
+<hr/>
+<h2>Key derivation</h2>
+<p>The original use for a KDF is key derivation, the generation of keys from secret passwords or passphrases. Variations on this theme include:</p>
+<hr/>
+<h2>Key stretching and key strengthening</h2>
+<p>Key derivation functions are also used in applications to derive keys from secret passwords or passphrases, which typically do not have the desired properties to be used directly as cryptographic keys. In such applications, it is generally recommended that the key derivation function be made deliberately slow so as to frustrate brute-force attack or dictionary attack on the password or passphrase input value. Such use may be expressed as DK = KDF(key, salt, iterations) , where DK is the derived key, KDF is the key derivation function , key is the original key or password, salt is a random number which acts as cryptographic salt , and iterations refers to the number of iterations of a sub-function. The derived key is used instead of the original key or password as the key to the system. The values of the salt and the number of iterations (if it is not fixed) are stored with the hashed password or sent as cleartext (unencrypted) with an encrypted message. The difficulty of a brute force attack is increased with the number of iterations. A practical limit on the iteration count is the unwillingness of users to tolerate a perceptible delay in logging into a computer or seeing a decrypted message. The use of salt prevents the attackers from precomputing a dictionary of derived keys. An alternative approach, called key strengthening , extends the key with a random salt, but then (unl</p>
+<hr/>
+<h2>Deriving keys from passwords</h2>
+<p>High-throughput (keyed) cryptographic hash functions are inappropriate for generating cryptographic keys from low-entropy secrets like passwords, as if the function is quick to evaluate a small search space can quickly be exhaustively searched.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Alabama_Shakespeare_Festival.html">Alabama Shakespeare Festival</a></li>
+<li><a href="Ram_Kripal_Yadav.html">Ram Kripal Yadav</a></li>
+<li><a href="Robert_Cimetta.html">Robert Cimetta</a></li>
+<li><a href="Pope_music.html">Pope (music)</a></li>
+<li><a href="Brittonic_languages.html">Brittonic languages</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Key_derivation_function">Wikimedia article</a></small></p>
+<p><i>Last edited: October 11, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
