@@ -138581,11 +138581,34 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Catatonia_(band)",
       "generated_at": "2026-10-12T23:06:13+00:00"
+    },
+    {
+      "title": "Apple Store",
+      "filename": "Apple_Store.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Apple_Store",
+      "generated_at": "2026-10-13T17:56:47+00:00"
+    },
+    {
+      "title": "Arrondissement of Metz-Ville",
+      "filename": "Arrondissement_of_Metz_Ville.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Arrondissement_of_Metz-Ville",
+      "generated_at": "2026-10-13T17:57:16+00:00"
+    },
+    {
+      "title": "Omar Daal",
+      "filename": "Omar_Daal.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Omar_Daal",
+      "generated_at": "2026-10-13T17:57:35+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|2e4c3a4e3a4e045c464432010f01dcc0dc07|1553072",
-    "Category:Indie games": "page|2e383a40304c3244044634042e402a5a06045038320306503832042e383a40304c3244044634042e402a5a01250d01dcbbdcc1dcc3dcc3dcbbdc07|80278893",
+    "Category:Arcade video games": "page|383a3638562a5a044c2a2e32011001dcbfdc07|9548043",
+    "Category:Indie games": "page|342a3a50380736045038320452443846405a04504c3a443a505a011d01dcc0dcc3dcc0dc0a|65634422",
+    "Category:Video game franchises": "page|422a4c54324004544e08042e2a482e4642011501dcbcdc09|446464",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
     "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
