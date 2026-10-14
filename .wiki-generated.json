@@ -138602,13 +138602,20 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Omar_Daal",
       "generated_at": "2026-10-13T17:57:35+00:00"
+    },
+    {
+      "title": "Sandustry",
+      "filename": "Sandustry.html",
+      "category": "Sandbox games",
+      "source": "https://en.wikipedia.org/wiki/Sandustry",
+      "generated_at": "2026-10-14T23:06:30+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|383a3638562a5a044c2a2e32011001dcbfdc07|9548043",
-    "Category:Indie games": "page|342a3a50380736045038320452443846405a04504c3a443a505a011d01dcc0dcc3dcc0dc0a|65634422",
-    "Category:Video game franchises": "page|422a4c54324004544e08042e2a482e4642011501dcbcdc09|446464",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
+    "Category:Arcade video games": "page|3e3a4040324c044046464803063e3a4040324c0440464648011b01dcc0dcc2dcc0dc07|24067039",
+    "Category:Indie games": "page|365244044246443e325a4e010f01dcc3dc0a|54822028",
+    "Category:Video game franchises": "page|48402a4432504e3a3032010e01dcc1dc07|72838664",
+    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
+    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474"
   }
 }
