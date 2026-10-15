@@ -138609,12 +138609,26 @@
       "category": "Sandbox games",
       "source": "https://en.wikipedia.org/wiki/Sandustry",
       "generated_at": "2026-10-14T23:06:30+00:00"
+    },
+    {
+      "title": "Wrenshall, Minnesota",
+      "filename": "Wrenshall_Minnesota.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Wrenshall%2C_Minnesota",
+      "generated_at": "2026-10-15T06:04:14+00:00"
+    },
+    {
+      "title": "Australian Festival of Chamber Music",
+      "filename": "Australian_Festival_of_Chamber_Music.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Australian_Festival_of_Chamber_Music",
+      "generated_at": "2026-10-15T06:04:49+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|3e3a4040324c044046464803063e3a4040324c0440464648011b01dcc0dcc2dcc0dc07|24067039",
-    "Category:Indie games": "page|365244044246443e325a4e010f01dcc3dc0a|54822028",
-    "Category:Video game franchises": "page|48402a4432504e3a3032010e01dcc1dc07|72838664",
+    "Category:Arcade video games": "page|424644325a0448525c5c40320432582e382a4436324c0306424644325a0448525c5c40320432582e382a4436324c01251001dcc1dcc0dcbddcc1dcc0dc0c|4490637",
+    "Category:Indie games": "page|3c3250482a2e3e043c465a4c3a3032011301dcbfdc0a|35741894",
+    "Category:Video game franchises": "page|562a4c3a46562a4c32010d01e0c2e007|1304812",
     "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
     "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474"
   }
