@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Java Management Extensions - Wiki2</title>
+  <meta name="description" content="Java Management Extensions (JMX) is a Java technology that supplies tools for managing and monitoring applications, system objects, devices and service-oriented networks. Those resources are represented by objects called MBeans. In the API,">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Java_Management_Extensions.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Java Management Extensions - Wiki2">
+  <meta property="og:description" content="Java Management Extensions (JMX) is a Java technology that supplies tools for managing and monitoring applications, system objects, devices and service-oriented networks. Those resources are represented by objects called MBeans. In the API,">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Java_Management_Extensions.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Java Management Extensions - Wiki2">
+  <meta name="twitter:description" content="Java Management Extensions (JMX) is a Java technology that supplies tools for managing and monitoring applications, system objects, devices and service-oriented networks. Those resources are represented by objects called MBeans. In the API,">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Java Management Extensions</h1>
+    <p><b>Java Management Extensions</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>Java Management Extensions (JMX) is a Java technology that supplies tools for managing and monitoring applications, system objects, devices and service-oriented networks. Those resources are represented by objects called MBeans. In the API, classes can be dynamically loaded and instantiated. Managing and monitoring applications can be designed and developed using the Java Dynamic Management Kit.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>Java Management Extensions ( JMX ) is a Java technology that supplies tools for managing and monitoring applications , system objects, devices (such as printers ) and service-oriented networks. Those resources are represented by objects called MBeans (for Managed Bean ). In the API, classes can be dynamically loaded and instantiated. Managing and monitoring applications can be designed and developed using the Java Dynamic Management Kit. JSR 003 of the Java Community Process defined JMX 1.0, 1.1 and 1.2. JMX 2.0 was being developed under JSR 255, but this JSR was subsequently withdrawn. The JMX Remote API 1.0 for remote management and monitoring is specified by JSR 160. An extension of the JMX Remote API for Web Services was being developed under JSR 262. Adopted early on by the J2EE community, JMX has been a part of J2SE since version 5.0. &quot;JMX&quot; is a trademark of Oracle Corporation .</p>
+    <hr>
+    <h2>Architecture</h2>
+    <p>JMX uses a three-level architecture: Applications can be generic consoles (such as JConsole and MC4J ) or domain-specific (monitoring) applications. External applications can interact with the MBeans through the use of JMX connectors and protocol adapters. Connectors serve to connect an agent with a remote JMX-enabled management application. This form of communication involves a connector in the JMX agent and a connector client in the management application. The Java Platform, Standard Edition ships with one connector, the RMI connector , which uses the Java Remote Method Protocol that is part of the Java remote method invocation API. This is the connector which most management applications use. Protocol adapters provide a management view of the JMX agent through a given protocol. Management applications that connect to a protocol adapter are usually specific to the given protocol.</p>
+    <hr>
+    <h2>Managed beans</h2>
+    <p>A managed bean – sometimes simply referred to as an MBean – is a type of JavaBean , created with dependency injection . Managed Beans are particularly used in the Java Management Extensions technology – but with Java EE 6 the specification provides for a more detailed meaning of a managed bean. The MBean represents a resource running in the Java virtual machine , such as an application or a Java EE technical service (transactional monitor, JDBC driver, etc.). They can be used for collecting statistics on concerns like performance, resources usage, or problems (pull); for getting and setting application configurations or properties (push/pull); and notifying events like faults or state changes (push). Java EE 6 provides that a managed bean is a bean that is implemented by a Java class, which is called its bean class. A top-level Java class is a managed bean if it is defined to be a managed bean by any other Java EE technology specification (for example, the JavaServer Faces technology specification), or if it meets all of the following conditions: No special declaration, such as an annotation, is required to define a managed bean. A MBean can notify the MBeanServer of its internal changes (for the attributes) by implementing the javax.management.NotificationEmitter . The application interested in the MBean&#x27;s changes registers a listener ( javax.management.NotificationListener ) </p>
+    <hr>
+    <h2>Types</h2>
+    <p>There are two basic types of MBean: Additional types are Open MBeans , Model MBeans and Monitor MBeans . Open MBeans are dynamic MBeans that rely on the basic data types. They are self-explanatory and more user-friendly. Model MBeans are dynamic MBeans that can be configured during runtime. A generic MBean class is also provided for dynamically configuring the resources during program runtime. A MXBean ( Platform MBean ) is a special type of MBean that reifies Java virtual machine subsystems such as garbage collection , JIT compilation , memory pools , multi-threading , etc. A MLet ( Management applet ) is a utility MBean to load, instantiate and register MBeans in a MBeanServer from an XML description. The format of the XML descriptor is:</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Lidsville.html">Lidsville</a></li>
+      <li><a href="Spellbound_Paula_Abdul_album.html">Spellbound (Paula Abdul album)</a></li>
+      <li><a href="Push_to_type_operation.html">Push-to-type operation</a></li>
+      <li><a href="Kents_Bank_railway_station.html">Kents Bank railway station</a></li>
+      <li><a href="James_Edward_Pough.html">James Edward Pough</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Java_Management_Extensions">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 15, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
