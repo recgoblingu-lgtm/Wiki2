@@ -142123,15 +142123,27 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Train_of_Thought_(Cher_song)",
       "generated_at": "2026-10-15T15:07:46+00:00"
+    },
+    {
+      "title": "Judson Mills",
+      "filename": "Judson_Mills.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Judson_Mills",
+      "generated_at": "2026-10-15T19:23:17+00:00"
+    },
+    {
+      "title": "Francisco I. Madero",
+      "filename": "Francisco_I_Madero.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Francisco_I._Madero",
+      "generated_at": "2026-10-15T19:23:41+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|56382a50044c32422a3a444e0446340432303a503804343a442e38011f01e0c2dcbcdcc1dc08|52924170",
-    "Category:Arcade video games": "page|2c3244042c324c46042c3238011001dcc3dcc2dc06|6653170",
-    "Category:Video game franchises": "page|34050e0f0304364c2a443004484c3a58040992543a30324604362a4232044e324c3a324e099401250501dcc3dcc1dc1b|27378181",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
+    "Category:Arcade video games": "page|303a44464e2a524c043e3a4436011101dcbedc07|3597128",
+    "Category:Video game franchises": "page|422a4c54324004544e08042e2a482e4642011501dcbcdc09|446464",
     "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418"
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }

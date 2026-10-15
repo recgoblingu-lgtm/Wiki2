@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Third normal form - Wiki2</title>
-  <meta name="description" content="Third normal form (3NF) is a level of database normalization defined by English computer scientist Edgar F. Codd. A relation is in third normal form if it is in second normal form and also lacks non-key dependencies, meaning that no non-pri">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Third_normal_form.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Third normal form - Wiki2">
-  <meta property="og:description" content="Third normal form (3NF) is a level of database normalization defined by English computer scientist Edgar F. Codd. A relation is in third normal form if it is in second normal form and also lacks non-key dependencies, meaning that no non-pri">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Third_normal_form.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Third normal form - Wiki2">
-  <meta name="twitter:description" content="Third normal form (3NF) is a level of database normalization defined by English computer scientist Edgar F. Codd. A relation is in third normal form if it is in second normal form and also lacks non-key dependencies, meaning that no non-pri">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Third normal form - Wiki2</title>
+<meta content="Third normal form (3NF) is a level of database normalization defined by English computer scientist Edgar F. Codd. A relation is in third normal form if it is in second normal form and also lacks non-key dependencies, meaning that no non-pri" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Third_normal_form.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Third normal form" property="og:title"/>
+<meta content="Third normal form is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Third_normal_form.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Third normal form" name="twitter:title"/>
+<meta content="Third normal form is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Third normal form</h1>
-    <p><b>Third normal form</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>Third normal form (3NF) is a level of database normalization defined by English computer scientist Edgar F. Codd. A relation is in third normal form if it is in second normal form and also lacks non-key dependencies, meaning that no non-prime attribute is functionally dependent on any other non-prime attribute. In other words, each non-prime attribute must depend solely and non-transitively on each candidate key. William Kent summarised 3NF with the dictum that &quot;a non-key field must provide a fact about the key, the whole key, and nothing but the key&quot;.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>Third normal form ( 3NF ) is a level of database normalization defined by English computer scientist Edgar F. Codd . A relation (or table , in SQL ) is in third normal form if it is in second normal form and also lacks non-key dependencies, meaning that no non-prime attribute is functionally dependent on (that is, contains a fact about) any other non-prime attribute. In other words, each non-prime attribute must depend solely and non-transitively on each candidate key. William Kent summarised 3NF with the dictum that &quot;a non-key field must provide a fact about the key, the whole key, and nothing but the key&quot;. An example of a violation of 3NF would be a Patient relation with the attributes PatientID, DoctorID and DoctorName, in which DoctorName would depend first and foremost on DoctorID and only transitively on the key, PatientID (via DoctorID&#x27;s dependency on PatientID). Such a design would cause a doctor&#x27;s name to be redundantly duplicated across each of their patients. A database compliant with 3NF would store doctors&#x27; names in a separate Doctor relation which Patient could reference via a foreign key . 3NF was defined, along with 2NF (which forbids dependencies on proper subsets of composite keys ), in Codd&#x27;s paper &quot;Further Normalization of the Data Base Relational Model&quot; in 1971, which came after 1NF&#x27;s definition in &quot;A Relational Model of Data for Large Shared Data Banks&quot; in</p>
-    <hr>
-    <h2>Definition of third normal form</h2>
-    <p>Codd&#x27;s definition states that a relation R is in 3NF if and only if it is in second normal form (2NF) and every non-prime attribute of R is non-transitively dependent on each candidate key . A non-prime attribute of R is an attribute that does not belong to any candidate key of R. Codd defines a transitive dependency of an attribute set Z on an attribute set X as a functional dependency chain X → Y → Z that must be satisfied for some attribute set Y , where it is not the case that Y → X , and all three sets must be disjoint. A 3NF definition that is equivalent to Codd&#x27;s, but expressed differently, was given by Carlo Zaniolo in 1982. This definition states that a table is in 3NF if and only if for each of its functional dependencies X → Y , at least one of the following conditions holds: To rephrase Zaniolo&#x27;s definition more simply, the relation is in 3NF if and only if for every non-trivial functional dependency X → Y, X is a superkey or Y \ X consists of prime attributes. Zaniolo&#x27;s definition gives a clear sense of the difference between 3NF and the more stringent Boyce–Codd normal form (BCNF). BCNF simply eliminates the third alternative (&quot;Every element of Y \ X , the set difference between Y and X , is a prime attribute.&quot;). The definition offered by Zaniolo can be shown to be equivalent to the Codd definition in the following way (the trivial case is by default same statemen</p>
-    <hr>
-    <h2>Design which violates 3NF</h2>
-    <p>The following relation, with the composite key {Name, Year}, fails to meet the requirements of 3NF. The non-prime attributes WinnerName and WinnerBirthdate are only transitively dependent on the composite key via their dependence on the non-prime attribute WinnerID. This creates redundancy and the potential for inconsistency in the case that a winner of multiple tournaments is accidentally given different dates of birth in different tuples.</p>
-    <hr>
-    <h2>Design which complies with 3NF</h2>
-    <p>To bring the relation into compliance with 3NF, WinnerID, WinnerName and WinnerBirthdate can be transferred to a separate table. Tournament&#x27;s WinnerID attribute now acts as a foreign key referencing the primary key of Winner. Unlike before, it is not possible for a winner to be associated with multiple dates of birth.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="American_Indian_Film_Festival.html">American Indian Film Festival</a></li>
-      <li><a href="Babanango.html">Babanango</a></li>
-      <li><a href="Stan_Sheriff_Center.html">Stan Sheriff Center</a></li>
-      <li><a href="Growth_hormone.html">Growth hormone</a></li>
-      <li><a href="Computer_Warrior.html">Computer Warrior</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Third_normal_form">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 15, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Third normal form</h1>
+<p><b>Third normal form</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>Third normal form (3NF) is a level of database normalization defined by English computer scientist Edgar F. Codd. A relation is in third normal form if it is in second normal form and also lacks non-key dependencies, meaning that no non-prime attribute is functionally dependent on any other non-prime attribute. In other words, each non-prime attribute must depend solely and non-transitively on each candidate key. William Kent summarised 3NF with the dictum that "a non-key field must provide a fact about the key, the whole key, and nothing but the key".</p>
+<hr/>
+<h2>Background</h2>
+<p>Third normal form ( 3NF ) is a level of database normalization defined by English computer scientist Edgar F. Codd . A relation (or table , in SQL ) is in third normal form if it is in second normal form and also lacks non-key dependencies, meaning that no non-prime attribute is functionally dependent on (that is, contains a fact about) any other non-prime attribute. In other words, each non-prime attribute must depend solely and non-transitively on each candidate key. William Kent summarised 3NF with the dictum that "a non-key field must provide a fact about the key, the whole key, and nothing but the key". An example of a violation of 3NF would be a Patient relation with the attributes PatientID, DoctorID and DoctorName, in which DoctorName would depend first and foremost on DoctorID and only transitively on the key, PatientID (via DoctorID's dependency on PatientID). Such a design would cause a doctor's name to be redundantly duplicated across each of their patients. A database compliant with 3NF would store doctors' names in a separate Doctor relation which Patient could reference via a foreign key . 3NF was defined, along with 2NF (which forbids dependencies on proper subsets of composite keys ), in Codd's paper "Further Normalization of the Data Base Relational Model" in 1971, which came after 1NF's definition in "A Relational Model of Data for Large Shared Data Banks" in</p>
+<hr/>
+<h2>Definition of third normal form</h2>
+<p>Codd's definition states that a relation R is in 3NF if and only if it is in second normal form (2NF) and every non-prime attribute of R is non-transitively dependent on each candidate key . A non-prime attribute of R is an attribute that does not belong to any candidate key of R. Codd defines a transitive dependency of an attribute set Z on an attribute set X as a functional dependency chain X → Y → Z that must be satisfied for some attribute set Y , where it is not the case that Y → X , and all three sets must be disjoint. A 3NF definition that is equivalent to Codd's, but expressed differently, was given by Carlo Zaniolo in 1982. This definition states that a table is in 3NF if and only if for each of its functional dependencies X → Y , at least one of the following conditions holds: To rephrase Zaniolo's definition more simply, the relation is in 3NF if and only if for every non-trivial functional dependency X → Y, X is a superkey or Y \ X consists of prime attributes. Zaniolo's definition gives a clear sense of the difference between 3NF and the more stringent Boyce–Codd normal form (BCNF). BCNF simply eliminates the third alternative ("Every element of Y \ X , the set difference between Y and X , is a prime attribute."). The definition offered by Zaniolo can be shown to be equivalent to the Codd definition in the following way (the trivial case is by default same statemen</p>
+<hr/>
+<h2>Design which violates 3NF</h2>
+<p>The following relation, with the composite key {Name, Year}, fails to meet the requirements of 3NF. The non-prime attributes WinnerName and WinnerBirthdate are only transitively dependent on the composite key via their dependence on the non-prime attribute WinnerID. This creates redundancy and the potential for inconsistency in the case that a winner of multiple tournaments is accidentally given different dates of birth in different tuples.</p>
+<hr/>
+<h2>Design which complies with 3NF</h2>
+<p>To bring the relation into compliance with 3NF, WinnerID, WinnerName and WinnerBirthdate can be transferred to a separate table. Tournament's WinnerID attribute now acts as a foreign key referencing the primary key of Winner. Unlike before, it is not possible for a winner to be associated with multiple dates of birth.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="American_Indian_Film_Festival.html">American Indian Film Festival</a></li>
+<li><a href="Babanango.html">Babanango</a></li>
+<li><a href="Stan_Sheriff_Center.html">Stan Sheriff Center</a></li>
+<li><a href="Growth_hormone.html">Growth hormone</a></li>
+<li><a href="Computer_Warrior.html">Computer Warrior</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Third_normal_form">Wikimedia article</a></small></p>
+<p><i>Last edited: October 15, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
