@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ARP spoofing - Wiki2</title>
+  <meta name="description" content="In computer networking, ARP spoofing is a technique by which an attacker sends (spoofed) Address Resolution Protocol (ARP) messages onto a local area network. Generally, the aim is to associate the attacker&#x27;s MAC address with the IP address">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/ARP_spoofing.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="ARP spoofing - Wiki2">
+  <meta property="og:description" content="In computer networking, ARP spoofing is a technique by which an attacker sends (spoofed) Address Resolution Protocol (ARP) messages onto a local area network. Generally, the aim is to associate the attacker&#x27;s MAC address with the IP address">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/ARP_spoofing.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/3/33/ARP_Spoofing.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ARP spoofing - Wiki2">
+  <meta name="twitter:description" content="In computer networking, ARP spoofing is a technique by which an attacker sends (spoofed) Address Resolution Protocol (ARP) messages onto a local area network. Generally, the aim is to associate the attacker&#x27;s MAC address with the IP address">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/3/33/ARP_Spoofing.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>ARP spoofing</h1>
+    <p><b>ARP spoofing</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In computer networking, ARP spoofing is a technique by which an attacker sends (spoofed) Address Resolution Protocol (ARP) messages onto a local area network. Generally, the aim is to associate the attacker&#x27;s MAC address with the IP address of another host, such as the default gateway, causing any traffic meant for that IP address to be sent to the attacker instead.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/33/ARP_Spoofing.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="ARP spoofing"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In computer networking , ARP spoofing (also ARP cache poisoning or ARP poison routing ) is a technique by which an attacker sends ( spoofed ) Address Resolution Protocol (ARP) messages onto a local area network . Generally, the aim is to associate the attacker&#x27;s MAC address with the IP address of another host , such as the default gateway , causing any traffic meant for that IP address to be sent to the attacker instead. ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic. Often, the attack is used as an opening for other attacks, such as denial of service , man in the middle , or session hijacking attacks. The attack can only be used on networks that use ARP, and requires the attacker to have direct access to the local network segment to be attacked.</p>
+    <hr>
+    <h2>ARP vulnerabilities</h2>
+    <p>The Address Resolution Protocol (ARP) is a widely used communications protocol for resolving internet layer addresses into link layer addresses. When an Internet Protocol (IP) datagram is sent from one host to another in a local area network , the destination IP address must be resolved to a MAC address for transmission via the data link layer . The first host sends a broadcast packet on the local network. This packet is known as an ARP request . The second host with the IP in the ARP request then responds with a broadcast ARP reply that contains the MAC address associated with its IP. ARP is a stateless protocol . Network hosts will automatically cache any ARP replies they receive, regardless of which or any network hosts requested them. Even ARP entries that have not yet expired in the cache will be overwritten when a new ARP reply packet is received. There is no method in the ARP protocol by which a host can authenticate the peer from which the packet originated. This behavior is the vulnerability that allows ARP spoofing to occur.</p>
+    <hr>
+    <h2>Attack anatomy</h2>
+    <p>The basic principle behind ARP spoofing is to exploit the lack of authentication in the ARP protocol by sending spoofed ARP messages onto the LAN. ARP spoofing attacks can be run from a compromised host on the LAN or from an attacker&#x27;s machine that is connected directly to the target LAN. Generally, the goal of the attack is to associate the attacker&#x27;s host MAC address with the IP address of a target host, so that any traffic meant for the target host will be sent to the attacker&#x27;s host. The attacker may choose to inspect the packets (spying), while forwarding the traffic to the actual default destination to avoid discovery, modify the data before forwarding it ( man-in-the-middle attack ), or launch a denial-of-service attack by causing some or all of the packets on the network to be dropped.</p>
+    <hr>
+    <h2>Static ARP entries</h2>
+    <p>The simplest form of certification is the use of static, read-only entries for critical services in the ARP cache of a host. Hosts don&#x27;t need to transmit ARP requests where such entries exist. While static entries provide some security against spoofing, they increase maintenance effort as address mappings for all systems in the network must be generated and distributed. Securing ARP in this manner for all participants does not scale on a large network since the mapping has to be set for each pair of machines resulting in n - n ARP entries that have to be configured when n machines are present; On each machine there must be an ARP entry for every other machine on the network; n-1 ARP entries on each of the n machines.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Adrian_Frutiger.html">Adrian Frutiger</a></li>
+      <li><a href="Baltimore_School_for_the_Arts.html">Baltimore School for the Arts</a></li>
+      <li><a href="Shozo_Shimamoto.html">Shozo Shimamoto</a></li>
+      <li><a href="Survivors_1975_TV_series.html">Survivors (1975 TV series)</a></li>
+      <li><a href="Don_Frye.html">Don Frye</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/ARP_spoofing">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 16, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modbus - Wiki2</title>
+  <meta name="description" content="Modbus is a fieldbus, an industrial computer networking protocol. It was originally designed for use with programmable logic controllers (PLCs), but has become a de facto standard communication protocol for communication between industrial ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Modbus.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Modbus - Wiki2">
+  <meta property="og:description" content="Modbus is a fieldbus, an industrial computer networking protocol. It was originally designed for use with programmable logic controllers (PLCs), but has become a de facto standard communication protocol for communication between industrial ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Modbus.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/d/da/Logo_of_Modbus.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Modbus - Wiki2">
+  <meta name="twitter:description" content="Modbus is a fieldbus, an industrial computer networking protocol. It was originally designed for use with programmable logic controllers (PLCs), but has become a de facto standard communication protocol for communication between industrial ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/d/da/Logo_of_Modbus.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Modbus</h1>
+    <p><b>Modbus</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>Modbus is a fieldbus, an industrial computer networking protocol. It was originally designed for use with programmable logic controllers (PLCs), but has become a de facto standard communication protocol for communication between industrial electronic devices in a wide range of buses and networks.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Logo_of_Modbus.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Modbus"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/MODBUS_communication_stack.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="MODBUS communication stack.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>Modbus is a fieldbus , an industrial computer networking protocol. It was originally designed for use with programmable logic controllers (PLCs), but has become a de facto standard communication protocol for communication between industrial electronic devices in a wide range of buses and networks. Modbus is popular in industrial environments because it is openly published and royalty-free . It was developed for industrial applications, is relatively easy to deploy and maintain compared to other standards, and places few restrictions on the format of the data to be transmitted. The Modbus protocol uses serial communication lines , Ethernet , or the Internet protocol suite as a transport layer . Modbus supports communication to and from multiple devices connected to the same cable or Ethernet network. For example, there can be a device that measures temperature and another device to measure humidity connected to the same cable, both communicating measurements to the same computer , via Modbus. Modbus is often used to connect a plant/system supervisory computer with a remote terminal unit (RTU) in supervisory control and data acquisition ( SCADA ) systems. Many of the data types are named from industrial control of factory devices, such as ladder logic because of its use in driving relays: a single-bit physical output is called a coil , and a single-bit physical input is called a </p>
+    <hr>
+    <h2>Protocol description</h2>
+    <p>Modbus standards or buses include: To support Modbus communication on a network, many modems and gateways incorporate proprietary designs (refer to the diagram: Architecture of a network for Modbus communication ). Implementations may deploy either wireline or wireless communication, such as in the ISM radio band , and even Short Message Service (SMS) or General Packet Radio Service (GPRS).</p>
+    <hr>
+    <h2>PDU and ADU</h2>
+    <p>Modbus defines a client which is an entity that initiates a transaction to request any specific task from its request receiver . The client&#x27;s &quot;request receiver&quot;, which the client has initiated the transaction with, is then called the server . For example, when a microcontroller connects to a sensor to read its data by Modbus on a wired network, e.g RS485 bus, the MCU in this context is the client and the sensor is the server. In former terminology, the client was named master and the server named slave. Modbus defines a protocol data unit (PDU) independently to its lower layer protocols in its protocol stack. Mapping MODBUS protocol on specific buses or networks requires some additional fields, defined as the application data unit (ADU). The ADU is formed by a client inside a Modbus network when the client initiates a transaction. Contents are: The ADU is officially called a Modbus frame by the Modbus Organization, although frame is used as the data unit in the data-link layer in the OSI and TCP/IP model (while Modbus is an application layer protocol). PDU max size is 253 bytes. ADU max size on RS232/RS485 network is 256 bytes, and with TCP is 260 bytes. For data encoding, Modbus uses a big-endian representation for addresses and data fields. Thus, for a 16-bit value, the most significant byte is sent first. For example, when a 16-bit register has value 0x1234, byte 0x12 is sen</p>
+    <hr>
+    <h2>Modbus transaction and PDU</h2>
+    <p>A Modbus transaction between client and server includes: Based on that, Modbus defines 3 PDU types:</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Limestone_Creek_Florida.html">Limestone Creek, Florida</a></li>
+      <li><a href="S_Robert_Blair.html">S. Robert Blair</a></li>
+      <li><a href="Deaf_Smith_County_Texas.html">Deaf Smith County, Texas</a></li>
+      <li><a href="Holy_orders.html">Holy orders</a></li>
+      <li><a href="Swangard_Stadium.html">Swangard Stadium</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Modbus">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 16, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

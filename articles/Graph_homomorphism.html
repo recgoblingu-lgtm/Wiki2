@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Graph homomorphism - Wiki2</title>
+  <meta name="description" content="In the mathematical field of graph theory, a graph homomorphism is a mapping between two graphs that respects their structure. More concretely, it is a function between the vertex sets of two graphs that maps adjacent vertices to adjacent v">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Graph_homomorphism.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Graph homomorphism - Wiki2">
+  <meta property="og:description" content="In the mathematical field of graph theory, a graph homomorphism is a mapping between two graphs that respects their structure. More concretely, it is a function between the vertex sets of two graphs that maps adjacent vertices to adjacent v">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Graph_homomorphism.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/a/aa/Graph_homomorphism_into_C5.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Graph homomorphism - Wiki2">
+  <meta name="twitter:description" content="In the mathematical field of graph theory, a graph homomorphism is a mapping between two graphs that respects their structure. More concretely, it is a function between the vertex sets of two graphs that maps adjacent vertices to adjacent v">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/a/aa/Graph_homomorphism_into_C5.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Graph homomorphism</h1>
+    <p><b>Graph homomorphism</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In the mathematical field of graph theory, a graph homomorphism is a mapping between two graphs that respects their structure. More concretely, it is a function between the vertex sets of two graphs that maps adjacent vertices to adjacent vertices.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Graph_homomorphism_into_C5.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Graph homomorphism"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In the mathematical field of graph theory , a graph homomorphism is a mapping between two graphs that respects their structure. More concretely, it is a function between the vertex sets of two graphs that maps adjacent vertices to adjacent vertices. Homomorphisms generalize various notions of graph colorings and allow the expression of an important class of constraint satisfaction problems , such as certain scheduling or frequency assignment problems. The fact that homomorphisms can be composed leads to rich algebraic structures: a preorder on graphs, a distributive lattice , and a category (one for undirected graphs and one for directed graphs). The computational complexity of finding a homomorphism between given graphs is prohibitive in general, but a lot is known about special cases that are solvable in polynomial time . Boundaries between tractable and intractable cases have been an active area of research.</p>
+    <hr>
+    <h2>Definitions</h2>
+    <p>In this article, unless stated otherwise, graphs are finite, undirected graphs with loops allowed, but multiple edges (parallel edges) disallowed. A graph homomorphism f from a graph to a graph , written f : G → H , is a function from to that preserves edges. Formally, implies , for all pairs of vertices in . If there exists any homomorphism from G to H , then G is said to be homomorphic to H or H -colorable . This is often denoted as just The above definition is extended to directed graphs. Then, for a homomorphism f : G → H , ( f ( u ), f ( v )) is an arc (directed edge) of H whenever ( u , v ) is an arc of G . There is an injective homomorphism from G to H (i.e., one that maps distinct vertices in G to distinct vertices in H ) if and only if G is isomorphic to a subgraph of H . If a homomorphism f : G → H is a bijection , and its inverse function f is also a graph homomorphism, then f is a graph isomorphism. Covering maps are a special kind of homomorphisms that mirror the definition and many properties of covering maps in topology . They are defined as surjective homomorphisms (i.e., something maps to each vertex) that are also locally bijective, that is, a bijection on the neighbourhood of each vertex. An example is the bipartite double cover , formed from a graph by splitting each vertex v into v 0 and v 1 and replacing each edge u , v with edges u 0 , v 1 and v 0 , u 1 .</p>
+    <hr>
+    <h2>Cores and retracts</h2>
+    <p>Two graphs G and H are homomorphically equivalent if G → H and H → G . The maps are not necessarily surjective nor injective. For instance, the complete bipartite graphs K 2,2 and K 3,3 are homomorphically equivalent: each map can be defined as taking the left (resp. right) half of the domain graph and mapping to just one vertex in the left (resp. right) half of the image graph. A retraction is a homomorphism r from a graph G to a subgraph H of G such that r ( v ) = v for each vertex v of H . In this case the subgraph H is called a retract of G . A core is a graph with no homomorphism to any proper subgraph. Equivalently, a core can be defined as a graph that does not retract to any proper subgraph. Every graph G is homomorphically equivalent to a unique core (up to isomorphism), called the core of G . Notably, this is not true in general for infinite graphs. However, the same definitions apply to directed graphs and a directed graph is also equivalent to a unique core. Every graph and every directed graph contains its core as a retract and as an induced subgraph . For example, all complete graphs K n and all odd cycles ( cycle graphs of odd length) are cores. Every 3-colorable graph G that contains a triangle (that is, has the complete graph K 3 as a subgraph) is homomorphically equivalent to K 3 . This is because, on one hand, a 3-coloring of G is the same as a homomorphism G</p>
+    <hr>
+    <h2>Connection to colorings</h2>
+    <p>A k -coloring , for some integer k , is an assignment of one of k colors to each vertex of a graph G such that the endpoints of each edge get different colors. The k -colorings of G correspond exactly to homomorphisms from G to the complete graph K k . Indeed, the vertices of K k correspond to the k colors, and two colors are adjacent as vertices of K k if and only if they are different. Hence a function defines a homomorphism to K k if and only if it maps adjacent vertices of G to different colors (i.e., it is a k -coloring). In particular, G is k -colorable if and only if it is K k -colorable. If there are two homomorphisms G → H and H → K k , then their composition G → K k is also a homomorphism. In other words, if a graph H can be colored with k colors, and there is a homomorphism from G to H , then G can also be k -colored. Therefore, G → H implies χ( G ) ≤ χ( H ), where χ denotes the chromatic number of a graph (the least k for which it is k -colorable).</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="1947_BSAA_Avro_Lancastrian_Star_Dust_accident.html">1947 BSAA Avro Lancastrian Star Dust accident</a></li>
+      <li><a href="Abram_Perezville_Texas.html">Abram-Perezville, Texas</a></li>
+      <li><a href="Beach_Red.html">Beach Red</a></li>
+      <li><a href="German_Regional_Airlines.html">German Regional Airlines</a></li>
+      <li><a href="Steve_Bartlett.html">Steve Bartlett</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Graph_homomorphism">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 16, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
