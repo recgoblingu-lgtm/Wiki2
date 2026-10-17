@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Conjunctive normal form - Wiki2</title>
+  <meta name="description" content="In Boolean algebra, a formula is in conjunctive normal form (CNF) or clausal normal form if it is a conjunction of one or more clauses, where a clause is a disjunction of literals; otherwise put, it is a product of sums or an AND of ORs.">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Conjunctive_normal_form.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Conjunctive normal form - Wiki2">
+  <meta property="og:description" content="In Boolean algebra, a formula is in conjunctive normal form (CNF) or clausal normal form if it is a conjunction of one or more clauses, where a clause is a disjunction of literals; otherwise put, it is a product of sums or an AND of ORs.">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Conjunctive_normal_form.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Conjunctive normal form - Wiki2">
+  <meta name="twitter:description" content="In Boolean algebra, a formula is in conjunctive normal form (CNF) or clausal normal form if it is a conjunction of one or more clauses, where a clause is a disjunction of literals; otherwise put, it is a product of sums or an AND of ORs.">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Conjunctive normal form</h1>
+    <p><b>Conjunctive normal form</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In Boolean algebra, a formula is in conjunctive normal form (CNF) or clausal normal form if it is a conjunction of one or more clauses, where a clause is a disjunction of literals; otherwise put, it is a product of sums or an AND of ORs.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>In Boolean algebra , a formula is in conjunctive normal form ( CNF ) or clausal normal form if it is a conjunction of one or more clauses , where a clause is a disjunction of literals ; otherwise put, it is a product of sums or an AND of ORs . In automated theorem proving , the notion &quot; clausal normal form &quot; is often used in a narrower sense, meaning a particular representation of a CNF formula as a set of sets of literals (i.e., the product and sum operations are left implicit).</p>
+    <hr>
+    <h2>Definition</h2>
+    <p>A logical formula is considered to be in CNF if it is a conjunction of one or more disjunctions of one or more literals . As in disjunctive normal form (DNF), the only propositional operators in CNF are or ( ), and ( ), and not ( ). The not operator can only be used as part of a literal, which means that it can only precede a propositional variable . The following is a context-free grammar for CNF: Where Variable is any variable. All of the following formulas in the variables and are in conjunctive normal form: The following formulas are not in conjunctive normal form:</p>
+    <hr>
+    <h2>Conversion to CNF</h2>
+    <p>In classical logic each propositional formula can be converted to an equivalent formula that is in CNF. This transformation is based on rules about logical equivalences : double negation elimination , De Morgan&#x27;s laws , and the distributive law .</p>
+    <hr>
+    <h2>Basic algorithm</h2>
+    <p>The algorithm to compute a CNF-equivalent of a given propositional formula builds upon in disjunctive normal form (DNF) : step 1. Then is converted to by swapping ANDs with ORs and vice versa while negating all the literals. Remove all . Convert to CNF the propositional formula . Step 1 : Convert its negation to disjunctive normal form. , where each is a conjunction of literals . Step 2 : Negate . Then shift inwards by applying the (generalized) De Morgan&#x27;s equivalences until no longer possible. where Step 3 : Remove all double negations. Example Convert to CNF the propositional formula . The (full) DNF equivalent of its negation is A CNF equivalent of a formula can be derived from its truth table . Again, consider the formula . The corresponding truth table is A CNF equivalent of is Each disjunction reflects an assignment of variables for which evaluates to F(alse). If in such an assignment a variable</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="East_Surrey_constituency.html">East Surrey (constituency)</a></li>
+      <li><a href="Incorporation_business.html">Incorporation (business)</a></li>
+      <li><a href="Hroch_v_T_nec.html">Hrochův Týnec</a></li>
+      <li><a href="Middleton_Cheney.html">Middleton Cheney</a></li>
+      <li><a href="Springboro_Pennsylvania.html">Springboro, Pennsylvania</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Conjunctive_normal_form">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 17, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

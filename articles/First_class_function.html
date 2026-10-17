@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>First-class function - Wiki2</title>
+  <meta name="description" content="In computer science, a programming language is said to have first-class functions if it treats functions as first-class citizens. This means the language supports passing functions as arguments to other functions, returning them as the valu">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/First_class_function.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="First-class function - Wiki2">
+  <meta property="og:description" content="In computer science, a programming language is said to have first-class functions if it treats functions as first-class citizens. This means the language supports passing functions as arguments to other functions, returning them as the valu">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/First_class_function.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="First-class function - Wiki2">
+  <meta name="twitter:description" content="In computer science, a programming language is said to have first-class functions if it treats functions as first-class citizens. This means the language supports passing functions as arguments to other functions, returning them as the valu">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>First-class function</h1>
+    <p><b>First-class function</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In computer science, a programming language is said to have first-class functions if it treats functions as first-class citizens. This means the language supports passing functions as arguments to other functions, returning them as the values from other functions, and assigning them to variables or storing them in data structures. Some programming language theorists require support for anonymous functions as well. In languages with first-class functions, the names of functions do not have any special status; they are treated like ordinary variables with a function type. The term was coined by Christopher Strachey in the context of &quot;functions as first-class citizens&quot; in the mid-1960s.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>In computer science , a programming language is said to have first-class functions if it treats functions as first-class citizens . This means the language supports passing functions as arguments to other functions, returning them as the values from other functions, and assigning them to variables or storing them in data structures. Some programming language theorists require support for anonymous functions (function literals) as well. In languages with first-class functions, the names of functions do not have any special status; they are treated like ordinary variables with a function type . The term was coined by Christopher Strachey in the context of &quot;functions as first-class citizens&quot; in the mid-1960s. First-class functions are a necessity for the functional programming style, in which the use of higher-order functions is a standard practice. A simple example of a higher-ordered function is the map function, which takes, as its arguments, a function and a list, and returns the list formed by applying the function to each member of the list. For a language to support map , it must support passing a function as an argument. There are certain implementation difficulties in passing functions as arguments or returning them as results, especially in the presence of non-local variables introduced in nested and anonymous functions . Historically, these were termed the funarg proble</p>
+    <hr>
+    <h2>Concepts</h2>
+    <p>In this section, we compare how particular programming idioms are handled in a functional language with first-class functions ( Haskell ) compared to an imperative language where functions are second-class citizens ( C ).</p>
+    <hr>
+    <h2>Higher-order functions: passing functions as arguments</h2>
+    <p>In languages where functions are first-class citizens, functions can be passed as arguments to other functions in the same way as other values (a function taking another function as argument is called a higher-order function). In the language Haskell : Languages where functions are not first-class often still allow one to write higher-order functions through the use of features such as function pointers or delegates . In the language C : There are a number of differences between the two approaches that are not directly related to the support of first-class functions. The Haskell sample operates on lists , while the C sample operates on arrays . Both are the most natural compound data structures in the respective languages and making the C sample operate on linked lists would have made it unnecessarily complex. This also accounts for the fact that the C function needs an additional parameter (giving the size of the array.) The C function updates the array in-place , returning no value, whereas in Haskell data structures are persistent (a new list is returned while the old is left intact.) The Haskell sample uses recursion to traverse the list, while the C sample uses iteration . Again, this is the most natural way to express this function in both languages, but the Haskell sample could easily have been expressed in terms of a fold and the C sample in terms of recursion. Finally,</p>
+    <hr>
+    <h2>Anonymous and nested functions</h2>
+    <p>In languages supporting anonymous functions, we can pass such a function as an argument to a higher-order function: In a language which does not support anonymous functions, we have to bind it to a name instead:</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Herchurch.html">Herchurch</a></li>
+      <li><a href="Microsoft_Research_Maps.html">Microsoft Research Maps</a></li>
+      <li><a href="Bernhard_Gothic.html">Bernhard Gothic</a></li>
+      <li><a href="McKellar.html">McKellar</a></li>
+      <li><a href="Ringelblum_Archive.html">Ringelblum Archive</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/First-class_function">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 17, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
