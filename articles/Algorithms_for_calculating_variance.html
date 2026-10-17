@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Algorithms for calculating variance - Wiki2</title>
-  <meta name="description" content="Algorithms for calculating variance play a major role in computational statistics. A key difficulty in the design of good algorithms for this problem is that formulas for the variance may involve sums of squares, which can lead to numerical">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Algorithms_for_calculating_variance.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Algorithms for calculating variance - Wiki2">
-  <meta property="og:description" content="Algorithms for calculating variance play a major role in computational statistics. A key difficulty in the design of good algorithms for this problem is that formulas for the variance may involve sums of squares, which can lead to numerical">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Algorithms_for_calculating_variance.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Algorithms for calculating variance - Wiki2">
-  <meta name="twitter:description" content="Algorithms for calculating variance play a major role in computational statistics. A key difficulty in the design of good algorithms for this problem is that formulas for the variance may involve sums of squares, which can lead to numerical">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Algorithms for calculating variance - Wiki2</title>
+<meta content="Algorithms for calculating variance play a major role in computational statistics. A key difficulty in the design of good algorithms for this problem is that formulas for the variance may involve sums of squares, which can lead to numerical" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Algorithms_for_calculating_variance.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Algorithms for calculating variance" property="og:title"/>
+<meta content="Algorithms for calculating variance is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Algorithms_for_calculating_variance.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Algorithms for calculating variance" name="twitter:title"/>
+<meta content="Algorithms for calculating variance is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Algorithms for calculating variance</h1>
-    <p><b>Algorithms for calculating variance</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>Algorithms for calculating variance play a major role in computational statistics. A key difficulty in the design of good algorithms for this problem is that formulas for the variance may involve sums of squares, which can lead to numerical instability as well as to arithmetic overflow when dealing with large values.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>Algorithms for calculating variance play a major role in computational statistics . A key difficulty in the design of good algorithms for this problem is that formulas for the variance may involve sums of squares, which can lead to numerical instability as well as to arithmetic overflow when dealing with large values.</p>
-    <hr>
-    <h2>Naïve algorithm</h2>
-    <p>A formula for calculating the variance of an entire population of size N is: Using Bessel&#x27;s correction to calculate an unbiased estimate of the population variance from a finite sample of n observations, the formula is: Therefore, a naïve algorithm to calculate the estimated variance is given by the following: This algorithm can easily be adapted to compute the variance of a finite population: simply divide by n instead of n − 1 on the last line. Because SumSq and (Sum×Sum)/ n can be very similar numbers, cancellation can lead to the precision of the result to be much less than the inherent precision of the floating-point arithmetic used to perform the computation. Thus this algorithm should not be used in practice, and several alternate, numerically stable, algorithms have been proposed. This is particularly bad if the standard deviation is small relative to the mean.</p>
-    <hr>
-    <h2>Computing shifted data</h2>
-    <p>The variance is invariant with respect to changes in a location parameter , a property which can be used to avoid the catastrophic cancellation in this formula. with any constant, which leads to the new formula The closer is to the mean value, the more accurate the result will be, but just choosing any value inside the sample range will provide the desired stability. If the values are small, then there are no problems with the sum of its squares; on the contrary, if they are large, it necessarily means that the variance is large as well. In any case the second term in the formula is always smaller than the first one, therefore no cancellation may occur. The algorithm can be written in Python programming language as</p>
-    <hr>
-    <h2>Two-pass algorithm</h2>
-    <p>An alternative approach, using a different formula for the variance, first computes the sample mean, and then computes the sum of the squares of the differences from the mean, where s is the standard deviation. This is given by the following code: This piece of code, if run on CPython 3.12 and newer, is always numerically stable. This is because these versions use Neumaier&#x27;s compensated summation scheme for the sum() function, making it resistant to repeated roundoff error. Many numerically oriented languages provide similar constructs. This algorithm, if implemented with a naive addition sum = 0; for x in data: sum += x; mean = sum / n , would only be numerically stable if n is small because of repeated round-off when adding a small number to a much, much larger one.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Transit_Windsor.html">Transit Windsor</a></li>
-      <li><a href="Andy_Nicholls.html">Andy Nicholls</a></li>
-      <li><a href="Lincoln_Park_High_School_Chicago.html">Lincoln Park High School (Chicago)</a></li>
-      <li><a href="Adeodato_Giovanni_Piazza.html">Adeodato Giovanni Piazza</a></li>
-      <li><a href="Blacksmith_Scene.html">Blacksmith Scene</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 17, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Algorithms for calculating variance</h1>
+<p><b>Algorithms for calculating variance</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>Algorithms for calculating variance play a major role in computational statistics. A key difficulty in the design of good algorithms for this problem is that formulas for the variance may involve sums of squares, which can lead to numerical instability as well as to arithmetic overflow when dealing with large values.</p>
+<hr/>
+<h2>Background</h2>
+<p>Algorithms for calculating variance play a major role in computational statistics . A key difficulty in the design of good algorithms for this problem is that formulas for the variance may involve sums of squares, which can lead to numerical instability as well as to arithmetic overflow when dealing with large values.</p>
+<hr/>
+<h2>Naïve algorithm</h2>
+<p>A formula for calculating the variance of an entire population of size N is: Using Bessel's correction to calculate an unbiased estimate of the population variance from a finite sample of n observations, the formula is: Therefore, a naïve algorithm to calculate the estimated variance is given by the following: This algorithm can easily be adapted to compute the variance of a finite population: simply divide by n instead of n − 1 on the last line. Because SumSq and (Sum×Sum)/ n can be very similar numbers, cancellation can lead to the precision of the result to be much less than the inherent precision of the floating-point arithmetic used to perform the computation. Thus this algorithm should not be used in practice, and several alternate, numerically stable, algorithms have been proposed. This is particularly bad if the standard deviation is small relative to the mean.</p>
+<hr/>
+<h2>Computing shifted data</h2>
+<p>The variance is invariant with respect to changes in a location parameter , a property which can be used to avoid the catastrophic cancellation in this formula. with any constant, which leads to the new formula The closer is to the mean value, the more accurate the result will be, but just choosing any value inside the sample range will provide the desired stability. If the values are small, then there are no problems with the sum of its squares; on the contrary, if they are large, it necessarily means that the variance is large as well. In any case the second term in the formula is always smaller than the first one, therefore no cancellation may occur. The algorithm can be written in Python programming language as</p>
+<hr/>
+<h2>Two-pass algorithm</h2>
+<p>An alternative approach, using a different formula for the variance, first computes the sample mean, and then computes the sum of the squares of the differences from the mean, where s is the standard deviation. This is given by the following code: This piece of code, if run on CPython 3.12 and newer, is always numerically stable. This is because these versions use Neumaier's compensated summation scheme for the sum() function, making it resistant to repeated roundoff error. Many numerically oriented languages provide similar constructs. This algorithm, if implemented with a naive addition sum = 0; for x in data: sum += x; mean = sum / n , would only be numerically stable if n is small because of repeated round-off when adding a small number to a much, much larger one.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Transit_Windsor.html">Transit Windsor</a></li>
+<li><a href="Andy_Nicholls.html">Andy Nicholls</a></li>
+<li><a href="Lincoln_Park_High_School_Chicago.html">Lincoln Park High School (Chicago)</a></li>
+<li><a href="Adeodato_Giovanni_Piazza.html">Adeodato Giovanni Piazza</a></li>
+<li><a href="Blacksmith_Scene.html">Blacksmith Scene</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance">Wikimedia article</a></small></p>
+<p><i>Last edited: October 17, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

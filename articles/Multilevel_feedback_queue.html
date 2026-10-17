@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Multilevel feedback queue - Wiki2</title>
-  <meta name="description" content="In computer science, a multilevel feedback queue is a scheduling algorithm. Scheduling algorithms are designed to have some process running at all times to keep the central processing unit (CPU) busy. The multilevel feedback queue extends s">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Multilevel_feedback_queue.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Multilevel feedback queue - Wiki2">
-  <meta property="og:description" content="In computer science, a multilevel feedback queue is a scheduling algorithm. Scheduling algorithms are designed to have some process running at all times to keep the central processing unit (CPU) busy. The multilevel feedback queue extends s">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Multilevel_feedback_queue.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Multilevel feedback queue - Wiki2">
-  <meta name="twitter:description" content="In computer science, a multilevel feedback queue is a scheduling algorithm. Scheduling algorithms are designed to have some process running at all times to keep the central processing unit (CPU) busy. The multilevel feedback queue extends s">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Multilevel feedback queue - Wiki2</title>
+<meta content="In computer science, a multilevel feedback queue is a scheduling algorithm. Scheduling algorithms are designed to have some process running at all times to keep the central processing unit (CPU) busy. The multilevel feedback queue extends s" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Multilevel_feedback_queue.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Multilevel feedback queue" property="og:title"/>
+<meta content="Multilevel feedback queue is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Multilevel_feedback_queue.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Multilevel feedback queue" name="twitter:title"/>
+<meta content="Multilevel feedback queue is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Multilevel feedback queue</h1>
-    <p><b>Multilevel feedback queue</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In computer science, a multilevel feedback queue is a scheduling algorithm. Scheduling algorithms are designed to have some process running at all times to keep the central processing unit (CPU) busy. The multilevel feedback queue extends standard algorithms with the following design requirements:Separate processes into multiple ready queues based on their need for the processor. Give preference to processes with short CPU bursts. Give preference to processes with high I/O bursts.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In computer science , a multilevel feedback queue is a scheduling algorithm. Scheduling algorithms are designed to have some process running at all times to keep the central processing unit (CPU) busy. The multilevel feedback queue extends standard algorithms with the following design requirements: The multilevel feedback queue was first developed by Fernando J. Corbató (1962). For this accomplishment, the Association for Computing Machinery awarded Corbató the Turing Award .</p>
-    <hr>
-    <h2>Process scheduling</h2>
-    <p>Whereas the multilevel queue algorithm keeps processes permanently assigned to their initial queue assignments, the multilevel feedback queue shifts processes between queues. The shift is dependent upon the CPU bursts of prior time-slices .</p>
-    <hr>
-    <h2>Algorithm</h2>
-    <p>Multiple FIFO queues are used and the operation is as follows: For scheduling, the scheduler always starts picking up processes from the head of the highest-level queue. Only if the highest-level queue has become empty will the scheduler take up a process from the next lower-level queue. The same policy is implemented for picking up in the subsequent lower-level queues. A new process is always inserted at the tail of the top-level queue with the assumption that it will complete in a short amount of time. Long processes will automatically sink to lower-level queues based on their time consumption and interactivity level. In the multilevel feedback queue, a process is given just one chance to complete at a given queue level before it is forced down to a lower-level queue. A new process added to any of the higher-level queues, will preempt a process executing from any lower-level queue.</p>
-    <hr>
-    <h2>Scheduling parameters</h2>
-    <p>In general, a multilevel feedback queue scheduler is defined by the following parameters:</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Halifax_College_York.html">Halifax College, York</a></li>
-      <li><a href="Little_Traverse_Light.html">Little Traverse Light</a></li>
-      <li><a href="The_Holy_Fire.html">The Holy Fire</a></li>
-      <li><a href="ng_H_i_district.html">Đông Hải district</a></li>
-      <li><a href="Modern_Greek.html">Modern Greek</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Multilevel_feedback_queue">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 17, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Multilevel feedback queue</h1>
+<p><b>Multilevel feedback queue</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In computer science, a multilevel feedback queue is a scheduling algorithm. Scheduling algorithms are designed to have some process running at all times to keep the central processing unit (CPU) busy. The multilevel feedback queue extends standard algorithms with the following design requirements:Separate processes into multiple ready queues based on their need for the processor. Give preference to processes with short CPU bursts. Give preference to processes with high I/O bursts.</p>
+<hr/>
+<h2>Background</h2>
+<p>In computer science , a multilevel feedback queue is a scheduling algorithm. Scheduling algorithms are designed to have some process running at all times to keep the central processing unit (CPU) busy. The multilevel feedback queue extends standard algorithms with the following design requirements: The multilevel feedback queue was first developed by Fernando J. Corbató (1962). For this accomplishment, the Association for Computing Machinery awarded Corbató the Turing Award .</p>
+<hr/>
+<h2>Process scheduling</h2>
+<p>Whereas the multilevel queue algorithm keeps processes permanently assigned to their initial queue assignments, the multilevel feedback queue shifts processes between queues. The shift is dependent upon the CPU bursts of prior time-slices .</p>
+<hr/>
+<h2>Algorithm</h2>
+<p>Multiple FIFO queues are used and the operation is as follows: For scheduling, the scheduler always starts picking up processes from the head of the highest-level queue. Only if the highest-level queue has become empty will the scheduler take up a process from the next lower-level queue. The same policy is implemented for picking up in the subsequent lower-level queues. A new process is always inserted at the tail of the top-level queue with the assumption that it will complete in a short amount of time. Long processes will automatically sink to lower-level queues based on their time consumption and interactivity level. In the multilevel feedback queue, a process is given just one chance to complete at a given queue level before it is forced down to a lower-level queue. A new process added to any of the higher-level queues, will preempt a process executing from any lower-level queue.</p>
+<hr/>
+<h2>Scheduling parameters</h2>
+<p>In general, a multilevel feedback queue scheduler is defined by the following parameters:</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Halifax_College_York.html">Halifax College, York</a></li>
+<li><a href="Little_Traverse_Light.html">Little Traverse Light</a></li>
+<li><a href="The_Holy_Fire.html">The Holy Fire</a></li>
+<li><a href="ng_H_i_district.html">Đông Hải district</a></li>
+<li><a href="Modern_Greek.html">Modern Greek</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Multilevel_feedback_queue">Wikimedia article</a></small></p>
+<p><i>Last edited: October 17, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
