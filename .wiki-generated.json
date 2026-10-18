@@ -149144,12 +149144,27 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Hundred%2C_West_Virginia",
       "generated_at": "2026-10-17T09:40:29+00:00"
+    },
+    {
+      "title": "1950 FIFA World Cup",
+      "filename": "1950_FIFA_World_Cup.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/1950_FIFA_World_Cup",
+      "generated_at": "2026-10-18T00:26:58+00:00"
+    },
+    {
+      "title": "Volunteer Political Party",
+      "filename": "Volunteer_Political_Party.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Volunteer_Political_Party",
+      "generated_at": "2026-10-18T00:27:32+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|504c5258504644040992543a30324604362a423209940306504c5258504644040992543a30324604362a4232099401250c01dcb2dc17|724012",
-    "Category:Video game franchises": "page|422a4c54324004544e08042e2a482e4642011501dcbcdc09|446464",
-    "Category:Indie games": "page|2c2a4430044634042c52364e03062c2a4430044634042c52364e011d01dcc2dcc4dcc2dcbfdc07|9378016",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
+    "Category:Video game franchises": "page|562a4c3a46562a4c32010d01e0c2e007|1304812",
+    "Category:Indie games": "page|2e4c5a4850044634045038320444322e4c46302a442e324c011c01dcbadcc2dc09|41637705",
+    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
