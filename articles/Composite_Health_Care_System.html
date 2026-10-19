@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Composite Health Care System - Wiki2</title>
+  <meta name="description" content="The Composite Health Care System (CHCS) was a medical informatics system designed by Science Applications International Corporation (SAIC) and used by all United States and OCONUS military health care centers. In 1988, SAIC won a competitio">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Composite_Health_Care_System.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Composite Health Care System - Wiki2">
+  <meta property="og:description" content="The Composite Health Care System (CHCS) was a medical informatics system designed by Science Applications International Corporation (SAIC) and used by all United States and OCONUS military health care centers. In 1988, SAIC won a competitio">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Composite_Health_Care_System.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Composite Health Care System - Wiki2">
+  <meta name="twitter:description" content="The Composite Health Care System (CHCS) was a medical informatics system designed by Science Applications International Corporation (SAIC) and used by all United States and OCONUS military health care centers. In 1988, SAIC won a competitio">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Composite Health Care System</h1>
+    <p><b>Composite Health Care System</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>The Composite Health Care System (CHCS) was a medical informatics system designed by Science Applications International Corporation (SAIC) and used by all United States and OCONUS military health care centers. In 1988, SAIC won a competition for the original $1.02 billion contract to design, develop, and implement CHCS.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>The Composite Health Care System ( CHCS ) was a medical informatics system designed by Science Applications International Corporation (SAIC) and used by all United States and OCONUS military health care centers. In 1988, SAIC won a competition for the original $1.02 billion contract to design, develop, and implement CHCS. SAIC later split into two separate organizations, and the company Leidos took control of CHCS and associated systems in 2016. CHCS (and AHLTA) is being replaced by MHS Genesis, a Cerner product. The last AHLTA servers at MTF&#x27;s (Military Treatment Facilities) were shut down in early 2024. By October 2024, only a handful of CHCS servers remain on-line, with only 18 host sites compared to 105 host site systems prior to the deployment of MHS Genesis.</p>
+    <hr>
+    <h2>Components and characteristics</h2>
+    <p>CHCS is module based: modules include RAD (radiology), LAB (Laboratory), PHR (Pharmacy), PAS (Patient Appointing &amp; Scheduling), MCP (Managed Care Program; used to support TRICARE enrollees by enrolling them to Primary Care Managers), PAD (Patient Administration): MRT (Medical Records Tracking), MSA (Medical Service Accounting) medical billing, WAM (Workload Assignment Module), DTS (Dietetics), CLN (CLinical: Nursing, Physician, and Allied Health), DAA (Database Administration), ADM (Ambulatory Data Module) Medical Coding of outpatient visits, and TOOLS (FileMan). Currently all appointments are booked in CHCS, except for Walk-Ins and Telephone Consults, which can now be booked in AHLTA. CHCS is a text based BBS/ANSI like display accessed via DEC VT320 terminal emulation. CHCS supports outpatient Order Entry (LAB, RAD, PHR, Consults (ancillary procedures), one-time and scheduled/multiple appointment consults. CHCS can also support Inpatient charting and Order Entry with multi-paging with a page for each ward the patient is transferred, but this feature is not fielded/enabled at many medical centers. Instead Clinicomp&#x27;s Essentris product is deployed at all MHS hospitals and has replaced the use of CHCS Inpatient module for nurse charting. An interface solution to allow Essentris Orders to be transferred into CHCS order entry is being deployed.</p>
+    <hr>
+    <h2>AHLTA</h2>
+    <p>Armed Forces Health Longitudinal Technology Application (commonly referred to as AHLTA) is the clinical documentation engine for the Physicians to write their notes, put in orders, document procedures performed and provide the basis of medical coding information. This information is then sent into CHCS and its subsystems (ADM - ambulatory data module) provide the official repository of the medical coding information and handle the transmission of those encounters via the Comprehensive Ambulatory Patient Encounter Record (CAPER) interface. The clinical data is brought into the M2 DataMart for use in research, operational metrics, trend analysis, and many other business intelligence processes/products. AHLTA information is also contained in a Central Data Repository (CDR). This CDR contains information from AHLTA, CHCS, and AHLTA-Theater. The AHLTA CDR is a comprehensive full scale world-wide EHR repository. CHCS shares its original codebase with the VA&#x27;s VistA system. Since its inception it has been customized for supporting the Military and their family members. Security in CHCS works by a number of mechanisms and includes the concept of least privilege. You are assigned the minimum needed for your work duties. This limits your access to sensitive data both protected by the Privacy Act 1974 and PHI protected under HIPAA. AdHoc reports can be written using the FileMan tools and </p>
+    <hr>
+    <h2>Record duplication</h2>
+    <p>As with all large hospital information systems, there are occasions that despite training and best intentions, duplicate patient records are created. CHCS has a function to merge patients, but not to unmerge. AHLTA also has merges performed on patients in its Oracle database and successful attempts are made to un-merge patients and their associated medical/encounter data where diligent research has determined that mistakes were made with the identification of patients and to split off encounter records from patients that are blended into the single AHLTA record. Master Patient Indexing is a feature of the AHLTA Clinical Data Repository (CDR). Over 100 CHCS host systems, DEERS (Defense Enrollment Eligibility Reporting System), and AHLTA Theater (the version being used in Iraq and other areas) all contributed patients into the CDR when it was created from 25 month data pulls back in 2004. Each CHCS patient registration links into AHLTA, some link to existing patients, but others are newly created. Complexity with patient names and methods of identifying them with other demographics can lead to duplication, both in a local CHCS system and in the central AHLTA CDR. There is currently a DHIMS contract working on improving the processes and automating the routines to resolve duplicate patients and prevent their creation in future.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Age_of_majority.html">Age of majority</a></li>
+      <li><a href="Plakoto.html">Plakoto</a></li>
+      <li><a href="North_Plains_Oregon.html">North Plains, Oregon</a></li>
+      <li><a href="C_I_A_band.html">C.I.A. (band)</a></li>
+      <li><a href="Stendal_district.html">Stendal (district)</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Composite_Health_Care_System">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 19, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

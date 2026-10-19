@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shift register - Wiki2</title>
+  <meta name="description" content="A shift register is a type of digital circuit using a cascade of flip-flops where the output of one flip-flop is connected to the input of the next. They share a single clock signal, which causes the data stored in the system to shift from ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Shift_register.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Shift register - Wiki2">
+  <meta property="og:description" content="A shift register is a type of digital circuit using a cascade of flip-flops where the output of one flip-flop is connected to the input of the next. They share a single clock signal, which causes the data stored in the system to shift from ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Shift_register.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/5/53/Mitsubishi_M74LS96P.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shift register - Wiki2">
+  <meta name="twitter:description" content="A shift register is a type of digital circuit using a cascade of flip-flops where the output of one flip-flop is connected to the input of the next. They share a single clock signal, which causes the data stored in the system to shift from ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/5/53/Mitsubishi_M74LS96P.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Shift register</h1>
+    <p><b>Shift register</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>A shift register is a type of digital circuit using a cascade of flip-flops where the output of one flip-flop is connected to the input of the next. They share a single clock signal, which causes the data stored in the system to shift from one location to the next. By connecting the last flip-flop back to the first, the data can cycle within the shifters for extended periods, and in this configuration they were used as computer memory, displacing delay-line memory systems in the late 1960s and early 1970s.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Mitsubishi_M74LS96P.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Shift register"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/4-Bit_PISO_Shift_Register.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="4-Bit PISO Shift Register.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/4-Bit_PISO_Shift_Register_Seq.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="4-Bit PISO Shift Register Seq.gif"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>A shift register is a type of digital circuit using a cascade of flip-flops where the output of one flip-flop is connected to the input of the next. They share a single clock signal , which causes the data stored in the system to shift from one location to the next. By connecting the last flip-flop back to the first, the data can cycle within the shifters for extended periods, and in this configuration they were used as computer memory , displacing delay-line memory systems in the late 1960s and early 1970s. In most cases, several parallel shift registers would be used to build a larger memory pool known as a &quot; bit array &quot;. Data was stored into the array and read back out in parallel, often as a computer word , while each bit was stored serially in the shift registers. There is an inherent trade-off in the design of bit arrays; putting more flip-flops in a row allows a single shifter to store more bits, but requires more clock cycles to push the data through all of the shifters before the data can be read back out again. Shift registers can have both parallel and serial inputs and outputs. These are often configured as &quot;serial-in, parallel-out&quot; (SIPO) or as &quot;parallel-in, serial-out&quot; (PISO) . There are also types that have both serial and parallel input and types with serial and parallel output. There are also &quot;bidirectional&quot; shift registers, which allow shifting in both directi</p>
+    <hr>
+    <h2>Serial-in serial-out (SISO)</h2>
+    <p>In a serial-in serial-out shift register, the data to be stored is presented one bit at a time at the serial data input (SD IN ). Upon each clock rising edge (transition from low to high logic level ), the input data is stored in the first flip-flop and the output (Q) of each flip-flop is stored in the next flip-flop to its right, thus shifting the new bit in and all other bits one position to the right. The data bit which is shifted into the rightmost flip-flop appears on the serial data output (SD OUT ). The bit that was previously stored in the rightmost flip-flop is overwritten and lost.</p>
+    <hr>
+    <h2>Example</h2>
+    <p>As 1,0,1,1,0,0,0,0 (in that order) is presented on the data input, with a clock pulse at each bit, this is the result. The right hand column corresponds to the right-most flip-flop&#x27;s output pin, and so on. So the serial output of the entire value is 00010110. It can be seen that if data were to be continued to input, it would get exactly what was put in (10110000), but offset by four clock cycles. This arrangement is the hardware equivalent of a queue . Also, at any time, the whole register can be set to zero by bringing the reset (R) pins high.</p>
+    <hr>
+    <h2>Serial-in parallel-out (SIPO)</h2>
+    <p>This configuration allows conversion from serial to parallel format. Data input is serial, as described in the SISO section above. Once the data has been clocked in, it may be either read off at each output simultaneously, or it can be shifted out. In this configuration, each flip-flop is edge triggered . All flip-flops operate at the given clock frequency. Each input bit makes its way down to the Nth output after N clock cycles, leading to parallel output. In cases where the parallel outputs should not change during the serial loading process, it&#x27;s desirable to use a latched or buffered output. In a latched shift register (such as the 74595 ) the serial data is first loaded into an internal buffer register, then upon receipt of a load signal the state of the buffer register is copied into a set of output registers. In general, the practical application of the serial-in/parallel-out shift register is to convert data from serial format on a single wire to parallel format on multiple wires.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="World_Puzzle_Championship.html">World Puzzle Championship</a></li>
+      <li><a href="Matteo_Ricci_College.html">Matteo Ricci College</a></li>
+      <li><a href="Smooth_song.html">Smooth (song)</a></li>
+      <li><a href="Nursultan_Nazarbayev.html">Nursultan Nazarbayev</a></li>
+      <li><a href="Susan_Smith.html">Susan Smith</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Shift_register">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 19, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

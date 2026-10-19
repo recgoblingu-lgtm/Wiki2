@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Expectation–maximization algorithm - Wiki2</title>
+  <meta name="description" content="In statistics, an expectation–maximization (EM) algorithm is an iterative method to find (local) maximum likelihood or maximum a posteriori (MAP) estimates of parameters in statistical models, where the model depends on unobserved latent va">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Expectation_maximization_algorithm.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Expectation–maximization algorithm - Wiki2">
+  <meta property="og:description" content="In statistics, an expectation–maximization (EM) algorithm is an iterative method to find (local) maximum likelihood or maximum a posteriori (MAP) estimates of parameters in statistical models, where the model depends on unobserved latent va">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Expectation_maximization_algorithm.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/6/69/EM_Clustering_of_Old_Faithful_data.gif?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Expectation–maximization algorithm - Wiki2">
+  <meta name="twitter:description" content="In statistics, an expectation–maximization (EM) algorithm is an iterative method to find (local) maximum likelihood or maximum a posteriori (MAP) estimates of parameters in statistical models, where the model depends on unobserved latent va">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/6/69/EM_Clustering_of_Old_Faithful_data.gif?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Expectation–maximization algorithm</h1>
+    <p><b>Expectation–maximization algorithm</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In statistics, an expectation–maximization (EM) algorithm is an iterative method to find (local) maximum likelihood or maximum a posteriori (MAP) estimates of parameters in statistical models, where the model depends on unobserved latent variables. The EM iteration alternates between performing an expectation (E) step, which creates a function for the expectation of the log-likelihood evaluated using the current estimate for the parameters, and a maximization (M) step, which computes parameters maximizing the expected log-likelihood found on the E step. These parameter-estimates are then used to determine the distribution of the latent variables in the next E step. It can be used, for example, to estimate a mixture of gaussians, or to solve the multiple linear regression problem.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/EM_Clustering_of_Old_Faithful_data.gif?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Expectation–maximization algorithm"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/EM_Clustering_of_Old_Faithful_data.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="EM Clustering of Old Faithful data.gif"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Em_old_faithful.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Em old faithful.gif"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In statistics , an expectation–maximization ( EM ) algorithm is an iterative method to find (local) maximum likelihood or maximum a posteriori (MAP) estimates of parameters in statistical models , where the model depends on unobserved latent variables . The EM iteration alternates between performing an expectation (E) step, which creates a function for the expectation of the log-likelihood evaluated using the current estimate for the parameters, and a maximization (M) step, which computes parameters maximizing the expected log-likelihood found on the E step. These parameter-estimates are then used to determine the distribution of the latent variables in the next E step. It can be used, for example, to estimate a mixture of gaussians , or to solve the multiple linear regression problem.</p>
+    <hr>
+    <h2>History</h2>
+    <p>The EM algorithm was explained and given its name in a classic 1977 paper by Arthur Dempster , Nan Laird , and Donald Rubin . They pointed out that the method had been &quot;proposed many times in special circumstances&quot; by earlier authors. One of the earliest is the gene-counting method for estimating allele frequencies by Cedric Smith . Another was proposed by H.O. Hartley in 1958, and Hartley and Hocking in 1977, from which many of the ideas in the Dempster–Laird–Rubin paper originated. Another one by S.K Ng, Thriyambakam Krishnan and G.J McLachlan in 1977. Hartley&#x27;s ideas can be broadened to any grouped discrete distribution. A very detailed treatment of the EM method for exponential families was published by Rolf Sundberg in his thesis and several papers, following his collaboration with Per Martin-Löf and Anders Martin-Löf . The Dempster–Laird–Rubin paper in 1977 generalized the method and sketched a convergence analysis for a wider class of problems. The Dempster–Laird–Rubin paper established the EM method as an important tool of statistical analysis. See also Meng and van Dyk (1997). The convergence analysis of the Dempster–Laird–Rubin algorithm was flawed and a correct convergence analysis was published by C. F. Jeff Wu in 1983. Wu&#x27;s proof established the EM method&#x27;s convergence also outside of the exponential family , as claimed by Dempster–Laird–Rubin.</p>
+    <hr>
+    <h2>Introduction</h2>
+    <p>The EM algorithm is used to find (local) maximum likelihood parameters of a statistical model in cases where the equations cannot be solved directly. Typically these models involve latent variables in addition to unknown parameters and known data observations. That is, either missing values exist among the data, or the model can be formulated more simply by assuming the existence of further unobserved data points. For example, a mixture model can be described more simply by assuming that each observed data point has a corresponding unobserved data point, or latent variable, specifying the mixture component to which each data point belongs. Finding a maximum likelihood solution typically requires taking the derivatives of the likelihood function with respect to all the unknown values, the parameters and the latent variables, and simultaneously solving the resulting equations. In statistical models with latent variables, this is usually impossible. Instead, the result is typically a set of interlocking equations in which the solution to the parameters requires the values of the latent variables and vice versa, but substituting one set of equations into the other produces an unsolvable equation. The EM algorithm proceeds from the observation that there is a way to solve these two sets of equations numerically. One can simply pick arbitrary values for one of the two sets of unknown</p>
+    <hr>
+    <h2>The symbols</h2>
+    <p>Given the statistical model which generates a set of observed data, a set of unobserved latent data or missing values , and a vector of unknown parameters , along with a likelihood function , the maximum likelihood estimate (MLE) of the unknown parameters is determined by maximizing the marginal likelihood of the observed data However, this quantity is often intractable since is unobserved and the distribution of is unknown before attaining .</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Yellow_browed_bulbul.html">Yellow-browed bulbul</a></li>
+      <li><a href="Pancake_Bay_Provincial_Park.html">Pancake Bay Provincial Park</a></li>
+      <li><a href="Pierre_Joseph_Redout.html">Pierre-Joseph Redouté</a></li>
+      <li><a href="Battle_of_Molino_del_Rey.html">Battle of Molino del Rey</a></li>
+      <li><a href="St_Gabriel_Louisiana.html">St. Gabriel, Louisiana</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 19, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
