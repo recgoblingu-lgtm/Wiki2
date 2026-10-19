@@ -1,60 +1,60 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>TOC protocol - Wiki2</title>
-  <meta name="description" content="The TOC protocol, or Talk to OSCAR protocol, was a protocol used by some third-party AOL Instant Messenger clients and several clients that AOL produced itself. Sometime near August 19, 2005, AOL discontinued support for the protocol and no">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/TOC_protocol.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="TOC protocol - Wiki2">
-  <meta property="og:description" content="The TOC protocol, or Talk to OSCAR protocol, was a protocol used by some third-party AOL Instant Messenger clients and several clients that AOL produced itself. Sometime near August 19, 2005, AOL discontinued support for the protocol and no">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/TOC_protocol.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="TOC protocol - Wiki2">
-  <meta name="twitter:description" content="The TOC protocol, or Talk to OSCAR protocol, was a protocol used by some third-party AOL Instant Messenger clients and several clients that AOL produced itself. Sometime near August 19, 2005, AOL discontinued support for the protocol and no">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>TOC protocol - Wiki2</title>
+<meta content="The TOC protocol, or Talk to OSCAR protocol, was a protocol used by some third-party AOL Instant Messenger clients and several clients that AOL produced itself. Sometime near August 19, 2005, AOL discontinued support for the protocol and no" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/TOC_protocol.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="TOC protocol" property="og:title"/>
+<meta content="TOC protocol is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/TOC_protocol.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="TOC protocol" name="twitter:title"/>
+<meta content="TOC protocol is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>TOC protocol</h1>
-    <p><b>TOC protocol</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>The TOC protocol, or Talk to OSCAR protocol, was a protocol used by some third-party AOL Instant Messenger clients and several clients that AOL produced itself. Sometime near August 19, 2005, AOL discontinued support for the protocol and no longer uses it in any of the instant messaging clients it actively maintains, such as its Windows and Mac clients for the AOL Instant Messenger and ICQ systems. However, it once did produce several of its own TOC clients, including TiK and TAC which are written in Tcl/Tk, TNT which is written in Emacs Lisp, all of which are open source, and a Java client originally called TIC which later became the Quick Buddy web applet. AOL also provided the TOC protocol specification openly to developers in the hopes that they will use it instead of the proprietary OSCAR protocol they use themselves. In July 2012, AOL turned off the TOC2 servers and it is no longer possible to connect to AIM using this protocol.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>The TOC protocol , or Talk to OSCAR protocol , was a protocol used by some third-party AOL Instant Messenger clients and several clients that AOL produced itself. Sometime near August 19, 2005, AOL discontinued support for the protocol and no longer uses it in any of the instant messaging clients it actively maintains, such as its Windows and Mac clients for the AOL Instant Messenger and ICQ systems. However, it once did produce several of its own TOC clients, including TiK and TAC which are written in Tcl / Tk , TNT which is written in Emacs Lisp , all of which are open source, and a Java client originally called TIC which later became the Quick Buddy web applet. AOL also provided the TOC protocol specification openly to developers in the hopes that they will use it instead of the proprietary OSCAR protocol they use themselves. In July 2012, AOL turned off the TOC2 servers and it is no longer possible to connect to AIM using this protocol. TOC was an ASCII -based protocol, while OSCAR is a binary protocol. In addition, TOC contained fewer features than its OSCAR counterpart. OSCAR provides such functionality as buddy icons (later added to TOC2), bidirectional file transfer, and advertising .</p>
-    <hr>
-    <h2>How it works</h2>
-    <p>TOC acted as a wrapper for the OSCAR protocol. The TOC server was an OSCAR client that listened on a socket , translating messages between the two protocols. Upon login, the TOC client specified an OSCAR login server (usually either login.oscar.aol.com or login.icq.com ) that the TOC server used on behalf of the client. TOC used FLAP to encapsulate its messages just as OSCAR does, however, FLAP has been hacked in such a way that it can be implemented on the same port as an HTTP server. By default, the TOC server operated in HTTP mode, indistinguishable from a typical web server. If a connecting client, in place of an HTTP request, writes the string &quot; FLAPON &quot; followed by two CRLFs , TOC would switch gears and start reading FLAP messages. Upon getting a user&#x27;s profile, the client was expected to re-connect to TOC and use it as an HTTP server, which would host the user&#x27;s profile in HTML . Once connected, two basic message formats for communications inside of FLAP existed. Client-to-server messages were sent in a format resembling a Unix -style command line: commands with whitespace -separated arguments, quoting and backslash escape sequences . Server-to-client messages were much simpler: they were sent as colon -separated ASCII strings, in a manner similar to many Unix config files. Thus, it was quite easy to write a client, as the incoming messages were very easy to parse, and o</p>
-    <hr>
-    <h2>TOC2</h2>
-    <p>The TOC2 protocol is an updated version of the TOC protocol, or &quot;Talk to OSCAR&quot; protocol. Its existence was never documented by AOL and it is only used in a few AOL Instant Messenger clients. Some clients are beginning to offer plugins for TOC2 in light of AOL&#x27;s recent shutdown of their TOC servers. Like its predecessor, TOC2 is an ASCII protocol and lacks some features of OSCAR , but unlike TOC, TOC2 is known to support buddy icons and receiving file transfers (not sending). TOC2 operates in essentially the same way as TOC, as a wrapper for OSCAR. Porting code from TOC to TOC2 is remarkably easy as well. Because of the similarities between TOC1.0 and TOC2.0, they are better defined by their differences, of which there are only a few:</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Induced_gravity.html">Induced gravity</a></li>
-      <li><a href="Dehydroepiandrosterone.html">Dehydroepiandrosterone</a></li>
-      <li><a href="Albert_Leo_Schlageter.html">Albert Leo Schlageter</a></li>
-      <li><a href="Haugh_unit.html">Haugh unit</a></li>
-      <li><a href="Rasmus_Rask.html">Rasmus Rask</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/TOC_protocol">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 19, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>TOC protocol</h1>
+<p><b>TOC protocol</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>The TOC protocol, or Talk to OSCAR protocol, was a protocol used by some third-party AOL Instant Messenger clients and several clients that AOL produced itself. Sometime near August 19, 2005, AOL discontinued support for the protocol and no longer uses it in any of the instant messaging clients it actively maintains, such as its Windows and Mac clients for the AOL Instant Messenger and ICQ systems. However, it once did produce several of its own TOC clients, including TiK and TAC which are written in Tcl/Tk, TNT which is written in Emacs Lisp, all of which are open source, and a Java client originally called TIC which later became the Quick Buddy web applet. AOL also provided the TOC protocol specification openly to developers in the hopes that they will use it instead of the proprietary OSCAR protocol they use themselves. In July 2012, AOL turned off the TOC2 servers and it is no longer possible to connect to AIM using this protocol.</p>
+<hr/>
+<h2>Background</h2>
+<p>The TOC protocol , or Talk to OSCAR protocol , was a protocol used by some third-party AOL Instant Messenger clients and several clients that AOL produced itself. Sometime near August 19, 2005, AOL discontinued support for the protocol and no longer uses it in any of the instant messaging clients it actively maintains, such as its Windows and Mac clients for the AOL Instant Messenger and ICQ systems. However, it once did produce several of its own TOC clients, including TiK and TAC which are written in Tcl / Tk , TNT which is written in Emacs Lisp , all of which are open source, and a Java client originally called TIC which later became the Quick Buddy web applet. AOL also provided the TOC protocol specification openly to developers in the hopes that they will use it instead of the proprietary OSCAR protocol they use themselves. In July 2012, AOL turned off the TOC2 servers and it is no longer possible to connect to AIM using this protocol. TOC was an ASCII -based protocol, while OSCAR is a binary protocol. In addition, TOC contained fewer features than its OSCAR counterpart. OSCAR provides such functionality as buddy icons (later added to TOC2), bidirectional file transfer, and advertising .</p>
+<hr/>
+<h2>How it works</h2>
+<p>TOC acted as a wrapper for the OSCAR protocol. The TOC server was an OSCAR client that listened on a socket , translating messages between the two protocols. Upon login, the TOC client specified an OSCAR login server (usually either login.oscar.aol.com or login.icq.com ) that the TOC server used on behalf of the client. TOC used FLAP to encapsulate its messages just as OSCAR does, however, FLAP has been hacked in such a way that it can be implemented on the same port as an HTTP server. By default, the TOC server operated in HTTP mode, indistinguishable from a typical web server. If a connecting client, in place of an HTTP request, writes the string " FLAPON " followed by two CRLFs , TOC would switch gears and start reading FLAP messages. Upon getting a user's profile, the client was expected to re-connect to TOC and use it as an HTTP server, which would host the user's profile in HTML . Once connected, two basic message formats for communications inside of FLAP existed. Client-to-server messages were sent in a format resembling a Unix -style command line: commands with whitespace -separated arguments, quoting and backslash escape sequences . Server-to-client messages were much simpler: they were sent as colon -separated ASCII strings, in a manner similar to many Unix config files. Thus, it was quite easy to write a client, as the incoming messages were very easy to parse, and o</p>
+<hr/>
+<h2>TOC2</h2>
+<p>The TOC2 protocol is an updated version of the TOC protocol, or "Talk to OSCAR" protocol. Its existence was never documented by AOL and it is only used in a few AOL Instant Messenger clients. Some clients are beginning to offer plugins for TOC2 in light of AOL's recent shutdown of their TOC servers. Like its predecessor, TOC2 is an ASCII protocol and lacks some features of OSCAR , but unlike TOC, TOC2 is known to support buddy icons and receiving file transfers (not sending). TOC2 operates in essentially the same way as TOC, as a wrapper for OSCAR. Porting code from TOC to TOC2 is remarkably easy as well. Because of the similarities between TOC1.0 and TOC2.0, they are better defined by their differences, of which there are only a few:</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Induced_gravity.html">Induced gravity</a></li>
+<li><a href="Dehydroepiandrosterone.html">Dehydroepiandrosterone</a></li>
+<li><a href="Albert_Leo_Schlageter.html">Albert Leo Schlageter</a></li>
+<li><a href="Haugh_unit.html">Haugh unit</a></li>
+<li><a href="Rasmus_Rask.html">Rasmus Rask</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/TOC_protocol">Wikimedia article</a></small></p>
+<p><i>Last edited: October 19, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

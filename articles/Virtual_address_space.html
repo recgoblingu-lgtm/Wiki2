@@ -1,60 +1,61 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Virtual address space - Wiki2</title>
-  <meta name="description" content="In computing, a virtual address space (VAS) is an area of contiguous virtual memory locations, called virtual addresses, which an operating system makes available to a process for executing instructions and storing data, and which it maps t">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Virtual_address_space.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Virtual address space - Wiki2">
-  <meta property="og:description" content="In computing, a virtual address space (VAS) is an area of contiguous virtual memory locations, called virtual addresses, which an operating system makes available to a process for executing instructions and storing data, and which it maps t">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Virtual_address_space.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/3/32/Virtual_address_space_and_physical_address_space_relationship.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Virtual address space - Wiki2">
-  <meta name="twitter:description" content="In computing, a virtual address space (VAS) is an area of contiguous virtual memory locations, called virtual addresses, which an operating system makes available to a process for executing instructions and storing data, and which it maps t">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/3/32/Virtual_address_space_and_physical_address_space_relationship.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Virtual address space - Wiki2</title>
+<meta content="In computing, a virtual address space (VAS) is an area of contiguous virtual memory locations, called virtual addresses, which an operating system makes available to a process for executing instructions and storing data, and which it maps t" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Virtual_address_space.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Virtual address space" property="og:title"/>
+<meta content="Virtual address space is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Virtual_address_space.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/3/32/Virtual_address_space_and_physical_address_space_relationship.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Virtual address space" name="twitter:title"/>
+<meta content="Virtual address space is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/3/32/Virtual_address_space_and_physical_address_space_relationship.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Virtual address space</h1>
-    <p><b>Virtual address space</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In computing, a virtual address space (VAS) is an area of contiguous virtual memory locations, called virtual addresses, which an operating system makes available to a process for executing instructions and storing data, and which it maps to the address space of physical addresses in a computer&#x27;s hardware memory. The range of virtual addresses usually starts at a low address and can extend to the highest address allowed by the computer&#x27;s instruction set architecture and supported by the operating system&#x27;s pointer size implementation, which can be 4 bytes for 32-bit or 8 bytes for 64-bit OS versions. This provides several benefits including security through process isolation, assuming each process is given a separate address space.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Virtual_address_space_and_physical_address_space_relationship.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Virtual address space"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>In computing , a virtual address space ( VAS ) is an area of contiguous virtual memory locations, called virtual addresses , which an operating system makes available to a process for executing instructions and storing data, and which it maps to the address space of physical addresses in a computer&#x27;s hardware memory. The range of virtual addresses usually starts at a low address and can extend to the highest address allowed by the computer&#x27;s instruction set architecture and supported by the operating system &#x27;s pointer size implementation, which can be 4 bytes for 32-bit or 8 bytes for 64-bit OS versions. This provides several benefits including security through process isolation , assuming each process is given a separate address space.</p>
-    <hr>
-    <h2>Example</h2>
-    <p>When a new application on a 32-bit OS is executed, the process has a 4 GiB VAS: each one of the memory addresses (from 0 to 2 − 1) in that space can have a single byte as a value. Initially, none of them have values ( - represents no value). Using or setting values in such a VAS would cause a memory exception . Then the application&#x27;s executable file is mapped into the VAS. Addresses in the process VAS are mapped to bytes in the EXE file. The OS manages the mapping: The symbol v represents values from bytes in the mapped file . Required DLL files are then mapped (this includes custom libraries in addition to system libraries such as kernel32.dll and user32.dll ): The process then starts executing bytes in the EXE file. However, the only way the process can use or set - values in its VAS is to ask the OS to map them to bytes from a file. A common way to use VAS memory in this way is to map it to the page file . The page file is a single file, but multiple distinct sets of contiguous bytes can be mapped into a VAS: And different parts of the page file can map into the VAS of different processes: On Microsoft Windows 32-bit, by default, only 2 GiB are made available to processes for their own use. The other 2 GiB are used by the operating system. On later 32-bit editions of Microsoft Windows, it is possible to extend the user-mode virtual address space to 3 GiB while only 1 GiB is </p>
-    <hr>
-    <h2>Linux</h2>
-    <p>For x86 32-bit CPUs, Linux allows splitting the user and kernel address ranges in different ways: 3G/1G user/kernel (default), 1G/3G user/kernel or 2G/2G user/kernel .</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Martin_Marietta_Materials.html">Martin Marietta Materials</a></li>
-      <li><a href="Canton_of_Valr_as.html">Canton of Valréas</a></li>
-      <li><a href="Lindsay_Anderson.html">Lindsay Anderson</a></li>
-      <li><a href="Harry_James.html">Harry James</a></li>
-      <li><a href="Ernakulam_Town_railway_station.html">Ernakulam Town railway station</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Virtual_address_space">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 19, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Virtual address space</h1>
+<p><b>Virtual address space</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In computing, a virtual address space (VAS) is an area of contiguous virtual memory locations, called virtual addresses, which an operating system makes available to a process for executing instructions and storing data, and which it maps to the address space of physical addresses in a computer's hardware memory. The range of virtual addresses usually starts at a low address and can extend to the highest address allowed by the computer's instruction set architecture and supported by the operating system's pointer size implementation, which can be 4 bytes for 32-bit or 8 bytes for 64-bit OS versions. This provides several benefits including security through process isolation, assuming each process is given a separate address space.</p>
+<figure class="article-image"><img alt="Virtual address space" src="https://upload.wikimedia.org/wikipedia/commons/3/32/Virtual_address_space_and_physical_address_space_relationship.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>In computing , a virtual address space ( VAS ) is an area of contiguous virtual memory locations, called virtual addresses , which an operating system makes available to a process for executing instructions and storing data, and which it maps to the address space of physical addresses in a computer's hardware memory. The range of virtual addresses usually starts at a low address and can extend to the highest address allowed by the computer's instruction set architecture and supported by the operating system 's pointer size implementation, which can be 4 bytes for 32-bit or 8 bytes for 64-bit OS versions. This provides several benefits including security through process isolation , assuming each process is given a separate address space.</p>
+<hr/>
+<h2>Example</h2>
+<p>When a new application on a 32-bit OS is executed, the process has a 4 GiB VAS: each one of the memory addresses (from 0 to 2 − 1) in that space can have a single byte as a value. Initially, none of them have values ( - represents no value). Using or setting values in such a VAS would cause a memory exception . Then the application's executable file is mapped into the VAS. Addresses in the process VAS are mapped to bytes in the EXE file. The OS manages the mapping: The symbol v represents values from bytes in the mapped file . Required DLL files are then mapped (this includes custom libraries in addition to system libraries such as kernel32.dll and user32.dll ): The process then starts executing bytes in the EXE file. However, the only way the process can use or set - values in its VAS is to ask the OS to map them to bytes from a file. A common way to use VAS memory in this way is to map it to the page file . The page file is a single file, but multiple distinct sets of contiguous bytes can be mapped into a VAS: And different parts of the page file can map into the VAS of different processes: On Microsoft Windows 32-bit, by default, only 2 GiB are made available to processes for their own use. The other 2 GiB are used by the operating system. On later 32-bit editions of Microsoft Windows, it is possible to extend the user-mode virtual address space to 3 GiB while only 1 GiB is </p>
+<hr/>
+<h2>Linux</h2>
+<p>For x86 32-bit CPUs, Linux allows splitting the user and kernel address ranges in different ways: 3G/1G user/kernel (default), 1G/3G user/kernel or 2G/2G user/kernel .</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Martin_Marietta_Materials.html">Martin Marietta Materials</a></li>
+<li><a href="Canton_of_Valr_as.html">Canton of Valréas</a></li>
+<li><a href="Lindsay_Anderson.html">Lindsay Anderson</a></li>
+<li><a href="Harry_James.html">Harry James</a></li>
+<li><a href="Ernakulam_Town_railway_station.html">Ernakulam Town railway station</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Virtual_address_space">Wikimedia article</a></small></p>
+<p><i>Last edited: October 19, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
