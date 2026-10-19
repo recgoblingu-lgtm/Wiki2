@@ -152665,12 +152665,19 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Robey",
       "generated_at": "2026-10-19T06:07:27+00:00"
+    },
+    {
+      "title": "Francis P. Fleming",
+      "filename": "Francis_P_Fleming.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Francis_P._Fleming",
+      "generated_at": "2026-10-19T22:54:15+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|4e4644360446340438464c4c464c011201dcbfdc09|82309290",
-    "Category:Arcade video games": "page|50322e38443a2e2c322a50010f01dc0e|6508276",
-    "Category:Video game franchises": "page|48402a4432504e3a3032010e01dcc1dc07|72838664",
+    "Category:Indie games": "page|5038322a040f0304503832042a562a3e32443a443603065038322a073604503832042a562a3e32443a443601250b01dcc0dcc3dcbddcc1dcc3dc0c|70432710",
+    "Category:Arcade video games": "page|563a404046560409922a4c2e2a303204362a423209940306563a404046560409922a4c2e2a303204362a4232099401250c01e0b2e017|3110199",
+    "Category:Video game franchises": "page|562a4c3a46562a4c32010d01e0c2e007|1304812",
     "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
