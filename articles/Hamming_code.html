@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hamming code - Wiki2</title>
+  <meta name="description" content="In computer science and telecommunications, Hamming codes are a family of linear error-correcting codes. Hamming codes can detect one-bit and two-bit errors, or correct one-bit errors without detection of uncorrected errors. By contrast, th">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Hamming_code.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Hamming code - Wiki2">
+  <meta property="og:description" content="In computer science and telecommunications, Hamming codes are a family of linear error-correcting codes. Hamming codes can detect one-bit and two-bit errors, or correct one-bit errors without detection of uncorrected errors. By contrast, th">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Hamming_code.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/b/b0/Hamming%287%2C4%29.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hamming code - Wiki2">
+  <meta name="twitter:description" content="In computer science and telecommunications, Hamming codes are a family of linear error-correcting codes. Hamming codes can detect one-bit and two-bit errors, or correct one-bit errors without detection of uncorrected errors. By contrast, th">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/b/b0/Hamming%287%2C4%29.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Hamming code</h1>
+    <p><b>Hamming code</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In computer science and telecommunications, Hamming codes are a family of linear error-correcting codes. Hamming codes can detect one-bit and two-bit errors, or correct one-bit errors without detection of uncorrected errors. By contrast, the simple parity code cannot correct errors, and can detect only an odd number of bits in error. Hamming codes are perfect codes, that is, they achieve the highest possible rate for codes with their block length and minimum distance of three. Richard W. Hamming invented Hamming codes in 1950 as a way of automatically correcting errors introduced by punched card readers. In his original paper, Hamming elaborated his general idea, but specifically focused on the Hamming(7,4) code which adds three parity bits to four bits of data.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Hamming%287%2C4%29.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Hamming code"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In computer science and telecommunications , Hamming codes are a family of linear error-correcting codes . Hamming codes can detect one-bit and two-bit errors, or correct one-bit errors without detection of uncorrected errors. By contrast, the simple parity code cannot correct errors, and can detect only an odd number of bits in error. Hamming codes are perfect codes , that is, they achieve the highest possible rate for codes with their block length and minimum distance of three. Richard W. Hamming invented Hamming codes in 1950 as a way of automatically correcting errors introduced by punched card readers. In his original paper, Hamming elaborated his general idea, but specifically focused on the Hamming(7,4) code which adds three parity bits to four bits of data. In mathematical terms, Hamming codes are a class of binary linear codes. For each integer r ≥ 2 there is a code-word with block length n = 2 − 1 and message length k = 2 − r − 1 . Hence the rate of Hamming codes is R = k / n = 1 − r / (2 − 1) , which is the highest possible for codes with minimum distance of three (i.e., the minimal number of bit changes needed to go from any code word to any other code word is three) and block length 2 − 1 . The parity-check matrix of a Hamming code is constructed by listing all columns of length r that are non-zero, which means that the dual code of the Hamming code is the shortene</p>
+    <hr>
+    <h2>History</h2>
+    <p>Richard Hamming , the inventor of Hamming codes, worked at Bell Labs in the late 1940s on the Bell Model V computer, an electromechanical relay-based machine with cycle times in seconds. Input was fed in on punched paper tape , seven-eighths of an inch wide, which had up to six holes per row. During weekdays, when errors in the relays were detected, the machine would stop and flash lights so that the operators could correct the problem. During after-hours periods and on weekends, when there were no operators, the machine simply moved on to the next job. Hamming worked on weekends, and grew increasingly frustrated with having to restart his programs from scratch due to detected errors. In a taped interview, Hamming said, &quot;And so I said, &#x27;Damn it, if the machine can detect an error, why can&#x27;t it locate the position of the error and correct it?&#x27;&quot;. Over the next few years, he worked on the problem of error-correction, developing an increasingly powerful array of algorithms. In 1950, he published what is now known as Hamming code, which remains in use today in applications such as ECC memory .</p>
+    <hr>
+    <h2>Codes predating Hamming</h2>
+    <p>A number of simple error-detecting codes were used before Hamming codes, but none were as effective as Hamming codes in the same overhead of space. Parity adds a single bit that indicates whether the number of ones (bit-positions with values of one) in the preceding data was even or odd . If an odd number of bits is changed in transmission, the message will change parity and the error can be detected at this point; however, the bit that changed may have been the parity bit itself. The most common convention is that a parity value of one indicates that there is an odd number of ones in the data, and a parity value of zero indicates that there is an even number of ones. If the number of bits changed is even, the check bit will be valid and the error will not be detected. Moreover, parity does not indicate which bit contained the error, even when it can detect it. The data must be discarded entirely and re-transmitted from scratch. On a noisy transmission medium , a successful transmission could take a long time or may never occur. However, while the quality of parity checking is poor, since it uses only a single bit, this method results in the least overhead. A two-out-of-five code is an encoding scheme which uses five bits consisting of exactly three 0s and two 1s. This provides possible combinations, enough to represent the digits 0–9. This scheme can detect all single bit-erro</p>
+    <hr>
+    <h2>Description</h2>
+    <p>If more error-correcting bits are included with a message, and if those bits can be arranged such that different incorrect bits produce different error results, then bad bits could be identified. In a seven-bit message, there are seven possible single bit errors, so three error control bits could potentially specify not only that an error occurred but also which bit caused the error. Hamming studied the existing coding schemes, including two-of-five, and generalized their concepts. To start with, he developed a nomenclature to describe the system, including the number of data bits and error-correction bits in a block. For instance, parity includes a single bit for any data word, so assuming ASCII words with seven bits, Hamming described this as an (8,7) code, with eight bits in total, of which seven are data. The repetition example would be (3,1) , following the same logic. The code rate is the second number divided by the first, for our repetition example, 1/3. Hamming also noticed the problems with flipping two or more bits, and described this as the &quot;distance&quot; (it is now called the Hamming distance , after him). Parity has a distance of 2, so one bit flip can be detected but not corrected, and any two bit flips will be invisible. The (3,1) repetition has a distance of 3, as three bits need to be flipped in the same triple to obtain another code word with no visible errors. I</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Kriyananda.html">Kriyananda</a></li>
+      <li><a href="B_b_le_Strange.html">Bébé le Strange</a></li>
+      <li><a href="Deciduous.html">Deciduous</a></li>
+      <li><a href="TVS_Motor_Company.html">TVS Motor Company</a></li>
+      <li><a href="Social_Democratic_Party_Portugal.html">Social Democratic Party (Portugal)</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Hamming_code">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 20, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

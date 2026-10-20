@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Telephony Application Programming Interface - Wiki2</title>
+  <meta name="description" content="The Telephony Application Programming Interface (TAPI) is a Microsoft Windows API, which provides computer telephony integration and enables PCs running Microsoft Windows to use telephone services. Different versions of TAPI are available o">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Telephony_Application_Programming_Interface.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Telephony Application Programming Interface - Wiki2">
+  <meta property="og:description" content="The Telephony Application Programming Interface (TAPI) is a Microsoft Windows API, which provides computer telephony integration and enables PCs running Microsoft Windows to use telephone services. Different versions of TAPI are available o">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Telephony_Application_Programming_Interface.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Telephony Application Programming Interface - Wiki2">
+  <meta name="twitter:description" content="The Telephony Application Programming Interface (TAPI) is a Microsoft Windows API, which provides computer telephony integration and enables PCs running Microsoft Windows to use telephone services. Different versions of TAPI are available o">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Telephony Application Programming Interface</h1>
+    <p><b>Telephony Application Programming Interface</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>The Telephony Application Programming Interface (TAPI) is a Microsoft Windows API, which provides computer telephony integration and enables PCs running Microsoft Windows to use telephone services. Different versions of TAPI are available on different versions of Windows. TAPI allows applications to control telephony functions between a computer and telephone network for data, fax, and voice calls. It includes basic functions, such as dialing, answering, and hanging up a call. It also supports supplementary functions, such as hold, transfer, conference, and call park found in PBX, ISDN, and other telephone systems.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>The Telephony Application Programming Interface ( TAPI ) is a Microsoft Windows API , which provides computer telephony integration and enables PCs running Microsoft Windows to use telephone services. Different versions of TAPI are available on different versions of Windows. TAPI allows applications to control telephony functions between a computer and telephone network for data, fax, and voice calls. It includes basic functions, such as dialing, answering, and hanging up a call. It also supports supplementary functions, such as hold, transfer, conference, and call park found in PBX , ISDN , and other telephone systems. TAPI is used primarily to control either modems or, more recently, to control business telephone system (PBX) handsets. When controlling a PBX handset, the driver is provided by the manufacturer of the telephone system. Some manufacturers provide drivers that allow the control of multiple handsets. This is traditionally called &quot;third-party control&quot;. Other manufacturers provide drivers that allow the control of a single handset. This is called &quot;first-party control&quot;. Third-party drivers are designed to allow applications to see and/or control multiple extensions at the same time. Some telephone systems only permit one third-party connection at a time. First-party drivers are designed to allow applications to monitor and/or control one extension at a time. Telephon</p>
+    <hr>
+    <h2>History</h2>
+    <p>TAPI was introduced in 1993 as the result of joint development by Microsoft and Intel . The first publicly available version of TAPI was version 1.3, which was released as a patch on top of Microsoft Windows 3.1. Version 1.3 drivers were 16-bit only. Version 1.3 is no longer supported, although some MSDN development library CDs still contain the files and patches. With Microsoft Windows 95 , TAPI was integrated into the operating system. The first version on Windows 95 was TAPI 1.4. TAPI 1.4 had support for 32-bit applications. The TAPI standard supports both connections from individual computers and LAN connections serving any number of computers. TAPI 2.0 was introduced with Windows NT 4.0. Version 2.0 was the first version on the Windows NT platform. It made a significant step forward by supporting ACD and PBX -specific functionality. In 1997, Microsoft released TAPI version 2.1. This version of TAPI was available as a downloadable update and was the first version to be supported on both the Microsoft Windows 95 and Windows NT/2000 platforms. TAPI 3.0 was released in 1999 together with Windows 2000 . This version enables IP telephony ( VoIP ) by providing simple and generic methods for making connections between two (using H.323 ) or more (using IP multicast ) computers and now also offers the ability to access any media stream (MSP driver) involved in the connection. Window</p>
+    <hr>
+    <h2>Telephone address format</h2>
+    <p>TAPI uses Microsoft canonical address format for telephone numbers to make phone calls. It is a derivative of E.123 international notation. The canonical address is a text string with the following format: +Country␣(AreaCode)␣ SubscriberNumber | Subaddress ^ Name CRLF . Area code, subaddress and name are optional; the latter can carry extension number for direct inward dialing and calling party name , as used by ISDN / E1 / T1 telecommunication protocols. Dialing rules are used to transform the canonical phone number into a dialable calling sequence for the modem , depending on the user&#x27;s location. The dialing rules include variable-length dialing for area code, trunk access and international access prefixes, as well as central office access and calling card / credit card numbers. The calling sequence can contain dialable numbers such as digits 0-9 and DTMF tones ABCD*# , formatting characters ␣ . - , and control characters ! P T , W @ $ ? ; which correspond to the Dial command of the Hayes AT command set . The following control characters are defined:</p>
+    <hr>
+    <h2>TAPI 2.x vs TAPI 3.x</h2>
+    <p>It is a common misconception that TAPI 3.0 (or TAPI 3.1 ) replaces TAPI 2.x . TAPI 2.x and earlier versions were written in C ; the API uses pointers to structures. Consequently, TAPI 2.x is easy to access from C or C++ applications, but it can be awkward to use from many other programming languages . TAPI 3.x was designed with a Component Object Model (COM) interface. This was done with the intent of making it accessible to higher level applications such as developed in VB or other environments that provide easy access to COM but don&#x27;t deal with C-style pointers. TAPI 3.x has a slightly different set of functionality than TAPI 2.x. The addition of integrated media control was the most significant addition. But TAPI 3.x doesn&#x27;t include all functionality that TAPI 2.x does, like support for the Phone class. One very notable issue with TAPI 3.x is the lack of support for managed code ( .NET environment). As documented in Microsoft KB Article 841712 , Microsoft currently has no plans to support TAPI 3.x directly from .NET programming languages. However, Mark Smith has provided a managed C++ library called ITAPI3 and a 2.x wrapper for .NET. Other developers provide libraries to work indirectly with TAPI enabled PBXs. One often overlooked reason an application developer might choose between TAPI 2.x and TAPI 3.x should be the hardware vendors recommendation. Even though TAPI provide</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Streptophyta.html">Streptophyta</a></li>
+      <li><a href="WNEW_FM.html">WNEW-FM</a></li>
+      <li><a href="Kurapaty.html">Kurapaty</a></li>
+      <li><a href="How_Long_Gone.html">How Long Gone</a></li>
+      <li><a href="Sainte_Anne_des_Plaines.html">Sainte-Anne-des-Plaines</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Telephony_Application_Programming_Interface">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 20, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

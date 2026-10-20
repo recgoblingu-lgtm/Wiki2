@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bourne shell - Wiki2</title>
+  <meta name="description" content="The Bourne shell (sh) is a shell command-line interpreter for computer operating systems. It first appeared on Version 7 Unix, as its default shell. Unix-like systems continue to have /bin/sh—which will be the Bourne shell, or a symbolic li">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Bourne_shell.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Bourne shell - Wiki2">
+  <meta property="og:description" content="The Bourne shell (sh) is a shell command-line interpreter for computer operating systems. It first appeared on Version 7 Unix, as its default shell. Unix-like systems continue to have /bin/sh—which will be the Bourne shell, or a symbolic li">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Bourne_shell.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/b/bf/Version_7_UNIX_SIMH_PDP11_Kernels_Shell.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bourne shell - Wiki2">
+  <meta name="twitter:description" content="The Bourne shell (sh) is a shell command-line interpreter for computer operating systems. It first appeared on Version 7 Unix, as its default shell. Unix-like systems continue to have /bin/sh—which will be the Bourne shell, or a symbolic li">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/b/bf/Version_7_UNIX_SIMH_PDP11_Kernels_Shell.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Bourne shell</h1>
+    <p><b>Bourne shell</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>The Bourne shell (sh) is a shell command-line interpreter for computer operating systems. It first appeared on Version 7 Unix, as its default shell. Unix-like systems continue to have /bin/sh—which will be the Bourne shell, or a symbolic link or hard link to a compatible shell—even when other shells are used by most users.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Version_7_UNIX_SIMH_PDP11_Kernels_Shell.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Bourne shell"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/1/16/OpenBSD_ksh_Interaction.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="OpenBSD ksh Interaction.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Version_7_UNIX_SIMH_PDP11_Bourne_Shell_Manual.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Version 7 UNIX SIMH PDP11 Bourne Shell Manual.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>The Bourne shell ( sh ) is a shell command-line interpreter for computer operating systems . It first appeared on Version 7 Unix , as its default shell . Unix-like systems continue to have /bin/sh —which will be the Bourne shell, or a symbolic link or hard link to a compatible shell—even when other shells are used by most users. The Bourne shell was once standard on all branded Unix systems, although historically BSD -based systems had many scripts written in csh . As the basis of POSIX sh syntax, Bourne shell scripts can typically be run with Bash or dash on Linux or other Unix-like systems; Bash itself is a free clone of Bourne.</p>
+    <hr>
+    <h2>Origins</h2>
+    <p>Work on the Bourne shell initially started in 1976. Developed by Stephen Bourne at Bell Labs , it was a replacement for the Thompson shell , whose executable file had the same name— sh . The Bourne shell was also preceded by the Mashey shell . Bourne was released in 1979 in the Version 7 Unix release distributed to colleges and universities. Although it is used as an interactive command interpreter, it was also intended as a scripting language and contains most of the features that are commonly considered to produce structured programs. It gained popularity with the publication of The Unix Programming Environment by Brian Kernighan and Rob Pike —the first commercially published book that presented the shell as a programming language in a tutorial form. Some of the primary goals of the shell were:</p>
+    <hr>
+    <h2>Features of the original version</h2>
+    <p>Features of the Version 7 UNIX Bourne shell include: The Bourne shell also was the first to feature the convention of using file descriptor 2&gt; for error messages , allowing much greater programmatic control during scripting by keeping error messages separate from data. Stephen Bourne&#x27;s coding style was influenced by his experience with the ALGOL 68C compiler that he had been working on at Cambridge University . In addition to the style in which the program was written, Bourne reused portions of ALGOL 68 &#x27;s if ~ then ~ elif ~ then ~ else ~ fi , case ~ in ~ esac and for / while ~ do ~ od (using done instead of od ) clauses in the common Unix Bourne shell syntax. Moreover, although the v7 shell is written in C , Bourne took advantage of some macros to give the C source code an ALGOL 68 flavor. The resulting dialect of C has been nicknamed &quot;Bournegol&quot;. A sample of &quot;Bournegol&quot; from cmd.c: These macros (along with the finger command distributed in Unix version 4.2BSD ) inspired the International Obfuscated C Code Contest (IOCCC).</p>
+    <hr>
+    <h2>Features introduced after 1979</h2>
+    <p>Over the years, the Bourne shell was enhanced at AT&amp;T. The various variants are thus called like the respective AT&amp;T Unix version it was released with (some important variants being Version7, System III, SVR2, SVR3, SVR4). As the shell was never versioned, the only way to identify it was testing its features. Features of the Bourne shell versions since 1979 include:</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Allium_sphaerocephalon.html">Allium sphaerocephalon</a></li>
+      <li><a href="Music_of_Serbia.html">Music of Serbia</a></li>
+      <li><a href="Marcel_Desailly.html">Marcel Desailly</a></li>
+      <li><a href="Point_of_interest.html">Point of interest</a></li>
+      <li><a href="Event_monitoring.html">Event monitoring</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Bourne_shell">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 20, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

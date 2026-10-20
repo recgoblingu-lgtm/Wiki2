@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Method of complements - Wiki2</title>
+  <meta name="description" content="In mathematics and computing, the method of complements is a technique to encode a symmetric range of positive and negative integers in a way that they can use the same algorithm for addition throughout the whole range. For a given number o">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Method_of_complements.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Method of complements - Wiki2">
+  <meta property="og:description" content="In mathematics and computing, the method of complements is a technique to encode a symmetric range of positive and negative integers in a way that they can use the same algorithm for addition throughout the whole range. For a given number o">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Method_of_complements.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/2/26/Complement_numbering_gnangarra.JPG?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Method of complements - Wiki2">
+  <meta name="twitter:description" content="In mathematics and computing, the method of complements is a technique to encode a symmetric range of positive and negative integers in a way that they can use the same algorithm for addition throughout the whole range. For a given number o">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/2/26/Complement_numbering_gnangarra.JPG?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Method of complements</h1>
+    <p><b>Method of complements</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In mathematics and computing, the method of complements is a technique to encode a symmetric range of positive and negative integers in a way that they can use the same algorithm for addition throughout the whole range. For a given number of places half of the possible representations of numbers encode the positive numbers, the other half represents their respective additive inverses. The pairs of mutually additive inverse numbers are called complements. Thus subtraction of any number is implemented by adding its complement. Changing the sign of any number is encoded by generating its complement, which can be done by a very simple and efficient algorithm. This method was commonly used in mechanical calculators and is still used in modern computers. The generalized concept of the radix complement is also valuable in number theory, such as in Midy&#x27;s theorem.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Complement_numbering_gnangarra.JPG?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Method of complements"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Complement_numbering_gnangarra.JPG?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Complement numbering gnangarra.JPG"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Comptometer1920Model.jpg/960px-Comptometer1920Model.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Comptometer1920Model.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In mathematics and computing , the method of complements is a technique to encode a symmetric range of positive and negative integers in a way that they can use the same algorithm (or mechanism ) for addition throughout the whole range. For a given number of places half of the possible representations of numbers encode the positive numbers, the other half represents their respective additive inverses . The pairs of mutually additive inverse numbers are called complements . Thus subtraction of any number is implemented by adding its complement. Changing the sign of any number is encoded by generating its complement, which can be done by a very simple and efficient algorithm. This method was commonly used in mechanical calculators and is still used in modern computers . The generalized concept of the radix complement (as described below) is also valuable in number theory , such as in Midy&#x27;s theorem . The nines&#x27; complement of a number given in decimal representation is formed by replacing each digit with nine minus that digit. To subtract a decimal number y (the subtrahend ) from another number x (the minuend ) two methods may be used: In the first method, the nines&#x27; complement of x is added to y . Then the nines&#x27; complement of the result obtained is formed to produce the desired result. In the second method, the nines&#x27; complement of y is added to x and one is added to the sum. Th</p>
+    <hr>
+    <h2>Numeric complements</h2>
+    <p>The radix complement of an -digit number in radix is defined as . In practice, the radix complement is more easily obtained by adding 1 to the diminished radix complement , which is . While this seems equally difficult to calculate as the radix complement, it is actually simpler since is simply the digit repeated times in base two. This is because (see also Geometric series Formula ). Knowing this, the diminished radix complement of a number can be found by complementing each digit with respect to , i.e. subtracting each digit in from . The subtraction of from using diminished radix complements may be performed as follows. Add the diminished radix complement of to to obtain or equivalently , which is the diminished radix complement of . Further taking the diminished radix complement of results in the desired answer of . Alternatively using the radix complement, may be obtained by adding the radix complement of to to obtain or . Assuming , the result will be greater or equal to and dropping the leading from the result is the same as subtracting , making the result or just , the desired result. In the decimal numbering system, the radix complement is called the ten&#x27;s complement and the diminished radix complement the nines&#x27; complement . In binary , the radix complement is called the two&#x27;s complement and the diminished radix complement the ones&#x27; complement . The naming of compleme</p>
+    <hr>
+    <h2>Decimal example</h2>
+    <p>The nines&#x27; complement of a decimal digit is the number that must be added to it to produce 9; the nines&#x27; complement of 3 is 6, the nines&#x27; complement of 7 is 2, and so on, see table. To form the nines&#x27; complement of a larger number, each digit is replaced by its nines&#x27; complement. Consider the following subtraction problem:</p>
+    <hr>
+    <h2>First method</h2>
+    <p>1. Compute the nines&#x27; complement of the minuend (873). 2. Add that to the subtrahend (218). 3. Now calculate the nines&#x27; complement of the result</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Cestrum.html">Cestrum</a></li>
+      <li><a href="Danube_Delta.html">Danube Delta</a></li>
+      <li><a href="Constitution_of_Iceland.html">Constitution of Iceland</a></li>
+      <li><a href="Lorraine_Quebec.html">Lorraine, Quebec</a></li>
+      <li><a href="Richard_Bong_State_Recreation_Area.html">Richard Bong State Recreation Area</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Method_of_complements">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 20, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
