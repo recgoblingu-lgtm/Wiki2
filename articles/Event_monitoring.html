@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Event monitoring - Wiki2</title>
-  <meta name="description" content="In computer science, event monitoring is the process of collecting, analyzing, and signaling event occurrences to subscribers such as operating system processes, active database rules as well as human operators. These event occurrences may ">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Event_monitoring.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Event monitoring - Wiki2">
-  <meta property="og:description" content="In computer science, event monitoring is the process of collecting, analyzing, and signaling event occurrences to subscribers such as operating system processes, active database rules as well as human operators. These event occurrences may ">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Event_monitoring.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Event monitoring - Wiki2">
-  <meta name="twitter:description" content="In computer science, event monitoring is the process of collecting, analyzing, and signaling event occurrences to subscribers such as operating system processes, active database rules as well as human operators. These event occurrences may ">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Event monitoring - Wiki2</title>
+<meta content="In computer science, event monitoring is the process of collecting, analyzing, and signaling event occurrences to subscribers such as operating system processes, active database rules as well as human operators. These event occurrences may " name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Event_monitoring.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Event monitoring" property="og:title"/>
+<meta content="Event monitoring is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Event_monitoring.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Event monitoring" name="twitter:title"/>
+<meta content="Event monitoring is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Event monitoring</h1>
-    <p><b>Event monitoring</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In computer science, event monitoring is the process of collecting, analyzing, and signaling event occurrences to subscribers such as operating system processes, active database rules as well as human operators. These event occurrences may stem from arbitrary sources in both software or hardware such as operating systems, database management systems, application software and processors. Event monitoring may use a time series database.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In computer science , event monitoring is the process of collecting, analyzing, and signaling event occurrences to subscribers such as operating system processes , active database rules as well as human operators. These event occurrences may stem from arbitrary sources in both software or hardware such as operating systems, database management systems , application software and processors . Event monitoring may use a time series database .</p>
-    <hr>
-    <h2>Basic concepts</h2>
-    <p>Event monitoring makes use of a logical bus to transport event occurrences from sources to subscribers , where event sources signal event occurrences to all event subscribers and event subscribers receive event occurrences. An event bus can be distributed over a set of physical nodes such as standalone computer systems. Typical examples of event buses are found in graphical systems such as X Window System , Microsoft Windows as well as development tools such as SDT. Event collection is the process of collecting event occurrences in a filtered event log for analysis. A filtered event log is logged event occurrences that can be of meaningful use in the future; this implies that event occurrences can be removed from the filtered event log if they are useless in the future. Event log analysis is the process of analyzing the filtered event log to aggregate event occurrences or to decide whether or not an event occurrence should be signalled. Event signalling is the process of signalling event occurrences over the event bus. Something that is monitored is denoted the monitored object ; for example, an application, an operating system, a database, hardware etc. can be monitored objects. A monitored object must be properly conditioned with event sensors to enable event monitoring, that is, an object must be instrumented with event sensors to be a monitored object. Event sensors are sen</p>
-    <hr>
-    <h2>Monitored objects and the probe effect</h2>
-    <p>As discussed by Gait, when an object is monitored, its behavior is changed. In particular, in any concurrent system in which processes can run in parallel , this poses a particular problem. The reason is that whenever sensors are introduced in the system, processes may execute in a different order. This can cause a problem if, for example, we are trying to localize a fault , and by monitoring the system we change its behavior in such a way that the fault may not result in a failure; in essence, the fault can be masked by monitoring the system. The probe effect is the difference in behavior between a monitored object and its un-instrumented counterpart. According to Schütz, we can avoid, compensate for, or ignore the probe effect. In critical real-time system, in which timeliness (i.e., the ability of a system to meet time constraints such as deadlines) is significant, avoidance is the only option. If we, for example, instrument a system for testing and then remove the instrumentation before delivery, this invalidates the results of most testing based on the complete system. In less critical real-time system (e.g., media-based systems), compensation can be acceptable for, for example, performance testing . In non-concurrent systems, ignorance is acceptable, since the behavior with respect to the order of execution is left unchanged.</p>
-    <hr>
-    <h2>Event log analysis</h2>
-    <p>Event log analysis is known as event composition in active databases , chronicle recognition in artificial intelligence and as real-time logic evaluation in real-time systems. Essentially, event log analysis is used for pattern matching , filtering of event occurrences, and aggregation of event occurrences into composite event occurrences. Commonly, dynamic programming strategies from algorithms are employed to save results of previous analyses for future use, since, for example, the same pattern may be match with the same event occurrences in several consecutive analysis processing. In contrast to general rule processing (employed to assert new facts from other facts, cf. inference engine ) that is usually based on backtracking techniques, event log analysis algorithms are commonly greedy ; for example, when a composite is said to have occurred, this fact is never revoked as may be done in a backtracking based algorithm. Several mechanisms have been proposed for event log analysis: finite-state automata , Petri nets , procedural (either based on an imperative programming language or an object-oriented programming languages), a modification of Boyer–Moore string-search algorithm , and simple temporal networks .</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Hans_Aalien.html">Hans Aalien</a></li>
-      <li><a href="Northland_Express.html">Northland Express</a></li>
-      <li><a href="USS_Dennis_J_Buckley.html">USS Dennis J. Buckley</a></li>
-      <li><a href="Henry_Forster_1st_Baron_Forster.html">Henry Forster, 1st Baron Forster</a></li>
-      <li><a href="Paropamisadae.html">Paropamisadae</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Event_monitoring">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 20, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Event monitoring</h1>
+<p><b>Event monitoring</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In computer science, event monitoring is the process of collecting, analyzing, and signaling event occurrences to subscribers such as operating system processes, active database rules as well as human operators. These event occurrences may stem from arbitrary sources in both software or hardware such as operating systems, database management systems, application software and processors. Event monitoring may use a time series database.</p>
+<hr/>
+<h2>Background</h2>
+<p>In computer science , event monitoring is the process of collecting, analyzing, and signaling event occurrences to subscribers such as operating system processes , active database rules as well as human operators. These event occurrences may stem from arbitrary sources in both software or hardware such as operating systems, database management systems , application software and processors . Event monitoring may use a time series database .</p>
+<hr/>
+<h2>Basic concepts</h2>
+<p>Event monitoring makes use of a logical bus to transport event occurrences from sources to subscribers , where event sources signal event occurrences to all event subscribers and event subscribers receive event occurrences. An event bus can be distributed over a set of physical nodes such as standalone computer systems. Typical examples of event buses are found in graphical systems such as X Window System , Microsoft Windows as well as development tools such as SDT. Event collection is the process of collecting event occurrences in a filtered event log for analysis. A filtered event log is logged event occurrences that can be of meaningful use in the future; this implies that event occurrences can be removed from the filtered event log if they are useless in the future. Event log analysis is the process of analyzing the filtered event log to aggregate event occurrences or to decide whether or not an event occurrence should be signalled. Event signalling is the process of signalling event occurrences over the event bus. Something that is monitored is denoted the monitored object ; for example, an application, an operating system, a database, hardware etc. can be monitored objects. A monitored object must be properly conditioned with event sensors to enable event monitoring, that is, an object must be instrumented with event sensors to be a monitored object. Event sensors are sen</p>
+<hr/>
+<h2>Monitored objects and the probe effect</h2>
+<p>As discussed by Gait, when an object is monitored, its behavior is changed. In particular, in any concurrent system in which processes can run in parallel , this poses a particular problem. The reason is that whenever sensors are introduced in the system, processes may execute in a different order. This can cause a problem if, for example, we are trying to localize a fault , and by monitoring the system we change its behavior in such a way that the fault may not result in a failure; in essence, the fault can be masked by monitoring the system. The probe effect is the difference in behavior between a monitored object and its un-instrumented counterpart. According to Schütz, we can avoid, compensate for, or ignore the probe effect. In critical real-time system, in which timeliness (i.e., the ability of a system to meet time constraints such as deadlines) is significant, avoidance is the only option. If we, for example, instrument a system for testing and then remove the instrumentation before delivery, this invalidates the results of most testing based on the complete system. In less critical real-time system (e.g., media-based systems), compensation can be acceptable for, for example, performance testing . In non-concurrent systems, ignorance is acceptable, since the behavior with respect to the order of execution is left unchanged.</p>
+<hr/>
+<h2>Event log analysis</h2>
+<p>Event log analysis is known as event composition in active databases , chronicle recognition in artificial intelligence and as real-time logic evaluation in real-time systems. Essentially, event log analysis is used for pattern matching , filtering of event occurrences, and aggregation of event occurrences into composite event occurrences. Commonly, dynamic programming strategies from algorithms are employed to save results of previous analyses for future use, since, for example, the same pattern may be match with the same event occurrences in several consecutive analysis processing. In contrast to general rule processing (employed to assert new facts from other facts, cf. inference engine ) that is usually based on backtracking techniques, event log analysis algorithms are commonly greedy ; for example, when a composite is said to have occurred, this fact is never revoked as may be done in a backtracking based algorithm. Several mechanisms have been proposed for event log analysis: finite-state automata , Petri nets , procedural (either based on an imperative programming language or an object-oriented programming languages), a modification of Boyer–Moore string-search algorithm , and simple temporal networks .</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Hans_Aalien.html">Hans Aalien</a></li>
+<li><a href="Northland_Express.html">Northland Express</a></li>
+<li><a href="USS_Dennis_J_Buckley.html">USS Dennis J. Buckley</a></li>
+<li><a href="Henry_Forster_1st_Baron_Forster.html">Henry Forster, 1st Baron Forster</a></li>
+<li><a href="Paropamisadae.html">Paropamisadae</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Event_monitoring">Wikimedia article</a></small></p>
+<p><i>Last edited: October 20, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

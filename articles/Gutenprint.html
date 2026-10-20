@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Gutenprint - Wiki2</title>
-  <meta name="description" content="Gutenprint is a collection of free-software printer drivers for use with UNIX spooling systems, such as CUPS, LPR, and LPRng. These drivers provide printing services for Unix-like systems, RISC OS and Haiku.">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Gutenprint.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Gutenprint - Wiki2">
-  <meta property="og:description" content="Gutenprint is a collection of free-software printer drivers for use with UNIX spooling systems, such as CUPS, LPR, and LPRng. These drivers provide printing services for Unix-like systems, RISC OS and Haiku.">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Gutenprint.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Gutenprint - Wiki2">
-  <meta name="twitter:description" content="Gutenprint is a collection of free-software printer drivers for use with UNIX spooling systems, such as CUPS, LPR, and LPRng. These drivers provide printing services for Unix-like systems, RISC OS and Haiku.">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Gutenprint - Wiki2</title>
+<meta content="Gutenprint is a collection of free-software printer drivers for use with UNIX spooling systems, such as CUPS, LPR, and LPRng. These drivers provide printing services for Unix-like systems, RISC OS and Haiku." name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Gutenprint.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Gutenprint" property="og:title"/>
+<meta content="Gutenprint is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Gutenprint.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Gutenprint" name="twitter:title"/>
+<meta content="Gutenprint is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Gutenprint</h1>
-    <p><b>Gutenprint</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>Gutenprint is a collection of free-software printer drivers for use with UNIX spooling systems, such as CUPS, LPR, and LPRng. These drivers provide printing services for Unix-like systems, RISC OS and Haiku.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>Gutenprint (formerly Gimp-Print ) is a collection of free-software printer drivers for use with UNIX spooling systems, such as CUPS , LPR , and LPRng . These drivers provide printing services for Unix-like systems (including Linux and macOS ), RISC OS and Haiku . It was originally developed as a plug-in for the GIMP , but later became a more general tool for use by other programs and operating systems ( macOS and Windows). When Apple introduced Mac OS X, it omitted printer drivers, claiming that it was the printer manufacturer&#x27;s task to produce these. Many of them did not update their drivers, and since Apple had chosen to use CUPS as the core of its printing system, Gimp-Print filled the void. Gutenprint has more than 1,300 drivers for Apollo, Apple, Brother, Canon, Citizen, Compaq, Dai Nippon, DEC, Epson, Fujifilm, Fujitsu, Gestetner, HP, IBM, Infotec, Kodak, Kyocera, Lanier, Lexmark, Minolta, NEC, NRG, Oki, Olivetti, Olympus, Panasonic, PCPI, Raven, Ricoh, Samsung, Savin, Seiko, Sharp, Shinko, Sony, Star, Tally, Tektronix and Xerox printers. Many users incorrectly called it Gimp , so the software was renamed Gutenprint to clearly distinguish it from GIMP. The name Gutenprint recognizes Johannes Gutenberg , the inventor of the movable type printing press.</p>
-    <hr>
-    <h2>Epson backend</h2>
-    <p>The Epson backend is in active development; new printers, bug fixes and capability additions are contributed in each new release.</p>
-    <hr>
-    <h2>Canon backend</h2>
-    <p>This backend is in active development, and new printers, bug fixes and capability additions are contributed in each new release. Canon printers use intelligent printheads, which control the quality of the final output given metadata sent to the printer from the driver. A consequence of this design is that the print quality is not specified in resolution alone, but via a &quot;resolution mode&quot; quality setting (up to 5 quality settings available at a time). The resolution parameter in the driver-output data is only a meta-resolution, typically either 300 or 600 dpi, sometimes 1200 dpi for certain monochrome or high-quality photo modes on a limited number of printers. The firmware then controls the printhead and creates physical ink output up to the marketed resolution. The available quality selections depends on a number of parameters (as applicable): the media to be printed on, duplex or simplex, borderless or bordered, color or monochrome printing, inkset selection, and cartridge selection. Thus, there are a number of available &quot;resolution modes&quot; per media, some of which will be available depending on the other parameters set for the printjob. Since in gutenprint, all options are always available via the PPD, the driver attempts to select reasonable defaults in the cases where the user settings are in contradiction. The prioritization follows: media type, resolution mode, cartridge </p>
-    <hr>
-    <h2>Unmaintained backends</h2>
-    <p>The PCL, color laser, and Lexmark backends are currently unmaintained. The project welcomes volunteers who can assist in maintaining these backends. Fairly often, printers that would use these backends have emulation capability for other languages, in particular PostScript . In such a case, the printer can be configured to use a standard PostScript driver.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Zwalm.html">Zwalm</a></li>
-      <li><a href="Laura_Hubert.html">Laura Hubert</a></li>
-      <li><a href="Agaricaceae.html">Agaricaceae</a></li>
-      <li><a href="N_n_wale_Estates_Hawaii.html">Nānāwale Estates, Hawaii</a></li>
-      <li><a href="Longboat.html">Longboat</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Gutenprint">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 20, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Gutenprint</h1>
+<p><b>Gutenprint</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>Gutenprint is a collection of free-software printer drivers for use with UNIX spooling systems, such as CUPS, LPR, and LPRng. These drivers provide printing services for Unix-like systems, RISC OS and Haiku.</p>
+<hr/>
+<h2>Background</h2>
+<p>Gutenprint (formerly Gimp-Print ) is a collection of free-software printer drivers for use with UNIX spooling systems, such as CUPS , LPR , and LPRng . These drivers provide printing services for Unix-like systems (including Linux and macOS ), RISC OS and Haiku . It was originally developed as a plug-in for the GIMP , but later became a more general tool for use by other programs and operating systems ( macOS and Windows). When Apple introduced Mac OS X, it omitted printer drivers, claiming that it was the printer manufacturer's task to produce these. Many of them did not update their drivers, and since Apple had chosen to use CUPS as the core of its printing system, Gimp-Print filled the void. Gutenprint has more than 1,300 drivers for Apollo, Apple, Brother, Canon, Citizen, Compaq, Dai Nippon, DEC, Epson, Fujifilm, Fujitsu, Gestetner, HP, IBM, Infotec, Kodak, Kyocera, Lanier, Lexmark, Minolta, NEC, NRG, Oki, Olivetti, Olympus, Panasonic, PCPI, Raven, Ricoh, Samsung, Savin, Seiko, Sharp, Shinko, Sony, Star, Tally, Tektronix and Xerox printers. Many users incorrectly called it Gimp , so the software was renamed Gutenprint to clearly distinguish it from GIMP. The name Gutenprint recognizes Johannes Gutenberg , the inventor of the movable type printing press.</p>
+<hr/>
+<h2>Epson backend</h2>
+<p>The Epson backend is in active development; new printers, bug fixes and capability additions are contributed in each new release.</p>
+<hr/>
+<h2>Canon backend</h2>
+<p>This backend is in active development, and new printers, bug fixes and capability additions are contributed in each new release. Canon printers use intelligent printheads, which control the quality of the final output given metadata sent to the printer from the driver. A consequence of this design is that the print quality is not specified in resolution alone, but via a "resolution mode" quality setting (up to 5 quality settings available at a time). The resolution parameter in the driver-output data is only a meta-resolution, typically either 300 or 600 dpi, sometimes 1200 dpi for certain monochrome or high-quality photo modes on a limited number of printers. The firmware then controls the printhead and creates physical ink output up to the marketed resolution. The available quality selections depends on a number of parameters (as applicable): the media to be printed on, duplex or simplex, borderless or bordered, color or monochrome printing, inkset selection, and cartridge selection. Thus, there are a number of available "resolution modes" per media, some of which will be available depending on the other parameters set for the printjob. Since in gutenprint, all options are always available via the PPD, the driver attempts to select reasonable defaults in the cases where the user settings are in contradiction. The prioritization follows: media type, resolution mode, cartridge </p>
+<hr/>
+<h2>Unmaintained backends</h2>
+<p>The PCL, color laser, and Lexmark backends are currently unmaintained. The project welcomes volunteers who can assist in maintaining these backends. Fairly often, printers that would use these backends have emulation capability for other languages, in particular PostScript . In such a case, the printer can be configured to use a standard PostScript driver.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Zwalm.html">Zwalm</a></li>
+<li><a href="Laura_Hubert.html">Laura Hubert</a></li>
+<li><a href="Agaricaceae.html">Agaricaceae</a></li>
+<li><a href="N_n_wale_Estates_Hawaii.html">Nānāwale Estates, Hawaii</a></li>
+<li><a href="Longboat.html">Longboat</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Gutenprint">Wikimedia article</a></small></p>
+<p><i>Last edited: October 20, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
