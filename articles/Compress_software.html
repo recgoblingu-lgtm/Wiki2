@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Compress (software) - Wiki2</title>
+  <meta name="description" content="compress is a shell command for compressing data based on the LZW algorithm. uncompress is a companion shell command that restores files to their original state from a file created with compress.">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Compress_software.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Compress (software) - Wiki2">
+  <meta property="og:description" content="compress is a shell command for compressing data based on the LZW algorithm. uncompress is a companion shell command that restores files to their original state from a file created with compress.">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Compress_software.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Compress (software) - Wiki2">
+  <meta name="twitter:description" content="compress is a shell command for compressing data based on the LZW algorithm. uncompress is a companion shell command that restores files to their original state from a file created with compress.">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Compress (software)</h1>
+    <p><b>Compress (software)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>compress is a shell command for compressing data based on the LZW algorithm. uncompress is a companion shell command that restores files to their original state from a file created with compress.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>compress is a shell command for compressing data based on the LZW algorithm. uncompress is a companion shell command that restores files to their original state (both content and metadata) from a file created with compress . Although once popular, compress has fallen out of favor because it uses the patented LZW algorithm. Its use has been replaced by commands such as gzip and bzip2 that use other algorithms and provide better data compression. Compared to gzip at its fastest setting, compress is slightly slower at compression, slightly faster at decompression, and has a significantly lower compression ratio . 1.8 MiB of memory is used to compress the Hutter Prize data, slightly more than gzip at its slowest setting. compress and uncompress have maintained a presence on Unix and BSD systems and have been ported to IBM i . compress was standardized in X/Open CAE Specification in 1994, and further in The Open Group Base Specifications, Issue 6 and 7. Linux Standard Base does not require compress . compress is often excluded from the default installation of a Linux distribution but can be installed from a separate package. compress is available for FreeBSD, OpenBSD, MINIX, Solaris and AIX. compress is allowed for Point-to-Point Protocol in RFC 1977 and for HTTP/1.1 in RFC 9110 , though it is rarely used in modern deployments as the better deflate/gzip is available.</p>
+    <hr>
+    <h2>Use</h2>
+    <p>Files compressed by compress are typically named with extension &quot;.Z&quot; and therefore sometimes called .Z files. The extension derives from the earlier pack program which used extension &quot;.z&quot;. Most tar implementations support compression by piping data through compress when given the -Z command line option. gunzip can decompress .Z files.</p>
+    <hr>
+    <h2>Algorithm</h2>
+    <p>The LZW algorithm used in compress was patented by Sperry Research Center in 1983. Terry Welch published an IEEE article on the algorithm in 1984, but failed to note that he had applied for a patent on the algorithm. Spencer Thomas of the University of Utah took this article and implemented compress in 1984, without realizing that a patent was pending on the LZW algorithm. The GIF image format also incorporated LZW compression in this way, and Unisys later claimed royalties on implementations of GIF. Joseph M. Orost led the team and worked with Thomas et al. to create the final (4.0) version of compress and published it as free software to the net.sources USENET group in 1985. U.S. patent 4,558,302 was granted in 1985 – making compress unusable without paying royalties to Sperry Research (which later merged into Unisys). The US LZW patent expired in 2003, so it is now in the public domain in the United States. Today, all LZW patents worldwide are expired (see Graphics Interchange Format#Unisys and LZW patent enforcement ). As of POSIX.1-2024 compress supports the DEFLATE algorithm used in gzip .</p>
+    <hr>
+    <h2>File format</h2>
+    <p>The compressed output consists of bit groups. Each bit group consists of codes with fixed amount of bits (9–16). Each group, except the last group, is aligned to the number of bits per code multiplied by 8 and right padded with zeroes. The last group is aligned to 8 bit octets and padded with zeroes. More information can be found at an issue on the ncompress GitHub repository. Example: The existence of padding bits is actually a bug, as LZW does not require any alignment. This bug existed for more than 35 years and was in the original UNIX compress , ncompress , gzip and the Windows port. All application/x-compress files were created using this bug. Some compress implementations write random bits from uninitialized buffer in paddings. There is no guarantee that the paddings will be zeroes. The decompressor must ignore the values in the paddings for compatibility.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Queensland_Health.html">Queensland Health</a></li>
+      <li><a href="Tropical_Storm_Odette_2003.html">Tropical Storm Odette (2003)</a></li>
+      <li><a href="Jos_Avelino.html">José Avelino</a></li>
+      <li><a href="Bryan_Talbot.html">Bryan Talbot</a></li>
+      <li><a href="The_Ancient_Art_of_War.html">The Ancient Art of War</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Compress_(software)">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 21, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

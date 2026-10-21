@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Linear timecode - Wiki2</title>
+  <meta name="description" content="Linear Timecode (LTC) is an encoding of SMPTE timecode data in an audio signal, as defined in SMPTE 12M specification. The audio signal is commonly recorded on a VTR track or other storage media. The bits are encoded using the biphase mark ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Linear_timecode.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Linear timecode - Wiki2">
+  <meta property="og:description" content="Linear Timecode (LTC) is an encoding of SMPTE timecode data in an audio signal, as defined in SMPTE 12M specification. The audio signal is commonly recorded on a VTR track or other storage media. The bits are encoded using the biphase mark ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Linear_timecode.html">
+  <meta property="og:image" content="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Timecode-audacity.png/960px-Timecode-audacity.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Linear timecode - Wiki2">
+  <meta name="twitter:description" content="Linear Timecode (LTC) is an encoding of SMPTE timecode data in an audio signal, as defined in SMPTE 12M specification. The audio signal is commonly recorded on a VTR track or other storage media. The bits are encoded using the biphase mark ">
+  <meta name="twitter:image" content="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Timecode-audacity.png/960px-Timecode-audacity.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Linear timecode</h1>
+    <p><b>Linear timecode</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>Linear Timecode (LTC) is an encoding of SMPTE timecode data in an audio signal, as defined in SMPTE 12M specification. The audio signal is commonly recorded on a VTR track or other storage media. The bits are encoded using the biphase mark code : a 0 bit has a single transition at the start of the bit period. A 1 bit has two transitions, at the beginning and middle of the period. This encoding is self-clocking. Each frame is terminated by a sync word which has a special predefined relationship with any video or film content.</p>
+    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Timecode-audacity.png/960px-Timecode-audacity.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Timecode-audacity.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>Linear (or Longitudinal) Timecode ( LTC ) is an encoding of SMPTE timecode data in an audio signal , as defined in SMPTE 12M specification. The audio signal is commonly recorded on a VTR track or other storage media. The bits are encoded using the biphase mark code (also known as FM ): a 0 bit has a single transition at the start of the bit period. A 1 bit has two transitions, at the beginning and middle of the period. This encoding is self-clocking . Each frame is terminated by a sync word which has a special predefined relationship with any video or film content. A special bit in the linear timecode frame, the biphase mark correction bit, ensures that there are an even number of AC transitions in each timecode frame. The sound of linear timecode is a jarring and distinctive noise and has been used as a sound-effects shorthand to imply telemetry or computers .</p>
+    <hr>
+    <h2>Generation and distribution</h2>
+    <p>In broadcast video situations, the LTC generator should be tied into house black burst, as should all devices using timecode, to ensure correct color framing and correct synchronization of all digital clocks. When synchronizing multiple clock-dependent digital devices together with video, such as digital audio recorders, the devices must be connected to a common word clock signal that is derived from the house black burst signal. This can be accomplished by using a generator that generates both black burst and video-resolved word clock, or by synchronizing the master digital device to video, and synchronizing all subsequent devices to the word clock output of the master digital device (and to LTC). Made up of 80 bits per frame, where there may be 24, 25 or 30 frames per second, LTC timecode varies from 960 Hz (binary zeros at 24 frames/s) to 2400 Hz (binary ones at 30 frames/s), and thus is comfortably in the audio frequency range. LTC can exist as either a balanced or unbalanced signal, and can be treated as an audio signal with regard to distribution. Like audio, LTC can be distributed by standard audio wiring, connectors, distribution amplifiers, and patchbays, and can be ground-isolated with audio transformers. It can also be distributed via 75 ohm video cable and video distribution amplifiers, although the voltage attenuation caused by using a 75 ohm system may cause the s</p>
+    <hr>
+    <h2>Longitudinal timecode data format</h2>
+    <p>The basic format is an 80-bit code that gives the time of day to the second, and the frame number within the second. Values are stored in binary-coded decimal , least significant bit first. There are thirty-two bits of user data, usually used for a reel number and date.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Maccabi_Healthcare_Services.html">Maccabi Healthcare Services</a></li>
+      <li><a href="Multihull.html">Multihull</a></li>
+      <li><a href="Royal_Palm_Beach_Florida.html">Royal Palm Beach, Florida</a></li>
+      <li><a href="Aniello_Dellacroce.html">Aniello Dellacroce</a></li>
+      <li><a href="Guha_surname.html">Guha (surname)</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Linear_timecode">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 21, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

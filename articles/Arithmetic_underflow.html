@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arithmetic underflow - Wiki2</title>
+  <meta name="description" content="The term arithmetic underflow is a condition in a computer program where the result of a calculation is a number of more precise absolute value than the computer can actually represent in memory on its central processing unit (CPU).">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Arithmetic_underflow.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Arithmetic underflow - Wiki2">
+  <meta property="og:description" content="The term arithmetic underflow is a condition in a computer program where the result of a calculation is a number of more precise absolute value than the computer can actually represent in memory on its central processing unit (CPU).">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Arithmetic_underflow.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Arithmetic underflow - Wiki2">
+  <meta name="twitter:description" content="The term arithmetic underflow is a condition in a computer program where the result of a calculation is a number of more precise absolute value than the computer can actually represent in memory on its central processing unit (CPU).">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Arithmetic underflow</h1>
+    <p><b>Arithmetic underflow</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>The term arithmetic underflow is a condition in a computer program where the result of a calculation is a number of more precise absolute value than the computer can actually represent in memory on its central processing unit (CPU).</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>The term arithmetic underflow (also floating-point underflow , or just underflow ) is a condition in a computer program where the result of a calculation is a number of more precise absolute value than the computer can actually represent in memory on its central processing unit (CPU). Arithmetic underflow can occur when the true result of a floating-point operation is smaller in magnitude (that is, closer to zero) than the smallest value representable as a normal floating-point number in the target datatype . Underflow can in part be regarded as negative overflow of the exponent of the floating-point value. For example, if the exponent part can represent values from −128 to 127, then a result with a value less than −128 may cause underflow.</p>
+    <hr>
+    <h2>Underflow gap</h2>
+    <p>The interval between − fminN and fminN , where fminN is the smallest positive normal floating-point value, is called the underflow gap. This is because the size of this interval is many orders of magnitude larger than the distance between adjacent normal floating-point values just outside the gap. For instance, if the floating-point datatype can represent 20 bits , the underflow gap is 2 times larger than the absolute distance between adjacent floating-point values just outside the gap. In older designs, the underflow gap had just one usable value, zero. When an underflow occurred, the true result was replaced by zero (either directly by the hardware, or by system software handling the primary underflow condition). This replacement is called &quot;flush to zero&quot;. The 1984 edition of IEEE 754 introduced subnormal numbers . The subnormal numbers (including zero) fill the underflow gap with values where the absolute distance between adjacent values is the same as for adjacent values just outside the underflow gap. This enables &quot;gradual underflow&quot;, where a nearest subnormal value is used, just as a nearest normal value is used when possible. Even when using gradual underflow, the nearest value may be zero. The absolute distance between adjacent floating-point values just outside the gap is called the machine epsilon , defined as the difference between 1 and the next larger floating poin</p>
+    <hr>
+    <h2>Handling of underflow</h2>
+    <p>The occurrence of an underflow may set a (&quot;sticky&quot;) status bit, raise an exception, at the hardware level generate an interrupt, or may cause some combination of these effects. As specified in IEEE 754 , the underflow condition is only signaled if there is also a loss of precision. Typically this is determined as the final result being inexact. However, if the user is trapping on underflow, this may happen regardless of consideration for loss of precision. The default handling in IEEE 754 for underflow (as well as other exceptions) is to record as a floating-point status that underflow has occurred. This is specified for the application-programming level, but often also interpreted as how to handle it at the hardware level.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Daniel_Boone_1964_TV_series.html">Daniel Boone (1964 TV series)</a></li>
+      <li><a href="by.html">.by</a></li>
+      <li><a href="Merrick_and_Rosso.html">Merrick and Rosso</a></li>
+      <li><a href="James_Hepburn_4th_Earl_of_Bothwell.html">James Hepburn, 4th Earl of Bothwell</a></li>
+      <li><a href="Whew.html">Whew!</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Arithmetic_underflow">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 21, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
