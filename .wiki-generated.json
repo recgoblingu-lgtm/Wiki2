@@ -159679,13 +159679,33 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/No._230_Squadron_RAF",
       "generated_at": "2026-10-21T04:32:37+00:00"
+    },
+    {
+      "title": "Islam in Finland",
+      "filename": "Islam_in_Finland.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Islam_in_Finland",
+      "generated_at": "2026-10-21T10:26:47+00:00"
+    },
+    {
+      "title": "Sylviidae",
+      "filename": "Sylviidae.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Sylviidae",
+      "generated_at": "2026-10-21T10:27:14+00:00"
+    },
+    {
+      "title": "Jeeyon Shim",
+      "filename": "Jeeyon_Shim.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Jeeyon_Shim",
+      "generated_at": "2026-10-21T10:27:35+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|5240503a422a044c2a503a46044c32365242040992543a30324604362a42320994012301dcc0dcc1dc15|46363569",
-    "Category:Arcade video games": "page|303a4446044c32580306303a4446044c3258011501dcc2dcc3dcc2dc06|61239854",
-    "Category:Video game franchises": "page|48402a4432504e3a3032010e01dcc1dc07|72838664",
+    "Category:Arcade video games": "page|383a3638044e322a4e04382a54462e011301dcc2dcc2dc08|2472055",
     "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
+    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418"
   }
 }
