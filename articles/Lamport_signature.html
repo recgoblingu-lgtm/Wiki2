@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lamport signature - Wiki2</title>
+  <meta name="description" content="In cryptography, a Lamport signature or Lamport one-time signature scheme is a method for constructing a digital signature. Lamport signatures can be built from any cryptographically secure one-way function; usually, a cryptographic hash fu">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Lamport_signature.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Lamport signature - Wiki2">
+  <meta property="og:description" content="In cryptography, a Lamport signature or Lamport one-time signature scheme is a method for constructing a digital signature. Lamport signatures can be built from any cryptographically secure one-way function; usually, a cryptographic hash fu">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Lamport_signature.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Lamport signature - Wiki2">
+  <meta name="twitter:description" content="In cryptography, a Lamport signature or Lamport one-time signature scheme is a method for constructing a digital signature. Lamport signatures can be built from any cryptographically secure one-way function; usually, a cryptographic hash fu">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Lamport signature</h1>
+    <p><b>Lamport signature</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In cryptography, a Lamport signature or Lamport one-time signature scheme is a method for constructing a digital signature. Lamport signatures can be built from any cryptographically secure one-way function; usually, a cryptographic hash function is used.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>In cryptography , a Lamport signature or Lamport one-time signature scheme is a method for constructing a digital signature . Lamport signatures can be built from any cryptographically secure one-way function ; usually, a cryptographic hash function is used. Although the potential development of quantum computers threatens the security of many common forms of cryptography, such as RSA , it is believed that Lamport signatures with large hash functions would still be secure in that event. Each Lamport key can only be used to sign a single message. However, many Lamport signatures can be handled by one Merkle hash tree , thus a single hash tree key can be used for many messages, making this a fairly efficient digital signature scheme. The Lamport signature cryptosystem was invented in 1979 and named after its inventor, Leslie Lamport .</p>
+    <hr>
+    <h2>Example</h2>
+    <p>Alice has a 256-bit cryptographic hash function and some kind of secure random number generator . She wants to create and use a Lamport key pair, that is, a private key and a corresponding public key.</p>
+    <hr>
+    <h2>Making the key pair</h2>
+    <p>To create the private key, Alice uses the random number generator to produce 256 pairs of random numbers (2×256 numbers in total), each number being 256 bits in size, that is, a total of 2×256×256 bits = 128 Kibit in total. This is her private key, and she will store it away in a secure place for later use. To create the public key, she hashes each of the 512 random numbers in the private key, thus creating 512 hashes, each 256 bits in size. (Also 128 Kibits in total.) These 512 hashes form her public key, which she will share with the world.</p>
+    <hr>
+    <h2>Signing the message</h2>
+    <p>Later, Alice wants to sign a message. Note that now that Alice&#x27;s private key is used, it should never be used again. She must destroy the other 256 numbers that she did not use for the signature. Otherwise, each additional signature reusing the private key reduces the security level against adversaries that might later create false signatures from them.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Margaret_Clemence.html">Margaret Clemence</a></li>
+      <li><a href="T_interface.html">T interface</a></li>
+      <li><a href="Michael_Moorer.html">Michael Moorer</a></li>
+      <li><a href="Goodings_Grove_Illinois.html">Goodings Grove, Illinois</a></li>
+      <li><a href="Kawasaki_Ninja_ZX_10R.html">Kawasaki Ninja ZX-10R</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Lamport_signature">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 22, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

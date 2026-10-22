@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Netfilter - Wiki2</title>
+  <meta name="description" content="Netfilter is a framework provided by the Linux kernel that allows various networking-related operations to be implemented in the form of customized handlers. Netfilter offers various functions and operations for packet filtering, network ad">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Netfilter.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Netfilter - Wiki2">
+  <meta property="og:description" content="Netfilter is a framework provided by the Linux kernel that allows various networking-related operations to be implemented in the form of customized handlers. Netfilter offers various functions and operations for packet filtering, network ad">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Netfilter.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Netfilter - Wiki2">
+  <meta name="twitter:description" content="Netfilter is a framework provided by the Linux kernel that allows various networking-related operations to be implemented in the form of customized handlers. Netfilter offers various functions and operations for packet filtering, network ad">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Netfilter</h1>
+    <p><b>Netfilter</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>Netfilter is a framework provided by the Linux kernel that allows various networking-related operations to be implemented in the form of customized handlers. Netfilter offers various functions and operations for packet filtering, network address translation, and port translation, which provide the functionality required for directing packets through a network and prohibiting packets from reaching sensitive locations within a network.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>Netfilter is a framework provided by the Linux kernel that allows various networking -related operations to be implemented in the form of customized handlers. Netfilter offers various functions and operations for packet filtering , network address translation , and port translation , which provide the functionality required for directing packets through a network and prohibiting packets from reaching sensitive locations within a network. Netfilter represents a set of hooks inside the Linux kernel, allowing specific kernel modules to register callback functions with the kernel&#x27;s networking stack. Those functions, usually applied to the traffic in the form of filtering and modification rules, are called for every packet that traverses the respective hook within the networking stack.</p>
+    <hr>
+    <h2>History</h2>
+    <p>Rusty Russell started the netfilter/iptables project in 1998; he had also authored the project&#x27;s predecessor, ipchains . As the project grew, he founded the Netfilter Core Team (or simply coreteam ) in 1999. The software they produced (called netfilter hereafter) uses the GNU General Public License (GPL) license, and on 26 August 1999 it was merged into version 2.3.15 of the Linux kernel mainline and thus was in the 2.4.0 stable version. In August 2003 Harald Welte became chairman of the coreteam. In April 2004, following a crack-down by the project on those distributing the project&#x27;s software embedded in routers without complying with the GPL, a German court granted Welte an historic injunction against Sitecom Germany, which refused to follow the GPL&#x27;s terms (see GPL-related disputes ). In September 2007 Patrick McHardy, who led development for past years, was elected as new chairman of the coreteam. Prior to iptables, the predominant software packages for creating Linux firewalls were ipchains in Linux kernel 2.2.x and ipfwadm in Linux kernel 2.0.x, which in turn was based on BSD &#x27;s ipfw . Both ipchains and ipfwadm alter the networking code so they can manipulate packets, as Linux kernel lacked a general packets control framework until the introduction of Netfilter. Whereas ipchains and ipfwadm combine packet filtering and NAT (particularly three specific kinds of NAT , calle</p>
+    <hr>
+    <h2>iptables</h2>
+    <p>The kernel modules named ip_tables , ip6_tables , arp_tables (the underscore is part of the name), and ebtables comprise the legacy packet filtering portion of the Netfilter hook system. They provide a table-based system for defining firewall rules that can filter or transform packets. The tables can be administered through the user-space tools iptables , ip6tables , arptables , and ebtables . Notice that although both the kernel modules and userspace utilities have similar names, each of them is a different entity with different functionality. Each table is actually its own hook, and each table was introduced to serve a specific purpose. As far as Netfilter is concerned, it runs a particular table in a specific order with respect to other tables. Any table can call itself and it also can execute its own rules, which enables possibilities for additional processing and iteration. Rules are organized into chains, or in other words, &quot;chains of rules&quot;. These chains are named with predefined titles, including INPUT , OUTPUT and FORWARD . These chain titles help describe the origin in the Netfilter stack. Packet reception, for example, falls into PREROUTING , while the INPUT represents locally delivered data, and forwarded traffic falls into the FORWARD chain. Locally generated output passes through the OUTPUT chain, and packets to be sent out are in POSTROUTING chain. Netfilter modu</p>
+    <hr>
+    <h2>nftables</h2>
+    <p>nftables is the new packet-filtering portion of Netfilter. nft is the new userspace utility that replaces iptables , ip6tables , arptables and ebtables . nftables kernel engine adds a simple virtual machine into the Linux kernel, which is able to execute bytecode to inspect a network packet and make decisions on how that packet should be handled. The operations implemented by this virtual machine are intentionally made basic: it can get data from the packet itself, have a look at the associated metadata (inbound interface, for example), and manage connection tracking data. Arithmetic, bitwise and comparison operators can be used for making decisions based on that data. The virtual machine is also capable of manipulating sets of data (typically IP addresses), allowing multiple comparison operations to be replaced with a single set lookup. This is in contrast to the legacy Xtables (iptables, etc.) code, which has protocol awareness so deeply built into the code that it has had to be replicated four times‍—‌for IPv4, IPv6, ARP, and Ethernet bridging‍—‌as the firewall engines are too protocol-specific to be used in a generic manner. The main advantages over iptables are simplification of the Linux kernel ABI ; reduction of code duplication ; improved error reporting ; more efficient execution and storage; and incremental, atomic changes of filtering rules.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Edward_Greenspan.html">Edward Greenspan</a></li>
+      <li><a href="Rhein_Kreis_Neuss.html">Rhein-Kreis Neuss</a></li>
+      <li><a href="Chewa_people.html">Chewa people</a></li>
+      <li><a href="Charlie_Jade.html">Charlie Jade</a></li>
+      <li><a href="1952_St_Louis_Browns_season.html">1952 St. Louis Browns season</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Netfilter">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 22, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
