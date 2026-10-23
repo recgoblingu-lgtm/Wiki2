@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Primary key - Wiki2</title>
-  <meta name="description" content="In the relational model of databases, a primary key is a designated set of attributes that can reliably identify and distinguish between each individual record in a table. The database creator can choose an existing unique attribute or comb">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Primary_key.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Primary key - Wiki2">
-  <meta property="og:description" content="In the relational model of databases, a primary key is a designated set of attributes that can reliably identify and distinguish between each individual record in a table. The database creator can choose an existing unique attribute or comb">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Primary_key.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Primary key - Wiki2">
-  <meta name="twitter:description" content="In the relational model of databases, a primary key is a designated set of attributes that can reliably identify and distinguish between each individual record in a table. The database creator can choose an existing unique attribute or comb">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Primary key - Wiki2</title>
+<meta content="In the relational model of databases, a primary key is a designated set of attributes that can reliably identify and distinguish between each individual record in a table. The database creator can choose an existing unique attribute or comb" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Primary_key.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Primary key" property="og:title"/>
+<meta content="Primary key is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Primary_key.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Primary key" name="twitter:title"/>
+<meta content="Primary key is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Primary key</h1>
-    <p><b>Primary key</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In the relational model of databases, a primary key is a designated set of attributes that can reliably identify and distinguish between each individual record in a table. The database creator can choose an existing unique attribute or combination of attributes from the table to act as its primary key, or create a new attribute containing a unique ID that exists solely for this purpose.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In the relational model of databases , a primary key is a designated set of attributes ( column(s) ) that can reliably identify and distinguish between each individual record in a table . The database creator can choose an existing unique attribute or combination of attributes from the table (a natural key ) to act as its primary key, or create a new attribute containing a unique ID that exists solely for this purpose (a surrogate key ). Examples of natural keys that could be suitable primary keys include data that is already by definition unique to all items in the table such as a national identification number attribute for person records, or the combination of a timestamp attribute with a location attribute for event records. More formally, a primary key is a specific choice of a minimal set of attributes that uniquely specify a tuple ( row ) in a relation (table). A primary key is a choice of a candidate key (a minimal superkey ); any other candidate key is an alternate key .</p>
-    <hr>
-    <h2>Design</h2>
-    <p>In relational database terms, a primary key does not differ in form or function from a key that isn&#x27;t primary. In practice, various motivations may determine the choice of any one key as primary over another. The designation of a primary key may indicate the &quot;preferred&quot; identifier for data in the table, or that the primary key is to be used for foreign key references from other tables or it may indicate some other technical rather than semantic feature of the table. Some languages and software have special syntax features that can be used to identify a primary key as such (e.g. the PRIMARY KEY constraint in SQL). The relational model, as expressed through relational calculus and relational algebra, does not distinguish between primary keys and other kinds of keys. Primary keys were added to the SQL standard mainly as a convenience to the application programmer. Primary keys can be an integer that is incremented, a universally unique identifier (UUID) or can be generated using Hi/Lo algorithm .</p>
-    <hr>
-    <h2>Defining primary keys in SQL</h2>
-    <p>Primary keys are defined in the ISO SQL Standard , through the PRIMARY KEY constraint. The syntax to add such a constraint to an existing table is defined in SQL:2003 like this: The primary key can also be specified directly during table creation. In the SQL Standard, primary keys may consist of one or multiple columns. Each column participating in the primary key is implicitly defined as NOT NULL. Note that some RDBMS require explicitly marking primary key columns as NOT NULL . If the primary key consists only of a single column, the column can be marked as such using the following syntax:</p>
-    <hr>
-    <h2>Surrogate keys</h2>
-    <p>In some circumstances the natural key that uniquely identifies a tuple in a relation may be cumbersome to use for software development. For example, it may involve multiple columns or large text fields. In such cases, a surrogate key can be used instead as the primary key. In other situations there may be more than one candidate key for a relation, and no candidate key is obviously preferred. A surrogate key may be used as the primary key to avoid giving one candidate key artificial primacy over the others. Since primary keys exist primarily as a convenience to the programmer, surrogate primary keys are often used, in many cases exclusively, in database application design. Due to the popularity of surrogate primary keys, many developers and in some cases even theoreticians have come to regard surrogate primary keys as an inalienable part of the relational data model. This is largely due to a migration of principles from the object-oriented programming model to the relational model, creating the hybrid object–relational model. In the ORM like active record pattern , these additional restrictions are placed on primary keys: However, neither of these restrictions is part of the relational model or any SQL standard. Due diligence should be applied when deciding on the immutability of primary key values during database and application design. Some database systems even imply that va</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Helmingham.html">Helmingham</a></li>
-      <li><a href="Gagauz_language.html">Gagauz language</a></li>
-      <li><a href="DivX_LLC.html">DivX, LLC</a></li>
-      <li><a href="Robert_Barra.html">Robert Barra</a></li>
-      <li><a href="LGBTQ_rights_in_Venezuela.html">LGBTQ rights in Venezuela</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Primary_key">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 22, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Primary key</h1>
+<p><b>Primary key</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In the relational model of databases, a primary key is a designated set of attributes that can reliably identify and distinguish between each individual record in a table. The database creator can choose an existing unique attribute or combination of attributes from the table to act as its primary key, or create a new attribute containing a unique ID that exists solely for this purpose.</p>
+<hr/>
+<h2>Background</h2>
+<p>In the relational model of databases , a primary key is a designated set of attributes ( column(s) ) that can reliably identify and distinguish between each individual record in a table . The database creator can choose an existing unique attribute or combination of attributes from the table (a natural key ) to act as its primary key, or create a new attribute containing a unique ID that exists solely for this purpose (a surrogate key ). Examples of natural keys that could be suitable primary keys include data that is already by definition unique to all items in the table such as a national identification number attribute for person records, or the combination of a timestamp attribute with a location attribute for event records. More formally, a primary key is a specific choice of a minimal set of attributes that uniquely specify a tuple ( row ) in a relation (table). A primary key is a choice of a candidate key (a minimal superkey ); any other candidate key is an alternate key .</p>
+<hr/>
+<h2>Design</h2>
+<p>In relational database terms, a primary key does not differ in form or function from a key that isn't primary. In practice, various motivations may determine the choice of any one key as primary over another. The designation of a primary key may indicate the "preferred" identifier for data in the table, or that the primary key is to be used for foreign key references from other tables or it may indicate some other technical rather than semantic feature of the table. Some languages and software have special syntax features that can be used to identify a primary key as such (e.g. the PRIMARY KEY constraint in SQL). The relational model, as expressed through relational calculus and relational algebra, does not distinguish between primary keys and other kinds of keys. Primary keys were added to the SQL standard mainly as a convenience to the application programmer. Primary keys can be an integer that is incremented, a universally unique identifier (UUID) or can be generated using Hi/Lo algorithm .</p>
+<hr/>
+<h2>Defining primary keys in SQL</h2>
+<p>Primary keys are defined in the ISO SQL Standard , through the PRIMARY KEY constraint. The syntax to add such a constraint to an existing table is defined in SQL:2003 like this: The primary key can also be specified directly during table creation. In the SQL Standard, primary keys may consist of one or multiple columns. Each column participating in the primary key is implicitly defined as NOT NULL. Note that some RDBMS require explicitly marking primary key columns as NOT NULL . If the primary key consists only of a single column, the column can be marked as such using the following syntax:</p>
+<hr/>
+<h2>Surrogate keys</h2>
+<p>In some circumstances the natural key that uniquely identifies a tuple in a relation may be cumbersome to use for software development. For example, it may involve multiple columns or large text fields. In such cases, a surrogate key can be used instead as the primary key. In other situations there may be more than one candidate key for a relation, and no candidate key is obviously preferred. A surrogate key may be used as the primary key to avoid giving one candidate key artificial primacy over the others. Since primary keys exist primarily as a convenience to the programmer, surrogate primary keys are often used, in many cases exclusively, in database application design. Due to the popularity of surrogate primary keys, many developers and in some cases even theoreticians have come to regard surrogate primary keys as an inalienable part of the relational data model. This is largely due to a migration of principles from the object-oriented programming model to the relational model, creating the hybrid object–relational model. In the ORM like active record pattern , these additional restrictions are placed on primary keys: However, neither of these restrictions is part of the relational model or any SQL standard. Due diligence should be applied when deciding on the immutability of primary key values during database and application design. Some database systems even imply that va</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Helmingham.html">Helmingham</a></li>
+<li><a href="Gagauz_language.html">Gagauz language</a></li>
+<li><a href="DivX_LLC.html">DivX, LLC</a></li>
+<li><a href="Robert_Barra.html">Robert Barra</a></li>
+<li><a href="LGBTQ_rights_in_Venezuela.html">LGBTQ rights in Venezuela</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Primary_key">Wikimedia article</a></small></p>
+<p><i>Last edited: October 22, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

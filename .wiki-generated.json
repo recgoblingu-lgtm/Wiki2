@@ -163200,12 +163200,27 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Crown_Point%2C_Indiana",
       "generated_at": "2026-10-22T23:01:25+00:00"
+    },
+    {
+      "title": "Kate O'Mara",
+      "filename": "Kate_O_Mara.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Kate_O'Mara",
+      "generated_at": "2026-10-23T00:52:04+00:00"
+    },
+    {
+      "title": "Brighton Festival",
+      "filename": "Brighton_Festival.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Brighton_Festival",
+      "generated_at": "2026-10-23T00:52:32+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|4e46443a2e044c2a2e3a44360736042e4c464e4e56464c40304e011d01dcc1dcbfdcc2e009|78604276",
-    "Category:Indie games": "page|344c463652440432442e464c32011101dcc0dc09|82463880",
-    "Category:Video game franchises": "page|48402a4432504e3a3032010e01dcc1dc07|72838664",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
+    "Category:Arcade video games": "page|504c5258504644040992543a30324604362a423209940306504c5258504644040992543a30324604362a4232099401250c01dcb2dc17|724012",
+    "Category:Indie games": "page|385244304c32304e040992543a30324604362a42320994011901dc18|43015930",
+    "Category:Video game franchises": "page|562a4c3a46562a4c32010d01e0c2e007|1304812",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
+    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474"
   }
 }

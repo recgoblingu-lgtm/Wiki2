@@ -1,63 +1,64 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>How to Design Programs - Wiki2</title>
-  <meta name="description" content="How to Design Programs (HtDP) is a textbook by Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, and Shriram Krishnamurthi on the systematic design of computer programs. MIT Press published the first edition in 2001 and the second ed">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/How_to_Design_Programs.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="How to Design Programs - Wiki2">
-  <meta property="og:description" content="How to Design Programs (HtDP) is a textbook by Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, and Shriram Krishnamurthi on the systematic design of computer programs. MIT Press published the first edition in 2001 and the second ed">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/How_to_Design_Programs.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/en/0/06/How_to_Design_Programs_%28front_cover%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="How to Design Programs - Wiki2">
-  <meta name="twitter:description" content="How to Design Programs (HtDP) is a textbook by Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, and Shriram Krishnamurthi on the systematic design of computer programs. MIT Press published the first edition in 2001 and the second ed">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/en/0/06/How_to_Design_Programs_%28front_cover%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>How to Design Programs - Wiki2</title>
+<meta content="How to Design Programs (HtDP) is a textbook by Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, and Shriram Krishnamurthi on the systematic design of computer programs. MIT Press published the first edition in 2001 and the second ed" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/How_to_Design_Programs.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="How to Design Programs" property="og:title"/>
+<meta content="How to Design Programs is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/How_to_Design_Programs.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/en/0/06/How_to_Design_Programs_%28front_cover%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="How to Design Programs" name="twitter:title"/>
+<meta content="How to Design Programs is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/en/0/06/How_to_Design_Programs_%28front_cover%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>How to Design Programs</h1>
-    <p><b>How to Design Programs</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>How to Design Programs (HtDP) is a textbook by Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, and Shriram Krishnamurthi on the systematic design of computer programs. MIT Press published the first edition in 2001 and the second edition in 2018. In addition to the for-purchase paperback, it is also freely available online.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/en/0/06/How_to_Design_Programs_%28front_cover%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="How to Design Programs (front cover).jpg"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>How to Design Programs ( HtDP ) is a textbook by Matthias Felleisen , Robert Bruce Findler , Matthew Flatt , and Shriram Krishnamurthi on the systematic design of computer programs . MIT Press published the first edition in 2001 and the second edition in 2018. In addition to the for-purchase paperback, it is also freely available online. The book is the first one to focus on the systematic design of code as opposed to the syntax of a currently popular programming language. Its key concept is that of a &quot;design recipe&quot;, a six-step process for creating programs from a problem statement in a step-by-step fashion. While the book was originally used along with the education project TeachScheme! (renamed ProgramByDesign ), it has been adopted at colleges and universities for teaching program design principles, including UBC&#x27;s popular on-line course. To support its approach to teaching programming, How to Design Program, HtDP introduces five beginner-level programming languages and provides a dedicated integrated development environment IDE .</p>
-    <hr>
-    <h2>The Design Recipe</h2>
-    <p>According to HtDP , the design process starts with a careful analysis of a problem statement with the goal of extracting a rigorous description of the kinds of data that the desired program consumes and produces. The structure of these data descriptions determines the organization of the program. Then, the book introduces data forms of progressively growing complexity. It starts with data of atomic forms and then progresses to compound forms, including data that can be arbitrarily large. For each kind of data definition, the book explains how to organize the program in principle, enabling a programmer who encounters a new form of data to construct a program systematically.</p>
-    <hr>
-    <h2>The Teaching Languages and DrRacket</h2>
-    <p>Like Structure and Interpretation of Computer Programs ( SICP ), HtDP relies on a variant of the programming language Scheme . It includes its own programming integrated development environment (IDE), named DrRacket , which provides a series of programming languages. The first language supports only functions, atomic data, and simple structures. Each language adds expressive power to the prior one. Except for the largest teaching language, all languages for HtDP are functional programming languages.</p>
-    <hr>
-    <h2>Pedagogical basis</h2>
-    <p>In the 2004 paper, &quot;The Structure and Interpretation of the Computer Science Curriculum&quot;, the same authors compared and contrasted the pedagogical focus of How to Design Programs ( HtDP ) with that of Structure and Interpretation of Computer Programs ( SICP ). In the 14-page paper, the authors distinguish the pedagogic focus of HtDP from that of SICP , and show how HtDP was designed as a textbook to address some problems that some students and teachers had with SICP . The paper introduces the pedagogical landscape surrounding the publication of SICP . The paper starts with a history and critique of SICP , followed by a description of the goal of the computing curriculum. It then describes the principles of teaching behind HtDP ; in particular, the difference between implicit vs. explicit teaching of design principles. It continues on to describe the role of Scheme and the importance of an ideal programming environment, and concludes with an evaluation of content and student/faculty reaction to experience with SICP vs. HtDP . One of the focuses of the paper is the emphasis on the difference in required domain knowledge between SICP and HtDP . A chart in the paper compares major exercises in SICP and HtDP , and the related text describes how the exercises in the former require more sophisticated domain knowledge than those of HtDP . The paper claims the following four major effor</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Lamport_signature.html">Lamport signature</a></li>
-      <li><a href="Margaret_Clemence.html">Margaret Clemence</a></li>
-      <li><a href="T_interface.html">T interface</a></li>
-      <li><a href="Michael_Moorer.html">Michael Moorer</a></li>
-      <li><a href="Goodings_Grove_Illinois.html">Goodings Grove, Illinois</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/How_to_Design_Programs">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 22, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>How to Design Programs</h1>
+<p><b>How to Design Programs</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>How to Design Programs (HtDP) is a textbook by Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, and Shriram Krishnamurthi on the systematic design of computer programs. MIT Press published the first edition in 2001 and the second edition in 2018. In addition to the for-purchase paperback, it is also freely available online.</p>
+<figure class="article-image"><img alt="How to Design Programs (front cover).jpg" src="https://upload.wikimedia.org/wikipedia/en/0/06/How_to_Design_Programs_%28front_cover%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>How to Design Programs ( HtDP ) is a textbook by Matthias Felleisen , Robert Bruce Findler , Matthew Flatt , and Shriram Krishnamurthi on the systematic design of computer programs . MIT Press published the first edition in 2001 and the second edition in 2018. In addition to the for-purchase paperback, it is also freely available online. The book is the first one to focus on the systematic design of code as opposed to the syntax of a currently popular programming language. Its key concept is that of a "design recipe", a six-step process for creating programs from a problem statement in a step-by-step fashion. While the book was originally used along with the education project TeachScheme! (renamed ProgramByDesign ), it has been adopted at colleges and universities for teaching program design principles, including UBC's popular on-line course. To support its approach to teaching programming, How to Design Program, HtDP introduces five beginner-level programming languages and provides a dedicated integrated development environment IDE .</p>
+<hr/>
+<h2>The Design Recipe</h2>
+<p>According to HtDP , the design process starts with a careful analysis of a problem statement with the goal of extracting a rigorous description of the kinds of data that the desired program consumes and produces. The structure of these data descriptions determines the organization of the program. Then, the book introduces data forms of progressively growing complexity. It starts with data of atomic forms and then progresses to compound forms, including data that can be arbitrarily large. For each kind of data definition, the book explains how to organize the program in principle, enabling a programmer who encounters a new form of data to construct a program systematically.</p>
+<hr/>
+<h2>The Teaching Languages and DrRacket</h2>
+<p>Like Structure and Interpretation of Computer Programs ( SICP ), HtDP relies on a variant of the programming language Scheme . It includes its own programming integrated development environment (IDE), named DrRacket , which provides a series of programming languages. The first language supports only functions, atomic data, and simple structures. Each language adds expressive power to the prior one. Except for the largest teaching language, all languages for HtDP are functional programming languages.</p>
+<hr/>
+<h2>Pedagogical basis</h2>
+<p>In the 2004 paper, "The Structure and Interpretation of the Computer Science Curriculum", the same authors compared and contrasted the pedagogical focus of How to Design Programs ( HtDP ) with that of Structure and Interpretation of Computer Programs ( SICP ). In the 14-page paper, the authors distinguish the pedagogic focus of HtDP from that of SICP , and show how HtDP was designed as a textbook to address some problems that some students and teachers had with SICP . The paper introduces the pedagogical landscape surrounding the publication of SICP . The paper starts with a history and critique of SICP , followed by a description of the goal of the computing curriculum. It then describes the principles of teaching behind HtDP ; in particular, the difference between implicit vs. explicit teaching of design principles. It continues on to describe the role of Scheme and the importance of an ideal programming environment, and concludes with an evaluation of content and student/faculty reaction to experience with SICP vs. HtDP . One of the focuses of the paper is the emphasis on the difference in required domain knowledge between SICP and HtDP . A chart in the paper compares major exercises in SICP and HtDP , and the related text describes how the exercises in the former require more sophisticated domain knowledge than those of HtDP . The paper claims the following four major effor</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Lamport_signature.html">Lamport signature</a></li>
+<li><a href="Margaret_Clemence.html">Margaret Clemence</a></li>
+<li><a href="T_interface.html">T interface</a></li>
+<li><a href="Michael_Moorer.html">Michael Moorer</a></li>
+<li><a href="Goodings_Grove_Illinois.html">Goodings Grove, Illinois</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/How_to_Design_Programs">Wikimedia article</a></small></p>
+<p><i>Last edited: October 22, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
