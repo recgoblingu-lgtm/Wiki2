@@ -163214,13 +163214,19 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Brighton_Festival",
       "generated_at": "2026-10-23T00:52:32+00:00"
+    },
+    {
+      "title": "I Wish (Stevie Wonder song)",
+      "filename": "I_Wish_Stevie_Wonder_song.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/I_Wish_(Stevie_Wonder_song)",
+      "generated_at": "2026-10-23T15:16:11+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|504c5258504644040992543a30324604362a423209940306504c5258504644040992543a30324604362a4232099401250c01dcb2dc17|724012",
-    "Category:Indie games": "page|385244304c32304e040992543a30324604362a42320994011901dc18|43015930",
-    "Category:Video game franchises": "page|562a4c3a46562a4c32010d01e0c2e007|1304812",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474"
+    "Category:Indie games": "page|403236324430044634042c5242050e2c46030650383204403236324430044634042c5242050e2c4601250801dcc0dcc4dcc0dcc3dcbddc09|55148588",
+    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474",
+    "Category:Video game franchises": "page|2e4642482a503a0438324c46011001dcbfdc07|32470667",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
