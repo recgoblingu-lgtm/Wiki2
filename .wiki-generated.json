@@ -163221,12 +163221,17 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/I_Wish_(Stevie_Wonder_song)",
       "generated_at": "2026-10-23T15:16:11+00:00"
+    },
+    {
+      "title": "Atari eight-bit computers",
+      "filename": "Atari_eight_bit_computers.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/Atari_eight-bit_computers",
+      "generated_at": "2026-10-24T09:27:39+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|403236324430044634042c5242050e2c46030650383204403236324430044634042c5242050e2c4601250801dcc0dcc4dcc0dcc3dcbddc09|55148588",
-    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474",
-    "Category:Video game franchises": "page|2e4642482a503a0438324c46011001dcbfdc07|32470667",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
+    "Category:Indie games": "page|422a4c3a0f02010901dc08|34955125",
+    "Category:Video game franchises": "page|34050e0f0304364c2a443004484c3a58040992543a30324604362a4232044e324c3a324e099401250501dcc3dcc1dc1b|27378181"
   }
 }
