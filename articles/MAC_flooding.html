@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MAC flooding - Wiki2</title>
+  <meta name="description" content="In computer networking, a media access control attack or MAC flooding is a technique employed to compromise the security of network switches. The attack works by forcing legitimate MAC table contents out of the switch and forcing a unicast ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/MAC_flooding.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="MAC flooding - Wiki2">
+  <meta property="og:description" content="In computer networking, a media access control attack or MAC flooding is a technique employed to compromise the security of network switches. The attack works by forcing legitimate MAC table contents out of the switch and forcing a unicast ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/MAC_flooding.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MAC flooding - Wiki2">
+  <meta name="twitter:description" content="In computer networking, a media access control attack or MAC flooding is a technique employed to compromise the security of network switches. The attack works by forcing legitimate MAC table contents out of the switch and forcing a unicast ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>MAC flooding</h1>
+    <p><b>MAC flooding</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In computer networking, a media access control attack or MAC flooding is a technique employed to compromise the security of network switches. The attack works by forcing legitimate MAC table contents out of the switch and forcing a unicast flooding behavior, potentially sending sensitive information to portions of the network where it is not normally intended to go.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>In computer networking , a media access control attack or MAC flooding is a technique employed to compromise the security of network switches . The attack works by forcing legitimate MAC table contents out of the switch and forcing a unicast flooding behavior, potentially sending sensitive information to portions of the network where it is not normally intended to go.</p>
+    <hr>
+    <h2>Attack method</h2>
+    <p>Switches maintain a MAC table that maps individual MAC addresses on the network to the physical ports on the switch. The table is populated by observing source addresses of incoming Ethernet frames as part of the transparent bridging process. The MAC table allows the switch to direct data out of the physical port where the recipient is located, as opposed to indiscriminately broadcasting the data out of all ports as an Ethernet hub does. The advantage of this method is that data is bridged exclusively to the network segment containing the computer that the data is specifically destined for. In a typical MAC flooding attack, a switch is fed many frames, each containing a different source MAC address, by the attacker. The intention is to consume the limited memory set aside in the switch to store the MAC address table. The effect of this attack may vary across implementations; however, the desired effect (by the attacker) is to force legitimate MAC addresses out of the MAC address table, causing significant quantities of incoming frames to be unicast flooded out on all ports, including the one in use by the attacker. It is from this flooding behavior that the MAC flooding attack gets its name. After launching a successful MAC flooding attack, a malicious user can use a packet analyzer to capture sensitive data being transmitted between other computers, which would not be accessib</p>
+    <hr>
+    <h2>Countermeasures</h2>
+    <p>To prevent MAC flooding attacks, network operators usually rely on the presence of one or more features in their network equipment:</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Northwestern_State_University_of_Louisiana.html">Northwestern State University of Louisiana</a></li>
+      <li><a href="Rosenborg_BK.html">Rosenborg BK</a></li>
+      <li><a href="Pax_Britannica.html">Pax Britannica</a></li>
+      <li><a href="Handwriting.html">Handwriting</a></li>
+      <li><a href="Heterochromatin.html">Heterochromatin</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/MAC_flooding">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 24, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

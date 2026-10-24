@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zero-suppressed decision diagram - Wiki2</title>
+  <meta name="description" content="A zero-suppressed decision diagram is a particular kind of binary decision diagram (BDD) with fixed variable ordering. This data structure provides a canonically compact representation of sets, particularly suitable for certain combinatoria">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Zero_suppressed_decision_diagram.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Zero-suppressed decision diagram - Wiki2">
+  <meta property="og:description" content="A zero-suppressed decision diagram is a particular kind of binary decision diagram (BDD) with fixed variable ordering. This data structure provides a canonically compact representation of sets, particularly suitable for certain combinatoria">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Zero_suppressed_decision_diagram.html">
+  <meta property="og:image" content="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Figure_7%26_8_ZDD_vs_BDD.png/960px-Figure_7%26_8_ZDD_vs_BDD.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Zero-suppressed decision diagram - Wiki2">
+  <meta name="twitter:description" content="A zero-suppressed decision diagram is a particular kind of binary decision diagram (BDD) with fixed variable ordering. This data structure provides a canonically compact representation of sets, particularly suitable for certain combinatoria">
+  <meta name="twitter:image" content="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Figure_7%26_8_ZDD_vs_BDD.png/960px-Figure_7%26_8_ZDD_vs_BDD.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Zero-suppressed decision diagram</h1>
+    <p><b>Zero-suppressed decision diagram</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>A zero-suppressed decision diagram is a particular kind of binary decision diagram (BDD) with fixed variable ordering. This data structure provides a canonically compact representation of sets, particularly suitable for certain combinatorial problems. Recall the Ordered Binary Decision Diagram (OBDD) reduction strategy, i.e. a node is replaced with one of its children if both out-edges point to the same node. In contrast, a node in a ZDD is replaced with its negative child if its positive edge points to the terminal node 0. This provides an alternative strong normal form, with improved compression of sparse sets. It is based on a reduction rule devised by Shin-ichi Minato in 1993.</p>
+    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Figure_7%26_8_ZDD_vs_BDD.png/960px-Figure_7%26_8_ZDD_vs_BDD.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Figure 7&amp; 8 ZDD vs BDD.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Figure_9_%26_10_Results_in_N-Queens_Problem_and_benchmarking_against_BDD.png/960px-Figure_9_%26_10_Results_in_N-Queens_Problem_and_benchmarking_against_BDD.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Figure 9 &amp; 10 Results in N-Queens Problem and benchmarking against BDD.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>A zero-suppressed decision diagram ( ZSDD or ZDD ) is a particular kind of binary decision diagram ( BDD ) with fixed variable ordering. This data structure provides a canonically compact representation of sets, particularly suitable for certain combinatorial problems . Recall the Ordered Binary Decision Diagram (OBDD) reduction strategy, i.e. a node is replaced with one of its children if both out-edges point to the same node. In contrast, a node in a ZDD is replaced with its negative child if its positive edge points to the terminal node 0. This provides an alternative strong normal form, with improved compression of sparse sets. It is based on a reduction rule devised by Shin-ichi Minato in 1993.</p>
+    <hr>
+    <h2>Background</h2>
+    <p>In a binary decision diagram , a Boolean function can be represented as a rooted, directed, acyclic graph , which consists of several decision nodes and terminal nodes. In 1993, Shin-ichi Minato from Japan modified Randal Bryant &#x27;s BDDs for solving combinatorial problems . His &quot;Zero-Suppressed&quot; BDDs aim to represent and manipulate sparse sets of bit vectors . If the data for a problem are represented as bit vectors of length n, then any subset of the vectors can be represented by the Boolean function over n variables yielding 1 when the vector corresponding to the variable assignment is in the set. According to Bryant, it is possible to use forms of logic functions to express problems involving sum-of-products. These functions of n binary variables can be represented as sets of &quot;cubes&quot;, each denoted by an letter string of length n containing symbols 0, 1, and -. For instance, the function can be illustrated by the set . To evaluate it is necessary to see if 110 matches any member of the set where - means &quot;Don&#x27;t care&quot;. Since 110 matches none of the entries the set . The symbols 1, 0, and – can be denoted the using bit patterns 10, 01, and 00 respectively. This way one can represent the above set with bit vectors in the form of . Notice that the set of bit vectors is sparse, in that the number of vectors is fewer than 2, which is the maximum number of bit vectors, and the set con</p>
+    <hr>
+    <h2>Definitions</h2>
+    <p>We define a Zero-Suppressed Decision Diagram (ZDD) to be any directed acyclic graph such that: We call Z an unreduced ZDD, if a HI edge points to a ⊥ node or condition 4 fails to hold. In computer programs, Boolean functions can be expressed in bits, so the ⊤ node and ⊥ node can be represented by 1 and 0. From the definition above, we can represent combination sets efficiently by applying two rules to the BDDs: If the number and the order of input variables are fixed, a zero-suppressed BDD represents a Boolean function uniquely (as proved in Figure 2, it is possible to use a BDD to represent a Boolean binary tree).</p>
+    <hr>
+    <h2>Representing a family of sets</h2>
+    <p>Let F be a ZDD. Let v be its root node. Then: One may represent the LO branch as the sets in F that don&#x27;t contain v : And the HI branch as the sets in F that do contain v :</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Foreign_Sales_Corporation.html">Foreign Sales Corporation</a></li>
+      <li><a href="Martin_Koukal.html">Martin Koukal</a></li>
+      <li><a href="Crockett_County_Texas.html">Crockett County, Texas</a></li>
+      <li><a href="Slip_turn.html">Slip-turn</a></li>
+      <li><a href="Iditarod_Trail_Sled_Dog_Race.html">Iditarod Trail Sled Dog Race</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Zero-suppressed_decision_diagram">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 24, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

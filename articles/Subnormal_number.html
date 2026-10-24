@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Subnormal number - Wiki2</title>
+  <meta name="description" content="In computer science, subnormal numbers are the subset of denormalized numbers that fill the underflow gap around zero in floating-point arithmetic. Any non-zero number with magnitude smaller than the smallest positive normal number is subno">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Subnormal_number.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Subnormal number - Wiki2">
+  <meta property="og:description" content="In computer science, subnormal numbers are the subset of denormalized numbers that fill the underflow gap around zero in floating-point arithmetic. Any non-zero number with magnitude smaller than the smallest positive normal number is subno">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Subnormal_number.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Subnormal number - Wiki2">
+  <meta name="twitter:description" content="In computer science, subnormal numbers are the subset of denormalized numbers that fill the underflow gap around zero in floating-point arithmetic. Any non-zero number with magnitude smaller than the smallest positive normal number is subno">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Subnormal number</h1>
+    <p><b>Subnormal number</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In computer science, subnormal numbers are the subset of denormalized numbers that fill the underflow gap around zero in floating-point arithmetic. Any non-zero number with magnitude smaller than the smallest positive normal number is subnormal, while denormal can also refer to numbers outside that range.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>In computer science , subnormal numbers are the subset of denormalized numbers (sometimes called denormals ) that fill the underflow gap around zero in floating-point arithmetic . Any non-zero number with magnitude smaller than the smallest positive normal number is subnormal , while denormal can also refer to numbers outside that range.</p>
+    <hr>
+    <h2>Terminology</h2>
+    <p>In some older documents (especially standards documents such as the initial release of IEEE 754 (1985) and the first standard version of the C language (1989)), &quot;denormal&quot; is used to refer exclusively to subnormal numbers. This usage persists in various standards documents, especially when discussing hardware that is incapable of representing any other denormalized numbers, but the discussion here uses the term &quot;subnormal&quot; in line with the 2008 revision of IEEE 754 . In casual discussions, the terms subnormal and denormal are often used interchangeably, in part because there are no denormalized IEEE binary numbers outside the subnormal range. The term &quot;number&quot; is used rather loosely, to describe a particular sequence of digits, rather than a mathematical abstraction; see Floating-point arithmetic for details of how real numbers relate to floating-point representations. &quot;Representation&quot; rather than &quot;number&quot; may be used when clarity is required. Sometimes it is useful to treat zero as one of the subnormal numbers, as its binary representation typically matches this interpretation; at other times it may be useful to contrast zero from (other) subnormal numbers, since all floating point number systems must have a way of representing zero, even if they don&#x27;t otherwise have subnormal numbers.</p>
+    <hr>
+    <h2>Definition</h2>
+    <p>Mathematical real numbers may be approximated by multiple floating-point representations. One representation is defined as normal , and others are defined as subnormal , denormal , or unnormal by their relationship to normal . In a normal floating-point value, there are no leading zeros in the significand (also commonly called mantissa); rather, leading zeros are removed by adjusting the exponent (for example, the number 0.0123 would be written as 1.23 × 10 ). Conversely, a denormalized floating-point value has a significand with a leading digit of zero. Of these, the subnormal numbers represent values which if normalized would have exponents below the smallest representable exponent (the exponent having a limited range). The significand (or mantissa) of an IEEE floating-point number is the part of a floating-point number that represents the significant digits . For a positive normalised number, it can be represented as m 0 . m 1 m 2 m 3 ... m p −2 m p −1 (where m represents a significant digit, and p is the precision) with non-zero m 0 . Notice that for a binary radix , the leading binary digit is always 1. In a subnormal number, since the exponent is the least that it can be, zero is the leading significant digit (0. m 1 m 2 m 3 ... m p −2 m p −1 ), allowing the representation of numbers closer to zero than the smallest normal number. A floating-point number may be recognized</p>
+    <hr>
+    <h2>Background</h2>
+    <p>Subnormal numbers provide the guarantee that addition and subtraction of floating-point numbers never underflows; two nearby floating-point numbers always have a representable non-zero difference. Without gradual underflow, the subtraction a − b can underflow and produce zero even though the values are not equal. This can, in turn, lead to division by zero errors that cannot occur when gradual underflow is used. Subnormal numbers were implemented in the Intel 8087 while the IEEE 754 standard was being written. They were by far the most controversial feature in the K-C-S format proposal that was eventually adopted, but this implementation demonstrated that subnormal numbers could be supported in a practical implementation. Some implementations of floating-point units do not directly support subnormal numbers in hardware, but rather trap to some kind of software support. While this may be transparent to the user, it can result in calculations that produce or consume subnormal numbers being much slower than similar calculations on normal numbers.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Tobin_s_q.html">Tobin&#x27;s q</a></li>
+      <li><a href="Cirrostratus_cloud.html">Cirrostratus cloud</a></li>
+      <li><a href="Earl_of_Cumberland.html">Earl of Cumberland</a></li>
+      <li><a href="Xdime.html">Xdime</a></li>
+      <li><a href="Ascott_House.html">Ascott House</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Subnormal_number">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 24, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
