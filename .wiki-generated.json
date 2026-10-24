@@ -163228,10 +163228,22 @@
       "category": "Platforms",
       "source": "https://en.wikipedia.org/wiki/Atari_eight-bit_computers",
       "generated_at": "2026-10-24T09:27:39+00:00"
+    },
+    {
+      "title": "Edward Troubridge",
+      "filename": "Edward_Troubridge.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Edward_Troubridge",
+      "generated_at": "2026-10-24T13:28:48+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|422a4c3a0f02010901dc08|34955125",
-    "Category:Video game franchises": "page|34050e0f0304364c2a443004484c3a58040992543a30324604362a4232044e324c3a324e099401250501dcc3dcc1dc1b|27378181"
+    "Category:Indie games": "page|42464644403a363850324c040992543a30324604362a42320994011c01dc1b|524309",
+    "Category:Video game franchises": "page|3a2e32563a443004302a40320409924e324c3a324e0994011901dcbfdc10|3440294",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
+    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
+    "Category:Arcade video games": "page|2a4c423230044846403a2e32042c2a504c3a30324c011901dcc1dcc0dc0b|20996957",
+    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474"
   }
 }
