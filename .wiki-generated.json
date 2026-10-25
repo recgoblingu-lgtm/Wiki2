@@ -166735,15 +166735,40 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/East_West_Bank",
       "generated_at": "2026-10-24T23:28:51+00:00"
+    },
+    {
+      "title": "Tokyo Sungoliath",
+      "filename": "Tokyo_Sungoliath.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Tokyo_Sungoliath",
+      "generated_at": "2026-10-25T06:44:57+00:00"
+    },
+    {
+      "title": "Vereeniging",
+      "filename": "Vereeniging.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Vereeniging",
+      "generated_at": "2026-10-25T06:45:07+00:00"
+    },
+    {
+      "title": "National Signing Day",
+      "filename": "National_Signing_Day.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/National_Signing_Day",
+      "generated_at": "2026-10-25T06:45:26+00:00"
+    },
+    {
+      "title": "Greg Roskowski",
+      "filename": "Greg_Roskowski.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Greg_Roskowski",
+      "generated_at": "2026-10-25T06:45:37+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|50322e38444604304c3a5432011001dcc0dc08|64523565",
-    "Category:Video game franchises": "page|562a4c3a46562a4c32010d01e0c2e007|1304812",
-    "Category:Indie games": "page|2c2a4430044634042c52364e03062c2a4430044634042c52364e011d01dcc2dcc4dcc2dcbfdc07|9378016",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Indie games": "page|30324e324c5004364640343a4436011201dcc0dc0a|54808518",
+    "Category:Video game franchises": "page|422a4c54324004544e08042e2a482e4642011501dcbcdc09|446464",
     "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
-    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474"
+    "Category:Arcade video games": "page|2c3244042c324c46042c3238011001dcc3dcc2dc06|6653170"
   }
 }

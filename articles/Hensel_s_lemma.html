@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Hensel&#x27;s lemma - Wiki2</title>
-  <meta name="description" content="In mathematics, Hensel&#x27;s lemma, also known as Hensel&#x27;s lifting lemma, named after Kurt Hensel, is a result in modular arithmetic, stating that if a univariate polynomial has a simple root modulo a prime number p, then this root can be lifte">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Hensel_s_lemma.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Hensel&#x27;s lemma - Wiki2">
-  <meta property="og:description" content="In mathematics, Hensel&#x27;s lemma, also known as Hensel&#x27;s lifting lemma, named after Kurt Hensel, is a result in modular arithmetic, stating that if a univariate polynomial has a simple root modulo a prime number p, then this root can be lifte">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Hensel_s_lemma.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hensel&#x27;s lemma - Wiki2">
-  <meta name="twitter:description" content="In mathematics, Hensel&#x27;s lemma, also known as Hensel&#x27;s lifting lemma, named after Kurt Hensel, is a result in modular arithmetic, stating that if a univariate polynomial has a simple root modulo a prime number p, then this root can be lifte">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Hensel's lemma - Wiki2</title>
+<meta content="In mathematics, Hensel's lemma, also known as Hensel's lifting lemma, named after Kurt Hensel, is a result in modular arithmetic, stating that if a univariate polynomial has a simple root modulo a prime number p, then this root can be lifte" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Hensel_s_lemma.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Hensel's lemma" property="og:title"/>
+<meta content="Hensel's lemma is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Hensel_s_lemma.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Hensel's lemma" name="twitter:title"/>
+<meta content="Hensel's lemma is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Hensel&#x27;s lemma</h1>
-    <p><b>Hensel&#x27;s lemma</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In mathematics, Hensel&#x27;s lemma, also known as Hensel&#x27;s lifting lemma, named after Kurt Hensel, is a result in modular arithmetic, stating that if a univariate polynomial has a simple root modulo a prime number p, then this root can be lifted to a unique root modulo any higher power of p. More generally, if a polynomial factors modulo p into two coprime polynomials, this factorization can be lifted to a factorization modulo any higher power of p.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In mathematics , Hensel&#x27;s lemma , also known as Hensel&#x27;s lifting lemma , named after Kurt Hensel , is a result in modular arithmetic , stating that if a univariate polynomial has a simple root modulo a prime number p , then this root can be lifted to a unique root modulo any higher power of p . (The lifting process is the inverse of the reduction modulo p and is precisely defined below.) More generally, if a polynomial factors modulo p into two coprime polynomials , this factorization can be lifted to a factorization modulo any higher power of p (the case of roots corresponds to the case of degree 1 for one of the factors). By passing to the &quot;limit&quot; (in fact this is an inverse limit ) when the power of p tends to infinity, it follows that a root or a factorization modulo p can be lifted to a root or a factorization over the p -adic integers . These results have been widely generalized, under the same name, to the case of polynomials over an arbitrary commutative ring , where p is replaced by an ideal , and &quot;coprime polynomials&quot; means &quot;polynomials that generate an ideal containing 1 &quot;. Hensel&#x27;s lemma is fundamental in p -adic analysis , a branch of analytic number theory . The proof of Hensel&#x27;s lemma is constructive , and leads to an efficient algorithm for Hensel lifting , which is fundamental for factoring polynomials , and gives the most efficient known algorithm for exact li</p>
-    <hr>
-    <h2>Modular reduction and lifting</h2>
-    <p>Hensel&#x27;s original lemma concerns the relation between polynomial factorization over the integers and over the integers modulo a prime number p and its powers. It can be straightforwardly extended to the case where the integers are replaced by any commutative ring , and p is replaced by any maximal ideal (indeed, the maximal ideals of have the form where p is a prime number). Making this precise requires a generalization of the usual modular arithmetic , and so it is useful to define accurately the terminology that is commonly used in this context. Let R be a commutative ring, and I an ideal of R . Reduction modulo I refers to the replacement of every element of R by its image under the canonical map For example, if is a polynomial with coefficients in R , its reduction modulo I , denoted is the polynomial in obtained by replacing the coefficients of f by their image in Two polynomials f and g in are congruent modulo I , denoted if they have the same coefficients modulo I , that is if If a factorization of h modulo I consists in two (or more) polynomials f, g in such that The lifting process is the inverse of reduction. That is, given objects depending on elements of the lifting process replaces these elements by elements of (or of for some k &gt; 1 ) that maps to them in a way that keeps the properties of the objects. For example, given a polynomial and a factorization modulo I ex</p>
-    <hr>
-    <h2>Statement</h2>
-    <p>Originally, Hensel&#x27;s lemma was stated (and proved) for lifting a factorization modulo a prime number p of a polynomial over the integers to a factorization modulo any power of p and to a factorization over the p -adic integers . This can be generalized easily, with the same proof to the case where the integers are replaced by any commutative ring , the prime number is replaced by a maximal ideal , and the p -adic integers are replaced by the completion with respect to the maximal ideal. It is this generalization, which is also widely used, that is presented here. Let be a maximal ideal of a commutative ring R , and be a polynomial in with a leading coefficient not in Since is a maximal ideal, the quotient ring is a field , and is a principal ideal domain , and, in particular, a unique factorization domain , which means that every nonzero polynomial in can be factorized in a unique way as the product of a nonzero element of and irreducible polynomials that are monic (that is, their leading coefficients are 1). Hensel&#x27;s lemma asserts that every factorization of h modulo into coprime polynomials can be lifted in a unique way into a factorization modulo for every k . More precisely, with the above hypotheses, if where f and g are monic and coprime modulo then, for every positive integer k there are monic polynomials and such that and and are unique (with these properties) modulo</p>
-    <hr>
-    <h2>Lifting simple roots</h2>
-    <p>An important special case is when In this case the coprimality hypothesis means that r is a simple root of This gives the following special case of Hensel&#x27;s lemma, which is often also called Hensel&#x27;s lemma. With above hypotheses and notations, if r is a simple root of then r can be lifted in a unique way to a simple root of for every positive integer n . Explicitly, for every positive integer n , there is a unique such that and is a simple root of</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Manny_Acta.html">Manny Acta</a></li>
-      <li><a href="The_Unauthorized_Biography_of_Reinhold_Messner.html">The Unauthorized Biography of Reinhold Messner</a></li>
-      <li><a href="Bayonne.html">Bayonne</a></li>
-      <li><a href="Hot_in_the_Shade.html">Hot in the Shade</a></li>
-      <li><a href="Viktor_Kostyrko.html">Viktor Kostyrko</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Hensel&#x27;s_lemma">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 24, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Hensel's lemma</h1>
+<p><b>Hensel's lemma</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In mathematics, Hensel's lemma, also known as Hensel's lifting lemma, named after Kurt Hensel, is a result in modular arithmetic, stating that if a univariate polynomial has a simple root modulo a prime number p, then this root can be lifted to a unique root modulo any higher power of p. More generally, if a polynomial factors modulo p into two coprime polynomials, this factorization can be lifted to a factorization modulo any higher power of p.</p>
+<hr/>
+<h2>Background</h2>
+<p>In mathematics , Hensel's lemma , also known as Hensel's lifting lemma , named after Kurt Hensel , is a result in modular arithmetic , stating that if a univariate polynomial has a simple root modulo a prime number p , then this root can be lifted to a unique root modulo any higher power of p . (The lifting process is the inverse of the reduction modulo p and is precisely defined below.) More generally, if a polynomial factors modulo p into two coprime polynomials , this factorization can be lifted to a factorization modulo any higher power of p (the case of roots corresponds to the case of degree 1 for one of the factors). By passing to the "limit" (in fact this is an inverse limit ) when the power of p tends to infinity, it follows that a root or a factorization modulo p can be lifted to a root or a factorization over the p -adic integers . These results have been widely generalized, under the same name, to the case of polynomials over an arbitrary commutative ring , where p is replaced by an ideal , and "coprime polynomials" means "polynomials that generate an ideal containing 1 ". Hensel's lemma is fundamental in p -adic analysis , a branch of analytic number theory . The proof of Hensel's lemma is constructive , and leads to an efficient algorithm for Hensel lifting , which is fundamental for factoring polynomials , and gives the most efficient known algorithm for exact li</p>
+<hr/>
+<h2>Modular reduction and lifting</h2>
+<p>Hensel's original lemma concerns the relation between polynomial factorization over the integers and over the integers modulo a prime number p and its powers. It can be straightforwardly extended to the case where the integers are replaced by any commutative ring , and p is replaced by any maximal ideal (indeed, the maximal ideals of have the form where p is a prime number). Making this precise requires a generalization of the usual modular arithmetic , and so it is useful to define accurately the terminology that is commonly used in this context. Let R be a commutative ring, and I an ideal of R . Reduction modulo I refers to the replacement of every element of R by its image under the canonical map For example, if is a polynomial with coefficients in R , its reduction modulo I , denoted is the polynomial in obtained by replacing the coefficients of f by their image in Two polynomials f and g in are congruent modulo I , denoted if they have the same coefficients modulo I , that is if If a factorization of h modulo I consists in two (or more) polynomials f, g in such that The lifting process is the inverse of reduction. That is, given objects depending on elements of the lifting process replaces these elements by elements of (or of for some k &gt; 1 ) that maps to them in a way that keeps the properties of the objects. For example, given a polynomial and a factorization modulo I ex</p>
+<hr/>
+<h2>Statement</h2>
+<p>Originally, Hensel's lemma was stated (and proved) for lifting a factorization modulo a prime number p of a polynomial over the integers to a factorization modulo any power of p and to a factorization over the p -adic integers . This can be generalized easily, with the same proof to the case where the integers are replaced by any commutative ring , the prime number is replaced by a maximal ideal , and the p -adic integers are replaced by the completion with respect to the maximal ideal. It is this generalization, which is also widely used, that is presented here. Let be a maximal ideal of a commutative ring R , and be a polynomial in with a leading coefficient not in Since is a maximal ideal, the quotient ring is a field , and is a principal ideal domain , and, in particular, a unique factorization domain , which means that every nonzero polynomial in can be factorized in a unique way as the product of a nonzero element of and irreducible polynomials that are monic (that is, their leading coefficients are 1). Hensel's lemma asserts that every factorization of h modulo into coprime polynomials can be lifted in a unique way into a factorization modulo for every k . More precisely, with the above hypotheses, if where f and g are monic and coprime modulo then, for every positive integer k there are monic polynomials and such that and and are unique (with these properties) modulo</p>
+<hr/>
+<h2>Lifting simple roots</h2>
+<p>An important special case is when In this case the coprimality hypothesis means that r is a simple root of This gives the following special case of Hensel's lemma, which is often also called Hensel's lemma. With above hypotheses and notations, if r is a simple root of then r can be lifted in a unique way to a simple root of for every positive integer n . Explicitly, for every positive integer n , there is a unique such that and is a simple root of</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Manny_Acta.html">Manny Acta</a></li>
+<li><a href="The_Unauthorized_Biography_of_Reinhold_Messner.html">The Unauthorized Biography of Reinhold Messner</a></li>
+<li><a href="Bayonne.html">Bayonne</a></li>
+<li><a href="Hot_in_the_Shade.html">Hot in the Shade</a></li>
+<li><a href="Viktor_Kostyrko.html">Viktor Kostyrko</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Hensel's_lemma">Wikimedia article</a></small></p>
+<p><i>Last edited: October 24, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
