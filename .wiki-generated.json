@@ -170263,11 +170263,20 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Muhammad_bin_Ladin",
       "generated_at": "2026-10-26T11:12:26+00:00"
+    },
+    {
+      "title": "Naruto Mobile",
+      "filename": "Naruto_Mobile.html",
+      "category": "Mobile games",
+      "source": "https://en.wikipedia.org/wiki/Naruto_Mobile",
+      "generated_at": "2026-10-26T19:26:53+00:00"
     }
   ],
   "category_cursors": {
     "Category:Indie games": "page|4c3a542a404e044634042a325038324c011401dcbddc09|54631547",
-    "Category:Arcade video games": "page|4e504c32325004343a363850324c04325803064e504c32325004343a363850324c04325801250601dcc0dcbfdcc4dcc0dcbfdcdc|47784934",
-    "Category:Video game franchises": "page|562a4c3a46562a4c32010d01e0c2e007|1304812"
+    "Category:Arcade video games": "page|50322e38444604304c3a5432011001dcc0dc08|64523565",
+    "Category:Video game franchises": "page|562a4c3a46562a4c32010d01e0c2e007|1304812",
+    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
+    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474"
   }
 }

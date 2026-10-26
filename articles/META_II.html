@@ -1,60 +1,60 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>META II - Wiki2</title>
-  <meta name="description" content="META II is a domain-specific programming language for writing compilers. It was created in 1963–1964 by Dewey Val Schorre at University of California, Los Angeles (UCLA). META II uses what Schorre called syntax equations. Its operation is s">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/META_II.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="META II - Wiki2">
-  <meta property="og:description" content="META II is a domain-specific programming language for writing compilers. It was created in 1963–1964 by Dewey Val Schorre at University of California, Los Angeles (UCLA). META II uses what Schorre called syntax equations. Its operation is s">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/META_II.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="META II - Wiki2">
-  <meta name="twitter:description" content="META II is a domain-specific programming language for writing compilers. It was created in 1963–1964 by Dewey Val Schorre at University of California, Los Angeles (UCLA). META II uses what Schorre called syntax equations. Its operation is s">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>META II - Wiki2</title>
+<meta content="META II is a domain-specific programming language for writing compilers. It was created in 1963–1964 by Dewey Val Schorre at University of California, Los Angeles (UCLA). META II uses what Schorre called syntax equations. Its operation is s" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/META_II.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="META II" property="og:title"/>
+<meta content="META II is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/META_II.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="META II" name="twitter:title"/>
+<meta content="META II is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>META II</h1>
-    <p><b>META II</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>META II is a domain-specific programming language for writing compilers. It was created in 1963–1964 by Dewey Val Schorre at University of California, Los Angeles (UCLA). META II uses what Schorre called syntax equations. Its operation is simply explained as:Each syntax equation is translated into a recursive subroutine which tests the input string for a particular phrase structure, and deletes it if found.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>META II is a domain-specific programming language for writing compilers . It was created in 1963–1964 by Dewey Val Schorre at University of California, Los Angeles (UCLA). META II uses what Schorre called syntax equations . Its operation is simply explained as: Each syntax equation is translated into a recursive subroutine which tests the input string for a particular phrase structure, and deletes it if found. Meta II programs are compiled into an interpreted byte code language. VALGOL and SMALGOL compilers illustrating its capabilities were written in the META II language, VALGOL is a simple algebraic language designed for the purpose of illustrating META II. SMALGOL was a fairly large subset of ALGOL 60 .</p>
-    <hr>
-    <h2>Notation</h2>
-    <p>META II was first written in META I, a hand-compiled version of META II. The history is unclear as to whether META I was a full implementation of META II or a required subset of the META II language required to compile the full META II compiler. In its documentation, META II is described as resembling Backus–Naur form (BNF), which today is explained as a production grammar. META II is an analytical grammar. In the TREE-META document, these languages were described as reductive grammars. For example, in BNF, an arithmetic expression may be defined as: BNF rules are today production rules describing how constituent parts may be assembled to form only valid language constructs. A parser does the opposite taking language constructs apart. META II is a stack-based functional parser programming language that includes output directive. In META II, the order of testing is specified by the equation. META II like other programming languages would overflow its stack attempting left recursion. META II uses a $ (zero or more) sequence operator. The expr parsing equation written in META II is a conditional expression evaluated left to right: Above the expr equation is defined by the expression to the right of the &#x27;=&#x27;. Evaluating left to right from the &#x27;=&#x27;, term is the first thing that must be tested. If term returns failure expr fails. If successful a term was recognized we then enter the in</p>
-    <hr>
-    <h2>Operation</h2>
-    <p>META II outputs assembly code for a stack machine . Evaluating this is like using a Reverse Polish notation (RPN) calculator. In the above .ID and .NUM are built-in token recognizers. * in the .OUT code production references the last token recognized. On recognizing a number with .NUM .OUT(&#x27;LDL&#x27; *) outputs the load literal instruction followed the number. An expression: will generate: META II is the first documented version of a metacompiler , as it compiles to machine code for one of the earliest instances of a virtual machine . The paper itself is a wonderful gem which includes a number of excellent examples, including the bootstrapping of Meta II in itself (all this was done on an 8K (six bit byte) 1401 !).&quot; – Alan Kay The original paper is not freely available, but was reprinted in Dr. Dobb&#x27;s Journal , April 1980. Transcribed source code has at various times been made available (possibly by the CP/M User Group ). The paper included a listing of the description of Meta II, this could in principle be processed manually to yield an interpretable program in virtual machine opcodes; if this ran and produced identical output then the implementation was correct. META II was basically a proof of concept. A base from which to work. META II is not presented as a standard language , but as a point of departure from which a user may develop his own META &quot; language &quot;. Many META &quot;languag</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="HMCS_Iroquois_DDG_280.html">HMCS Iroquois (DDG 280)</a></li>
-      <li><a href="Emperor_Xuanzong_of_Tang_9th_century.html">Emperor Xuanzong of Tang (9th century)</a></li>
-      <li><a href="Byblis.html">Byblis</a></li>
-      <li><a href="Dan_Haren.html">Dan Haren</a></li>
-      <li><a href="Monkey_man_of_Delhi.html">Monkey-man of Delhi</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/META_II">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 26, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>META II</h1>
+<p><b>META II</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>META II is a domain-specific programming language for writing compilers. It was created in 1963–1964 by Dewey Val Schorre at University of California, Los Angeles (UCLA). META II uses what Schorre called syntax equations. Its operation is simply explained as:Each syntax equation is translated into a recursive subroutine which tests the input string for a particular phrase structure, and deletes it if found.</p>
+<hr/>
+<h2>Background</h2>
+<p>META II is a domain-specific programming language for writing compilers . It was created in 1963–1964 by Dewey Val Schorre at University of California, Los Angeles (UCLA). META II uses what Schorre called syntax equations . Its operation is simply explained as: Each syntax equation is translated into a recursive subroutine which tests the input string for a particular phrase structure, and deletes it if found. Meta II programs are compiled into an interpreted byte code language. VALGOL and SMALGOL compilers illustrating its capabilities were written in the META II language, VALGOL is a simple algebraic language designed for the purpose of illustrating META II. SMALGOL was a fairly large subset of ALGOL 60 .</p>
+<hr/>
+<h2>Notation</h2>
+<p>META II was first written in META I, a hand-compiled version of META II. The history is unclear as to whether META I was a full implementation of META II or a required subset of the META II language required to compile the full META II compiler. In its documentation, META II is described as resembling Backus–Naur form (BNF), which today is explained as a production grammar. META II is an analytical grammar. In the TREE-META document, these languages were described as reductive grammars. For example, in BNF, an arithmetic expression may be defined as: BNF rules are today production rules describing how constituent parts may be assembled to form only valid language constructs. A parser does the opposite taking language constructs apart. META II is a stack-based functional parser programming language that includes output directive. In META II, the order of testing is specified by the equation. META II like other programming languages would overflow its stack attempting left recursion. META II uses a $ (zero or more) sequence operator. The expr parsing equation written in META II is a conditional expression evaluated left to right: Above the expr equation is defined by the expression to the right of the '='. Evaluating left to right from the '=', term is the first thing that must be tested. If term returns failure expr fails. If successful a term was recognized we then enter the in</p>
+<hr/>
+<h2>Operation</h2>
+<p>META II outputs assembly code for a stack machine . Evaluating this is like using a Reverse Polish notation (RPN) calculator. In the above .ID and .NUM are built-in token recognizers. * in the .OUT code production references the last token recognized. On recognizing a number with .NUM .OUT('LDL' *) outputs the load literal instruction followed the number. An expression: will generate: META II is the first documented version of a metacompiler , as it compiles to machine code for one of the earliest instances of a virtual machine . The paper itself is a wonderful gem which includes a number of excellent examples, including the bootstrapping of Meta II in itself (all this was done on an 8K (six bit byte) 1401 !)." – Alan Kay The original paper is not freely available, but was reprinted in Dr. Dobb's Journal , April 1980. Transcribed source code has at various times been made available (possibly by the CP/M User Group ). The paper included a listing of the description of Meta II, this could in principle be processed manually to yield an interpretable program in virtual machine opcodes; if this ran and produced identical output then the implementation was correct. META II was basically a proof of concept. A base from which to work. META II is not presented as a standard language , but as a point of departure from which a user may develop his own META " language ". Many META "languag</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="HMCS_Iroquois_DDG_280.html">HMCS Iroquois (DDG 280)</a></li>
+<li><a href="Emperor_Xuanzong_of_Tang_9th_century.html">Emperor Xuanzong of Tang (9th century)</a></li>
+<li><a href="Byblis.html">Byblis</a></li>
+<li><a href="Dan_Haren.html">Dan Haren</a></li>
+<li><a href="Monkey_man_of_Delhi.html">Monkey-man of Delhi</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/META_II">Wikimedia article</a></small></p>
+<p><i>Last edited: October 26, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

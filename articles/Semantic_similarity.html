@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Semantic similarity - Wiki2</title>
-  <meta name="description" content="Semantic similarity is a metric defined over a set of documents or terms, where the idea of distance between items is based on the likeness of their meaning as opposed to lexicographical similarity. These are mathematical tools used to esti">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Semantic_similarity.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Semantic similarity - Wiki2">
-  <meta property="og:description" content="Semantic similarity is a metric defined over a set of documents or terms, where the idea of distance between items is based on the likeness of their meaning as opposed to lexicographical similarity. These are mathematical tools used to esti">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Semantic_similarity.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Semantic similarity - Wiki2">
-  <meta name="twitter:description" content="Semantic similarity is a metric defined over a set of documents or terms, where the idea of distance between items is based on the likeness of their meaning as opposed to lexicographical similarity. These are mathematical tools used to esti">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Semantic similarity - Wiki2</title>
+<meta content="Semantic similarity is a metric defined over a set of documents or terms, where the idea of distance between items is based on the likeness of their meaning as opposed to lexicographical similarity. These are mathematical tools used to esti" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Semantic_similarity.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Semantic similarity" property="og:title"/>
+<meta content="Semantic similarity is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Semantic_similarity.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Semantic similarity" name="twitter:title"/>
+<meta content="Semantic similarity is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Semantic similarity</h1>
-    <p><b>Semantic similarity</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>Semantic similarity is a metric defined over a set of documents or terms, where the idea of distance between items is based on the likeness of their meaning as opposed to lexicographical similarity. These are mathematical tools used to estimate the strength of the semantic relationship between units of language, concepts or instances, through a numerical description obtained according to the comparison of information supporting their meaning or describing their nature. The term semantic similarity is often confused with semantic relatedness. Semantic relatedness includes any relation between two terms, while semantic similarity only includes &quot;is a&quot; relations. For example, &quot;car&quot; is similar to &quot;bus&quot;, but is also related to &quot;road&quot; and &quot;driving&quot;.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>Semantic similarity is a metric defined over a set of documents or terms, where the idea of distance between items is based on the likeness of their meaning as opposed to lexicographical similarity. These are mathematical tools used to estimate the strength of the semantic relationship between units of language, concepts or instances, through a numerical description obtained according to the comparison of information supporting their meaning or describing their nature. The term semantic similarity is often confused with semantic relatedness. Semantic relatedness includes any relation between two terms, while semantic similarity only includes &quot;is a&quot; relations. For example, &quot;car&quot; is similar to &quot;bus&quot;, but is also related to &quot;road&quot; and &quot;driving&quot;. Computationally, semantic similarity can be estimated by defining a topological similarity, by using ontologies to define the distance between terms/concepts. For example, a naive metric for the comparison of concepts ordered in a partially ordered set and represented as nodes of a directed acyclic graph (e.g., a taxonomy ), would be the shortest-path linking the two concept nodes. Based on text analyses, semantic relatedness between units of language (e.g., words, sentences) can also be estimated using statistical means such as a vector space model to correlate words and textual contexts from a suitable text corpus . The evaluation of the</p>
-    <hr>
-    <h2>Terminology</h2>
-    <p>The concept of semantic similarity is more specific than semantic relatedness , as the latter includes concepts as antonymy and meronymy , while similarity does not. However, much of the literature uses these terms interchangeably, along with terms like semantic distance. In essence, semantic similarity, semantic distance, and semantic relatedness all mean, &quot;How much does term A have to do with term B?&quot; The answer to this question is usually a number between −1 and 1, or between 0 and 1, where 1 signifies extremely high similarity.</p>
-    <hr>
-    <h2>Visualization</h2>
-    <p>An intuitive way of visualizing the semantic similarity of terms is by grouping together terms which are closely related and spacing wider apart the ones which are distantly related. This is also common in practice for mind maps and concept maps . A more direct way of visualizing the semantic similarity of two linguistic items can be seen with the Semantic Folding approach. In this approach a linguistic item such as a term or a text can be represented by generating a pixel for each of its active semantic features in e.g. a 128 x 128 grid. This allows for a direct visual comparison of the semantics of two items by comparing image representations of their respective feature sets.</p>
-    <hr>
-    <h2>In biomedical informatics</h2>
-    <p>Semantic similarity measures have been applied and developed in biomedical ontologies. They are mainly used to compare genes and proteins based on the similarity of their functions rather than on their sequence similarity , but they are also being extended to other bioentities, such as diseases. These comparisons can be done using tools freely available on the web:</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Willie_Stargell.html">Willie Stargell</a></li>
-      <li><a href="The_New_Maverick.html">The New Maverick</a></li>
-      <li><a href="Education_in_West_Virginia.html">Education in West Virginia</a></li>
-      <li><a href="Phasor.html">Phasor</a></li>
-      <li><a href="The_Black_Family.html">The Black Family</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Semantic_similarity">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 26, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Semantic similarity</h1>
+<p><b>Semantic similarity</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>Semantic similarity is a metric defined over a set of documents or terms, where the idea of distance between items is based on the likeness of their meaning as opposed to lexicographical similarity. These are mathematical tools used to estimate the strength of the semantic relationship between units of language, concepts or instances, through a numerical description obtained according to the comparison of information supporting their meaning or describing their nature. The term semantic similarity is often confused with semantic relatedness. Semantic relatedness includes any relation between two terms, while semantic similarity only includes "is a" relations. For example, "car" is similar to "bus", but is also related to "road" and "driving".</p>
+<hr/>
+<h2>Background</h2>
+<p>Semantic similarity is a metric defined over a set of documents or terms, where the idea of distance between items is based on the likeness of their meaning as opposed to lexicographical similarity. These are mathematical tools used to estimate the strength of the semantic relationship between units of language, concepts or instances, through a numerical description obtained according to the comparison of information supporting their meaning or describing their nature. The term semantic similarity is often confused with semantic relatedness. Semantic relatedness includes any relation between two terms, while semantic similarity only includes "is a" relations. For example, "car" is similar to "bus", but is also related to "road" and "driving". Computationally, semantic similarity can be estimated by defining a topological similarity, by using ontologies to define the distance between terms/concepts. For example, a naive metric for the comparison of concepts ordered in a partially ordered set and represented as nodes of a directed acyclic graph (e.g., a taxonomy ), would be the shortest-path linking the two concept nodes. Based on text analyses, semantic relatedness between units of language (e.g., words, sentences) can also be estimated using statistical means such as a vector space model to correlate words and textual contexts from a suitable text corpus . The evaluation of the</p>
+<hr/>
+<h2>Terminology</h2>
+<p>The concept of semantic similarity is more specific than semantic relatedness , as the latter includes concepts as antonymy and meronymy , while similarity does not. However, much of the literature uses these terms interchangeably, along with terms like semantic distance. In essence, semantic similarity, semantic distance, and semantic relatedness all mean, "How much does term A have to do with term B?" The answer to this question is usually a number between −1 and 1, or between 0 and 1, where 1 signifies extremely high similarity.</p>
+<hr/>
+<h2>Visualization</h2>
+<p>An intuitive way of visualizing the semantic similarity of terms is by grouping together terms which are closely related and spacing wider apart the ones which are distantly related. This is also common in practice for mind maps and concept maps . A more direct way of visualizing the semantic similarity of two linguistic items can be seen with the Semantic Folding approach. In this approach a linguistic item such as a term or a text can be represented by generating a pixel for each of its active semantic features in e.g. a 128 x 128 grid. This allows for a direct visual comparison of the semantics of two items by comparing image representations of their respective feature sets.</p>
+<hr/>
+<h2>In biomedical informatics</h2>
+<p>Semantic similarity measures have been applied and developed in biomedical ontologies. They are mainly used to compare genes and proteins based on the similarity of their functions rather than on their sequence similarity , but they are also being extended to other bioentities, such as diseases. These comparisons can be done using tools freely available on the web:</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Willie_Stargell.html">Willie Stargell</a></li>
+<li><a href="The_New_Maverick.html">The New Maverick</a></li>
+<li><a href="Education_in_West_Virginia.html">Education in West Virginia</a></li>
+<li><a href="Phasor.html">Phasor</a></li>
+<li><a href="The_Black_Family.html">The Black Family</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Semantic_similarity">Wikimedia article</a></small></p>
+<p><i>Last edited: October 26, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
