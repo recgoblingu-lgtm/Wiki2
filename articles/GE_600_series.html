@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GE-600 series - Wiki2</title>
+  <meta name="description" content="The GE-600 series is a family of 36-bit mainframe computers originating in the 1960s, built by General Electric (GE). When GE left the mainframe business, the line was sold to Honeywell, which built similar systems into the 1990s as the div">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/GE_600_series.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="GE-600 series - Wiki2">
+  <meta property="og:description" content="The GE-600 series is a family of 36-bit mainframe computers originating in the 1960s, built by General Electric (GE). When GE left the mainframe business, the line was sold to Honeywell, which built similar systems into the 1990s as the div">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/GE_600_series.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GE-600 series - Wiki2">
+  <meta name="twitter:description" content="The GE-600 series is a family of 36-bit mainframe computers originating in the 1960s, built by General Electric (GE). When GE left the mainframe business, the line was sold to Honeywell, which built similar systems into the 1990s as the div">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>GE-600 series</h1>
+    <p><b>GE-600 series</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>The GE-600 series is a family of 36-bit mainframe computers originating in the 1960s, built by General Electric (GE). When GE left the mainframe business, the line was sold to Honeywell, which built similar systems into the 1990s as the division moved to Groupe Bull and then NEC.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>The GE-600 series is a family of 36-bit mainframe computers originating in the 1960s, built by General Electric (GE). When GE left the mainframe business, the line was sold to Honeywell , which built similar systems into the 1990s as the division moved to Groupe Bull and then NEC . The system is perhaps best known as the hardware used by the Dartmouth Time-Sharing System (DTSS) and the Multics operating system . Multics was supported by virtual memory additions made in the GE 645 .</p>
+    <hr>
+    <h2>Architecture</h2>
+    <p>The 600-series CPU operates on 36-bit words, and addresses are 18 bits. The accumulator Register (AQ) is a 72-bit register that can also be accessed separately as two 36-bit registers (A and Q) or four 18-bit registers (AU,AL,QU,QL). An eight-bit Exponent Register contain the exponent for floating-point operations (the mantissa is in AQ). There are eight eighteen-bit index registers X0 through X7. The 18-bit Base Address Register (BAR) contains the base address and number of 1024-word blocks assigned to the program. The system also includes several special-purpose registers: an 18-bit Instruction Counter (IC) and a 24-bit Timer Register (TR) with a resolution of 15.625 μs.</p>
+    <hr>
+    <h2>Instruction formats</h2>
+    <p>The 600-series machine instructions are one word long. Operand addresses point either to operands or to indirect words , which contain the actual operand address and additional information. Most instructions have the following format: The Repeat, Repeat Double, and Repeat Link instructions have a different format.</p>
+    <hr>
+    <h2>Addressing modes</h2>
+    <p>The 600 series has an elaborate set of addressing modes, many of which use indirect words , some of which are auto-incrementing or auto-decrementing. Multiple levels of indirect addressing are supported. Indirect addresses have the same format as instructions, and the address modification indicated by the tag field of the indirect address are performed at each level. The tag field of the instruction consist of a 2-bit tag modifier (tm) and a 4-bit tag designator (td). The tag modifier indicates the type of modification to be performed on the instruction address: For modification types R, RI, and IR the tag designator contains a register to be used for indexing (X0-X7,AU,AL,QU,QL,IC). Other TD values indicate that Y should be used as an immediate operand. Direct addressing is a special case where Y is used as the operand address with no modification. For modification type IT, the indirect word contains an 18-bit address, a 12-bit tally, and a 6-bit tag. The tag designator indicates the operation to be performed, some of which increment the address and decrement the tally of the indirect word or decrement the address and increment the tally of the indirect word. The Character from Indirect and Sequence Character operations can be used to address 6-bit and 9-bit bytes ; this supports extracting specific bytes, and incrementing the byte pointer, but not random access to bytes.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Chad_Channing.html">Chad Channing</a></li>
+      <li><a href="Culture_of_N_rke.html">Culture of Närke</a></li>
+      <li><a href="Blue_Third_Eye_Blind_album.html">Blue (Third Eye Blind album)</a></li>
+      <li><a href="Madeleine_Meilleur.html">Madeleine Meilleur</a></li>
+      <li><a href="Robert_Herman.html">Robert Herman</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/GE-600_series">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 26, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
