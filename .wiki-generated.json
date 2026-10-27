@@ -170270,12 +170270,19 @@
       "category": "Mobile games",
       "source": "https://en.wikipedia.org/wiki/Naruto_Mobile",
       "generated_at": "2026-10-26T19:26:53+00:00"
+    },
+    {
+      "title": "Gestetner",
+      "filename": "Gestetner.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Gestetner",
+      "generated_at": "2026-10-27T22:47:30+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|4c3a542a404e044634042a325038324c011401dcbddc09|54631547",
-    "Category:Arcade video games": "page|50322e38444604304c3a5432011001dcc0dc08|64523565",
-    "Category:Video game franchises": "page|562a4c3a46562a4c32010d01e0c2e007|1304812",
+    "Category:Indie games": "page|4e324c3a46524e044e2a42010f01dcbfdc06|33405134",
+    "Category:Arcade video games": "page|563a44303c2a4242324c4e040992543a30324604362a423209940306563a44303c2a4242324c4e040992543a30324604362a4232099401251401e0aee01b|6676917",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
     "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
     "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474"
   }
