@@ -170277,13 +170277,20 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Gestetner",
       "generated_at": "2026-10-27T22:47:30+00:00"
+    },
+    {
+      "title": "Compressible flow",
+      "filename": "Compressible_flow.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Compressible_flow",
+      "generated_at": "2026-10-28T14:22:28+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|4e324c3a46524e044e2a42010f01dcbfdc06|33405134",
-    "Category:Arcade video games": "page|563a44303c2a4242324c4e040992543a30324604362a423209940306563a44303c2a4242324c4e040992543a30324604362a4232099401251401e0aee01b|6676917",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
-    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474"
+    "Category:Indie games": "page|4e504c2a562c324c4c5a042e522c324e011401dcbcdc08|72830678",
+    "Category:Video game franchises": "page|34050e0f0304364c2a443004484c3a58040992543a30324604362a4232044e324c3a324e099401250501dcc3dcc1dc1b|27378181",
+    "Category:Arcade video games": "page|2a4c423230044846403a2e32042c2a504c3a30324c011901dcc1dcc0dc0b|20996957",
+    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
