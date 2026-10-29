@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>B-tree - Wiki2</title>
+  <meta name="description" content="In computer science, a B-tree is a self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time. The B-tree generalizes the binary search tree, allowing ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/B_tree.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="B-tree - Wiki2">
+  <meta property="og:description" content="In computer science, a B-tree is a self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time. The B-tree generalizes the binary search tree, allowing ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/B_tree.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/3/33/B_tree_insertion_example.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="B-tree - Wiki2">
+  <meta name="twitter:description" content="In computer science, a B-tree is a self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time. The B-tree generalizes the binary search tree, allowing ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/3/33/B_tree_insertion_example.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>B-tree</h1>
+    <p><b>B-tree</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In computer science, a B-tree is a self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time. The B-tree generalizes the binary search tree, allowing nodes to have more than two children.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/33/B_tree_insertion_example.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="B tree insertion example.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In computer science , a B-tree is a self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time . The B-tree generalizes the binary search tree , allowing nodes to have more than two children. By allowing more children under one node than a regular self-balancing binary search tree , the B-tree reduces the height of the tree and puts the data in fewer separate blocks. This is especially important for trees stored in secondary storage (e.g., disk drives), as these systems have relatively high latency and work with relatively large blocks of data , hence the B-tree&#x27;s use in databases and file systems . This remains a major advantage when the tree is stored in memory, as modern computer systems rely heavily on CPU caches . Compared to reading from the cache, reading from memory after a cache miss costs significant time.</p>
+    <hr>
+    <h2>History</h2>
+    <p>While working at Boeing Research Labs , Rudolf Bayer and Edward M. McCreight invented B-trees to efficiently manage index pages for large random-access files. Their basic assumption was that indices would be so voluminous that only small chunks of the tree could fit in the main memory. Bayer and McCreight&#x27;s paper Organization and maintenance of large ordered indices was first circulated in July 1970 and later published in Acta Informatica . Bayer and McCreight never explained what, if anything, the B stands for; Boeing , balanced , between , broad , bushy , and Bayer have been suggested. When asked, &quot;I want to know what B in B-Tree stands for,&quot; McCreight answered: Everybody does! So you just have no idea what a lunchtime conversation can turn into. So there we were, Rudy and I, at lunch. We had to give the thing a name.... We were working for Boeing at the time, but we couldn&#x27;t use the name without talking to the lawyers. So there&#x27;s a B. It has to do with B alance. There&#x27;s another B. Rudy was the senior author. Rudy (Bayer) was several years older than I am, and had... many more publications than I did. So there&#x27;s another B. And so at the lunch table, we never did resolve whether there was one of those that made more sense than the rest. What Rudy likes to say is, the more you think about what the B in B-Tree means, the better you understand B-Trees!</p>
+    <hr>
+    <h2>Definition</h2>
+    <p>According to Knuth &#x27;s definition, a B-tree of order m is a tree that satisfies the following properties: The keys of each non-leaf node act as separation values that divide its subtrees. For example, if an internal node has 3 child nodes (or subtrees), then it must have 2 keys: a 1 and a 2 . All values in the leftmost subtree will be less than a 1 , all values in the middle subtree will be between a 1 and a 2 , and all values in the rightmost subtree will be greater than a 2 . A B-tree of depth n +1 can hold about U times as many items as a B-tree of depth n , but the cost of search, insert, and delete operations grows with the depth of the tree. As with any balanced tree, the cost grows much more slowly than the number of elements. Some balanced trees store values only at leaf nodes and use different kinds of nodes for leaf nodes and internal nodes. B-trees keep values in every node in the tree except leaf nodes.</p>
+    <hr>
+    <h2>Differences in terminology</h2>
+    <p>The literature on B-trees is not uniform in its terminology. Bayer and McCreight (1972), Comer (1979), and others define the order of a B-tree as the minimum number of keys in a non-root node. Folk and Zoellick point out that terminology is ambiguous because the maximum number of keys is unclear. An order 3 B-tree might hold a maximum of 6 keys or a maximum of 7 keys. Knuth (1998) avoids the problem by defining the order to be the maximum number of children (which is one more than the maximum number of keys). The term leaf is also inconsistent. Bayer and McCreight (1972) considered the leaf level to be the lowest level of keys, but Knuth considered the leaf level to be one level below the lowest keys. There are many possible implementation choices. In some designs, the leaves may hold the entire data record; in other designs, the leaves may only hold pointers to the data record. Those choices are not fundamental to the idea of a B-tree. For simplicity, most authors assume there is a fixed number of keys that fit in a node. The basic assumption is that the key size and node size are both fixed. In practice, variable-length keys may be employed.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Sudhir_Mishra.html">Sudhir Mishra</a></li>
+      <li><a href="Slim_John.html">Slim John</a></li>
+      <li><a href="Richmond_Public_Schools.html">Richmond Public Schools</a></li>
+      <li><a href="Metepa.html">Metepa</a></li>
+      <li><a href="Winwood.html">Winwood</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/B-tree">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 29, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
