@@ -1,65 +1,66 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Turing machine - Wiki2</title>
-  <meta name="description" content="A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model&#x27;s simplicity, it is capable of implementing any computer alg">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Turing_machine.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Turing machine - Wiki2">
-  <meta property="og:description" content="A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model&#x27;s simplicity, it is capable of implementing any computer alg">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Turing_machine.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/0/03/Turing_Machine_Model_Davey_2012.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Turing machine - Wiki2">
-  <meta name="twitter:description" content="A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model&#x27;s simplicity, it is capable of implementing any computer alg">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/0/03/Turing_Machine_Model_Davey_2012.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Turing machine - Wiki2</title>
+<meta content="A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model's simplicity, it is capable of implementing any computer alg" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Turing_machine.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Turing machine" property="og:title"/>
+<meta content="Turing machine is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Turing_machine.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/0/03/Turing_Machine_Model_Davey_2012.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Turing machine" name="twitter:title"/>
+<meta content="Turing machine is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/0/03/Turing_Machine_Model_Davey_2012.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Turing machine</h1>
-    <p><b>Turing machine</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model&#x27;s simplicity, it is capable of implementing any computer algorithm.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Turing_Machine_Model_Davey_2012.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Turing machine"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Busy_Beaver_3_State.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Busy Beaver 3 State.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Lego_Turing_Machine.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Lego Turing Machine.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model&#x27;s simplicity, it is capable of implementing any computer algorithm . The machine operates on an infinite memory tape divided into discrete cells, each of which can hold a single symbol drawn from a finite set of symbols called the alphabet of the machine. It has a &quot;head&quot; that, at any point in the machine&#x27;s operation, is positioned over one of these cells, and a &quot;state&quot; selected from a finite set of states. At each step of its operation, the head reads the symbol in its cell. Then, based on the symbol and the machine&#x27;s own present state, the machine writes a symbol into the same cell, and moves the head one step to the left or the right, or halts the computation. The choice of which replacement symbol to write, which direction to move the head, and whether to halt is based on a finite table that specifies what to do for each combination of the current state and the symbol that is read. As with a real computer program, it is possible for a Turing machine to go into an infinite loop which will never halt. The Turing machine was invented in 1936 by Alan Turing , who called it an &quot;a-machine&quot; (automatic machine). It was Turing&#x27;s doctoral advisor, Alonzo Church , who later coined the term &quot;Turing machine&quot; in</p>
-    <hr>
-    <h2>Overview</h2>
-    <p>A Turing machine is an idealised model of a central processing unit (CPU) that controls all data manipulation done by a computer, with the canonical machine using sequential memory to store data. Typically, the sequential memory is represented as a tape of infinite length on which the machine can perform read and write operations. In the context of formal language theory, a Turing machine ( automaton ) is capable of enumerating some arbitrary subset of valid strings of an alphabet . A set of strings which can be enumerated in this manner is called a recursively enumerable language . The Turing machine can equivalently be defined as a model that recognises valid input strings, rather than enumerating output strings. Given a Turing machine M and an arbitrary string s , it is generally not possible to decide whether M will eventually produce s . This is due to the fact that the halting problem is unsolvable, which has major implications for the theoretical limits of computing. A Turing machine that is able to simulate any other Turing machine is called a universal Turing machine (UTM, or simply a universal machine). Another mathematical formalism, lambda calculus , with a similar &quot;universal&quot; nature was introduced by Alonzo Church . Church&#x27;s work intertwined with Turing&#x27;s to form the basis for the Church–Turing thesis . This thesis states that Turing machines, lambda calculus, and </p>
-    <hr>
-    <h2>Physical description</h2>
-    <p>In his 1948 essay, &quot;Intelligent Machinery&quot;, Turing wrote that his machine consists of: ...an unlimited memory capacity obtained in the form of an infinite tape marked out into squares, on each of which a symbol could be printed. At any moment there is one symbol in the machine; it is called the scanned symbol. The machine can alter the scanned symbol, and its behavior is in part determined by that symbol, but the symbols on the tape elsewhere do not affect the behavior of the machine. However, the tape can be moved back and forth through the machine, this being one of the elementary operations of the machine. Any symbol on the tape may therefore eventually have an innings. — Turing 1948</p>
-    <hr>
-    <h2>Description</h2>
-    <p>The Turing machine mathematically models a machine that mechanically operates on a tape. On this tape are symbols, which the machine can read and write, one at a time, using a tape head. Operation is fully determined by a finite set of elementary instructions such as &quot;in state 42, if the symbol seen is 0, write a 1; if the symbol seen is 1, change into state 17; in state 17, if the symbol seen is 0, write a 1 and change to state 6&quot;; etc. In the original article (&quot; On Computable Numbers, with an Application to the Entscheidungsproblem &quot;, see also references below ), Turing imagines not a mechanism, but a person whom he calls the &quot;computer&quot;, who executes these deterministic mechanical rules slavishly (or as Turing puts it, &quot;in a desultory manner&quot;). More explicitly, a Turing machine consists of: In the 4-tuple models, erasing or writing a symbol (a j1 ) and moving the head left or right (d k ) are specified as separate instructions. The table tells the machine to (ia) erase or write a symbol or (ib) move the head left or right, and then (ii) assume the same or a new state as prescribed, but not both actions (ia) and (ib) in the same instruction. In some models, if there is no entry in the table for the current combination of symbol and state, then the machine will halt; other models require all entries to be filled. Every part of the machine (i.e. its state, symbol-collections, an</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Baker_Street_Irregulars.html">Baker Street Irregulars</a></li>
-      <li><a href="Xylophone.html">Xylophone</a></li>
-      <li><a href="Mansfield_South_Dakota.html">Mansfield, South Dakota</a></li>
-      <li><a href="Esteban_Echeverr_a.html">Esteban Echeverría</a></li>
-      <li><a href="Sydney_Tower.html">Sydney Tower</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Turing_machine">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 29, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Turing machine</h1>
+<p><b>Turing machine</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model's simplicity, it is capable of implementing any computer algorithm.</p>
+<figure class="article-image"><img alt="Turing machine" src="https://upload.wikimedia.org/wikipedia/commons/0/03/Turing_Machine_Model_Davey_2012.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Busy Beaver 3 State.png" src="https://upload.wikimedia.org/wikipedia/commons/8/86/Busy_Beaver_3_State.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Lego Turing Machine.jpg" src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Lego_Turing_Machine.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model's simplicity, it is capable of implementing any computer algorithm . The machine operates on an infinite memory tape divided into discrete cells, each of which can hold a single symbol drawn from a finite set of symbols called the alphabet of the machine. It has a "head" that, at any point in the machine's operation, is positioned over one of these cells, and a "state" selected from a finite set of states. At each step of its operation, the head reads the symbol in its cell. Then, based on the symbol and the machine's own present state, the machine writes a symbol into the same cell, and moves the head one step to the left or the right, or halts the computation. The choice of which replacement symbol to write, which direction to move the head, and whether to halt is based on a finite table that specifies what to do for each combination of the current state and the symbol that is read. As with a real computer program, it is possible for a Turing machine to go into an infinite loop which will never halt. The Turing machine was invented in 1936 by Alan Turing , who called it an "a-machine" (automatic machine). It was Turing's doctoral advisor, Alonzo Church , who later coined the term "Turing machine" in</p>
+<hr/>
+<h2>Overview</h2>
+<p>A Turing machine is an idealised model of a central processing unit (CPU) that controls all data manipulation done by a computer, with the canonical machine using sequential memory to store data. Typically, the sequential memory is represented as a tape of infinite length on which the machine can perform read and write operations. In the context of formal language theory, a Turing machine ( automaton ) is capable of enumerating some arbitrary subset of valid strings of an alphabet . A set of strings which can be enumerated in this manner is called a recursively enumerable language . The Turing machine can equivalently be defined as a model that recognises valid input strings, rather than enumerating output strings. Given a Turing machine M and an arbitrary string s , it is generally not possible to decide whether M will eventually produce s . This is due to the fact that the halting problem is unsolvable, which has major implications for the theoretical limits of computing. A Turing machine that is able to simulate any other Turing machine is called a universal Turing machine (UTM, or simply a universal machine). Another mathematical formalism, lambda calculus , with a similar "universal" nature was introduced by Alonzo Church . Church's work intertwined with Turing's to form the basis for the Church–Turing thesis . This thesis states that Turing machines, lambda calculus, and </p>
+<hr/>
+<h2>Physical description</h2>
+<p>In his 1948 essay, "Intelligent Machinery", Turing wrote that his machine consists of: ...an unlimited memory capacity obtained in the form of an infinite tape marked out into squares, on each of which a symbol could be printed. At any moment there is one symbol in the machine; it is called the scanned symbol. The machine can alter the scanned symbol, and its behavior is in part determined by that symbol, but the symbols on the tape elsewhere do not affect the behavior of the machine. However, the tape can be moved back and forth through the machine, this being one of the elementary operations of the machine. Any symbol on the tape may therefore eventually have an innings. — Turing 1948</p>
+<hr/>
+<h2>Description</h2>
+<p>The Turing machine mathematically models a machine that mechanically operates on a tape. On this tape are symbols, which the machine can read and write, one at a time, using a tape head. Operation is fully determined by a finite set of elementary instructions such as "in state 42, if the symbol seen is 0, write a 1; if the symbol seen is 1, change into state 17; in state 17, if the symbol seen is 0, write a 1 and change to state 6"; etc. In the original article (" On Computable Numbers, with an Application to the Entscheidungsproblem ", see also references below ), Turing imagines not a mechanism, but a person whom he calls the "computer", who executes these deterministic mechanical rules slavishly (or as Turing puts it, "in a desultory manner"). More explicitly, a Turing machine consists of: In the 4-tuple models, erasing or writing a symbol (a j1 ) and moving the head left or right (d k ) are specified as separate instructions. The table tells the machine to (ia) erase or write a symbol or (ib) move the head left or right, and then (ii) assume the same or a new state as prescribed, but not both actions (ia) and (ib) in the same instruction. In some models, if there is no entry in the table for the current combination of symbol and state, then the machine will halt; other models require all entries to be filled. Every part of the machine (i.e. its state, symbol-collections, an</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Baker_Street_Irregulars.html">Baker Street Irregulars</a></li>
+<li><a href="Xylophone.html">Xylophone</a></li>
+<li><a href="Mansfield_South_Dakota.html">Mansfield, South Dakota</a></li>
+<li><a href="Esteban_Echeverr_a.html">Esteban Echeverría</a></li>
+<li><a href="Sydney_Tower.html">Sydney Tower</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Turing_machine">Wikimedia article</a></small></p>
+<p><i>Last edited: October 29, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

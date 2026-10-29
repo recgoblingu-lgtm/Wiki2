@@ -1,63 +1,64 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Memento pattern - Wiki2</title>
-  <meta name="description" content="The memento pattern is a software design pattern in the field of object-oriented programming that allows reverting the state of an object. Uses of this design pattern include undo, version control, and serialization.">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Memento_pattern.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Memento pattern - Wiki2">
-  <meta property="og:description" content="The memento pattern is a software design pattern in the field of object-oriented programming that allows reverting the state of an object. Uses of this design pattern include undo, version control, and serialization.">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Memento_pattern.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/3/38/W3sDesign_Memento_Design_Pattern_UML.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Memento pattern - Wiki2">
-  <meta name="twitter:description" content="The memento pattern is a software design pattern in the field of object-oriented programming that allows reverting the state of an object. Uses of this design pattern include undo, version control, and serialization.">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/3/38/W3sDesign_Memento_Design_Pattern_UML.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Memento pattern - Wiki2</title>
+<meta content="The memento pattern is a software design pattern in the field of object-oriented programming that allows reverting the state of an object. Uses of this design pattern include undo, version control, and serialization." name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Memento_pattern.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Memento pattern" property="og:title"/>
+<meta content="Memento pattern is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Memento_pattern.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/3/38/W3sDesign_Memento_Design_Pattern_UML.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Memento pattern" name="twitter:title"/>
+<meta content="Memento pattern is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/3/38/W3sDesign_Memento_Design_Pattern_UML.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Memento pattern</h1>
-    <p><b>Memento pattern</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>The memento pattern is a software design pattern in the field of object-oriented programming that allows reverting the state of an object. Uses of this design pattern include undo, version control, and serialization.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/W3sDesign_Memento_Design_Pattern_UML.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="W3sDesign Memento Design Pattern UML.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>The memento pattern is a software design pattern in the field of object-oriented programming that allows reverting the state of an object. Uses of this design pattern include undo , version control , and serialization . The memento pattern is implemented with three objects: the originator , a caretaker and a memento . The originator is some object that has an internal state. The caretaker is going to do something to the originator, but wants to be able to easily bring back the prior state. The caretaker first asks the originator for a memento object. Then it does whatever operation (or sequence of operations) it was going to do. To roll back to the state before the operations, it returns the memento object to the originator. The memento object itself is immutable . When using this pattern, care should be taken if the originator may change other objects or resources—the memento pattern operates on a single object. One classic example of this pattern is the pseudorandom number generator (PRNG). In this case, each consumer of the PRNG serves as a caretaker who can initialize the PRNG (the originator) with a particular seed (the memento) to produce an identical sequence of pseudorandom numbers.</p>
-    <hr>
-    <h2>UML class and sequence diagram</h2>
-    <p>In the above UML class diagram, the Caretaker class refers to the Originator class for saving ( createMemento() ) and restoring ( restore(memento) ) originator&#x27;s internal state. The Originator class implements (1) createMemento() by creating and returning a Memento object that stores originator&#x27;s current internal state and (2) restore(memento) by restoring state from the passed in Memento object. The UML sequence diagram shows the run-time interactions: (1) Saving originator&#x27;s internal state: The Caretaker object calls createMemento() on the Originator object, which creates a Memento object, saves its current internal state ( setState() ), and returns the Memento to the Caretaker . (2) Restoring originator&#x27;s internal state: The Caretaker calls restore(memento) on the Originator object and specifies the Memento object that stores the state that should be restored. The Originator gets the state ( getState() ) from the Memento to set its own state.</p>
-    <hr>
-    <h2>Java example</h2>
-    <p>The following Java program illustrates the &quot;undo&quot; usage of the memento pattern. The output is: This example uses a String as the state, which is an immutable object in Java. In real-life scenarios the state will almost always be a mutable object, in which case a copy of the state must be made. It must be said that the implementation shown has a drawback: it declares an internal class. It would be better if this memento strategy could apply to more than one originator. There are mainly three other ways to achieve Memento:</p>
-    <hr>
-    <h2>C# example</h2>
-    <p>The memento pattern allows one to capture the internal state of an object without violating encapsulation such that later one can undo/revert the changes if required. Here one can see that the memento object is actually used to revert the changes made in the object.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Mixture.html">Mixture</a></li>
-      <li><a href="Common_firecrest.html">Common firecrest</a></li>
-      <li><a href="French_Air_and_Space_Force.html">French Air and Space Force</a></li>
-      <li><a href="MV_Empire_MacDermott.html">MV Empire MacDermott</a></li>
-      <li><a href="Polk_County_Oregon.html">Polk County, Oregon</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Memento_pattern">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 29, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Memento pattern</h1>
+<p><b>Memento pattern</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>The memento pattern is a software design pattern in the field of object-oriented programming that allows reverting the state of an object. Uses of this design pattern include undo, version control, and serialization.</p>
+<figure class="article-image"><img alt="W3sDesign Memento Design Pattern UML.jpg" src="https://upload.wikimedia.org/wikipedia/commons/3/38/W3sDesign_Memento_Design_Pattern_UML.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>The memento pattern is a software design pattern in the field of object-oriented programming that allows reverting the state of an object. Uses of this design pattern include undo , version control , and serialization . The memento pattern is implemented with three objects: the originator , a caretaker and a memento . The originator is some object that has an internal state. The caretaker is going to do something to the originator, but wants to be able to easily bring back the prior state. The caretaker first asks the originator for a memento object. Then it does whatever operation (or sequence of operations) it was going to do. To roll back to the state before the operations, it returns the memento object to the originator. The memento object itself is immutable . When using this pattern, care should be taken if the originator may change other objects or resources—the memento pattern operates on a single object. One classic example of this pattern is the pseudorandom number generator (PRNG). In this case, each consumer of the PRNG serves as a caretaker who can initialize the PRNG (the originator) with a particular seed (the memento) to produce an identical sequence of pseudorandom numbers.</p>
+<hr/>
+<h2>UML class and sequence diagram</h2>
+<p>In the above UML class diagram, the Caretaker class refers to the Originator class for saving ( createMemento() ) and restoring ( restore(memento) ) originator's internal state. The Originator class implements (1) createMemento() by creating and returning a Memento object that stores originator's current internal state and (2) restore(memento) by restoring state from the passed in Memento object. The UML sequence diagram shows the run-time interactions: (1) Saving originator's internal state: The Caretaker object calls createMemento() on the Originator object, which creates a Memento object, saves its current internal state ( setState() ), and returns the Memento to the Caretaker . (2) Restoring originator's internal state: The Caretaker calls restore(memento) on the Originator object and specifies the Memento object that stores the state that should be restored. The Originator gets the state ( getState() ) from the Memento to set its own state.</p>
+<hr/>
+<h2>Java example</h2>
+<p>The following Java program illustrates the "undo" usage of the memento pattern. The output is: This example uses a String as the state, which is an immutable object in Java. In real-life scenarios the state will almost always be a mutable object, in which case a copy of the state must be made. It must be said that the implementation shown has a drawback: it declares an internal class. It would be better if this memento strategy could apply to more than one originator. There are mainly three other ways to achieve Memento:</p>
+<hr/>
+<h2>C# example</h2>
+<p>The memento pattern allows one to capture the internal state of an object without violating encapsulation such that later one can undo/revert the changes if required. Here one can see that the memento object is actually used to revert the changes made in the object.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Mixture.html">Mixture</a></li>
+<li><a href="Common_firecrest.html">Common firecrest</a></li>
+<li><a href="French_Air_and_Space_Force.html">French Air and Space Force</a></li>
+<li><a href="MV_Empire_MacDermott.html">MV Empire MacDermott</a></li>
+<li><a href="Polk_County_Oregon.html">Polk County, Oregon</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Memento_pattern">Wikimedia article</a></small></p>
+<p><i>Last edited: October 29, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
