@@ -173798,12 +173798,19 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Lady_Mountbatten",
       "generated_at": "2026-10-29T15:48:43+00:00"
+    },
+    {
+      "title": "Fred Hampton Jr.",
+      "filename": "Fred_Hampton_Jr.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Fred_Hampton_Jr.",
+      "generated_at": "2026-10-29T20:42:25+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|563a404046560409922a4c2e2a303204362a423209940306563a404046560409922a4c2e2a303204362a4232099401250c01e0b2e017|3110199",
-    "Category:Indie games": "page|36523a4030403a44364e010e01dc0d|62291367",
-    "Category:Video game franchises": "page|562a4c3a46562a4c32010d01e0c2e007|1304812",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
+    "Category:Indie games": "page|3c3240405a2e2a4c010c01dcc2dc06|21982792",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474",
+    "Category:Video game franchises": "page|2e4642482a503a0438324c46011001dcbfdc07|32470667"
   }
 }
