@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Data set (IBM mainframe) - Wiki2</title>
+  <meta name="description" content="In the context of IBM mainframe computers in the IBM System/360 line and its successors, a data set or dataset is a computer file having a record organization. Use of this term began with, e.g., DOS/360 and OS/360, and is still used by thei">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Data_set_IBM_mainframe.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Data set (IBM mainframe) - Wiki2">
+  <meta property="og:description" content="In the context of IBM mainframe computers in the IBM System/360 line and its successors, a data set or dataset is a computer file having a record organization. Use of this term began with, e.g., DOS/360 and OS/360, and is still used by thei">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Data_set_IBM_mainframe.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Data set (IBM mainframe) - Wiki2">
+  <meta name="twitter:description" content="In the context of IBM mainframe computers in the IBM System/360 line and its successors, a data set or dataset is a computer file having a record organization. Use of this term began with, e.g., DOS/360 and OS/360, and is still used by thei">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Data set (IBM mainframe)</h1>
+    <p><b>Data set (IBM mainframe)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In the context of IBM mainframe computers in the IBM System/360 line and its successors, a data set or dataset is a computer file having a record organization. Use of this term began with, e.g., DOS/360 and OS/360, and is still used by their successors, including the current VSE and z/OS. Documentation for these systems historically preferred this term rather than file.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>In the context of IBM mainframe computers in the IBM System/360 line and its successors, a data set (IBM preferred) or dataset is a computer file having a record organization . Use of this term began with, e.g., DOS/360 and OS/360 , and is still used by their successors, including the current VSE and z/OS . Documentation for these systems historically preferred this term rather than file . A data set is typically stored on a direct access storage device (DASD) or magnetic tape , however unit record devices, such as punch card readers, card punches, line printers and page printers can provide input/output (I/O) for a data set (file). Data sets are not unstructured streams of bytes , but rather are organized in various logical record and block structures determined by the DSORG (data set organization), RECFM (record format), and other parameters. These parameters are specified at the time of the data set allocation (creation), for example with Job Control Language DD statements. Within a running program they are stored in the Data Control Block (DCB) or Access Control Block (ACB), which are data structures used to access data sets using access methods . Records in a data set may be fixed, variable, or “undefined” length.</p>
+    <hr>
+    <h2>Data set organization</h2>
+    <p>For OS/360, the DCB&#x27;s DSORG parameter specifies how the data set is organized. It may be among others. Data sets on tape may only be DSORG=PS . The choice of organization depends on how the data is to be accessed, and in particular, how it is to be updated. Programmers utilize various access methods (such as QSAM or VSAM ) in programs for reading and writing data sets. Access method depends on the given data set organization.</p>
+    <hr>
+    <h2>Record format (RECFM)</h2>
+    <p>Regardless of organization, the physical structure of each record is essentially the same, and is uniform throughout the data set. This is specified in the DCB RECFM parameter. RECFM=F means that the records are of fixed length, specified via the LRECL parameter. RECFM=V specifies a variable-length record. V records when stored on media are prefixed by a Record Descriptor Word (RDW) containing the integer length of the record in bytes and flag bits. With RECFM=FB and RECFM=VB , multiple logical records are grouped together into a single physical block on tape or DASD. FB and VB are fixed-blocked , and variable-blocked , respectively. RECFM=U (undefined) is also variable length, but the length of the record is determined by the length of the block rather than by a control field. The BLKSIZE parameter specifies the maximum length of the block. RECFM=FBS could be also specified, meaning fixed-blocked standard , meaning all the blocks except the last one were required to be in full BLKSIZE length. RECFM=VBS , or variable-blocked spanned , means a logical record could be spanned across two or more blocks, with flags in the RDW indicating whether a record segment is continued into the next block and/or was continued from the previous one. This mechanism eliminates the need for using any &quot; delimiter &quot; byte value to separate records. Thus data can be of any type, including binary integ</p>
+    <hr>
+    <h2>Partitioned data set</h2>
+    <p>A partitioned data set ( PDS ) is a data set containing multiple members , each of which holds a separate sub-data set, similar to a directory in other types of file systems . This type of data set is often used to hold load modules (old format bound executable programs), source program libraries (especially Assembler macro definitions), ISPF screen definitions, and Job Control Language . A PDS may be compared to a Zip file or COM Structured Storage . A Partitioned Data Set can only be allocated on a single volume and have a maximum size of 65,535 tracks. Besides members, a PDS contains also a directory. Each member can be accessed indirectly via the directory structure. Once a member is located, the data stored in that member are handled in the same manner as a PS (sequential) data set. Whenever a member is deleted, the space it occupied is unusable for storing other data. Likewise, if a member is re-written, it is stored in a new spot at the back of the PDS and leaves wasted “dead” space in the middle. The only way to recover “dead” space is to perform file compression. Compression, which is done using the IEBCOPY utility, moves all members to the front of the data space and leaves free usable space at the back. (Note that in modern parlance, this kind of operation might be called defragmentation or garbage collection ; data compression nowadays refers to a different, more co</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Matricaria_chamomilla.html">Matricaria chamomilla</a></li>
+      <li><a href="Street_harassment.html">Street harassment</a></li>
+      <li><a href="Amalfi.html">Amalfi</a></li>
+      <li><a href="Dilemma_Geyser.html">Dilemma Geyser</a></li>
+      <li><a href="Judson_Harmon.html">Judson Harmon</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Data_set_(IBM_mainframe)">Wikimedia article</a></small></p>
+    <p><i>Last edited: October 30, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
