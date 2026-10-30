@@ -173805,12 +173805,28 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Fred_Hampton_Jr.",
       "generated_at": "2026-10-29T20:42:25+00:00"
+    },
+    {
+      "title": "Pacific Garden Mission",
+      "filename": "Pacific_Garden_Mission.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Pacific_Garden_Mission",
+      "generated_at": "2026-10-30T06:05:11+00:00"
+    },
+    {
+      "title": "Russian folk music",
+      "filename": "Russian_folk_music.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Russian_folk_music",
+      "generated_at": "2026-10-30T06:05:32+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|3c3240405a2e2a4c010c01dcc2dc06|21982792",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Indie games": "page|424646440438524450324c4e011001dcc2dc0a|54331928",
+    "Category:Video game franchises": "page|3a2e32563a443004302a40320409924e324c3a324e0994011901dcbfdc10|3440294",
+    "Category:Arcade video games": "page|2c3244042c324c46042c3238011001dcc3dcc2dc06|6653170",
     "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474",
-    "Category:Video game franchises": "page|2e4642482a503a0438324c46011001dcbfdc07|32470667"
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640"
   }
 }
