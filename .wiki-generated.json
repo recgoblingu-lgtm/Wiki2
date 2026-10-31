@@ -177319,12 +177319,18 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/AGM-69_SRAM",
       "generated_at": "2026-10-30T18:19:08+00:00"
+    },
+    {
+      "title": "Ergoloid",
+      "filename": "Ergoloid.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Ergoloid",
+      "generated_at": "2026-10-31T01:41:13+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|50322e38443a2e2c322a50010f01dc0e|6508276",
-    "Category:Video game franchises": "page|4e4832404034464c2e32010e01dcc2dc08|46894073",
-    "Category:Indie games": "page|2c2a40400306503832042c2a4040040992543a30324604362a42320994011e01dcc2dcc3dc14|29756112",
+    "Category:Arcade video games": "page|563a404046560409922a4c2e2a303204362a423209940306563a404046560409922a4c2e2a303204362a4232099401250c01e0b2e017|3110199",
+    "Category:Indie games": "page|2e383a2e3e3244043a44542a30324c4e011401dcbfdc0b|8136190",
     "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
     "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
   }

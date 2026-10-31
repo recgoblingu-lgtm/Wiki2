@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Aspect-oriented programming - Wiki2</title>
-  <meta name="description" content="In computing, aspect-oriented programming (AOP) is a programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns. It does so by adding behavior to existing code without modifying the code, inst">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Aspect_oriented_programming.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Aspect-oriented programming - Wiki2">
-  <meta property="og:description" content="In computing, aspect-oriented programming (AOP) is a programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns. It does so by adding behavior to existing code without modifying the code, inst">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Aspect_oriented_programming.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Aspect-oriented programming - Wiki2">
-  <meta name="twitter:description" content="In computing, aspect-oriented programming (AOP) is a programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns. It does so by adding behavior to existing code without modifying the code, inst">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Aspect-oriented programming - Wiki2</title>
+<meta content="In computing, aspect-oriented programming (AOP) is a programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns. It does so by adding behavior to existing code without modifying the code, inst" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Aspect_oriented_programming.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Aspect-oriented programming" property="og:title"/>
+<meta content="Aspect-oriented programming is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Aspect_oriented_programming.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Aspect-oriented programming" name="twitter:title"/>
+<meta content="Aspect-oriented programming is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Aspect-oriented programming</h1>
-    <p><b>Aspect-oriented programming</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In computing, aspect-oriented programming (AOP) is a programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns. It does so by adding behavior to existing code without modifying the code, instead separately specifying which code is modified via a &quot;pointcut&quot; specification, such as &quot;log all function calls when the function&#x27;s name begins with &#x27;set&#x27;&quot;. This allows behaviors that are not central to the business logic to be added to a program without cluttering the code of core functions.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In computing , aspect-oriented programming ( AOP ) is a programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns . It does so by adding behavior to existing code (an advice ) without modifying the code, instead separately specifying which code is modified via a &quot; pointcut &quot; specification, such as &quot;log all function calls when the function&#x27;s name begins with &#x27;set &#x27; &quot;. This allows behaviors that are not central to the business logic (such as logging) to be added to a program without cluttering the code of core functions. AOP includes programming methods and tools that support the modularization of concerns at the level of the source code, while aspect-oriented software development refers to a whole engineering discipline. Aspect-oriented programming entails breaking down program logic into cohesive areas of functionality (so-called concerns ). Nearly all programming paradigms support some level of grouping and encapsulation of concerns into separate, independent entities by providing abstractions (e.g., functions, procedures, modules, classes, methods) that can be used for implementing, abstracting, and composing these concerns. Some concerns &quot;cut across&quot; multiple abstractions in a program, and defy these forms of implementation. These concerns are called cross-cutting concerns or horizontal concerns. Logging exemplifies a cross-cu</p>
-    <hr>
-    <h2>History</h2>
-    <p>AOP has several direct antecedents: reflection and metaobject protocols, subject-oriented programming , Composition Filters, and Adaptive Programming. Gregor Kiczales and colleagues at Xerox PARC developed the explicit concept of AOP and followed this with the AspectJ AOP extension to Java. IBM&#x27;s research team pursued a tool approach over a language design approach and in 2001 proposed Hyper/J and the Concern Manipulation Environment , which have not seen wide use. The examples in this article use AspectJ. The Microsoft Transaction Server is considered to be the first major application of AOP followed by Enterprise JavaBeans .</p>
-    <hr>
-    <h2>Motivation and basic concepts</h2>
-    <p>Typically, an aspect is scattered or tangled as code, making it harder to understand and maintain. It is scattered by the function (such as logging) being spread over a number of unrelated functions that might use its function, possibly in entirely unrelated systems or written in different languages. Thus, changing logging can require modifying all affected modules. Aspects become tangled not only with the mainline function of the systems in which they are expressed but also with each other. Changing one concern thus entails understanding all the tangled concerns or having some means by which the effect of changes can be inferred. For example, consider a banking application with a conceptually very simple method for transferring an amount from one account to another. Such an example in Java looks like: However, this transfer method overlooks certain considerations that a deployed application would require, such as verifying that the current user is authorized to perform this operation, encapsulating database transactions to prevent accidental data loss, and logging the operation for diagnostic purposes. A version with all those new concerns might look like this: In this example, other interests have become tangled with the basic functionality (sometimes called the business logic concern ). Transactions, security, and logging all exemplify cross-cutting concerns . Now consider w</p>
-    <hr>
-    <h2>Join point models</h2>
-    <p>The advice-related component of an aspect-oriented language defines a join point model (JPM). A JPM defines three things: Join-point models can be compared based on the join points exposed, how join points are specified, the operations permitted at the join points, and the structural enhancements that can be expressed.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="SAVAK.html">SAVAK</a></li>
-      <li><a href="Paralysis.html">Paralysis</a></li>
-      <li><a href="LG_Card.html">LG Card</a></li>
-      <li><a href="Cassette_culture.html">Cassette culture</a></li>
-      <li><a href="BBC_Radio_Scotland.html">BBC Radio Scotland</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Aspect-oriented_programming">Wikimedia article</a></small></p>
-    <p><i>Last edited: October 30, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Aspect-oriented programming</h1>
+<p><b>Aspect-oriented programming</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In computing, aspect-oriented programming (AOP) is a programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns. It does so by adding behavior to existing code without modifying the code, instead separately specifying which code is modified via a "pointcut" specification, such as "log all function calls when the function's name begins with 'set'". This allows behaviors that are not central to the business logic to be added to a program without cluttering the code of core functions.</p>
+<hr/>
+<h2>Background</h2>
+<p>In computing , aspect-oriented programming ( AOP ) is a programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns . It does so by adding behavior to existing code (an advice ) without modifying the code, instead separately specifying which code is modified via a " pointcut " specification, such as "log all function calls when the function's name begins with 'set ' ". This allows behaviors that are not central to the business logic (such as logging) to be added to a program without cluttering the code of core functions. AOP includes programming methods and tools that support the modularization of concerns at the level of the source code, while aspect-oriented software development refers to a whole engineering discipline. Aspect-oriented programming entails breaking down program logic into cohesive areas of functionality (so-called concerns ). Nearly all programming paradigms support some level of grouping and encapsulation of concerns into separate, independent entities by providing abstractions (e.g., functions, procedures, modules, classes, methods) that can be used for implementing, abstracting, and composing these concerns. Some concerns "cut across" multiple abstractions in a program, and defy these forms of implementation. These concerns are called cross-cutting concerns or horizontal concerns. Logging exemplifies a cross-cu</p>
+<hr/>
+<h2>History</h2>
+<p>AOP has several direct antecedents: reflection and metaobject protocols, subject-oriented programming , Composition Filters, and Adaptive Programming. Gregor Kiczales and colleagues at Xerox PARC developed the explicit concept of AOP and followed this with the AspectJ AOP extension to Java. IBM's research team pursued a tool approach over a language design approach and in 2001 proposed Hyper/J and the Concern Manipulation Environment , which have not seen wide use. The examples in this article use AspectJ. The Microsoft Transaction Server is considered to be the first major application of AOP followed by Enterprise JavaBeans .</p>
+<hr/>
+<h2>Motivation and basic concepts</h2>
+<p>Typically, an aspect is scattered or tangled as code, making it harder to understand and maintain. It is scattered by the function (such as logging) being spread over a number of unrelated functions that might use its function, possibly in entirely unrelated systems or written in different languages. Thus, changing logging can require modifying all affected modules. Aspects become tangled not only with the mainline function of the systems in which they are expressed but also with each other. Changing one concern thus entails understanding all the tangled concerns or having some means by which the effect of changes can be inferred. For example, consider a banking application with a conceptually very simple method for transferring an amount from one account to another. Such an example in Java looks like: However, this transfer method overlooks certain considerations that a deployed application would require, such as verifying that the current user is authorized to perform this operation, encapsulating database transactions to prevent accidental data loss, and logging the operation for diagnostic purposes. A version with all those new concerns might look like this: In this example, other interests have become tangled with the basic functionality (sometimes called the business logic concern ). Transactions, security, and logging all exemplify cross-cutting concerns . Now consider w</p>
+<hr/>
+<h2>Join point models</h2>
+<p>The advice-related component of an aspect-oriented language defines a join point model (JPM). A JPM defines three things: Join-point models can be compared based on the join points exposed, how join points are specified, the operations permitted at the join points, and the structural enhancements that can be expressed.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="SAVAK.html">SAVAK</a></li>
+<li><a href="Paralysis.html">Paralysis</a></li>
+<li><a href="LG_Card.html">LG Card</a></li>
+<li><a href="Cassette_culture.html">Cassette culture</a></li>
+<li><a href="BBC_Radio_Scotland.html">BBC Radio Scotland</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Aspect-oriented_programming">Wikimedia article</a></small></p>
+<p><i>Last edited: October 30, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
