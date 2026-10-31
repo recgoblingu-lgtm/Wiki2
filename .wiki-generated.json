@@ -177333,13 +177333,27 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Prince_Rupert%2C_British_Columbia",
       "generated_at": "2026-10-31T13:50:35+00:00"
+    },
+    {
+      "title": "Saur Valley",
+      "filename": "Saur_Valley.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Saur_Valley",
+      "generated_at": "2026-10-31T18:00:01+00:00"
+    },
+    {
+      "title": "Bojana Ordinačev",
+      "filename": "Bojana_Ordina_ev.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Bojana_Ordina%C4%8Dev",
+      "generated_at": "2026-10-31T18:00:33+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|2e4c5a4850042e524e5046303a2a44011301dcc1dc0c|82190823",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
-    "Category:Video game franchises": "page|2e4642482a503a0438324c46011001dcbfdc07|32470667",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
-    "Category:Arcade video games": "page|2a4c423230044846403a2e32042c2a504c3a30324c011901dcc1dcc0dc0b|20996957"
+    "Category:Indie games": "page|30524e3e324c4e010b01dc0a|50792495",
+    "Category:Video game franchises": "page|3a2e32563a443004302a40320409924e324c3a324e0994011901dcbfdc10|3440294",
+    "Category:Arcade video games": "page|2e4c464e4e2c4656040992543a30324604362a42320994011901dc18|1433792",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
+    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474"
   }
 }
