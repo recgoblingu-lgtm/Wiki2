@@ -177326,12 +177326,20 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Ergoloid",
       "generated_at": "2026-10-31T01:41:13+00:00"
+    },
+    {
+      "title": "Prince Rupert, British Columbia",
+      "filename": "Prince_Rupert_British_Columbia.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Prince_Rupert%2C_British_Columbia",
+      "generated_at": "2026-10-31T13:50:35+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|563a404046560409922a4c2e2a303204362a423209940306563a404046560409922a4c2e2a303204362a4232099401250c01e0b2e017|3110199",
-    "Category:Indie games": "page|2e383a2e3e3244043a44542a30324c4e011401dcbfdc0b|8136190",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
+    "Category:Indie games": "page|2e4c5a4850042e524e5046303a2a44011301dcc1dc0c|82190823",
+    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
+    "Category:Video game franchises": "page|2e4642482a503a0438324c46011001dcbfdc07|32470667",
+    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
+    "Category:Arcade video games": "page|2a4c423230044846403a2e32042c2a504c3a30324c011901dcc1dcc0dc0b|20996957"
   }
 }
