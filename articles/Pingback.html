@@ -1,60 +1,60 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Pingback - Wiki2</title>
-  <meta name="description" content="A pingback is one of four types of linkback methods for Web authors to request notification when somebody links to one of their documents. This enables authors to keep track of who is linking to, or referring to their articles. Some weblog ">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Pingback.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Pingback - Wiki2">
-  <meta property="og:description" content="A pingback is one of four types of linkback methods for Web authors to request notification when somebody links to one of their documents. This enables authors to keep track of who is linking to, or referring to their articles. Some weblog ">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Pingback.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Pingback - Wiki2">
-  <meta name="twitter:description" content="A pingback is one of four types of linkback methods for Web authors to request notification when somebody links to one of their documents. This enables authors to keep track of who is linking to, or referring to their articles. Some weblog ">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Pingback - Wiki2</title>
+<meta content="A pingback is one of four types of linkback methods for Web authors to request notification when somebody links to one of their documents. This enables authors to keep track of who is linking to, or referring to their articles. Some weblog " name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Pingback.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Pingback" property="og:title"/>
+<meta content="Pingback is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Pingback.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Pingback" name="twitter:title"/>
+<meta content="Pingback is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Pingback</h1>
-    <p><b>Pingback</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>A pingback is one of four types of linkback methods for Web authors to request notification when somebody links to one of their documents. This enables authors to keep track of who is linking to, or referring to their articles. Some weblog software and content management systems, such as WordPress, Movable Type, Serendipity, and Telligent Community, support automatic pingbacks where all the links in a published article can be pinged when the article is published. Other content management systems, such as Drupal and Joomla, support pingbacks through the use of addons or extensions.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>A pingback is one of four types of linkback methods for Web authors to request notification when somebody links to one of their documents. This enables authors to keep track of who is linking to, or referring to their articles. Some weblog software and content management systems , such as WordPress , Movable Type , Serendipity , and Telligent Community , support automatic pingbacks where all the links in a published article can be pinged when the article is published. Other content management systems, such as Drupal and Joomla , support pingbacks through the use of addons or extensions. Essentially, a pingback is an XML-RPC request (not to be confused with an ICMP ping ) sent from Site A to Site B, when an author of the blog at Site A writes a post that links to Site B. The request includes the URI of the linking page. When Site B receives the notification signal, it automatically goes back to Site A checking for the existence of a live incoming link. If that link exists, the pingback is recorded successfully. This makes pingbacks less prone to spam than trackbacks . Pingback-enabled resources must either use an X-Pingback header or contain a element to the XML-RPC script.</p>
-    <hr>
-    <h2>History</h2>
-    <p>The Pingback specification was developed in 2002 by Stuart Langridge , Simon Willison, and Ian Hickson .</p>
-    <hr>
-    <h2>Exploits</h2>
-    <p>In March 2014, Akamai published a report about a widely seen exploit involving pingback that targets vulnerable WordPress sites. This exploit led to massive abuse of legitimate blogs and websites and turned them into unwilling participants in a DDoS attack. Details about this vulnerability have been publicized since 2012, with Akismet reporting in 2013 that &quot;almost 100% of trackbacks and pingbacks are spam&quot;. The pingback attacks consist of &quot;reflection&quot; and &quot;amplification&quot;: an attacker sends a pingback to a legitimate Blog A, but providing information of the legitimate Blog B ( impersonation ). Then, Blog A needs to check Blog B for the existence of the informed link, as it&#x27;s how the pingback protocol works, and thus it downloads the page off Blog B server&#x27;s, causing a reflection . If the target page is big, this amplifies the attack, because a small request sent to Blog A causes it to make a big request to Blog B. This can lead to 10x, 20x, and even bigger amplifications ( DoS ). It&#x27;s even possible to use multiple reflectors, to prevent exhausting each of them, and use the combined amplification power of each to exhaust the target Blog B, being by overloading bandwidth or the server CPU ( DDoS ). WordPress changed a bit how the pingback feature works to mitigate this kind of vulnerability: the IP address that originated the pingback (the attacker address) started being recorded</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="The_Lost_Evidence.html">The Lost Evidence</a></li>
-      <li><a href="Figueres.html">Figueres</a></li>
-      <li><a href="Saint_Mary_s_Catholic_Church_Dubuque_Iowa.html">Saint Mary&#x27;s Catholic Church (Dubuque, Iowa)</a></li>
-      <li><a href="Cohocton_River.html">Cohocton River</a></li>
-      <li><a href="Croquembouche.html">Croquembouche</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Pingback">Wikimedia article</a></small></p>
-    <p><i>Last edited: November 2, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Pingback</h1>
+<p><b>Pingback</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>A pingback is one of four types of linkback methods for Web authors to request notification when somebody links to one of their documents. This enables authors to keep track of who is linking to, or referring to their articles. Some weblog software and content management systems, such as WordPress, Movable Type, Serendipity, and Telligent Community, support automatic pingbacks where all the links in a published article can be pinged when the article is published. Other content management systems, such as Drupal and Joomla, support pingbacks through the use of addons or extensions.</p>
+<hr/>
+<h2>Background</h2>
+<p>A pingback is one of four types of linkback methods for Web authors to request notification when somebody links to one of their documents. This enables authors to keep track of who is linking to, or referring to their articles. Some weblog software and content management systems , such as WordPress , Movable Type , Serendipity , and Telligent Community , support automatic pingbacks where all the links in a published article can be pinged when the article is published. Other content management systems, such as Drupal and Joomla , support pingbacks through the use of addons or extensions. Essentially, a pingback is an XML-RPC request (not to be confused with an ICMP ping ) sent from Site A to Site B, when an author of the blog at Site A writes a post that links to Site B. The request includes the URI of the linking page. When Site B receives the notification signal, it automatically goes back to Site A checking for the existence of a live incoming link. If that link exists, the pingback is recorded successfully. This makes pingbacks less prone to spam than trackbacks . Pingback-enabled resources must either use an X-Pingback header or contain a element to the XML-RPC script.</p>
+<hr/>
+<h2>History</h2>
+<p>The Pingback specification was developed in 2002 by Stuart Langridge , Simon Willison, and Ian Hickson .</p>
+<hr/>
+<h2>Exploits</h2>
+<p>In March 2014, Akamai published a report about a widely seen exploit involving pingback that targets vulnerable WordPress sites. This exploit led to massive abuse of legitimate blogs and websites and turned them into unwilling participants in a DDoS attack. Details about this vulnerability have been publicized since 2012, with Akismet reporting in 2013 that "almost 100% of trackbacks and pingbacks are spam". The pingback attacks consist of "reflection" and "amplification": an attacker sends a pingback to a legitimate Blog A, but providing information of the legitimate Blog B ( impersonation ). Then, Blog A needs to check Blog B for the existence of the informed link, as it's how the pingback protocol works, and thus it downloads the page off Blog B server's, causing a reflection . If the target page is big, this amplifies the attack, because a small request sent to Blog A causes it to make a big request to Blog B. This can lead to 10x, 20x, and even bigger amplifications ( DoS ). It's even possible to use multiple reflectors, to prevent exhausting each of them, and use the combined amplification power of each to exhaust the target Blog B, being by overloading bandwidth or the server CPU ( DDoS ). WordPress changed a bit how the pingback feature works to mitigate this kind of vulnerability: the IP address that originated the pingback (the attacker address) started being recorded</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="The_Lost_Evidence.html">The Lost Evidence</a></li>
+<li><a href="Figueres.html">Figueres</a></li>
+<li><a href="Saint_Mary_s_Catholic_Church_Dubuque_Iowa.html">Saint Mary's Catholic Church (Dubuque, Iowa)</a></li>
+<li><a href="Cohocton_River.html">Cohocton River</a></li>
+<li><a href="Croquembouche.html">Croquembouche</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Pingback">Wikimedia article</a></small></p>
+<p><i>Last edited: November 2, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

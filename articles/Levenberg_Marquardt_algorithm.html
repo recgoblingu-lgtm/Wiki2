@@ -1,65 +1,66 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Levenberg–Marquardt algorithm - Wiki2</title>
-  <meta name="description" content="In mathematics and computing, the Levenberg–Marquardt algorithm, also known as the damped least-squares (DLS) method, is used to solve non-linear least squares problems. These minimization problems arise especially in least squares curve fi">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Levenberg_Marquardt_algorithm.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Levenberg–Marquardt algorithm - Wiki2">
-  <meta property="og:description" content="In mathematics and computing, the Levenberg–Marquardt algorithm, also known as the damped least-squares (DLS) method, is used to solve non-linear least squares problems. These minimization problems arise especially in least squares curve fi">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Levenberg_Marquardt_algorithm.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/0/02/Lev-Mar-best-fit.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Levenberg–Marquardt algorithm - Wiki2">
-  <meta name="twitter:description" content="In mathematics and computing, the Levenberg–Marquardt algorithm, also known as the damped least-squares (DLS) method, is used to solve non-linear least squares problems. These minimization problems arise especially in least squares curve fi">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/0/02/Lev-Mar-best-fit.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Levenberg–Marquardt algorithm - Wiki2</title>
+<meta content="In mathematics and computing, the Levenberg–Marquardt algorithm, also known as the damped least-squares (DLS) method, is used to solve non-linear least squares problems. These minimization problems arise especially in least squares curve fi" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Levenberg_Marquardt_algorithm.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Levenberg–Marquardt algorithm" property="og:title"/>
+<meta content="Levenberg–Marquardt algorithm is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Levenberg_Marquardt_algorithm.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/0/02/Lev-Mar-best-fit.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Levenberg–Marquardt algorithm" name="twitter:title"/>
+<meta content="Levenberg–Marquardt algorithm is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/0/02/Lev-Mar-best-fit.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Levenberg–Marquardt algorithm</h1>
-    <p><b>Levenberg–Marquardt algorithm</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In mathematics and computing, the Levenberg–Marquardt algorithm, also known as the damped least-squares (DLS) method, is used to solve non-linear least squares problems. These minimization problems arise especially in least squares curve fitting. The LMA interpolates between the Gauss–Newton algorithm (GNA) and the method of gradient descent. The LMA is more robust than the GNA, which means that in many cases it finds a solution even if it starts very far off the final minimum. For well-behaved functions and reasonable starting parameters, the LMA tends to be slower than the GNA. LMA can also be viewed as Gauss–Newton using a trust region approach.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Lev-Mar-best-fit.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Lev-Mar-best-fit.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Lev-Mar-better-fit.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Lev-Mar-better-fit.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Lev-Mar-poor-fit.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Lev-Mar-poor-fit.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>In mathematics and computing, the Levenberg–Marquardt algorithm ( LMA or just LM ), also known as the damped least-squares ( DLS ) method, is used to solve non-linear least squares problems. These minimization problems arise especially in least squares curve fitting . The LMA interpolates between the Gauss–Newton algorithm (GNA) and the method of gradient descent . The LMA is more robust than the GNA, which means that in many cases it finds a solution even if it starts very far off the final minimum. For well-behaved functions and reasonable starting parameters, the LMA tends to be slower than the GNA. LMA can also be viewed as GNA using a trust region approach. The algorithm was first published in 1944 by Kenneth Levenberg , while working at the Frankford Army Arsenal . It was rediscovered in 1963 by Donald Marquardt , who worked as a statistician at DuPont , and independently by Girard, Wynne and Morrison. The LMA is used in many software applications for solving generic curve-fitting problems. By using the Gauss–Newton algorithm it often converges faster than first-order methods. However, like other iterative optimization algorithms, the LMA finds only a local minimum , which is not necessarily the global minimum .</p>
-    <hr>
-    <h2>The problem</h2>
-    <p>The primary application of the Levenberg–Marquardt algorithm is in the least-squares curve fitting problem: given a set of empirical pairs of independent and dependent variables, find the parameters ⁠ ⁠ of the model curve so that the sum of the squares of the deviations is minimized: which is assumed to be non-empty.</p>
-    <hr>
-    <h2>The solution</h2>
-    <p>Like other numeric minimization algorithms, the Levenberg–Marquardt algorithm is an iterative procedure. To start a minimization, the user has to provide an initial guess for the parameter vector ⁠ ⁠ . In cases with only one minimum, an uninformed standard guess like will work fine; in cases with multiple minima , the algorithm converges to the global minimum only if the initial guess is already somewhat close to the final solution. In each iteration step, the parameter vector ⁠ ⁠ is replaced by a new estimate ⁠ ⁠ . To determine ⁠ ⁠ , the function is approximated by its linearization : where is the gradient (row-vector in this case) of ⁠ ⁠ with respect to ⁠ ⁠ . The sum of square deviations has its minimum at a zero gradient with respect to ⁠ ⁠ . The above first-order approximation of gives or in vector notation, Taking the derivative of this approximation of with respect to ⁠ ⁠ and setting the result to zero gives where is the Jacobian matrix , whose ⁠ ⁠ -th row equals , and where and are vectors with ⁠ ⁠ -th component and respectively. The above expression obtained for ⁠ ⁠ comes under the Gauss–Newton method. The Jacobian matrix as defined above is not (in general) a square matrix, but a rectangular matrix of size , where is the number of parameters (size of the vector ). The matrix multiplication yields the required square matrix and the matrix-vector product on the right han</p>
-    <hr>
-    <h2>Choice of damping parameter</h2>
-    <p>Various more or less heuristic arguments have been put forward for the best choice for the damping parameter ⁠ ⁠ . Theoretical arguments exist showing why some of these choices guarantee local convergence of the algorithm; however, these choices can make the global convergence of the algorithm suffer from the undesirable properties of steepest descent , in particular, very slow convergence close to the optimum. The absolute values of any choice depend on how well-scaled the initial problem is. Marquardt recommended starting with a value ⁠ ⁠ and a factor ⁠ ⁠ . Initially setting and computing the residual sum of squares after one step from the starting point with the damping factor of and secondly with ⁠ ⁠ . If both of these are worse than the initial point, then the damping is increased by successive multiplication by ⁠ ⁠ until a better point is found with a new damping factor of ⁠ ⁠ for some ⁠ ⁠ . If use of the damping factor ⁠ ⁠ results in a reduction in squared residual, then this is taken as the new value of ⁠ ⁠ (and the new optimum location is taken as that obtained with this damping factor) and the process continues; if using ⁠ ⁠ resulted in a worse residual, but using ⁠ ⁠ resulted in a better residual, then ⁠ ⁠ is left unchanged and the new optimum is taken as the value obtained with ⁠ ⁠ as damping factor. An effective strategy for the control of the damping parameter, ca</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Princess_Mononoke.html">Princess Mononoke</a></li>
-      <li><a href="K_zi.html">Közi</a></li>
-      <li><a href="Temple_Island.html">Temple Island</a></li>
-      <li><a href="Dual_space.html">Dual space</a></li>
-      <li><a href="Helford_River.html">Helford River</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm">Wikimedia article</a></small></p>
-    <p><i>Last edited: November 1, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Levenberg–Marquardt algorithm</h1>
+<p><b>Levenberg–Marquardt algorithm</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In mathematics and computing, the Levenberg–Marquardt algorithm, also known as the damped least-squares (DLS) method, is used to solve non-linear least squares problems. These minimization problems arise especially in least squares curve fitting. The LMA interpolates between the Gauss–Newton algorithm (GNA) and the method of gradient descent. The LMA is more robust than the GNA, which means that in many cases it finds a solution even if it starts very far off the final minimum. For well-behaved functions and reasonable starting parameters, the LMA tends to be slower than the GNA. LMA can also be viewed as Gauss–Newton using a trust region approach.</p>
+<figure class="article-image"><img alt="Lev-Mar-best-fit.png" src="https://upload.wikimedia.org/wikipedia/commons/0/02/Lev-Mar-best-fit.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Lev-Mar-better-fit.png" src="https://upload.wikimedia.org/wikipedia/commons/3/34/Lev-Mar-better-fit.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Lev-Mar-poor-fit.png" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Lev-Mar-poor-fit.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>In mathematics and computing, the Levenberg–Marquardt algorithm ( LMA or just LM ), also known as the damped least-squares ( DLS ) method, is used to solve non-linear least squares problems. These minimization problems arise especially in least squares curve fitting . The LMA interpolates between the Gauss–Newton algorithm (GNA) and the method of gradient descent . The LMA is more robust than the GNA, which means that in many cases it finds a solution even if it starts very far off the final minimum. For well-behaved functions and reasonable starting parameters, the LMA tends to be slower than the GNA. LMA can also be viewed as GNA using a trust region approach. The algorithm was first published in 1944 by Kenneth Levenberg , while working at the Frankford Army Arsenal . It was rediscovered in 1963 by Donald Marquardt , who worked as a statistician at DuPont , and independently by Girard, Wynne and Morrison. The LMA is used in many software applications for solving generic curve-fitting problems. By using the Gauss–Newton algorithm it often converges faster than first-order methods. However, like other iterative optimization algorithms, the LMA finds only a local minimum , which is not necessarily the global minimum .</p>
+<hr/>
+<h2>The problem</h2>
+<p>The primary application of the Levenberg–Marquardt algorithm is in the least-squares curve fitting problem: given a set of empirical pairs of independent and dependent variables, find the parameters ⁠ ⁠ of the model curve so that the sum of the squares of the deviations is minimized: which is assumed to be non-empty.</p>
+<hr/>
+<h2>The solution</h2>
+<p>Like other numeric minimization algorithms, the Levenberg–Marquardt algorithm is an iterative procedure. To start a minimization, the user has to provide an initial guess for the parameter vector ⁠ ⁠ . In cases with only one minimum, an uninformed standard guess like will work fine; in cases with multiple minima , the algorithm converges to the global minimum only if the initial guess is already somewhat close to the final solution. In each iteration step, the parameter vector ⁠ ⁠ is replaced by a new estimate ⁠ ⁠ . To determine ⁠ ⁠ , the function is approximated by its linearization : where is the gradient (row-vector in this case) of ⁠ ⁠ with respect to ⁠ ⁠ . The sum of square deviations has its minimum at a zero gradient with respect to ⁠ ⁠ . The above first-order approximation of gives or in vector notation, Taking the derivative of this approximation of with respect to ⁠ ⁠ and setting the result to zero gives where is the Jacobian matrix , whose ⁠ ⁠ -th row equals , and where and are vectors with ⁠ ⁠ -th component and respectively. The above expression obtained for ⁠ ⁠ comes under the Gauss–Newton method. The Jacobian matrix as defined above is not (in general) a square matrix, but a rectangular matrix of size , where is the number of parameters (size of the vector ). The matrix multiplication yields the required square matrix and the matrix-vector product on the right han</p>
+<hr/>
+<h2>Choice of damping parameter</h2>
+<p>Various more or less heuristic arguments have been put forward for the best choice for the damping parameter ⁠ ⁠ . Theoretical arguments exist showing why some of these choices guarantee local convergence of the algorithm; however, these choices can make the global convergence of the algorithm suffer from the undesirable properties of steepest descent , in particular, very slow convergence close to the optimum. The absolute values of any choice depend on how well-scaled the initial problem is. Marquardt recommended starting with a value ⁠ ⁠ and a factor ⁠ ⁠ . Initially setting and computing the residual sum of squares after one step from the starting point with the damping factor of and secondly with ⁠ ⁠ . If both of these are worse than the initial point, then the damping is increased by successive multiplication by ⁠ ⁠ until a better point is found with a new damping factor of ⁠ ⁠ for some ⁠ ⁠ . If use of the damping factor ⁠ ⁠ results in a reduction in squared residual, then this is taken as the new value of ⁠ ⁠ (and the new optimum location is taken as that obtained with this damping factor) and the process continues; if using ⁠ ⁠ resulted in a worse residual, but using ⁠ ⁠ resulted in a better residual, then ⁠ ⁠ is left unchanged and the new optimum is taken as the value obtained with ⁠ ⁠ as damping factor. An effective strategy for the control of the damping parameter, ca</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Princess_Mononoke.html">Princess Mononoke</a></li>
+<li><a href="K_zi.html">Közi</a></li>
+<li><a href="Temple_Island.html">Temple Island</a></li>
+<li><a href="Dual_space.html">Dual space</a></li>
+<li><a href="Helford_River.html">Helford River</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm">Wikimedia article</a></small></p>
+<p><i>Last edited: November 1, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

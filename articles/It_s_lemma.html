@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Itô&#x27;s lemma - Wiki2</title>
+  <meta name="description" content="In mathematics, Itô&#x27;s lemma or Itô&#x27;s formula is an identity used in Itô calculus to find the differential of a time-dependent function of a stochastic process. It serves as the stochastic calculus counterpart of the chain rule. It can be he">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/It_s_lemma.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Itô&#x27;s lemma - Wiki2">
+  <meta property="og:description" content="In mathematics, Itô&#x27;s lemma or Itô&#x27;s formula is an identity used in Itô calculus to find the differential of a time-dependent function of a stochastic process. It serves as the stochastic calculus counterpart of the chain rule. It can be he">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/It_s_lemma.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Itô&#x27;s lemma - Wiki2">
+  <meta name="twitter:description" content="In mathematics, Itô&#x27;s lemma or Itô&#x27;s formula is an identity used in Itô calculus to find the differential of a time-dependent function of a stochastic process. It serves as the stochastic calculus counterpart of the chain rule. It can be he">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Itô&#x27;s lemma</h1>
+    <p><b>Itô&#x27;s lemma</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In mathematics, Itô&#x27;s lemma or Itô&#x27;s formula is an identity used in Itô calculus to find the differential of a time-dependent function of a stochastic process. It serves as the stochastic calculus counterpart of the chain rule. It can be heuristically derived by forming the Taylor series expansion of the function up to its second derivatives and retaining terms up to first order in the time increment and second order in the Wiener process increment. The lemma is widely employed in mathematical finance, and its best known application is in the derivation of the Black–Scholes equation for option values.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>In mathematics , Itô&#x27;s lemma or Itô&#x27;s formula is an identity used in Itô calculus to find the differential of a time-dependent function of a stochastic process . It serves as the stochastic calculus counterpart of the chain rule . It can be heuristically derived by forming the Taylor series expansion of the function up to its second derivatives and retaining terms up to first order in the time increment and second order in the Wiener process increment. The lemma is widely employed in mathematical finance , and its best known application is in the derivation of the Black–Scholes equation for option values. This result was discovered by Japanese mathematician Kiyoshi Itô in 1951.</p>
+    <hr>
+    <h2>Motivation</h2>
+    <p>Suppose we are given the stochastic differential equation where B t is a Wiener process and the functions are deterministic (not stochastic) functions of time. In general, it&#x27;s not possible to write a solution directly in terms of However, we can formally write an integral solution This expression lets us easily read off the mean and variance of (which has no higher moments). First, notice that every individually has mean 0, so the expected value of is simply the integral of the drift function: Similarly, because the terms have variance 1 and no correlation with one another, the variance of is simply the integral of the variance of each infinitesimal step in the random walk : However, sometimes we are faced with a stochastic differential equation for a more complex process in which the process appears on both sides of the differential equation. That is, say for some functions and In this case, we cannot immediately write a formal solution as we did for the simpler case above. Instead, we hope to write the process as a function of a simpler process taking the form above. That is, we want to identify three functions and such that and In practice, Ito&#x27;s lemma is used in order to find this transformation. Finally, once we have transformed the problem into the simpler type of problem, we can determine the mean and higher moments of the process.</p>
+    <hr>
+    <h2>Derivation</h2>
+    <p>We derive Itô&#x27;s lemma by expanding a Taylor series and applying the rules of stochastic calculus. Suppose is an Itô drift-diffusion process that satisfies the stochastic differential equation where B t is a Wiener process . If f ( t , x ) is a twice-differentiable scalar function, its expansion in a Taylor series is Then use the total derivative and the definition of the partial derivative : Substituting and therefore , we get In the limit , the terms and tend to zero faster than . is (due to the quadratic variation of a Wiener process which says ), so setting and terms to zero and substituting for , and then collecting the terms, we obtain as required. Alternatively,</p>
+    <hr>
+    <h2>Geometric intuition</h2>
+    <p>Suppose we know that are two jointly-Gaussian distributed random variables, and is nonlinear but has a continuous second derivative , then in general, neither of is Gaussian, and their joint distribution is also not Gaussian. However, since is Gaussian, we might still find is Gaussian. This is not true when is finite, but when becomes infinitesimal, this becomes true. The key idea is that has a deterministic part and a noisy part. When is nonlinear, the noisy part has a deterministic contribution. If is convex, then the deterministic contribution is positive (by Jensen&#x27;s inequality ). To find out how large the contribution is, we write , where is a standard Gaussian, then perform Taylor expansion. We have split it into two parts, a deterministic part, and a random part with mean zero. The random part is non-Gaussian, but the non-Gaussian parts decay faster than the Gaussian part, and at the limit, only the Gaussian part remains. The deterministic part has the expected , but also a part contributed by the convexity: . To understand why there should be a contribution due to convexity, consider the simplest case of geometric Brownian walk (of the stock market): . In other words, . Let , then , and is a Brownian walk. However, although the expectation of remains constant, the expectation of grows. Intuitively it is because the downside is limited at zero, but the upside is unlimite</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="The_Scout_Association.html">The Scout Association</a></li>
+      <li><a href="GE_57_ton_gas_electric_boxcab.html">GE 57-ton gas–electric boxcab</a></li>
+      <li><a href="Dymer_poem.html">Dymer (poem)</a></li>
+      <li><a href="Edmonton_International_Fringe_Festival.html">Edmonton International Fringe Festival</a></li>
+      <li><a href="Bennington_College.html">Bennington College</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/It%C3%B4&#x27;s_lemma">Wikimedia article</a></small></p>
+    <p><i>Last edited: November 2, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
