@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VLAN - Wiki2</title>
+  <meta name="description" content="A virtual local area network (VLAN) is a local area network broadcast domain that is partitioned and isolated in a virtual network at the data link layer. A VLAN behaves like a virtual network switch or network link that can share the same ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/VLAN.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="VLAN - Wiki2">
+  <meta property="og:description" content="A virtual local area network (VLAN) is a local area network broadcast domain that is partitioned and isolated in a virtual network at the data link layer. A VLAN behaves like a virtual network switch or network link that can share the same ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/VLAN.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/a/a3/VLAN_Concept.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VLAN - Wiki2">
+  <meta name="twitter:description" content="A virtual local area network (VLAN) is a local area network broadcast domain that is partitioned and isolated in a virtual network at the data link layer. A VLAN behaves like a virtual network switch or network link that can share the same ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/a/a3/VLAN_Concept.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>VLAN</h1>
+    <p><b>VLAN</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>A virtual local area network (VLAN) is a local area network broadcast domain that is partitioned and isolated in a virtual network at the data link layer. A VLAN behaves like a virtual network switch or network link that can share the same physical structure with other VLANs while staying logically separate from them.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/VLAN_Concept.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="VLAN"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>A virtual local area network ( VLAN ) is a local area network broadcast domain that is partitioned and isolated in a virtual network at the data link layer ( OSI layer 2 ). A VLAN behaves like a virtual network switch or network link that can share the same physical structure with other VLANs while staying logically separate from them. VLANs work by applying tags to network frames that are forwarded within the broadcast domain, creating the appearance and functionality of network traffic that behaves as if it were split between separate networks. In this way, VLANs can keep network applications separate despite being connected to the same physical network, and without requiring multiple sets of cabling and networking devices to be deployed. VLANs allow network administrators to group hosts together even if the hosts are not directly connected to the same network switch . Because VLAN membership can be configured through software, this can greatly simplify network design and deployment. Without VLANs, grouping hosts according to their resources requires relocating nodes or rewiring data links . VLANs allow devices that must be kept separate to share the cabling of a physical network and yet be prevented from directly interacting with one another. This managed sharing yields gains in simplicity, security , traffic control , and economy. Many Internet hosting services use VLANs to</p>
+    <hr>
+    <h2>Uses</h2>
+    <p>VLANs address issues such as scalability , security, and network management. Network architects set up VLANs to provide network segmentation . Routers between VLANs filter broadcast traffic , enhance network security , perform address summarization , and mitigate network congestion . In a network utilizing broadcasts for service discovery , address assignment and resolution and other services, as the number of peers on a network grows, the frequency of broadcasts also increases. VLANs can help manage broadcast traffic by forming multiple broadcast domains . Breaking up a large network into smaller independent segments reduces the amount of broadcast traffic each network device and network segment has to bear. Switches may not bridge network traffic between VLANs, as doing so would violate the integrity of the VLAN broadcast domain. VLANs can also help create multiple layer 3 networks on a single physical infrastructure. VLANs are data link layer (OSI layer 2) constructs, analogous to Internet Protocol (IP) subnets , which are network layer (OSI layer 3) constructs. In an environment employing VLANs, a one-to-one relationship often exists between VLANs and IP subnets, although it is possible to have multiple subnets on one VLAN. Without VLAN capability, users are assigned to networks based on geography and are limited by physical topologies and distances. VLANs can logically gro</p>
+    <hr>
+    <h2>History</h2>
+    <p>After successful experiments with voice over Ethernet from 1981 to 1984, W. David Sincoskie joined Bellcore and began addressing the problem of scaling up Ethernet networks. At 10 Mbit/s, Ethernet was faster than most alternatives at the time. However, Ethernet was a broadcast network and there was no good way of connecting multiple Ethernet networks together. This limited the total bandwidth of an Ethernet network to 10 Mbit/s and the maximum distance between nodes to a few hundred feet. By contrast, although the existing telephone network&#x27;s speed for individual connections was limited to 56 kbit/s (less than one hundredth of Ethernet&#x27;s speed), the total bandwidth of that network was estimated at 1 Tbit/s (100,000 times greater than Ethernet). Although it was possible to use IP routing to connect multiple Ethernet networks together, it was expensive and relatively slow. Sincoskie started looking for alternatives that required less processing per packet. In the process, he independently reinvented transparent bridging , the technique used in modern Ethernet switches . However, using switches to connect multiple Ethernet networks in a fault-tolerant fashion requires redundant paths through that network, which in turn requires a spanning tree configuration. This ensures that there is only one active path from any source node to any destination on the network. This causes centrall</p>
+    <hr>
+    <h2>Configuration and design considerations</h2>
+    <p>Early network designers often segmented physical LANs with the aim of reducing the size of the Ethernet collision domain —thus improving performance. When Ethernet switches made this a non-issue (because each switch port is a collision domain), attention turned to reducing the size of the data link layer broadcast domain. VLANs were first employed to separate several broadcast domains across one physical medium. A VLAN can also serve to restrict access to network resources without regard to physical topology of the network. VLANs operate at the data link layer of the OSI model . Administrators often configure a VLAN to map directly to an IP network, or subnet, which gives the appearance of involving the network layer . Generally, VLANs within the same organization will be assigned different non-overlapping network address ranges. This is not a requirement of VLANs. There is no issue with separate VLANs using identical overlapping address ranges (e.g. two VLANs each use the private network 192.168.0.0 / 16 ). However, it is not possible to route data between two networks with overlapping addresses without delicate IP remapping , so if the goal of VLANs is segmentation of a larger overall organizational network, non-overlapping addresses must be used in each separate VLAN. A basic switch that is not configured for VLANs has VLAN functionality disabled or permanently enabled with </p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Battle_of_Ain_Jalut.html">Battle of Ain Jalut</a></li>
+      <li><a href="Austrasia.html">Austrasia</a></li>
+      <li><a href="Turin_Cathedral.html">Turin Cathedral</a></li>
+      <li><a href="Gross_Rosen_concentration_camp.html">Gross-Rosen concentration camp</a></li>
+      <li><a href="Disjunction_introduction.html">Disjunction introduction</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/VLAN">Wikimedia article</a></small></p>
+    <p><i>Last edited: November 2, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

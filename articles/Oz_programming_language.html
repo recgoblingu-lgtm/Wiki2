@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Oz (programming language) - Wiki2</title>
-  <meta name="description" content="Oz is a multiparadigm programming language, developed in the Programming Systems Lab at Université catholique de Louvain, for programming-language education. It has a canonical textbook: Concepts, Techniques, and Models of Computer Programm">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Oz_programming_language.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Oz (programming language) - Wiki2">
-  <meta property="og:description" content="Oz is a multiparadigm programming language, developed in the Programming Systems Lab at Université catholique de Louvain, for programming-language education. It has a canonical textbook: Concepts, Techniques, and Models of Computer Programm">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Oz_programming_language.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Oz (programming language) - Wiki2">
-  <meta name="twitter:description" content="Oz is a multiparadigm programming language, developed in the Programming Systems Lab at Université catholique de Louvain, for programming-language education. It has a canonical textbook: Concepts, Techniques, and Models of Computer Programm">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Oz (programming language) - Wiki2</title>
+<meta content="Oz is a multiparadigm programming language, developed in the Programming Systems Lab at Université catholique de Louvain, for programming-language education. It has a canonical textbook: Concepts, Techniques, and Models of Computer Programm" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Oz_programming_language.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Oz (programming language)" property="og:title"/>
+<meta content="Oz (programming language) is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Oz_programming_language.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Oz (programming language)" name="twitter:title"/>
+<meta content="Oz (programming language) is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Oz (programming language)</h1>
-    <p><b>Oz (programming language)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>Oz is a multiparadigm programming language, developed in the Programming Systems Lab at Université catholique de Louvain, for programming-language education. It has a canonical textbook: Concepts, Techniques, and Models of Computer Programming.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>Oz is a multiparadigm programming language , developed in the Programming Systems Lab at Université catholique de Louvain , for programming-language education. It has a canonical textbook: Concepts, Techniques, and Models of Computer Programming . Oz was first designed by Gert Smolka and his students in 1991. In 1996, development of Oz continued in cooperation with the research group of Seif Haridi and Peter Van Roy at the Swedish Institute of Computer Science . Since 1999, Oz has been continually developed by an international group, the Mozart Consortium, which originally consisted of Saarland University , the Swedish Institute of Computer Science , and the Université catholique de Louvain . In 2005, the responsibility for managing Mozart development was transferred to a core group, the Mozart Board, with the express purpose of opening Mozart development to a larger community. The Mozart Programming System is the primary implementation of Oz. It is released with an open source license by the Mozart Consortium. Mozart has been ported to Unix , FreeBSD , Linux , Windows , and macOS .</p>
-    <hr>
-    <h2>Language features</h2>
-    <p>Oz contains most of the concepts of the major programming paradigms , including logic, functional (both lazy evaluation and eager evaluation ), imperative, object-oriented, constraint, distributed, and concurrent programming. Oz has both a simple formal semantics (see chapter 13 of the book mentioned below) and an efficient implementation. Oz is a concurrency -oriented language, as the term was introduced by Joe Armstrong, the main designer of the Erlang language . A concurrency-oriented language makes concurrency easy to use and efficient. Oz supports a canonical graphical user interface (GUI) language QTk. In addition to multi-paradigm programming, the major strengths of Oz are in constraint programming and distributed programming . Due to its factored design, Oz is able to successfully implement a network-transparent distributed programming model. This model makes it easy to program open, fault-tolerant applications within the language. For constraint programming, Oz introduces the idea of computation spaces , which allow user-defined search and distribution strategies orthogonal to the constraint domain.</p>
-    <hr>
-    <h2>Data structures</h2>
-    <p>Oz is based on a core language with very few datatypes that can be extended into more practical ones through syntactic sugar . Basic data structures: Those data structures are values (constant), first class and dynamically type checked . Variable names in Oz start with an uppercase letter to distinguish them from literals which always begin with a lowercase letter.</p>
-    <hr>
-    <h2>Functions</h2>
-    <p>Functions are first class values, allowing higher order functional programming: Functions may be used with both free and bound variables. Free variable values are found using static lexical scoping . Functions are like other Oz objects. A function can be passed as an attribute to other functions or can be returned in a function. Like many other functional languages, Oz supports use of anonymous functions (i.e. functions which do not have a name) with higher order programming. The symbol $ is used to denote these. In the following, the square function is defined anonymously and passed, causing [1 4 9] to be browsed. Since anonymous functions don&#x27;t have names, it is not possible to define recursive anonymous functions. Functions in Oz are supposed to return a value at the last statement encountered in the body of the function during its execution. In the example below, the function Ret returns 5 if X &gt; 0 and -5 otherwise. But Oz also provides a facility in case a function must not return values. Such functions are called procedures. Procedures are defined using the construct &quot;proc&quot; as follows The above example doesn&#x27;t return any value, it just prints 5 or -5 in the Oz browser depending on the sign of X.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="USS_Goff.html">USS Goff</a></li>
-      <li><a href="Hull_Marina.html">Hull Marina</a></li>
-      <li><a href="Israeli_Palestinian_conflict.html">Israeli–Palestinian conflict</a></li>
-      <li><a href="Honea_Path_South_Carolina.html">Honea Path, South Carolina</a></li>
-      <li><a href="Sancho_IV_of_Castile.html">Sancho IV of Castile</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Oz_(programming_language)">Wikimedia article</a></small></p>
-    <p><i>Last edited: November 2, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Oz (programming language)</h1>
+<p><b>Oz (programming language)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>Oz is a multiparadigm programming language, developed in the Programming Systems Lab at Université catholique de Louvain, for programming-language education. It has a canonical textbook: Concepts, Techniques, and Models of Computer Programming.</p>
+<hr/>
+<h2>Background</h2>
+<p>Oz is a multiparadigm programming language , developed in the Programming Systems Lab at Université catholique de Louvain , for programming-language education. It has a canonical textbook: Concepts, Techniques, and Models of Computer Programming . Oz was first designed by Gert Smolka and his students in 1991. In 1996, development of Oz continued in cooperation with the research group of Seif Haridi and Peter Van Roy at the Swedish Institute of Computer Science . Since 1999, Oz has been continually developed by an international group, the Mozart Consortium, which originally consisted of Saarland University , the Swedish Institute of Computer Science , and the Université catholique de Louvain . In 2005, the responsibility for managing Mozart development was transferred to a core group, the Mozart Board, with the express purpose of opening Mozart development to a larger community. The Mozart Programming System is the primary implementation of Oz. It is released with an open source license by the Mozart Consortium. Mozart has been ported to Unix , FreeBSD , Linux , Windows , and macOS .</p>
+<hr/>
+<h2>Language features</h2>
+<p>Oz contains most of the concepts of the major programming paradigms , including logic, functional (both lazy evaluation and eager evaluation ), imperative, object-oriented, constraint, distributed, and concurrent programming. Oz has both a simple formal semantics (see chapter 13 of the book mentioned below) and an efficient implementation. Oz is a concurrency -oriented language, as the term was introduced by Joe Armstrong, the main designer of the Erlang language . A concurrency-oriented language makes concurrency easy to use and efficient. Oz supports a canonical graphical user interface (GUI) language QTk. In addition to multi-paradigm programming, the major strengths of Oz are in constraint programming and distributed programming . Due to its factored design, Oz is able to successfully implement a network-transparent distributed programming model. This model makes it easy to program open, fault-tolerant applications within the language. For constraint programming, Oz introduces the idea of computation spaces , which allow user-defined search and distribution strategies orthogonal to the constraint domain.</p>
+<hr/>
+<h2>Data structures</h2>
+<p>Oz is based on a core language with very few datatypes that can be extended into more practical ones through syntactic sugar . Basic data structures: Those data structures are values (constant), first class and dynamically type checked . Variable names in Oz start with an uppercase letter to distinguish them from literals which always begin with a lowercase letter.</p>
+<hr/>
+<h2>Functions</h2>
+<p>Functions are first class values, allowing higher order functional programming: Functions may be used with both free and bound variables. Free variable values are found using static lexical scoping . Functions are like other Oz objects. A function can be passed as an attribute to other functions or can be returned in a function. Like many other functional languages, Oz supports use of anonymous functions (i.e. functions which do not have a name) with higher order programming. The symbol $ is used to denote these. In the following, the square function is defined anonymously and passed, causing [1 4 9] to be browsed. Since anonymous functions don't have names, it is not possible to define recursive anonymous functions. Functions in Oz are supposed to return a value at the last statement encountered in the body of the function during its execution. In the example below, the function Ret returns 5 if X &gt; 0 and -5 otherwise. But Oz also provides a facility in case a function must not return values. Such functions are called procedures. Procedures are defined using the construct "proc" as follows The above example doesn't return any value, it just prints 5 or -5 in the Oz browser depending on the sign of X.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="USS_Goff.html">USS Goff</a></li>
+<li><a href="Hull_Marina.html">Hull Marina</a></li>
+<li><a href="Israeli_Palestinian_conflict.html">Israeli–Palestinian conflict</a></li>
+<li><a href="Honea_Path_South_Carolina.html">Honea Path, South Carolina</a></li>
+<li><a href="Sancho_IV_of_Castile.html">Sancho IV of Castile</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Oz_(programming_language)">Wikimedia article</a></small></p>
+<p><i>Last edited: November 2, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

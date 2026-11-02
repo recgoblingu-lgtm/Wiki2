@@ -1,64 +1,65 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Dilation (morphology) - Wiki2</title>
-  <meta name="description" content="Dilation is one of the basic operations in mathematical morphology. Originally developed for binary images, it has been expanded first to grayscale images, and then to complete lattices. The dilation operation usually uses a structuring ele">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Dilation_morphology.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Dilation (morphology) - Wiki2">
-  <meta property="og:description" content="Dilation is one of the basic operations in mathematical morphology. Originally developed for binary images, it has been expanded first to grayscale images, and then to complete lattices. The dilation operation usually uses a structuring ele">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Dilation_morphology.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/8/8d/Dilation.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Dilation (morphology) - Wiki2">
-  <meta name="twitter:description" content="Dilation is one of the basic operations in mathematical morphology. Originally developed for binary images, it has been expanded first to grayscale images, and then to complete lattices. The dilation operation usually uses a structuring ele">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/8/8d/Dilation.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Dilation (morphology) - Wiki2</title>
+<meta content="Dilation is one of the basic operations in mathematical morphology. Originally developed for binary images, it has been expanded first to grayscale images, and then to complete lattices. The dilation operation usually uses a structuring ele" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Dilation_morphology.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Dilation (morphology)" property="og:title"/>
+<meta content="Dilation (morphology) is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Dilation_morphology.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/8/8d/Dilation.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Dilation (morphology)" name="twitter:title"/>
+<meta content="Dilation (morphology) is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/8/8d/Dilation.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Dilation (morphology)</h1>
-    <p><b>Dilation (morphology)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>Dilation is one of the basic operations in mathematical morphology. Originally developed for binary images, it has been expanded first to grayscale images, and then to complete lattices. The dilation operation usually uses a structuring element for probing and expanding the shapes contained in the input image.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Dilation.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Dilation.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Grayscale_Morphological_Dilation.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Grayscale Morphological Dilation.gif"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>Dilation (usually represented by ⊕ ) is one of the basic operations in mathematical morphology . Originally developed for binary images , it has been expanded first to grayscale images, and then to complete lattices . The dilation operation usually uses a structuring element for probing and expanding the shapes contained in the input image.</p>
-    <hr>
-    <h2>Binary dilation</h2>
-    <p>In binary morphology, dilation is a shift-invariant ( translation invariant ) operator, equivalent to Minkowski addition . A binary image is viewed in mathematical morphology as a subset of a Euclidean space R or the integer grid Z , for some dimension d . Let E be a Euclidean space or an integer grid, A a binary image in E , and B a structuring element regarded as a subset of R . The dilation of A by B is defined by where A b is the translation of A by b . Dilation is commutative, also given by . If B has a center on the origin, then the dilation of A by B can be understood as the locus of the points covered by B when the center of B moves inside A . The dilation of a square of size 10, centered at the origin, by a disk of radius 2, also centered at the origin, is a square of size 14, with rounded corners, centered at the origin. The radius of the rounded corners is 2. The dilation can also be obtained by , where B denotes the symmetric of B , that is, .</p>
-    <hr>
-    <h2>Example</h2>
-    <p>Suppose A is the following 11 x 11 matrix and B is the following 3 x 3 matrix: For each pixel in A that has a value of 1, superimpose B, with the center of B aligned with the corresponding pixel in A. Each pixel of every superimposed B is included in the dilation of A by B. The dilation of A by B is given by this 11 x 11 matrix.</p>
-    <hr>
-    <h2>Grayscale dilation</h2>
-    <p>In grayscale morphology, images are functions mapping a Euclidean space or grid E into , where is the set of reals , is an element greater than any real number, and is an element less than any real number. Grayscale structuring elements are also functions of the same format, called &quot;structuring functions&quot;. Denoting an image by f ( x ) and the structuring function by b ( x ), the grayscale dilation of f by b is given by where &quot;sup&quot; denotes the supremum .</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Fred_McGriff.html">Fred McGriff</a></li>
-      <li><a href="1975_76_Yugoslav_First_League.html">1975–76 Yugoslav First League</a></li>
-      <li><a href="KFMB_TV.html">KFMB-TV</a></li>
-      <li><a href="Super_Bowl_XV.html">Super Bowl XV</a></li>
-      <li><a href="Calvary_Baptist_Church_Manhattan.html">Calvary Baptist Church (Manhattan)</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Dilation_(morphology)">Wikimedia article</a></small></p>
-    <p><i>Last edited: November 2, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Dilation (morphology)</h1>
+<p><b>Dilation (morphology)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>Dilation is one of the basic operations in mathematical morphology. Originally developed for binary images, it has been expanded first to grayscale images, and then to complete lattices. The dilation operation usually uses a structuring element for probing and expanding the shapes contained in the input image.</p>
+<figure class="article-image"><img alt="Dilation.png" src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Dilation.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Grayscale Morphological Dilation.gif" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Grayscale_Morphological_Dilation.gif?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>Dilation (usually represented by ⊕ ) is one of the basic operations in mathematical morphology . Originally developed for binary images , it has been expanded first to grayscale images, and then to complete lattices . The dilation operation usually uses a structuring element for probing and expanding the shapes contained in the input image.</p>
+<hr/>
+<h2>Binary dilation</h2>
+<p>In binary morphology, dilation is a shift-invariant ( translation invariant ) operator, equivalent to Minkowski addition . A binary image is viewed in mathematical morphology as a subset of a Euclidean space R or the integer grid Z , for some dimension d . Let E be a Euclidean space or an integer grid, A a binary image in E , and B a structuring element regarded as a subset of R . The dilation of A by B is defined by where A b is the translation of A by b . Dilation is commutative, also given by . If B has a center on the origin, then the dilation of A by B can be understood as the locus of the points covered by B when the center of B moves inside A . The dilation of a square of size 10, centered at the origin, by a disk of radius 2, also centered at the origin, is a square of size 14, with rounded corners, centered at the origin. The radius of the rounded corners is 2. The dilation can also be obtained by , where B denotes the symmetric of B , that is, .</p>
+<hr/>
+<h2>Example</h2>
+<p>Suppose A is the following 11 x 11 matrix and B is the following 3 x 3 matrix: For each pixel in A that has a value of 1, superimpose B, with the center of B aligned with the corresponding pixel in A. Each pixel of every superimposed B is included in the dilation of A by B. The dilation of A by B is given by this 11 x 11 matrix.</p>
+<hr/>
+<h2>Grayscale dilation</h2>
+<p>In grayscale morphology, images are functions mapping a Euclidean space or grid E into , where is the set of reals , is an element greater than any real number, and is an element less than any real number. Grayscale structuring elements are also functions of the same format, called "structuring functions". Denoting an image by f ( x ) and the structuring function by b ( x ), the grayscale dilation of f by b is given by where "sup" denotes the supremum .</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Fred_McGriff.html">Fred McGriff</a></li>
+<li><a href="1975_76_Yugoslav_First_League.html">1975–76 Yugoslav First League</a></li>
+<li><a href="KFMB_TV.html">KFMB-TV</a></li>
+<li><a href="Super_Bowl_XV.html">Super Bowl XV</a></li>
+<li><a href="Calvary_Baptist_Church_Manhattan.html">Calvary Baptist Church (Manhattan)</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Dilation_(morphology)">Wikimedia article</a></small></p>
+<p><i>Last edited: November 2, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

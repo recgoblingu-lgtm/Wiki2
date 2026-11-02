@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Definition Format - Wiki2</title>
+  <meta name="description" content="JDF is a technical standard developed by the graphic arts industry to facilitate cross-vendor workflow implementations of the application domain. It is an XML format about job ticket, message description, and message interchange. JDF is man">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Job_Definition_Format.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Job Definition Format - Wiki2">
+  <meta property="og:description" content="JDF is a technical standard developed by the graphic arts industry to facilitate cross-vendor workflow implementations of the application domain. It is an XML format about job ticket, message description, and message interchange. JDF is man">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Job_Definition_Format.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Job Definition Format - Wiki2">
+  <meta name="twitter:description" content="JDF is a technical standard developed by the graphic arts industry to facilitate cross-vendor workflow implementations of the application domain. It is an XML format about job ticket, message description, and message interchange. JDF is man">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Job Definition Format</h1>
+    <p><b>Job Definition Format</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>JDF is a technical standard developed by the graphic arts industry to facilitate cross-vendor workflow implementations of the application domain. It is an XML format about job ticket, message description, and message interchange. JDF is managed by CIP4, the International Cooperation for the Integration of Processes in Prepress, Press and Postpress Organization. JDF was initiated by Adobe Systems, Agfa, Heidelberg and MAN Roland in 1999 but handed over to CIP3 at Drupa 2000. CIP3 then renamed itself CIP4.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>JDF ( Job Definition Format ) is a technical standard developed by the graphic arts industry to facilitate cross-vendor workflow implementations of the application domain . It is an XML format about job ticket, message description, and message interchange. JDF is managed by CIP4, the International Cooperation for the Integration of Processes in Prepress, Press and Postpress Organization. JDF was initiated by Adobe Systems , Agfa , Heidelberg and MAN Roland in 1999 but handed over to CIP3 at Drupa 2000. CIP3 then renamed itself CIP4. The initial focus was on sheetfed offset and digital print workflow, but has been expanded to web(roll)-fed systems, newspaper workflows and packaging and label workflows. It is promulgated by the prepress industry association CIP4, and is generally regarded as the successor to CIP3&#x27;s Print Production Format (PPF) and Adobe Systems &#x27; Portable Job Ticket Format (PJTF). The JDF standard is at revision 1.8. The process of defining and promulgating JDF began circa 1999. The standard is in a fairly mature state; and a number of vendors have implemented or are in the process of implementing it. JDF PARC, a multivendor JDF interoperability demonstration, was an event at the 2004 Drupa print industry show, and featured 21 vendors demonstrating, or attempting to demonstrate interoperability between a total of about forty pairs of products. JDF is an extensib</p>
+    <hr>
+    <h2>Introduction to proofing</h2>
+    <p>Before describing the implementation of proofing in JDF, it&#x27;s better to know a little about the terminology that will be used. The original input files have to be processed to be printed on the final press (interpreting, rendering, screening, color management ....) and the same to be printed on the proofer (different characteristics). The decision on which of the processing steps will be executed once (common both for printing on the proofer and on the press) and which not will depend on many parameters (characteristics of the proofer device, user requirements, workflow requirements…). The proofing has to take in account the consistency between the press and the proofer.</p>
+    <hr>
+    <h2>Proofing in JDF</h2>
+    <p>In JDF 1.1, proofing and soft proofing were defined as an atomic process on which the input were all the parameters required for a successful process. This has some drawbacks: From JDF 1.2 proofing and soft proofing were deprecated in behalf of a combined process to specify the proofing workflow. The job ticket explicitly defines the processing and provides the flexibility to implement them in different workflows. In order to do that, the atomic processes were made capable of keeping all the information necessary to specify different configurations/options.</p>
+    <hr>
+    <h2>Combined processes for proofing</h2>
+    <p>It is impossible to describe proofing by a unique combination of processes which in turn will depend on the capabilities of the RIPs ( Raster image processor ), the devices used for proofing and the proofing production workflow. It is still possible to define a generic combined process for the proofing. This will allow it to describe its step in a workflow. The generic combined proofing process combines the following JDF processes: The ordering is not completely strict (same result may be achieved with different order combination of steps), but there are some precedence rules: the first color space conversion must be done before the second one, rendering must be done after interpreting, screening in turn must be done after rendering and the second color conversion, ImageSetting/DigitalPrinting must be done after screening.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Ed_Too_Tall_Jones.html">Ed &quot;Too Tall&quot; Jones</a></li>
+      <li><a href="Trifolium_pratense.html">Trifolium pratense</a></li>
+      <li><a href="Hooker_with_a_heart_of_gold.html">Hooker with a heart of gold</a></li>
+      <li><a href="Acey_deucey.html">Acey-deucey</a></li>
+      <li><a href="Roller_skating.html">Roller skating</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Job_Definition_Format">Wikimedia article</a></small></p>
+    <p><i>Last edited: November 2, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
