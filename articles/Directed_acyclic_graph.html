@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Directed acyclic graph - Wiki2</title>
+  <meta name="description" content="In mathematics, particularly graph theory, and computer science, a directed acyclic graph (DAG) is a directed graph with no directed cycles. That is, it consists of vertices and edges, with each edge directed from one vertex to another, suc">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Directed_acyclic_graph.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Directed acyclic graph - Wiki2">
+  <meta property="og:description" content="In mathematics, particularly graph theory, and computer science, a directed acyclic graph (DAG) is a directed graph with no directed cycles. That is, it consists of vertices and edges, with each edge directed from one vertex to another, suc">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Directed_acyclic_graph.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/f/fe/Tred-G.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Directed acyclic graph - Wiki2">
+  <meta name="twitter:description" content="In mathematics, particularly graph theory, and computer science, a directed acyclic graph (DAG) is a directed graph with no directed cycles. That is, it consists of vertices and edges, with each edge directed from one vertex to another, suc">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/f/fe/Tred-G.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Directed acyclic graph</h1>
+    <p><b>Directed acyclic graph</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In mathematics, particularly graph theory, and computer science, a directed acyclic graph (DAG) is a directed graph with no directed cycles. That is, it consists of vertices and edges, with each edge directed from one vertex to another, such that following those directions will never form a closed loop. A directed graph is a DAG if and only if it can be topologically ordered, by arranging the vertices as a linear ordering that is consistent with all edge directions. DAGs have numerous scientific and computational applications, ranging from biology to information science to computation (scheduling).</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Tred-G.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Directed acyclic graph"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/5/52/EgyptianPtolemies2.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="EgyptianPtolemies2.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In mathematics , particularly graph theory , and computer science , a directed acyclic graph ( DAG ) is a directed graph with no directed cycles . That is, it consists of vertices and edges (also called arcs ), with each edge directed from one vertex to another, such that following those directions will never form a closed loop. A directed graph is a DAG if and only if it can be topologically ordered , by arranging the vertices as a linear ordering that is consistent with all edge directions. DAGs have numerous scientific and computational applications, ranging from biology (evolution, family trees, epidemiology) to information science ( citation networks ) to computation ( scheduling ). Directed acyclic graphs are also called acyclic directed graphs or acyclic digraphs .</p>
+    <hr>
+    <h2>Definitions</h2>
+    <p>A graph is formed by vertices and by edges connecting pairs of vertices, where the vertices can be any kind of object that is connected in pairs by edges. In the case of a directed graph , each edge has an orientation, from one vertex to another vertex. A walk in a directed graph is a (finite or infinite) sequence of vertices such that each consecutive pair is connected by a directed edge. A path is a walk where all vertices are distinct. A cycle is a walk where the only repeated vertex is , meaning the last vertex equals the first vertex. A directed acyclic graph is a directed graph that has no cycles.</p>
+    <hr>
+    <h2>Reachability relation, transitive closure, and transitive reduction</h2>
+    <p>The reachability relation of a DAG can be formalized as a partial order ≤ on the vertices of the DAG. In this partial order, two vertices u and v are ordered as u ≤ v exactly when there exists a directed path from u to v in the DAG; that is, when u can reach v (or v is reachable from u ). However, different DAGs may give rise to the same reachability relation and the same partial order. For example, a DAG with two edges u → v and v → w has the same reachability relation as the DAG with three edges u → v , v → w , and u → w . Both of these DAGs produce the same partial order, in which the vertices are ordered as u ≤ v ≤ w . The transitive closure of a DAG is the graph with the most edges that has the same reachability relation as the DAG. It has an edge u → v for every pair of vertices ( u , v ) in the reachability relation ≤ of the DAG, and may therefore be thought of as a direct translation of the reachability relation ≤ into graph-theoretic terms. The same method of translating partial orders into DAGs works more generally: for every finite partially ordered set ( S , ≤) , the graph that has a vertex for every element of S and an edge for every pair of elements in ≤ is automatically a transitively closed DAG, and has ( S , ≤) as its reachability relation. In this way, every finite partially ordered set can be represented as a DAG. The transitive reduction of a DAG is the grap</p>
+    <hr>
+    <h2>Topological ordering</h2>
+    <p>A topological ordering of a directed graph is an ordering of its vertices into a sequence, such that for every edge the start vertex of the edge occurs earlier in the sequence than the ending vertex of the edge. A graph that has a topological ordering cannot have any cycles, because the edge into the earliest vertex of a cycle would have to be oriented the wrong way. Therefore, every graph with a topological ordering is acyclic. Conversely, every directed acyclic graph has at least one topological ordering. The existence of a topological ordering can therefore be used as an equivalent definition of a directed acyclic graphs: they are exactly the graphs that have topological orderings. In general, this ordering is not unique; a DAG has a unique topological ordering if and only if it has a directed path containing all the vertices, in which case the ordering is the same as the order in which the vertices appear in the path. The family of topological orderings of a DAG is the same as the family of linear extensions of the reachability relation for the DAG, so any two graphs representing the same partial order have the same set of topological orders.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Donington_Park.html">Donington Park</a></li>
+      <li><a href="Robert_Metcalfe.html">Robert Metcalfe</a></li>
+      <li><a href="David_Essex.html">David Essex</a></li>
+      <li><a href="Finyl_Vinyl.html">Finyl Vinyl</a></li>
+      <li><a href="Aaron_Brown_running_back.html">Aaron Brown (running back)</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph">Wikimedia article</a></small></p>
+    <p><i>Last edited: November 2, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>I2C - Wiki2</title>
+  <meta name="description" content="I2C (Inter-Integrated Circuit; pronounced as &quot;eye-squared-see&quot; or &quot;eye-two-see&quot;), alternatively known as I2C and IIC, is a synchronous, multi-master/multi-slave, single-ended, serial communication bus invented in 1980 by Philips Semiconduct">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/I2C.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="I2C - Wiki2">
+  <meta property="og:description" content="I2C (Inter-Integrated Circuit; pronounced as &quot;eye-squared-see&quot; or &quot;eye-two-see&quot;), alternatively known as I2C and IIC, is a synchronous, multi-master/multi-slave, single-ended, serial communication bus invented in 1980 by Philips Semiconduct">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/I2C.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/9/9f/I%C2%B2C_bus_logo.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="I2C - Wiki2">
+  <meta name="twitter:description" content="I2C (Inter-Integrated Circuit; pronounced as &quot;eye-squared-see&quot; or &quot;eye-two-see&quot;), alternatively known as I2C and IIC, is a synchronous, multi-master/multi-slave, single-ended, serial communication bus invented in 1980 by Philips Semiconduct">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/9/9f/I%C2%B2C_bus_logo.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>I2C</h1>
+    <p><b>I2C</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>I2C (Inter-Integrated Circuit; pronounced as &quot;eye-squared-see&quot; or &quot;eye-two-see&quot;), alternatively known as I2C and IIC, is a synchronous, multi-master/multi-slave, single-ended, serial communication bus invented in 1980 by Philips Semiconductors (now NXP Semiconductors). It is widely used for attaching lower-speed peripheral integrated circuits (ICs) to processors and microcontrollers in short-distance, intra-board communication.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/I%C2%B2C_bus_logo.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="I2C"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/16bit_ADC_Card.jpg/960px-16bit_ADC_Card.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="16bit ADC Card.jpg"><figcaption>Related Wikimedia image</figcaption></figure>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/I_O_Expander_-_MCP23008_%2846357574392%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="I O Expander - MCP23008 (46357574392).jpg"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>IC ( Inter-Integrated Circuit ; pronounced as &quot; eye-squared-see &quot; or &quot; eye-two-see &quot;), alternatively known as I2C and IIC , is a synchronous , multi-master/multi-slave , single-ended , serial communication bus invented in 1980 by Philips Semiconductors (now NXP Semiconductors ). It is widely used for attaching lower-speed peripheral integrated circuits (ICs) to processors and microcontrollers in short-distance, intra-board communication. The IC bus can be found in a wide range of electronics applications where simplicity and low manufacturing cost are more important than speed. PC components and systems which involve IC include serial presence detect (SPD) EEPROMs on dual in-line memory modules (DIMMs) and Extended Display Identification Data (EDID) for monitors via VGA , DVI , and HDMI connectors. Common IC applications include reading hardware monitors, sensors, real-time clocks , controlling actuators, accessing low-speed DACs and ADCs , controlling simple LCD or OLED displays, changing computer display settings (e.g., backlight, contrast, hue, color balance) via Display Data Channel , and changing speaker volume. A particular strength of IC is the capability of a microcontroller to control a network of device chips with just two general-purpose I/O pins. Many other bus technologies used in similar applications, such as Serial Peripheral Interface Bus (SPI), require more pin</p>
+    <hr>
+    <h2>Invention</h2>
+    <p>In the European Patent EP0051332B1 Ad P.M.M. Moelands and Herman Schutte are named as inventors of the I2C bus. Both were working in 1980 as development engineers in the central application laboratory CAB of Philips in Eindhoven, where the I2C bus was developed as &quot;Two-wire bus-system comprising a clock wire and a data wire for interconnecting a number of stations&quot;. The US patent was granted under number US 4689740A . The internal development name of the bus was first COMIC, which was later changed to I2C. The patent was transferred to Koninklijke Philips NV.</p>
+    <hr>
+    <h2>Design</h2>
+    <p>IC patents and specifications used the terms master/slave between 1980 and 2021. In 2021, revision 7 of the IC specification changed the terms to controller/target . The technical definitions of such devices, and their roles on an IC bus, remain unchanged. IC uses only two signals : serial data line (SDA) and serial clock line (SCL). Both are bidirectional and pulled up with resistors . Typical voltages used are +5 V or +3.3 V, although systems with other voltages are permitted. The IC reference design has a 7-bit address space , with a rarely used 10-bit extension. Some vendors report 8-bit and 11-bit addresses instead, as the lowest bit in the first address byte is used to differentiate between write and read commands. Common IC bus speeds are the 100 kbit/s standard mode and the 400 kbit/s fast mode . There is also a 10 kbit/s low-speed mode , but arbitrarily low clock frequencies are also allowed. Later revisions of IC can host more nodes and run at faster speeds ( 400 kbit/s fast mode , 1 Mbit/s fast mode plus , 3.4 Mbit/s high-speed mode , and 5 Mbit/s ultra-fast mode ). These speeds are more widely used on embedded systems than on PCs. Note that the bit rates are quoted for the transfers between controller (master) and target (slave) without clock stretching or other hardware overhead. Protocol overheads include a target address and perhaps a register address within the </p>
+    <hr>
+    <h2>Reference design</h2>
+    <p>The aforementioned reference design is a bus with a clock (SCL) and data (SDA) lines with 7-bit addressing. The bus has two roles for nodes, either controller (master) or target (slave): The bus is a multi-controller bus, which means that any number of controller nodes can be present. Additionally, controller and target roles may be changed between messages (after a STOP is sent). There may be four potential modes of operation for a given bus device, although most devices only use a single role and its two modes: In addition to 0 and 1 data bits, the IC bus allows special START and STOP signals, which act as message delimiters and are distinct from the data bits. (This is in contrast to the start bits and stop bits used in asynchronous serial communication , which are distinguished from data bits only by their timing.) The controller is initially in controller transmit mode by sending a START followed by the 7-bit address of the target it wishes to communicate with, which is finally followed by a single bit representing whether it wishes to write (0) to or read (1) from the target. If the target exists on the bus then it will respond with an ACK bit (active low for acknowledged) for that address. The controller then continues in either transmit or receive mode (according to the read/write bit it sent), and the target continues in the complementary mode (receive or transmit, res</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Joanna_Berzowska.html">Joanna Berzowska</a></li>
+      <li><a href="Lysator.html">Lysator</a></li>
+      <li><a href="Vorticism.html">Vorticism</a></li>
+      <li><a href="Sanders_Associates.html">Sanders Associates</a></li>
+      <li><a href="Incest_in_the_Bible.html">Incest in the Bible</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/I2C">Wikimedia article</a></small></p>
+    <p><i>Last edited: November 2, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
