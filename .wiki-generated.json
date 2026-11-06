@@ -187875,14 +187875,18 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Curry",
       "generated_at": "2026-11-02T23:45:22+00:00"
+    },
+    {
+      "title": "Show trial",
+      "filename": "Show_trial.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Show_trial",
+      "generated_at": "2026-11-06T20:31:47+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "subcat|322a04464c3a363a442a404e04362a42324e011601dcdcc5dc12|84590747",
-    "Category:Arcade video games": "page|4e46443a2e044c2a2e3a44360736042e4c464e4e56464c40304e011d01dcc1dcbfdcc2e009|78604276",
-    "Category:Video game franchises": "page|422a4c54324004544e08042e2a482e4642011501dcbcdc09|446464",
-    "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418",
-    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
+    "Category:Arcade video games": "page|4e504c32325004343a363850324c042a4048382a040f05011a01dcc0dcbfdc0a|920187",
+    "Category:Video game franchises": "page|4e4832404034464c2e32010e01dcc2dc08|46894073",
+    "Category:Indie games": "page|2a422a44302a04503832042a3054324450524c324c011901dcbcdc0d|78204285"
   }
 }
