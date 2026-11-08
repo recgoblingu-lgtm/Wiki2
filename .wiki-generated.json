@@ -187889,12 +187889,17 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Microcosmographia_Academica",
       "generated_at": "2026-11-07T00:16:22+00:00"
+    },
+    {
+      "title": "Lemures",
+      "filename": "Lemures.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Lemures",
+      "generated_at": "2026-11-08T06:34:15+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|504c5258504644040992543a30324604362a423209940306504c5258504644040992543a30324604362a4232099401250c01dcb2dc17|724012",
-    "Category:Video game franchises": "page|562a4c3a46562a4c32010d01e0c2e007|1304812",
-    "Category:Indie games": "page|2c404646304e502a3a4432300736044c3a50522a400446340450383204443a363850012501dcb9dcb9dc08|46676803",
+    "Category:Indie games": "page|2e38324c4c5a04504c323204383a3638042e464232305a042e40522c012001dcc0dcc2dcc2dcc0dc07|40223661",
     "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474",
     "Category:Horror video games": "page|42464c50522a4c5a042a4e4e3a4e502a4450060450383203065038320442464c50522a4c5a042a4e4e3a4e502a445001251101dcbedcbcdcc3dcc3dcbedc0c|74495418"
   }
