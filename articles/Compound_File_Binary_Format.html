@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Compound File Binary Format - Wiki2</title>
+  <meta name="description" content="Compound File Binary Format (CFBF), also called Compound File, Compound Document format, or Composite Document File V2 (CDF), is a compound document file format for storing numerous files and streams within a single file on a disk. CFBF is ">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Compound_File_Binary_Format.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Compound File Binary Format - Wiki2">
+  <meta property="og:description" content="Compound File Binary Format (CFBF), also called Compound File, Compound Document format, or Composite Document File V2 (CDF), is a compound document file format for storing numerous files and streams within a single file on a disk. CFBF is ">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Compound_File_Binary_Format.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Compound File Binary Format - Wiki2">
+  <meta name="twitter:description" content="Compound File Binary Format (CFBF), also called Compound File, Compound Document format, or Composite Document File V2 (CDF), is a compound document file format for storing numerous files and streams within a single file on a disk. CFBF is ">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Compound File Binary Format</h1>
+    <p><b>Compound File Binary Format</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>Compound File Binary Format (CFBF), also called Compound File, Compound Document format, or Composite Document File V2 (CDF), is a compound document file format for storing numerous files and streams within a single file on a disk. CFBF is developed by Microsoft and is an implementation of Microsoft COM Structured Storage. The file format is used for storing storage objects and stream objects in a hierarchical structure within a single file.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>Compound File Binary Format (CFBF), also called Compound File , Compound Document format , or Composite Document File V2 (CDF), is a compound document file format for storing numerous files and streams within a single file on a disk. CFBF is developed by Microsoft and is an implementation of Microsoft COM Structured Storage . The file format is used for storing storage objects and stream objects in a hierarchical structure within a single file. Microsoft has opened the format for use by others and it is now used in a variety of programs from Microsoft Word and Microsoft Access to Business Objects. It also forms the basis of the Advanced Authoring Format .</p>
+    <hr>
+    <h2>Overview</h2>
+    <p>At its simplest, the Compound File Binary Format is a container, with little restriction on what can be stored within it. A CFBF file structure loosely resembles a FAT file system . The file is partitioned into Sectors which are chained together with a File Allocation Table (not to be mistaken with the file system of the same name) which contains chains of sectors related to each file, a Directory holds information for contained files with a Sector ID (SID) for the starting sector of a chain and so on.</p>
+    <hr>
+    <h2>Structure</h2>
+    <p>The CFBF file consists of a 512-byte header record followed by a number of Sectors whose size is defined in the header. The literature defines Sectors to be either 512 or 4096 bytes in length, although the format is potentially capable of supporting sectors ranging in size from 128 bytes upwards, in powers of two (128, 256, 512, 1024, etc.). The lower limit of 128 is the minimum required to fit a single directory entry in a Directory Sector. There are several types of sector that may be present in a CFBF file: More detail is given below for the header and each sector type.</p>
+    <hr>
+    <h2>CFBF header format</h2>
+    <p>The CFBF header occupies the first 512 bytes of the file and information required to interpret the rest of the file. The C-style structure declaration below (extracted from the AAFA&#x27;s Low-Level Container Specification) shows the members of the CFBF header and their purpose: The first 4 bytes of the signature ( 0xD0CF11E0 ) visually resemble the letters &quot;DOCFILE&quot;.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Dalene_Matthee.html">Dalene Matthee</a></li>
+      <li><a href="Ezra_Sims.html">Ezra Sims</a></li>
+      <li><a href="Tanya_Tagaq.html">Tanya Tagaq</a></li>
+      <li><a href="Lambert_quadrilateral.html">Lambert quadrilateral</a></li>
+      <li><a href="Augustus_B_Woodward.html">Augustus B. Woodward</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Compound_File_Binary_Format">Wikimedia article</a></small></p>
+    <p><i>Last edited: November 10, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

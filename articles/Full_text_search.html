@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Full-text search - Wiki2</title>
+  <meta name="description" content="In text retrieval, full-text search refers to a set of techniques for searching a single computer-stored document or a collection in a full-text database. Full-text search is distinguished from searches based on metadata or on specific part">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Full_text_search.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Full-text search - Wiki2">
+  <meta property="og:description" content="In text retrieval, full-text search refers to a set of techniques for searching a single computer-stored document or a collection in a full-text database. Full-text search is distinguished from searches based on metadata or on specific part">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Full_text_search.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/3/39/Full-text-search-results.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Full-text search - Wiki2">
+  <meta name="twitter:description" content="In text retrieval, full-text search refers to a set of techniques for searching a single computer-stored document or a collection in a full-text database. Full-text search is distinguished from searches based on metadata or on specific part">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/3/39/Full-text-search-results.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Full-text search</h1>
+    <p><b>Full-text search</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In text retrieval, full-text search refers to a set of techniques for searching a single computer-stored document or a collection in a full-text database. Full-text search is distinguished from searches based on metadata or on specific parts of documents, such as titles, abstracts, selected sections, or bibliographical references.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Full-text-search-results.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Full-text-search-results.png"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In text retrieval , full-text search refers to a set of techniques for searching a single computer -stored document or a collection in a full-text database . Full-text search is distinguished from searches based on metadata or on specific parts of documents, such as titles, abstracts, selected sections, or bibliographical references. In a full-text search, a search engine examines the words in stored documents to find matches for user queries. Full-text-search techniques began to appear in the 1960s (for example, IBM STAIRS in 1969), and became common in online bibliographic databases during the 1990s. Many websites and application programs, including word processors , implement full-text search functionality. Some web search engines, such as the former AltaVista , indexed the full text of web pages, while others indexed only selected portions of pages.</p>
+    <hr>
+    <h2>Indexing</h2>
+    <p>When dealing with a small number of documents, a full-text-search engine can scan the contents of each document directly for every query , a strategy known as &quot; serial scanning .&quot; Some tools, such as grep , operate in this way. When the number of documents or queries is large, full-text search is typically divided into two tasks: indexing and searching. During indexing, the engine scans all documents and builds a list of search terms, often called an index , or more precisely, a concordance . During the search stage, queries are performed against the index rather than the original documents. The indexer records each term found in a document and may note its position within the text. Common words, known as stop words (for instance, &quot;the&quot; or &quot;and&quot;), are omitted because they add little value to search results. Some indexers also perform stemming , which reduces words to their base form; for example, &quot;drives&quot;, &quot;drove&quot;, and &quot;driven&quot; may all be indexed under the concept word &quot;drive.&quot;</p>
+    <hr>
+    <h2>The precision vs. recall tradeoff</h2>
+    <p>Precision and recall are standard measures for search effectiveness. Recall quantifies the proportion of relevant results returned by a search, while precision measures the proportion of returned results that are relevant. Formally, recall is the ratio of relevant results returned to the total number of relevant results available, and precision is the ratio of the number of relevant results returned to the total number of results returned. The diagram at the right illustrates a search with low recall and low precision. In the diagram, red and green dots represent the total population of potential search results for a given query, with green dots indicating relevant results and red indicating irrelevant results. Relevance is indicated by proximity to the center of the inner circle. The results actually returned by the search are highlighted on a light-blue background. In the example, only one relevant result of three possible relevant results was returned, giving a recall of ⅓ (33%). The precision is 1/4 (25%), since only one of the four results returned was relevant. Due to the ambiguities of natural language , full-text-search systems typically include features such as filtering to increase precision and stemming to increase recall. Controlled-vocabulary search can also help alleviate low-precision results by tagging documents to reduce ambiguity. There is generally a trade-of</p>
+    <hr>
+    <h2>False-positive problem</h2>
+    <p>Full-text search can retrieve many documents that are not relevant to the intended query. Such documents are called false positives (see Type I error ). The retrieval of irrelevant documents is often caused by the inherent ambiguity of natural language . In the accompanying diagram, false positives are represented by irrelevant results (red dots) that were returned by the search (highlighted on a light-blue background). Clustering techniques, often based on Bayesian algorithms, can help reduce false positives. For example, for a search term such as &quot;bank&quot;, clustering can categorize documents into groups such as &quot;financial institution&quot;, &quot;place to sit&quot;, or &quot;place to store.&quot; Depending on the occurrence of words relevant to these categories, a search term or a search result can be assigned to one or more categories. This approach is widely used in the e-discovery domain.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Ji_Paran_Futebol_Clube.html">Ji-Paraná Futebol Clube</a></li>
+      <li><a href="453d_Electronic_Warfare_Squadron.html">453d Electronic Warfare Squadron</a></li>
+      <li><a href="After_Office_Hours.html">After Office Hours</a></li>
+      <li><a href="Ludmila_of_Bohemia.html">Ludmila of Bohemia</a></li>
+      <li><a href="Marshall_County_West_Virginia.html">Marshall County, West Virginia</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Full-text_search">Wikimedia article</a></small></p>
+    <p><i>Last edited: November 10, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

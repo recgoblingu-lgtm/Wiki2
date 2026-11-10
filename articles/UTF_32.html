@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UTF-32 - Wiki2</title>
+  <meta name="description" content="UTF-32 (32-bit Unicode Transformation Format), sometimes called UCS-4, is a fixed-length encoding used to encode Unicode code points that uses exactly 32 bits (four bytes) per code point (but a number of leading bits must be zero as there a">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/UTF_32.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="UTF-32 - Wiki2">
+  <meta property="og:description" content="UTF-32 (32-bit Unicode Transformation Format), sometimes called UCS-4, is a fixed-length encoding used to encode Unicode code points that uses exactly 32 bits (four bytes) per code point (but a number of leading bits must be zero as there a">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/UTF_32.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="UTF-32 - Wiki2">
+  <meta name="twitter:description" content="UTF-32 (32-bit Unicode Transformation Format), sometimes called UCS-4, is a fixed-length encoding used to encode Unicode code points that uses exactly 32 bits (four bytes) per code point (but a number of leading bits must be zero as there a">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>UTF-32</h1>
+    <p><b>UTF-32</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>UTF-32 (32-bit Unicode Transformation Format), sometimes called UCS-4, is a fixed-length encoding used to encode Unicode code points that uses exactly 32 bits (four bytes) per code point (but a number of leading bits must be zero as there are far fewer than 232 Unicode code points, actually needing only 21 bits). In contrast, all other Unicode transformation formats are variable-length encodings. Each 32-bit value in UTF-32 represents one Unicode code point and is exactly equal to that code point&#x27;s numerical value.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>UTF-32 (32- bit Unicode Transformation Format ), sometimes called UCS-4, is a fixed-length encoding used to encode Unicode code points that uses exactly 32 bits (four bytes ) per code point (but a number of leading bits must be zero as there are far fewer than 2 Unicode code points, actually needing only 21 bits). In contrast, all other Unicode transformation formats are variable-length encodings. Each 32-bit value in UTF-32 represents one Unicode code point and is exactly equal to that code point&#x27;s numerical value. The main advantage of UTF-32 is that the Unicode code points are directly indexed. Finding the Nth code point in a sequence of code points is a constant-time operation. In contrast, a variable-length code requires linear-time to count N code points from the start of the string. This makes UTF-32 a simple replacement in code that uses integers that are incremented by one to examine each location in a string , as was commonly done for ASCII . Novice programmers often vastly overestimate how useful this is. The main disadvantage of UTF-32 is that it is space-inefficient, using four bytes per code point, including 11 bits that are always zero. Characters beyond the BMP are relatively rare in most texts (except, for example, in the case of texts with some popular emojis), and can typically be ignored for sizing estimates. This makes UTF-32 close to twice the size of UTF-</p>
+    <hr>
+    <h2>History</h2>
+    <p>The original ISO/IEC 10646 standard defines a 32-bit encoding form called UCS-4 , in which each code point in the Universal Character Set (UCS) is represented by a 31-bit value from 0 to 0x7FFFFFFF (the sign bit was unused and zero). In November 2003, Unicode was restricted by RFC 3629 to match the constraints of the UTF-16 encoding: explicitly prohibiting code points greater than U+10FFFF (and also the high and low surrogates U+D800 through U+DFFF). This limited subset defines UTF-32. Although the ISO standard had (as of 1998 in Unicode 2.1) &quot;reserved for private use&quot; 0xE00000 to 0xFFFFFF, and 0x60000000 to 0x7FFFFFFF these areas were removed in later versions. Because the Principles and Procedures document of ISO/IEC JTC 1/SC 2 Working Group 2 states that all future assignments of code points will be constrained to the Unicode range, UTF-32 will be able to represent all UCS code points and UTF-32 and UCS-4 are identical.</p>
+    <hr>
+    <h2>Utility of fixed width</h2>
+    <p>A fixed number of bytes per code point has theoretical advantages, but each of these has problems in reality:</p>
+    <hr>
+    <h2>Use</h2>
+    <p>The main use of UTF-32 is in internal APIs where the data is single code points or glyphs , rather than strings of characters. For instance, in modern text rendering, it is common that the last step is to build a list of structures each containing coordinates (x, y) , attributes, and a single UTF-32 code point identifying the glyph to draw. Often non-Unicode information is stored in the &quot;unused&quot; 11 bits of each word. Use of UTF-32 strings on Windows (where wchar_t is 16 bits) is almost non-existent. On Unix systems, UTF-32 strings are sometimes, but rarely, used internally by applications, due to the type wchar_t being defined as 32-bit. UTF-32 is also forbidden as an HTML character encoding.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Holodiscus.html">Holodiscus</a></li>
+      <li><a href="Susan_Stamberg.html">Susan Stamberg</a></li>
+      <li><a href="Northwest_Angle.html">Northwest Angle</a></li>
+      <li><a href="William_Norman_VC.html">William Norman (VC)</a></li>
+      <li><a href="Oxycodone.html">Oxycodone</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/UTF-32">Wikimedia article</a></small></p>
+    <p><i>Last edited: November 10, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
