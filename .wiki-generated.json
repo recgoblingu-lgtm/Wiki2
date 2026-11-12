@@ -191410,13 +191410,20 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Redange-sur-Attert",
       "generated_at": "2026-11-11T02:03:20+00:00"
+    },
+    {
+      "title": "Roku",
+      "filename": "Roku.html",
+      "category": "Streaming services",
+      "source": "https://en.wikipedia.org/wiki/Roku",
+      "generated_at": "2026-11-12T04:00:23+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|504c4644040992543a30324604362a42320994011501dc14|950696",
-    "Category:Indie games": "page|44460446443204403a54324e04524430324c0450383204403a3638503846524e32012501dcc4dcc3dcc1dcbddc0d|74340552",
-    "Category:Video game franchises": "page|34050e0f0304364c2a443004484c3a58040992543a30324604362a4232044e324c3a324e099401250501dcc3dcc1dc1b|27378181",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
+    "Category:Arcade video games": "page|563a40300456324e50042e0846085608050e2c465a4e044634044246460442324e2a040992543a30324604362a4232099401251101e0c2e0c2dcc5dcc5e0c4dcbfdcc3dc14|78101864",
+    "Category:Indie games": "page|4654324c364c46565038040992543a30324604362a42320994011b01dc1a|17825764",
+    "Category:Video game franchises": "page|3a2e32563a443004302a40320409924e324c3a324e0994011901dcbfdc10|3440294",
+    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474",
+    "Category:Horror video games": "page|4246444e50324c044e422a4e38011101dcbfdc08|66732713"
   }
 }
