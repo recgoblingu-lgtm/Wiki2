@@ -191431,13 +191431,24 @@
       "category": "Indie games",
       "source": "https://en.wikipedia.org/wiki/Probably_Stolen",
       "generated_at": "2026-11-13T15:44:22+00:00"
+    },
+    {
+      "title": "Sea of Sorrow (Silksong expansion)",
+      "filename": "Sea_of_Sorrow_Silksong_expansion.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Sea_of_Sorrow_(Silksong_expansion)",
+      "generated_at": "2026-11-14T19:44:48+00:00"
+    },
+    {
+      "title": "Let's roll",
+      "filename": "Let_s_roll.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Let's_roll",
+      "generated_at": "2026-11-14T19:45:35+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|4c3a46500736042e3a543a400452444c324e50011601dcc1dcc1dc09|42375202",
-    "Category:Video game franchises": "page|48402a4432504e3a3032010e01dcc1dc07|72838664",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Arcade video games": "page|2a4c422a303a404046044c2a2e3a4436011401dcbddc09|84096715"
+    "Category:Indie games": "page|4e503a404044324e4e0446340450383204563a443006045038320306503832044e503a404044324e4e0446340450383204563a443001251701dcb6e0c1dcc3dcc3dcb6e007|68235843",
+    "Category:Arcade video games": "page|2c32362a096e4e042c2a50504032011101dcc0dc09|20027149"
   }
 }
