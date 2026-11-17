@@ -191452,15 +191452,19 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Jean_Froissart",
       "generated_at": "2026-11-15T02:54:43+00:00"
+    },
+    {
+      "title": "The Outbound Ghost",
+      "filename": "The_Outbound_Ghost.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/The_Outbound_Ghost",
+      "generated_at": "2026-11-17T01:10:06+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|50324e402a364c2a30010d01dc0c|41366103",
-    "Category:Arcade video games": "page|2e2a403a34464c443a2a044e48323230040992543a30324604362a42320994012101dcbcdc15|6200156",
-    "Category:Video game franchises": "page|2e4642482a503a0438324c46011001dcbfdc07|32470667",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
-    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474",
+    "Category:Indie games": "page|5632043e44465604503832043032543a40011501e0c4dcbedc08|54340261",
+    "Category:Arcade video games": "page|2e4c464e4e2c4656040992543a30324604362a42320994011901dc18|1433792",
+    "Category:Video game franchises": "page|34050e0f0304364c2a443004484c3a58040992543a30324604362a4232044e324c3a324e099401250501dcc3dcc1dc1b|27378181",
     "Category:Horror video games": "page|4246444e50324c044e422a4e38011101dcbfdc08|66732713"
   }
 }
