@@ -191459,12 +191459,28 @@
       "category": "Indie games",
       "source": "https://en.wikipedia.org/wiki/The_Outbound_Ghost",
       "generated_at": "2026-11-17T01:10:06+00:00"
+    },
+    {
+      "title": "WendyQuest",
+      "filename": "WendyQuest.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/WendyQuest",
+      "generated_at": "2026-11-17T09:11:32+00:00"
+    },
+    {
+      "title": "Ill (video game)",
+      "filename": "Ill_video_game.html",
+      "category": "Horror games",
+      "source": "https://en.wikipedia.org/wiki/Ill_(video_game)",
+      "generated_at": "2026-11-17T09:11:54+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|5632043e44465604503832043032543a40011501e0c4dcbedc08|54340261",
-    "Category:Arcade video games": "page|2e4c464e4e2c4656040992543a30324604362a42320994011901dc18|1433792",
+    "Category:Indie games": "subcat|0430325432404648324c4e03063a44303a3204362a42320430325432404648324c4e012501c5dcbcdc18|38738978",
+    "Category:Arcade video games": "page|303a4c5004302a4e380306303a4c5004302a4e38011701dcc2dcc2dcc2dc07|58286865",
     "Category:Video game franchises": "page|34050e0f0304364c2a443004484c3a58040992543a30324604362a4232044e324c3a324e099401250501dcc3dcc1dc1b|27378181",
-    "Category:Horror video games": "page|4246444e50324c044e422a4e38011101dcbfdc08|66732713"
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
+    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
+    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474"
   }
 }
