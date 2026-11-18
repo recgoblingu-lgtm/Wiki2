@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simultaneous multithreading - Wiki2</title>
+  <meta name="description" content="Simultaneous multithreading (SMT) is a technique for improving the overall efficiency of superscalar CPUs with hardware multithreading. SMT permits multiple independent threads of execution to better use the resources provided by modern pro">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Simultaneous_multithreading.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Simultaneous multithreading - Wiki2">
+  <meta property="og:description" content="Simultaneous multithreading (SMT) is a technique for improving the overall efficiency of superscalar CPUs with hardware multithreading. SMT permits multiple independent threads of execution to better use the resources provided by modern pro">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Simultaneous_multithreading.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Simultaneous multithreading - Wiki2">
+  <meta name="twitter:description" content="Simultaneous multithreading (SMT) is a technique for improving the overall efficiency of superscalar CPUs with hardware multithreading. SMT permits multiple independent threads of execution to better use the resources provided by modern pro">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Simultaneous multithreading</h1>
+    <p><b>Simultaneous multithreading</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>Simultaneous multithreading (SMT) is a technique for improving the overall efficiency of superscalar CPUs with hardware multithreading. SMT permits multiple independent threads of execution to better use the resources provided by modern processor architectures.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>Simultaneous multithreading ( SMT ) is a technique for improving the overall efficiency of superscalar CPUs with hardware multithreading . SMT permits multiple independent threads of execution to better use the resources provided by modern processor architectures .</p>
+    <hr>
+    <h2>Details</h2>
+    <p>The term multithreading is ambiguous, because not only can multiple threads be executed simultaneously on one CPU core, but also multiple tasks (with different page tables , different task state segments , different protection rings , different I/O permissions , etc.). Although running on the same core, they are completely separated from each other. Multithreading is similar in concept to preemptive multitasking but is implemented at the thread level of execution in modern superscalar processors. Simultaneous multithreading (SMT) is one of the two main implementations of multithreading, the other form being temporal multithreading (also known as super-threading). In temporal multithreading, only one thread of instructions can execute in any given pipeline stage at a time. In simultaneous multithreading, instructions from more than one thread can be executed in any given pipeline stage at a time. This is done without great changes to the basic processor architecture: the main additions needed are the ability to fetch instructions from multiple threads in a cycle, and a larger register file to hold data from multiple threads. The number of concurrent threads is decided by the chip designers. Two concurrent threads per CPU core are common, but some processors support many more. Because it inevitably increases conflict on shared resources, measuring or agreeing on its effectiveness</p>
+    <hr>
+    <h2>Taxonomy</h2>
+    <p>In processor design, there are two ways to increase on-chip parallelism with fewer resource requirements: one is superscalar technique which tries to exploit instruction-level parallelism (ILP); the other is multithreading approach exploiting thread-level parallelism (TLP). Superscalar means executing multiple instructions at the same time while thread-level parallelism (TLP) executes instructions from multiple threads within one processor chip at the same time. There are many ways to support more than one thread within a chip, namely: The key factor to distinguish them is to look at how many instructions the processor can issue in one cycle and how many threads from which the instructions come. For example, Sun Microsystems&#x27; UltraSPARC T1 is a multicore processor combined with fine-grain multithreading technique instead of simultaneous multithreading because each core can only issue one instruction at a time.</p>
+    <hr>
+    <h2>Historical implementations</h2>
+    <p>While multithreading CPUs have been around since the 1950s, simultaneous multithreading was first researched by IBM in 1968 as part of the ACS-360 project. The first major commercial microprocessor developed with SMT was the Alpha 21464 (EV8). This microprocessor was developed by DEC in coordination with Dean Tullsen of the University of California, San Diego, and Susan Eggers and Henry Levy of the University of Washington. The microprocessor was never released, since the Alpha line of microprocessors was discontinued shortly before HP acquired Compaq which had in turn acquired DEC . Dean Tullsen&#x27;s work was also used to develop the hyper-threaded versions of the Intel Pentium 4 microprocessors, such as the &quot;Northwood&quot; and &quot;Prescott&quot;.</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Pilonidal_disease.html">Pilonidal disease</a></li>
+      <li><a href="Boonville_Missouri.html">Boonville, Missouri</a></li>
+      <li><a href="Treaty_of_Jassy.html">Treaty of Jassy</a></li>
+      <li><a href="4C_Array.html">4C Array</a></li>
+      <li><a href="Scottish_Newcastle.html">Scottish &amp; Newcastle</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Simultaneous_multithreading">Wikimedia article</a></small></p>
+    <p><i>Last edited: November 18, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
