@@ -1,64 +1,65 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Traceroute - Wiki2</title>
-  <meta name="description" content="In computing, traceroute and tracert are diagnostic command-line interface commands for displaying possible routes (paths) and transit delays of packets across an Internet Protocol (IP) network.">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Traceroute.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Traceroute - Wiki2">
-  <meta property="og:description" content="In computing, traceroute and tracert are diagnostic command-line interface commands for displaying possible routes (paths) and transit delays of packets across an Internet Protocol (IP) network.">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Traceroute.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/6/66/Traceroute.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Traceroute - Wiki2">
-  <meta name="twitter:description" content="In computing, traceroute and tracert are diagnostic command-line interface commands for displaying possible routes (paths) and transit delays of packets across an Internet Protocol (IP) network.">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/6/66/Traceroute.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Traceroute - Wiki2</title>
+<meta content="In computing, traceroute and tracert are diagnostic command-line interface commands for displaying possible routes (paths) and transit delays of packets across an Internet Protocol (IP) network." name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Traceroute.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Traceroute" property="og:title"/>
+<meta content="Traceroute is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Traceroute.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/6/66/Traceroute.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Traceroute" name="twitter:title"/>
+<meta content="Traceroute is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/6/66/Traceroute.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Traceroute</h1>
-    <p><b>Traceroute</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In computing, traceroute and tracert are diagnostic command-line interface commands for displaying possible routes (paths) and transit delays of packets across an Internet Protocol (IP) network.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Traceroute.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="Traceroute.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Visual_traceroute.png/960px-Visual_traceroute.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Visual traceroute.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>In computing , traceroute and tracert are diagnostic command-line interface commands for displaying possible routes (paths) and transit delays of packets across an Internet Protocol (IP) network . The ping utility only computes the final round-trip times from the destination point, while route-tracing utilities can show more detail, such as the round-trip times of the packets received from each successive host (remote node) along the route to a destination and the sum of the mean times in each hop as a measure of the total time spent to establish the connection. For Internet Protocol Version 6 (IPv6), the tool sometimes has the name traceroute6 and tracert6 .</p>
-    <hr>
-    <h2>Implementations</h2>
-    <p>A command is available in many modern operating systems , generally named traceroute in Unix-like systems such as FreeBSD , macOS , and Linux and named tracert in Windows and ReactOS . On Linux, tracepath is a utility similar to traceroute, with the primary difference of not requiring superuser privileges. Tracepath is part of the iputils group that contains the package ping . The functionality was available graphically in macOS, but has been deprecated since the release of macOS Big Sur . Windows NT -based operating systems also provide PathPing , which combines the functionality of ping with that of tracert. On Unix-like operating systems, traceroute sends, by default, a sequence of User Datagram Protocol (UDP) packets, with destination port numbers ranging from 33434 to 33534; the implementations of traceroute shipped with Linux , FreeBSD , NetBSD , OpenBSD , DragonFly BSD , and macOS include an option to use ICMP Echo Request packets ( -I ), or any arbitrary protocol ( -P ) such as UDP, TCP using TCP SYN packets, or ICMP. On Windows, tracert sends ICMP Echo Request packets, rather than the UDP packets traceroute sends by default. The time-to-live (TTL) value, also known as hop limit , is used in determining the intermediate routers being traversed towards the destination. Traceroute sends packets with TTL values that gradually increase from packet to packet, starting with T</p>
-    <hr>
-    <h2>Usage</h2>
-    <p>Most implementations include options to specify the number of queries to send per hop, time to wait for a response, the hop limit and port to use. Invoking traceroute with no options displays the list of available options For Linux, man traceroute presents more details, including the displayed error flags. The selected arguments to the traceroute command are: — with example.com as the final host. On line 8 and 9 (TTLs 8 and 9) it shows asterisks where the router did not respond within the timeout.</p>
-    <hr>
-    <h2>Value</h2>
-    <p>Traceroute can help identify incorrect routing table definitions or firewalls that may be blocking ICMP traffic, or high port UDP in Unix ping, to a site. A correct traceroute response does not guarantee connectivity for applications as a firewall may permit ICMP packets but not permit packets of other protocols. Traceroute is used by penetration testers to gather information about network infrastructure and IP address ranges around a given host. Traceroute can be used to optimize data download. If there are multiple mirrors available for the same resource, each mirror can be traced to find the fastest.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Khmer_script.html">Khmer script</a></li>
-      <li><a href="Liaodong_Peninsula.html">Liaodong Peninsula</a></li>
-      <li><a href="Reinventing_the_wheel.html">Reinventing the wheel</a></li>
-      <li><a href="Mount_Dale.html">Mount Dale</a></li>
-      <li><a href="2006_Kiholo_Bay_earthquake.html">2006 Kiholo Bay earthquake</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Traceroute">Wikimedia article</a></small></p>
-    <p><i>Last edited: November 18, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Traceroute</h1>
+<p><b>Traceroute</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In computing, traceroute and tracert are diagnostic command-line interface commands for displaying possible routes (paths) and transit delays of packets across an Internet Protocol (IP) network.</p>
+<figure class="article-image"><img alt="Traceroute.png" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Traceroute.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="Visual traceroute.png" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Visual_traceroute.png/960px-Visual_traceroute.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>In computing , traceroute and tracert are diagnostic command-line interface commands for displaying possible routes (paths) and transit delays of packets across an Internet Protocol (IP) network . The ping utility only computes the final round-trip times from the destination point, while route-tracing utilities can show more detail, such as the round-trip times of the packets received from each successive host (remote node) along the route to a destination and the sum of the mean times in each hop as a measure of the total time spent to establish the connection. For Internet Protocol Version 6 (IPv6), the tool sometimes has the name traceroute6 and tracert6 .</p>
+<hr/>
+<h2>Implementations</h2>
+<p>A command is available in many modern operating systems , generally named traceroute in Unix-like systems such as FreeBSD , macOS , and Linux and named tracert in Windows and ReactOS . On Linux, tracepath is a utility similar to traceroute, with the primary difference of not requiring superuser privileges. Tracepath is part of the iputils group that contains the package ping . The functionality was available graphically in macOS, but has been deprecated since the release of macOS Big Sur . Windows NT -based operating systems also provide PathPing , which combines the functionality of ping with that of tracert. On Unix-like operating systems, traceroute sends, by default, a sequence of User Datagram Protocol (UDP) packets, with destination port numbers ranging from 33434 to 33534; the implementations of traceroute shipped with Linux , FreeBSD , NetBSD , OpenBSD , DragonFly BSD , and macOS include an option to use ICMP Echo Request packets ( -I ), or any arbitrary protocol ( -P ) such as UDP, TCP using TCP SYN packets, or ICMP. On Windows, tracert sends ICMP Echo Request packets, rather than the UDP packets traceroute sends by default. The time-to-live (TTL) value, also known as hop limit , is used in determining the intermediate routers being traversed towards the destination. Traceroute sends packets with TTL values that gradually increase from packet to packet, starting with T</p>
+<hr/>
+<h2>Usage</h2>
+<p>Most implementations include options to specify the number of queries to send per hop, time to wait for a response, the hop limit and port to use. Invoking traceroute with no options displays the list of available options For Linux, man traceroute presents more details, including the displayed error flags. The selected arguments to the traceroute command are: — with example.com as the final host. On line 8 and 9 (TTLs 8 and 9) it shows asterisks where the router did not respond within the timeout.</p>
+<hr/>
+<h2>Value</h2>
+<p>Traceroute can help identify incorrect routing table definitions or firewalls that may be blocking ICMP traffic, or high port UDP in Unix ping, to a site. A correct traceroute response does not guarantee connectivity for applications as a firewall may permit ICMP packets but not permit packets of other protocols. Traceroute is used by penetration testers to gather information about network infrastructure and IP address ranges around a given host. Traceroute can be used to optimize data download. If there are multiple mirrors available for the same resource, each mirror can be traced to find the fastest.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Khmer_script.html">Khmer script</a></li>
+<li><a href="Liaodong_Peninsula.html">Liaodong Peninsula</a></li>
+<li><a href="Reinventing_the_wheel.html">Reinventing the wheel</a></li>
+<li><a href="Mount_Dale.html">Mount Dale</a></li>
+<li><a href="2006_Kiholo_Bay_earthquake.html">2006 Kiholo Bay earthquake</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Traceroute">Wikimedia article</a></small></p>
+<p><i>Last edited: November 18, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

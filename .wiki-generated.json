@@ -194973,14 +194973,19 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Jacob_Rogers",
       "generated_at": "2026-11-18T12:25:52+00:00"
+    },
+    {
+      "title": "Neodymium",
+      "filename": "Neodymium.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Neodymium",
+      "generated_at": "2026-11-18T23:31:24+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|563a403004365244422a44010f01e0c2dc09|1089349",
-    "Category:Indie games": "page|3a5004502a3e324e04505646040992543a30324604362a42320994011d01dcc4dcc1dc13|64315976",
-    "Category:Video game franchises": "page|422a4c54324004544e08042e2a482e4642011501dcbcdc09|446464",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
+    "Category:Indie games": "page|402a4e500438324c460446340444464e502a40362a3a2a0604503832030650383204402a4e500438324c460446340444464e502a40362a3a2a01251b01dcc2dcbfdcbbdcc3dcc3dcc2dcbfdc0d|75348925",
+    "Category:Video game franchises": "page|48402a4432504e3a3032010e01dcc1dc07|72838664",
     "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
-    "Category:Horror video games": "page|4246444e50324c044e422a4e38011101dcbfdc08|66732713"
+    "Category:Arcade video games": "page|2a4c422a303a404046044c2a2e3a4436011401dcbddc09|84096715"
   }
 }
