@@ -194980,12 +194980,19 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Neodymium",
       "generated_at": "2026-11-18T23:31:24+00:00"
+    },
+    {
+      "title": "Lorn's Lure",
+      "filename": "Lorn_s_Lure.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/Lorn's_Lure",
+      "generated_at": "2026-11-20T02:41:20+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|402a4e500438324c460446340444464e502a40362a3a2a0604503832030650383204402a4e500438324c460446340444464e502a40362a3a2a01251b01dcc2dcbfdcbbdcc3dcc3dcc2dcbfdc0d|75348925",
-    "Category:Video game franchises": "page|48402a4432504e3a3032010e01dcc1dc07|72838664",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
-    "Category:Arcade video games": "page|2a4c422a303a404046044c2a2e3a4436011401dcbddc09|84096715"
+    "Category:Indie games": "page|422a363a2e042e3a4c2e40320604503832040992543a30324604362a42320994030650383204422a363a2e042e3a4c2e4032040992543a30324604362a4232099401251f01dcc1dcbfdcb6dcc3dcc1dc16|45638134",
+    "Category:Video game franchises": "page|4e4832404034464c2e32010e01dcc2dc08|46894073",
+    "Category:Arcade video games": "page|2e2a403a34464c443a2a044e48323230040992543a30324604362a42320994012101dcbcdc15|6200156",
+    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
   }
 }
