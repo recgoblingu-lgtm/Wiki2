@@ -194987,12 +194987,26 @@
       "category": "Indie games",
       "source": "https://en.wikipedia.org/wiki/Lorn's_Lure",
       "generated_at": "2026-11-20T02:41:20+00:00"
+    },
+    {
+      "title": "Eichenwalde",
+      "filename": "Eichenwalde.html",
+      "category": "Esports titles",
+      "source": "https://en.wikipedia.org/wiki/Eichenwalde",
+      "generated_at": "2026-11-20T10:29:46+00:00"
+    },
+    {
+      "title": "Jester",
+      "filename": "Jester.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Jester",
+      "generated_at": "2026-11-20T10:30:18+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|422a363a2e042e3a4c2e40320604503832040992543a30324604362a42320994030650383204422a363a2e042e3a4c2e4032040992543a30324604362a4232099401251f01dcc1dcbfdcb6dcc3dcc1dc16|45638134",
-    "Category:Video game franchises": "page|4e4832404034464c2e32010e01dcc2dc08|46894073",
-    "Category:Arcade video games": "page|2e2a403a34464c443a2a044e48323230040992543a30324604362a42320994012101dcbcdc15|6200156",
+    "Category:Indie games": "page|4246443046044232303a2e2a404e011201dcc1dc0b|41553536",
+    "Category:Arcade video games": "page|2e4c464e4e2c4656040992543a30324604362a42320994011901dc18|1433792",
+    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
     "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
   }
 }
