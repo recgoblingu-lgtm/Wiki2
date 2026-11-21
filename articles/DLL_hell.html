@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DLL hell - Wiki2</title>
+  <meta name="description" content="DLL hell is an umbrella term for the complications that arise when one works with dynamic-link libraries (DLLs) used with older Microsoft Windows operating systems, particularly legacy 16-bit editions, which all run in a single memory space">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/DLL_hell.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="DLL hell - Wiki2">
+  <meta property="og:description" content="DLL hell is an umbrella term for the complications that arise when one works with dynamic-link libraries (DLLs) used with older Microsoft Windows operating systems, particularly legacy 16-bit editions, which all run in a single memory space">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/DLL_hell.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="DLL hell - Wiki2">
+  <meta name="twitter:description" content="DLL hell is an umbrella term for the complications that arise when one works with dynamic-link libraries (DLLs) used with older Microsoft Windows operating systems, particularly legacy 16-bit editions, which all run in a single memory space">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>DLL hell</h1>
+    <p><b>DLL hell</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>DLL hell is an umbrella term for the complications that arise when one works with dynamic-link libraries (DLLs) used with older Microsoft Windows operating systems, particularly legacy 16-bit editions, which all run in a single memory space. DLL hell can appear in many different ways, wherein affected programs may fail to run correctly, if at all. It is the Windows ecosystem-specific form of the general concept dependency hell.</p>
+
+    <hr>
+    <h2>Background</h2>
+    <p>DLL hell is an umbrella term for the complications that arise when one works with dynamic-link libraries (DLLs) used with older Microsoft Windows operating systems , particularly legacy 16-bit editions , which all run in a single memory space. DLL hell can appear in many different ways, wherein affected programs may fail to run correctly, if at all. It is the Windows ecosystem-specific form of the general concept dependency hell .</p>
+    <hr>
+    <h2>Problems</h2>
+    <p>DLLs are Microsoft&#x27;s implementation of shared libraries . Shared libraries allow common code to be bundled into a wrapper, the DLL, which is used by any application software on the system without loading multiple copies into memory. A simple example might be the GUI text editor , which is widely used by many programs. By placing this code in a DLL, all the applications on the system can use it without using more memory. This contrasts with static libraries , which are functionally similar but copy the code directly into the application. In this case, every application grows by the size of all the libraries it uses, and this can be quite large for modern programs. The problem arises when the version of the DLL on the computer is different from the version that was used when the program was being created. DLLs have no built-in mechanism for backward compatibility , and even minor changes to the DLL can render its internal structure so different from previous versions that attempting to use them will generally cause the application to crash. Static libraries avoid this problem because the version that was used to build the application is included inside it, so even if a newer version exists elsewhere on the system, this does not affect the application. A key reason for the version incompatibility is the structure of the DLL file. The file contains a directory of the individual met</p>
+    <hr>
+    <h2>Incompatible versions</h2>
+    <p>A particular version of a library can be compatible with some programs that use it and incompatible with others. Windows has been particularly vulnerable to this because of its emphasis on dynamic linking of C++ libraries and Object Linking and Embedding (OLE) objects. C++ classes export many methods, and a single change to the class, such as a new virtual method, can make it incompatible with programs that were built against an earlier version. Object Linking and Embedding has very strict rules to prevent this: interfaces are required to be stable, and memory managers are not shared. This is insufficient, however, because the semantics of a class can change. A bug fix for one application may result in the removal of a feature from another. Before Windows 2000 , Windows was vulnerable to this because the COM class table was shared across all users and processes. Only one COM object in one DLL/EXE could be declared as having a specific global COM Class ID on a system. If any program needed to create an instance of that class, it got whatever was the current centrally registered implementation. As a result, an installation of a program that installed a new version of a common object might inadvertently break other programs that were previously installed.</p>
+    <hr>
+    <h2>DLL stomping</h2>
+    <p>A common and troublesome problem occurs when a newly installed program overwrites a working system DLL with an earlier, incompatible version. Early examples of this were the ctl3d.dll and ctl3dv2.dll libraries for Windows 3.1 : Microsoft-created libraries that third-party publishers would distribute with their software, but each distributing the version they developed with rather than the most recent version. DLL stomping occurs because:</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Ingram_Northumberland.html">Ingram, Northumberland</a></li>
+      <li><a href="Cowglen.html">Cowglen</a></li>
+      <li><a href="John_Forsyth_politician.html">John Forsyth (politician)</a></li>
+      <li><a href="Trix_company.html">Trix (company)</a></li>
+      <li><a href="Hernando_de_Soto_economist.html">Hernando de Soto (economist)</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/DLL_hell">Wikimedia article</a></small></p>
+    <p><i>Last edited: November 21, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>

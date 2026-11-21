@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sampling (signal processing) - Wiki2</title>
+  <meta name="description" content="In signal processing, sampling is the reduction of a continuous-time signal to a discrete-time signal. A common example is the conversion of a sound wave to a sequence of &quot;samples&quot;. A sample is a value of the signal at a point in time and/o">
+  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Sampling_signal_processing.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Wiki2">
+  <meta property="og:title" content="Sampling (signal processing) - Wiki2">
+  <meta property="og:description" content="In signal processing, sampling is the reduction of a continuous-time signal to a discrete-time signal. A common example is the conversion of a sound wave to a sequence of &quot;samples&quot;. A sample is a value of the signal at a point in time and/o">
+  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Sampling_signal_processing.html">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/c/c3/Signal_Sampling.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sampling (signal processing) - Wiki2">
+  <meta name="twitter:description" content="In signal processing, sampling is the reduction of a continuous-time signal to a discrete-time signal. A common example is the conversion of a sound wave to a sequence of &quot;samples&quot;. A sample is a value of the signal at a point in time and/o">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/c/c3/Signal_Sampling.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>Wiki2</h2>
+    <a href="../index.html">Main Page</a>
+    <a href="../article.html">Random Page</a>
+    <a href="../index.html#categories">Categories</a>
+    <hr>
+    <h3>WikiTube</h3>
+    <a href="../wiki2ube/">Video Index</a>
+  </div>
+  <div class="content">
+    <h1>Sampling (signal processing)</h1>
+    <p><b>Sampling (signal processing)</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+    <p>In signal processing, sampling is the reduction of a continuous-time signal to a discrete-time signal. A common example is the conversion of a sound wave to a sequence of &quot;samples&quot;. A sample is a value of the signal at a point in time and/or space. The original signal can be reconstructed from a sequence of samples, up to the Nyquist limit, by passing the sequence of samples through a reconstruction filter. A sampler is a subsystem or operation that extracts samples from a continuous signal. A theoretical ideal sampler produces samples equivalent to the instantaneous value of the continuous signal at the desired points.</p>
+    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Signal_Sampling.svg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="Sampling (signal processing)"><figcaption>Related Wikimedia image</figcaption></figure>
+    <hr>
+    <h2>Background</h2>
+    <p>In signal processing , sampling is the reduction of a continuous-time signal to a discrete-time signal . A common example is the conversion of a sound wave to a sequence of &quot;samples&quot;. A sample is a value of the signal at a point in time and/or space. The original signal can be reconstructed from a sequence of samples, up to the Nyquist limit , by passing the sequence of samples through a reconstruction filter . A sampler is a subsystem or operation that extracts samples from a continuous signal . A theoretical ideal sampler produces samples equivalent to the instantaneous value of the continuous signal at the desired points.</p>
+    <hr>
+    <h2>Theory</h2>
+    <p>Functions of space, time, or any other dimension can be sampled, and similarly in two or more dimensions. For functions that vary with time, let be a continuous function (or &quot;signal&quot;) to be sampled, and let sampling be performed by measuring the value of the continuous function every seconds, which is called the sampling interval or sampling period . Then the sampled function is given by the sequence: The sampling frequency or sampling rate , , is the average number of samples obtained in one second, thus , with the unit samples per second , sometimes referred to as hertz ; for example, 48 kHz is 48,000 samples per second . Reconstructing a continuous function from samples is done by interpolation algorithms. The Whittaker–Shannon interpolation formula is mathematically equivalent to an ideal low-pass filter whose input is a sequence of Dirac delta functions that are modulated (multiplied) by the sample values. When the time interval between adjacent samples is a constant , the sequence of delta functions is called a Dirac comb . Mathematically, the modulated Dirac comb is equivalent to the product of the comb function with . That mathematical abstraction is sometimes referred to as impulse sampling . Most sampled signals are not simply stored and reconstructed. The fidelity of a theoretical reconstruction is a common measure of the effectiveness of sampling. That fidelity is r</p>
+    <hr>
+    <h2>Practical considerations</h2>
+    <p>In practice, the continuous signal is sampled using an analog-to-digital converter (ADC), a device with various physical limitations. This results in deviations from the theoretically perfect reconstruction, collectively referred to as distortion . Various types of distortion can occur, including: Although the use of oversampling can completely eliminate aperture error and aliasing by shifting them out of the passband, this technique cannot be practically used above a few GHz, and may be prohibitively expensive at much lower frequencies. Furthermore, while oversampling can reduce quantization error and non-linearity, it cannot eliminate these entirely. Consequently, practical ADCs at audio frequencies typically do not exhibit aliasing or aperture error, and are not limited by quantization error. Instead, analog noise dominates. At RF and microwave frequencies, where oversampling is impractical and filters are expensive, aperture error, quantization error and aliasing can be significant limitations. Jitter, noise, and quantization are often analyzed by modeling them as random errors added to the sample values. Integration and zero-order hold effects can be analyzed as a form of low-pass filtering . The non-linearities of either ADC or DAC are analyzed by replacing the ideal linear function mapping with a proposed nonlinear function .</p>
+    <hr>
+    <h2>Audio sampling</h2>
+    <p>Digital audio systems typically employ pulse-code modulation (PCM) to encode sound as a series of discrete samples of the electrical level of an analog audio signal. Analog signals are captured (encoded) as PCM samples in analog-to-digital conversion (ADC), and reproduced (decoded) using digital-to-analog conversion (DAC). The encoding used for the storage and transmission of digitised sound data within the system may differ. When it is necessary to capture audio covering the entire 20–20,000 Hz range of human hearing such as when recording music or many types of acoustic events, audio waveforms are typically sampled at 44.1 kHz ( CD ), 48 kHz, 88.2 kHz, or 96 kHz. The approximately double-rate requirement is a consequence of the Nyquist theorem . Sampling rates higher than about 50 kHz to 60 kHz cannot supply more usable information for human listeners. Early professional audio equipment manufacturers chose sampling rates in the region of 40 to 50 kHz for this reason. There has been an industry trend towards sampling rates well beyond the basic requirements, such as 96 kHz and even 192 kHz. Even though ultrasonic frequencies are inaudible to humans, recording and mixing at higher sampling rates is effective in eliminating the distortion that can be caused by foldback aliasing . Conversely, ultrasonic sounds may interact with and modulate the audible part of the frequency spect</p>
+    <hr>
+    <h2>See also</h2>
+    <ul>
+      <li><a href="Diversified_financial.html">Diversified financial</a></li>
+      <li><a href="Ali_Daei.html">Ali Daei</a></li>
+      <li><a href="North_Londonderry_Township_Pennsylvania.html">North Londonderry Township, Pennsylvania</a></li>
+      <li><a href="Florian_Znaniecki.html">Florian Znaniecki</a></li>
+      <li><a href="Joan_of_Arc_1948_film.html">Joan of Arc (1948 film)</a></li>
+    </ul>
+    <hr>
+    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Sampling_(signal_processing)">Wikimedia article</a></small></p>
+    <p><i>Last edited: November 21, 2026</i></p>
+  </div>
+</div>
+</body>
+</html>
