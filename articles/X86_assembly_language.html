@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>X86 assembly language - Wiki2</title>
-  <meta name="description" content="x86 assembly language is a family of low-level programming languages that are used to produce object code for the x86 class of processors. Previous evolutions of this family of languages provide backward compatibility with CPUs dating back ">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/X86_assembly_language.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="X86 assembly language - Wiki2">
-  <meta property="og:description" content="x86 assembly language is a family of low-level programming languages that are used to produce object code for the x86 class of processors. Previous evolutions of this family of languages provide backward compatibility with CPUs dating back ">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/X86_assembly_language.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="X86 assembly language - Wiki2">
-  <meta name="twitter:description" content="x86 assembly language is a family of low-level programming languages that are used to produce object code for the x86 class of processors. Previous evolutions of this family of languages provide backward compatibility with CPUs dating back ">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>X86 assembly language - Wiki2</title>
+<meta content="x86 assembly language is a family of low-level programming languages that are used to produce object code for the x86 class of processors. Previous evolutions of this family of languages provide backward compatibility with CPUs dating back " name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/X86_assembly_language.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="X86 assembly language" property="og:title"/>
+<meta content="X86 assembly language is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/X86_assembly_language.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="X86 assembly language" name="twitter:title"/>
+<meta content="X86 assembly language is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>X86 assembly language</h1>
-    <p><b>X86 assembly language</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>x86 assembly language is a family of low-level programming languages that are used to produce object code for the x86 class of processors. Previous evolutions of this family of languages provide backward compatibility with CPUs dating back to the Intel 8008 microprocessor, introduced in April 1972. As assembly languages, they are closely tied to the architecture&#x27;s machine code instructions, allowing for precise control over hardware.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>x86 assembly language is a family of low-level programming languages that are used to produce object code for the x86 class of processors. Previous evolutions of this family of languages provide backward compatibility with CPUs dating back to the Intel 8008 microprocessor, introduced in April 1972. As assembly languages , they are closely tied to the architecture&#x27;s machine code instructions, allowing for precise control over hardware. In x86 assembly languages, mnemonics are used to represent fundamental CPU instructions, making the code more human-readable compared to raw machine code . Each machine code instruction is an opcode which, in assembly, is replaced with a mnemonic. Each mnemonic corresponds to a basic operation performed by the processor, such as arithmetic calculations, data movement, or control flow decisions. Assembly languages are most commonly used in applications where performance and efficiency are critical. This includes real-time embedded systems , operating-system kernels , and device drivers , all of which may require direct manipulation of hardware resources. Additionally, compilers for high-level programming languages sometimes generate assembly code as an intermediate step during the compilation process. This allows for optimization at the assembly level before producing the final machine code that the processor executes.</p>
-    <hr>
-    <h2>Mnemonics and opcodes</h2>
-    <p>Each instruction in the x86 assembly language is represented by a mnemonic which often combines with one or more operands to translate into one or more bytes known as an opcode . For example, the NOP instruction translates to the opcode 0x90, and the HLT instruction translates to 0xF4. There are potential opcodes without documented mnemonics, which different processors may interpret differently. Using such opcodes can cause a program to behave inconsistently or even generate exceptions on some processors.</p>
-    <hr>
-    <h2>Syntax</h2>
-    <p>x86 assembly language has two primary syntax branches: Intel syntax and AT&amp;T syntax . Intel syntax is dominant MS-DOS and Windows , while AT&amp;T syntax is dominant in Unix-like systems, as Unix was originally developed at AT&amp;T Bell Labs . Below is a summary of the main differences between Intel syntax and AT&amp;T syntax : Many x86 assemblers use Intel syntax , including FASM , MASM , NASM , TASM , and YASM . The GNU Assembler , which originally used AT&amp;T syntax , has supported both syntaxes since version 2.10 via the .intel_syntax directive. A quirk in the AT&amp;T syntax for x86 is that x87 floating-point operands are reversed, an inherited bug from the original AT&amp;T assembler. The AT&amp;T syntax is nearly universal across other architectures (retaining the same operand order for the mov instruction); it was originally designed for PDP-11 assembly and was inherited onto Unix-like systems. In contrast, the Intel syntax is specific to the x86 architecture and is the one used in the x86 platform&#x27;s official documentation. The Intel 8080 , which predates the x86 architecture, also uses the &quot;destination-first&quot; order for mov instruction.</p>
-    <hr>
-    <h2>Reserved words</h2>
-    <p>In most x86 assembly languages, the reserved words consist of two parts: mnemonics that translate to opcodes, and directives (or &quot;pseudo-ops&quot;) that access features in the assembler program beyond the simple translation of opcodes. For a list of the former part, see x86 instruction listings . The latter part is highly assembler-dependent, with no such thing as a standard among Intel-syntax assemblers. AT&amp;T-syntax assemblers share a common way of naming directives (all directives starts with a dot, like .ascii ), and a number of basic directives such as .ascii and .string are broadly supported.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Valdemorillo.html">Valdemorillo</a></li>
-      <li><a href="Black_People_s_Convention.html">Black People&#x27;s Convention</a></li>
-      <li><a href="Bovinae.html">Bovinae</a></li>
-      <li><a href="Icon_band.html">Icon (band)</a></li>
-      <li><a href="Hung_Shing_Temple.html">Hung Shing Temple</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/X86_assembly_language">Wikimedia article</a></small></p>
-    <p><i>Last edited: November 21, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>X86 assembly language</h1>
+<p><b>X86 assembly language</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>x86 assembly language is a family of low-level programming languages that are used to produce object code for the x86 class of processors. Previous evolutions of this family of languages provide backward compatibility with CPUs dating back to the Intel 8008 microprocessor, introduced in April 1972. As assembly languages, they are closely tied to the architecture's machine code instructions, allowing for precise control over hardware.</p>
+<hr/>
+<h2>Background</h2>
+<p>x86 assembly language is a family of low-level programming languages that are used to produce object code for the x86 class of processors. Previous evolutions of this family of languages provide backward compatibility with CPUs dating back to the Intel 8008 microprocessor, introduced in April 1972. As assembly languages , they are closely tied to the architecture's machine code instructions, allowing for precise control over hardware. In x86 assembly languages, mnemonics are used to represent fundamental CPU instructions, making the code more human-readable compared to raw machine code . Each machine code instruction is an opcode which, in assembly, is replaced with a mnemonic. Each mnemonic corresponds to a basic operation performed by the processor, such as arithmetic calculations, data movement, or control flow decisions. Assembly languages are most commonly used in applications where performance and efficiency are critical. This includes real-time embedded systems , operating-system kernels , and device drivers , all of which may require direct manipulation of hardware resources. Additionally, compilers for high-level programming languages sometimes generate assembly code as an intermediate step during the compilation process. This allows for optimization at the assembly level before producing the final machine code that the processor executes.</p>
+<hr/>
+<h2>Mnemonics and opcodes</h2>
+<p>Each instruction in the x86 assembly language is represented by a mnemonic which often combines with one or more operands to translate into one or more bytes known as an opcode . For example, the NOP instruction translates to the opcode 0x90, and the HLT instruction translates to 0xF4. There are potential opcodes without documented mnemonics, which different processors may interpret differently. Using such opcodes can cause a program to behave inconsistently or even generate exceptions on some processors.</p>
+<hr/>
+<h2>Syntax</h2>
+<p>x86 assembly language has two primary syntax branches: Intel syntax and AT&amp;T syntax . Intel syntax is dominant MS-DOS and Windows , while AT&amp;T syntax is dominant in Unix-like systems, as Unix was originally developed at AT&amp;T Bell Labs . Below is a summary of the main differences between Intel syntax and AT&amp;T syntax : Many x86 assemblers use Intel syntax , including FASM , MASM , NASM , TASM , and YASM . The GNU Assembler , which originally used AT&amp;T syntax , has supported both syntaxes since version 2.10 via the .intel_syntax directive. A quirk in the AT&amp;T syntax for x86 is that x87 floating-point operands are reversed, an inherited bug from the original AT&amp;T assembler. The AT&amp;T syntax is nearly universal across other architectures (retaining the same operand order for the mov instruction); it was originally designed for PDP-11 assembly and was inherited onto Unix-like systems. In contrast, the Intel syntax is specific to the x86 architecture and is the one used in the x86 platform's official documentation. The Intel 8080 , which predates the x86 architecture, also uses the "destination-first" order for mov instruction.</p>
+<hr/>
+<h2>Reserved words</h2>
+<p>In most x86 assembly languages, the reserved words consist of two parts: mnemonics that translate to opcodes, and directives (or "pseudo-ops") that access features in the assembler program beyond the simple translation of opcodes. For a list of the former part, see x86 instruction listings . The latter part is highly assembler-dependent, with no such thing as a standard among Intel-syntax assemblers. AT&amp;T-syntax assemblers share a common way of naming directives (all directives starts with a dot, like .ascii ), and a number of basic directives such as .ascii and .string are broadly supported.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Valdemorillo.html">Valdemorillo</a></li>
+<li><a href="Black_People_s_Convention.html">Black People's Convention</a></li>
+<li><a href="Bovinae.html">Bovinae</a></li>
+<li><a href="Icon_band.html">Icon (band)</a></li>
+<li><a href="Hung_Shing_Temple.html">Hung Shing Temple</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/X86_assembly_language">Wikimedia article</a></small></p>
+<p><i>Last edited: November 21, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

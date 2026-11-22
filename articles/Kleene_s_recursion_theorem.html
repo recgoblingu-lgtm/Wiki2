@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Kleene&#x27;s recursion theorem - Wiki2</title>
-  <meta name="description" content="In computability theory, Kleene&#x27;s recursion theorems are a pair of fundamental results about the application of computable functions to their own descriptions. The theorems were first proved by Stephen Kleene in 1938 and appear in his 1952 ">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Kleene_s_recursion_theorem.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Kleene&#x27;s recursion theorem - Wiki2">
-  <meta property="og:description" content="In computability theory, Kleene&#x27;s recursion theorems are a pair of fundamental results about the application of computable functions to their own descriptions. The theorems were first proved by Stephen Kleene in 1938 and appear in his 1952 ">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Kleene_s_recursion_theorem.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Kleene&#x27;s recursion theorem - Wiki2">
-  <meta name="twitter:description" content="In computability theory, Kleene&#x27;s recursion theorems are a pair of fundamental results about the application of computable functions to their own descriptions. The theorems were first proved by Stephen Kleene in 1938 and appear in his 1952 ">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Kleene's recursion theorem - Wiki2</title>
+<meta content="In computability theory, Kleene's recursion theorems are a pair of fundamental results about the application of computable functions to their own descriptions. The theorems were first proved by Stephen Kleene in 1938 and appear in his 1952 " name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Kleene_s_recursion_theorem.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Kleene's recursion theorem" property="og:title"/>
+<meta content="Kleene's recursion theorem is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Kleene_s_recursion_theorem.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Kleene's recursion theorem" name="twitter:title"/>
+<meta content="Kleene's recursion theorem is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Kleene&#x27;s recursion theorem</h1>
-    <p><b>Kleene&#x27;s recursion theorem</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In computability theory, Kleene&#x27;s recursion theorems are a pair of fundamental results about the application of computable functions to their own descriptions. The theorems were first proved by Stephen Kleene in 1938 and appear in his 1952 book Introduction to Metamathematics. A related theorem, which constructs fixed points of a computable function, is known as Rogers&#x27;s theorem and is due to Hartley Rogers, Jr.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In computability theory , Kleene&#x27;s recursion theorems are a pair of fundamental results about the application of computable functions to their own descriptions. The theorems were first proved by Stephen Kleene in 1938 and appear in his 1952 book Introduction to Metamathematics . A related theorem, which constructs fixed points of a computable function, is known as Rogers&#x27;s theorem and is due to Hartley Rogers, Jr. The recursion theorems can be applied to construct fixed points of certain operations on computable functions , to generate quines , and to construct functions defined via recursive definitions .</p>
-    <hr>
-    <h2>Notation</h2>
-    <p>The statement of the theorems refers to an admissible numbering of the partial recursive functions , such that the function corresponding to index is . If and are partial functions on the natural numbers, the notation indicates that, for each n , either and are both defined and are equal, or else and are both undefined.</p>
-    <hr>
-    <h2>Rogers&#x27;s fixed-point theorem</h2>
-    <p>Given a function on the natural numbers, a fixed point of is an index in the domain of such that . Note that the comparison of in- and outputs here is not in terms of numerical values, but in terms of their associated partial recursive functions. Rogers describes the following result as &quot;a simpler version&quot; of Kleene&#x27;s (second) recursion theorem. Rogers&#x27;s fixed-point theorem — If is a total computable function, it has a fixed point in the above sense. This essentially means that if we apply an effective transformation to programs (say, replace instructions such as successor, jump, remove lines), there will always be a program whose behaviour is not altered by the transformation. This theorem can therefore be interpreted in the following manner: “given any effective procedure to transform programs, there is always a program that, when modified by the procedure, does exactly what it did before”, or: “it’s impossible to write a program that changes the extensional behaviour of all programs”.</p>
-    <hr>
-    <h2>Proof of the fixed-point theorem</h2>
-    <p>The proof uses a particular total computable function , defined as follows. Given a natural number , the function outputs the index of the partial computable function that performs the following computation: To complete the proof, let be any total computable function, and construct as above. Let be an index of the composition , which is a total computable function, so is defined. Then by the definition of . But, because is an index of , , and thus . Hence for . This proof is a construction of a partial recursive function that implements the Y combinator .</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="The_Protectors.html">The Protectors</a></li>
-      <li><a href="Symbian_Software.html">Symbian Software</a></li>
-      <li><a href="Kosmos_954.html">Kosmos 954</a></li>
-      <li><a href="Voltage_and_frequency_scaling.html">Voltage and frequency scaling</a></li>
-      <li><a href="Toliara_Province.html">Toliara Province</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Kleene&#x27;s_recursion_theorem">Wikimedia article</a></small></p>
-    <p><i>Last edited: November 21, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Kleene's recursion theorem</h1>
+<p><b>Kleene's recursion theorem</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In computability theory, Kleene's recursion theorems are a pair of fundamental results about the application of computable functions to their own descriptions. The theorems were first proved by Stephen Kleene in 1938 and appear in his 1952 book Introduction to Metamathematics. A related theorem, which constructs fixed points of a computable function, is known as Rogers's theorem and is due to Hartley Rogers, Jr.</p>
+<hr/>
+<h2>Background</h2>
+<p>In computability theory , Kleene's recursion theorems are a pair of fundamental results about the application of computable functions to their own descriptions. The theorems were first proved by Stephen Kleene in 1938 and appear in his 1952 book Introduction to Metamathematics . A related theorem, which constructs fixed points of a computable function, is known as Rogers's theorem and is due to Hartley Rogers, Jr. The recursion theorems can be applied to construct fixed points of certain operations on computable functions , to generate quines , and to construct functions defined via recursive definitions .</p>
+<hr/>
+<h2>Notation</h2>
+<p>The statement of the theorems refers to an admissible numbering of the partial recursive functions , such that the function corresponding to index is . If and are partial functions on the natural numbers, the notation indicates that, for each n , either and are both defined and are equal, or else and are both undefined.</p>
+<hr/>
+<h2>Rogers's fixed-point theorem</h2>
+<p>Given a function on the natural numbers, a fixed point of is an index in the domain of such that . Note that the comparison of in- and outputs here is not in terms of numerical values, but in terms of their associated partial recursive functions. Rogers describes the following result as "a simpler version" of Kleene's (second) recursion theorem. Rogers's fixed-point theorem — If is a total computable function, it has a fixed point in the above sense. This essentially means that if we apply an effective transformation to programs (say, replace instructions such as successor, jump, remove lines), there will always be a program whose behaviour is not altered by the transformation. This theorem can therefore be interpreted in the following manner: “given any effective procedure to transform programs, there is always a program that, when modified by the procedure, does exactly what it did before”, or: “it’s impossible to write a program that changes the extensional behaviour of all programs”.</p>
+<hr/>
+<h2>Proof of the fixed-point theorem</h2>
+<p>The proof uses a particular total computable function , defined as follows. Given a natural number , the function outputs the index of the partial computable function that performs the following computation: To complete the proof, let be any total computable function, and construct as above. Let be an index of the composition , which is a total computable function, so is defined. Then by the definition of . But, because is an index of , , and thus . Hence for . This proof is a construction of a partial recursive function that implements the Y combinator .</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="The_Protectors.html">The Protectors</a></li>
+<li><a href="Symbian_Software.html">Symbian Software</a></li>
+<li><a href="Kosmos_954.html">Kosmos 954</a></li>
+<li><a href="Voltage_and_frequency_scaling.html">Voltage and frequency scaling</a></li>
+<li><a href="Toliara_Province.html">Toliara Province</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Kleene's_recursion_theorem">Wikimedia article</a></small></p>
+<p><i>Last edited: November 21, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

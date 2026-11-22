@@ -1,63 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Word problem for groups - Wiki2</title>
-  <meta name="description" content="In mathematics, especially in the area of abstract algebra known as combinatorial group theory, the word problem for a finitely generated group is the algorithmic problem of deciding whether two words in the generators represent the same el">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Word_problem_for_groups.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="Word problem for groups - Wiki2">
-  <meta property="og:description" content="In mathematics, especially in the area of abstract algebra known as combinatorial group theory, the word problem for a finitely generated group is the algorithmic problem of deciding whether two words in the generators represent the same el">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Word_problem_for_groups.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Word problem for groups - Wiki2">
-  <meta name="twitter:description" content="In mathematics, especially in the area of abstract algebra known as combinatorial group theory, the word problem for a finitely generated group is the algorithmic problem of deciding whether two words in the generators represent the same el">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>Word problem for groups - Wiki2</title>
+<meta content="In mathematics, especially in the area of abstract algebra known as combinatorial group theory, the word problem for a finitely generated group is the algorithmic problem of deciding whether two words in the generators represent the same el" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/Word_problem_for_groups.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="Word problem for groups" property="og:title"/>
+<meta content="Word problem for groups is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/Word_problem_for_groups.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Word problem for groups" name="twitter:title"/>
+<meta content="Word problem for groups is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/512px-Wikipedia-logo-v2.svg.png" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>Word problem for groups</h1>
-    <p><b>Word problem for groups</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>In mathematics, especially in the area of abstract algebra known as combinatorial group theory, the word problem for a finitely generated group is the algorithmic problem of deciding whether two words in the generators represent the same element of. The word problems for certain groups provide well-known examples of undecidable problems.</p>
-
-    <hr>
-    <h2>Background</h2>
-    <p>In mathematics , especially in the area of abstract algebra known as combinatorial group theory , the word problem for a finitely generated group is the algorithmic problem of deciding whether two words in the generators represent the same element of . The word problems for certain groups provide well-known examples of undecidable problems . If is a finite set of generators for , then the word problem is the membership problem for the formal language of all words in and a formal set of inverses that map to the identity under the natural map from the free monoid with involution on to the group . If is another finite generating set for , then the word problem over the generating set is equivalent to the word problem over the generating set . Thus one can speak unambiguously of the decidability of the word problem for the finitely generated group . The related but different uniform word problem for a class of recursively presented groups is the algorithmic problem of deciding, given as input a presentation for a group in the class and two words in the generators of , whether the words represent the same element of . Some authors require the class to be definable by a recursively enumerable set of presentations.</p>
-    <hr>
-    <h2>History</h2>
-    <p>Throughout the history of the subject, computations in groups have been carried out using various normal forms . These usually implicitly solve the word problem for the groups in question. In 1911 Max Dehn proposed that the word problem was an important area of study in its own right, together with the conjugacy problem and the group isomorphism problem . In 1912 he gave an algorithm that solves both the word and conjugacy problem for the fundamental groups of closed orientable two-dimensional manifolds of genus greater than or equal to 2. Subsequent authors have greatly extended Dehn&#x27;s algorithm and applied it to a wide range of group theoretic decision problems . It was shown by Pyotr Novikov in 1955 that there exists a finitely presented group such that the word problem for is undecidable . It follows immediately that the uniform word problem is also undecidable. A different proof was obtained by William Boone in 1958. The word problem was one of the first examples of an unsolvable problem to be found not in mathematical logic or the theory of algorithms , but in one of the central branches of classical mathematics, algebra . As a result of its unsolvability, several other problems in combinatorial group theory have been shown to be unsolvable as well. The word problem is in fact solvable for many groups . For example, polycyclic groups have solvable word problems since the </p>
-    <hr>
-    <h2>A more concrete description</h2>
-    <p>In more concrete terms, the uniform word problem can be expressed as a rewriting question, for literal strings . For a presentation of a group , will specify a certain number of generators for . We need to introduce one letter for and another (for convenience) for the group element represented by . Call these letters (twice as many as the generators) the alphabet for our problem. Then each element in is represented in some way by a product of symbols from , of some length, multiplied in . The string of length 0 ( null string ) stands for the identity element of . The crux of the whole problem is to be able to recognise all the ways can be represented, given some relations. The effect of the relations in is to make various such strings represent the same element of . In fact the relations provide a list of strings that can be either introduced where we want, or cancelled out whenever we see them, without changing the &#x27;value&#x27;, i.e. the group element that is the result of the multiplication. For a simple example, consider the group given by the presentation . Writing for the inverse of , we have possible strings combining any number of the symbols and . Whenever we see , or or we may strike these out. We should also remember to strike out ; this says that since the cube of is the identity element of , so is the cube of the inverse of . Under these conditions the word problem becom</p>
-    <hr>
-    <h2>Examples</h2>
-    <p>The following groups have a solvable word problem: Examples with unsolvable word problems are also known:</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="Mental_Engineering.html">Mental Engineering</a></li>
-      <li><a href="Boston_Spa.html">Boston Spa</a></li>
-      <li><a href="Beseman_Township_Carlton_County_Minnesota.html">Beseman Township, Carlton County, Minnesota</a></li>
-      <li><a href="1987_88_snooker_world_rankings.html">1987–88 snooker world rankings</a></li>
-      <li><a href="Sydney_Ferries.html">Sydney Ferries</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Word_problem_for_groups">Wikimedia article</a></small></p>
-    <p><i>Last edited: November 21, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>Word problem for groups</h1>
+<p><b>Word problem for groups</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>In mathematics, especially in the area of abstract algebra known as combinatorial group theory, the word problem for a finitely generated group is the algorithmic problem of deciding whether two words in the generators represent the same element of. The word problems for certain groups provide well-known examples of undecidable problems.</p>
+<hr/>
+<h2>Background</h2>
+<p>In mathematics , especially in the area of abstract algebra known as combinatorial group theory , the word problem for a finitely generated group is the algorithmic problem of deciding whether two words in the generators represent the same element of . The word problems for certain groups provide well-known examples of undecidable problems . If is a finite set of generators for , then the word problem is the membership problem for the formal language of all words in and a formal set of inverses that map to the identity under the natural map from the free monoid with involution on to the group . If is another finite generating set for , then the word problem over the generating set is equivalent to the word problem over the generating set . Thus one can speak unambiguously of the decidability of the word problem for the finitely generated group . The related but different uniform word problem for a class of recursively presented groups is the algorithmic problem of deciding, given as input a presentation for a group in the class and two words in the generators of , whether the words represent the same element of . Some authors require the class to be definable by a recursively enumerable set of presentations.</p>
+<hr/>
+<h2>History</h2>
+<p>Throughout the history of the subject, computations in groups have been carried out using various normal forms . These usually implicitly solve the word problem for the groups in question. In 1911 Max Dehn proposed that the word problem was an important area of study in its own right, together with the conjugacy problem and the group isomorphism problem . In 1912 he gave an algorithm that solves both the word and conjugacy problem for the fundamental groups of closed orientable two-dimensional manifolds of genus greater than or equal to 2. Subsequent authors have greatly extended Dehn's algorithm and applied it to a wide range of group theoretic decision problems . It was shown by Pyotr Novikov in 1955 that there exists a finitely presented group such that the word problem for is undecidable . It follows immediately that the uniform word problem is also undecidable. A different proof was obtained by William Boone in 1958. The word problem was one of the first examples of an unsolvable problem to be found not in mathematical logic or the theory of algorithms , but in one of the central branches of classical mathematics, algebra . As a result of its unsolvability, several other problems in combinatorial group theory have been shown to be unsolvable as well. The word problem is in fact solvable for many groups . For example, polycyclic groups have solvable word problems since the </p>
+<hr/>
+<h2>A more concrete description</h2>
+<p>In more concrete terms, the uniform word problem can be expressed as a rewriting question, for literal strings . For a presentation of a group , will specify a certain number of generators for . We need to introduce one letter for and another (for convenience) for the group element represented by . Call these letters (twice as many as the generators) the alphabet for our problem. Then each element in is represented in some way by a product of symbols from , of some length, multiplied in . The string of length 0 ( null string ) stands for the identity element of . The crux of the whole problem is to be able to recognise all the ways can be represented, given some relations. The effect of the relations in is to make various such strings represent the same element of . In fact the relations provide a list of strings that can be either introduced where we want, or cancelled out whenever we see them, without changing the 'value', i.e. the group element that is the result of the multiplication. For a simple example, consider the group given by the presentation . Writing for the inverse of , we have possible strings combining any number of the symbols and . Whenever we see , or or we may strike these out. We should also remember to strike out ; this says that since the cube of is the identity element of , so is the cube of the inverse of . Under these conditions the word problem becom</p>
+<hr/>
+<h2>Examples</h2>
+<p>The following groups have a solvable word problem: Examples with unsolvable word problems are also known:</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="Mental_Engineering.html">Mental Engineering</a></li>
+<li><a href="Boston_Spa.html">Boston Spa</a></li>
+<li><a href="Beseman_Township_Carlton_County_Minnesota.html">Beseman Township, Carlton County, Minnesota</a></li>
+<li><a href="1987_88_snooker_world_rankings.html">1987–88 snooker world rankings</a></li>
+<li><a href="Sydney_Ferries.html">Sydney Ferries</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/Word_problem_for_groups">Wikimedia article</a></small></p>
+<p><i>Last edited: November 21, 2026</i></p>
+</div>
 </div>
 </body>
 </html>

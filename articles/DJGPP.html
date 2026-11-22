@@ -1,61 +1,62 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>DJGPP - Wiki2</title>
-  <meta name="description" content="DJGPP is a software development suite for Intel 80386-level and above, IBM PC compatibles which supports DOS operating systems. It is guided by DJ Delorie, who began the project in 1989. It is a port of the GNU Compiler Collection (GCC), an">
-  <link rel="canonical" href="https://recgoblingu-lgtm.github.io/Wiki2/articles/DJGPP.html">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Wiki2">
-  <meta property="og:title" content="DJGPP - Wiki2">
-  <meta property="og:description" content="DJGPP is a software development suite for Intel 80386-level and above, IBM PC compatibles which supports DOS operating systems. It is guided by DJ Delorie, who began the project in 1989. It is a port of the GNU Compiler Collection (GCC), an">
-  <meta property="og:url" content="https://recgoblingu-lgtm.github.io/Wiki2/articles/DJGPP.html">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/a/aa/GCC_DJGPP_Windows.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="DJGPP - Wiki2">
-  <meta name="twitter:description" content="DJGPP is a software development suite for Intel 80386-level and above, IBM PC compatibles which supports DOS operating systems. It is guided by DJ Delorie, who began the project in 1989. It is a port of the GNU Compiler Collection (GCC), an">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/a/aa/GCC_DJGPP_Windows.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original">
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8"/>
+<title>DJGPP - Wiki2</title>
+<meta content="DJGPP is a software development suite for Intel 80386-level and above, IBM PC compatibles which supports DOS operating systems. It is guided by DJ Delorie, who began the project in 1989. It is a port of the GNU Compiler Collection (GCC), an" name="description"/>
+<link href="https://recgoblingu-lgtm.github.io/Wiki2/articles/DJGPP.html" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Wiki2" property="og:site_name"/>
+<meta content="DJGPP" property="og:title"/>
+<meta content="DJGPP is an encyclopedia entry in the Wikimedia discovery collection." property="og:description"/>
+<meta content="https://recgoblingu-lgtm.github.io/Wiki2/articles/DJGPP.html" property="og:url"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/a/aa/GCC_DJGPP_Windows.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="DJGPP" name="twitter:title"/>
+<meta content="DJGPP is an encyclopedia entry in the Wikimedia discovery collection." name="twitter:description"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/a/aa/GCC_DJGPP_Windows.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" name="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
-  <div class="sidebar">
-    <h2>Wiki2</h2>
-    <a href="../index.html">Main Page</a>
-    <a href="../article.html">Random Page</a>
-    <a href="../index.html#categories">Categories</a>
-    <hr>
-    <h3>WikiTube</h3>
-    <a href="../wiki2ube/">Video Index</a>
-  </div>
-  <div class="content">
-    <h1>DJGPP</h1>
-    <p><b>DJGPP</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
-    <p>DJGPP is a software development suite for Intel 80386-level and above, IBM PC compatibles which supports DOS operating systems. It is guided by DJ Delorie, who began the project in 1989. It is a port of the GNU Compiler Collection (GCC), and mostly GNU utilities such as Bash, find, tar, ls, GAWK, sed, and ld to DOS Protected Mode Interface (DPMI). Supported languages include C, C++, Objective-C/C++, Ada, Fortran, and Pascal. It was originally called DJGCC, and was later renamed from DJGCC to DJGPP when C++ support was added, though the &quot;PP&quot; was said to stand for &quot;Programming Platform&quot; rather than &quot;Plus Plus&quot;.</p>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/GCC_DJGPP_Windows.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original" alt="DJGPP"><figcaption>Related Wikimedia image</figcaption></figure>
-    <figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/GCC_DJGPP_Windows.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled" alt="GCC DJGPP Windows.png"><figcaption>Related Wikimedia image</figcaption></figure>
-    <hr>
-    <h2>Background</h2>
-    <p>DJGPP (formerly DJGCC, or DJ&#x27;s Gnu C-Compiler) is a software development suite for Intel 80386 -level and above, IBM PC compatibles which supports DOS operating systems. It is guided by DJ Delorie, who began the project in 1989. It is a port of the GNU Compiler Collection (GCC), and mostly GNU utilities such as Bash , find , tar , ls , G AWK , sed , and ld to DOS Protected Mode Interface (DPMI). Supported languages include C , C++ , Objective-C /C++, Ada , Fortran , and Pascal . It was originally called DJGCC , and was later renamed from DJGCC to DJGPP when C++ support was added, though the &quot;PP&quot; was said to stand for &quot;Programming Platform&quot; rather than &quot;Plus Plus&quot;.</p>
-    <hr>
-    <h2>Overview</h2>
-    <p>The compiler generates 32-bit code, which runs natively in 32-bit protected mode while switching back to 16-bit DOS calls for basic OS support. However, unlike the Open Watcom C/C++ compiler , it is not a zero-based flat model due to preferring NULL pointer protection for better stability. It is currently based upon a variant of the COFF format. It can access up to 4 GB of RAM in pure DOS when using a suitable DPMI host (e.g., CWSDPMI r7 or HDPMI32). As of April 2025, main components of DJGPP 2 include: It is also possible to use DJGPP to cross-compile software to DOS, for example on UNIX / Linux. Both the DJGPP libraries and the programs can be compiled this way, linked and then deployed to machines with DOS or DOS emulators.</p>
-    <hr>
-    <h2>Compatibility</h2>
-    <p>DJGPP presents the programmer an interface which is compatible with the ANSI C and C99 standards, DOS APIs, and an older POSIX -like environment. Compiled binaries are long filename (LFN) aware and can handle such names under most 32-bit Windows by default, but they cannot use the Win16 or Win32 APIs that graphical programs on Windows need. terminate-and-stay-resident (TSR) programs to support LFNs under plain DOS or Windows NT 4 are available. While DJGPP runs in 32-bit protected mode , its stub and library heavily rely on many 16-bit DOS and BIOS calls. Because the x86-64 versions of Windows lack support for 16-bit programs, there is no NTVDM , and DJGPP applications cannot be run. Under x86-64 systems these applications function only through emulation (e.g. DOSBox ), x86 virtualization (e.g. VirtualBox ), or similar (e.g. Linux&#x27;s DOSEMU ). This problem arises because in long mode x86-64 processors do not support the virtual 8086 mode used to run 16-bit code in IA-32 processors. Newer x86 CPUs with VT-x do support paged real mode and unrestricted guest mode execution.</p>
-    <hr>
-    <h2>See also</h2>
-    <ul>
-      <li><a href="USS_Benjamin_Franklin.html">USS Benjamin Franklin</a></li>
-      <li><a href="Black_and_Gold_book.html">Black and Gold (book)</a></li>
-      <li><a href="Art_department.html">Art department</a></li>
-      <li><a href="Lodewijk_Elzevir.html">Lodewijk Elzevir</a></li>
-      <li><a href="MM5_weather_model.html">MM5 (weather model)</a></li>
-    </ul>
-    <hr>
-    <p><small>Source reference: <a href="https://en.wikipedia.org/wiki/DJGPP">Wikimedia article</a></small></p>
-    <p><i>Last edited: November 21, 2026</i></p>
-  </div>
+<div class="sidebar">
+<h2>Wiki2</h2>
+<a href="../index.html">Main Page</a>
+<a href="../article.html">Random Page</a>
+<a href="../index.html#categories">Categories</a>
+<hr/>
+<h3>WikiTube</h3>
+<a href="../wiki2ube/">Video Index</a>
+</div>
+<div class="content">
+<h1>DJGPP</h1>
+<p><b>DJGPP</b> is an encyclopedia entry in the <b>Wikimedia discovery</b> collection.</p>
+<p>DJGPP is a software development suite for Intel 80386-level and above, IBM PC compatibles which supports DOS operating systems. It is guided by DJ Delorie, who began the project in 1989. It is a port of the GNU Compiler Collection (GCC), and mostly GNU utilities such as Bash, find, tar, ls, GAWK, sed, and ld to DOS Protected Mode Interface (DPMI). Supported languages include C, C++, Objective-C/C++, Ada, Fortran, and Pascal. It was originally called DJGCC, and was later renamed from DJGCC to DJGPP when C++ support was added, though the "PP" was said to stand for "Programming Platform" rather than "Plus Plus".</p>
+<figure class="article-image"><img alt="DJGPP" src="https://upload.wikimedia.org/wikipedia/commons/a/aa/GCC_DJGPP_Windows.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=original"/><figcaption>Related Wikimedia image</figcaption></figure>
+<figure class="article-image"><img alt="GCC DJGPP Windows.png" src="https://upload.wikimedia.org/wikipedia/commons/a/aa/GCC_DJGPP_Windows.png?utm_source=en.wikipedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled"/><figcaption>Related Wikimedia image</figcaption></figure>
+<hr/>
+<h2>Background</h2>
+<p>DJGPP (formerly DJGCC, or DJ's Gnu C-Compiler) is a software development suite for Intel 80386 -level and above, IBM PC compatibles which supports DOS operating systems. It is guided by DJ Delorie, who began the project in 1989. It is a port of the GNU Compiler Collection (GCC), and mostly GNU utilities such as Bash , find , tar , ls , G AWK , sed , and ld to DOS Protected Mode Interface (DPMI). Supported languages include C , C++ , Objective-C /C++, Ada , Fortran , and Pascal . It was originally called DJGCC , and was later renamed from DJGCC to DJGPP when C++ support was added, though the "PP" was said to stand for "Programming Platform" rather than "Plus Plus".</p>
+<hr/>
+<h2>Overview</h2>
+<p>The compiler generates 32-bit code, which runs natively in 32-bit protected mode while switching back to 16-bit DOS calls for basic OS support. However, unlike the Open Watcom C/C++ compiler , it is not a zero-based flat model due to preferring NULL pointer protection for better stability. It is currently based upon a variant of the COFF format. It can access up to 4 GB of RAM in pure DOS when using a suitable DPMI host (e.g., CWSDPMI r7 or HDPMI32). As of April 2025, main components of DJGPP 2 include: It is also possible to use DJGPP to cross-compile software to DOS, for example on UNIX / Linux. Both the DJGPP libraries and the programs can be compiled this way, linked and then deployed to machines with DOS or DOS emulators.</p>
+<hr/>
+<h2>Compatibility</h2>
+<p>DJGPP presents the programmer an interface which is compatible with the ANSI C and C99 standards, DOS APIs, and an older POSIX -like environment. Compiled binaries are long filename (LFN) aware and can handle such names under most 32-bit Windows by default, but they cannot use the Win16 or Win32 APIs that graphical programs on Windows need. terminate-and-stay-resident (TSR) programs to support LFNs under plain DOS or Windows NT 4 are available. While DJGPP runs in 32-bit protected mode , its stub and library heavily rely on many 16-bit DOS and BIOS calls. Because the x86-64 versions of Windows lack support for 16-bit programs, there is no NTVDM , and DJGPP applications cannot be run. Under x86-64 systems these applications function only through emulation (e.g. DOSBox ), x86 virtualization (e.g. VirtualBox ), or similar (e.g. Linux's DOSEMU ). This problem arises because in long mode x86-64 processors do not support the virtual 8086 mode used to run 16-bit code in IA-32 processors. Newer x86 CPUs with VT-x do support paged real mode and unrestricted guest mode execution.</p>
+<hr/>
+<h2>See also</h2>
+<ul>
+<li><a href="USS_Benjamin_Franklin.html">USS Benjamin Franklin</a></li>
+<li><a href="Black_and_Gold_book.html">Black and Gold (book)</a></li>
+<li><a href="Art_department.html">Art department</a></li>
+<li><a href="Lodewijk_Elzevir.html">Lodewijk Elzevir</a></li>
+<li><a href="MM5_weather_model.html">MM5 (weather model)</a></li>
+</ul>
+<hr/>
+<p><small>Source reference: <a href="https://en.wikipedia.org/wiki/DJGPP">Wikimedia article</a></small></p>
+<p><i>Last edited: November 21, 2026</i></p>
+</div>
 </div>
 </body>
 </html>
