@@ -198515,12 +198515,28 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/BMC_A-series_engine",
       "generated_at": "2026-11-24T05:36:17+00:00"
+    },
+    {
+      "title": "DreadOut 2",
+      "filename": "DreadOut_2.html",
+      "category": "Indie games",
+      "source": "https://en.wikipedia.org/wiki/DreadOut_2",
+      "generated_at": "2026-11-25T19:25:48+00:00"
+    },
+    {
+      "title": "Under the Banner of Heaven",
+      "filename": "Under_the_Banner_of_Heaven.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Under_the_Banner_of_Heaven",
+      "generated_at": "2026-11-25T19:26:33+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Arcade video games": "page|563a403004365244422a44010f01e0c2dc09|1089349",
-    "Category:Indie games": "page|3032484c324e4e3a4644044a52324e50011401dcbcdc08|43600438",
+    "Category:Indie games": "page|344c325004443a2e32010d01dcc2dc07|40826320",
+    "Category:Video game franchises": "page|34050e0f0304364c2a443004484c3a58040992543a30324604362a4232044e324c3a324e099401250501dcc3dcc1dc1b|27378181",
+    "Category:Horror video games": "page|4246444e50324c043846524e32040992543a30324604362a42320994011e01dcbfdc15|6787239",
     "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
+    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
+    "Category:Arcade video games": "page|2a4c422a303a404046044c2a2e3a4436011401dcbddc09|84096715"
   }
 }
