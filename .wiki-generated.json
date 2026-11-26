@@ -198529,14 +198529,21 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Under_the_Banner_of_Heaven",
       "generated_at": "2026-11-25T19:26:33+00:00"
+    },
+    {
+      "title": "Wichita language",
+      "filename": "Wichita_language.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Wichita_language",
+      "generated_at": "2026-11-26T02:20:35+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|344c325004443a2e32010d01dcc2dc07|40826320",
-    "Category:Video game franchises": "page|34050e0f0304364c2a443004484c3a58040992543a30324604362a4232044e324c3a324e099401250501dcc3dcc1dc1b|27378181",
-    "Category:Horror video games": "page|4246444e50324c043846524e32040992543a30324604362a42320994011e01dcbfdc15|6787239",
+    "Category:Indie games": "page|364c3a4242096e4e04384640404656011201dcbfdc09|63803133",
+    "Category:Video game franchises": "page|3a2e32563a443004302a40320409924e324c3a324e0994011901dcbfdc10|3440294",
+    "Category:Arcade video games": "page|2e2a403a34464c443a2a044e48323230040992543a30324604362a42320994012101dcbcdc15|6200156",
+    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474",
     "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046",
-    "Category:Arcade video games": "page|2a4c422a303a404046044c2a2e3a4436011401dcbddc09|84096715"
+    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
   }
 }
