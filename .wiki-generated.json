@@ -198536,14 +198536,40 @@
       "category": "Wikimedia discovery",
       "source": "https://en.wikipedia.org/wiki/Wichita_language",
       "generated_at": "2026-11-26T02:20:35+00:00"
+    },
+    {
+      "title": "COMX-35",
+      "filename": "COMX_35.html",
+      "category": "Platforms",
+      "source": "https://en.wikipedia.org/wiki/COMX-35",
+      "generated_at": "2026-11-27T02:47:21+00:00"
+    },
+    {
+      "title": "The Good, the Bad and the Ugly",
+      "filename": "The_Good_the_Bad_and_the_Ugly.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/The_Good%2C_the_Bad_and_the_Ugly",
+      "generated_at": "2026-11-27T02:48:05+00:00"
+    },
+    {
+      "title": "Muttukumara Kavirajar",
+      "filename": "Muttukumara_Kavirajar.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Muttukumara_Kavirajar",
+      "generated_at": "2026-11-27T02:48:27+00:00"
+    },
+    {
+      "title": "Dirt Dash",
+      "filename": "Dirt_Dash.html",
+      "category": "Classic games",
+      "source": "https://en.wikipedia.org/wiki/Dirt_Dash",
+      "generated_at": "2026-11-27T02:48:34+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|364c3a4242096e4e04384640404656011201dcbfdc09|63803133",
-    "Category:Video game franchises": "page|3a2e32563a443004302a40320409924e324c3a324e0994011901dcbfdc10|3440294",
-    "Category:Arcade video games": "page|2e2a403a34464c443a2a044e48323230040992543a30324604362a42320994012101dcbcdc15|6200156",
-    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
+    "Category:Indie games": "page|402a4e500434402a36010d01dcc2dc07|82537451",
+    "Category:Video game franchises": "page|4e4832404034464c2e32010e01dcc2dc08|46894073",
+    "Category:Arcade video games": "page|36324448323a045046422a04303244030636324448323a045046422a04303244012da40a01dcc0dcc2dcc3dcc0dcc1dc06|3738702",
+    "Category:Horror video games": "page|4246444e50324c043846524e32040992543a30324604362a42320994011e01dcbfdc15|6787239"
   }
 }
