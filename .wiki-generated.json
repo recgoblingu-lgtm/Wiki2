@@ -198578,12 +198578,20 @@
       "category": "Game franchises",
       "source": "https://en.wikipedia.org/wiki/Mega_Man_Star_Force_Legacy_Collection",
       "generated_at": "2026-11-27T20:10:35+00:00"
+    },
+    {
+      "title": "Goulburn Airport",
+      "filename": "Goulburn_Airport.html",
+      "category": "Wikimedia discovery",
+      "source": "https://en.wikipedia.org/wiki/Goulburn_Airport",
+      "generated_at": "2026-11-28T02:40:44+00:00"
     }
   ],
   "category_cursors": {
-    "Category:Indie games": "page|422a3632042a4c32442a010e01dcc2dc08|80597081",
-    "Category:Arcade video games": "page|383a423a504e52044446042a3a484c3a011401dcbcdcc5dc06|76155525",
-    "Category:Video game engines": "page|4a34524e3a4644010b01dc0a|6864640",
-    "Category:Esports games": "page|482a3a443e3a4040324c040992543a30324604362a42320994011b01dc1a|779046"
+    "Category:Indie games": "page|443a443204504604343a5432040992543a30324604362a42320994011d01dcbfdc14|72046310",
+    "Category:Arcade video games": "page|3e3a4040324c044046464803063e3a4040324c0440464648011b01dcc0dcc2dcc0dc07|24067039",
+    "Category:Horror video games": "page|4246444e50324c043846524e32040992543a30324604362a42320994011e01dcbfdc15|6787239",
+    "Category:Video game franchises": "page|34050e0f0304364c2a443004484c3a58040992543a30324604362a4232044e324c3a324e099401250501dcc3dcc1dc1b|27378181",
+    "Category:Mobile games": "page|4e5236463a0438322c324c323e32011201dcc1dc0b|35493474"
   }
 }
